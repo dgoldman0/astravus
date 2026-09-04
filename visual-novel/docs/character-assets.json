@@ -1,0 +1,705 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-04",
+  "generator": "OpenAI built-in image_gen",
+  "assets": [
+    {
+      "file": "game/images/characters/book-one/arin-everyday.png",
+      "generation": "arin-everyday-key-v1",
+      "image": "arin everyday",
+      "sha256": "5f0e5a1c6a31cd742ebd615284a3d4860217a30d576f6edc79ca00c26b286b7e",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        23,
+        239,
+        20
+      ],
+      "draw_height": 835
+    },
+    {
+      "file": "game/images/characters/book-one/calista-festival.png",
+      "generation": "calista-festival-key-v1",
+      "image": "calista festival",
+      "sha256": "e423471d5d5cb6aa05781a611f4d31e372133f8d4b76a9456b59dfbe5e5deec5",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        32,
+        232,
+        20
+      ],
+      "draw_height": 730
+    },
+    {
+      "file": "game/images/characters/book-one/calista-frustrated.png",
+      "generation": "calista-frustrated-key-v1",
+      "image": "calista frustrated",
+      "sha256": "c294370e2f4fa63e22d772cd68c60f99c3c61477077e58029a88ca1f6c7c420d",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        18,
+        239,
+        17
+      ],
+      "draw_height": 810
+    },
+    {
+      "file": "game/images/characters/book-one/calista-home.png",
+      "generation": "calista-home-key-v1",
+      "image": "calista home",
+      "sha256": "e932bd07b1487f2471bc21250a7517af71d2a84a00517a196f662ef0c647295a",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        27,
+        239,
+        22
+      ],
+      "draw_height": 730
+    },
+    {
+      "file": "game/images/characters/book-one/calista-mourning.png",
+      "generation": "calista-mourning-key-v1",
+      "image": "calista mourning",
+      "sha256": "0075c2688598b716a97d7f720e61452a8a6a0ebe3198c2b1cb8a45f3d3da0df8",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        18,
+        239,
+        20
+      ],
+      "draw_height": 810
+    },
+    {
+      "file": "game/images/characters/book-one/calista-older.png",
+      "generation": "calista-older-key-v1",
+      "image": "calista older",
+      "sha256": "d36489fd12db1fd3f2d360afa83d675e2af5bcb563e942775ad196f5f11f70b3",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        31,
+        238,
+        22
+      ],
+      "draw_height": 810
+    },
+    {
+      "file": "game/images/characters/book-one/calista-painting.png",
+      "generation": "calista-painting-key-v1",
+      "image": "calista painting",
+      "sha256": "ca499733b762cd9a2cc9e66f8ec82ddf67a3c1f639db93ab7465fc858f8aaf0e",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        18,
+        239,
+        16
+      ],
+      "draw_height": 810
+    },
+    {
+      "file": "game/images/characters/book-one/calista-young.png",
+      "generation": "calista-young-key-v1",
+      "image": "calista young",
+      "sha256": "aa34221f459a1729fd2aefece28fbdd38a350b1ed4a6189848e596a7c4899f04",
+      "size": [
+        1021,
+        1540
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        19,
+        239,
+        21
+      ],
+      "draw_height": 730
+    },
+    {
+      "file": "game/images/characters/book-one/cassia-mourning.png",
+      "generation": "cassia-mourning-key-v1",
+      "image": "cassia mourning",
+      "sha256": "36526f14cf88644d3e64d0a8739d96256f32ef7e69a2ed938ae11418b14984fc",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        32,
+        231,
+        21
+      ],
+      "draw_height": 820
+    },
+    {
+      "file": "game/images/characters/book-one/cassia-older.png",
+      "generation": "cassia-older-key-v1",
+      "image": "cassia older",
+      "sha256": "f2f2312ee4d9c926493dd3c32437dc0ac09999b2e995472240703080ff9d8ec3",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        22,
+        238,
+        29
+      ],
+      "draw_height": 820
+    },
+    {
+      "file": "game/images/characters/book-one/cassia-young.png",
+      "generation": "cassia-young-key-v1",
+      "image": "cassia young",
+      "sha256": "22b59f9f9f2376ac32e2e96e5606af9389f517b594de73ab8d1cad203cfcff00",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        33,
+        227,
+        23
+      ],
+      "draw_height": 740
+    },
+    {
+      "file": "game/images/characters/book-one/dorian-everyday.png",
+      "generation": "dorian-everyday-key-v1",
+      "image": "dorian everyday",
+      "sha256": "100a3c36ae18a31572741a6ab66beee190dc19c58054dd5af557b3eee553664a",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        35,
+        232,
+        21
+      ],
+      "draw_height": 885
+    },
+    {
+      "file": "game/images/characters/book-one/joren-frustrated.png",
+      "generation": "joren-frustrated-key-v1",
+      "image": "joren frustrated",
+      "sha256": "1ef2db5eb4b132947fb39ac4757ca54b37bd3faefa24be71d785faf24117f004",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        22,
+        238,
+        22
+      ],
+      "draw_height": 835
+    },
+    {
+      "file": "game/images/characters/book-one/joren-older.png",
+      "generation": "joren-older-key-v1",
+      "image": "joren older",
+      "sha256": "853411333d8c9cc40fae87b3a4089ae551eaae7250319195b1f5e14dc048a8b0",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        37,
+        239,
+        35
+      ],
+      "draw_height": 835
+    },
+    {
+      "file": "game/images/characters/book-one/joren-young.png",
+      "generation": "joren-young-key-v1",
+      "image": "joren young",
+      "sha256": "e7fdfcb40ec82c98d46f6343ea458ba83b54cea2c7cb37bcc34c21d009286ce2",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        29,
+        227,
+        24
+      ],
+      "draw_height": 770
+    },
+    {
+      "file": "game/images/characters/book-one/kael-young.png",
+      "generation": "kael-young-key-v1",
+      "image": "kael young",
+      "sha256": "86f1acb57974e793a366ad693f0be9fd8b9d55e454794eaab401b04c7bc13651",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        23,
+        238,
+        16
+      ],
+      "draw_height": 810
+    },
+    {
+      "file": "game/images/characters/book-one/lyra-young.png",
+      "generation": "lyra-young-key-v1",
+      "image": "lyra young",
+      "sha256": "7671dd825364831392dad574e2eccad9f73bf538360f75f3fd26b8da6af7cd92",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        26,
+        232,
+        20
+      ],
+      "draw_height": 655
+    },
+    {
+      "file": "game/images/characters/book-one/maia-home.png",
+      "generation": "maia-home-key-v1",
+      "image": "maia home",
+      "sha256": "5af5fc0864752f96d60c8eb8f0fafaf05124edfa2205f7da8c72c70b49d681b2",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        31,
+        237,
+        27
+      ],
+      "draw_height": 850
+    },
+    {
+      "file": "game/images/characters/book-one/sage-everyday.png",
+      "generation": "sage-everyday-key-v1",
+      "image": "sage everyday",
+      "sha256": "c2065df8ea3d578ac691392c7e3ecdae34ec2344fac05cc31cc5ce9739180f32",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        36,
+        230,
+        24
+      ],
+      "draw_height": 835
+    },
+    {
+      "file": "game/images/characters/book-one/selene-everyday.png",
+      "generation": "selene-everyday-key-v1",
+      "image": "selene everyday",
+      "sha256": "4b18d24c659a09bcbd83f1b9e01b2fbc6bfe40578e14ee16c69a5cc455e8beb2",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        24,
+        240,
+        30
+      ],
+      "draw_height": 810
+    }
+  ],
+  "generations": [
+    {
+      "id": "calista-home-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, one person only, head and both boots fully inside frame, upright at a gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, expressive but believable eyes, soft fabric grain and warm brown/teal palette. Soft even warm studio light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject, clean silhouette including fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, text or watermark. Keep full figure comfortably inside a portrait 2:3 canvas. Preserve Cali's recognizable face and identity: light OLIVE skin, many small freckles across nose and cheeks, DEEP BLUE eyes (not green), rich chestnut-brown wavy hair and gentle contemplative attention. Clothing fully covers torso and legs; child, no adult body shape, makeup or sexualized posing. Edit reference Cali at exactly the SAME YOUNG CHILD age and proportions. Change her clothes to a soft dusty teal long-sleeve tunic with loose cuffs, ochre cloth sash, cinnamon-brown practical trousers and simple worn brown ankle boots. Change hairstyle to loose waves with one small side braid tied back; no bun or olive overalls. Arms comfortably at sides, left hand lightly touching her opposite cuff; no held sketchbook. Face attentive and relaxed, a small closed-mouth smile. This is everyday home clothing; preserve child's familiar face.",
+      "selected": false,
+      "references": [
+        "generation:calista-v2"
+      ],
+      "output_id": "exec-f4a28386-39ba-4b91-a793-df56c65211fa.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "calista-festival-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, one person only, head and both boots fully inside frame, upright at a gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, expressive but believable eyes, soft fabric grain and warm brown/teal palette. Soft even warm studio light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject, clean silhouette including fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, text or watermark. Keep full figure comfortably inside a portrait 2:3 canvas. Preserve Cali's recognizable face and identity: light OLIVE skin, many small freckles across nose and cheeks, DEEP BLUE eyes (not green), rich chestnut-brown wavy hair and gentle contemplative attention. Clothing fully covers torso and legs; child, no adult body shape, makeup or sexualized posing. Edit reference Cali at exactly the SAME YOUNG CHILD age and proportions. Outfit is a festive midnight-blue knee-length tunic embroidered with tiny warm-gold leaves, muted plum leggings, brown short boots and a narrow golden fabric belt. Hair loose with a little gold leaf-shaped clip at one temple, no flower crown. Hands gently cup one small handmade warm amber lantern at waist height; lantern is part of sprite, low light only on fingertips not a glow background. Face quiet delighted wonder, looking slightly above camera, lips slightly parted. Maintain child face not teen.",
+      "selected": false,
+      "references": [
+        "generation:calista-v2"
+      ],
+      "output_id": "exec-58e78458-486a-4613-8c9f-74b83bf9b194.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "calista-older-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, one person only, head and both boots fully inside frame, upright at a gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, expressive but believable eyes, soft fabric grain and warm brown/teal palette. Soft even warm studio light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject, clean silhouette including fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, text or watermark. Keep full figure comfortably inside a portrait 2:3 canvas. Preserve Cali's recognizable face and identity: light OLIVE skin, many small freckles across nose and cheeks, DEEP BLUE eyes (not green), rich chestnut-brown wavy hair and gentle contemplative attention. Clothing fully covers torso and legs; child, no adult body shape, makeup or sexualized posing. Age reference Cali forward from young childhood into clearly LATER CHILDHOOD, before late teens: taller and longer-limbed, smaller head relative to body, face a little less round and less toddler-like, same distinctive facial identity and no adult curves. Hair loose chestnut waves half tied with a teal cord. Outfit a faded ochre collarless work shirt, dark moss sleeveless open utility vest, indigo trousers with patched knees, worn brown lace-up boots. No bib overalls. Hold a small closed brown sketchbook at side, other hand relaxed. Calm curious look, slight friendly smile suitable for collaborative projects, no huge grin. Second reference is identity/art style board only, not a collage output.",
+      "selected": false,
+      "references": [
+        "generation:calista-v2",
+        "revision/Calista.png"
+      ],
+      "output_id": "exec-b3b65f39-587a-49ff-9e71-cdb7c4243081.png",
+      "note": "Superseded after the first candidate did not visibly distinguish the later childhood stage strongly enough."
+    },
+    {
+      "id": "cassia-older-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, one person only, head and both boots fully inside frame, upright at a gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, expressive but believable eyes, soft fabric grain and warm brown/teal palette. Soft even warm studio light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject, clean silhouette including fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, text or watermark. Keep full figure comfortably inside a portrait 2:3 canvas. Edit reference Cassia aged forward into visibly LATER CHILDHOOD, before late teens: taller, longer limbs, smaller head relative to body, slightly longer less baby-round face, same recognizable deep green eyes, RICH UMBER skin, long abundant wavy chestnut hair. No adult curves, makeup or adult glamour. Small crescent-shaped birthmark on left wrist. Outfit muted mulberry blouse, short moss-green open vest with simple woven trim, loose dark amber trousers, scuffed brown boots; mustard ribbon tying hair at nape instead of large headband/scarf. Hold a slim handmade notebook closed under one arm; other hand loosely offering a thought. Thoughtful lively expression and subtle closed-mouth smile, not a huge grin. Preserve identity and skin depth.",
+      "selected": false,
+      "references": [
+        "generation:cassia-v2"
+      ],
+      "output_id": "exec-ccb302ec-a571-4783-9f42-c788be1dda2a.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "joren-older-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, one person only, head and both boots fully inside frame, upright at a gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, expressive but believable eyes, soft fabric grain and warm brown/teal palette. Soft even warm studio light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject, clean silhouette including fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, text or watermark. Keep full figure comfortably inside a portrait 2:3 canvas. Edit reference Joren aged forward into visibly LATER CHILDHOOD, before late teens: taller, longer limbs, smaller head relative to body, face slightly less round, same FAIR RUDDY skin, bright blue eyes, messy golden blond hair and boyish energy. Young boy with no adult muscles or facial hair. Change outfit to weathered slate-teal open overshirt with rolled sleeves over muted rust henley, practical dark brown long trousers with knee patches, worn brown boots. Slim tan canvas crossbody satchel. Holds a small closed brass-toned portable scanner at hip, not weapon. Easy eager confident expression, small natural open smile with subtle gap between front teeth, not fixed huge grin. Preserve face identity, warm painterly craft, no injuries needed.",
+      "selected": false,
+      "references": [
+        "generation:joren-v2"
+      ],
+      "output_id": "exec-2a68d133-a271-4a37-aaf1-26f7ef5c95d2.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "kael-young-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, one person only, head and both boots fully inside frame, upright at a gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, expressive but believable eyes, soft fabric grain and warm brown/teal palette. Soft even warm studio light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject, clean silhouette including fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, text or watermark. Keep full figure comfortably inside a portrait 2:3 canvas. Generate a new family member using first image for child sprite style and second for family palette: KAEL, Cali's OLDER BROTHER, an older child with sturdy athletic shoulders but unmistakably still a boy, not an adult. Canon features: DEEP WARM BROWN skin, short sides and tousled longer dark hair falling on forehead, bright gold-hazel eyes, a single left-cheek dimple in his asymmetrical grin. No beard. Clothing: earth-red soft overshirt rolled sleeves, muted taupe collarless undershirt, moss-brown practical trousers, scuffed brown walking boots. Cloth pouch at belt contains a couple small collected stones, one round stone held loosely at side. Upright, ready for adventure, friendly energetic expression. Do not copy Cali's hair, freckles or olive skin. Do not add parents, baby, animals or background. A distinct sibling, not a duplicate of another character.",
+      "selected": false,
+      "references": [
+        "generation:calista-v2",
+        "visual-novel/game/images/cg/first-memory-young.png"
+      ],
+      "output_id": "exec-cdddd84b-799f-44e5-a19d-c2749fd640d3.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "lyra-young-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, one person only, head and both boots fully inside frame, upright at a gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, expressive but believable eyes, soft fabric grain and warm brown/teal palette. Soft even warm studio light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject, clean silhouette including fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, text or watermark. Keep full figure comfortably inside a portrait 2:3 canvas. Generate a new family member using first image for child sprite style and second for family palette: LYRA, Cali's visibly YOUNGER sister, a small sprightly child with GOLDEN TAN skin with warm olive undertones, numerous golden freckles, unruly golden-blonde curls partly restrained by two little rust-colored clips, wide EMERALD GREEN curious eyes, button nose, small front-tooth gap, subtly pointed ears (natural human genetic quirk not exaggerated fantasy elf). Childlike proportions, age clearly younger than reference Cali. Clothing: soft russet long-sleeved tunic, sage-green loose dungaree trousers, little sturdy brown boots. Hands together protectively holding a small feather, looking curiously toward interlocutor. Natural eager but calm expression, slightly parted lips, no constant huge grin. No animal on shoulder, no adult glamour, no grown-up physique. Distinct sibling, not copied Cali.",
+      "selected": false,
+      "references": [
+        "generation:calista-v2",
+        "visual-novel/game/images/cg/first-memory-young.png"
+      ],
+      "output_id": "exec-efc3402d-13c0-4df9-8524-1d1a7de562c6.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "arin-everyday-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, ONE adult person only, head and both feet fully inside frame, upright gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, beautiful natural facial anatomy, soft fabric grain, warm brown/teal palette. Soft diffuse even warm light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject and fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, lettering or watermark. Portrait 2:3 canvas with comfortable padding all sides. A parent during Cali's childhood, only modest aging since baby's First Breath in reference, not their much later elderly biography version. No other figures. Image one is identity reference: select ARIN, the androgynous pale freckled short auburn-haired adult on the FAR LEFT of the group. Keep their exact facial structure, intense BLUE eyes and short auburn hair, lean physique and strong forearms. Image two is fullbody illustration/lighting style only, do not copy Maia. Outfit: charcoal-blue roll-sleeved work shirt, well-used russet waist-length tool apron, dark olive practical trousers and leather work shoes. A small grease smudge on forearm, few small scars, but hands are relaxed and no displayed missing finger: injury's chronology is unspecified. Tools remain tucked in apron, no weapon. Face calmly focused, slightly lifted inquisitive eyebrow, closed mouth not grin; one hand resting on apron edge, one relaxed at side. Do not feminize or masculinize beyond reference; confident androgynous adult.",
+      "selected": false,
+      "references": [
+        "visual-novel/game/images/cg/first-memory-young.png",
+        "visual-novel/game/images/characters/maia.png"
+      ],
+      "output_id": "exec-df3f5cfd-eae9-41fc-9367-95e12354a74d.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "selene-everyday-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, ONE adult person only, head and both feet fully inside frame, upright gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, beautiful natural facial anatomy, soft fabric grain, warm brown/teal palette. Soft diffuse even warm light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject and fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, lettering or watermark. Portrait 2:3 canvas with comfortable padding all sides. A parent during Cali's childhood, only modest aging since baby's First Breath in reference, not their much later elderly biography version. No other figures. Image one is identity reference: select SELENE, the petite adult behind left-center with PURE WHITE hair and DEEP BRONZE SKIN. Her white hair is genetic, not an indication of old age: keep smooth warm bronze face, high cheekbones, narrow refined face, VIOLET eyes, flowing pure white hair loosely tied at nape with a mulberry ribbon. Image two for painted sprite finish only; don't copy Maia. Outfit a flowing dusty-plum long tunic with muted brass woven trim, deep teal loose trousers, simple brown soft shoes. Very long graceful pianist fingers; hands relaxed together at waist with no instrument, usable for listening/speaking scenes. Attentive serene expression, subtle closed-mouth warmth, no big smile. Do not lighten her skin or make her elderly.",
+      "selected": false,
+      "references": [
+        "visual-novel/game/images/cg/first-memory-young.png",
+        "visual-novel/game/images/characters/maia.png"
+      ],
+      "output_id": "exec-badcf9eb-53a0-4bf7-a3ff-caf8620aee43.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "dorian-everyday-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, ONE adult person only, head and both feet fully inside frame, upright gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, beautiful natural facial anatomy, soft fabric grain, warm brown/teal palette. Soft diffuse even warm light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject and fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, lettering or watermark. Portrait 2:3 canvas with comfortable padding all sides. A parent during Cali's childhood, only modest aging since baby's First Breath in reference, not their much later elderly biography version. No other figures. Image one is identity reference: select DORIAN, adult near upper-right behind Maia, broad shouldered with RICH DARK BROWN skin, wide nose, deep-set BROWN eyes, modest round dark-framed glasses, closely trimmed black curls and close dark beard. Preserve recognizable face. Add a few subtle silver strands at temples/beard for childhood-story period, not predominantly silver and not deeply wrinkled. Image two for painted sprite finish only. Outfit muted ochre collarless shirt under a soft deep-teal long vest, dark brown trousers and comfortable brown shoes. Holds a closed plain notebook loosely in LEFT hand by thigh, right hand relaxed and open as if telling a story. Gentle thoughtful, slightly serious expression rather than grin. Full height, broad capable shoulders, only slight relaxed stoop, not frail.",
+      "selected": false,
+      "references": [
+        "visual-novel/game/images/cg/first-memory-young.png",
+        "visual-novel/game/images/characters/maia.png"
+      ],
+      "output_id": "exec-0c7e19e0-0398-49b4-9419-66665f3077e7.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "sage-everyday-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, ONE adult person only, head and both feet fully inside frame, upright gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, beautiful natural facial anatomy, soft fabric grain, warm brown/teal palette. Soft diffuse even warm light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject and fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, lettering or watermark. Portrait 2:3 canvas with comfortable padding all sides. A parent during Cali's childhood, only modest aging since baby's First Breath in reference, not their much later elderly biography version. No other figures. Image one is identity reference: select SAGE, the androgynous adult at FAR RIGHT, short sandy hair, softly round face, heavily freckled warm tan skin with rosy undertones. Keep their exact familiar face, gray eyes, youthful looking adult softness, medium build and height. Image two for painted sprite finish only; do not copy Maia. Outfit loose soft moss-green long sleeve tunic with rolled cuffs, cinnamon-brown comfortable trousers. BAREFOOT because Sage prefers bare feet indoors: both feet fully visible and anatomically natural, modest stance. No shoes, no object in hands. Calm listening posture, hands gently overlapping in front of waist, compassionate attentive expression, closed mouth with only trace of warmth, suitable for helping a child through a difficult feeling. Do not make elderly, gender stereotyped or dramatically glamorous.",
+      "selected": false,
+      "references": [
+        "visual-novel/game/images/cg/first-memory-young.png",
+        "visual-novel/game/images/characters/maia.png"
+      ],
+      "output_id": "exec-d61ad81f-982e-438c-be37-25c1aa5d1681.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "maia-home-v1",
+      "prompt": "Use case: identity-preserve. Asset: a production Ren'Py visual novel FULL BODY character sprite, ONE adult person only, head and both feet fully inside frame, upright gentle three-quarter angle toward camera. Match the reference's finely painted storybook realism, beautiful natural facial anatomy, soft fabric grain, warm brown/teal palette. Soft diffuse even warm light, restrained highlights, no hard rim light. Actual TRANSPARENT RGBA PNG background with zero-alpha pixels around subject and fine hair. DO NOT draw a white/gray checkerboard, white backdrop, colored backdrop, shadow rectangle, scenery, frame, lettering or watermark. Portrait 2:3 canvas with comfortable padding all sides. A parent during Cali's childhood, only modest aging since baby's First Breath in reference, not their much later elderly biography version. No other figures. Image one is MAIA identity and sprite style; image two center adult holding baby confirms same face and warmer brown skin. Keep tall slender Maia, warm brown skin, rich amber eyes flecked green, long dark curly hair with small braids and modest SILVER STREAKS as in childhood narrative, but reduce excessive gray at crown compared to sprite. Change clothing from gardening apron to a simple soft blue-teal long-sleeved blouse, muted ochre wrap vest, comfortable dark-brown trousers and worn soft leather shoes. No apron, no gardening tools, no seeds or anything held in either hand. Hands open and relaxed around waist level, one slightly extended as if making room beside her. Expression thoughtful, concerned, tender and LISTENING, mouth closed no cheerful smile; suitable to console a grieving child. No magical glow or background. Maintain recognizable Maia identity.",
+      "selected": false,
+      "references": [
+        "visual-novel/game/images/characters/maia.png",
+        "visual-novel/game/images/cg/first-memory-young.png"
+      ],
+      "output_id": "exec-bd3dbbd9-69dc-4fa1-9c18-932c6bc25e4e.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "calista-older-v2",
+      "prompt": "Use case: identity-preserve. Edit this full-body Cali sprite to make passage of childhood time unmistakable while preserving her facial identity, olive freckled complexion, DEEP BLUE eyes, chestnut wavy hair, exact ochre-shirt/green-vest/indigo-trouser outfit, sketchbook, boots, gentle angle and painterly style. Her current face and body still look like a small child. Depict the same girl as a visibly older child approaching early adolescence (visual design target roughly 13, not late teens and not an adult): longer face, less rounded cheeks, smaller more realistically proportioned eyes, narrower chin, longer forearms and legs, head SMALLER relative to body about six-and-a-half to seven head lengths overall, still slim straight youthful body with no adult curves or glamour. Increase visual maturity naturally, do not merely scale current girl taller. Keep face calm and observant with only a trace of a closed-mouth smile. Hair in loose half-tied waves with small teal cord, not the big childish bow/top bun. Entire head and boots within portrait 2:3 canvas. Actual transparent RGBA PNG, zero alpha around figure, clean hair silhouette; remove checkerboard background entirely, do not paint a replacement background. No checkerboard, no scenery, no shadow rectangle, no text, no new objects.",
+      "selected": false,
+      "references": [
+        "generation:calista-older-v1"
+      ],
+      "output_id": "exec-7c69d828-ed24-4408-a204-9eac6551d715.png",
+      "note": "Identity/wardrobe candidate. Superseded by background keying variant; source alpha was not delivered."
+    },
+    {
+      "id": "calista-home-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including white hair and eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
+      "selected": true,
+      "references": [
+        "generation:calista-home-v1"
+      ],
+      "output_id": "exec-5e263be9-189b-4772-a9f2-7b6f31d089ac.png"
+    },
+    {
+      "id": "calista-festival-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including white hair and eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
+      "selected": true,
+      "references": [
+        "generation:calista-festival-v1"
+      ],
+      "output_id": "exec-d6909c2b-b836-4a03-a75c-53341bda3cf3.png"
+    },
+    {
+      "id": "cassia-older-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including white hair and eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
+      "selected": true,
+      "references": [
+        "generation:cassia-older-v1"
+      ],
+      "output_id": "exec-a2b7b105-e95d-435b-ab9c-dd6b163cdc0a.png"
+    },
+    {
+      "id": "joren-older-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including white hair and eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
+      "selected": true,
+      "references": [
+        "generation:joren-older-v1"
+      ],
+      "output_id": "exec-96595a56-7810-44d1-a16b-e98d4bdc66fa.png"
+    },
+    {
+      "id": "lyra-young-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including white hair and eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
+      "selected": true,
+      "references": [
+        "generation:lyra-young-v1"
+      ],
+      "output_id": "exec-8cae4324-8ba3-4eca-aac8-f15a9bd57e18.png"
+    },
+    {
+      "id": "arin-everyday-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including white hair and eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
+      "selected": true,
+      "references": [
+        "generation:arin-everyday-v1"
+      ],
+      "output_id": "exec-bf13e69e-c559-4f90-a1c0-5166948b7aac.png"
+    },
+    {
+      "id": "dorian-everyday-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including white hair and eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
+      "selected": true,
+      "references": [
+        "generation:dorian-everyday-v1"
+      ],
+      "output_id": "exec-752c99fd-ccbc-4ed2-b274-a069b348021a.png"
+    },
+    {
+      "id": "selene-everyday-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including white hair and eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
+      "selected": true,
+      "references": [
+        "generation:selene-everyday-v1"
+      ],
+      "output_id": "exec-9f8debd3-dd1f-4453-81e9-0849f7e79672.png"
+    },
+    {
+      "id": "kael-young-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
+      "selected": true,
+      "references": [
+        "generation:kael-young-v1"
+      ],
+      "output_id": "exec-9c148e0d-c564-4fa9-aa2b-f96f3774c629.png"
+    },
+    {
+      "id": "sage-everyday-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
+      "selected": true,
+      "references": [
+        "generation:sage-everyday-v1"
+      ],
+      "output_id": "exec-bf3bda72-9d21-42ba-81a7-a3e4f759e613.png"
+    },
+    {
+      "id": "calista-mourning-key-v1",
+      "prompt": "Use case: identity-preserve. Production full-body Ren'Py character sprite. Preserve reference face identity, age, skin tone, eye color, hair color, overall body proportions and finely painted storybook realism. Keep head and both boots fully in portrait frame, same gentle three-quarter angle, clean natural silhouette. BACKGROUND: perfectly uniform solid chroma GREEN #00FF00 RGB(0,255,0) everywhere outside figure, including gaps between limbs and fine hair. NO transparency/checkerboard/white backdrop, no gradient, no floor/shadow, no green light/spill/reflections on subject. Keep all original natural subject colors, soft restrained warm light with no rim glow. No words, watermark or scenery. Same visibly later-childhood Cali, not an adult, long-limbed with less round young-child face, olive freckles, deep BLUE eyes, chestnut waves. Change outfit to plain dusty blue long-sleeved tunic, soft dark plum-brown open cardigan, charcoal trousers, familiar worn brown boots. Hair hangs loose, small half-tie but no large ribbon; no sketchbook or other held object. Grieving and subdued: shoulders slightly lowered, head angled gently down, eyes tired and moist but looking toward a friend, mouth closed with absolutely NO SMILE. Her hands overlap loosely near waist, no posed dramatic sobbing. This quiet empty-handed expression should work for receiving loss, conversation and remembering a friend. Do not use black funeral symbolism or add jewelry.",
+      "selected": true,
+      "references": [
+        "generation:calista-older-v2"
+      ],
+      "output_id": "exec-4f8f9b7f-2405-47e8-8d34-44bc381cf473.png"
+    },
+    {
+      "id": "calista-painting-key-v1",
+      "prompt": "Use case: identity-preserve. Production full-body Ren'Py character sprite. Preserve reference face identity, age, skin tone, eye color, hair color, overall body proportions and finely painted storybook realism. Keep head and both boots fully in portrait frame, same gentle three-quarter angle, clean natural silhouette. BACKGROUND: perfectly uniform solid chroma GREEN #00FF00 RGB(0,255,0) everywhere outside figure, including gaps between limbs and fine hair. NO transparency/checkerboard/white backdrop, no gradient, no floor/shadow, no green light/spill/reflections on subject. Keep all original natural subject colors, soft restrained warm light with no rim glow. No words, watermark or scenery. Same visibly later-childhood Cali, not an adult, long-limbed proportions, olive freckles and deep BLUE eyes, chestnut hair tied loosely back to keep it out of paint, familiar face. Change clothes to faded indigo rolled-sleeve shirt under a worn russet painter's apron with muted blue/ochre/teal paint smudges, loose dark olive trousers and old brown boots. Holds a simple thin paintbrush in RIGHT hand lowered ready to work and small wooden painter's palette in LEFT hand near hip. Expression serious and absorbed, a small trace of sadness, no smile or grin: she is painting to remember a lost friend. No easel or canvas or table in sprite. Modest child body, no adult glamour.",
+      "selected": true,
+      "references": [
+        "generation:calista-older-v2"
+      ],
+      "output_id": "exec-5c3af183-c825-4d6f-a5af-771aebd08eb9.png"
+    },
+    {
+      "id": "calista-frustrated-key-v1",
+      "prompt": "Use case: identity-preserve. Production full-body Ren'Py character sprite. Preserve reference face identity, age, skin tone, eye color, hair color, overall body proportions and finely painted storybook realism. Keep head and both boots fully in portrait frame, same gentle three-quarter angle, clean natural silhouette. BACKGROUND: perfectly uniform solid chroma GREEN #00FF00 RGB(0,255,0) everywhere outside figure, including gaps between limbs and fine hair. NO transparency/checkerboard/white backdrop, no gradient, no floor/shadow, no green light/spill/reflections on subject. Keep all original natural subject colors, soft restrained warm light with no rim glow. No words, watermark or scenery. Same later-childhood Cali and EXACT ochre shirt, dark green vest, indigo patched trousers and boots, same hair and face. Change ONLY gesture/expression: put sketchbook away (empty hands), one hand on hip and other slightly open in a frustrated explanatory gesture, brows drawn together, cheeks slightly flushed, mouth slightly open in speech with no smile. She is in a disagreement with a close friend, not a villain or in rage: hurt and determined, restrained intensity, not a dramatic angry caricature. Preserve later-childhood proportions and facial identity.",
+      "selected": true,
+      "references": [
+        "generation:calista-older-v2"
+      ],
+      "output_id": "exec-0e64eae5-b81e-48aa-a155-4766cc68fd83.png"
+    },
+    {
+      "id": "cassia-mourning-key-v1",
+      "prompt": "Use case: identity-preserve. Production full-body Ren'Py character sprite. Preserve reference face identity, age, skin tone, eye color, hair color, overall body proportions and finely painted storybook realism. Keep head and both boots fully in portrait frame, same gentle three-quarter angle, clean natural silhouette. BACKGROUND: perfectly uniform solid chroma GREEN #00FF00 RGB(0,255,0) everywhere outside figure, including gaps between limbs and fine hair. NO transparency/checkerboard/white backdrop, no gradient, no floor/shadow, no green light/spill/reflections on subject. Keep all original natural subject colors, soft restrained warm light with no rim glow. No words, watermark or scenery. Same visibly later-childhood Cassia, rich UMBER skin, deep GREEN eyes, long chestnut wavy hair, slim young figure and familiar face. Change clothes to muted dusty-plum long-sleeved tunic, soft charcoal-teal shawl resting around shoulders, simple dark brown trousers and familiar brown boots. Hair loose with a small plain low tie, no golden headband. No notebook or bag or objects held: hands rest gently together in front. Quiet grief, slightly lowered head and shoulders, tired moist eyes looking toward her friend, mouth closed and trembling slightly without ANY smile. Not exaggerated wailing, no dramatic pose. Do not lighten skin, age into adulthood or add black funeral symbolism.",
+      "selected": true,
+      "references": [
+        "generation:cassia-older-v1"
+      ],
+      "output_id": "exec-50481927-857a-4d7d-81c2-46289aaec434.png"
+    },
+    {
+      "id": "joren-frustrated-key-v1",
+      "prompt": "Use case: identity-preserve. Production full-body Ren'Py character sprite. Preserve reference face identity, age, skin tone, eye color, hair color, overall body proportions and finely painted storybook realism. Keep head and both boots fully in portrait frame, same gentle three-quarter angle, clean natural silhouette. BACKGROUND: perfectly uniform solid chroma GREEN #00FF00 RGB(0,255,0) everywhere outside figure, including gaps between limbs and fine hair. NO transparency/checkerboard/white backdrop, no gradient, no floor/shadow, no green light/spill/reflections on subject. Keep all original natural subject colors, soft restrained warm light with no rim glow. No words, watermark or scenery. Same later-childhood Joren and exact slate-teal overshirt, rust henley, brown patched trousers, boots and tan canvas satchel; same blond hair, fair ruddy skin and BLUE eyes. Change expression and gesture: put scanner away (empty hands), one hand half raised as he protests, other hangs tense at side, face visibly flushed, brows drawn together, mouth slightly open answering in frustration without ANY smile. He is arguing with a close friend, hurt and restless, not snarling or a villain. Keep believable child features and same body proportions; no adult muscles or facial hair.",
+      "selected": true,
+      "references": [
+        "generation:joren-older-v1"
+      ],
+      "output_id": "exec-d79ba4d0-4f80-4df4-9410-8eb698f2c99a.png"
+    },
+    {
+      "id": "calista-older-key-v1",
+      "prompt": "Use case: precise-object-edit. Production sprite background correction ONLY. Preserve the exact person in this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, lighting and portrait framing. Replace ONLY the background around the subject and through all gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green extends uniformly to all four edges, with no gradient, shadows, floor, pattern or texture. No green glow, spill or reflection on person; keep original natural colors, white hair and eye highlights. Background SOLID PURE GREEN, not transparency, not checkerboard. Clean natural silhouette including fine hair. Do not change person or lighting; no text, extra props or scenery.",
+      "selected": true,
+      "references": [
+        "generation:calista-older-v2"
+      ],
+      "output_id": "exec-8a2d5f6b-2b4c-433d-9c7f-962f24962e74.png"
+    },
+    {
+      "id": "maia-home-key-v1",
+      "prompt": "Use case: precise-object-edit. Production sprite background correction ONLY. Preserve the exact person in this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, lighting and portrait framing. Replace ONLY the background around the subject and through all gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green extends uniformly to all four edges, with no gradient, shadows, floor, pattern or texture. No green glow, spill or reflection on person; keep original natural colors, white hair and eye highlights. Background SOLID PURE GREEN, not transparency, not checkerboard. Clean natural silhouette including fine hair. Do not change person or lighting; no text, extra props or scenery.",
+      "selected": true,
+      "references": [
+        "generation:maia-home-v1"
+      ],
+      "output_id": "exec-74fa5045-cc90-4bea-98cd-73d5297d66ec.png"
+    },
+    {
+      "id": "calista-young-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact young child from this image: identical recognizable face, age, expression, pose, body proportions, hairstyle and individual fine strands, natural skin and eye color, exact clothing, fabric folds, boots, held objects, warm painterly lighting, and FULL BODY portrait framing. Do not age this character or change their design. Replace ONLY the white/gray checkerboard around the child and through all gaps between limbs/hair/fingers with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green extends uniformly to all four edges, no gradient, shadow, floor, pattern or backdrop texture. No green glow, spill, reflection or color cast on the person. Background must be SOLID PURE GREEN, not transparency, not checkerboard. Keep clean natural silhouette edges, don't crop any hair/boots. No text, logos, new props or scenery.",
+      "selected": true,
+      "references": [
+        "generation:calista-v2"
+      ],
+      "output_id": "exec-4ea102f4-74c9-47dd-a8ec-488afa42b209.png"
+    },
+    {
+      "id": "cassia-young-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact young child from this image: identical recognizable face, age, expression, pose, body proportions, hairstyle and individual fine strands, natural skin and eye color, exact clothing, fabric folds, boots, held objects, warm painterly lighting, and FULL BODY portrait framing. Do not age this character or change their design. Replace ONLY the white/gray checkerboard around the child and through all gaps between limbs/hair/fingers with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green extends uniformly to all four edges, no gradient, shadow, floor, pattern or backdrop texture. No green glow, spill, reflection or color cast on the person. Background must be SOLID PURE GREEN, not transparency, not checkerboard. Keep clean natural silhouette edges, don't crop any hair/boots. No text, logos, new props or scenery.",
+      "selected": true,
+      "references": [
+        "generation:cassia-v2"
+      ],
+      "output_id": "exec-d1770171-e55c-4975-9cd1-57a9ec16e0b9.png"
+    },
+    {
+      "id": "joren-young-key-v1",
+      "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact young child from this image: identical recognizable face, age, expression, pose, body proportions, hairstyle and individual fine strands, natural skin and eye color, exact clothing, fabric folds, boots, held objects, warm painterly lighting, and FULL BODY portrait framing. Do not age this character or change their design. Replace ONLY the white/gray checkerboard around the child and through all gaps between limbs/hair/fingers with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green extends uniformly to all four edges, no gradient, shadow, floor, pattern or backdrop texture. No green glow, spill, reflection or color cast on the person. Background must be SOLID PURE GREEN, not transparency, not checkerboard. Keep clean natural silhouette edges, don't crop any hair/boots. No text, logos, new props or scenery.",
+      "selected": true,
+      "references": [
+        "generation:joren-v2"
+      ],
+      "output_id": "exec-073711c5-959d-4da5-83d5-5701bbdb38a5.png"
+    }
+  ],
+  "tool": "Built-in OpenAI image_gen (no CLI/API fallback)",
+  "reference_path_base": "Astravus repository root",
+  "runtime_path_base": "visual-novel",
+  "note": "Generated PNGs preserved unmodified. Requested alpha was not delivered, so selected actors use generated saturated-green backgrounds composited at runtime. Corner color measurements reflect actual output rather than the exact requested green. Wardrobes and visual age bands are adaptation design choices, not newly asserted canonical ages.",
+  "canonical_sources": [
+    "revision/latest.md",
+    "wiki/bios/Calista.md",
+    "wiki/bios/Cassia.md",
+    "wiki/bios/Joren.md",
+    "wiki/bios/Kael.md",
+    "wiki/bios/Lyra.md",
+    "wiki/bios/Maia.md",
+    "wiki/bios/Arin.md",
+    "wiki/bios/Selene.md",
+    "wiki/bios/Dorian.md",
+    "wiki/bios/Sage.md"
+  ],
+  "external_generation_manifest": "assets.json"
+}

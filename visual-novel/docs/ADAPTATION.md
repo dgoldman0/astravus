@@ -1,50 +1,59 @@
-# Chapter one adaptation
+# Book I adaptation — version 0.2.0
 
-Version 0.1.3 adapts selected opening scenes from [revision/latest.md](../../revision/latest.md), Book I: Seeds of Youth, at repository commit `23f9766`. It is an abridged first playable chapter, not the whole of Book I. The prose draft remains the authority for events and characterization; the wiki supplies supporting details. Expanded wiki dialogue is not automatically an event in the draft.
+The preview now adapts **all of Book I: Seeds of Youth**, from First Breath to the closing acts of remembrance. It ends before **Book II: Growing Up**, which opens with Calista entering her late teens. The current script organizes that arc into **32 scenes**, defined in `game/book_structure.rpy`. These are production scene divisions, not newly invented source chapters.
 
-## Coverage and additions
+The authority for events, relationships, and order is [revision/latest.md](../../revision/latest.md), the aligned prose at commit `23f9766`. Wiki biographies support physical and cultural details; expanded wiki dialogue is not automatically canonical action. When a supporting page conflicts with the draft, follow the draft and document the discrepancy rather than inventing a reconciliation in dialogue.
 
-Source line numbers below refer to that revision, with passage anchors provided for later edits.
+Version 0.1.3 was a rough opening selection ending at the rainy talking-tree conversation. That first draft remains preserved at commit `3dfcf6c`; [DRAFT_ONE.md](DRAFT_ONE.md) records its scope and limitations. The earlier omissions are not the scope of this version.
 
-| Playable sequence | Draft anchor | Preserved | Adaptation additions |
-| --- | --- | --- | --- |
-| First memory / The shape of home | Earliest Memories, lines 5–97 | Parents' account of First Breath; retrospective uncertainty; five parents; older Kael and younger Lyra; pets; family home and garden | Individual remembered details, a shorter family introduction, and a visual transition from newborn welcome to later childhood at home. Lyra's arrival is explicitly later. |
-| A small beginning | Sunflower lesson, lines 99–109 | Maia hands Cali a seed; identifies a sunflower; affectionately compares it to Cali; guides her hands; care and patience | Questions about tomorrow, spilled water, marker stone, repeated visits. The plants/people comparison is carried mainly by Maia's behavior; its explicit aphorism and the following retrospective question are omitted. |
-| An invitation | Early Friendships: Cassia, lines 345–347 | Community gathering; Cassia's mythical-creature story; invitation into the adventure; immediate friendship | Drawing a winged creature together, invented extra feet and rivers, name exchange, promise to continue next time. These creature details are children's inventions, not added world lore. |
-| Something worth finding | Early Friendships: Joren, lines 367–371 | Construction-zone exploration challenge; Cali accepts eagerly | Blue-edged light, sketching, Joren holding pencils, introductions and a shared map at home. These connect the source encounters but are not incidents quoted from the draft. |
-| Our place in the branches | Old treehouse, lines 385–415 | Familiar return; Joren helps Cassia climb and recalls Cali's initial fear; established belongings; worry about outgrowing their refuge; promise to keep meeting; imaginative expeditions; rainy blankets; talking trees and Joren's curiosity about their secrets | Specific map-making exchange, Cali's practical response to outgrowing the room, and the final story beginning under a shared blanket. |
+## Coverage and condensation
 
-The 0.1.2 script had drifted in three ways: Cali distrusted Joren's challenge instead of eagerly accepting; the treehouse was staged as a first climb despite already containing their belongings; and Joren answered Cassia's talking-tree idea with a dismissive joke rather than the draft's wonder. Version 0.1.3 corrects those character and chronology changes. It also restores the outgrowing conversation before the rainy afternoon.
+The [detailed coverage map](BOOK_ONE_COVERAGE.md) provides passage anchors and line references. The implemented sequence is:
 
-## Material not yet adapted
+| Scenes | Source development | Adaptation treatment |
+| --- | --- | --- |
+| 1–2 | Borrowed First Breath, family orientation, and sunflower lesson | Preserve the contemplative opening. Shift from the newborn illustration to the later household before Lyra and the three-child family are described. The marker stone and watering mishap make care tangible. |
+| 3–7 | Plant disagreement, Arin's spilled screws, Selene's first flute lesson, Dorian's explorers, and Sage's bedtime story | Restore individual relationships with each parent. Preserve the conflicts, mistakes, encouragement, and sibling responses through playable exchanges. Sage's Aria/Bram/Cora tale retains its failed search, diagnosis, adapted filter, and cooperation. |
+| 8 | Ordinary family days | Combine repeated visits and practice into a retrospective montage through the appropriate rooms. Garden observation, workshop learning, music, maps, meals, sibling rivalry, and bedtime remain present without repeating every introductory explanation. |
+| 9–12 | Tree of Echoes, Lyra's pond fall, the soup experiment, and Festival of Lights | Restore discovery, sibling responsibility, repair after a mistake, and the wider community celebration. The tree is separate from Maia's treehouse oak; the pond remains shallow. |
+| 13–19 | Meeting Cassia and Joren, visits with both families, Kaleb's walk, the familiar treehouse, and rainy storytelling | Preserve Cassia's invitation and Cali's eager acceptance of Joren's challenge. Establish Thalia, Lyron, Soren, and Kaleb before the later loss. The treehouse visit begins with existing possessions and shared history. |
+| 20–24 | Water-wheel project, outer construction exploration, Lyra's exclusion, dome climb, and treehouse dispute | Introduce visibly older childhood designs at the source's growth transition. Preserve the collaborative successes, Lyra's hurt, the happy expedition, and both friends' capacity to argue and compromise. |
+| 25–29 | Joren's fatal expedition, family grief, painting, Cassia's grief, and community mourning | Keep the accident on a routine research expedition to a nearby moon, separate from the dome climb. Do not invent a technical cause beyond the malfunction, other casualties, a farewell scene, or a supernatural return. Family comfort and art cannot undo the death. |
+| 30–32 | Garden mural, treehouse drawings, rain, and recurring remembrance | New acts of remembrance can continue, but no new adventures with Joren can be added. The annual gatherings are retrospective, without claiming an unchanged child sprite depicts every future year. |
 
-Before Early Friendships, the draft includes additional family scenes: disagreement in the garden, Arin's workshop, Selene's music, Dorian's histories, Sage's story, family routines, and the Tree of Echoes. This playable selection compresses or skips those passages. Cassia's and Joren's family introductions and visits are also absent. These omissions reduce the amount of family and community development; dialogue polish alone does not restore that coverage.
+This is a full-book narrative adaptation, not a verbatim reading. Room inventories and repeated explanatory passages are compressed into art, behavior, or montage. Some physical details and minor exchanges are added so a prose summary becomes a playable scene. There are no Book II romances, late-teen pursuits, later expeditions, or alternate endings in this preview.
 
-The current endpoint is the rainy talking-tree passage. The water-wheel project starts at line 417 and remains beyond this chapter, along with later childhood developments. A full adaptation needs a coverage plan for the omitted material, rather than treating this prototype's cuts as settled decisions.
+## Dialogue and voice
 
-## Revelation and staging
+Cali's child dialogue is labeled **Cali**. The adult recollection uses **Calista · remembering**, alongside first-person narrative text. A child can speak with enthusiasm, uncertainty, irritation, or care; polishing a line must not turn eager Cali into a habitual skeptic or adventurous Joren into someone who dismisses wonder.
 
-The opening retains the draft's hint that Lumen is a young world and the child of Aurora and Nyx. The explicit traveling/living-ship description first occurs in Sage's embedded story at line 159; direct narration identifies Lumen as a living ship in the later Tree of Echoes passage at line 285. Since both scenes are omitted here, neither the chapter nor its People guide supplies that explanation.
+The expanded scenes give speakers immediate interests: choosing where a plant belongs, finding spilled parts, producing a note, tracing a route, including a sibling, or deciding which way an adventure should go. Gesture and sound should carry part of the meaning before narration names a lesson. Quiet scenes and repeated acts of affection are intentional; brevity alone is not the standard for natural dialogue.
 
-The old panoramic background also exposed an enormous star-facing enclosure before those scenes. It is now replaced by close community and construction views. Art follows the same reveal limit as prose.
+The approach builds on [the writing research notes](WRITING_NOTES.md). [Arimia's visual-novel guide](https://arimiadev.com/how-to-make-visual-novels/) supports a fixed story carried by writing and presentation; [Nathan Bransford's dialogue guidance](https://nathanbransford.com/blog/2022/10/seven-keys-to-writing-good-dialogue) informs purposeful exchanges and selective conversational detail. The examples in `WRITING_NOTES.md` describe the earlier 0.1.3 pass, not the current book's coverage or validation status.
 
-| Narrated time and place | Visible scene |
-| --- | --- |
-| First Breath, reconstructed from parents' stories | Newborn family illustration with earlier-life parent designs; no child sprite |
-| Later childhood household | Central family room; the newborn image ends before Lyra and three-child family life are described |
-| Maia's planting lesson | Brighter planting corner; the shaded oak appears afterward |
-| Meeting Cassia | Local community courtyard |
-| Meeting Joren | Unfinished passage, low drawing ledge, visible blue edge to the light |
-| Shared map at home | Family room returns; outdoor ambience stops |
-| Familiar treehouse visit | Garden ladder, then the furnished upper room |
-| Rainy afternoons | Same upper room with rain outside the open bays; rain ambience begins with the visual transition |
+Connective inventions include the seed marker, Cassia's winged creature and its extra feet, their evolving map, Cali's blue-edged-light drawing, screw sorting, and the particular negotiation over flower placement. These details belong to the adaptation. The imagined creature is not a new species in world lore, and Sage's three siblings remain characters in an embedded story. Remembered details must stay consistent with who originally said or did them.
 
-No table-moving action is narrated without a corresponding art change. The rainy scene uses narration and named dialogue over the environment, without standing sprites contradicting the description of huddling under blankets. Environments are stage backgrounds, not an illustration of every small hand movement. See [art direction](ART_DIRECTION.md) for remaining pose and expression limits.
+## Revelation and chronology
 
-## Form and length
+The preview preserves the draft's gradual disclosure:
 
-The chapter remains kinetic: reading controls, save/load, rollback, history, auto-reading and skip do not change the plot. Calista's retrospective voice is named “Calista · remembering”; the child's dialogue uses “Cali.” Added gestures and connective dialogue stay in the adaptation, not the source draft or wiki.
+1. The opening identifies Lumen as a young world and the child of Aurora and Nyx, without explaining a starship.
+2. Sage's embedded story introduces an Astravus as a living ship traveling through the cosmos. It does not yet directly identify Lumen that way.
+3. The Tree of Echoes passage directly identifies Lumen as a living ship. Only then does the current reading's `lumen_known` state expand the People description.
+4. The later loss establishes the difference between death and transcendence. Joren's death entry is shown only after that event in the current reading.
 
-There are 153 dialogue blocks and 1,655 words, roughly 11 minutes at 150 words per minute before additional pauses. The opening keeps its contemplative space and gains a home view instead of being shortened. The dialogue approach and researched guidance are in [writing notes](WRITING_NOTES.md).
+People entries for new friends and their families appear as the story introduces them. These gates belong to the current save and rollback state; finishing the book once should not spoil a fresh beginning. Early backgrounds and menu text must not supply the explanation before the prose does.
 
-Use **Begin the chapter** to review 0.1.3 from the opening. Dialogue IDs are retained where practical, but older saves can resume after revised passages and are not a substitute for a fresh review.
+The newborn illustration ends before later household life. Kael is already older than Cali; Lyra arrives afterward. The early family montage spans ordinary days without inventing exact ages. The water-wheel sequence marks a change to older childhood, not the late-teen period of Book II. Outfits change for home, the festival, later projects, disagreement, mourning, and painting; continuous activities can keep the same clothes. Parental biography ages refer to later life, and Selene's genetically white hair remains an identity trait.
+
+## Staging and atmosphere
+
+The setting must support the line currently being read. Family scenes use the family room, workshop, music room, library, Sage's room, and garden rather than one generic backdrop. Festival, water-wheel success, the dome view, mourning plaza, mural, and remembered treehouse have distinct views. The rain variant preserves the treehouse's open bays and furniture; rain sound begins with the weather change. The remembrance variant adds drawings while retaining that rainy room.
+
+Standing portraits cannot depict playing a flute, climbing, sitting in someone's lap, an embrace, or a wet rescue. Hide the conflicting pose and let narration carry the action, or use an appropriate illustration. The preview has broader age, clothing, and expression coverage, but it does not animate every narrated movement or provide a portrait for every speaking person. See [art direction](ART_DIRECTION.md) and [character continuity](CHARACTER_CONTINUITY.md).
+
+The expanded score preserves First Light's motif while providing family, discovery, wonder, festival, shelter, grief, and remembrance cues. Separate flute attempts make practice audible; environmental sound follows the room and weather. Silence has a place at the loss and in listening scenes. The [audio direction](AUDIO_DIRECTION.md) distinguishes measured technical checks from the listening review still needed for timbre and emotional balance.
+
+## Review boundaries
+
+This document describes the adaptation and its intended continuity; it does not certify the current integrated build. Actual playthrough results and platform limitations belong in [VALIDATION.md](VALIDATION.md). Review the full book from **Begin Book I** in version 0.2.0: an older save can skip revised material, and the rough draft's save format is intentionally excluded from this rewritten script.

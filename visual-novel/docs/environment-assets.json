@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "tool": "Built-in OpenAI image_gen",
+  "date": "2026-09-04",
+  "runtime_path_base": "visual-novel",
+  "assets": [
+    {
+      "file": "game/images/backgrounds/book-one/cassia-home.png",
+      "generation": "book-one-cassia-home-v1",
+      "sha256": "8e536261e4b647371e346cfc34bd818dad026026eb209d5d4c458f0b2e6c0e0b",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/dome.png",
+      "generation": "book-one-dome-v1",
+      "sha256": "dc168e36c3f1a5a9851dbad7d0ba2e30e6dfd71116d77f4447dbc5d4f6ddcaa8",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/echoes.png",
+      "generation": "book-one-echoes-v1",
+      "sha256": "cb84874fe2ab57c98c382ca9da15e7f10ac9d9160be780122a0abd69b119c814",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/festival.png",
+      "generation": "book-one-festival-v1",
+      "sha256": "69db8a73db7892bc05507b31a8b2be542a691fb826fc1f84d6f3eb45047bb68b",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/home-dusk.png",
+      "generation": "book-one-home-dusk-v1",
+      "sha256": "22af8146417df1fac47983901df8ddd7a3adc12737b4bbcdb33372d9ca85d45b",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/library.png",
+      "generation": "book-one-library-v1",
+      "sha256": "9d2380db731f2576fadba93d4aa7be7460873a701efd973559981b41c5b9cddf",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/memorial-plaza.png",
+      "generation": "book-one-memorial-plaza-v1",
+      "sha256": "d58456cedd7531a863864d191a095cf7f23215f64b985afbc0125fc353047049",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/music-room.png",
+      "generation": "book-one-music-room-v1",
+      "sha256": "f3f9eae745ab6e93e0dfe100a9207977901e874624315f5c139eff500706c464",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/sage-room.png",
+      "generation": "book-one-sage-room-v1",
+      "sha256": "b51b309492a5d8026571ff3938d5aae102515653250df054c1dd3d461751d581",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/soren-workshop.png",
+      "generation": "book-one-soren-workshop-v1",
+      "sha256": "d451bcedd70e8c80546a8147a33877dce0454a92004b017002aa45050460ae0b",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/treehouse-memory.png",
+      "generation": "book-one-treehouse-memory-v1",
+      "sha256": "f90215045bf2a4c2262f9f18cda26b3cd98a4e5ad02ee2c668975e19c4802913",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/waterwheel.png",
+      "generation": "book-one-waterwheel-v1",
+      "sha256": "e54cc1acde03f2c234d156134b03e57a56e09e4734bc1ee7fc7328db9dfa932c",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/workshop.png",
+      "generation": "book-one-workshop-v1",
+      "sha256": "603d67750be055357d53693ea315aa201473db6a746ab02f8a5f968c9b9b2934",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/memory-mural-v2.png",
+      "generation": "book-one-memory-mural-v2",
+      "sha256": "38cb3dd1cfad04400f6fec8d971a4171a4eff513c26f9c1e507aefd9fceaba47",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/construction-room.png",
+      "generation": "book-one-construction-room-v1",
+      "sha256": "c5e93b257206702921c19f923b5ee9bcc14676f5ee08765ab37a88d4e0ae18b3",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "generations": [
+    {
+      "id": "book-one-cassia-home-v1",
+      "prompt": "New 16:9 production background for Astravus visual novel, painterly realism matching reference atmosphere/materials ONLY, with a DIFFERENT FLOOR PLAN. This is Cassia's family's creative home, not Cali's round-table room. A low rectangular tea table beside broad cushioned windowseat, three cups, shelves overflowing art materials and homemade crafts, hanging drying drawings, curved living wall at rear with subtle glassy water conduits among plants showing ecological design. Long intimate room extends diagonallyleft to a doorway. Warm practical fabrics, amber lamplight, deep teal foliage outside. No people/no text/no modern apartment furniture/no outerspaceview. Keep table above lowerquarter overlay, room for characters at sides.",
+      "references": [
+        "visual-novel/game/images/backgrounds/family-home.png"
+      ],
+      "output_id": "exec-9b305b5c-ce52-4876-95af-a571af28d3a1",
+      "selected": true
+    },
+    {
+      "id": "book-one-dome-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. A very different camera viewpoint much later in childhood: on the unfinished high internal platform of an organic dome under construction within Lumen. Wide close platform has scaffolding, incomplete branching structural ribs and a low foreground parapet. View DOWN across a vast inhabited landscape of winding garden paths, trees, warm homes, small plazas, with distant softly lit living architectural enclosure. Late golden artificial afternoon filtered into teal shadows. It must feel like a high INTERNAL view, no open outer-space stars or planet exterior. No people, no active machinery nearby. Intimate foreground with sense of height.",
+      "references": [
+        "visual-novel/game/images/backgrounds/community-courtyard.png"
+      ],
+      "output_id": "exec-99c6a670-fc85-4caf-ad61-3e3dfd428319",
+      "selected": true
+    },
+    {
+      "id": "book-one-echoes-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. Reimagine this author's monochrome Tree of Echoes composition in the color and painterly realism of Astravus: ancient gnarled hollow tree in a dense secluded clearing, intimate mysterious woodland within Lumen, blue-green bioluminescent hanging growth, dim silver filtered skylight catches the central tree. This is a separate ancient transplanted tree, NOT the garden oak; no treehouse, ladder, or building in the tree. Remove all people and animals from the reference so foreground can take sprites. Preserve awe, enclosure, ancient twisting branches and dark frame; avoid a bright white sky.",
+      "references": [
+        "revision/Echoes.jpg"
+      ],
+      "output_id": "exec-05bd5bda-d9fa-4fd5-8e90-32dff9931702",
+      "selected": true
+    },
+    {
+      "id": "book-one-festival-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. A NEW larger central plaza within the same organic garden settlement, evening Festival of Lights. Canopy of floating small warm lanterns, teal bioluminescent floral displays, small platform with a wooden harp, distant diverse families and children walking among lit paths. Celebratory and intimate, not a stadium or fireworks spectacle. Gardens are the centerpiece. Clear nearby foreground with a few unlit paper lanterns on a side ledge. Rich deep blue-green evening, small warm lights; no enormous white dome or stars beyond a spacecraft.",
+      "references": [
+        "visual-novel/game/images/backgrounds/community-courtyard.png"
+      ],
+      "output_id": "exec-8146cbbc-5dae-4934-b7db-73627a4b9db1",
+      "selected": true
+    },
+    {
+      "id": "book-one-home-dusk-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. EDIT this exact room only for a quiet late evening after a family has received devastating news. Keep all architecture, table, seating, fountain, books, drawings and camera intact. Reduce the ceiling light to dim blue dusk; retain only one small warm table lamp and warm light from an adjoining doorway. No people, no funeral objects, no black drapes, no new furniture. A familiar room made suddenly still, not horror.",
+      "references": [
+        "visual-novel/game/images/backgrounds/family-home.png"
+      ],
+      "output_id": "exec-a349c4a9-d973-4908-a32a-e801fd084b6b",
+      "selected": true
+    },
+    {
+      "id": "book-one-library-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. A new adjacent room of this home: Dorian's cozy library. Curved shelves of books and rolled maps, small reading circle with cushions, old explorer map open on wide table upper middle, worn lamp, subtle embedded data surface on side desk. Sheltered warm amber light, deep blue green plants, quiet historical atmosphere. No readable letters.",
+      "references": [
+        "visual-novel/game/images/backgrounds/family-home.png"
+      ],
+      "output_id": "exec-70580e92-2d96-4a32-8291-a38ca1eb3292",
+      "selected": true
+    },
+    {
+      "id": "book-one-memorial-plaza-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. Create the central community plaza of this same settlement at a quiet memorial for a child who died. Same organic architecture and garden palette, subdued late daylight, a broad simple central gathering space lined with flowers and small handwritten cards (no readable writing), a modest low speaking platform; small distant groups of diverse mourners in ordinary muted clothing, heads inclined, standing or sitting together. No coffins, graveyard, religious symbols, candles everywhere, flags or triumphal ceremonial architecture. Keep foreground open, modest sincere communal grief, recognizable Lumen not medieval church.",
+      "references": [
+        "visual-novel/game/images/backgrounds/community-courtyard.png"
+      ],
+      "output_id": "exec-9368b8d6-8354-4c3a-b8c2-a113d2137e9f",
+      "selected": true
+    },
+    {
+      "id": "book-one-memory-mural-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. A new camera angle in Maia's garden facing a broad warm plaster wall near the pond, shaded teal plants and small amber lights. The wall holds a visibly hand-painted CHILD'S memorial mural of adventures: three children seen in simplified painted profile, a chestnut-curled olive-skinned girl, a rich-brown-skinned chestnut-haired girl, and a fair blond boy, exploring an imagined island with a treehouse and little waterwheel. Paintings are child-made affectionate memories, not realistic photographs or magical living people. Small jars of pigment, brushes, a rag and unfinished colored shapes by the wall. No lettering, no names, no grave markers, no actual people. Bittersweet calm, enough light to see the brushwork.",
+      "references": [
+        "visual-novel/game/images/backgrounds/garden-close.png"
+      ],
+      "output_id": "exec-e6ae7b17-fadc-41e8-9d3b-9440f287eec6",
+      "selected": false
+    },
+    {
+      "id": "book-one-music-room-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. A new adjacent room of the reference home: Selene's acoustically considered music room, upright wooden piano and bench in upper central composition, a small flute lying clearly on its music stand, a harp to one side, curved timber acoustic slats and living wall panels, low cushions, warm evening lamp, quiet violet/teal shadows. Intimate and practical rather than ornate cathedral.",
+      "references": [
+        "visual-novel/game/images/backgrounds/family-home.png"
+      ],
+      "output_id": "exec-5c3c0d02-f4c7-4603-bb2a-c33ad6d3cbf6",
+      "selected": true
+    },
+    {
+      "id": "book-one-sage-room-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. A new adjacent room of the reference home: Sage's private room for comfort and bedtime stories. Low semicircle of many soft floor cushions and warm woven blankets, a cozy recessed sleeping alcove, small low table with two candle lanterns, textured plaster and timber, small plants, no dining table or piano. Intimate amber candlelight shading into deep teal, a gentle unhurried evening.",
+      "references": [
+        "visual-novel/game/images/backgrounds/family-home.png"
+      ],
+      "output_id": "exec-d69403a3-83de-4b51-b354-6e3b60b3786b",
+      "selected": true
+    },
+    {
+      "id": "book-one-soren-workshop-v1",
+      "prompt": "New 16:9 painterly realistic background for Astravus visual novel. Reference for warm organic materials and detailed artistic finish ONLY; entirely different room. Soren's exploration workshop in Joren's family's home, active technical curiosity: tall sloping workbench centerrear, a SMALL unfinished four-wheel rover prototype, precision handtools, blueprints shown as wordless diagrams, maps and compact mechanical prototypes hanging on a curved timber rack, slim glowing diagnostic surface with blue geometric lines, small artful storagechests. Lowerforeground open, high angled ceiling and doorwayintoa winding passage, deeptealshadowswarm desk light. Cozy practical livedin sciencefiction craftspace, no industrial factory, no glowing neongamer room, no readabletext, no people. Mainroverdetailsabovebottomquarter.",
+      "references": [
+        "visual-novel/game/images/backgrounds/family-home.png"
+      ],
+      "output_id": "exec-2fee5bb0-eefe-459b-a1b0-b4fa928c9f7e",
+      "selected": true
+    },
+    {
+      "id": "book-one-treehouse-memory-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. EDIT the exact referenced rainy treehouse room. Preserve camera, enormous left trunk, open bays, rain outdoors, door, table location, chairs/cushions and architectural proportions. Add a collection of pinned children's drawings to the upper LEFT timber wall and around existing wall spaces: small handmade pictures of a fair blond boy exploring with two girls, shared maps, colored sketches of feathers and a waterwheel. These are ordinary papers in remembrance; no magical ghosts or actual people, no shrine, no flowers/coffin. A few new papers and two drawing pencils on the existing table. Keep warm lamps, deep shaded teal garden, dry cherished papers, no bright sky. No readable text.",
+      "references": [
+        "visual-novel/game/images/backgrounds/treehouse-rain.png"
+      ],
+      "output_id": "exec-cd262dd7-5e91-48d8-8699-cad7fa44985e",
+      "selected": true
+    },
+    {
+      "id": "book-one-waterwheel-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. New close view of a shallow pond in Maia's garden, matching the planting reference. A SMALL child-built wooden miniature water wheel, about forearm length, sits on a simple supported axle at the edge in a trickle of water. Uneven but careful hand-made paddles and pegs; small hand tools, spare offcuts and a cloth on dry stone nearby. Water clearly contacts the lower paddles. Wheel readable upper middle. Plants, teal glows, filtered garden light; no giant mill, no building, no people.",
+      "references": [
+        "visual-novel/game/images/backgrounds/garden-close.png"
+      ],
+      "output_id": "exec-294764fb-741b-4a0e-bfd4-c9c55215aded",
+      "selected": true
+    },
+    {
+      "id": "book-one-workshop-v1",
+      "prompt": "Production background painting for Astravus, a literary kinetic visual novel. Wide 16:9, detailed painterly realism, tactile lived-in wood and warm plaster, deep teal foliage and restrained local amber light, subtle organic technology, matching the supplied reference's finish and world. No text, UI, watermarks or border. Keep focal architecture/details above the bottom quarter, which will hold dialogue. Leave usable open foreground at left and right for character sprites. No people except where specifically requested; no visible outer space unless requested. A new adjacent room of the reference home: Arin's modest biomechanical workshop. Workbench upper middle with a glass jar of screws, sorted trays, articulated small mechanisms, hand tools, a compact irrigation prototype, wood shelves, drawers, warm desk lamp, gentle teal instrument indicators. Clear accessible floor. Functional small human-scale room, not a medieval smithy, not industrial factory.",
+      "references": [
+        "visual-novel/game/images/backgrounds/family-home.png"
+      ],
+      "output_id": "exec-652909f9-a084-4ccf-87b0-3b0089846506",
+      "selected": true
+    },
+    {
+      "id": "book-one-memory-mural-v2",
+      "prompt": "Use case: precise-object-edit, identity correction within a wall painting. Image 1 is the EDIT TARGET: keep this exact garden camera, architecture, pond, plants, sunlight/shadows, amber lamps, plaster wall, bench, paint jars, brushes, painted ocean/island/treehouse/waterwheel, wide 16:9 framing and subdued atmosphere. Images 2 and 3 are ONLY character identity references, not objects to paste in or new people in the garden. On the wall mural there are exactly THREE small painted children facing right: LEFT is Cali, MIDDLE is Cassia, RIGHT is blond Joren. Correct only the two painted girls so their identities match. LEFT: currently reads as a short-haired boy. Make clearly young girl Cali with shoulder-length chestnut CURLY/WAVY hair, a small half-tied section, lightly olive face with small freckles, deep blue eye if visible at this tiny painted scale. Keep her existing walking pose, practical muted clothes, small satchel, and painted storybook simplification. MIDDLE: Cassia retains current long wavy chestnut hair and telescope gesture but give her visibly RICH UMBER / deep warm brown skin and a hint of green at visible eye, matching identity reference 3; do not lighten her skin. RIGHT blond boy Joren remains entirely unchanged. These are affectionate hand-painted remembered adventures by a child, with visible brush strokes on plaster, NOT photoreal figures, and NOT actual people standing in the garden. Keep all three at exactly current sizes and positions. No fourth figure, no new props, no text, no names, no mourning inscription, no grave markers. Do not change anything beyond the two painted girls' hair/face identity details.",
+      "references": [
+        "generation:book-one-memory-mural-v1",
+        "generation:calista-v2",
+        "generation:cassia-v2"
+      ],
+      "output_id": "exec-be8b1395-e945-47db-b2d4-2210560573a9",
+      "selected": true
+    },
+    {
+      "id": "book-one-construction-room-v1",
+      "prompt": "Use case: illustration-story. Production environment background for Astravus, a literary kinetic visual novel, WIDE 16:9. Image 1 is architecture and palette reference: branching timber-like supports, warm unfinished plaster, curved archways, quiet teal shadows and small amber light. Image 2 is technology/art-finish reference only: tactile practical tools and subtle luminous diagrams; do not copy the exact workshop, drafting boards, or rover. Create a NEW ROOM inside the unfinished outer construction areas, viewed from its doorway at a child's eye height. This is a fascinating active building/machine room, not a home workshop and not a ruin. Partly finished curved walls show support ribs and inset channels; neatly grouped raw panel sections, component bins, a few crates and recognizable hand tools sit beside compact advanced material-shaping machinery. One machine has small precise articulated tool arms and soft pale indicator lines, organic technology integrated with wood and metal; another compact mechanism is partly assembled. Evidence of ongoing building, no operating danger, no sparks or threat. A waist-high practical work surface near CENTER holds a small portable device projecting a CLEAR WORDLESS HOLOGRAPHIC ARCHITECTURAL BLUEPRINT into the air above it: pale restrained blue-white wireframe lines forming several curved connected passages, door openings and unfinished rooms, with one visibly bending corridor. The hologram floats above the device, enough three-dimensional separation to read as a projection, transparent so room details remain visible behind it; it is an architectural layout, not stars, a galaxy, code or writing. Keep the hologram and machine details above the bottom quarter (dialogue area). A side arch leads back to the same sort of unfinished passage as reference 1. Gentle diffuse overhead building light plus a few low amber work lights, neutral mysterious DISCOVERY and curiosity, moderate visibility and warmth, no horror gloom, no giant neon glow. Detailed painterly realism with visible material texture and lived-in craft matching both references. Leave some quiet foreground floor at bottom and sides for dialogue/sprites. No people, no children, no hands, no animals. No labels, lettering, numbers, UI, warning signs, watermark or border. No visible outer space, vast spectacular dome, huge starship bridge, magic spell circle, weapon, medieval fantasy armory, cobwebs or decay.",
+      "selected": true,
+      "references": [
+        "visual-novel/game/images/backgrounds/construction-path.png",
+        "visual-novel/game/images/backgrounds/book-one/soren-workshop.png",
+        "revision/latest.md"
+      ],
+      "source_passage": "Book I: Early Friendships \u2014 outer construction exploration, tools and holographic architectural blueprint",
+      "output_id": "exec-a53541dd-5d3c-4f98-907b-267a315710c5.png"
+    }
+  ],
+  "reference_path_base": "Astravus repository root; generation references may also resolve in assets.json or character-assets.json"
+}

@@ -7,10 +7,7 @@ image bg community_courtyard = Transform("images/backgrounds/community-courtyard
 image bg construction_path = Transform("images/backgrounds/construction-path.png", size=(1920, 1080), fit="cover")
 image bg treehouse = Transform("images/backgrounds/treehouse-shaded.png", size=(1920, 1080), fit="cover")
 image bg treehouse_rain = Transform("images/backgrounds/treehouse-rain.png", size=(1920, 1080), fit="cover")
-image calista = Transform("images/characters/calista.png", ysize=730, fit="contain")
 image maia = Transform("images/characters/maia.png", ysize=850, fit="contain")
-image cassia = Transform("images/characters/cassia.png", ysize=740, fit="contain")
-image joren = Transform("images/characters/joren.png", ysize=770, fit="contain")
 
 transform at_left:
     xalign 0.18
@@ -40,18 +37,17 @@ define m = Character("Maia", who_color="#e4bb88")
 define a = Character("Cassia", who_color="#d3b1c8")
 define j = Character("Joren", who_color="#e6b095")
 
-# The generator may flatten a neutral transparency-preview background into RGB.
-# Remove that neutral light matte at render time, keeping source art untouched.
-# This shader is shared by desktop and WebGL builds.
+# Selected RGB actors have a deliberate green backing, removed during rendering.
+# Source art remains unmodified; desktop and WebGL use the same shader.
 init python:
-    renpy.register_shader("astravus.neutral_matte", fragment_300="""
-        float high = max(gl_FragColor.r, max(gl_FragColor.g, gl_FragColor.b));
-        float low = min(gl_FragColor.r, min(gl_FragColor.g, gl_FragColor.b));
-        float neutral = 1.0 - smoothstep(0.035, 0.08, high - low);
-        float paper = smoothstep(0.85, 0.93, low);
-        gl_FragColor *= 1.0 - neutral * paper;
+    # New actors use a deliberately saturated green backing. Key by dominance,
+    # not an exact RGB value, and suppress spill only along keyed edges.
+    # This preserves white hair and pale cloth that a neutral-paper key erases.
+    renpy.register_shader("astravus.chroma_green", fragment_300="""
+        float dominance = gl_FragColor.g - max(gl_FragColor.r, gl_FragColor.b);
+        float key = smoothstep(0.06, 0.32, dominance);
+        float spill = smoothstep(0.02, 0.18, dominance);
+        gl_FragColor.g = mix(gl_FragColor.g,
+            min(gl_FragColor.g, (gl_FragColor.r + gl_FragColor.b) * 0.5), spill);
+        gl_FragColor *= 1.0 - key;
     """)
-
-transform clean_sprite:
-    mesh True
-    shader "astravus.neutral_matte"

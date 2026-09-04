@@ -1,40 +1,46 @@
-# First playable validation
+# Book I preview validation — 0.2.0
 
-Version 0.1.3 verified locally on September 4, 2026, using Ren'Py 8.5.3.26051504 on Linux, after the source, dialogue, parent-age, and scene-continuity pass.
+Verified locally on September 4, 2026, using Ren'Py **8.5.3.26051504** on Linux. The rough 0.1.3 preview and its original validation remain in commit `3dfcf6c`; this document covers the expanded Book I build.
 
 | Check | Result |
 | --- | --- |
-| Ren'Py lint | Pass: 153 dialogue blocks, 1,655 words, 12 images, 18 screens; no script errors or warnings. |
-| Native complete playthrough under Xvfb | Pass: 26 assertions covering title, First Memory without standing sprites, later home and garden, distinct gathering and construction locations, home return, rain image/audio, rollback to the dry room and garden audio, all scenes, manual save/load, history, larger text, solid dialogue background, reduced motion, people guide, completion, Continue, credits, and help. |
-| Chromium WebGL complete playthrough | Pass: the running engine reports 0.1.3 and advances through all five scenes with real click/keyboard input. First Memory, home, gathering, construction, and rainy treehouse backgrounds are checked against the scene; the rain view coincides with rain audio and no standing sprites. Both friends' unlocks, Credits, title, page reload with existing saves, and Continue back to the ending pass. No JavaScript page errors or Ren'Py tracebacks. |
-| Browser cache revalidation | Reproduced the old worker returning a deliberately stale cached response without reaching the server. The fixed worker fetches the current catalog, replaces the stale copy, and serves the refreshed copy when the browser goes offline. Regression included in `browser_smoke.py`. |
-| Startup without WebGL | Original startup failure reproduced with `--disable-webgl`: video-mode initialization fails, followed by `NoneType.update` at the end-screen line despite no input. Fixed export displays a browser/desktop fallback before requesting the engine or game data; regression passes. |
-| Screenshot review | Revised First Memory, home, construction, and rainy treehouse inspected with the reading overlay. All five adult faces and the baby remain clear; the construction light and outdoor rain are visible. Screenshot timing now waits for the home narration after the dissolve. Earlier review covered the planting area, shaded treehouse, title, large text, history, settings, people, and end screen. |
-| Windows/Linux and macOS exports | Version 0.1.3 archives generated successfully. All 12 selected images match their provenance hashes; script, version and visual definitions match source. Font licenses are present; superseded First Memory, the Lumen panorama, unused art, SDK cache, development test cases, and web support sources are excluded. ZIP integrity checked. |
-| Browser export and preview | `build/web.zip` and its nested game archive pass integrity checks. Runtime source and all selected image hashes match the project. Progressive images are delivered beside `game.zip`, whose placeholders refer to them. Build-specific game/bootstrap URLs and their offline catalog entries are present. Local preview serves 0.1.3 with the existing cache fix and `Cache-Control: no-store`. |
-| Git boundaries | All new source and selected assets are under `visual-novel/`. Archives, SDK files, exports, test screenshots/state, compiled scripts, and logs are ignored. |
-| Asset provenance | Selected image dimensions, color modes, SHA-256 hashes, prompts, reference relationships, and generated output IDs recorded in `assets.json`. |
-| Story consistency | All 153 dialogue IDs are unique. Manual comparison restored Cali's eager response to Joren, Cassia's invitation, the familiar treehouse visit, the promise before the rainy passage, and Joren's wonder about talking trees. The premature panorama and explicit Lumen reveal wording are absent. The opening separates First Breath from the later household; the ending no longer implies that a particular seed's sunflower survived the whole childhood interval. Coverage, additions, omissions and age uncertainties are documented in `ADAPTATION.md` and `ART_DIRECTION.md`. |
+| Script lint | Pass: **697 dialogue blocks, 7,894 words, 44 images, 18 screens**; no script warnings or errors. |
+| Native complete playthrough | Pass: **60 assertions across all 32 scenes**. Includes title and ending, manual save/load, history, larger text, solid dialogue panel, reduced motion, People, source-order reveals, changed child stages and clothing, both flute cues, dry/rain rollback and audio, grief state, Credits, Continue and fresh-start reset. |
+| Chromium full playthrough | Pending final exported-build run. |
+| Cache and unavailable WebGL | Pending final exported-build run. |
+| Image provenance | Pass: **44 selected images and 68 generation records** across the three manifests. Files, dimensions, modes and SHA-256 hashes match. Selected generations, runtime definitions and complete reference chains resolve; no unlisted images remain in the runtime tree. |
+| Audio | Pass: all **18 delivered assets** decode correctly. Format, stereo content, DC, clipping, oversampled peak estimates, duration and loop boundaries pass. All thirteen compressed loops preserve their masters' frame counts; the report records exact hashes and measurements. |
+| Native screenshot review | Inspected First Memory, family spaces, young and older children, dry/rain treehouse, Tree of Echoes, finished water wheel, construction-room blueprint, dome summit, grief, mural and ending. Text fits the reading panel. Age and outfit changes are visible. Pose conflicts during rescue, flute playing, embraces and brush-washing are avoided by hiding standing portraits. |
+| Exports | Pending final package integrity and source/hash checks. |
+| Source coverage | Compared against Book I of `revision/latest.md`, from First Breath through annual remembrance. Every mapped encounter, development, reveal and consequence is represented; inventories and recurring routines are condensed. No Book II events or alternate outcomes. See `BOOK_ONE_COVERAGE.md`. |
+| Repository boundaries | Source, selected images and delivered audio are under `visual-novel/`. SDK downloads, masters, rejected art, builds, ZIPs, saves, compiled scripts, screenshots and test logs remain ignored. |
 
-Native test command:
+## Reproduce
+
+From `visual-novel/`:
 
 ```sh
+python3 scripts/project.py lint
 python3 scripts/project.py test --headless
-```
-
-Browser test, after building and serving locally:
-
-```sh
+python3 scripts/check_assets.py
+python3 scripts/audio_check.py
 python3 scripts/project.py web
-python3 scripts/project.py serve
-# In another terminal; requires Playwright and its Chromium installation:
-python3 scripts/browser_smoke.py
+python3 scripts/project.py build
+python3 scripts/project.py serve --port 8000
+# Separate terminal, with Playwright and Chromium installed:
+python3 scripts/browser_smoke.py --url 'http://127.0.0.1:8000/?preview=0.2.0'
 ```
 
-The native tests use separate state under `test-results/state/`. The browser test uses a fresh browser context. Browser inspection uses the engine's existing web bridge to observe state; the reading interactions are keyboard and mouse events. Test screenshots live in the ignored `test-results/screenshots/` directory.
+Native tests run with separate state under `test-results/state/`. Browser tests use a fresh Chromium context, observe the running engine through its web bridge, and read using real keyboard/mouse input. They require the exact ordered 32-scene sequence, capture each scene, check both sides of the Lumen reveal, require the older Cassia before loss, and prohibit a live Joren portrait after his death. Screenshots, build logs and audio measurements are local ignored review artifacts in `test-results/`.
 
-The original browser test only covered a graphics-capable context and stopped on reaching the ending. It did not cover the embedded editor's unavailable WebGL context. The expanded test now detects both JavaScript errors and Ren'Py errors printed to the console, covers reload with retained browser saves, and separately verifies the no-WebGL startup path. The startup check is source-controlled in `web/startup.js`; `scripts/project.py web` installs it in the generated page, offline file catalog, and ZIP without changing the downloaded SDK.
+## Saves, startup and caching
 
-The stale-cache issue was separate from the WebGL issue. Ren'Py's supplied worker modified immutable `FetchEvent` request headers; the resulting exception entered its offline fallback and returned an old cached response. `web/service-worker.js` copies the headers into a new request before conditional revalidation and waits for client claiming on activation. Startup checks for worker updates on every load. The exporter also versions the game and bootstrap URLs by build content, and the preview server sends `no-store`. A fresh preview query bypasses an index page already held by the old worker. Browser save storage is not cleared; the playthrough still resumes its completed save after reload.
+Book I uses `Astravus-Book-I` as its save namespace and stamps saves with `astravus-book-one-v1`. Continue selects the newest compatible save; the load UI disables incompatible slots. The old preview's files are preserved. Scene autosaves wait for displayed dialogue so saved thumbnails and state reflect the new setting. Revelation and loss flags belong to the current reading and roll back or reset with it; completing the book does not spoil the next fresh reading's People guide.
 
-Windows and macOS runtimes have not been launched on their target operating systems. The macOS package is unsigned. Mobile, Safari, self-voicing output, and audible playback have not been manually verified; the automated runs used headless displays. Art remains a first playable set with one pose per character and some visible sprite edge light, as documented in `ART_DIRECTION.md`.
+The prior browser failures remain covered. Unsupported WebGL receives a useful fallback before any engine/game download. The service worker copies immutable request headers before revalidation, updates online, and retains the refreshed response for offline access. Startup checks for worker updates. The exporter gives game/bootstrap URLs a content-based build identifier; the local server sends `Cache-Control: no-store`. Browser save storage is not cleared. A tab already running the old engine still needs to navigate to the fresh preview address.
+
+## Scope of verification
+
+The automated runs verify function and presentation state, not literary or artistic finality. Dialogue, pacing and emotional balance still benefit from a full reading. Audio was decoded and measured here; it has **not** been subjectively certified by listening. The score is original stylized synthesis, with no voice performances or recorded crowds.
+
+Windows and macOS packages are built and inspected, but have not been launched on their target operating systems. The Mac package is unsigned. Safari, mobile layouts, self-voicing output and physical speaker/headphone playback have not been manually verified. Character artwork has limited poses and expressions; some speakers remain offscreen. The rain is painted rather than animated. These are current preview limitations, not missing Book I plot events.

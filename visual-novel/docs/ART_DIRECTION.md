@@ -1,48 +1,69 @@
-# A home inside a living world
+# Book I visual direction
 
-The author's repository images are the visual authority. They are concepts, not exact blueprints, but they establish a specific feeling that the first garden candidate missed.
+Version 0.2.0 follows Calista through the whole of **Book I: Seeds of Youth**. The visual language remains painterly, tactile, and lived in: wood, warm plaster, fabric, used belongings, deep teal foliage, and small amber light sources. The author's repository images establish identity and atmosphere; the prose establishes events. Generated views interpret those references and do not become new architectural or biological canon by themselves.
 
-## Reference review
+## Reference authority
 
-| Reference, relative to the repository root | What this adaptation takes from it |
+| Repository reference | What it establishes |
 | --- | --- |
-| `revision/Treehouse.png` | Primary garden reference. A huge close oak, patchwork timber house, branch railings, ladder, a lower door in the trunk, circular seating, cushions and accumulated treasures. Amber lights glow locally within a dark, enclosing, bioluminescent canopy. The place feels handled, repaired, and shared. |
-| `revision/Treehouse.jpg` | Earlier monochrome construction reference. Reinforces the two levels, trunk entrance, intimate scale, irregular wood, and sheltered seating. |
-| `revision/Calista.png` | Primary Calista reference. Chestnut curls, freckles, blue eyes, olive skin, cream and green practical clothing, warmth, and painterly realism. Use the child design in this chapter. |
-| `revision/Calista.jpg` | Earlier monochrome character study; supports facial identity and the distinction between childhood and later life. |
-| `revision/Echoes.jpg` | Enclosure, mystery, luminous foliage, and the scale of a child beneath an old tree. This depicts a separate place: the Tree of Echoes must not become the oak in Maia's garden. |
-| `visuals/lumen-life.png` | Dark teal and blue vegetation, warm occupied spaces, subtle luminous structure. A reference for close local views; the panorama itself is excluded from this chapter because its star-facing enclosure reveals too much too soon. |
+| `revision/Treehouse.png` | A close old oak, shared upper room and lower hollow, patched wood, a ladder and trunk entrance, cushions, treasures, and locally warm lights within an enclosing garden. |
+| `revision/Treehouse.jpg` | Earlier structural reference for the two levels, intimate scale, irregular timber, and sheltered seating. |
+| `revision/Calista.png` and `revision/Calista.jpg` | Chestnut curls, freckles, olive skin, blue eyes, warmth, practical clothing, and the distinction between childhood and later life. |
+| `revision/Echoes.jpg` | The Tree of Echoes: enclosure, luminous foliage, mystery, and the smallness of a child under an ancient tree. This is a separate location from Maia's garden oak. |
+| `visuals/lumen-life.png` | Teal/blue vegetation, inhabited amber-lit spaces, and subtle organic architecture. Its panorama is a reference, not an early establishing shot: the outer enclosure would disclose too much. |
 
-The first generated garden retained an attractive painterly finish but overemphasized bright white structural ribs and an open atrium. Its distant treehouse did not carry the scene. The darker revision brings the tree close, adds the low entrance and shared belongings, and lowers the overall brightness. Light comes mainly from small amber lamps, blue-green foliage, and a narrow shaft reaching the planting beds. The larger spacecraft architecture recedes behind the canopy.
+The author approved the generated treehouse interior as the building reference and asked to preserve the garden's shaded palette, not its earlier cottage-shaped facade. The selected interior therefore governs the exterior: a broad timber room, open viewing bays, branch railings, fabric curtains, a low roof, and an arched entrance beside the trunk. Seen from the garden, the room projects left of the trunk and the entrance sits by the trunk on the right. The ladder, landing, roof, and floor must connect consistently across views.
 
-The author subsequently clarified that the generated interior should be preserved and that the garden's shading and palette should be kept, rather than its particular upper treehouse design. The interior is therefore the authority for the building: a broad shallow timber room with large viewing bays, branch railings, rust curtains, a low roof, and an arched entrance near the trunk. The exterior must accommodate that room. The opaque little cottage facade in the darker garden candidate is superseded.
+Maia's planting area can be brighter than the lookout. The difference comes from position beneath the canopy and local illumination; it does not turn the whole garden into a bright atrium. White structural ribs and broad featureless light must not dominate the intimate garden scenes.
 
-## Current selected assets
+## First Breath and later family life
 
-The built-in image generation tool made seven environment images (including the rainy treehouse variant), four character portraits, and a First Memory family illustration. Exact prompts, reference relationships, and output identifiers are in `assets.json`. Earlier and superseded candidates stay in the ignored `.art-staging/` directory and are excluded from distributions.
+`game/images/cg/first-memory-young.png` preserves the selected First Memory composition: newborn Cali in Maia's arms, Arin to the left, Selene behind the left side, Dorian behind the right side, and Sage to the right. Faces and baby remain above the reading panel. Quiet alcoves, timber, cloth, and lamps represent the Sanctuary without inventing a birth mechanism. The narration makes clear this is the parents' account, not an impossible firsthand newborn memory.
 
-First Memory uses `game/images/cg/first-memory-young.png`, an edit of the previous family illustration that retains its arrangement, room, clothing, and newborn. It depicts Cali safely swaddled in Maia's arms with Arin on the left, Selene behind the left side, Dorian behind the right side, and Sage on the right. Faces and the baby sit above the reading panel. The Sanctuary is represented by warm plaster alcoves, timber, fabric, and quiet lamplight. The image illustrates the parents' account without specifying a birth mechanism or implying that Cali directly remembers it.
+This earlier-life depiction retains stable identities while reducing later-life age cues. Dorian has rich dark brown skin, Selene deep bronze skin, Maia warm brown skin, Arin pale freckles, and Sage warm tan skin with freckles. Selene's white hair is genetic, as described in [her biography](../../wiki/bios/Selene.md); it is not a reason to make her elderly. The parents' later-life biography headings do not establish their ages at Cali's birth. [Astraviin longevity](../../wiki/worldbuilding/The-Astraviin.md) does not justify applying ordinary human aging arithmetic or inventing exact dates for scars and injuries.
 
-The previous illustration overused later-life age cues and missed Dorian's rich dark skin and Selene's deep bronze skin. The revised parents have less lined faces, Maia has fewer silver strands, and Dorian has a predominantly dark beard. Arin remains pale and freckled, Sage warm tan and freckled. Selene's white hair remains: [her biography](../../wiki/bios/Selene.md) explicitly says it began graying at 30 for genetic reasons. Hair color is not a universal age indicator.
+The transition to `family-home.png` precedes the later three-child household. Kael is older than Cali; Lyra's arrival comes afterward. The round table, books, drawings, small fountain, and connecting rooms give the family a recognizable shared home. The newborn composition is not reused to illustrate these later years.
 
-The parents' biographies list 125+ years **by the later narrative**, not at Cali's First Breath. Their exact ages at her birth are not supplied. [Astraviin development](../../wiki/worldbuilding/The-Astraviin.md) also describes long lifespans and continuing vitality, so ordinary human aging arithmetic would be misleading. The younger appearance is an interpretation requested for this earlier scene, not a newly established numerical age. Do not automatically backdate later scars, injuries, gray hair, or posture to First Breath. Future character sheets should distinguish stable identity traits from scene-specific age and clothing.
+## Location and time continuity
 
-`family-home.png` marks the move into later childhood before the narration describes Lyra and the three-child household. Its central round table, cushioned seating, books, artwork, small fountain, branching passages, and filtered ceiling light follow the draft's home description. It returns for the shared-map transition. Pets remain part of the remembered narration rather than being added to every background.
+Original selected views live in `game/images/backgrounds/`. Book I additions live in `game/images/backgrounds/book-one/`.
 
-The later opening and planting lesson use `garden-close.png`: another spot in Maia's garden, away from the oak's dense canopy, with brighter filtered light on the soil and path. The transition occurs as the narration turns from the family to Maia's garden. It is a different camera view, with the treehouse behind the camera. The wider `garden.png` introduces the ladder after planting and returns for the friends' familiar visit. This change of place gives the reflective opening room without requiring the entire garden to share the lookout's darkness.
+| Setting | Selected views and purpose |
+| --- | --- |
+| Maia's garden | `garden-close.png` provides brighter planting ground; `garden.png` establishes the shaded oak, upper room, lower hollow, and ladder. |
+| The family home | `family-home.png`, then `book-one/home-dusk.png` for the quieter later interior. They describe the same domestic world at different emotional and lighting moments. |
+| Individual family spaces | `book-one/workshop.png`, `music-room.png`, `library.png`, and `sage-room.png` give the learning scenes and daily montage actual changes of room. |
+| Tree of Echoes | `book-one/echoes.png` gives the siblings' listening scene a separate ancient tree. Creaks suggest voices; the image must not establish literal talking faces or spirits. |
+| Community life | `community-courtyard.png` for the first encounter; `book-one/festival.png` for lanterns, performance, and living displays; `memorial-plaza.png` for shared grief and later remembrance. |
+| Friends' families | `book-one/cassia-home.png` carries books and craft; `soren-workshop.png` establishes systems, tools, and prototypes. |
+| Exploration and making | `construction-path.png` supports the unfinished passage and blue-edged light; `book-one/construction-room.png` shows machinery and the projected blueprint; `book-one/waterwheel.png` gives the finished pond project its own view; `dome.png` provides the high internal view over Lumen. |
+| The treehouse | `treehouse-shaded.png` is the familiar dry room; `treehouse-rain.png` preserves its geometry with visible rain outside. `book-one/treehouse-memory.png` adds ordinary drawings and messages to that rainy refuge. |
+| The garden mural | `book-one/memory-mural-v2.png` depicts a hand-painted memory of the children's adventures. Painted Joren is part of an artwork, not a living return or supernatural presence. |
 
-`community-courtyard.png` places Cassia's meeting among local families and garden paths. `construction-path.png` places Joren's challenge beside an unfinished arch, stacked panels and scaffolding, with a low ledge and a blue fringe to the light that Cali notices. Neither exposes the outer nature of Lumen. These are new location interpretations, not exact blueprints from the prose.
+The treehouse's table, trunk, open bays, cushions, and camera stay consistent between weather variants. Rain belongs outside the open room; papers and blankets remain sheltered. Do not narrate moving a table or adding window glass when neither appears in the selected art. Weather sound must change with the image, including when rollback returns to an earlier scene. The rain is a painted background treatment, not animated precipitation.
 
-The lookout uses `treehouse-shaded.png`, a lighting edit of the retained interior. Its camera, room geometry, furnishings, and warm lamp pools stay in place; the bright view through the open bays becomes shaded teal foliage. The interior remains the architectural authority for the exterior. The original interior is retained as an ignored art candidate, with its prompt and output identifier preserved in the provenance record.
+New locations should use the same materials and light vocabulary, but visual consistency does not require identical brightness everywhere. A festival can glow; a music room can be softly lit; the dome view can open outward without becoming an exterior space panorama. Before the Tree of Echoes revelation, local views must respect the same information boundary as the text and People guide.
 
-`treehouse-rain.png` edits that shaded view to show rain beyond the open bays, drops along the eaves and railings, and cooler wet foliage. The table, maps, cushions, trunk, openings, and camera remain in place. The script changes the background together with the ambience before discussing rainy afternoons. It does not claim the table moved, nor put glass into the originally open windows. The rain is painted rather than animated; rollback restores both the earlier view and its garden ambience.
+## Age, clothes, expression, and action
 
-Character identity comes from the reference sheets and character biographies. Calista is a child with chestnut hair, freckles, and green overalls. Maia has warm brown skin, gray-streaked braids, gardening clothes, and a seed in her hand. Cassia has rich umber skin, green eyes, chestnut waves, and a natural wrist birthmark. Joren has fair ruddy skin, blond hair, blue eyes, and practical mended clothes.
+The detailed stage map is [CHARACTER_CONTINUITY.md](CHARACTER_CONTINUITY.md). Early play clothes, home clothes, festival clothes, later-childhood outfits, disagreement expressions, mourning clothes, and a painting apron serve different times or activities. Reusing an outfit during a continuous activity is natural; wearing the earliest child design unchanged through the later projects is not. The water-wheel transition introduces longer limbs and less round faces as well as new clothing. This is still childhood, not Book II's late teens.
 
-These are first-playable design selections, not a declaration that the author has approved final character models. There is one standing pose per character. Future angles should use the retained interior and reconciled exterior together. Seen from the garden, the room projects left from the trunk and its arched entrance sits by the trunk at the right end; viewed outward from inside, that relationship reverses. The ladder must reach the entrance landing, and the floor and roof must span the same room in both views.
+Preserve recognizable facial structure, hair, skin, and eye color across variants. Wardrobe colors and patterns are production choices unless the manuscript specifies them. Subdued grief clothing is personal dress, not an invented Astraviin mourning uniform. Annual gatherings can be recalled without placing the same child sprite in every future year.
 
-## Compositing and source preservation
+New everyday parent sprites follow the First Memory identities, with modest later childhood-era changes. Maia's seed-holding pose belongs to the planting lesson; use empty hands elsewhere. A festival lantern or painting palette must not appear before it is held or remain after it is set down.
 
-The generator flattened a transparency checkerboard into the RGB files for Calista, Cassia, and Joren, including after a requested transparency correction. The game therefore removes bright neutral matte pixels with a shared Ren'Py shader in `game/visuals.rpy`. The PNG source files are preserved as generated. Maia has an alpha channel but retains some painted rim light. These are working composites; future sprite revisions should provide clean alpha and a broader expression set.
+Standing portraits do not illustrate every action. Hide conflicting sprites for the flute performance, close listening at the tree, pond rescue, lap-and-blanket story, embracing, or lantern release. Narration can carry an action over the environment. The preview includes expanded expressions and wardrobe, but still has limited poses and no separate portrait for every person who speaks. Those are presentation limits, not evidence that an offscreen character is absent from the story.
 
-The title and reading interface use dark teal, restrained gold, generous text spacing, and native vector gradients. UI darkening is a separate layer so the selected paintings remain replaceable without destructive edits. No menu or story text is baked into art.
+## Compositing, provenance, and review
+
+The early character outputs contained flattened transparency checkerboards. The current Book I variants use generated saturated-green backgrounds and a single runtime `astravus.chroma_green` shader to remove that background. This protects Selene's white hair and pale highlights from the older light-matte approach. These RGB files are not authored-alpha PNGs. Positional transforms at call sites must not apply the legacy cleanup shader a second time. Maia's original garden portrait is a separate retained asset with an alpha channel.
+
+Full prompts, source relationships, output identifiers, sizes, modes, and hashes are recorded in:
+
+- [assets.json](assets.json): the selected opening family, garden, treehouse, and encounter references.
+- [character-assets.json](character-assets.json): Book I character stages, wardrobe, emotion, and compositing variants.
+- [environment-assets.json](environment-assets.json): the added family spaces, festival, projects, later views, and remembrance art.
+
+Selected runtime files belong in Git. Downloaded tools, superseded generations, and unused candidates remain in ignored cache or staging directories and are excluded from packages. The manifests preserve provenance; they are not proof that every new image has received final author approval.
+
+The interface uses dark teal, restrained gold, large text, and separate vector shading layers. Text remains rendered by the game rather than baked into illustrations. Review compositing against both bright garden and dark interior views, check held objects and age changes in scene context, and verify that drawings remain recognizable as drawings after the loss. Actual runtime results belong in [VALIDATION.md](VALIDATION.md); this document records direction and continuity requirements rather than claiming those checks have passed.

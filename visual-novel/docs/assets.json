@@ -17,16 +17,6 @@
       "mode": "RGB"
     },
     {
-      "file": "game/images/characters/calista.png",
-      "generation": "calista-v2",
-      "sha256": "b83d6f14e42d14bc92d5d6de56ce6e919273737b5d0a7c6574d8827857fa050f",
-      "size": [
-        1021,
-        1540
-      ],
-      "mode": "RGB"
-    },
-    {
       "file": "game/images/characters/maia.png",
       "generation": "maia-v1",
       "sha256": "2d7d24a32ea57345cd91090c9b7fbfa051e3fdf7ebd65160421117dee2c8eb0b",
@@ -35,26 +25,6 @@
         1536
       ],
       "mode": "RGBA"
-    },
-    {
-      "file": "game/images/characters/cassia.png",
-      "generation": "cassia-v2",
-      "sha256": "48f683109b1f70649db902226bdfe22cbed99505a822616f054aa686dd3b5ba1",
-      "size": [
-        1024,
-        1536
-      ],
-      "mode": "RGB"
-    },
-    {
-      "file": "game/images/characters/joren.png",
-      "generation": "joren-v2",
-      "sha256": "c13a84198777a3b330170d02cbe2b3584272d75cd05e2eae20fa7131033612b9",
-      "size": [
-        1024,
-        1536
-      ],
-      "mode": "RGB"
     },
     {
       "file": "game/images/backgrounds/garden-close.png",
@@ -199,29 +169,32 @@
     {
       "id": "calista-v2",
       "prompt": "Use case: background-extraction. Edit target: the attached Calista character sprite. The checkerboard currently in this file is PAINTED INTO AN RGB IMAGE, not real transparency. Remove the entire painted checkerboard background and export a genuine RGBA PNG cutout with alpha=0 outside the figure. Keep the girl's exact face, hair, outfit, pose, proportions, full-body framing and all character pixels unchanged. Preserve loose hair edges. No checkerboard pixels, white matte, dark matte, glow, shadow or environment in the output. This is a production sprite that must composite cleanly over an existing painting. One figure only. Actual transparency, not a picture representing transparency.",
-      "selected": true,
+      "selected": false,
       "references": [
         "generation:calista-v1"
       ],
-      "output_id": "exec-56c65e2b-d25f-421a-a80d-0a167fc672ab.png"
+      "output_id": "exec-56c65e2b-d25f-421a-a80d-0a167fc672ab.png",
+      "note": "Retired checkerboard-backed sprite; keyed Book I successor is in character-assets.json."
     },
     {
       "id": "joren-v2",
       "prompt": "Use case: background-extraction with clothing repair. Edit target: attached Joren sprite. Remove the PAINTED-IN checkerboard from this RGB image and produce a genuine RGBA PNG with alpha=0 outside the figure, no background or cast shadow or halo. Preserve the boy's identity, exact face, blond hair, blue eyes, pose, full-body framing and palette. Repair the large ragged holes in his shorts and frayed tears in the orange shirt: these are practical well-kept clothes with small neat mended patches, not rags. Keep a small gap between his front teeth. No added props. Real transparency, no checkerboard illustration.",
-      "selected": true,
+      "selected": false,
       "references": [
         "generation:joren-v1"
       ],
-      "output_id": "exec-f3315592-7c2b-457a-8e8b-a0aedee693c3.png"
+      "output_id": "exec-f3315592-7c2b-457a-8e8b-a0aedee693c3.png",
+      "note": "Retired checkerboard-backed sprite; keyed Book I successor is in character-assets.json."
     },
     {
       "id": "cassia-v2",
       "prompt": "Use case: identity-preserve. Edit target: attached Cassia sprite. Correct her skin to a clearly rich, deep umber brown, as described in the source character bio, while preserving her exact face, deep green eyes, chestnut curls, child proportions, pose, clothing and full-body composition. The crescent on her left wrist is a subtle natural darker skin birthmark, NOT a yellow glowing symbol; correct that. Remove the gold background halo. Output a genuine transparent RGBA PNG with alpha=0 everywhere outside her silhouette, clean hair edges, no backdrop, no checkerboard or cast shadow. Keep a softly lit painterly appearance suited to a sheltered garden, not intense dramatic rim lighting.",
-      "selected": true,
+      "selected": false,
       "references": [
         "generation:cassia-v1"
       ],
-      "output_id": "exec-26cfffbf-f0ef-48a3-b93b-16af3b5d1162.png"
+      "output_id": "exec-26cfffbf-f0ef-48a3-b93b-16af3b5d1162.png",
+      "note": "Retired checkerboard-backed sprite; keyed Book I successor is in character-assets.json."
     },
     {
       "id": "garden-v3",

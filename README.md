@@ -14,6 +14,8 @@ Start with `revision/latest.md` for the latest draft of the Calista Arc, the mos
 
 If you're simply interested in the worldbuilding, a good first path is through the wiki.
 
+For the playable adaptation, see [the visual novel](visual-novel/README.md). Its current Ren'Py preview covers Book I, *Seeds of Youth*, as a fixed story with illustrated scenes and an original instrumental score. Build instructions and production notes live in that subfolder.
+
 Start with `wiki/SETTING.md` for the broad shape of the world.  
 Then read `wiki/CHARACTERS.md` to meet the people, families, companions, and living ships.  
 Use `wiki/TIMELINE.md` to follow Calista’s life across the larger arc.

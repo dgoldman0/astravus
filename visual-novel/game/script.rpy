@@ -4,16 +4,20 @@ label start:
     stop music fadeout 1.0
     $ met_cassia = False
     $ met_joren = False
+    $ visited_scenes = []
+    $ pending_scene_save = None
+    $ lumen_known = False
+    $ joren_lost = False
+    $ childhood_stage = "early"
     $ quick_menu = True
     jump chapter_one
 
 label chapter_one:
-    $ scene_title = "First memory"
-    $ scene_number = 1
+    $ enter_scene("first_memory")
     scene cg first_memory
     with mood_transition()
-    play music "audio/first_light.wav" fadein 2.0
-    call screen chapter_card("BOOK I · SEEDS OF YOUTH", "A place to begin", "An opening memory")
+    play music "audio/first_light.ogg" fadein 2.0
+    call screen chapter_card("BOOK I", "Seeds of Youth", "Calista's childhood · A life remembered")
     $ remember_scene("first_memory")
 
     r "My earliest memory wasn't really mine." id opening_001
@@ -35,7 +39,7 @@ label chapter_one:
     n "Sage made sure everyone had their say. My older brother Kael usually had a plan; my younger sister Lyra usually had questions about it." id opening_012
     scene bg garden_close
     with mood_transition()
-    play ambience "audio/garden_air.wav" fadein 2.0
+    play ambience "audio/garden_air.ogg" fadein 2.0
     $ remember_scene("garden")
     n "And Maia had the garden." id opening_013
     n "It folded around our home: pond water, dark leaves, paths lit by little living lights. Beyond the garden wall, there were paths I had yet to follow." id opening_014
@@ -44,10 +48,10 @@ label chapter_one:
     n "When I try to remember the beginning, that is where I find myself." id opening_017
 
 label garden_lesson:
-    $ scene_title = "A small beginning"
-    $ scene_number = 2
-    show maia at clean_sprite, at_right
-    show calista at clean_sprite, at_left
+    $ enter_scene("garden")
+    play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0
+    show maia at at_right
+    show calista young at at_left
     with mood_transition()
     n "One morning Maia cleared a little patch beside the path and called me over." id seed_001
     m "Here, Cali." id seed_002
@@ -86,18 +90,20 @@ label garden_lesson:
     with mood_transition()
     n "From that patch I could see the ladder into the old oak. I'd played in the hollow underneath it, but I had never climbed all the way up." id seed_039
     $ renpy.force_autosave(take_screenshot=True, block=True)
+    call family_book_one
 
 label meeting_cassia:
-    $ scene_title = "An invitation"
-    $ scene_number = 3
+    $ enter_scene("meeting_cassia")
     scene bg community_courtyard
     with mood_transition()
+    play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0
+    play ambience "audio/plaza_air.ogg" fadeout 1.5 fadein 1.5
     n "As I grew, I went farther from the garden. At one community gathering, I stopped to listen to a girl telling a story." id cassia_001
     n "A few children sat around her. I stayed at the edge, with my sketchbook held against my chest." id cassia_003
-    show cassia at clean_sprite, at_right
+    show cassia young at at_right
     with mood_transition()
     a "Nobody's ever seen it. It only comes out in the dark." id cassia_004
-    show calista at clean_sprite, at_left
+    show calista young at at_left
     with mood_transition()
     c "Then how do you know it's got wings?" id cassia_005
     a "You can hear them." id cassia_007
@@ -129,15 +135,17 @@ label meeting_cassia:
     with mood_transition()
     n "At the next gathering, I went looking for her." id cassia_023
     $ renpy.force_autosave(take_screenshot=True, block=True)
+    call cassia_family_visit
 
 label meeting_joren:
-    $ scene_title = "Something worth finding"
-    $ scene_number = 4
+    $ enter_scene("meeting_joren")
     scene bg construction_path
     with mood_transition()
+    play music "audio/discovery_theme.ogg" fadeout 1.5 fadein 1.5
+    play ambience "audio/workshop_air.ogg" fadeout 1.5 fadein 1.5
     n "I met Joren near one of Lumen's construction zones. New passages were opening there, and he was collecting anyone who would follow him." id joren_002
-    show joren at clean_sprite, at_right
-    show calista at clean_sprite, at_left
+    show joren young at at_right
+    show calista young at at_left
     with mood_transition()
     j "Come on! Let's see who can find the coolest thing." id joren_004
     $ met_joren = True
@@ -166,6 +174,7 @@ label meeting_joren:
     hide calista
     hide joren
     with mood_transition()
+    call joren_family_visit
     n "When I introduced him to Cassia, he wanted to know where the creature in my sketchbook lived. Cassia said she could show him." id joren_018
     scene bg family_home
     with mood_transition()
@@ -175,11 +184,11 @@ label meeting_joren:
     $ renpy.force_autosave(take_screenshot=True, block=True)
 
 label the_treehouse:
-    $ scene_title = "Our place in the branches"
-    $ scene_number = 5
+    $ enter_scene("treehouse")
     scene bg garden
     with mood_transition()
-    play ambience "audio/garden_air.wav" fadein 2.0
+    play music "audio/discovery_theme.ogg" fadeout 1.5 fadein 1.5
+    play ambience "audio/garden_air.ogg" fadein 2.0
     play sound "audio/wood.wav"
     n "One afternoon I climbed up ahead of the others. Joren stopped on the landing to help Cassia with the last rung." id tree_001
     j "Remember the first time, Cali? You wouldn't look down." id tree_002
@@ -191,8 +200,8 @@ label the_treehouse:
     $ remember_scene("treehouse")
     n "Our drawings covered the walls. Stones and feathers filled the little chests; the blankets never stayed folded for long." id tree_007
     n "Through the leaves, we could see patches of Maia's garden and the glowing paths below." id tree_008
-    show cassia at clean_sprite, at_left
-    show joren at clean_sprite, at_right
+    show cassia young at at_left
+    show joren young at at_right
     with mood_transition()
     a "Do you think we'll ever outgrow this place?" id tree_010
     c "We could move the table. There's room." id tree_011
@@ -223,8 +232,10 @@ label the_treehouse:
     n "When we needed more supplies, someone went down to the hollow beneath the treehouse. We kept treasures there, too, behind its second entrance." id tree_026
     hide cassia
     hide joren
+    $ enter_scene("rain_refuge")
+    play music "audio/rain_refuge.ogg" fadeout 2.0 fadein 3.0
     stop ambience fadeout 2.0
-    play ambience "audio/rain.wav" fadein 3.0
+    play ambience "audio/rain.ogg" fadein 3.0
     scene bg treehouse_rain
     with mood_transition()
     n "On rainy afternoons, we stayed under the blankets and listened to the drops pattering on the wooden roof." id rain_001
@@ -241,11 +252,4 @@ label the_treehouse:
     a "You have to let me tell it." id rain_015
     n "We settled closer under the blanket, and she began." id rain_016
     n "Rain kept falling through the leaves. For once, Joren wasn't in a hurry to go anywhere." id rain_020
-    $ persistent.chapter_complete = True
-    $ renpy.save_persistent()
-    $ renpy.force_autosave(take_screenshot=True, block=True)
-    window hide
-    $ quick_menu = False
-    call screen chapter_end
-    stop ambience fadeout 1.5
-    return
+    jump book_one_later

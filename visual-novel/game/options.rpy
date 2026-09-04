@@ -1,4 +1,4 @@
-# Astravus: A Place to Begin — an authored, linear opening chapter.
+# Astravus: Seeds of Youth — the complete first book, told as a kinetic novel.
 init -10 python:
     gui.init(1920, 1080)
 
@@ -11,8 +11,11 @@ init -10 python:
             renpy.save_persistent()
 
     def latest_reading_slot():
-        # Exclude Ren'Py's internal rollback/test trace files from Continue.
-        return renpy.newest_slot(r"(?:auto-|quick-|[0-9]+-)[0-9]+$")
+        # A desktop checkout also sees game/saves from the rough prototype.
+        # Keep those files, but never Continue into an incompatible old script.
+        slots = renpy.list_slots(r"(?:auto-|quick-|[0-9]+-)[0-9]+$")
+        current = [slot for slot in slots if compatible_book_save(slot)]
+        return max(current, key=lambda slot: renpy.slot_mtime(slot) or 0) if current else None
 
     def readable_text():
         return 39 if persistent.large_text else 33
@@ -20,20 +23,20 @@ init -10 python:
     def mood_transition():
         return None if persistent.reduced_motion else Dissolve(0.65)
 
-define config.name = "Astravus — A Place to Begin"
-define config.version = "0.1.3"
-define build.name = "astravus-chapter-one"
-define config.save_directory = "Astravus-Chapter-One"
-define config.window_title = "Astravus · A Place to Begin"
+define config.name = "Astravus — Seeds of Youth"
+define config.version = "0.2.0"
+define build.name = "astravus-book-one"
+define config.save_directory = "Astravus-Book-I"
+define config.window_title = "Astravus · Seeds of Youth"
 define config.has_sound = True
 define config.has_music = True
 define config.has_voice = False
-define config.main_menu_music = "audio/first_light.wav"
+define config.main_menu_music = "audio/first_light.ogg"
 define config.default_music_volume = 0.32
 define config.default_sfx_volume = 0.4
 define config.default_text_cps = 38
 define config.default_afm_time = 12
-define config.history_length = 250
+define config.history_length = 1200
 define config.autosave_slots = 3
 define config.autosave_on_quit = True
 define config.autosave_on_choice = False
@@ -53,8 +56,6 @@ default persistent.reduced_motion = False
 default persistent.high_contrast = False
 default persistent.seen_scenes = []
 default persistent.chapter_complete = False
-default scene_title = "A place to begin"
-default scene_number = 1
 default quick_menu = True
 default met_cassia = False
 default met_joren = False

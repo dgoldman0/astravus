@@ -64,13 +64,13 @@ screen main_menu():
         spacing 18
         add "ui/constellation.svg"
         text "A S T R A V U S" style "title_text" size 67
-        text "A PLACE TO BEGIN" style "eyebrow_text" size 24
+        text "SEEDS OF YOUTH" style "eyebrow_text" size 24
         null height 12
         text "A life remembered.\nA world that holds it." size 31 color "#c6ccbc" line_spacing 8
         null height 20
         if latest_reading_slot():
             textbutton "Continue" action FileLoad(latest_reading_slot(), slot=True, confirm=False) style "title_button"
-        textbutton "Begin the chapter" action Start() style "title_button"
+        textbutton "Begin Book I" action Start() style "title_button"
         hbox:
             spacing 14
             textbutton "Load" action ShowMenu("load")
@@ -84,7 +84,7 @@ screen main_menu():
         ypos 932
         spacing 12
         text "BOOK I   /   SEEDS OF YOUTH" style "eyebrow_text"
-        text "Chapter one · A linear visual novel · About 10 minutes" style "small_text" size 20
+        text "The complete first book · A kinetic novel · About an hour" style "small_text" size 20
     text "01" xpos 1780 ypos 936 font "fonts/Story-Serif.ttf" size 64 color "#e6cf9b"
 
 style title_button:
@@ -99,6 +99,8 @@ style title_button_text:
     hover_color "#ffffff"
 
 screen say(who, what):
+    if pending_scene_save == scene_key:
+        timer 0.5 repeat True action Function(save_scene_checkpoint)
     add "ui/dialogue-shade.svg" yalign 1.0
     if persistent.high_contrast:
         add Solid("#061719", xsize=1920, ysize=300) pos (0, 780) anchor (0, 0)
@@ -117,7 +119,7 @@ screen say(who, what):
                 text "CALISTA · A MEMORY" style "eyebrow_text" size 18
             text what id "what" size readable_text() line_spacing 7
     text "[scene_title]" xpos 60 ypos 40 size 23 color "#e8ddc8" outlines [(1, "#081b1c", 0, 1)]
-    text "0[scene_number] / 05" xpos 1770 ypos 40 size 20 color "#e8ddc8" outlines [(1, "#081b1c", 0, 1)]
+    text "[scene_number:02d] / [BOOK_SCENE_COUNT:02d]" xpos 1750 ypos 40 size 20 color "#e8ddc8" outlines [(1, "#081b1c", 0, 1)]
 
 screen quick_menu():
     zorder 100
@@ -170,9 +172,9 @@ screen chapter_end():
         xalign .5
         yalign .45
         spacing 25
-        text "END OF CHAPTER ONE" style "eyebrow_text" xalign .5
-        text "A place to return to." style "title_text" xalign .5
-        text "Thank you for spending a little time in Lumen." size 29 color "#bfcabb" xalign .5
+        text "END OF BOOK I · SEEDS OF YOUTH" style "eyebrow_text" xalign .5
+        text "What remains." style "title_text" xalign .5
+        text "Thank you for sharing this part of Calista's life." size 29 color "#bfcabb" xalign .5
         null height 25
         textbutton "Return to title" action Return() xalign .5
         textbutton "Credits" action ShowMenu("about") xalign .5
@@ -225,13 +227,13 @@ screen pause_menu():
 
 screen save():
     tag menu
-    use file_slots("Save your place")
+    use file_slots("Save your place", saving=True)
 
 screen load():
     tag menu
     use file_slots("Return to a memory")
 
-screen file_slots(title):
+screen file_slots(title, saving=False):
     use book_menu(title):
         vbox:
             spacing 22
@@ -251,12 +253,16 @@ screen file_slots(title):
                         background Solid("#1a3030")
                         hover_background Solid("#2c4240")
                         action FileAction(slot)
+                        sensitive saving or FileJson(slot, "book_id") == BOOK_SAVE_ID
                         key "save_delete" action FileDelete(slot)
                         vbox:
                             spacing 8
                             add FileScreenshot(slot) xysize (390, 219)
-                            text FileTime(slot, format="%b %d · %H:%M", empty="Empty slot") size 23
-            text "Automatic saves are made between scenes. Manual saves keep your exact place." style "small_text"
+                            if FileLoadable(slot) and FileJson(slot, "book_id") != BOOK_SAVE_ID:
+                                text "Earlier draft save" size 23
+                            else:
+                                text FileTime(slot, format="%b %d · %H:%M", empty="Empty slot") size 23
+            text "Automatic saves keep each new scene. Manual saves keep your exact place." style "small_text"
 
 screen preferences():
     tag menu
@@ -323,26 +329,38 @@ screen people():
             draggable True
             vbox:
                 spacing 25
-                text "The people in this chapter" style "eyebrow_text"
+                text "The people you have met" style "eyebrow_text"
                 text "Cali / Calista" color "#d9bf8e" size 31
                 text "A curious child who sees the world through color and drawing. Her older self is remembering these scenes." xmaximum 1220
                 text "Her five parents" color "#d9bf8e" size 31
                 text "Maia tends living ecosystems. Arin designs biomechanical interfaces. Selene works with sound. Dorian keeps oral histories. Sage helps people through transitions. Together they raise Cali, her older brother Kael, and her younger sister Lyra." xmaximum 1220 line_spacing 6
                 if met_cassia:
                     text "Cassia" color "#d9bf8e" size 31
-                    text "Cali's friend: a storyteller who always has room for one more idea." xmaximum 1220
+                    if joren_lost:
+                        text "Cali's closest friend, a storyteller. They are learning how to remember Joren together." xmaximum 1220
+                    else:
+                        text "Cali's friend: a storyteller who always has room for one more idea." xmaximum 1220
+                if "cassia_home" in visited_scenes:
+                    text "Thalia and Lyron" color "#d9bf8e" size 31
+                    text "Cassia's parents. Thalia helps people resolve disagreements; Lyron tends agricultural systems and shares a friendship with Dorian." xmaximum 1220 line_spacing 6
                 if met_joren:
                     text "Joren" color "#d9bf8e" size 31
-                    text "Cali's friend: an eager explorer with an infectious laugh." xmaximum 1220
+                    text people_joren_description() xmaximum 1220
+                if "joren_home" in visited_scenes:
+                    text "Soren" color "#d9bf8e" size 31
+                    text "Joren's mother, a systems designer whose workshop is full of tools, plans and unfinished inventions." xmaximum 1220
+                if "kaleb_walk" in visited_scenes:
+                    text "Kaleb" color "#d9bf8e" size 31
+                    text "Joren's father, an explorer who shares his discoveries and the stories of his journeys." xmaximum 1220
                 text "Lumen" color "#d9bf8e" size 31
-                text "Cali's home: gardens, gathering places, and paths she is still learning to follow. Her family is one of the constellations that make up its community." xmaximum 1220 line_spacing 6
+                text people_lumen_description() xmaximum 1220 line_spacing 6
 
 screen help():
     tag menu
     use book_menu("Take your time"):
         vbox:
             spacing 26
-            text "This chapter tells one fixed story. There are no branching paths or timed choices." xmaximum 1210 size 32
+            text "Book I tells one fixed story. There are no branching paths or timed choices." xmaximum 1210 size 32
             for control, description in [("Click · Enter · Space", "Reveal the current line, then move to the next."), ("Mouse wheel up · Page Up", "Return to an earlier line."), ("Escape · Right click", "Open or close the reading menu."), ("H", "Hide the interface to look at the illustration."), ("V", "Toggle self-voicing."), ("Touch", "Tap to read; use the bottom controls for menus and history.")]:
                 hbox:
                     text control xsize 420 color "#d9bf8e" size 26
@@ -358,16 +376,16 @@ screen about():
             draggable True
             vbox:
                 spacing 25
-                text "Astravus · A Place to Begin" size 35 color "#d9bf8e"
-                text "An adaptation of the opening of Calista's story from the Astravus Collection by dgoldman0." xmaximum 1200
+                text "Astravus · Seeds of Youth" size 35 color "#d9bf8e"
+                text "An adaptation of Book I of Calista's story from the Astravus Collection by dgoldman0." xmaximum 1200
                 text "Story, world, and original visual references\nThe Astravus Collection" line_spacing 7
-                text "Chapter adaptation, interface, and implementation\nDeveloped with Codex" line_spacing 7
+                text "Adaptation, interface, and implementation\nDeveloped with Codex" line_spacing 7
                 text "Illustrations\nGenerated with OpenAI image generation using the collection's visual references, with editorial review." xmaximum 1200 line_spacing 7
-                text "Sound\nOriginal synthesized ambient score and environmental sound by the chapter's procedural audio script." xmaximum 1200 line_spacing 7
+                text "Sound\nOriginal synthesized score, environmental sound and musical lesson cues created for this adaptation. No downloaded recordings or sample libraries." xmaximum 1200 line_spacing 7
                 text "Typography\nLato by Łukasz Dziedzic · DejaVu Serif by the DejaVu project\nFont licenses are included with the game." line_spacing 7
                 text "Built with Ren'Py [renpy.version_only]. Engine license information is included in the distribution." xmaximum 1200
                 textbutton "Ren'Py licenses" action OpenURL("https://www.renpy.org/doc/html/license.html")
-                text "Chapter version [config.version]" style "small_text"
+                text "Book I preview · Version [config.version]" style "small_text"
 
 screen confirm(message, yes_action, no_action):
     modal True
