@@ -1,88 +1,33 @@
 # Nyx Healing Journey
 
 ## Overview
-Within the transcendent dreamscape, Calista encounters [[Nyx]]—a being or aspect of [[Lumen]] associated with shadow, darkness, and the hidden depths of consciousness. This journey leads to healing of old wounds and integration of shadow aspects of herself.
 
-## Setting
+During her transcendence years, Calista seeks help with her lasting grief over Joren. She spends time in communion with Aurora and Nyx, Lumen's parent Astravii, encountering older memories and Joren's transcended parents.
 
-### Location
-- Deep within the dreamscape of Lumen
-- Realm of Nyx—darkness and shadow
+## Setting and Participants
 
-### Environment
-- Darkness that is not frightening but embracing
-- Deep unconscious territory
-- Place where hidden things are revealed
-- Shadow realm of consciousness
-
-### Time
-- During Calista's transition period
-- A necessary stage of preparation
-
-### Atmosphere
-- Deep and mysterious
-- Healing through confrontation
-- Integration of opposites
-- Acceptance of shadow
-
-## Participants
-
-### Primary
-- [[Calista]] - Journey-taker
-- [[Nyx]] - Aspect of Lumen, guide through shadow
-
-### Secondary
-- Other shadow aspects
-- Memories requiring integration
+- **Time:** After Calista's 125th year, during the shared dreams of Book IV.
+- **Places:** An ancient library within Nyx and a beach within a shared dream.
+- **Calista:** Seeking help with grief.
+- **Arista:** An elder from Nyx who offers shared memories.
+- **Soren and Kaleb:** Joren's transcended parents, who share their own continuing sorrow and understanding.
+- **Aurora and Nyx:** Independent parent Astravii whose collective memories support the experience.
 
 ## Detailed Account
 
-The story of the Three Siblings told of [[Shadow]] alongside [[Sol]] and [[Lumen]]—three aspects of existence that together form wholeness. In her transcendent dreams, Calista has encountered the light; now she must journey into the dark.
+Calista acknowledges that Joren's death still haunts her. In Nyx's library, Arista invites her to experience memories of Nyx's early years. Those lives contain hope and struggle that help Calista understand her own sorrow in a broader context.
 
-Nyx appears not as a frightening figure but as a necessary one—the keeper of all that has been hidden, forgotten, or pushed away. To truly transcend, Calista must integrate her shadow: the grief she has not fully processed, the mistakes she has not forgiven herself for, the aspects of her nature she has not fully acknowledged.
+In another dream, Joren's parents meet her on a beach. His father speaks about learning to remember with love alongside pain. Calista wakes with lingering sadness and a growing sense of connection and acceptance.
 
-The journey through Nyx's realm is challenging but not harmful. Calista confronts old wounds—the loss of Joren, the ending of her relationship with Lysandra, moments of failure or harm she has caused. She sees these not as accusations but as parts of herself that have been waiting for acknowledgment.
-
-Nyx guides her toward acceptance. The shadow is not the enemy of light but its complement. The painful experiences of her life have shaped her as surely as the joyful ones. Integrating them is not about forgetting or excusing but about wholeness.
-
-When Calista emerges from the shadow realm, she is more complete. Parts of herself that had been in conflict are now at peace. She carries her whole life—light and shadow together—into her approaching transcendence.
-
-## Importance
-
-### Personal Growth
-- Integration of shadow aspects
-- Healing of old wounds
-- Preparation for wholeness in Lumen
-
-### Thematic Significance
-- Light and shadow as complements
-- Three Siblings mythology made personal
-- Wholeness requiring all aspects of self
-
-### Narrative Role
-- Fulfillment of Three Siblings theme
-- Psychological depth to transcendence
-- Resolution of unprocessed experiences
-
-## Outcome
-
-### Immediate
-- Emotional healing
-- Integration of difficult experiences
-- Greater peace and wholeness
-
-### Long-term
-- Complete preparation for transcendence
-- All aspects of self reconciled
-- Ready to merge fully with Lumen
+Joren himself remains absent. The dreams preserve memories of him and allow communion with his parents; they do not restore his consciousness. Nyx is Lumen's parent, not an aspect of Lumen or a symbolic shadow realm. Sage's story of Aria, Bram, and Cora is a separate teaching tale about cooperation.
 
 ## Related Events
-- [[Three-Siblings-Story]] - Origin of Shadow/Nyx mythology
-- [[Jorens-Death-Accident]] - One of the wounds needing healing
-- [[First-Love-Lysandra]] - Another experience requiring integration
-- [[First-Transition-Dreams]] - Beginning of transcendent experiences
-- [[Final-Integration-Lumen]] - Completion of the journey
 
-## Source Material
-- Based on reference to Nyx and the healing journey within transcendent dreams
-- Connects to the Three Siblings mythology established earlier
+- [The Accident](The-Accident.md)
+- [Meeting Theron](Meeting-Theron.md)
+- [First Transition Dreams](First-Transition-Dreams.md)
+- [Final Integration into Lumen](Final-Integration-Lumen.md)
+
+## Source
+
+[Book IV: Transcendence](../../revision/latest.md#book-iv-transcendence).

@@ -1,5 +1,17 @@
 # Characters - Astravus Calista Full Arc
 
+## Continuity Reference
+
+The aligned [latest draft](../revision/latest.md) and [timeline](TIMELINE.md) establish the sequence of events. Calista is 50 at Elara's First Breath and 125 when Elara is 75. Core Integration occurs at 35; Calista meets Aris around 30, before their first mind-link. Calista's transcendence develops after 125, with no fixed final age.
+
+| Character | Pronouns |
+|-----------|----------|
+| Calista, Maia, Selene, Lyra, Cassia, Elara | she/her |
+| Aris, Dorian, Kael, Joren, Theron | he/him |
+| Arin, Sage, Sol, Lysandra | they/them |
+
+Elara's she/her pronouns are used retrospectively in accounts of her childhood, including before the scene in which she articulates that preference. Arin is Elara's grandparent.
+
 ## Lumen (The Astravus)
 **Lumen** is a young, living spaceship and the primary setting of the story. It is the child of Aurora and Nyx, and serves as both a character and environment. Lumen represents a growing community with a unique culture that blends tradition and innovation. It gradually develops independence while maintaining bonds with its progenitor Astravii.
 
@@ -30,7 +42,7 @@
 ### Elara
 **Age:** 75+ (by the later years of the narrative)
 **Role:** Calista and Aris's daughter
-**Description:** Elara inherits Aris's heterochromia (reversed: right eye dark brown, left eye hazel-green) and Calista's freckle pattern but more pronounced. Unusually small for her age as a child with a later growth spurt in adolescence, her hair is tightly curled—between Calista's waves and Aris's locs. She tends to stand with weight on one foot, slightly tilted. She takes her first breath at the Sanctuary and grows into a remarkable woman, inheriting her grandfather Arin's tinkering spirit and becoming a skilled engineer by age 75. She creates innovative interactive light sculptures and personalized kinetic sculptures that respond to environmental changes.
+**Description:** Elara inherits Aris's heterochromia (reversed: right eye dark brown, left eye hazel-green) and Calista's freckle pattern but more pronounced. Unusually small for her age as a child with a later growth spurt in adolescence, her hair is tightly curled—between Calista's waves and Aris's locs. She tends to stand with weight on one foot, slightly tilted. She takes her first breath at the Sanctuary and grows into a remarkable woman, inheriting her grandparent Arin's tinkering spirit and becoming a skilled engineer by age 75. She creates innovative interactive light sculptures and personalized kinetic sculptures that respond to environmental changes.
 
 **Quirks (from childhood, foreshadowing engineer):**
 - Disassembles everything—cannot resist taking things apart; learned to reassemble after parents insisted
@@ -93,7 +105,7 @@
 ### Kael
 **Age:** Older than Calista
 **Role:** Brother; Future family patriarch
-**Description:** Tall and solidly built with broad shoulders and strong, capable hands—a physique developed through years of athletic pursuits. His skin is deep warm brown, and he has tousled dark hair cut short on the sides but longer on top, often falling across his forehead. Bright hazel eyes—more gold than green—sparkle with mischief, and he has a dimple on his left cheek only, visible when he grins. A small scar marks his right eyebrow from a childhood adventure, and his nose is slightly crooked from being broken during a game. Moves with natural athletic grace, always ready for adventure. Later forms a constellation with Sage and Sol. Adopts a child from the Sanctuary and raises them over five decades, providing Calista with a model of parenting.
+**Description:** Tall and solidly built with broad shoulders and strong, capable hands—a physique developed through years of athletic pursuits. His skin is deep warm brown, and he has tousled dark hair cut short on the sides but longer on top, often falling across his forehead. Bright hazel eyes—more gold than green—sparkle with mischief, and he has a dimple on his left cheek only, visible when he grins. A small scar marks his right eyebrow from a childhood adventure, and his nose is slightly crooked from being broken during a game. Moves with natural athletic grace, always ready for adventure. Later forms a constellation with Sage and Sol. Adopts a child from the Sanctuary shortly after Calista turns 35. Nearly fifteen years of parenting provide Calista with a model before Elara arrives when Calista is 50; Kael continues raising and supporting his child afterward.
 
 **Quirks:**
 - Cannot stay still while talking—paces, fidgets, needs to move

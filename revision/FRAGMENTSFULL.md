@@ -1,10 +1,14 @@
 # FRAGMENTSFULL.md - Master Fragment Extraction Plan
 
+> **Historical snapshot:** Fragment IDs, counts, and line ranges below refer to [the draft at `2370143`](https://github.com/dgoldman0/Astravus/blob/2370143c1458a7a52e30dacc87c0ff12831df71d/revision/latest.md), before the September 2026 continuity and duplication edit. References to `latest.md` below mean that snapshot. These mappings are not current line references; the associated training data has not been regenerated. See [ALIGNMENT.md](ALIGNMENT.md).
+
+
 This document defines the **master extraction plan** for mapping all 276 narrative fragments to disjoint, comprehensive line ranges in `latest.md`.
 
-**Canonical Reference**: `wiki/FRAGMENTS.md` (fragment names and summaries)  
+**Canonical Reference**: `revision/FRAGMENTS.md` (fragment names and summaries)
+
 **Source Text**: `revision/latest.md` (1300 lines)  
-**Training Data**: `voxservice_training/training_data/core/fragments.jsonl`
+**Training Data**: `revision/training_data/fragments.jsonl`
 
 ---
 
@@ -17,7 +21,7 @@ All fragment line ranges are non-overlapping. Fragment N ends at line X, fragmen
 Together, fragments span all narrative content (excluding headers, images).
 
 ### PRESERVATION
-Original 276 fragment names from `wiki/FRAGMENTS.md` are preserved. Short fragments expanded rather than adding new ones.
+Original 276 fragment names from `revision/FRAGMENTS.md` are preserved. Short fragments expanded rather than adding new ones.
 
 ---
 
@@ -380,7 +384,7 @@ Book IV has 52 fragments for 121 lines, requiring very short fragments (~2 lines
 
 ## Alignment with wiki/FRAGMENTS.md
 
-This document uses the **canonical 276 fragment names** from `wiki/FRAGMENTS.md`. Both documents must remain synchronized.
+This document uses the **canonical 276 fragment names** from `revision/FRAGMENTS.md`. Both documents must remain synchronized.
 
 If fragments are renamed or combined, track changes here:
 

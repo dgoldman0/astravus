@@ -90,7 +90,7 @@ These lessons influence:
 ## Related Events
 
 - **Preceding:** [Early Home Life](Early-Home-Life.md)
-- **Following:** [Meeting Aris](Meeting-Aris.md), [First Collaboration with Aris](First-Collaboration-with-Aris.md)
+- **Following:** [Meeting Aris](Meeting-Aris.md), [First Collaboration with Aris](First-Collaboration-Aris.md)
 - **Parallel:** Learning from other parents' lessons
 
 ---

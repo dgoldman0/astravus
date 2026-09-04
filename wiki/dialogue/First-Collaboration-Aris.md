@@ -1,30 +1,30 @@
 # First Collaboration with Aris
 
 ## Context
-Calista and Aris meet at one of her art workshops. Their connection is immediate, sparked by a shared love for the arts. Their first collaboration—combining music and visual art—marks the beginning of their relationship. Aris's communication style is distinctive: their speech has a musical rhythm, they hum and tap while thinking, and they create compositions for specific people and moments. Calista's artistic perception—seeing the world in colors and shapes—finds a perfect counterpart in Aris's musical mind.
+Calista and Aris meet at one of her art workshops. Their connection is immediate, sparked by a shared love for the arts. Their first collaboration—combining music and visual art—marks the beginning of their relationship. Aris's communication style is distinctive: his speech has a musical rhythm, he hums and taps while thinking, and he creates compositions for specific people and moments. Calista's artistic perception—seeing the world in colors and shapes—finds a perfect counterpart in Aris's musical mind.
 
 ## Participants
 - **Aris** - Musician, new acquaintance, speaks with musical rhythm
 - **Calista** - Artist, workshop leader, thinks in visual metaphors
 
 ## Setting
-*A decade or so after Calista began volunteering at the art center, she met Aris at one of her workshops. They had wandered in looking for a quiet space to compose, drawn by the light that spilled from the studio windows. From the first moment—watching them tap an unconscious rhythm against their thigh while studying her paintings—Calista knew there was something different about this person.*
+*A decade or so after Calista began volunteering at the art center, she met Aris at one of her workshops. He had wandered in looking for a quiet space to compose, drawn by the light that spilled from the studio windows. From the first moment—watching him tap an unconscious rhythm against his thigh while studying her paintings—Calista knew there was something different about this person.*
 
 ## Dialogue
 
-*One evening after the workshop had ended, they decided to stay back and experiment. Aris set up their digital piano near Calista's painting station, humming softly as they adjusted the settings—a wandering melody that seemed to have no beginning or end.*
+*One evening after the workshop had ended, they decided to stay back and experiment. Aris set up his digital piano near Calista's painting station, humming softly as he adjusted the settings—a wandering melody that seemed to have no beginning or end.*
 
 **Aris:** *(tapping fingers against the piano's edge, finding a rhythm)* "I've been thinking... hmm-hmm... what happens when two languages try to speak at once? When color answers sound?"
 
-*They looked up, eyes bright with curiosity.*
+*He looked up, eyes bright with curiosity.*
 
 **Calista:** *(tilting her head, considering)* "I've always thought music has shapes. Curves and angles. Sharp notes, soft gradients."
 
 *She trailed off, gesturing vaguely at the air as if tracing something invisible.*
 
-**Aris:** *(nodding, a smile playing at their lips)* "And I've always heard paintings. The tension in a brushstroke, the release in an empty space." 
+**Aris:** *(nodding, a smile playing at his lips)* "And I've always heard paintings. The tension in a brushstroke, the release in an empty space."
 
-*They played a single note, letting it hang in the air.*
+*He played a single note, letting it hang in the air.*
 
 **Aris:** "Let's find out what happens when we stop translating and just... speak together."
 
@@ -40,13 +40,13 @@ Calista and Aris meet at one of her art workshops. Their connection is immediate
 
 *Aris hummed a soft phrase—something that sounded like agreement and wonder combined.*
 
-**Aris:** "Your painting sang back to me. Every brushstroke had a voice." 
+**Aris:** "Your painting sang back to me. Every brushstroke had a voice."
 
-*They tapped a gentle rhythm on their knee, processing.*
+*He tapped a gentle rhythm on his knee, processing.*
 
 **Aris:** "I want to do that again. I want to learn your language, and teach you mine."
 
-*Calista turned to look at them—really look—and felt something shift in her chest, like a color she'd never seen before entering her palette.*
+*Calista turned to look at him—really look—and felt something shift in her chest, like a color she'd never seen before entering her palette.*
 
 **Calista:** "I'd like that. Very much."
 

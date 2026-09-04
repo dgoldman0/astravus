@@ -1,7 +1,7 @@
 # Elara Future Conversations
 
 ## Context
-Multiple conversations between Calista, Aris, and their daughter Elara about life transitions, the future, and the family's journey toward transcendence.
+Multiple conversations between Calista, Aris, and their adult daughter Elara about life transitions, the future, and the family's journey toward transcendence.
 
 ## Participants
 - **Elara** - Daughter, concerned about parents
@@ -18,7 +18,7 @@ Multiple conversations between Calista, Aris, and their daughter Elara about lif
 
 **Calista:** "It's a mix of emotions. There's a sense of peace, but also the sorrow of letting go. Yet, I know this is a part of our journey."
 
-*Elara listened intently, her eyes reflecting the innocence of youth rather than the wisdom of experience.*
+*Elara listened intently, her usual practical confidence giving way to concern.*
 
 **Elara:** "I just want to make sure you're both okay."
 

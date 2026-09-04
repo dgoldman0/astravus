@@ -44,15 +44,15 @@ Calista's five parents—[[Maia]], [[Arin]], [[Selene]], [[Dorian]], and [[Sage]
 
 ## Detailed Account
 
-Transcendence is not death in the traditional sense—it is transformation, the dissolution of individual consciousness into the greater whole of Lumen. The person does not cease to exist; they become part of something larger, their essence joining countless others who have transcended before them.
+Transcendence is a gradual integration of individual consciousness into Lumen, preserving memory and identity. Death before transcendence is a different, permanent loss. The person does not cease to exist; they become part of something larger, their essence joining countless others who have transcended before them.
 
 Yet for those who remain behind in physical form, transcendence carries the weight of loss. The individuals who raised them—who held them as a child, who guided them through life's challenges, who celebrated their achievements—those specific people will merge into the collective.
 
-Maia, Arin, Selene, Dorian, and Sage approach their transcendence with the grace that has characterized their lives. They have lived fully, loved deeply, and contributed meaningfully. They have raised three children—Kael, Calista, and Lyra—who have raised their own families. They have seen the cycle continue. They are ready.
+Maia, Arin, Selene, Dorian, and Sage approach their transcendence with the grace that has characterized their lives. They have lived fully, loved deeply, and contributed meaningfully. They have raised three children—Kael, Calista, and Lyra—who have followed their own paths into parenting, art, and exploration. They have seen the cycle continue. They are ready.
 
 For Calista, this period is profound. She finds herself oscillating between grief for what she will lose and peace about where her parents are going. The dreamlike experiences she has begun having—messages from within Lumen—hint at what awaits them all.
 
-Time with her parents becomes more precious. Conversations carry more weight. Old memories are revisited, new ones are made. Calista helps prepare for the ceremony, learning the traditions she will one day follow herself.
+Time with her parents becomes more precious. Conversations carry more weight. Old memories are revisited, new ones are made. Calista spends time with them in the garden, workshop, and music room as their periods of communion with Lumen grow longer.
 
 ## Importance
 
@@ -62,7 +62,7 @@ Time with her parents becomes more precious. Conversations carry more weight. Ol
 - Processing anticipatory grief
 
 ### Thematic Significance
-- Life and death as transformation
+- Transcendence as transformation, distinct from death
 - Continuation through transcendence
 - The circle completing
 
@@ -75,7 +75,7 @@ Time with her parents becomes more precious. Conversations carry more weight. Ol
 
 ### Immediate
 - Precious final time together
-- Preparation for transcendence ceremony
+- Gradual adjustment to longer periods of communion
 - Emotional processing for all
 
 ### Long-term
@@ -84,12 +84,12 @@ Time with her parents becomes more precious. Conversations carry more weight. Ol
 - Foundation for her own eventual transcendence
 
 ## Related Events
-- [[First-Breath]] - Beginning of the cycle
-- [[Three-Siblings-Story]] - Earlier understanding of Lumen
+- [[Calistas-First-Breath]] - Beginning of the cycle
+- [[The-Three-Siblings-Story]] - Earlier understanding of Lumen
 - [[Meeting-Theron]] - Earlier encounter with transcendence concept
 - [[First-Transition-Dreams]] - Calista's own approaching transcendence
 - [[Maias-Garden-Dream]] - Continued connection after transcendence
 
 ## Source Material
 - Based on references to parents' transcendence
-- Reflects Astravian beliefs about Lumen and the afterlife
+- Reflects Astravian understanding of continued existence within Lumen

@@ -1,5 +1,8 @@
 # Socioeconomic Canon Review: latest.md
 
+> **Historical review:** This January 2026 analysis describes an earlier draft. Consult [ALIGNMENT.md](ALIGNMENT.md) for the September continuity decisions; issue counts and source line numbers below have not been reassessed.
+
+
 This document reviews the main narrative (latest.md) for consistency with the newly established socioeconomic canon in wiki/worldbuilding/Socioeconomics.md.
 
 ---

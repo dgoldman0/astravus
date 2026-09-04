@@ -1,7 +1,7 @@
 # Transcendence Dream: Maia's Garden
 
 ## Context
-As Calista enters her later centuries and approaches transcendence, she experiences deep, shared dreams. In one particularly vivid dream, she reunites with Maia in a lush garden.
+As Calista moves beyond her 125th year and approaches transcendence, she experiences deep, shared dreams. In one particularly vivid dream, she reunites with Maia in a lush garden.
 
 ## Participants
 - **Maia** - Mother, present in the dream

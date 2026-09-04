@@ -1,7 +1,7 @@
 # Elara's Gender Identity Conversation
 
 ## Overview
-[[Elara]] comes to Calista to discuss her gender identity, sharing that she identifies as female. This intimate conversation demonstrates Calista's parenting values and the trust between parent and child.
+[[Elara]] approaches Calista and Aris to discuss her identity and says that she/her pronouns feel right to her. This intimate conversation demonstrates Calista's parenting values and the trust between parent and child.
 
 ## Setting
 
@@ -28,22 +28,16 @@
 
 ### Primary
 - [[Calista]] - Parent, listener
-- [[Elara]] - Child, sharing identity
-
-### Secondary
-- [[Aris]] - Other parent (informed separately or present)
+- [[Aris]] - Parent, present and affirming
+- [[Elara]] - Child, sharing her pronoun preference
 
 ## Detailed Account
 
-Elara approaches Calista with the particular nervousness of a child about to share something deeply personal. She has been thinking about her gender identity, working through her understanding of herself, and now she's ready to share: she identifies as female.
+Elara tells both parents she has been thinking about who she is and what feels right. Calista asks whether she has found something that fits. Elara says that she/her pronouns feel right, and Aris affirms that those are the pronouns they will use.
 
-Calista receives this information with the warmth and acceptance that defines her parenting. There is no surprise or hesitation—only love and affirmation. She thanks Elara for trusting her with something so important and asks what Elara needs from her.
+The retrospective narration already uses she/her for Elara's childhood. This scene records her articulation of that preference; it does not establish a previous identity, a name change, or a separate conversation with Aris.
 
-The conversation that follows is an opportunity for Calista to demonstrate the values she was raised with. Just as her five parents allowed Calista to find her own path, Calista creates space for Elara to be fully herself. She asks questions not to challenge but to understand—what pronouns feel right, what name if any she prefers, how Elara wants to navigate this with others.
-
-Calista shares some of her own journey of self-discovery, connecting across generations while respecting that Elara's experience is uniquely hers. She affirms that identity is personal and evolving, that there is no wrong way to be oneself.
-
-The conversation ends with Elara feeling seen and supported—knowing that her parents are her allies in becoming who she truly is.
+---
 
 ## Importance
 
@@ -67,7 +61,7 @@ The conversation ends with Elara feeling seen and supported—knowing that her p
 ### Immediate
 - Elara feels affirmed and supported
 - Trust between parent and child deepened
-- Practical next steps discussed
+- Both parents affirm her preference
 
 ### Long-term
 - Foundation for Elara's confident self-expression
@@ -78,8 +72,8 @@ The conversation ends with Elara feeling seen and supported—knowing that her p
 - [[Elara-First-Breath]] - Beginning of their relationship
 - [[Parenting-Preparation]] - Values Calista prepared to teach
 - [[Elara-Light-Sculpture-Invention]] - Elara's flourishing
-- [[First-Breath]] - Calista's own path of becoming herself
+- [[Calistas-First-Breath]] - Calista's own path of becoming herself
 
 ## Source Material
-- Based on passage describing this conversation: "Elara approached her, eyes deep and thoughtful" and Calista's response of "love, patience, and understanding"
+- Based on the identity conversation in [Book III](../../revision/latest.md#starting-a-family)
 - Demonstrates Astravian values around identity and acceptance

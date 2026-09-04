@@ -23,7 +23,7 @@ In Arin's workshop, young Calista accidentally knocks over a jar of screws. This
 
 *They knelt beside the scattered screws, already sorting by size with practiced efficiency.*
 
-**Calista:** *(voice wobbling)* "But I ruined your work. I wasn't supposed to touch anything."
+**Calista:** *(voice wobbling)* "But I interrupted your work. I wasn't supposed to touch anything."
 
 *Arin paused, hands still for a moment. When they spoke, their voice was steady—practical, but kind.*
 

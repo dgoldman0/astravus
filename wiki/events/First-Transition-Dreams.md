@@ -15,7 +15,7 @@ As Calista approaches her own transcendence, she begins experiencing dreams that
 - Presence of transcended consciousnesses
 
 ### Time
-- Calista in her final decades of physical life
+- After Calista's 125th year; the length of the remaining transition is unspecified
 - Beginning of transition period
 
 ### Atmosphere
@@ -41,9 +41,9 @@ The first dream arrives unexpectedly. Calista finds herself in a space that is n
 
 The dreams continue, each one offering different experiences. Sometimes she encounters what feel like memories not her own—glimpses of lives lived centuries ago, experiences that belong to others who now form part of Lumen. Sometimes she feels the presence of her parents, not as they were in life but as they are now—transformed, expanded, part of something greater.
 
-Calista comes to understand that these dreams are the beginning of her transition. Her consciousness is starting to attune to Lumen, preparing for the eventual dissolution of her individual self into the collective. The boundary between her and all-that-has-been is growing thin.
+Calista comes to understand that these dreams are the beginning of her transition. Her consciousness is starting to attune to Lumen, preparing to integrate her memories and identity into the collective. The boundary between her and all-that-has-been is growing thin.
 
-The dreams are not frightening, though they are profound. They offer comfort—assurance that transcendence is not an ending but a transformation. They connect her to everyone she has lost and to everyone she will join.
+The dreams are not frightening, though they are profound. They offer comfort—assurance that transcendence is not an ending but a transformation. They connect her to people who have transcended. Joren remains absent: memories of him can be shared, but his consciousness cannot be recovered.
 
 ## Importance
 
@@ -53,7 +53,7 @@ The dreams are not frightening, though they are profound. They offer comfort—a
 - Peace about what lies ahead
 
 ### Thematic Significance
-- Death as transformation
+- Transcendence as transformation
 - Continuity of consciousness
 - Connection across the boundary
 

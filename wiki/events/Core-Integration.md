@@ -14,7 +14,7 @@ At age thirty-five, Calista undergoes Core Integration—a profound biological a
 - Community support present
 
 ### Time
-- Age thirty-five (Year 1)
+- Age thirty-five
 - A carefully prepared moment
 
 ### Atmosphere

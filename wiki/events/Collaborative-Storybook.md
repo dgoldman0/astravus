@@ -1,85 +1,33 @@
-# Collaborative Storybook Project
+# Collaborative Storybook
 
 ## Overview
-Calista and [[Aris]] create a collaborative storybook for their children, working together on the illustrations while weaving in lessons about their family history and Astravian values. This project becomes a cherished family heirloom.
 
-## Setting
+During Elara's childhood, she proposes making a storybook with Calista and Aris. Elara supplies the story, Calista draws its characters and scenes, and Aris composes accompanying music. They share it at the art center.
 
-### Location
-- Family home and studio, Lumen
+## Setting and Participants
 
-### Environment
-- Creative workspace
-- Art supplies scattered about
-- Children nearby or involved
+- **Time:** After Elara's First Breath, when Calista is over 50; during Elara's childhood.
+- **Places:** The family home and Lumen's art center.
+- **Creators:** Elara, Calista, and Aris.
+- **Audience:** Friends, family, and community members at the art center.
 
-### Time
-- When Elara and Lyra are young
-- A family project over time
-
-### Atmosphere
-- Creative collaboration
-- Family love
-- Storytelling tradition
-- Intergenerational connection
-
-## Participants
-
-### Primary
-- [[Calista]] - Artist, storyteller, parent
-- [[Aris]] - Artist, collaborator, parent
-
-### Secondary
-- [[Elara]] - Child, audience, eventual contributor
-- [[Lyra]] - Calista's sister, occasional contributor
+Elara is Calista and Aris's only child in this arc. Lyra is her aunt, and Kael is her uncle.
 
 ## Detailed Account
 
-Inspired by the stories Calista heard from her own parents—tales of the Three Siblings, of Sol's beauty and Shadow's mystery, of Lumen's radiance—Calista and Aris decide to create their own illustrated storybook for Elara.
+Surrounded by art supplies one evening, Elara suggests a storybook about adventure, friendship, and discovery. Her ideas draw both parents into the project. Their work is playful and imperfect, with each family member contributing a different form of expression.
 
-The project becomes a labor of love that stretches over months. Calista and Aris work together on the illustrations, their collaborative approach now refined by years of partnership. Each page is crafted with care, designed to capture young imaginations while conveying deeper truths.
+At the art center, Elara introduces the result. The gathering includes children running around and overlapping conversations. People enjoy the story and illustrations and share memories of their own. Its value lies in the time the family spent creating it and the connections it makes possible.
 
-The stories they choose to tell are drawn from family history and Astravian tradition. Tales of Calista's childhood adventures with Cassia and Joren. Stories of how her five parents came together and formed their constellation. Myths about Lumen and the Astravian way. Lessons about kindness, creativity, and community woven through narrative.
-
-As Elara grows old enough, she becomes involved in the project too—suggesting stories she wants to see, adding her own drawings to certain pages, helping choose colors. Lyra, as Elara's aunt, occasionally contributes stories from her explorations to add to the collection. The book becomes not just something created for Elara but something the family helps create together.
-
-The finished storybook becomes a treasured possession, read countless times until the pages grow soft with love.
-
-## Importance
-
-### Personal Growth
-- Calista combines artistic and parenting roles
-- Transmission of values through creative work
-- Deepening of family bonds
-
-### Thematic Significance
-- Storytelling across generations
-- Art as family connection
-- Preservation of history and values
-
-### Narrative Role
-- Shows Calista and Aris as collaborative parents
-- Connects to earlier story traditions
-- Demonstrates how art serves family
-
-## Outcome
-
-### Immediate
-- Beautiful storybook created
-- Family bonding through creative process
-- Children engaged with family history
-
-### Long-term
-- Cherished family heirloom
-- Foundation for children's values
-- Model of collaborative creativity
+The draft does not specify the plot beyond its broad themes, or establish the book as a retelling of the five parents' constellation history.
 
 ## Related Events
-- [[Three-Siblings-Story]] - Source of some included tales
-- [[First-Collaboration-Aris]] - Origin of their collaborative approach
-- [[Music-Lesson]] - Another form of artistic family tradition
-- [[Grandparent-Teaching-Moments]] - Extended family contributing stories
 
-## Source Material
-- Based on passage about Calista and Aris creating a "collaborative storybook project" for their children
-- Reflects the importance of storytelling in Astravian culture
+- [Elara's First Breath](Elara-First-Breath.md)
+- [First Collaboration with Aris](First-Collaboration-Aris.md)
+- [Art Center Volunteering](Art-Center-Volunteering.md)
+- [Grandparent Teaching Moments](Grandparent-Teaching-Moments.md)
+
+## Source
+
+[Book III: Starting a Family](../../revision/latest.md#starting-a-family).

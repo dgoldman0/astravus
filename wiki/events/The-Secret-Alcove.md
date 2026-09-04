@@ -77,7 +77,7 @@ One evening, as they sat together in the alcove, Lysandra turned to Calista, the
 > 
 > **Calista:** "I want to continue creating. But I also want to help others find their own passions. Maybe teach, or lead workshops. What about you?"
 > 
-> **Lysandra:** "I've been thinking about combining my love for music with technology. Creating instruments that produce new, unique sounds, or even developing new ways for people to experience music."
+> **Lysandra:** "I want to build mathematical models of the patterns we keep finding around us. In music, in the gardens, even in the way people move through the plaza. I think there are connections we haven't learned to see yet."
 > 
 > **Calista:** "That sounds amazing. I'd love to see what you come up with."
 
@@ -86,7 +86,7 @@ One evening, as they sat together in the alcove, Lysandra turned to Calista, the
 ## Related Events
 
 - **Preceding:** [First Love with Lysandra](First-Love-with-Lysandra.md)
-- **Following:** [Lysandra's Song](Lysandras-Song.md)
+- **Following:** [Lysandra's Formula](Lysandras-Formula.md)
 - **Connected to:** Garden settings throughout the narrative
 
 ---
@@ -94,6 +94,6 @@ One evening, as they sat together in the alcove, Lysandra turned to Calista, the
 ## Notes
 
 - The alcove parallels the treehouse as a private, meaningful space
-- Lysandra's interest in music and technology here foreshadows later divergence
+- Lysandra's interest in mathematical research here foreshadows later divergence
 - Calista's mention of wanting to teach foreshadows her work at the art center
 - The garden setting connects to Maia's domain and family spaces

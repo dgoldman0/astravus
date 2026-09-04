@@ -115,7 +115,7 @@ Calista, thinking of Joren and her fears about transcendence, asked Theron direc
 
 - **Preceding:** [Journey to Aurora](Journey-to-Aurora.md)
 - **Following:** [Exploring Aurora's Archives](Exploring-Auroras-Archives.md)
-- **Connected to:** [The Accident](The-Accident.md) (Joren's loss), [First Transcendence Dreams](First-Transcendence-Dreams.md)
+- **Connected to:** [The Accident](The-Accident.md) (Joren's loss), [First Transcendence Dreams](First-Transition-Dreams.md)
 
 ---
 

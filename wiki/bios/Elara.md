@@ -1,7 +1,8 @@
 # Elara
 
 ## Basic Information
-- **Age:** 75+ years (by later narrative)
+- **Age:** 75 when Calista is 125; remains an adult throughout Calista's later transcendence
+- **Birth:** Calista is 50 at Elara's First Breath
 - **Role in Story:** Calista and Aris's daughter; engineer and innovator
 - **Home:** Lumen (the Astravus)
 - **Parents:** Calista and Aris
@@ -33,7 +34,7 @@ Growing up in a household with:
 - **Aris (musical father):** Composition, emotional expression through sound
 - **Extended family:** Diverse skills and perspectives
 
-Elara began to find her own path, eventually discovering a passion for engineering and tinkering—inheriting this from her grandfather Arin.
+Elara began to find her own path, eventually discovering a passion for engineering and tinkering—inheriting this from her grandparent Arin.
 
 ## Engineering Career
 
@@ -78,7 +79,7 @@ Elara:
 
 ### Collaborative Nature
 Elara inherited her parents' collaborative spirit:
-- Works alongside her grandfather Arin in his workshop
+- Works alongside her grandparent Arin in their workshop
 - Spends considerable time in these collaborative engineering sessions
 - Bonds with Arin over shared passion for making things
 - Benefits from his decades of experience and mentorship
@@ -105,7 +106,7 @@ Elara's work with her parents demonstrates commitment to community:
 
 ### With Extended Family
 - Learns from multiple grandparents' expertise:
-  - **Arin (engineer grandfather):** Direct mentorship in tinkering and engineering
+  - **Arin (engineer grandparent):** Direct mentorship in tinkering and engineering
   - **Maia (botanist grandmother):** Lessons about nature, growth, and patience
   - **Selene (musician grandmother):** Musical instruction and emotional expression
   - **Dorian (historian grandfather):** Stories and historical context
@@ -212,4 +213,4 @@ As Calista and Aris undergo transcendence, Elara:
   - Practical tool that demonstrates Lumen's advanced capabilities
   - Symbol of bridging art, technology, and human connection
 - Her journey from childhood enthusiast to skilled professional spans most of the narrative, allowing for character development across time
-- The relationship with her grandfather Arin is particularly important, showing how knowledge and passion pass through generations
+- The relationship with her grandparent Arin is particularly important, showing how knowledge and passion pass through generations

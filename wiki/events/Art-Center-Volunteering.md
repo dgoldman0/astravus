@@ -15,7 +15,7 @@ In her twenties, Calista begins volunteering at the community art center, teachi
 - Gathering spaces for group instruction
 
 ### Time
-- Calista in her twenties (Before Year 1)
+- Calista in her twenties
 - Regular volunteer sessions
 
 ### Atmosphere
@@ -74,8 +74,8 @@ This volunteer work establishes Calista's identity as an artist who is not just 
 - Model for how she will approach raising her own children
 
 ## Related Events
-- [[Workshop-Visit]] - Early exposure to creative community
-- [[First-Gardening]] - Learning to nurture growth
+- [[First-Workshop-Visit]] - Early exposure to creative community
+- [[First-Gardening-Lesson]] - Learning to nurture growth
 - [[Meeting-Aris]] - Connection formed through shared artistic passion
 - [[Elara-First-Breath]] - Applying teaching skills to parenthood
 

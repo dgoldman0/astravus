@@ -71,7 +71,7 @@ Kael is tall and solidly built with broad shoulders and strong, capable hands—
 
 ### Influence on Calista's Parenting Decisions
 When Calista and Aris consider parenthood, they:
-- Observe Kael's family for decades
+- Observe the first nearly fifteen years of Kael's parenting before Elara arrives when Calista is 50
 - Learn invaluable lessons about love, patience, and nuances of nurturing
 - Witness how Kael, Sage, and Sol handle conflicts and celebrate milestones
 - Gain confidence from seeing real-life example of successful family

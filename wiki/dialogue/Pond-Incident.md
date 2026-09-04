@@ -92,6 +92,6 @@ While playing near a small pond, young Lyra slips and falls into the water. Desp
 - [[Lyra]] - Vulnerability, curiosity, resilience
 - [[Kael]] - Protective brother, action-oriented, humor
 - [[Pond-Incident]] - Related event
-- [[Barkley]] - Family dog, loyal companion
+- [Barkley](../CHARACTERS.md#barkley) - Family dog, loyal companion
 - [[Shadow]] - Family cat, watchful presence
 - [[The-Accident]] - Darker echo of water/danger (Joren's death)

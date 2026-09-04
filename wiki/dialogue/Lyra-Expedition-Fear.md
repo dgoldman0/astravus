@@ -1,7 +1,7 @@
 # Lyra Expedition Fear
 
 ## Context
-When Lyra announces her plan to journey to meet other Astravii communities, Calista's fear of losing another loved one—after Joren's death—creates tension between her protective instincts and Lyra's determination. This scene showcases the distinct communication styles of both sisters: Lyra's curious, question-asking nature (she asks in threes), and Calista's visual metaphors and protective worry. Aris provides comfort through their characteristic musical presence.
+When Lyra announces her plan to journey to meet other Astravii communities, Calista's fear of losing another loved one—after Joren's death—creates tension between her protective instincts and Lyra's determination. This scene showcases the distinct communication styles of both sisters: Lyra's curious, question-asking nature (she asks in threes), and Calista's visual metaphors and protective worry. Aris provides comfort through his characteristic musical presence.
 
 ## Participants
 - **Lyra** - Calista's younger sister, determined explorer, asks questions in threes
@@ -67,11 +67,11 @@ When Lyra announces her plan to journey to meet other Astravii communities, Cali
 
 *That night, Calista stood by the window, staring out at the bioluminescent glow of Lumen's gardens. The colors should have been comforting—they usually were—but tonight they seemed muted, uncertain.*
 
-*She heard Aris before she saw them—a soft melody, hummed under their breath, approaching from behind.*
+*She heard Aris before she saw him—a soft melody, hummed under his breath, approaching from behind.*
 
 **Aris:** *(humming a few more bars, then speaking gently)* "The tune I'm hearing in my head right now... it's worried. Minor key. Searching for resolution."
 
-*They wrapped an arm around Calista's waist, standing beside her at the window.*
+*He wrapped an arm around Calista's waist, standing beside her at the window.*
 
 **Aris:** "Want to tell me about it?"
 
@@ -81,7 +81,7 @@ When Lyra announces her plan to journey to meet other Astravii communities, Cali
 
 **Aris:** "She's strong. Prepared. Brilliant. She's not going to make the same mistakes."
 
-*Their voice dropped to a gentler register.*
+*His voice dropped to a gentler register.*
 
 **Aris:** "And she loves you enough to promise. That means something. The music I hear when she talks about this—it's determined, but it's also careful. She knows what she's doing, Cali."
 
@@ -91,7 +91,7 @@ When Lyra announces her plan to journey to meet other Astravii communities, Cali
 
 **Aris:** *(tapping a soft rhythm against her shoulder)* "No. It doesn't. But love does. And you love her enough to let her fly—even though it hurts. That's the bravest kind of love there is."
 
-*They began to hum again—this time something gentler, more hopeful. The tune wandered upward, searching for light.*
+*He began to hum again—this time something gentler, more hopeful. The tune wandered upward, searching for light.*
 
 **Aris:** "She'll be careful. She knows we're always here. And when she comes home—because she *will* come home—we'll celebrate with the biggest feast Lumen has ever seen. I'm already composing the welcome-home song."
 

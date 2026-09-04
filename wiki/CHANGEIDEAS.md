@@ -1,5 +1,8 @@
 # CHANGEIDEAS: Revision Plan for Astravus Calista
 
+> **Historical planning record:** The January 2026 findings and status entries below are retained as revision history. Current chronology and event facts are recorded in [TIMELINE.md](TIMELINE.md), [CHARACTERS.md](CHARACTERS.md#continuity-reference), and [the September alignment notes](../revision/ALIGNMENT.md). Completed corrections and older proposals below should not override those references.
+
+
 This document outlines inconsistencies, gaps, and areas needing revision across the TIMELINE.md, events/, and supporting documents. The bios and CHARACTERS.md are considered authoritative sources (reviewed previously). The prototype document has lowest priority when conflicts arise.
 
 ---

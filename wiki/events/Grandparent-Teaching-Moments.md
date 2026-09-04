@@ -36,7 +36,7 @@
 - [[Elara]] - Grandchild
 
 ### Secondary
-- [[Kael]] - Uncle (Calista's brother), shares craftsmanship skills
+- [[Kael]] - Uncle (Calista's brother), shares family experience and adventurous interests
 - [[Sol]] - Kael's constellation partner, additional perspective
 - [[Calista]] - Observing parent
 - [[Aris]] - Observing parent

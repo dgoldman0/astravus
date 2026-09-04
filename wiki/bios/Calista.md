@@ -62,7 +62,7 @@ During this period, she:
 - Continued collaborating with Cassia, whose writing career was flourishing
 
 ### Adulthood and Parenthood
-Calista and Aris formed a formal constellation and pursued parenthood through the Sanctuary. They:
+As Calista approached 50, she and Aris formed a formal constellation and pursued parenthood through the Sanctuary. Elara took her First Breath when Calista was 50. They:
 - Underwent extensive parenting classes and preparation
 - Received guidance from experienced mentors, particularly from Kael, Sage, and Sol
 - Welcomed Elara at her First Breath, beginning their journey as parents
@@ -112,10 +112,10 @@ In her later maturity (125+ years), Calista:
 1. Birth and arrival in family constellation
 2. Childhood adventures in treehouse with Cassia and Joren
 3. Joren's tragic death—formative trauma
-4. Visiting Aurora and meeting elder Theron
-5. Core integration at age 35
-6. First romantic relationship with Lysandra
-7. Meeting and partnership with Aris
+4. First romantic relationship with Lysandra and their breakup
+5. Visiting Aurora and meeting elder Theron
+6. Meeting Aris and beginning their creative partnership around age 30
+7. Core integration at age 35 and first mind-link with Aris
 8. Formation of constellation with Aris
 9. Birth of Elara
 10. Raising Elara through childhood and into adulthood

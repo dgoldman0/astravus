@@ -14,7 +14,7 @@ Calista meets [[Aris]] through their shared involvement in the artistic communit
 - Surrounded by work and fellow artists
 
 ### Time
-- Calista in her twenties (Before Year 1)
+- Calista around age 30, roughly a decade after she begins volunteering and before Core Integration at 35
 
 ### Atmosphere
 - Creatively charged
@@ -72,7 +72,7 @@ Unlike her earlier relationship with [[Lysandra]], which was shaped by the inten
 
 ## Related Events
 - [[Art-Center-Volunteering]] - Context for their meeting
-- [[First-Love-Lysandra]] - Previous relationship experience
+- [[First-Love-with-Lysandra]] - Previous relationship experience
 - [[First-Collaboration-Aris]] - Early joint creative project
 - [[Constellation-Formation]] - Formal bonding ceremony
 

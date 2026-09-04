@@ -30,7 +30,7 @@ Maia continues her role as teacher across generations, now sharing her botanical
 
 *Maia's eyes crinkled with warmth.*
 
-**Maia:** "Yes! You see it through your own lens, and that's beautiful. Your grandfather Arin would say the same thing—that nature is the oldest engineer."
+**Maia:** "Yes! You see it through your own lens, and that's beautiful. Your grandparent Arin would say the same thing—that nature is the oldest engineer."
 
 *She reached into her apron pocket and withdrew a small envelope—seeds, as always.*
 

@@ -86,7 +86,7 @@ For Lyra especially, this experience planted seeds of fascination with Astravii 
 ## Related Events
 
 - **Preceding:** [Journey to Aurora](Journey-to-Aurora.md), [Meeting Theron](Meeting-Theron.md)
-- **Following:** [Lyra's Return from Expedition](Lyras-Return-from-Expedition.md) (much later)
+- **Following:** [Lyra's Return from Expedition](Lyras-Return-Expedition.md) (much later)
 - **Connected to:** Lyra's eventual career as an explorer
 
 ---

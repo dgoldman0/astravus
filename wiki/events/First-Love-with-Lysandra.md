@@ -1,7 +1,7 @@
 # First Love with Lysandra
 
 ## Overview
-Calista develops her first romantic relationship with Lysandra, a classmate who shares her love for art and music, navigating the joys and uncertainties of young love.
+Calista develops her first romantic relationship with Lysandra, a classmate whose visual expressions of mathematics connect with her art, navigating the joys and uncertainties of young love.
 
 ---
 
@@ -15,7 +15,7 @@ Calista develops her first romantic relationship with Lysandra, a classmate who 
 
 ## Description
 
-Romance began to weave its way into Calista's life as she entered her late teens. She found herself increasingly drawn to Lysandra, a classmate who shared her love for art and music.
+Romance began to weave its way into Calista's life as she entered her late teens. She found herself increasingly drawn to Lysandra, a classmate whose drawings of mathematical patterns caught her eye.
 
 ### The Connection
 
@@ -94,7 +94,7 @@ From CHARACTERS.md:
 
 ## Related Events
 
-- **Following:** [The Secret Alcove](The-Secret-Alcove.md), [Lysandra's Song](Lysandras-Song.md), [First Argument with Lysandra](First-Argument-with-Lysandra.md), [The Break](The-Break.md)
+- **Following:** [The Secret Alcove](The-Secret-Alcove.md), [Lysandra's Formula](Lysandras-Formula.md), [First Argument with Lysandra](First-Argument-with-Lysandra.md), [The Break](The-Break.md)
 - **Long-term connection:** Lessons inform [Meeting Aris](Meeting-Aris.md)
 
 ---

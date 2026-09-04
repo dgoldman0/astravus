@@ -14,7 +14,7 @@ Following her Core Integration, Calista shares her first mind-link with [[Aris]]
 - Space prepared for vulnerability
 
 ### Time
-- Shortly after Calista's Core Integration (Year 1)
+- Shortly after Calista's Core Integration
 - A chosen moment of readiness
 
 ### Atmosphere

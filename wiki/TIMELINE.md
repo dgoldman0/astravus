@@ -1,6 +1,8 @@
 # Timeline - Astravus Calista Full Arc
 
-This document provides a chronological overview of major events in Calista's life and the broader Astravii community. For detailed information on each event, see the individual files in the `events/` directory.
+This document follows the aligned [latest draft](../revision/latest.md). Ages below are Calista's ages, measured from her First Breath, unless another character is named. Approximate ages locate undated scenes; they do not establish exact birthdays.
+
+The fixed anchors are Core Integration at 35, Elara's First Breath when Calista is 50, and Calista at 125 when Elara is 75. Kael starts his family shortly after Calista's integration; nearly fifteen years of his parenting precede Elara's arrival. Calista meets Aris around 30, before integration. Her transcendence develops after 125; its final date is unspecified. Lyra is a few years younger than Calista and is still pre-integration when Calista demonstrates her new abilities.
 
 ---
 
@@ -24,6 +26,7 @@ Lumen is a young Astravus during the events of this narrative. Its population is
 | Event | Description | Related Events |
 |-------|-------------|----------------|
 | [Calista's First Breath](events/Calistas-First-Breath.md) | Calista is born at the Sanctuary and welcomed by her five-parent constellation | — |
+| [Lyra's First Breath](events/Lyras-First-Breath.md) | Calista's younger sister is born | — |
 | [Early Home Life](events/Early-Home-Life.md) | Daily routines with parents, siblings, and family pets in the constellation's home | First Breath |
 | [First Gardening Lesson](events/First-Gardening-Lesson.md) | Maia teaches Calista to plant a sunflower seed | Early Home Life |
 | [First Workshop Visit](events/First-Workshop-Visit.md) | Calista accidentally spills screws in Arin's workshop and learns about mistakes | Early Home Life |
@@ -67,7 +70,7 @@ Lumen is a young Astravus during the events of this narrative. Its population is
 | [Cassia's Writing Evolution](events/Cassias-Writing-Evolution.md) | Cassia's storytelling matures into serious literary work | Meeting Cassia |
 | [First Love with Lysandra](events/First-Love-with-Lysandra.md) | Calista develops a romantic relationship with Lysandra | — |
 | [The Secret Alcove](events/The-Secret-Alcove.md) | Calista and Lysandra find a hidden garden spot | First Love with Lysandra |
-| [Lysandra's Song](events/Lysandras-Song.md) | Lysandra composes a song for Calista | First Love with Lysandra |
+| [Lysandra's Formula](events/Lysandras-Formula.md) | Lysandra names a formula after Calista | First Love with Lysandra |
 | [First Argument with Lysandra](events/First-Argument-with-Lysandra.md) | The couple has their first significant disagreement | First Love with Lysandra |
 | [The Break](events/The-Break.md) | Calista and Lysandra decide to separate | First Argument with Lysandra |
 | [Friendship Tension with Cassia](events/Friendship-Tension-with-Cassia.md) | Calista confronts Cassia about drifting apart | Cassia's Writing Evolution |
@@ -83,51 +86,49 @@ Lumen is a young Astravus during the events of this narrative. Its population is
 | [Meeting Aurora Residents](events/Meeting-Aurora-Residents.md) | Calista meets Dara, Alaric, and Liora | Journey to Aurora |
 | [Aurora Resource Debate](events/Aurora-Resource-Debate.md) | Calista witnesses a heated argument among Aurora's younger residents | Meeting Aurora Residents |
 
-### Early Adulthood (~Age 20-35)
+### Young Adulthood (~Age 20-50)
 
 | Event | Description | Related Events |
 |-------|-------------|----------------|
 | [Art Center Volunteering](events/Art-Center-Volunteering.md) | Calista starts volunteering at Lumen's art center | — |
-| [Core Integration](events/Core-Integration.md) | Calista undergoes the rite of passage at age 35 | — |
-| [Meeting Aris](events/Meeting-Aris.md) | Calista meets Aris at an art workshop | Art Center Volunteering |
+| [Art Exhibition Success](events/Art-Exhibition-Success.md) | Calista exhibits her art; later exhibitions continue alongside her partnership with Aris | Art Center Volunteering |
+| [Meeting Aris](events/Meeting-Aris.md) | Calista meets Aris around 30, about a decade after starting to volunteer | Art Center Volunteering |
 | [First Collaboration with Aris](events/First-Collaboration-Aris.md) | Calista and Aris fuse visual art with music for the first time | Meeting Aris |
+| [Core Integration](events/Core-Integration.md) | Calista undergoes the rite of passage at age 35 | — |
 | [First Mind Connection with Aris](events/First-Mind-Connection-Aris.md) | Calista and Aris share consciousness for the first time | Core Integration, Meeting Aris |
-| [Art Exhibition Success](events/Art-Exhibition-Success.md) | Calista and Aris's collaborative exhibition receives acclaim | First Collaboration with Aris |
 | [Café Conversation with Cassia](events/Cafe-Conversation-Cassia.md) | Calista reflects on lifelong friendship | — |
 
-### Kael's Family (~Age 30s-40s)
+### Kael's Family (Shortly After Calista Turns 35)
 
 | Event | Description | Related Events |
 |-------|-------------|----------------|
 | [Kael's Constellation Formation](events/Kael-Constellation.md) | Kael (Calista's brother) forms a constellation with Sage and Sol | — |
+| [Lyra's Adventure Announcement](events/Lyras-Adventure-Announcement.md) | Lyra (Calista's sister) declares her intent to explore | — |
 
 ---
 
 ## Book III: Family and Maturity
 
-### Constellation Formation and Parenthood (~Age 40s+)
+### Constellation Formation and Parenthood (~Age 50 Onward)
 
 | Event | Description | Related Events |
 |-------|-------------|----------------|
-| [Constellation Formation](events/Constellation-Formation.md) | Calista and Aris formalize their partnership | — |
-| [Parenting Preparation](events/Parenting-Preparation.md) | Counseling, workshops, and home preparation | Constellation Formation |
-| [Elara's First Breath](events/Elara-First-Breath.md) | Calista and Aris welcome their daughter from the Sanctuary | Parenting Preparation |
-| [Lyra's First Breath](events/Lyras-First-Breath.md) | Calista's younger sister is born | — |
+| [Parenting Preparation](events/Parenting-Preparation.md) | Counseling, workshops, and home preparation | Kael's Constellation Formation |
+| [Constellation Formation](events/Constellation-Formation.md) | Calista and Aris formalize their partnership | Parenting Preparation |
+| [Elara's First Breath](events/Elara-First-Breath.md) | Calista, now 50, and Aris welcome their only child, Elara, from the Sanctuary | Parenting Preparation |
 | [Collaborative Storybook Project](events/Collaborative-Storybook.md) | Calista, Aris, and Elara create a collaborative storybook | Elara's First Breath |
 | [Elara's Gender Identity Conversation](events/Elara-Gender-Identity-Conversation.md) | Elara tells her parents she identifies with she/her pronouns | — |
 | [Grandparent Teaching Moments](events/Grandparent-Teaching-Moments.md) | The five parents share wisdom with grandchild Elara | — |
-| [Lyra's Adventure Announcement](events/Lyras-Adventure-Announcement.md) | Lyra (Calista's sister) declares her intent to explore | — |
 
 ---
 
-### Calista's Later Life (~Age 75-125+)
+### Calista at 125 (Elara at 75)
 
 | Event | Description | Related Events |
 |-------|-------------|----------------|
 | [Elara's Light Sculpture Invention](events/Elara-Light-Sculpture-Invention.md) | Elara becomes a skilled engineer, creating interactive light sculptures | — |
 | [Lyra's Return from Expedition](events/Lyras-Return-Expedition.md) | Lyra (Calista's sister) returns after years of exploring other Astravii | — |
 | [Parents' Approaching Transcendence](events/Parents-Approaching-Transcendence.md) | Calista's five parents spend more time connecting with Lumen | — |
-| [Radiant Fields of Luxa](events/Radiant-Fields-Luxa.md) | Pilgrimage to sacred place where Luxa sport is practiced | — |
 
 ---
 
@@ -139,8 +140,9 @@ Lumen is a young Astravus during the events of this narrative. Its population is
 |-------|-------------|----------------|
 | [First Transition Dreams](events/First-Transition-Dreams.md) | Calista begins experiencing shared consciousness dreams | Core Integration |
 | [Maia's Garden Dream](events/Maias-Garden-Dream.md) | Calista dreams of tending a garden with her mother | First Transition Dreams |
-| [Parents' First Meeting Dream](events/Parents-First-Meeting-Dream.md) | Calista witnesses her parents' constellation forming | First Transition Dreams |
+| [Parents' First Meeting Dream](events/Parents-First-Meeting-Dream.md) | Calista witnesses the first gathering of her five parents | First Transition Dreams |
 | [Nyx Healing Journey](events/Nyx-Healing-Journey.md) | Calista processes grief through connection with Nyx | First Transition Dreams |
+| [Radiant Fields and Luxa](events/Radiant-Fields-Luxa.md) | Calista watches Luxa in Lumen's new recreation district between periods of dreaming | Lyra's Return from Expedition |
 | [Final Integration into Lumen](events/Final-Integration-Lumen.md) | Calista transcends into Lumen's collective consciousness | — |
 
 ---
@@ -164,13 +166,14 @@ Lumen is a young Astravus during the events of this narrative. Its population is
 | 5-10 | Childhood | Meeting friends, Treehouse, Tree of Echoes |
 | 10-15 | Late Childhood | Joren's death, grief processing |
 | 15-20 | Late Teens | First love (Lysandra), Visit to Aurora |
-| 20-35 | Young Adulthood | Art career begins, Core Integration at 35 |
-| 35-45 | Early Adulthood | Meeting Aris, first mind link |
-| 40s | Adulthood | Constellation formation, Elara's First Breath |
-| 50-100 | Maturity | Raising Elara, artistic collaborations |
-| 75+ | Later Years | Elara's career, parents' transcendence |
-| 100-125+ | Elder Years | Lyra's return, transcendence begins |
-| 125+ | Transcendence | Gradual integration into Lumen's consciousness |
+| Early 20s | Young Adulthood | Art center volunteering and early exhibitions |
+| Around 30 | Young Adulthood | Meeting Aris and first artistic collaboration |
+| 35 | Core Integration | New mental abilities and first mind-link with Aris |
+| Shortly after 35 | Adulthood | Kael forms his constellation and prepares for parenthood; Lyra plans exploration |
+| Around 50 | Parenthood | Preparation and constellation formation; Elara takes First Breath when Calista is 50 |
+| 50-125 | Maturity | Raising Elara, continuing art and teaching; Elara becomes an engineer |
+| 125 | Later Years | Elara is 75; Lyra returns; Calista's five parents approach transcendence |
+| After 125 | Transcendence | Shared dreams, healing through Aurora and Nyx, visits to Radiant Fields, eventual integration into Lumen |
 
 ---
 

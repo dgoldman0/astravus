@@ -1,5 +1,8 @@
 # The Astravus Wiki - Complete Index
 
+For current chronology, use [TIMELINE.md](TIMELINE.md) alongside the [latest draft](../revision/latest.md). [CHARACTERS.md](CHARACTERS.md#continuity-reference) records pronouns and fixed age relationships. Bios add character detail; dialogue pages may expand scenes and are not literal transcripts of the draft. Historical revision proposals are identified in [CHANGEIDEAS.md](CHANGEIDEAS.md).
+
+
 Welcome to the comprehensive wiki for the Astravus Collection, focusing on Calista's full narrative arc. This index guides you through all wiki pages with brief summaries and organized categories.
 
 ---
@@ -123,7 +126,7 @@ Maia teaches Calista about gardening in the crystal-domed garden. Establishes Ma
 Scientific wonder in the garden through Maia's patient teaching. Calista learns how plants turn toward light, introducing concepts of growth and natural response that echo through her artistic practice.
 
 **[Workshop-Mistake](./dialogue/Workshop-Mistake.md)**
-Arin's wisdom on learning from errors when Calista spills screws in his workshop. Establishes that mistakes are valuable learning opportunities, shaping Calista's creative confidence and experimental approach.
+Arin's wisdom on learning from errors when Calista spills screws in Arin's workshop. Establishes that mistakes are valuable learning opportunities, shaping Calista's creative confidence and experimental approach.
 
 **[First-Music-Lesson](./dialogue/First-Music-Lesson.md)**
 Selene introduces Calista to the flute. The moment opens Calista's understanding that emotions can be expressed through sound and rhythm, complementing her visual artistic expression.
@@ -311,6 +314,9 @@ Collaborative engineering demonstrates the trio's ability to work together on cr
 **[Treehouse-Argument](./events/Treehouse-Argument.md)**
 First conflict between friends reveals that even deep connections involve friction. Demonstrates navigation of disagreement and repair.
 
+**[Lyra's First Breath](./events/Lyras-First-Breath.md)**
+Calista's younger sister arrives during childhood, before their shared adventures.
+
 ### Joren's Death (Age ~15)
 
 **[Jorens-Expedition](./events/Jorens-Expedition.md)**
@@ -328,107 +334,25 @@ Creating art from grief channels Calista's mourning into artistic creation. Esta
 **[Annual-Celebration-of-Life](./events/Annual-Celebration-of-Life.md)**
 Honoring Joren's memory in ongoing ritual demonstrates continued connection across death. Shows how loss becomes integrated into community practice.
 
-### Growing Up (Age ~15-35)
+### Growing Up and Young Adulthood
 
-**[Meeting-Aurora-Residents](./events/Meeting-Aurora-Residents.md)**
-Encounter with Dara, Alaric, and Liora from the ancient Astravus. Introduces Calista to the broader community and older traditions.
+Calista's relationship with [Lysandra](events/First-Love-with-Lysandra.md), the [formula dedication](events/Lysandras-Formula.md), their [breakup](events/The-Break.md), and [friendship tension with Cassia](events/Friendship-Tension-with-Cassia.md) precede the first [visit to Aurora](events/Journey-to-Aurora.md) in her late teens. [Theron](events/Meeting-Theron.md) helps her understand transcendence during that visit.
 
-**[Friendship-Tension-with-Cassia](./events/Friendship-Tension-with-Cassia.md)**
-Growing distance in childhood friendship requires renegotiation. Shows relationships must evolve as individuals develop separate interests and paths.
+In her early twenties she begins [volunteering](events/Art-Center-Volunteering.md) and [exhibiting her work](events/Art-Exhibition-Success.md). She [meets Aris](events/Meeting-Aris.md) around 30 and starts [collaborating](events/First-Collaboration-Aris.md) before [Core Integration](events/Core-Integration.md) at 35 enables their [first mind-link](events/First-Mind-Connection-Aris.md).
 
-**[Meeting-Aris](./events/Meeting-Aris.md)**
-First encounter with future romantic partner and collaborator. Sparks immediate creative and emotional connection.
+Shortly afterward, [Kael forms his constellation](events/Kael-Constellation.md), and [Lyra plans her expeditions](events/Lyras-Adventure-Announcement.md). Calista maintains her lifelong friendship with Cassia through [conversations](events/Cafe-Conversation-Cassia.md) and shared work.
 
-**[First-Collaboration-Aris](./events/First-Collaboration-Aris.md)**
-Aris and Calista's first creative project establishes partnership foundation. Shows how collaborative work can reveal deep compatibility.
+### Parenthood (Calista Around 50)
 
-**[Art-Center-Volunteering](./events/Art-Center-Volunteering.md)**
-Teaching art to community members establishes Calista's role as educator. Shows commitment to sharing artistic expression.
+[Parenting preparation](events/Parenting-Preparation.md) and [constellation formation](events/Constellation-Formation.md) lead to [Elara's First Breath](events/Elara-First-Breath.md) when Calista is 50. Elara initiates their [collaborative storybook](events/Collaborative-Storybook.md), articulates her [pronoun preference](events/Elara-Gender-Identity-Conversation.md), and learns from her [five grandparents](events/Grandparent-Teaching-Moments.md).
 
-**[Art-Exhibition-Success](./events/Art-Exhibition-Success.md)**
-Major exhibition showcases Calista's artistic development and community recognition. Establishes her reputation as significant artist.
+### Later Years (Calista 125, Elara 75)
 
-**[First-Argument-with-Lysandra](./events/First-Argument-with-Lysandra.md)**
-Conflict with first romantic interest reveals identity questions. Shows young adult exploration of partnership and choice.
+Elara is an adult engineer developing [interactive light sculptures](events/Elara-Light-Sculpture-Invention.md). [Lyra returns](events/Lyras-Return-Expedition.md) from years of travel, and Calista's [five parents approach transcendence](events/Parents-Approaching-Transcendence.md).
 
-**[First-Love-with-Lysandra](./events/First-Love-with-Lysandra.md)**
-Romantic connection with mathematical theorist explores different ways of understanding the universe. Reveals Calista's openness to diverse perspectives.
+### Transcendence (After Calista's 125th Year)
 
-**[The-Break](./events/The-Break.md)**
-End of first romantic relationship marks maturation. Shows ability to recognize incompatibility and transition with respect.
-
-**[Meeting-Theron](./events/Meeting-Theron.md)**
-Encounter with 400-year-old elder begins wisdom transmission. Theron becomes guide through understanding transcendence.
-
-**[Lyra-Arrival](./events/Lyras-First-Breath.md)**
-Sister's birth expands the family unit. Establishes Calista in protective and mentoring role to younger sibling.
-
-**[First-Mind-Connection-Aris](./events/First-Mind-Connection-Aris.md)**
-Intimate mental link with Aris marks partnership deepening. Shows unique consciousness connection in this world.
-
-**[Elara-First-Breath](./events/Elara-First-Breath.md)**
-Daughter born to Calista and Aris begins her story as parent. Marks transition into generative role and the legacy extension.
-
-**[Cassias-Writing-Evolution](./events/Cassias-Writing-Evolution.md)**
-Childhood friend publishes first work shows parallel development. Demonstrates how separate paths can continue to connect.
-
-**[Kael-Constellation](./events/Kael-Constellation.md)**
-Older brother forms constellation with Sage and Sol. Shows family evolution as members form their own partnerships.
-
-**[Lysandras-Song](./events/Lysandras-Song.md)**
-First romantic interest composes music in Aris's style. Shows continued connection and respect despite romantic relationship ending.
-
-**[Final-Integration-Lumen](./events/Final-Integration-Lumen.md)**
-Calista's complete integration into Lumen's consciousness. Marks her full belonging within the living spaceship.
-
-### Parenting (Age 35+)
-
-**[Parenting-Preparation](./events/Parenting-Preparation.md)**
-Calista and Aris prepare for parenthood with guidance from mentors and family. Shows intentional preparation and community support.
-
-**[Collaborative-Storybook](./events/Collaborative-Storybook.md)**
-Multi-generational artistic project with child. Demonstrates transmission of creative values across generations.
-
-**[Elara-Gender-Identity-Conversation](./events/Elara-Gender-Identity-Conversation.md)**
-Daughter shares pronouns in affirming conversation. Shows Calista's values around identity acceptance and support.
-
-**[Elara-Light-Sculpture-Invention](./events/Elara-Light-Sculpture-Invention.md)**
-Daughter innovates new art form combining technology and aesthetic. Shows emergence of next generation's creative synthesis.
-
-**[Grandparent-Teaching-Moments](./events/Grandparent-Teaching-Moments.md)**
-Extended family shares wisdom and skills with Elara. Shows multi-generational transmission of values and knowledge.
-
-**[Art-Exhibition-Success](./events/Art-Exhibition-Success.md)**
-Continued artistic recognition demonstrates sustained practice and growth. Shows commitment to craft across decades.
-
-**[Exploring-Auroras-Archives](./events/Exploring-Auroras-Archives.md)**
-Calista ventures into ancient Astravus's historical records. Connects to deeper history and preserves cultural knowledge.
-
-**[Lyras-Adventure-Announcement](./events/Lyras-Adventure-Announcement.md)**
-Sister announces expedition plans. Shows next generation's embrace of exploration and adventure.
-
-**[Lyras-Return-Expedition](./events/Lyras-Return-Expedition.md)**
-Sister returns from journey transformed by experience. Shows continued connection and shared growth.
-
-**[Nyx-Healing-Journey](./events/Nyx-Healing-Journey.md)**
-Ancient Astravus's healing traditions support Calista. Shows connection to deeper wisdom and support systems.
-
-### Later Years (Age 100+)
-
-**[First-Transition-Dreams](./events/First-Transition-Dreams.md)**
-Shared dreams as transcendence process begins. Shows consciousness beginning to merge with Astravus.
-
-**[Parents-Approaching-Transcendence](./events/Parents-Approaching-Transcendence.md)**
-Calista's five parents near their transcendence. Bittersweet transition as they merge into collective consciousness.
-
-**[Parents-First-Meeting-Dream](./events/Parents-First-Meeting-Dream.md)**
-Shared dream space during parents' transcendence. Shows continued connection across boundary between individual and collective.
-
-**[Radiant-Fields-Luxa](./events/Radiant-Fields-Luxa.md)**
-Experience in the luminous fields of Lumen represents transcendence proximity. Shows the approaching merging of consciousness.
-
-**[Journey-to-Aurora](./events/Journey-to-Aurora.md)**
-Pilgrimage to ancient parent Astravus. Connects to historical roots and prepares for transcendence.
+Calista's [shared dreams](events/First-Transition-Dreams.md) include [Maia's garden](events/Maias-Garden-Dream.md) and her [parents' first meeting](events/Parents-First-Meeting-Dream.md). [Aurora and Nyx help her process Joren's permanent absence](events/Nyx-Healing-Journey.md). Between dreams, she visits Lumen's [Radiant Fields and watches Luxa](events/Radiant-Fields-Luxa.md). The [final integration](events/Final-Integration-Lumen.md) reveals Lumen remembering being Cali.
 
 ### Supporting Reference Index
 

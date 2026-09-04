@@ -85,7 +85,7 @@ This nested narrative demonstrates Sage's teaching philosophy:
 - Later in adult life, Kael and Sage form romantic partnership
 - They create constellation with Sol (Kael's other partner)
 - They jointly adopt and raise a child from the Sanctuary
-- Raising child together over 50 years provides model for Calista's later parenthood decisions
+- The first nearly fifteen years of raising their child provide a model for Calista's parenthood decision around age 50; their parenting continues for decades afterward
 
 ### Family Model
 Their family demonstrates:

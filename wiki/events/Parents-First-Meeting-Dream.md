@@ -1,7 +1,7 @@
 # Parents' First Meeting Dream
 
 ## Overview
-Through a transcendent dream, Calista experiences a memory that was never her own—the moment when her five parents first came together and their constellation formed. This gift from Lumen connects her to her parents' origin story in an impossibly intimate way.
+Through a transcendent dream, Calista experiences a memory that was never her own—the first gathering of her five parents, before their eventual constellation formed. This gift from Lumen connects her to her parents' origin story in an impossibly intimate way.
 
 ## Setting
 
@@ -43,7 +43,7 @@ This dream is different from the others. Rather than meeting transcended conscio
 
 She sees Maia young, younger than Calista has ever known her—full of the same quiet grace but unmarked by the years of experience that defined the mother Calista knew. She sees Arin, Selene, Dorian, and Sage in their youth, recognizing their essences despite the unfamiliar faces of their younger selves.
 
-And she witnesses the moment their constellation formed—the connection that would eventually span lifetimes, produce three children (Kael, Calista, and Lyra), and create the family that shaped Calista's entire existence.
+And she witnesses the beginning of the connection that would eventually span lifetimes, produce three children (Kael, Calista, and Lyra), and create the family that shaped Calista's entire existence.
 
 Experiencing this moment is profoundly moving. Calista understands that this gift comes from within Lumen—from her parents who, having transcended, can share their memories more directly than was ever possible in life. They are giving her access to their beginning, to the origin of everything she came from.
 
@@ -81,7 +81,7 @@ The dream offers perspective. Her five parents were once young, unknown to each 
 ## Related Events
 - [[First-Transition-Dreams]] - Beginning of transcendent dreams
 - [[Maias-Garden-Dream]] - Another transcendent encounter
-- [[Three-Siblings-Story]] - Earlier family history
+- [[The-Three-Siblings-Story]] - Earlier family history
 - [[Parents-Approaching-Transcendence]] - Parents' journey to Lumen
 - [[Final-Integration-Lumen]] - Eventual reunion
 

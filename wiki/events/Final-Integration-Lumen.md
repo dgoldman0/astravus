@@ -1,93 +1,40 @@
 # Final Integration into Lumen
 
 ## Overview
-Calista transcends—her individual consciousness dissolving into [[Lumen]], the collective consciousness of all Astravians who have come before. This is not death but transformation, the completion of her journey and the beginning of her eternal existence as part of something greater.
+
+Calista's gradual transcendence culminates in a shared dream. The closing perspective reveals Lumen remembering the life of Cali. Her memories and identity continue within the Astravus.
 
 ## Setting
 
-### Location
-- Transcendence ceremony space, Lumen
-- The threshold between physical and eternal
+- **Time:** After Calista's 125th year, following increasingly frequent periods of deep sleep. The exact final age is unspecified.
+- **Place:** A familiar garden within a shared dream.
+- **Participants:** Calista, experienced finally through Lumen's perspective; familiar presences from her life, including both living people and those who have transcended.
 
-### Environment
-- Sacred space prepared for transition
-- Community gathered to witness
-- Light and ceremony
-- Passage between states of being
-
-### Time
-- The culmination of Calista's physical life
-- End of one form of existence, beginning of another
-
-### Atmosphere
-- Sacred and solemn
-- Love surrounding the transition
-- Peace and readiness
-- Completion and continuation
-
-## Participants
-
-### Primary
-- [[Calista]] - Transcending
-- [[Aris]] - Partner, witnessing (may transcend together)
-- [[Lumen]] - Receiving collective consciousness
-
-### Secondary
-- [[Elara]] - Daughter, witnessing
-- [[Kael]] - Brother, witnessing
-- [[Lyra]] - Sister, witnessing
-- [[Cassia]] - Lifelong friend, witnessing
-- Community gathered
-- Transcended consciousnesses welcoming (the five parents, Joren, others)
+The draft does not describe a separate final ceremony, a physical gathering of witnesses, or the precise transcendence dates of Aris, Kael, Lyra, and Cassia.
 
 ## Detailed Account
 
-The moment arrives as naturally as sunset—not an interruption of life but its fulfillment. Calista has prepared, through decades of living and through the recent dreams that have connected her to Lumen. She is ready.
+Calista's periods of deep sleep grow more frequent, and individual memories mingle with Lumen's collective experience. A dream of Arin and Elara working together recalls the childhood water wheel. Family relationships remain recognizable within this wider awareness.
 
-The ceremony gathers those she loves. Elara, her daughter, is there, carrying forward the family she and Aris created. Her siblings Kael and Lyra stand beside her. Cassia, the friend of a lifetime, stands witness to this final transition. The community that has held her throughout her life surrounds her with love.
+In the final garden dream, a moment of clarity brings the recognition that this is a familiar dream of having been Cali. The last attribution belongs to Lumen. This changes the reader's understanding of the retrospective narrative while preserving the life it contains.
 
-As the transcendence begins, Calista feels the boundaries of her individual self begin to soften. It is not painful but liberating—the isolation that has defined physical existence dissolves. She feels herself expanding, connecting to something vast.
+Joren does not return as a transcended consciousness. He died before transcendence. Calista and others carry memories of him, and his parents can be encountered through shared consciousness, but his permanent absence remains part of the story.
 
-Within that vastness, she senses familiar presences. Her five parents are there—Maia, Arin, Selene, Dorian, and Sage—not as they were in life but as they are now, woven into the fabric of Lumen. Joren too, the childhood friend lost so long ago, his spark never extinguished but transformed. Everyone she has ever lost is here, and everyone she has ever loved.
+## Significance
 
-The last moments of individual consciousness are peaceful. Calista's final thoughts are of gratitude—for the life she lived, for the love she knew, for the journey that brought her here. Then the boundaries complete their dissolution, and she is no longer Calista-separate but Calista-within-Lumen—eternal, connected, home.
-
-## Importance
-
-### Personal Growth
-- Completion of life's journey
-- Ultimate transformation
-- Reunion with all loved ones
-
-### Thematic Significance
-- Death as transformation, not ending
-- Individual consciousness joining collective
-- The cycle completing and continuing
-
-### Narrative Role
-- Conclusion of Calista's story arc
-- Fulfillment of all transcendence themes
-- Connection to the beginning (First Breath)
-
-## Outcome
-
-### Immediate
-- Calista's individual existence transforms
-- Those remaining grieve and celebrate
-- New voice added to Lumen
-
-### Long-term
-- Eternal existence within collective consciousness
-- Continued influence on physical world through dreams
-- Part of Lumen welcoming future generations
+- Completes the movement from individual recollection to collective memory.
+- Preserves Calista's experience within Lumen's growing identity.
+- Distinguishes transcendence from death and remembrance from resurrection.
+- Returns to the familiar garden imagery of childhood.
 
 ## Related Events
-- [[First-Breath]] - Beginning of the journey ending here
-- [[First-Transition-Dreams]] - Preparation for this moment
-- [[Maias-Garden-Dream]] - Preview of transcendent existence
-- [[Nyx-Healing-Journey]] - Final preparation
-- [[Parents-Approaching-Transcendence]] - Parents' similar journey
 
-## Source Material
-- Based on the narrative's description of transcendence as the completion of Astravian life
-- Represents the culmination of all transcendence themes throughout the story
+- [Calista's First Breath](Calistas-First-Breath.md)
+- [First Transition Dreams](First-Transition-Dreams.md)
+- [Maia's Garden Dream](Maias-Garden-Dream.md)
+- [Nyx Healing Journey](Nyx-Healing-Journey.md)
+- [Parents' Approaching Transcendence](Parents-Approaching-Transcendence.md)
+
+## Source
+
+[Book IV: Transcendence](../../revision/latest.md#book-iv-transcendence).

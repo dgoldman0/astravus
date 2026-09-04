@@ -15,7 +15,7 @@ Calista has a meaningful conversation with [[Cassia]] at a café, reflecting on 
 - View of community life
 
 ### Time
-- Calista in her forties (After Year 1)
+- Calista after Core Integration at 35 and before parenthood at 50
 - A regular meeting between friends
 
 ### Atmosphere
@@ -78,7 +78,7 @@ They speak too of the future, of what lies ahead as they continue through life. 
 - [[Meeting-Cassia]] - Beginning of their friendship
 - [[Treehouse-Discovery]] - Childhood space they shared
 - [[Treehouse-Argument]] - A past challenge they overcame
-- [[Friendship-Tension]] - Working through difficulties
+- [[Friendship-Tension-with-Cassia]] - Working through difficulties
 - [[Cassias-Writing-Evolution]] - Cassia's parallel growth
 
 ## Source Material

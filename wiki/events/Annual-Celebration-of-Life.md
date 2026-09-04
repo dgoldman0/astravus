@@ -31,7 +31,7 @@ The event brought the community together, reinforcing the bonds that made Lumen 
 
 ### Kaleb and Soren's Role
 
-Joren's father Kaleb often shared stories of Joren's adventurous spirit during these gatherings, ensuring his memory remained alive within the collective consciousness of Lumen. His mother Soren's art and presence added visual and emotional depth to the commemoration.
+Joren's father Kaleb often shared stories of Joren's adventurous spirit during these gatherings, ensuring his memory remained alive within the collective consciousness of Lumen. His mother Soren shared the loss with the community. The memorial mural was painted by Calista; Soren's established work is safety engineering.
 
 ---
 

@@ -16,7 +16,7 @@ Calista and [[Aris]] formalize their partnership through a constellation formati
 - Natural beauty incorporated
 
 ### Time
-- After Core Integration and years of partnership
+- Calista approaching 50, after Core Integration and years of partnership
 - Before starting a family
 
 ### Atmosphere
@@ -33,7 +33,7 @@ Calista and [[Aris]] formalize their partnership through a constellation formati
 
 ### Secondary
 - [[Maia]], [[Arin]], [[Selene]], [[Dorian]], [[Sage]] - Calista's five parents
-- [[Kael]] - Calista's older brother
+- [[Kael]] - Calista's older brother and officiant
 - [[Lyra]] - Calista's younger sister
 - [[Cassia]] - Lifelong friend
 - [[Sol]] - Kael's constellation partner

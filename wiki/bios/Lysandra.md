@@ -73,8 +73,8 @@ One particularly revealing evening in their alcove:
 - Both feel inspired by each other's visions
 
 ### Deepening Connection
-- Lysandra composes song specifically for Calista
-- Music becomes expression of love and affection
+- Lysandra works out a complex formula and names it after Calista
+- Mathematics becomes an expression of love and affection
 - Moments of pure joy and connection
 - Discovery of how well they understand each other
 

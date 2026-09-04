@@ -11,7 +11,7 @@ As Calista's parents age and prepare for transcendence, they spend increasing ti
 
 *One afternoon, Calista sat with her mother in the garden, the air filled with the scent of blooming flowers.*
 
-**Calista:** "Mom, I've noticed you and Dad spending more time in your personal spaces. I miss our long talks and shared moments."
+**Calista:** "Maia, I've noticed all five of you spending more time in your personal spaces. I miss our long talks and shared moments."
 
 *Her mother smiled, her eyes twinkling with a mix of wisdom and serenity.*
 

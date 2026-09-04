@@ -1,5 +1,8 @@
 # Calista Arc Fragment Index
 
+> **Historical snapshot:** Fragment IDs, counts, and line ranges below refer to [the draft at `2370143`](https://github.com/dgoldman0/Astravus/blob/2370143c1458a7a52e30dacc87c0ff12831df71d/revision/latest.md), before the September 2026 continuity and duplication edit. References to `latest.md` below mean that snapshot. These mappings are not current line references; the associated training data has not been regenerated. See [ALIGNMENT.md](ALIGNMENT.md).
+
+
 This document catalogs all 276 meaningful narrative blocks from `revision/latest.md`, organized by book. Each fragment represents a distinct narrative unit suitable for training data extraction.
 
 **Source Line Mappings**: See `revision/FRAGMENTSFULL.md` for exact line numbers from `latest.md`.

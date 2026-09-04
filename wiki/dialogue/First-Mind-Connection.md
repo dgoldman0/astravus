@@ -1,18 +1,18 @@
 # First Mind Connection
 
 ## Context
-After Calista's Core integration at age 35, she and Aris explore mental connection for the first time. This intimate scene shows them sharing thoughts, emotions, and memories in a profound new way. Aris's musical mind translates beautifully into thought-communication—their mental voice carries rhythm and melody even without sound. Calista's visual perception means she experiences Aris's thoughts as colors and images. Their connection becomes a symphony of sight and sound.
+After Calista's Core integration at age 35, she and Aris explore mental connection for the first time. This intimate scene shows them sharing thoughts, emotions, and memories in a profound new way. Aris's musical mind translates beautifully into thought-communication—his mental voice carries rhythm and melody even without sound. Calista's visual perception means she experiences Aris's thoughts as colors and images. Their connection becomes a symphony of sight and sound.
 
 ## Participants
 - **Aris** - Calista's partner, sharing thoughts with musical quality
 - **Calista** - Protagonist, newly integrated with Core, thinks in visual metaphors
 
 ## Setting
-*One evening, after a long day, they found themselves in the living room. The light was soft and amber, casting warm shadows across the walls. Aris sat at the edge of the couch, fingers tapping a quiet rhythm against their thigh—something they did when they were thinking deeply. Calista sat beside them, close enough to feel their warmth but not quite touching.*
+*One evening, after a long day, they found themselves in the living room. The light was soft and amber, casting warm shadows across the walls. Aris sat at the edge of the couch, fingers tapping a quiet rhythm against his thigh—something he did when he was thinking deeply. Calista sat beside him, close enough to feel his warmth but not quite touching.*
 
 ## Dialogue
 
-*Aris turned to her, eyes bright with something between nervousness and excitement. They hummed a low, questioning note.*
+*Aris turned to her, eyes bright with something between nervousness and excitement. He hummed a low, questioning note.*
 
 **Aris:** "Cali, I've been composing something. Not music, exactly. More like... a question. One I've been afraid to ask out loud."
 
@@ -22,7 +22,7 @@ After Calista's Core integration at age 35, she and Aris explore mental connecti
 
 **Aris:** *(taking a breath, the rhythm steadying)* "Since your integration... we have a new way to talk. One that doesn't need words." 
 
-*They reached out and took her hand, their touch gentle and warm.*
+*He reached out and took her hand, his touch gentle and warm.*
 
 **Aris:** "I've been wondering what it would be like to really share—not just stories, but... everything. The parts we can't put into sentences."
 
@@ -40,11 +40,11 @@ After Calista's Core integration at age 35, she and Aris explore mental connecti
 
 *The connection was immediate—and overwhelming in its intimacy.*
 
-*Aris's mind was not silent. It sang. Even in thought, their consciousness had melody—a constant undercurrent of rhythm and tone that colored every idea. Calista could feel their excitement as a rising crescendo, their nervousness as a minor key threading through.*
+*Aris's mind was not silent. It sang. Even in thought, his consciousness had melody—a constant undercurrent of rhythm and tone that colored every idea. Calista could feel his excitement as a rising crescendo, his nervousness as a minor key threading through.*
 
 **Aris (thought):** *(the thought arriving with the texture of a cello's hum)* "Can you hear it? This is how I always think. In music."
 
-*In response, Calista shared her own perception—the way thoughts arrived for her as images, colors blooming in the darkness behind her eyes. She showed Aris how she saw their melody: a river of gold and indigo, notes becoming brushstrokes.*
+*In response, Calista shared her own perception—the way thoughts arrived for her as images, colors blooming in the darkness behind her eyes. She showed Aris how she saw his melody: a river of gold and indigo, notes becoming brushstrokes.*
 
 **Calista (thought):** *(the thought carrying the quality of watercolors bleeding together)* "I can *see* your music. It's beautiful."
 
@@ -52,13 +52,13 @@ After Calista's Core integration at age 35, she and Aris explore mental connecti
 
 *They continued to explore, sharing memories that words had never captured. Calista showed Aris a morning in Maia's garden—the smell of earth, the warmth of sun on her back, the way a seedling looked when it first broke the surface. Not just the memory, but how it *felt*—the colors of joy and peace and belonging.*
 
-*In return, Aris shared a moment at the piano—hands finding the keys without sight, the way music rose from silence, the electric triumph when a difficult passage finally flowed true. Calista felt their determination, their frustration, their elation—all as colors she'd never seen in the waking world.*
+*In return, Aris shared a moment at the piano—hands finding the keys without sight, the way music rose from silence, the electric triumph when a difficult passage finally flowed true. Calista felt his determination, his frustration, his elation—all as colors she'd never seen in the waking world.*
 
 **Calista (thought):** *(gratitude as gold light)* "Thank you for letting me hear your colors."
 
 **Aris (thought):** *(love as a sustained note, clear and true)* "Thank you for showing me yours."
 
-*As they delved deeper, the sharing became more vulnerable. Aris revealed fears about their future—a wavering melody, uncertain of its resolution. Calista showed them the doubts that haunted her art—unfinished paintings that lived in her mind, the fear that she might never capture what she truly felt.*
+*As they delved deeper, the sharing became more vulnerable. Aris revealed fears about his future—a wavering melody, uncertain of its resolution. Calista showed him the doubts that haunted her art—unfinished paintings that lived in her mind, the fear that she might never capture what she truly felt.*
 
 *Everything was laid bare in the safety of their shared space—two languages becoming one.*
 

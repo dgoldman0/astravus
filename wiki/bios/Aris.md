@@ -55,15 +55,15 @@ Aris's role in Calista's life extended beyond romance:
 After Calista's Core integration, their relationship reached a new level of intimacy:
 - They shared a profound mental connection, allowing their minds to link at a deeper level
 - In this shared mental space, they could directly experience each other's thoughts, feelings, and sensory experiences
-- Aris shared the melody they'd been working on; Calista experienced it as if playing alongside them
+- Aris shared the melody he'd been working on; Calista experienced it as if playing alongside him
 - Calista shared the memory of planting seeds with family in Maia's garden; Aris felt the warmth of the sun and richness of soil
-- Aris revealed their love directly through thought: "I love you"
+- Aris revealed his love directly through thought: "I love you"
 - This intimate sharing created a new kind of closeness that transcended physical or even verbal expression
 - They spent the evening in "shared mental embrace," exploring each other's minds with wonder and discovering vulnerability
 
 ## Parenthood
 Aris and Calista:
-- Made the conscious decision to become parents after observing Kael's family for decades
+- Made the conscious decision to become parents as Calista approached 50, after observing nearly fifteen years of Kael's parenting
 - Underwent extensive parenting classes and preparation together
 - Attended family counseling sessions to ensure readiness
 - Welcomed Elara at her First Breath
@@ -88,14 +88,14 @@ Throughout their relationship, Aris and Calista maintained commitment to:
 - Making art that spoke to the community and enriched Lumen
 
 ## Later Years & Transcendence
-As Calista entered her later centuries, Aris experienced similar transitions:
+In the years beyond Calista's 125th year, Aris experienced similar transitions:
 - Both began experiencing periods of deep sleep and shared dreams
 - The dreams blended their individual consciousnesses with Lumen's collective awareness
 - They shared the transcendence experience, discovering comfort in knowing they were going through this together
 - In dream states, they could commune with family members who had already transcended
 - They continued to support each other through the gradual process of becoming part of Lumen's greater consciousness
 
-One dream showed them in the music room with Selene, Calista's mother, experiencing the continuity of musical inspiration across time and consciousness.
+One dream showed him in the music room with Selene, Calista's mother, experiencing the continuity of musical inspiration across time and consciousness.
 
 ## Personality Traits
 - **Passionate:** Deeply invested in musical expression and emotional authenticity
@@ -172,7 +172,7 @@ One dream showed them in the music room with Selene, Calista's mother, experienc
 
 ## Character Notes for Writers
 - Aris represents the balance of individual artistic passion with committed partnership
-- Their relationship with Calista demonstrates how different artistic mediums can enhance rather than compete
+- His relationship with Calista demonstrates how different artistic mediums can enhance rather than compete
 - The mental connection between them after Core integration opens new possibilities for depicting intimacy
-- Aris's role is as equal partner, not secondary character—their voice and perspective matter equally to Calista's
-- Their experience of transcendence happens alongside Calista's, showing that this process is communal as well as individual
+- Aris's role is as equal partner, not secondary character—his voice and perspective matter equally to Calista's
+- His experience of transcendence happens alongside Calista's, showing that this process is communal as well as individual

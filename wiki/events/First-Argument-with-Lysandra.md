@@ -66,7 +66,7 @@ Through the argument, they learned something about navigating conflict togetherâ
 
 ## Related Events
 
-- **Preceding:** [Lysandra's Song](Lysandras-Song.md)
+- **Preceding:** [Lysandra's Formula](Lysandras-Formula.md)
 - **Following:** [The Break](The-Break.md)
 - **Connected to:** Relationship lessons applied in adult life
 

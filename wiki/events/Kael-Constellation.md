@@ -16,7 +16,7 @@
 - Family and friends in attendance
 
 ### Time
-- Calista in adulthood
+- Shortly after Calista's Core Integration at 35
 - After the siblings have grown
 
 ### Atmosphere
@@ -36,7 +36,6 @@
 - [[Calista]] - Sister, witness
 - [[Aris]] - Calista's partner
 - [[Maia]], [[Arin]], [[Selene]], [[Dorian]] - Original parents
-- [[Elara]] - Niece
 - Extended family and community
 
 ## Detailed Account
@@ -45,9 +44,9 @@ Astravian constellations are not static structures but living relationships that
 
 This transition, while perhaps unusual by other standards, reflects the Astravian understanding that relationships can transform as people grow. Sage and Kael's bond, built over decades of family connection, deepened into something romantic. Sol, joining them, brings new perspectives and energy.
 
-For Calista, witnessing her brother's constellation formation brings complex emotions. There is joy in seeing Kael find love and partnership. There is a shift in understanding as Sage, who helped raise her, now becomes her sister-in-law of sorts. The family dynamics evolve, but the love remains.
+For Calista, witnessing her brother's constellation formation brings complex emotions. There is joy in seeing Kael find love and partnership. There is a shift in understanding as Sage, who helped raise her, now also becomes her brother's partner. The family dynamics evolve, but the love remains.
 
-Sage and Sol bring new personalities and perspectives into the extended family. They become additional aunt and uncle figures to Elara, additional sources of wisdom and connection for Calista herself.
+Sol joins the extended family, while Sage continues their existing relationships alongside the new constellation. Elara has not yet been born; Sage and Sol later help Calista and Aris prepare for parenthood.
 
 The ceremony itself reflects Astravian values of community and transparency. The constellation formation is witnessed by the community, blessed by their collective presence, and celebrated as an expansion of the bonds that hold Lumen together.
 
@@ -66,7 +65,7 @@ The ceremony itself reflects Astravian values of community and transparency. The
 ### Narrative Role
 - Expands family dynamics
 - Demonstrates Astravian relationship customs
-- Introduces Sage and Sol as characters
+- Establishes Sage and Sol's partnership with Kael
 
 ## Outcome
 
@@ -77,13 +76,13 @@ The ceremony itself reflects Astravian values of community and transparency. The
 
 ### Long-term
 - Enriched family structure
-- Uncle, aunt figures for Elara
+- An extended family network that will later support Elara
 - Model of successful constellation for Calista and Aris
 - Expanded network of love and support
 
 ## Related Events
 - [[Constellation-Formation]] - Calista's own constellation ceremony
-- [[Three-Siblings-Story]] - Family history and bonds
+- [[The-Three-Siblings-Story]] - Family history and bonds
 - [[Parents-Approaching-Transcendence]] - Later stage of parents' journey
 - [[Grandparent-Teaching-Moments]] - Multiple grandparents involved
 

@@ -1,5 +1,8 @@
 # REVIEW: Dialogue Quality & Character Voice Analysis
 
+> **Historical review:** This January 2026 analysis describes an earlier draft. Consult [ALIGNMENT.md](ALIGNMENT.md) for the September continuity decisions; issue counts and source line numbers below have not been reassessed.
+
+
 This document provides a comprehensive review of dialogue quality in **latest.md** against the authoritative wiki documentation for character voice, communication style, and personality. This review follows the previous consistency analysis and focuses on whether characters speak authentically according to their established voices.
 
 **Document Purpose:** Identify dialogue issues and provide specific corrections to ensure each character's voice matches their wiki-established personality, quirks, and communication style.

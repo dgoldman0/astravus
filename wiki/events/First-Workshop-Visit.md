@@ -21,15 +21,15 @@ One day, while Arin was working on a new device, Calista accidentally knocked ov
 
 "Oh no!" Calista exclaimed, feeling a wave of guilt. "I'm so sorry, Arin."
 
-Arin looked at the mess and then at Calista, their expression calm and understanding. Their use of her full name—"Calista"—signaled concern rather than anger.
+Arin stops humming, surveys the scattered screws, and begins sorting them. They address Calista as Cali and help her recover from the mistake.
 
-"Mistakes happen, Calista. The important thing is to learn from them."
+"Mistakes happen. Even the best machines break down sometimes—that's how we learn what needs reinforcing."
 
-"But I ruined your work," Calista said, her voice small and worried.
+"But I interrupted your work," Calista said, her voice small and worried.
 
 "You didn't ruin it," Arin reassured her. "You just gave us a chance to make it better. Let's fix it together."
 
-With Arin's patient guidance, Calista learned how to repair the affected component, understanding the importance of patience and perseverance. Arin showed her how to sort the screws, how to carefully examine what had been disrupted, and how methodical work could restore order from chaos.
+With Arin's guidance, Calista gathers the scattered screws and sorts them by size. No broken component is established in the draft; the practical lesson comes from restoring order to the workshop.
 
 ---
 
@@ -37,7 +37,7 @@ With Arin's patient guidance, Calista learned how to repair the affected compone
 
 ### Narrative Significance
 - Establishes Arin's teaching philosophy: mistakes as opportunities
-- Shows Arin's use of "Calista" (full name) to signal concern
+- Shows Arin reassuring Cali while involving her in the cleanup
 - Introduces the workshop as a space of learning and creation
 - Foreshadows Elara's later inheritance of Arin's tinkering spirit
 
@@ -77,9 +77,9 @@ This experience influences:
 
 > **Calista:** "Oh no! I'm so sorry, Arin."
 > 
-> **Arin:** "Mistakes happen, Calista. The important thing is to learn from them."
+> **Arin:** "Mistakes happen. Even the best machines break down sometimes—that's how we learn what needs reinforcing."
 > 
-> **Calista:** "But I ruined your work."
+> **Calista:** "But I interrupted your work."
 > 
 > **Arin:** "You didn't ruin it. You just gave us a chance to make it better. Let's fix it together."
 
@@ -88,7 +88,7 @@ This experience influences:
 ## Related Events
 
 - **Preceding:** [Early Home Life](Early-Home-Life.md)
-- **Following:** [Water Wheel Project](Water-Wheel-Project.md), [Arin and Elara's Final Projects](Arin-and-Elaras-Final-Projects.md)
+- **Following:** [Water Wheel Project](Water-Wheel-Project.md), [Grandparent Teaching Moments](Grandparent-Teaching-Moments.md)
 - **Parallel:** Learning from other parents' lessons
 
 ---

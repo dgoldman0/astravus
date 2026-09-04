@@ -131,9 +131,9 @@ Healing happens through:
 
 ## Connection to Joren
 
-### Joren's Parents Transcended into Nyx
+### Communion with Joren's Parents
 
-This is implied by their presence in Calista's dreams:
+Calista encounters Joren's transcended parents during her healing dreams with Aurora and Nyx. Their presence establishes that they remain accessible; the draft does not specify their permanent host Astravus:
 
 - They appear in healing dream sequences
 - They offer comfort about loss

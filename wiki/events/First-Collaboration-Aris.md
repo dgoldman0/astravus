@@ -15,7 +15,7 @@ Calista and [[Aris]] work together on their first collaborative art project, dis
 - Space for experimentation and dialogue
 
 ### Time
-- After meeting Aris, before Core Integration (Before Year 1)
+- After meeting Aris, before Core Integration
 - Calista in her twenties or early thirties
 
 ### Atmosphere

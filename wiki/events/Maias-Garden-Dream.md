@@ -1,7 +1,7 @@
 # Maia's Garden Dream
 
 ## Overview
-In one of her transition dreams, Calista encounters [[Maia]]—her mother who has already transcended—in a dreamscape version of Maia's beloved garden. This profoundly moving experience offers Calista closure and connection beyond physical death.
+In one of her transition dreams, Calista encounters [[Maia]]—her mother who has already transcended—in a dreamscape version of Maia's beloved garden. This profoundly moving experience offers Calista continued connection after Maia's transcendence.
 
 ## Setting
 
@@ -37,7 +37,7 @@ The garden appears in the dream exactly as Calista remembers it—the careful pl
 
 And then Maia is there. Not as a ghost or a memory, but as a presence—transformed by transcendence yet still recognizably herself. She carries the essence of everything Calista loved about her mother: the gentle wisdom, the nurturing patience, the deep quiet love.
 
-They don't speak in words exactly—communication in this space is more direct, more complete. But what passes between them carries the weight of everything unsaid, every thank you never quite expressed, every moment of love that words couldn't capture.
+Calista calls to her mother and tells her she misses her. Maia responds with affection and guides Calista's hands as they plant a seed, echoing the first gardening lesson. Their spoken exchange is embedded in the shared sensory experience of the dream.
 
 Maia shares something of what transcendence is like—not as explanation but as experience. Calista feels, for a moment, what it means to be part of Lumen: the dissolution of isolation, the connection to all consciousness, the peace that comes from merging with something infinite.
 
@@ -73,7 +73,7 @@ When Calista wakes, she carries the encounter with her. Her grief for her mother
 - Model for how consciousness continues
 
 ## Related Events
-- [[First-Gardening]] - Original garden memories with Maia
+- [[First-Gardening-Lesson]] - Original garden memories with Maia
 - [[Parents-Approaching-Transcendence]] - Lead-up to Maia's departure
 - [[First-Transition-Dreams]] - Beginning of dream experiences
 - [[Parents-First-Meeting-Dream]] - Another transcendent encounter

@@ -31,7 +31,7 @@ As Elara grows and explores her identity, she approaches her parents to share wh
 
 **Elara:** "I think I have a conclusion."
 
-*Aris leaned forward slightly, their expression warm and open.*
+*Aris leaned forward slightly, his expression warm and open.*
 
 **Aris:** *(gently, voice like a welcoming chord)* "We're listening. What did you discover?"
 
@@ -51,7 +51,7 @@ As Elara grows and explores her identity, she approaches her parents to share wh
 
 **Aris:** "You know what I hear in what you just told us? I hear someone who knows her own melody. Someone who's listened carefully enough to find the key that fits."
 
-*They moved closer, joining the circle.*
+*Aris moved closer, joining the circle.*
 
 **Aris:** "We'll use 'she' and 'her' from now on. Not because we're adjusting something—but because you've helped us hear you more clearly. Thank you for sharing your research."
 

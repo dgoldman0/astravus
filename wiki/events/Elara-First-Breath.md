@@ -1,27 +1,27 @@
 # Elara's First Breath
 
 ## Overview
-[[Elara]] is born—the first child of Calista and [[Aris]]. This profound moment transforms Calista's life, awakening new depths of love and purpose as she becomes a parent.
+[[Elara]] is born—the only child of Calista and [[Aris]] in the current arc. This profound moment transforms Calista's life, awakening new depths of love and purpose as she becomes a parent.
 
 ## Setting
 
 ### Location
-- Birth space in Lumen
-- Designed for safe and supported delivery
+- Private room in the Sanctuary, Lumen
+- Prepared for the First Breath welcome
 
 ### Environment
-- Prepared birthing environment
+- Warm lighting and gentle music
 - Family support present
 - Medical assistance available
 - Transition between worlds
 
 ### Time
-- Years after Constellation Formation
-- Major life milestone for Calista
+- Calista is 50
+- After constellation formation and the Sanctuary preparations
 
 ### Atmosphere
 - Intense anticipation
-- Physical and emotional challenge
+- Emotional anticipation and responsibility
 - Overwhelming joy
 - Sacred arrival
 
@@ -43,7 +43,7 @@
 
 The moment of Elara's birth echoes across Calista's life—connecting her to the stories her parents told of her own first breath, to the countless generations of Astravians who have welcomed new life, and forward to all the moments yet to come.
 
-The birth itself is both universal and utterly unique. Calista experiences the profound physical reality of bringing new life into the world, supported by Aris's presence and their mind-link that allows them to share the experience more fully than would otherwise be possible.
+Calista and Aris wait together in a private room. A caregiver brings in Elara after her First Breath, and they welcome and name her. The draft does not specify the gestation or delivery mechanism, and does not depict Calista giving birth.
 
 When Elara takes her first breath—that small gasp that means a new consciousness has entered the world—Calista feels something shift fundamentally in her being. She is no longer just daughter, partner, artist. She is now mother, with all the fierce love and profound responsibility that entails.
 

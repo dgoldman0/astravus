@@ -1,90 +1,25 @@
-# Art Exhibition Success
+# Art Exhibitions and Community Response
 
 ## Overview
-Calista and [[Aris]]'s collaborative art exhibition receives widespread acclaim from the Lumen community. This public success validates their creative partnership and establishes them as significant voices in Astravian artistic expression.
 
-## Setting
+Calista exhibits her work through the art center as her teaching and artistic practice develop. In the early exhibition described in the draft, a visitor responds to one of her digital paintings of Lumen's gardens, and they discuss the childhood memories behind it.
 
-### Location
-- Community gallery or exhibition space, Lumen
+## Chronology
 
-### Environment
-- Curated display of collaborative works
-- Lighting designed to showcase pieces
-- Space for community gathering and discussion
-- Works spanning their years of partnership
+The first described exhibition appears before Calista meets Aris around age 30 and before her Core Integration at 35. Exhibitions continue throughout her career. Aris later attends them and offers critical feedback, while Calista supports his performances in the same way.
 
-### Time
-- After Core Integration (After Year 1)
-- Calista in her late thirties or forties
+The draft does not depict a single major joint exhibition after their first mind-link or establish a date for such an event.
 
-### Atmosphere
-- Celebratory
-- Community appreciation
-- Creative fulfillment
-- Shared joy
+## Significance
 
-## Participants
-
-### Primary
-- [[Calista]] - Artist, exhibitor
-- [[Aris]] - Artist, exhibitor
-
-### Secondary
-- [[Maia]], [[Arin]], [[Selene]], [[Dorian]], and [[Sage]] - Proud parents
-- [[Kael]] and [[Lyra]] - Siblings
-- [[Cassia]] - Childhood friend
-- Community members and admirers
-- Fellow artists
-- Students from the art center
-
-## Detailed Account
-
-Years of creative collaboration between Calista and Aris culminate in a major exhibition of their work. The show represents not just their artistic achievements but the journey of their partnership—from early experiments to the deeply connected work they've created since their mind-linking.
-
-The exhibition space fills with community members eager to experience what this artistic pair has created. The works on display demonstrate remarkable range while maintaining a unified vision—a testament to how thoroughly Calista and Aris have learned to blend their creative voices.
-
-For Calista, the evening is deeply moving. She sees her parents' pride as they view work that reflects lessons learned from all of them—Maia's organic sensibility, Arin's craftsmanship, and the diverse influences of her entire constellation. She watches former students from the art center find inspiration in pieces that exist because of the teaching skills she developed with them.
-
-Most significantly, she shares the moment with Aris through their connection, experiencing not just her own joy but her partner's as well. Their success is genuinely shared—neither could have created this body of work alone.
-
-The community's response goes beyond simple appreciation. People speak of how the work moves them, how it captures something essential about Astravian experience. Some pieces spark conversations that continue for days.
-
-## Importance
-
-### Personal Growth
-- Validation of Calista's artistic path
-- Fulfillment of creative potential
-- Recognition as a mature artist
-
-### Thematic Significance
-- Art as community contribution
-- Collaboration as enhancement
-- Creative expression as connection
-
-### Narrative Role
-- Milestone in Calista and Aris's partnership
-- Recognition of their place in community
-- Demonstration of what integrated partnership enables
-
-## Outcome
-
-### Immediate
-- Community acclaim and appreciation
-- Deeper recognition as artists
-- Celebration of partnership
-
-### Long-term
-- Established legacy in Lumen's artistic tradition
-- Inspiration for younger artists
-- Confidence to continue creating and pushing boundaries
+The visitor's response shows art connecting personal memories to the wider community. Later, Aris's feedback becomes one way the partners support each other's growth while maintaining individual practices.
 
 ## Related Events
-- [[First-Collaboration-Aris]] - Beginning of their creative partnership
-- [[Meeting-Aris]] - Origin of their connection
-- [[Art-Center-Volunteering]] - Where Calista developed teaching skills
-- [[First-Mind-Connection-Aris]] - Deepening of their creative bond
 
-## Source Material
-- Based on mention that Calista and Aris "earned acclaim for their artistic collaborations"
-- Reflects their importance to Lumen's cultural life
+- [Art Center Volunteering](Art-Center-Volunteering.md)
+- [Meeting Aris](Meeting-Aris.md)
+- [First Collaboration with Aris](First-Collaboration-Aris.md)
+
+## Source
+
+[Book II: Young Adulthood](../../revision/latest.md#young-adulthood).

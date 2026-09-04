@@ -1,14 +1,14 @@
 # Deciding Family with Aris
 
 ## Context
-After decades together and observing Kael's family raise their child, Aris and Calista have a pivotal conversation about starting their own family. This dialogue captures the weight and joy of their decision. Aris approaches the topic musically—their thoughts come as rhythms and melodies—while Calista processes through visual metaphors. Together, they compose a new chapter of their shared story.
+As Calista approaches 50, after nearly fifteen years of watching Kael's family raise their child, Aris and Calista have a pivotal conversation about starting their own family. This dialogue captures the weight and joy of their decision. Aris approaches the topic musically—his thoughts come as rhythms and melodies—while Calista processes through visual metaphors. Together, they compose a new chapter of their shared story.
 
 ## Participants
 - **Aris** - Calista's partner, thoughtful and caring, speaks with musical rhythm
 - **Calista** - Protagonist, considering the future, thinks in visual metaphors
 
 ## Setting
-*Their home glowed with the soft light of evening. The walls—organic, semi-transparent—filtered the bioluminescence of Lumen's living architecture into warm amber tones. Aris sat at the window seat, fingers tapping an unconscious rhythm against their knee. Calista was curled beside them, a sketchpad in her lap, but her pencil had been still for some time.*
+*Their home glowed with the soft light of evening. The walls—organic, semi-transparent—filtered the bioluminescence of Lumen's living architecture into warm amber tones. Aris sat at the window seat, fingers tapping an unconscious rhythm against his knee. Calista was curled beside him, a sketchpad in her lap, but her pencil had been still for some time.*
 
 ## Dialogue
 
@@ -16,7 +16,7 @@ After decades together and observing Kael's family raise their child, Aris and C
 
 **Aris:** "I've been composing something in my head lately. Not music, exactly. More like... a question that wants to be asked but keeps hiding in the key changes."
 
-*They turned to look at Calista, eyes soft.*
+*He turned to look at Calista, eyes soft.*
 
 **Aris:** "Can I try to put it into words?"
 
@@ -26,7 +26,7 @@ After decades together and observing Kael's family raise their child, Aris and C
 
 **Aris:** "I've been watching Kael's family. The way they move together, the way love flows between them—it's like they're all playing the same song without needing sheet music."
 
-*They paused, searching for the right phrase.*
+*He paused, searching for the right phrase.*
 
 **Aris:** "It's made me wonder... hmm. It's made me wonder what kind of music *we* might make. If we added a new voice to our composition."
 
@@ -40,23 +40,23 @@ After decades together and observing Kael's family raise their child, Aris and C
 
 **Calista:** "For a while now. Kael, Sage, and Sol—watching them—it's shown me things I didn't know I wanted. The way they teach, the way they love, the way they make room for a new person to become exactly who they're meant to be."
 
-*She reached for Aris's hand, stilling their rhythm.*
+*She reached for Aris's hand, stilling his rhythm.*
 
 **Calista:** "Do you think we're ready? To paint that future for real?"
 
-*Aris was quiet for a moment, and Calista could feel them composing—processing the question through melody and meaning.*
+*Aris was quiet for a moment, and Calista could feel him composing—processing the question through melody and meaning.*
 
 **Aris:** "When I imagine it... the music I hear isn't scary. It's new and complex, sure—new time signatures, new harmonies—but it's also beautiful. It's also *ours*."
 
-*They lifted Calista's hand and pressed it to their chest.*
+*He lifted Calista's hand and pressed it to his chest.*
 
 **Aris:** "I think we've spent so many years learning our own instruments—learning how to be ourselves, how to be together. Maybe now we're ready to teach someone else. To give them the same gifts our parents gave us."
 
 **Calista:** "It would change everything."
 
-**Aris:** *(a soft smile playing at their lips)* "The best songs always do. The ones that last—they're never just one voice. They're voices learning to blend, learning to lift each other up."
+**Aris:** *(a soft smile playing at his lips)* "The best songs always do. The ones that last—they're never just one voice. They're voices learning to blend, learning to lift each other up."
 
-*They hummed a phrase—something new, something hopeful.*
+*He hummed a phrase—something new, something hopeful.*
 
 **Aris:** "I think we're ready, Cali. I think we've been getting ready for a long time."
 
@@ -91,4 +91,4 @@ After decades together and observing Kael's family raise their child, Aris and C
 - [[Sol]] - Part of Kael's family constellation
 - [[Parenting-Preparation]] - Related event
 - [[Elara]] - The child they will have
-- [[Elaras-First-Breath]] - Future event this leads to
+- [[Elara-First-Breath]] - Future event this leads to
