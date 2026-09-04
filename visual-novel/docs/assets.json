@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "tool": "Built-in OpenAI image_gen (no CLI/API fallback)",
+  "date": "2026-09-04",
+  "reference_path_base": "Astravus repository root",
+  "runtime_path_base": "visual-novel",
+  "note": "Prompts preserve requested constraints, not a guarantee every generated detail satisfied them. Selected RGB sprites use runtime matte compositing; see ART_DIRECTION.md. Superseded image candidates and SDK archives are ignored.",
+  "assets": [
+    {
+      "file": "game/images/backgrounds/garden.png",
+      "generation": "garden-v3",
+      "sha256": "e32d470defeda7faccd5e6fa1c08125faf9e60f818506e6cb15aae364725d243",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/characters/calista.png",
+      "generation": "calista-v2",
+      "sha256": "b83d6f14e42d14bc92d5d6de56ce6e919273737b5d0a7c6574d8827857fa050f",
+      "size": [
+        1021,
+        1540
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/characters/maia.png",
+      "generation": "maia-v1",
+      "sha256": "2d7d24a32ea57345cd91090c9b7fbfa051e3fdf7ebd65160421117dee2c8eb0b",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "game/images/characters/cassia.png",
+      "generation": "cassia-v2",
+      "sha256": "48f683109b1f70649db902226bdfe22cbed99505a822616f054aa686dd3b5ba1",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/characters/joren.png",
+      "generation": "joren-v2",
+      "sha256": "c13a84198777a3b330170d02cbe2b3584272d75cd05e2eae20fa7131033612b9",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/garden-close.png",
+      "generation": "garden-close-v1",
+      "sha256": "4d6729bc69f1ca19f13bfc50015d2efc9ecdcb63ab269e889cf79ddd73f05c0a",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/treehouse-shaded.png",
+      "generation": "treehouse-shaded-v1",
+      "sha256": "9dcbc10785238d2c964cbc32b24451e63f8228173270c052394d8fe8bc74dda9",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/first-memory-young.png",
+      "generation": "first-memory-young-v1",
+      "sha256": "796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/treehouse-rain.png",
+      "generation": "treehouse-rain-v1",
+      "sha256": "99e7ba8ea62daa5a42ad490a71dd33fa23204f958152f8d9fa9ae0491d3459f6",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/family-home.png",
+      "generation": "family-home-v1",
+      "sha256": "dbf252a7502305a15c685bcbc6bfc7973f5bf2db277401dbdd6e6fda87d15a6a",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/construction-path.png",
+      "generation": "construction-path-v1",
+      "sha256": "96e86bb7b2028a492d92db2ec9bd795ab9a423fe5fb38520b5c6e7cc84006473",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/community-courtyard.png",
+      "generation": "community-courtyard-v1",
+      "sha256": "a02f53750be493a139f06a3811e3911736f9846aa6eb06de6e53342974f9f048",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "generations": [
+    {
+      "id": "garden-v1",
+      "prompt": "Use case: illustration-story. Asset type: final background painting for the Ren'Py visual novel Astravus, opening chapter 'A Place to Begin'. Create a beautiful cinematic 16:9 landscape illustration, ideally 1920x1080. Reference image is the existing world-design reference for Lumen, a vast living spacecraft; use its organic ribbed grown architecture and enclosed garden scale, but create a new intimate scene. Maia's domestic garden inside Lumen in soft morning light: a gently curving ochre stone path, dark rich raised planting beds close to camera, mature sunflowers and airy ferns, a shallow small pond, a gardener's wooden stool. Behind them a magnificent old oak partly conceals a small weathered wooden treehouse with a ladder high in its branches. The enclosing living architecture is visible through foliage as pale bone-colored branching ribs and a translucent vault filtering artificial sunlight; this is an inhabited living world in space, not an outdoor Earth woodland. Composition: broad readable landscape, planting bed in lower right, arching oak at right, breathing room and subdued foliage on left for title interface. Emphasize intimate human scale and hand-painted detail. Painterly literary illustration, oil and gouache brushwork, natural believable forms, restrained stylization, honey gold light and deep forest teal shadows with very subtle bioluminescent leaf veins. No characters, no lettering, no UI, no collage, no watermark. Single continuous environment. Rich but not excessively busy.",
+      "selected": false,
+      "output_id": "exec-ee937460-14cf-4ce1-945d-ca5bb6f367cf.png",
+      "references": [
+        "visuals/lumen-life.png"
+      ]
+    },
+    {
+      "id": "garden-v2",
+      "prompt": "Use case: identity-preserve / lighting-weather / illustration-story. Asset type: revised production garden background for Astravus, 16:9 landscape ideally 1920x1080. Input image 1 is the current garden edit target. Input image 2, the author's COLOR treehouse reference, is the PRIMARY authority for the spirit, treehouse construction, enclosure and lighting. Input image 3 is mood support only: the Tree of Echoes is a DIFFERENT tree and must not replace the garden oak. The author likes the quality of image 1 but says it is too bright and misses the spirit of their treehouse garden. Revise image 1 accordingly. Keep the painterly quality, garden path, little pond, planting beds and some sunflowers, and subtle organic architecture identifying Lumen as a living spacecraft. Move viewpoint closer and lower to child eye-height beneath the enormous old oak, making the treehouse a central, intimately inhabitable place with thick surrounding branches. Draw the patched wood upper treehouse with rough branch railings, old ladder, and the second low rounded door/hollow in the trunk as in image 2. Beneath and around the tree: circular low wooden seating, faded patterned cushions, scattered children's hand-drawn maps without legible words, small weathered treasure boxes. Sense of things accumulated, mended, handled and loved. A big overhanging canopy and enclosing garden walls create a sheltered secret hideaway. Lighting substantially darker and more enclosed than image 1: richly colored forest-teal shadow, blue-green bioluminescent foliage, tiny star-like canopy lights, little amber lights by doors and on trunk, a small soft shaft of filtered morning light reaching the planting bed. No broad glowing white ceiling or giant washed-out sunlit atrium. Organic structural ribs can be subtly glimpsed far beyond the leaves, but the tree and inhabited space dominate. This is warm and welcoming, mysterious and slightly otherworldly, not sinister. Single continuous cinematic landscape, no people or animals, no text/UI, no collage, no watermark.",
+      "selected": false,
+      "output_id": "exec-cad8d204-1e36-4c47-becc-531dbeef09be.png",
+      "references": [
+        "generation:garden-v1",
+        "revision/Treehouse.png",
+        "revision/Echoes.jpg"
+      ]
+    },
+    {
+      "id": "treehouse-v1",
+      "prompt": "Use case: illustration-story. Asset type: final 16:9 widescreen environment painting for Astravus. Reference 1 is the final garden, reference 2 is an older architectural sketch of its treehouse; use reference 1 for color, light and world consistency, reference 2 for construction details. Create a NEW view INSIDE that treehouse on a softly rainy afternoon, ideally 1920x1080. Old oak trunk passing through the left wall, low patchwork timber beams, cutout windows with rust-colored fabric curtains, floor cushions in faded teal and ochre, wool blankets, wooden boxes of smooth stones and colorful feathers, small low table bearing children's hand-drawn maps of invented islands (NO readable text), three little cups. Through the windows, Maia's enclosed garden and white branching structural ribs of Lumen are visible in luminous rain mist. Warm sheltered amber interior against blue-green rainy exterior, strong foreground/midground depth, generous open central floor for character sprites. Intimate, inviting, handcrafted rather than grand. Single continuous landscape painting, no people or animals, no labels. Painterly literary science-fiction illustration for the visual novel Astravus. Match the reference environment's honey-gold lighting and deep forest-teal shadows, fine oil/gouache brushwork, believable natural anatomy, understated stylization. Clear face and silhouette. No text, watermarks, borders, extra figures, collage or UI.",
+      "selected": false,
+      "references": [
+        "generation:garden-v1",
+        "revision/Treehouse.jpg"
+      ],
+      "output_id": "exec-13196229-c449-468d-97f6-b25bd59c8b03.png",
+      "note": "Retained architectural reference; superseded in runtime by lighting edit treehouse-shaded-v1."
+    },
+    {
+      "id": "calista-v1",
+      "prompt": "Use case: identity-preserve. Asset type: production character sprite on genuine transparent alpha, for Astravus visual novel. Reference 1 is the canonical character concept sheet; reference 2 is lighting and painterly style only. Extract and refine the CHILDHOOD version of Calista as ONE single girl about eight years old, child proportions, round expressive face, deep blue eyes, light olive skin with clear freckles across nose and cheeks, loose wavy chestnut-brown hair half tied back with a simple teal ribbon. Modest cream linen shirt with sleeves rolled to forearms, moss-green practical overalls with a tiny ochre stitch on pocket, worn brown boots. Full body entirely visible with space around head, hands and feet, relaxed standing pose three-quarter turned slightly toward viewer's right, attentive gentle half-smile, one hand holding a small closed sketchbook to her side. No jewelry except the hair ribbon. Preserve canonical facial features and unambiguously CHILD age; no adolescent/adult figure. Transparent background with no backdrop, no ground, no cast shadow, no checkerboard, no frame. Soft ambient daylight neutral enough to composite into both garden and treehouse. Painterly literary science-fiction illustration for the visual novel Astravus. Match the reference environment's honey-gold lighting and deep forest-teal shadows, fine oil/gouache brushwork, believable natural anatomy, understated stylization. Clear face and silhouette. No text, watermarks, borders, extra figures, collage or UI.",
+      "selected": false,
+      "references": [
+        "revision/Calista.png",
+        "generation:garden-v1"
+      ],
+      "output_id": "exec-d68fd3d0-5b98-4924-af21-a24180297dfb.png"
+    },
+    {
+      "id": "maia-v1",
+      "prompt": "Use case: illustration-story. Asset type: production full-body character sprite on genuine transparent alpha for Astravus. Reference is only the environment lighting and brushwork, not a character. ONE adult woman Maia, an ecological systems designer and Calista's mother, appearing in her forties with a graceful tall slender build, warm brown skin, amber-green eyes, long dark curly hair with several silver streaks woven into practical braids containing two small dried flowers and seeds. Warm composed face, subtle smile and laugh lines. She wears a long muted terracotta work apron over an ivory rolled-sleeve shirt and loose dark teal trousers, soft brown gardening boots. Fingertips stained from soil. Standing naturally slightly turned toward viewer's left with one open hand gently offering a SINGLE small sunflower seed at waist height, the other at her side. Full body entirely visible with generous clear space around head, hands and feet, natural elegant adult proportions. Genuine transparent background no backdrop no ground no shadow no checkerboard. Match naturalistic painterly style, no cartoon overlarge eyes. Painterly literary science-fiction illustration for the visual novel Astravus. Match the reference environment's honey-gold lighting and deep forest-teal shadows, fine oil/gouache brushwork, believable natural anatomy, understated stylization. Clear face and silhouette. No text, watermarks, borders, extra figures, collage or UI.",
+      "selected": true,
+      "references": [
+        "generation:garden-v1"
+      ],
+      "output_id": "exec-9b0b6a1b-449d-448c-920e-5f8b8920024c.png"
+    },
+    {
+      "id": "cassia-v1",
+      "prompt": "Use case: illustration-story. Asset type: production full-body character sprite on genuine transparent alpha for Astravus. Reference is environment style only. ONE child girl Cassia around eight years old with rich umber-brown skin, long wavy chestnut-brown hair loosely held back with an ochre fabric band, deep green lively eyes, a tiny crescent birthmark on left wrist. Child proportions and a youthful round expressive face. Wearing a dusty plum tunic with rolled sleeves, simple mustard-yellow short scarf tied at neck, loose slate-blue trousers and brown shoes. Holds a small cloth-bound notebook with a feather tucked into it in left hand at her side, other hand relaxed in a small storytelling gesture, warm mischievous smile, body slightly toward viewer's left. Full body including feet with generous clear space around silhouette. Completely transparent alpha background, no room or ground or cast shadow or checkerboard. Natural believable child anatomy. Painterly literary science-fiction illustration for the visual novel Astravus. Match the reference environment's honey-gold lighting and deep forest-teal shadows, fine oil/gouache brushwork, believable natural anatomy, understated stylization. Clear face and silhouette. No text, watermarks, borders, extra figures, collage or UI.",
+      "selected": false,
+      "references": [
+        "generation:garden-v1"
+      ],
+      "output_id": "exec-eaf69a90-a0aa-4351-80df-6f78670d57d2.png"
+    },
+    {
+      "id": "joren-v1",
+      "prompt": "Use case: illustration-story. Asset type: production full-body character sprite on genuine transparent alpha for Astravus. Reference is environment lighting/brushwork only. ONE child boy Joren around nine years old, sturdy energetic child build, fair ruddy skin with pink cheeks, tousled straw-blond hair, piercing blue eyes, big friendly grin with a small gap between front teeth. Faded rust-orange short-sleeved overshirt over a light oatmeal tee, patched charcoal shorts to the knees, worn moss-green ankle boots. Small canvas explorer satchel on strap over one shoulder, one knee with a healed scrape. Natural standing pose leaning forward a little, hands resting on satchel strap, three-quarter turned toward viewer's left. Unambiguously young boy, natural child proportions. Full body visible including feet with generous space around silhouette. Genuine transparent alpha background, no setting no ground no cast shadow no checkerboard. Painterly literary science-fiction illustration for the visual novel Astravus. Match the reference environment's honey-gold lighting and deep forest-teal shadows, fine oil/gouache brushwork, believable natural anatomy, understated stylization. Clear face and silhouette. No text, watermarks, borders, extra figures, collage or UI.",
+      "selected": false,
+      "references": [
+        "generation:garden-v1"
+      ],
+      "output_id": "exec-408f421f-0686-4179-be6c-a7eb35782f61.png"
+    },
+    {
+      "id": "calista-v2",
+      "prompt": "Use case: background-extraction. Edit target: the attached Calista character sprite. The checkerboard currently in this file is PAINTED INTO AN RGB IMAGE, not real transparency. Remove the entire painted checkerboard background and export a genuine RGBA PNG cutout with alpha=0 outside the figure. Keep the girl's exact face, hair, outfit, pose, proportions, full-body framing and all character pixels unchanged. Preserve loose hair edges. No checkerboard pixels, white matte, dark matte, glow, shadow or environment in the output. This is a production sprite that must composite cleanly over an existing painting. One figure only. Actual transparency, not a picture representing transparency.",
+      "selected": true,
+      "references": [
+        "generation:calista-v1"
+      ],
+      "output_id": "exec-56c65e2b-d25f-421a-a80d-0a167fc672ab.png"
+    },
+    {
+      "id": "joren-v2",
+      "prompt": "Use case: background-extraction with clothing repair. Edit target: attached Joren sprite. Remove the PAINTED-IN checkerboard from this RGB image and produce a genuine RGBA PNG with alpha=0 outside the figure, no background or cast shadow or halo. Preserve the boy's identity, exact face, blond hair, blue eyes, pose, full-body framing and palette. Repair the large ragged holes in his shorts and frayed tears in the orange shirt: these are practical well-kept clothes with small neat mended patches, not rags. Keep a small gap between his front teeth. No added props. Real transparency, no checkerboard illustration.",
+      "selected": true,
+      "references": [
+        "generation:joren-v1"
+      ],
+      "output_id": "exec-f3315592-7c2b-457a-8e8b-a0aedee693c3.png"
+    },
+    {
+      "id": "cassia-v2",
+      "prompt": "Use case: identity-preserve. Edit target: attached Cassia sprite. Correct her skin to a clearly rich, deep umber brown, as described in the source character bio, while preserving her exact face, deep green eyes, chestnut curls, child proportions, pose, clothing and full-body composition. The crescent on her left wrist is a subtle natural darker skin birthmark, NOT a yellow glowing symbol; correct that. Remove the gold background halo. Output a genuine transparent RGBA PNG with alpha=0 everywhere outside her silhouette, clean hair edges, no backdrop, no checkerboard or cast shadow. Keep a softly lit painterly appearance suited to a sheltered garden, not intense dramatic rim lighting.",
+      "selected": true,
+      "references": [
+        "generation:cassia-v1"
+      ],
+      "output_id": "exec-26cfffbf-f0ef-48a3-b93b-16af3b5d1162.png"
+    },
+    {
+      "id": "garden-v3",
+      "prompt": "Use case: precise-object-edit.\nAsset type: revised 16:9 garden exterior background for the visual novel Astravus.\nInput image 1: EDIT TARGET, the current dark garden exterior. Its COLOR PALETTE, SHADING, ATMOSPHERE, garden layout, and painterly quality must be preserved.\nInput image 2: ARCHITECTURAL AUTHORITY, the interior the author likes and wants to KEEP. Change the upper treehouse in image 1 so it could physically contain the room in image 2.\nAuthor clarification: keep the interior design. Keep the garden's dark shading and color palette, not its current treehouse design. DO NOT alter or redesign the interior.\nSpecific edit: replace only the upper treehouse structure, its elevated support platform, and the immediately adjoining support branches in image 1. Maintain the existing enormous oak, the garden path, pond, planting beds, sunflowers, lower rounded trunk door, circular cushioned seating and children's belongings, framing, enclosed dark canopy, localized amber lights, blue-green bioluminescent foliage, narrow soft shaft of light. Do not brighten the scene or introduce broad glowing white architecture.\nMatching architecture: the room in image 2 is a wide shallow timber shelter around an old oak, with a low nearly-flat pitched roof and rough heavy beams, a broad plank floor, large OPEN rectangular viewing bays divided by wooden posts, branch railings along the opening edges, faded rust cloth curtains tied to the posts, and a small arched plank door near the trunk. From this exterior viewpoint the main trunk is on the RIGHT; the raised room projects LEFT from it. The huge trunk at the left of the inward room view is this same right-hand exterior trunk seen in reverse. The arched entrance is at the RIGHT end of the front facade beside the trunk, while THREE broad open rectangular bays with branch railings extend to its LEFT. A low patched timber roof with shallow slope shelters the whole broad opening. The rest of the room extends behind these bays; show a little of the back timber wall, cushions, and table in dim amber light so this reads as the same enclosed-at-the-back room, not a balcony in front of a second little cottage.\nThe ladder in image 1 must meet a small landing directly in front of the right-side arched entrance; keep railings continuous everywhere else. Give the broader floor clear branch supports and a consistent level, about one story above the lower trunk entrance. Scale the roof and platform plausibly to accommodate the cushions and small table in image 2, without dominating the entire oak. No multi-story gables, tiny opaque cottage facade, or extra mismatched doors upstairs.\nOutput: one continuous landscape image, no people, no text, no diagrams, no collage. Preserve the garden's current exposure and mood. Only reconcile the exterior building with the retained interior.",
+      "selected": true,
+      "output_id": "exec-f7c413ea-ec1a-47a4-93aa-2d118a0f7414.png",
+      "references": [
+        "generation:garden-v2",
+        "generation:treehouse-v1"
+      ]
+    },
+    {
+      "id": "garden-close-v1",
+      "prompt": "Use case: illustration-story. Asset type: a new 16:9 background for the Astravus visual novel, ideally 1920x1080. Image 1 is a reference for the SAME domestic garden's materials, plants, intimate scale and painterly finish, not an edit target. Create a distinctly different view from a child's height beside Maia's planting beds, in a brighter spot farther from the oak's dense canopy. The huge oak and its treehouse are behind the camera, outside this composition. A close, rich patch of bare planting soil beside a gently curving ochre stone path, a small worn watering can and gardener's stool, fern beds, a little pond visible beyond, garden walls and enclosing leaves. A soft broad pool of filtered morning light makes the soil, leaves and warm stone clear and welcoming. Brighter and gentler than the reference lookout, with natural moss greens and warm earth colors, balanced against cool teal shade around the edges. Keep subtle blue-green living lights among shaded foliage, handcrafted timber bed edges and the sense of a tended, inhabited garden. No bright white atrium, giant structural ribs, open sky or space vista. No treehouse, buildings or new doors; this is another corner of the existing garden. Believable painterly literary illustration with fine oil/gouache texture, matching the reference's finish. Wide landscape, uncluttered areas at left and right for separately composited character sprites, planting patch readable near center and middle of frame above the lower dialogue panel. No people, animals, text, UI, watermark or collage. Single continuous environment.",
+      "selected": true,
+      "references": [
+        "generation:garden-v3"
+      ],
+      "output_id": "exec-a314bb3a-3c13-4d88-abfd-093159806338.png"
+    },
+    {
+      "id": "treehouse-shaded-v1",
+      "prompt": "Use case: lighting-weather. Asset type: revised 16:9 background for the Astravus visual novel. Image 1 is the EDIT TARGET. Image 2 is a lighting and palette reference only. Change ONLY the lighting of image 1: the treehouse lookout and especially the view through its broad open bays are too bright. Make that outside view substantially more shaded, with deep forest teal and blue-green foliage and softly visible branching shapes instead of pale luminous mist or washed-out white ribs. Bring it into the enclosed shaded mood of image 2. Keep the interior legible and inviting: small amber lamp pools, warm dark wood and soft reflected light on the map table, with a subtler floor reflection. Preserve image 1's exact camera, composition, architecture, trunk, beams, open viewing bays, branch railings, arched entrance, rust curtains, cushions, map table, cups, boxes and every object position. Do not redesign, add, remove or move anything. Keep the fine painterly texture and all detail; do not merely crush all shadows to black. Retain a gentle damp afternoon atmosphere outside. No people, text, UI, watermark or collage. Output one full landscape image with the same aspect ratio and framing.",
+      "selected": true,
+      "references": [
+        "generation:treehouse-v1",
+        "generation:garden-v3"
+      ],
+      "output_id": "exec-23a570fe-493a-499c-9dbc-7203c7783839.png"
+    },
+    {
+      "id": "first-memory-v1",
+      "prompt": "Use case: illustration-story. Asset type: a special story illustration for the opening 'First memory' of the Astravus visual novel, a single 16:9 landscape ideally 1920x1080. Image 1 is Maia's identity reference; preserve her warm brown face and dark silver-streaked hair, worn in loose braids, but give her simple cream and earth-colored indoor clothing, no gardening tools. Image 2 is painterly finish and color reference only, not the location. Depict the quiet welcome after baby Calista's First Breath, in a private, warm Sanctuary room. EXACTLY five adult parents and one fully swaddled newborn, no other figures. Maia sits near the center holding the infant securely in her arms at chest height, with the baby's small face and tiny hand visible. The four others gather naturally close around her, looking at the baby rather than the viewer: Arin, an androgynous adult with short auburn hair and a lean build; Selene, a slender woman with long flowing white hair; Dorian, a broad-shouldered man with short salt-and-pepper hair and modest glasses; Sage, an androgynous adult with short sandy hair and a softly freckled face. Their expressions have quiet joy, tenderness, a little uncertainty; a private unposed moment, not a formal group portrait. The newborn has a little dark hair and a warm light olive complexion. Gentle lamplight on faces and cream swaddling, muted teal shadow around the gathering. Simple curved plaster alcoves, warm timber, soft fabric and a little leafy greenery in the background; room details softly recede so the family is the focus. No hospital equipment, birthing procedure, machinery, spacecraft vista, religious symbols, nursery props, or cat. This illustrates a memory reconstructed from parents' stories, not a literal infant point of view. Fine painterly literary illustration matching the references, subtly softened edges, no sepia filter. Composition: medium-wide view with all five adult faces and the baby in the upper two-thirds, baby at about 45 percent image height, lower quarter quiet dark fabric and furniture for the game's dialogue overlay. Anatomically natural hands and supported newborn posture, no extra limbs or duplicated people, no text, UI, borders, watermark or collage.",
+      "selected": false,
+      "references": [
+        "generation:maia-v1",
+        "generation:garden-close-v1"
+      ],
+      "output_id": "exec-9f8944b6-8fa8-4e3c-ba45-f021e20dbdf3.png",
+      "note": "Superseded by earlier-life parent variant; preserved in ignored art staging."
+    },
+    {
+      "id": "first-memory-young-v1",
+      "prompt": "Use case: identity-preserve. Edit target: the supplied First Memory family illustration. Preserve this exact intimate composition, all FIVE adult identities, positions and clothing, the safely swaddled newborn, room, lighting, painterly finish and 16:9 framing. Correct the parents to their earlier adult lives at Calista's First Breath, rather than the elder-life descriptions accidentally used here. They must remain fully adult parents, not teenagers. Keep recognizable facial structure, but soften later-life facial lines and worn age cues. Maia, the central mother holding the baby, keeps warm brown skin and dark braided/curly hair, with far fewer silver strands. Dorian, the broad-shouldered father with glasses at upper right, must have canonically rich DARK BROWN skin, a youthful adult face, predominantly black short hair and a close dark beard with at most a faint trace of gray. Selene, the upper-left parent with white hair, must have canonically DEEP BRONZE skin; KEEP her pure white hair because it is genetically premature graying, not old age. Her face should look like a healthy younger adult. Arin at far left keeps pale freckled skin, short auburn hair, and androgynous features. Sage at far right keeps short sandy hair, round androgynous features and freckles, but skin should be warm tan with rosy undertones, not pale. Preserve the baby's face, size, pose, swaddling and safe support exactly. Do not change the environment, camera, gestures, count of people or mood. No added objects, text or UI. This is an earlier stage of these SAME people, with no exact numerical ages being asserted.",
+      "selected": true,
+      "references": [
+        "generation:first-memory-v1"
+      ],
+      "output_id": "exec-7b8f247a-b781-41b8-b73b-cb187cc55199"
+    },
+    {
+      "id": "treehouse-rain-v1",
+      "prompt": "Use case: lighting-weather. Edit the supplied Astravus treehouse interior into its RAINY AFTERNOON variant. Keep the exact camera and every piece of architecture and furnishing fixed: huge oak trunk left, beams, arched door, broad OPEN viewing bays, branch railings, curtains, cushions, map table with three cups, boxes. Make the weather through every open bay unmistakably different: visible fine diagonal rain streaks in the exterior air, drips running off the upper eaves and leafy branches, wet reflective leaves and railing tops, cooler softer teal distance. The rain must remain OUTSIDE the roofed room. Keep the interior sheltered, maps and cushions dry, small warm amber lamp pools. Preserve the enclosed dark teal palette; no bright white sky or washed-out mist, no lightning or dramatic storm. The existing open bays have NO glass, so do not paint streaks on nonexistent window panes or add glazing. Do not move the table, add people, change the room or redraw the composition. Match the source's fine painterly detail. Same full 16:9 frame. No text, UI or watermark.",
+      "selected": true,
+      "references": [
+        "generation:treehouse-shaded-v1"
+      ],
+      "output_id": "exec-17709c40-e1e5-408d-ab22-46c8b3188be8"
+    },
+    {
+      "id": "family-home-v1",
+      "prompt": "Use case: illustration-story. Create a new 16:9 visual-novel environment painting for Astravus, the family's central room during Calista's childhood. The supplied garden is a reference for painterly finish, palette and intimate lived-in character ONLY. Canon setting: a large round polished wooden table for shared meals and projects, comfortable cushioned chairs and sofas, books, a few children's drawings and unfinished small projects, softly filtered warm light through ceiling panels, a small indoor wall fountain, hallways branching away lined with subtly glowing plants and living murals that resemble botanical paintings. One doorway opens toward a domestic garden of moss greens and cool teal shade. The home has grown curved plaster walls and warm timber details, suggesting gentle integration of nature and subtle technology, not a medieval cottage or high-tech control room. Cozy human scale with room for five adults and three children, no grand cathedral. The central table is broad enough to spread a children's map. Composition: wide establishing view with the table in the middle distance, uncluttered lower foreground for dialogue, welcoming honey light balanced with teal shadows. No people, animals, nursery or infant equipment, birth imagery, text, screens with readable writing, space vistas, stars, UI or watermark. Fine natural painterly literary illustration matching the reference. Ideally 1920x1080.",
+      "selected": true,
+      "references": [
+        "generation:garden-close-v1"
+      ],
+      "output_id": "exec-2d8b6500-2b34-45dc-ab63-ed7a919a57ad"
+    },
+    {
+      "id": "construction-path-v1",
+      "prompt": "Use case: illustration-story. New 16:9 background for the Astravus visual novel. Reference image supplies the inhabited world's organically curved architecture and painterly rendering ONLY. Create a much closer, child-height view of a quiet passage on the edge of a construction area. Human-scale stone path through a half-finished curved arch, warm grown-plaster walls, slim branching supports, stacked unfinished wall panels, modest timber scaffold and a tool crate set to one side. A broad low stone ledge in the foreground beside the path can hold a sketchbook. One wall near the center catches a narrow shaft of soft pale light whose edge has a distinct blue fringe/refraction, something a child might stop to draw. The finished path continues through the arch and around a corner. A few small plants, warm amber light from a distant occupied doorway, cool teal shadows. Make the construction readable without turning it into a dangerous ruin, fantasy temple, factory or machinery hall. No giant panorama, exposed stars, outer-space view, broad glazed hull, crowds, people, vehicles, text, warning signs, UI or watermarks. The camera stays inside this local passage, preserving the story's gradual reveal. Fine painterly literary illustration; high detail but clear composition, room at left and right for separately placed character sprites. Ideally 1920x1080.",
+      "selected": true,
+      "references": [
+        "visuals/lumen-life.png"
+      ],
+      "output_id": "exec-b1252816-ae05-4bf5-9838-e063003bbd8f"
+    },
+    {
+      "id": "community-courtyard-v1",
+      "prompt": "Use case: illustration-story. Create a new 16:9 Astravus visual-novel background: a small community gathering in a garden courtyard, viewed from a child's height near its edge. Image 1 is a reference for local organically curved architecture and inhabited-world materials only; image 2 is a reference for the intimate scale, painterly finish, warm/cool balance and plants. Soft ochre paving, curved grown-plaster walls and modest branching covered walkways, leafy planters, blue-green bioluminescent accents in shade. Shared food and cups on a low table, cushions and a storytelling rug in the middle distance. A few SMALL distant groups of families and children chatting and seated on cushions indicate an ongoing gathering; they are background figures, not detailed protagonists. Keep the foreground left and right open for separately composited Cali and Cassia sprites. Warm filtered afternoon light with cool green/teal shade, welcoming and everyday. Unlike the reference panorama, keep the viewpoint close and enclosed, with no stars, no space vista, no enormous bright structural ribs or glazed hull. No prominent new character portraits, no text, symbols, UI or watermarks. Single continuous environment, fine painterly literary illustration matching the references. Ideally 1920x1080.",
+      "selected": true,
+      "references": [
+        "visuals/lumen-life.png",
+        "generation:garden-close-v1"
+      ],
+      "output_id": "exec-3ce3366a-b3ff-4ba2-ad44-33058fe6f6f8"
+    }
+  ]
+}

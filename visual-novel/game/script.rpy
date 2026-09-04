@@ -1,0 +1,251 @@
+# Adapted from revision/latest.md, Book I. See docs/ADAPTATION.md.
+# Say IDs are retained where possible; start fresh to review revised scene pacing.
+label start:
+    stop music fadeout 1.0
+    $ met_cassia = False
+    $ met_joren = False
+    $ quick_menu = True
+    jump chapter_one
+
+label chapter_one:
+    $ scene_title = "First memory"
+    $ scene_number = 1
+    scene cg first_memory
+    with mood_transition()
+    play music "audio/first_light.wav" fadein 2.0
+    call screen chapter_card("BOOK I · SEEDS OF YOUTH", "A place to begin", "An opening memory")
+    $ remember_scene("first_memory")
+
+    r "My earliest memory wasn't really mine." id opening_001
+    r "It belonged to the people who brought me home." id opening_002
+    n "They told me about the Sanctuary. About my First Breath, and the five pairs of hands waiting to hold me." id opening_003
+    n "In every telling, someone remembered a different thing." id opening_004
+    n "The sound I made. The way I gripped a finger and wouldn't let go." id opening_005
+    r "I used to ask them to tell it again. They always began with the joy of it." id opening_006
+    r "Only later did I wonder how nervous they'd been. They'd brought Kael home before me, but did that make it any easier?" id opening_007
+    n "Lumen, the child of Aurora and Nyx, was still a young world when I was born." id opening_008
+    n "My own parents were Maia, Arin, Selene, Dorian, and Sage." id opening_009
+    $ scene_title = "The shape of home"
+    scene bg family_home
+    with mood_transition()
+    n "The home I grew to know gathered around a round wooden table. There were books on the seats, drawings on the walls, and always something left unfinished." id opening_home_001
+    n "Shadow watched from the sofa. Barkley came to meet us at the door. Nibble's tiny feet tickled when she ran across my hand." id opening_home_002
+    n "We called a family like ours a constellation. With Lyra's arrival, ours became five adults raising three children." id opening_010
+    n "Arin's workshop hummed. Selene's music found its way under every door. Dorian could turn a question about breakfast into the history of an entire world." id opening_011
+    n "Sage made sure everyone had their say. My older brother Kael usually had a plan; my younger sister Lyra usually had questions about it." id opening_012
+    scene bg garden_close
+    with mood_transition()
+    play ambience "audio/garden_air.wav" fadein 2.0
+    $ remember_scene("garden")
+    n "And Maia had the garden." id opening_013
+    n "It folded around our home: pond water, dark leaves, paths lit by little living lights. Beyond the garden wall, there were paths I had yet to follow." id opening_014
+    r "I knew the smell of that garden before I knew what a garden was." id opening_015
+    n "Wet earth. Warm wood. Something green crushed gently between a finger and a thumb." id opening_016
+    n "When I try to remember the beginning, that is where I find myself." id opening_017
+
+label garden_lesson:
+    $ scene_title = "A small beginning"
+    $ scene_number = 2
+    show maia at clean_sprite, at_right
+    show calista at clean_sprite, at_left
+    with mood_transition()
+    n "One morning Maia cleared a little patch beside the path and called me over." id seed_001
+    m "Here, Cali." id seed_002
+    n "She opened her hand. A single striped seed lay in her palm." id seed_003
+    c "Is that for me?" id seed_004
+    m "If you'd like to plant it." id seed_012
+    c "What is it?" id seed_005
+    m "A sunflower. Tall and bright, just like you." id seed_006
+    c "One of the big ones?" id seed_008
+    m "Oh, taller than Kael." id seed_009
+    n "I took it carefully and looked along the bed for a space." id seed_007
+    c "Here. I want it here." id seed_010
+    m "All right. Make a hole with your finger." id seed_011
+    n "Maia's hand guided mine as I pressed a finger into the soil. Then she nudged a little earth back in." id seed_014
+    m "There. That's plenty." id seed_016
+    n "I set the seed in the hollow. We covered it together, and she passed me the watering can." id seed_018
+    c "Will it be up tomorrow?" id seed_019
+    m "It needs a little patience first." id seed_020
+    c "But I can look tomorrow." id seed_022
+    m "Of course. We'll take care of it together." id seed_023
+    n "I tipped the can too far. Water splashed onto my boots, and Maia caught the handle." id seed_021
+    m "Slowly. Let me hold this bit." id seed_015
+    n "This time most of it reached the soil. When we put the can down, I couldn't see where we'd made the hole." id seed_017
+    c "How will I know which one's mine?" id seed_028
+    m "We could put a stone beside it." id seed_030
+    n "I chose a flat stone from the edge of the path and pressed it into the wet earth." id seed_029
+    m "Ready to go in?" id seed_032
+    c "Hang on." id seed_031
+    n "I stood back on the path to check that I could spot the stone. Maia waited with the watering can against her knee." id seed_033
+    m "Come on, Cali. Let's wash our hands." id seed_034
+    hide maia
+    hide calista
+    with mood_transition()
+    r "I went back every morning. For a while, there was only the stone." id seed_036
+    scene bg garden
+    with mood_transition()
+    n "From that patch I could see the ladder into the old oak. I'd played in the hollow underneath it, but I had never climbed all the way up." id seed_039
+    $ renpy.force_autosave(take_screenshot=True, block=True)
+
+label meeting_cassia:
+    $ scene_title = "An invitation"
+    $ scene_number = 3
+    scene bg community_courtyard
+    with mood_transition()
+    n "As I grew, I went farther from the garden. At one community gathering, I stopped to listen to a girl telling a story." id cassia_001
+    n "A few children sat around her. I stayed at the edge, with my sketchbook held against my chest." id cassia_003
+    show cassia at clean_sprite, at_right
+    with mood_transition()
+    a "Nobody's ever seen it. It only comes out in the dark." id cassia_004
+    show calista at clean_sprite, at_left
+    with mood_transition()
+    c "Then how do you know it's got wings?" id cassia_005
+    a "You can hear them." id cassia_007
+    c "How big are they?" id cassia_008
+    a "Big enough to knock you over. It has to hold on with all four feet when it takes off." id cassia_009
+    n "I opened my book and tried to draw that. When she leaned over to look, I nearly covered the page." id cassia_010
+    a "No, wait. It needs two more feet." id cassia_011
+    c "You said four." id cassia_012
+    a "Those are for walking. It sleeps right up in the branches, and the wind's always trying to blow it out." id cassia_015
+    c "I haven't got room." id cassia_016
+    n "She moved closer and pointed to a gap under one wing. I squeezed in another pair of feet." id cassia_019
+    a "It hangs from those. So its wings don't get squashed." id cassia_017
+    c "Upside down?" id cassia_026
+    a "Yes!" id cassia_027
+    n "She tried to turn the book upside down to show me. I held on to it, laughing, and sat beside her." id cassia_013
+    a "I'm Cassia. What's your name?" id cassia_018
+    $ met_cassia = True
+    c "Cali." id cassia_028
+    a "Do you want to join our adventure? We're going to find where it lives." id cassia_invitation
+    c "Can I draw the way there?" id cassia_acceptance
+    a "Yes. We'll need that if we get lost." id cassia_map
+    n "By the time our parents came to find us, the creature had crossed three rivers. We'd used another page for the last one." id cassia_020
+    c "But we haven't finished." id cassia_021
+    a "You can bring it back. Will you be here next time?" id cassia_022
+    c "I think so. Don't go on without me." id cassia_029
+    a "I won't. You have to draw the next bit." id cassia_030
+    hide cassia
+    hide calista
+    with mood_transition()
+    n "At the next gathering, I went looking for her." id cassia_023
+    $ renpy.force_autosave(take_screenshot=True, block=True)
+
+label meeting_joren:
+    $ scene_title = "Something worth finding"
+    $ scene_number = 4
+    scene bg construction_path
+    with mood_transition()
+    n "I met Joren near one of Lumen's construction zones. New passages were opening there, and he was collecting anyone who would follow him." id joren_002
+    show joren at clean_sprite, at_right
+    show calista at clean_sprite, at_left
+    with mood_transition()
+    j "Come on! Let's see who can find the coolest thing." id joren_004
+    $ met_joren = True
+    c "You're on! I bet I find something first." id joren_007
+    j "I'm Joren. What's your name?" id joren_006
+    c "Cali." id joren_021
+    j "Come on, Cali!" id joren_009
+    n "I hurried after him through the unfinished archway. Then something caught my eye." id joren_011
+    n "A pale line of light ran along the wall. From where I stood, its edge had turned blue." id joren_015
+    j "Cali, this way!" id joren_013
+    c "Wait. Come and look at this." id joren_014
+    j "Already? What did you find?" id joren_022
+    c "Just stand here a minute." id joren_023
+    n "He came back. I moved aside, and he stepped into my place." id joren_024
+    j "Oh! It went blue." id joren_016
+    c "Go back a little." id joren_025
+    n "He leaned away, then came back to find the blue again. I opened my sketchbook on the low ledge." id joren_017
+    j "Are you drawing it?" id joren_026
+    c "Just that bit." id joren_027
+    j "Can we go after?" id joren_029
+    c "Yes. Hold these a second." id joren_030
+    n "I passed him my pencils. He sat beside me, but one boot kept tapping against the ledge." id joren_028
+    c "Joren. You're shaking it." id joren_031
+    j "Oh. Sorry." id joren_032
+    n "He stopped. When I put out my hand for another pencil, he was ready with it." id joren_033
+    hide calista
+    hide joren
+    with mood_transition()
+    n "When I introduced him to Cassia, he wanted to know where the creature in my sketchbook lived. Cassia said she could show him." id joren_018
+    scene bg family_home
+    with mood_transition()
+    stop ambience fadeout 2.0
+    n "We spread out some paper at home. By lunchtime our map had taken over the table, and Maia needed it back." id joren_019
+    n "After that, more and more of our afternoons ended in the treehouse." id joren_020
+    $ renpy.force_autosave(take_screenshot=True, block=True)
+
+label the_treehouse:
+    $ scene_title = "Our place in the branches"
+    $ scene_number = 5
+    scene bg garden
+    with mood_transition()
+    play ambience "audio/garden_air.wav" fadein 2.0
+    play sound "audio/wood.wav"
+    n "One afternoon I climbed up ahead of the others. Joren stopped on the landing to help Cassia with the last rung." id tree_001
+    j "Remember the first time, Cali? You wouldn't look down." id tree_002
+    c "I wasn't that scared." id tree_003
+    a "Can you take my book before you start arguing?" id tree_005
+    n "I reached back for it. By then, I knew which boards creaked and where to duck under the branches." id tree_006
+    scene bg treehouse
+    with mood_transition()
+    $ remember_scene("treehouse")
+    n "Our drawings covered the walls. Stones and feathers filled the little chests; the blankets never stayed folded for long." id tree_007
+    n "Through the leaves, we could see patches of Maia's garden and the glowing paths below." id tree_008
+    show cassia at clean_sprite, at_left
+    show joren at clean_sprite, at_right
+    with mood_transition()
+    a "Do you think we'll ever outgrow this place?" id tree_010
+    c "We could move the table. There's room." id tree_011
+    a "I mean, will we still want to come?" id tree_012
+    j "I will. We'll always meet here, no matter how old we get." id tree_promise
+    a "Promise?" id tree_promise_question
+    c "I'll come too." id tree_009
+    n "Joren had unrolled the map on the little table. One end curled back up as soon as he let go." id tree_013
+    j "Can someone hold this?" id tree_015
+    n "Cassia put her book on one corner. I found a smooth stone for the other." id tree_014
+    j "We can put the creature here." id tree_017
+    c "That's the pond." id tree_018
+    j "It's a sea on the map." id tree_016
+    c "But it needs somewhere to land." id tree_019
+    a "An island. Leave a bit in the middle." id tree_021
+    n "I drew around a patch of empty paper. Joren reached for the pencil." id tree_020
+    j "And a path, all the way—" id tree_022
+    c "Wait. I'm not finished." id tree_023
+    n "He pulled his hand back. I added a tree, then passed him the pencil." id tree_024
+    j "I'm going round here, then." id tree_037
+    a "No, it sleeps in that tree. You wake it up if you step on the roots." id tree_038
+    j "Then we'll go round the back." id tree_039
+    a "There's a river at the back." id tree_040
+    j "Cassia!" id tree_041
+    a "Well, there is." id tree_042
+    n "He took the path right to the edge of the page. Cassia followed his pencil, already telling him what was waiting there." id tree_027
+    n "Some days that table was the deck of a pirate ship. On others, it was a station above a distant planet, and Joren was our captain." id tree_025
+    n "When we needed more supplies, someone went down to the hollow beneath the treehouse. We kept treasures there, too, behind its second entrance." id tree_026
+    hide cassia
+    hide joren
+    stop ambience fadeout 2.0
+    play ambience "audio/rain.wav" fadein 3.0
+    scene bg treehouse_rain
+    with mood_transition()
+    n "On rainy afternoons, we stayed under the blankets and listened to the drops pattering on the wooden roof." id rain_001
+    n "Cassia tucked her feet under a blanket. Joren leaned against the trunk, listening to a branch creak above the roof." id rain_003
+    a "Imagine a world where the trees could talk." id rain_004
+    c "All of them?" id rain_005
+    a "Even this one. What do you think it would say?" id rain_006
+    j "It must know loads of things. Look how old it is." id rain_007
+    j "I'd ask it where to go next. There must be places we haven't found." id rain_009
+    c "Maybe it only knows this garden." id rain_010
+    a "Its roots go farther than that." id rain_014
+    n "Cassia traced a root across the map with her finger, out past the river and the edge of the page." id rain_008
+    j "So what did it find?" id rain_011
+    a "You have to let me tell it." id rain_015
+    n "We settled closer under the blanket, and she began." id rain_016
+    n "Rain kept falling through the leaves. For once, Joren wasn't in a hurry to go anywhere." id rain_020
+    $ persistent.chapter_complete = True
+    $ renpy.save_persistent()
+    $ renpy.force_autosave(take_screenshot=True, block=True)
+    window hide
+    $ quick_menu = False
+    call screen chapter_end
+    stop ambience fadeout 1.5
+    return

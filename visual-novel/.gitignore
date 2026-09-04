@@ -1,0 +1,25 @@
+# Downloaded SDKs, package archives, and temporary asset candidates.
+/.cache/
+/.art-staging/
+/.venv/
+
+# Exported games and verification artifacts are reproducible outputs.
+/build/
+/dist/
+/test-results/
+/*-dists/
+/*.zip
+/*.tar.bz2
+
+# Ren'Py compiles scripts and writes local runtime state beside the project.
+*.rpyc
+*.rpyb
+/game/cache/
+/game/saves/
+/log.txt
+/errors.txt
+/traceback.txt
+/image_cache.txt
+/screenshot*.png
+__pycache__/
+.DS_Store
