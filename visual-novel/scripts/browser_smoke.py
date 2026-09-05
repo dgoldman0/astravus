@@ -375,6 +375,7 @@ for focus in renpy.display.focus.focus_list:
         await click_button("chapter_end", "Credits")
         await until('bool(renpy.get_screen("about"))')
         assert await value('renpy.get_widget("about", "itch_link").action.url == "https://arcadiumgames.itch.io/astravus-calista"')
+        assert await value('("{a=" + ASTRAVUS_REPO_URL + "}dgoldman0{/a}") in renpy.get_widget("about", "author_credit").get_all_text()')
         await page.screenshot(path=str(OUT / "browser-credits.png"))
         await page.keyboard.press("Escape")
         await until('bool(renpy.get_screen("chapter_end")) and not renpy.context()._menu')

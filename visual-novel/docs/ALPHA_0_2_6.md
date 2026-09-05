@@ -16,7 +16,7 @@ The check uses `renpy.seen_translation()` for the compiled dialogue identifiers,
 
 ## Credits and afterword
 
-Credits omit the author's personal handle and provide a visible button to [the itch page](https://arcadiumgames.itch.io/astravus-calista). Existing art, engine, font and audio attribution remains.
+Credits show [dgoldman0](https://github.com/dgoldman0/Astravus) as a link to the Astravus repository, plus a separate visible button to [the itch page](https://arcadiumgames.itch.io/astravus-calista). Existing art, engine, font and audio attribution remains.
 
 A separate **Beyond Book I** afterword follows the final story line. The garden background and home theme accompany a short look ahead to Calista's friendships, discoveries and adventures, followed by an invitation to support future adaptations through interest and feedback. It provides the same itch link and a **Finish Book I** button. The completed-book autosave follows the afterword, so Continue returns to the ending controls.
 

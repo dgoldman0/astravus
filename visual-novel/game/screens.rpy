@@ -54,6 +54,11 @@ style small_text:
     size 23
     color "#b6c3b9"
 
+style hyperlink_text:
+    color "#d9bf8e"
+    hover_color "#ffe9ba"
+    underline True
+
 screen main_menu():
     tag menu
     add "bg garden"
@@ -440,7 +445,7 @@ screen about():
             vbox:
                 spacing 25
                 text "Astravus · Seeds of Youth" size 35 color "#d9bf8e"
-                text "An adaptation of Book I of Calista's story from the Astravus Collection." xmaximum 1200
+                text "An adaptation of Book I of Calista's story from the Astravus Collection by {a=[ASTRAVUS_REPO_URL]}dgoldman0{/a}." id "author_credit" xmaximum 1200
                 button:
                     id "itch_link"
                     action OpenURL(ITCH_URL)

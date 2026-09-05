@@ -26,6 +26,7 @@ init -10 python:
 define config.name = "Astravus — Seeds of Youth"
 define config.version = "0.2.6"
 define ITCH_URL = "https://arcadiumgames.itch.io/astravus-calista"
+define ASTRAVUS_REPO_URL = "https://github.com/dgoldman0/Astravus"
 define build.name = "astravus-book-one"
 define config.save_directory = "Astravus-Book-I"
 define config.window_title = "Astravus · Seeds of Youth"

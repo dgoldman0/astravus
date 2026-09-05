@@ -306,7 +306,7 @@ testcase chapter_playthrough:
     screenshot "end"
     click "Credits"
     assert screen "about"
-    assert eval ("dgoldman0" not in _test_screen_text("about") and renpy.get_widget("about", "itch_link").action.url == ITCH_URL)
+    assert eval (("{a=" + ASTRAVUS_REPO_URL + "}dgoldman0{/a}") in renpy.get_widget("about", "author_credit").get_all_text() and renpy.get_widget("about", "itch_link").action.url == ITCH_URL)
     screenshot "credits"
     click "Return"
     assert screen "chapter_end"
