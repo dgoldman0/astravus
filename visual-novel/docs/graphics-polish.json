@@ -1087,6 +1087,21 @@
               "id": "pond-fixed-basin",
               "authority": "production",
               "text": "Preserve the low irregular stone basin, shallow visible pebbles, timber boundary/fence, plants and accessible bank from garden-pond.png."
+            },
+            {
+              "id": "pond-ground-water-height",
+              "authority": "production",
+              "text": "The governing garden-pond view establishes a low basin beside adjacent dry ground. Across views preserve the waterline-to-coping-to-paving vertical relationship; camera angle alone cannot turn it into a raised retaining-wall pool."
+            },
+            {
+              "id": "pond-pairwise-geometry",
+              "authority": "production",
+              "text": "Compare the visible near/far basin arcs, coping thickness, side returns and at least three shared anchors where visible against garden-pond.png. Any difference must admit a coherent camera/depth explanation. Cropped-out features remain unobserved; plausible local figure contacts do not prove global geometry."
+            },
+            {
+              "id": "pond-water-connectivity",
+              "authority": "production",
+              "text": "Within these shared-basin depictions, all visible water patches must connect plausibly to the same basin. Do not leave an isolated far water strip behind a dry bank that implies another pool; any peninsula or occlusion needs a coherent visible shoreline explanation."
             }
           ]
         }
@@ -1097,104 +1112,118 @@
         "docs/CHARACTER_CONTINUITY.md": "509dbc3461cb3e6b34843e40021e1c2c71121d7a215dec1433641cca96501ad0",
         "game/characters_book_one.rpy": "69e72f593760c4f44439a3041e732b7194989102baeb3347fffa698b13990bb5",
         "game/family_book_one.rpy": "236741cddb927cfee503326f2c3549b8be8fa1d37b9e29bf904d6a7fa852a722",
-        "game/images/backgrounds/book-one/garden-work-area.png": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
+        "game/images/backgrounds/book-one/garden-work-area.png": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
         "game/speaker_portraits.rpy": "735f5632c9b6222779e90bdc17b066deb04c9d09a20e7a9c89fe89e374e01283",
         "game/visuals.rpy": "314b20e8880e94fbfcc26593890f22c5abba23f4da0ec668bb01221f16414a30"
       },
       "edit_provenance": {
         "source_generation": "review-025-pond"
       },
-      "context_signature": "1a6c95ef20783ad2508a6646c83969c22a234b7dba0004bcaa21a51e5cb71085",
+      "context_signature": "8abe1424e16614c31e9db5e8f1eeb19d6bc19e32690daa088a1be4b54f6a4d0e",
       "baseline_sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
       "baseline_git_commit": "c721791a5350a49634d5da042281c32c867c8882",
       "baseline_git_blob": "153bbe79a42a1aa4740f068fb012c919c8f65284",
-      "comparison_reference": null,
+      "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
       "reviews": {
         "identity": {
           "outcome": "not_applicable",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "No named actor with a prescribed identity is embedded in this setting; incidental residents are not the named cast.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "This source is an empty background; it contains no depicted character identity. Actual separately staged actors are assessed in the runtime review. Its landscape edit does not create a character.",
           "image_sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-          "context_signature": "c73aace9c8bab17fdbd29a5811458518c47384329e4d8e12320129b1a80d2d63",
+          "context_signature": "2083d50839574440184fd772cc7b0f57f2aa188ae579978d14925d2bc036e682",
           "comparison_reference": "git:153bbe79a42a1aa4740f068fb012c919c8f65284 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "anatomy_expression": {
           "outcome": "not_applicable",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Setting-only plate: no face, limb or character body is present in the source painting.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "This source is an empty background; it contains no depicted character anatomy or expression. Actual separately staged actors are assessed in the runtime review. Its landscape edit does not create a character.",
           "image_sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-          "context_signature": "c73aace9c8bab17fdbd29a5811458518c47384329e4d8e12320129b1a80d2d63",
+          "context_signature": "2083d50839574440184fd772cc7b0f57f2aa188ae579978d14925d2bc036e682",
           "comparison_reference": "git:153bbe79a42a1aa4740f068fb012c919c8f65284 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "age_stature": {
           "outcome": "not_applicable",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "No named life stage or relative named-cast stature is depicted in this setting-only plate.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "This source is an empty background; it contains no depicted character life stage or body stature. Actual separately staged actors are assessed in the runtime review. Its landscape edit does not create a character.",
           "image_sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-          "context_signature": "c73aace9c8bab17fdbd29a5811458518c47384329e4d8e12320129b1a80d2d63",
+          "context_signature": "2083d50839574440184fd772cc7b0f57f2aa188ae579978d14925d2bc036e682",
           "comparison_reference": "git:153bbe79a42a1aa4740f068fb012c919c8f65284 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "setting_geometry": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Shallow visible stone-bottom water, bank and dry path agree with the pond-rescue/comfort setting. No character is embedded on the ledge in this background. Visible source-art relationships and props are the reviewed scope; live placements remain separate.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Governing shallow basin: paving meets low coping, with a left inlet, planted timber boundary behind and right lily group. Fresh pairwise views preserve this low water/coping/ground profile; the establishing native frame shows the same anchors.",
           "image_sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-          "context_signature": "c73aace9c8bab17fdbd29a5811458518c47384329e4d8e12320129b1a80d2d63",
-          "comparison_reference": "git:153bbe79a42a1aa4740f068fb012c919c8f65284 (preserve the documented source composition; inspect only justified changed scope)",
+          "context_signature": "2083d50839574440184fd772cc7b0f57f2aa188ae579978d14925d2bc036e682",
+          "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef",
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8"
           }
         },
         "lighting_style_detail": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Shallow visible stone-bottom water, bank and dry path agree with the pond-rescue/comfort setting. No character is embedded on the ledge in this background. Visible source-art relationships and props are the reviewed scope; live placements remain separate.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Shallow visible stone-bottom water, bank and dry path agree with the pond-rescue/comfort setting. No character is embedded on the ledge in this background. Visible source-art relationships and props are the reviewed scope; live placements remain separate. The selected image is byte-identical; the newly required pond geometry comparison is complete. Source role, character references and reviewed figure/detail scope remain unchanged.",
           "image_sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-          "context_signature": "c73aace9c8bab17fdbd29a5811458518c47384329e4d8e12320129b1a80d2d63",
+          "context_signature": "2083d50839574440184fd772cc7b0f57f2aa188ae579978d14925d2bc036e682",
           "comparison_reference": "git:153bbe79a42a1aa4740f068fb012c919c8f65284 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "scene_truth_action": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Shallow visible stone-bottom water, bank and dry path agree with the pond-rescue/comfort setting. No character is embedded on the ledge in this background. Visible source-art relationships and props are the reviewed scope; live placements remain separate.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Shallow visible stone-bottom water, bank and dry path agree with the pond-rescue/comfort setting. No character is embedded on the ledge in this background. Visible source-art relationships and props are the reviewed scope; live placements remain separate. The selected image is byte-identical; the newly required pond geometry comparison is complete. Source role, character references and reviewed figure/detail scope remain unchanged.",
           "image_sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-          "context_signature": "c73aace9c8bab17fdbd29a5811458518c47384329e4d8e12320129b1a80d2d63",
+          "context_signature": "2083d50839574440184fd772cc7b0f57f2aa188ae579978d14925d2bc036e682",
           "comparison_reference": "git:153bbe79a42a1aa4740f068fb012c919c8f65284 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "runtime_compositing": {
           "outcome": "accepted",
-          "reviewer": "glossary_story / 73 native frames and final environment follow-up; root / theme and final assets; matrix_release / exact scope reconciliation and native supplements",
-          "reviewed_at_utc": "2026-09-05T20:46:16.702389+00:00",
-          "notes": "Establishing pond is framed with a clear bank before the separate rescue action. Acceptance is limited to the listed native static rendering; animation, audio and target-platform release checks remain separate.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Governing shallow basin: paving meets low coping, with a left inlet, planted timber boundary behind and right lily group. Fresh pairwise views preserve this low water/coping/ground profile; the establishing native frame shows the same anchors. Fresh final pond_state_review: 12 inspected complete frames / 20 assertions, plus hidden-UI support views and the actual paused planting theme cue where relevant. No audio, encoded-motion or target-platform approval is inferred.",
           "image_sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-          "context_signature": "1a6c95ef20783ad2508a6646c83969c22a234b7dba0004bcaa21a51e5cb71085",
+          "context_signature": "8abe1424e16614c31e9db5e8f1eeb19d6bc19e32690daa088a1be4b54f6a4d0e",
           "comparison_reference": "Actual selected source image and its source-art comparison; prior native view only for the explicitly measured Barkley delta.",
           "evidence_sha256": {
-            "docs/graphics-runtime-inputs.json": "52c651c1f9aad5910f2b6c02013c6c3e88caf4c412b2a059d1c03c6b6af411c3",
-            "docs/graphics-runtime-reconciliation.json": "8e872edf7e9b806b7bd462aa4cfd88ec5d819c137a4ad4a8af41df83b835c887",
-            "docs/graphics-runtime-review.md": "1a2d3c147fc61df5ca73603487d644b2f23aae3c1dca919b1785655f94b3d135",
-            "test-results/screenshots/pond.png": "49dbe058829784357ad6c5d8891223bda442a8118f9f00907d270807adb68cc9"
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8",
+            "test-results/pond-states/10-pond-establishing-dialogue.png": "49dbe058829784357ad6c5d8891223bda442a8118f9f00907d270807adb68cc9",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         }
       },
@@ -1202,7 +1231,7 @@
       "runtime_coverage": {
         "scope": "Representative actual native scenes, speaker portraits, People and/or paused theme fitting explicitly listed below. This is not every dialogue line, every viewpoint or another platform.",
         "captures": [
-          "test-results/screenshots/pond.png"
+          "test-results/pond-states/10-pond-establishing-dialogue.png"
         ],
         "story_scene_inventory": [
           "pond_scare"
@@ -1210,9 +1239,8 @@
         "theme_shots_reviewed": [],
         "all_dialogue_lines_reviewed": false,
         "reports": [
-          "docs/graphics-runtime-inputs.json",
-          "docs/graphics-runtime-reconciliation.json",
-          "docs/graphics-runtime-review.md"
+          "docs/pond-runtime-review.md",
+          "test-results/pond-states/capture-state.json"
         ],
         "remaining": []
       }
@@ -1396,8 +1424,8 @@
       "file": "game/images/backgrounds/book-one/garden-work-area.png",
       "kind": "backgrounds",
       "manifest": "docs/environment-assets.json",
-      "manifest_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
-      "current_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
+      "manifest_sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
+      "current_sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
       "size": [
         1672,
         941
@@ -1437,6 +1465,21 @@
               "id": "pond-working-bank",
               "authority": "production",
               "text": "Use the dry stone working bank established by garden-work-area.png. No full-body standing cast on the narrow rim or water surface."
+            },
+            {
+              "id": "pond-ground-water-height",
+              "authority": "production",
+              "text": "The governing garden-pond view establishes a low basin beside adjacent dry ground. Across views preserve the waterline-to-coping-to-paving vertical relationship; camera angle alone cannot turn it into a raised retaining-wall pool."
+            },
+            {
+              "id": "pond-pairwise-geometry",
+              "authority": "production",
+              "text": "Compare the visible near/far basin arcs, coping thickness, side returns and at least three shared anchors where visible against garden-pond.png. Any difference must admit a coherent camera/depth explanation. Cropped-out features remain unobserved; plausible local figure contacts do not prove global geometry."
+            },
+            {
+              "id": "pond-water-connectivity",
+              "authority": "production",
+              "text": "Within these shared-basin depictions, all visible water patches must connect plausibly to the same basin. Do not leave an isolated far water strip behind a dry bank that implies another pool; any peninsula or occlusion needs a coherent visible shoreline explanation."
             }
           ]
         }
@@ -1452,99 +1495,147 @@
         "game/visuals.rpy": "314b20e8880e94fbfcc26593890f22c5abba23f4da0ec668bb01221f16414a30"
       },
       "edit_provenance": {
-        "source_generation": "review-027-garden-work-area"
+        "source_generation": "review-027-garden-work-area",
+        "production_edit": {
+          "recipe_file": "docs/graphics-edits.json",
+          "id": "garden-work-area-ground-pond",
+          "recipe_sha256": "759c9fb64c236d49d09261d57380e1adb686c0759d269962ac6c7ef2ff70668c"
+        },
+        "current_recipe_sha256": "759c9fb64c236d49d09261d57380e1adb686c0759d269962ac6c7ef2ff70668c",
+        "script_file": "scripts/repair_pond_geometry.py",
+        "current_script_sha256": "732ca53c09f124d48eea2e12781778f5864eec5ebf7a29b4b06b6a54b1ea79e7",
+        "immutable_sources": [
+          {
+            "file": "game/images/backgrounds/book-one/garden-work-area.png",
+            "git_blob": "886a5a98d7f746262fd19e250a5b8b112f198ad1",
+            "sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac"
+          },
+          {
+            "file": "art/production/garden-work-area-ground-pond.png",
+            "sha256": "3c883267bbbd1c6384da21d391d5fcf5b4edd8b2cdebca1d55842823e86e5df0"
+          },
+          {
+            "file": "docs/pond-geometry-materials-planting.json",
+            "sha256": "39c8977a3d4891cdebf6844eca301d15e60f78d8309992435f185060d05a3251"
+          }
+        ],
+        "dependency_sha256": {},
+        "materials": [
+          {
+            "registry_file": "docs/graphics-sources/materials.json",
+            "id": "garden-work-area-ground-pond-material",
+            "record_sha256": "4cf7b28658a06ae839aa99da2c3115543d7e3952fb503faaecddb97874a504c8",
+            "current_record_sha256": "4cf7b28658a06ae839aa99da2c3115543d7e3952fb503faaecddb97874a504c8",
+            "current_prompt_sha256": "94acbb12fb4d9b610b4637a606a929db29b75a8b965a617483baef6f502f8cc6"
+          }
+        ]
       },
-      "context_signature": "a0b82faf0c8586c53e9cd133d7660496f1e603070f391ddb48f31b53029ad561",
+      "context_signature": "1959da10d6187667ba73e4c66aa3182a7f98a00a6a398597c5bc8f7014b4261f",
       "baseline_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
       "baseline_git_commit": "c721791a5350a49634d5da042281c32c867c8882",
       "baseline_git_blob": "886a5a98d7f746262fd19e250a5b8b112f198ad1",
-      "comparison_reference": null,
+      "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
       "reviews": {
         "identity": {
           "outcome": "not_applicable",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "No named actor with a prescribed identity is embedded in this setting; incidental residents are not the named cast.",
-          "image_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
-          "context_signature": "2a023dd55ed56ab70652ba133fb58a5b9a06078ec1e0078081e8545a3202c3eb",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "This source is an empty background; it contains no depicted character identity. Actual separately staged actors are assessed in the runtime review. Its landscape edit does not create a character.",
+          "image_sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
+          "context_signature": "11fdea0466fdfdc5e97497a391756637868538506e8c921d493210cd7f5dc02b",
           "comparison_reference": "git:886a5a98d7f746262fd19e250a5b8b112f198ad1 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "anatomy_expression": {
           "outcome": "not_applicable",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Setting-only plate: no face, limb or character body is present in the source painting.",
-          "image_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
-          "context_signature": "2a023dd55ed56ab70652ba133fb58a5b9a06078ec1e0078081e8545a3202c3eb",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "This source is an empty background; it contains no depicted character anatomy or expression. Actual separately staged actors are assessed in the runtime review. Its landscape edit does not create a character.",
+          "image_sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
+          "context_signature": "11fdea0466fdfdc5e97497a391756637868538506e8c921d493210cd7f5dc02b",
           "comparison_reference": "git:886a5a98d7f746262fd19e250a5b8b112f198ad1 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "age_stature": {
           "outcome": "not_applicable",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "No named life stage or relative named-cast stature is depicted in this setting-only plate.",
-          "image_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
-          "context_signature": "2a023dd55ed56ab70652ba133fb58a5b9a06078ec1e0078081e8545a3202c3eb",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "This source is an empty background; it contains no depicted character life stage or body stature. Actual separately staged actors are assessed in the runtime review. Its landscape edit does not create a character.",
+          "image_sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
+          "context_signature": "11fdea0466fdfdc5e97497a391756637868538506e8c921d493210cd7f5dc02b",
           "comparison_reference": "git:886a5a98d7f746262fd19e250a5b8b112f198ad1 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "setting_geometry": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Pots and a broad usable dry work surface sit beside the pond; their curve and reachable tools support the plant disagreement/compromise action. Visible source-art relationships and props are the reviewed scope; live placements remain separate.",
-          "image_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
-          "context_signature": "2a023dd55ed56ab70652ba133fb58a5b9a06078ec1e0078081e8545a3202c3eb",
-          "comparison_reference": "git:886a5a98d7f746262fd19e250a5b8b112f198ad1 (preserve the documented source composition; inspect only justified changed scope)",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The repaired wider working-side view has broad dry paving meeting low near coping, with the left inlet side, far planted fence and right lilies in coherent order. The old tall exterior pool wall is removed; original pot bases and available actor support remain dry.",
+          "image_sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
+          "context_signature": "11fdea0466fdfdc5e97497a391756637868538506e8c921d493210cd7f5dc02b",
+          "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef",
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8"
           }
         },
         "lighting_style_detail": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Pots and a broad usable dry work surface sit beside the pond; their curve and reachable tools support the plant disagreement/compromise action. Visible source-art relationships and props are the reviewed scope; live placements remain separate.",
-          "image_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
-          "context_signature": "2a023dd55ed56ab70652ba133fb58a5b9a06078ec1e0078081e8545a3202c3eb",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Pots and a broad usable dry work surface sit beside the pond; their curve and reachable tools support the plant disagreement/compromise action. Visible source-art relationships and props are the reviewed scope; live placements remain separate. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
+          "context_signature": "11fdea0466fdfdc5e97497a391756637868538506e8c921d493210cd7f5dc02b",
           "comparison_reference": "git:886a5a98d7f746262fd19e250a5b8b112f198ad1 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "scene_truth_action": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Pots and a broad usable dry work surface sit beside the pond; their curve and reachable tools support the plant disagreement/compromise action. Visible source-art relationships and props are the reviewed scope; live placements remain separate.",
-          "image_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
-          "context_signature": "2a023dd55ed56ab70652ba133fb58a5b9a06078ec1e0078081e8545a3202c3eb",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Pots and a broad usable dry work surface sit beside the pond; their curve and reachable tools support the plant disagreement/compromise action. Visible source-art relationships and props are the reviewed scope; live placements remain separate. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
+          "context_signature": "11fdea0466fdfdc5e97497a391756637868538506e8c921d493210cd7f5dc02b",
           "comparison_reference": "git:886a5a98d7f746262fd19e250a5b8b112f198ad1 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "runtime_compositing": {
           "outcome": "accepted",
-          "reviewer": "glossary_story / 73 native frames and final environment follow-up; root / theme and final assets; matrix_release / exact scope reconciliation and native supplements",
-          "reviewed_at_utc": "2026-09-05T20:46:16.702389+00:00",
-          "notes": "Pots and planting area remain visible around the early siblings; subsequent action uses the kneeling garden CG. Acceptance is limited to the listed native static rendering; animation, audio and target-platform release checks remain separate.",
-          "image_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
-          "context_signature": "a0b82faf0c8586c53e9cd133d7660496f1e603070f391ddb48f31b53029ad561",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The repaired wider working-side view has broad dry paving meeting low near coping, with the left inlet side, far planted fence and right lilies in coherent order. The old tall exterior pool wall is removed; original pot bases and available actor support remain dry. Fresh final pond_state_review: 12 inspected complete frames / 20 assertions, plus hidden-UI support views and the actual paused planting theme cue where relevant. No audio, encoded-motion or target-platform approval is inferred.",
+          "image_sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
+          "context_signature": "1959da10d6187667ba73e4c66aa3182a7f98a00a6a398597c5bc8f7014b4261f",
           "comparison_reference": "Actual selected source image and its source-art comparison; prior native view only for the explicitly measured Barkley delta.",
           "evidence_sha256": {
-            "docs/graphics-runtime-inputs.json": "52c651c1f9aad5910f2b6c02013c6c3e88caf4c412b2a059d1c03c6b6af411c3",
-            "docs/graphics-runtime-reconciliation.json": "8e872edf7e9b806b7bd462aa4cfd88ec5d819c137a4ad4a8af41df83b835c887",
-            "docs/graphics-runtime-review.md": "1a2d3c147fc61df5ca73603487d644b2f23aae3c1dca919b1785655f94b3d135",
-            "test-results/screenshots/siblings-garden.png": "60b7977d05240ea0fc5a808cdd255331826d27db7d87d72a944913afa381130a"
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8",
+            "test-results/pond-states/03-planting-background-dialogue.png": "84fe1660b3655e1e3b2fc03b1577df1e93c2aaedd8545b990a121bce6edd6656",
+            "test-results/pond-states/03-planting-actors-support.png": "4080cfeb9bc7cc6ea5c9176d50c2811bf64630be5773e3933f1ac77d92945194",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         }
       },
@@ -1552,7 +1643,8 @@
       "runtime_coverage": {
         "scope": "Representative actual native scenes, speaker portraits, People and/or paused theme fitting explicitly listed below. This is not every dialogue line, every viewpoint or another platform.",
         "captures": [
-          "test-results/screenshots/siblings-garden.png"
+          "test-results/pond-states/03-planting-background-dialogue.png",
+          "test-results/pond-states/03-planting-actors-support.png"
         ],
         "story_scene_inventory": [
           "plant_disagreement"
@@ -1560,9 +1652,8 @@
         "theme_shots_reviewed": [],
         "all_dialogue_lines_reviewed": false,
         "reports": [
-          "docs/graphics-runtime-inputs.json",
-          "docs/graphics-runtime-reconciliation.json",
-          "docs/graphics-runtime-review.md"
+          "docs/pond-runtime-review.md",
+          "test-results/pond-states/capture-state.json"
         ],
         "remaining": []
       }
@@ -3468,6 +3559,21 @@
               "id": "pond-wheel-scale",
               "authority": "source",
               "text": "The wheel is a miniature handmade project built by children with Arin's guidance; it is not a mill building or full-sized mechanism."
+            },
+            {
+              "id": "pond-ground-water-height",
+              "authority": "production",
+              "text": "The governing garden-pond view establishes a low basin beside adjacent dry ground. Across views preserve the waterline-to-coping-to-paving vertical relationship; camera angle alone cannot turn it into a raised retaining-wall pool."
+            },
+            {
+              "id": "pond-pairwise-geometry",
+              "authority": "production",
+              "text": "Compare the visible near/far basin arcs, coping thickness, side returns and at least three shared anchors where visible against garden-pond.png. Any difference must admit a coherent camera/depth explanation. Cropped-out features remain unobserved; plausible local figure contacts do not prove global geometry."
+            },
+            {
+              "id": "pond-water-connectivity",
+              "authority": "production",
+              "text": "Within these shared-basin depictions, all visible water patches must connect plausibly to the same basin. Do not leave an isolated far water strip behind a dry bank that implies another pool; any peninsula or occlusion needs a coherent visible shoreline explanation."
             }
           ]
         }
@@ -3479,105 +3585,119 @@
         "game/characters_book_one.rpy": "69e72f593760c4f44439a3041e732b7194989102baeb3347fffa698b13990bb5",
         "game/friendships_book_one.rpy": "da658e3c530bb444d4d070903c7d57da528d7d71b85b9109efe670dcc21d2802",
         "game/images/backgrounds/book-one/garden-pond.png": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-        "game/images/backgrounds/book-one/garden-work-area.png": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
+        "game/images/backgrounds/book-one/garden-work-area.png": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
         "game/speaker_portraits.rpy": "735f5632c9b6222779e90bdc17b066deb04c9d09a20e7a9c89fe89e374e01283",
         "game/visuals.rpy": "314b20e8880e94fbfcc26593890f22c5abba23f4da0ec668bb01221f16414a30"
       },
       "edit_provenance": {
         "source_generation": "review-025-waterwheel"
       },
-      "context_signature": "6b16dc09b029f4d48d6e8625be33a04319630b8a0ae2b3cfa2d1fb5e96e5489e",
+      "context_signature": "b97f2146df99df10307b4cae26e3f8c4ba1981ee34aaae64e3cd9bfba54cfd10",
       "baseline_sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
       "baseline_git_commit": "c721791a5350a49634d5da042281c32c867c8882",
       "baseline_git_blob": "7797f285a72f943db4ea8f2f6ca9e51aef52cfba",
-      "comparison_reference": null,
+      "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
       "reviews": {
         "identity": {
           "outcome": "not_applicable",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "No named actor with a prescribed identity is embedded in this setting; incidental residents are not the named cast.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "This source is an empty background; it contains no depicted character identity. Actual separately staged actors are assessed in the runtime review. Its landscape edit does not create a character.",
           "image_sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
-          "context_signature": "68991aa136af7b86db26e9f2345ba59832256fb1e787ab655200134ef5acc29c",
+          "context_signature": "034105dcb9f5e032cfc020035648831116c1b3c178c83e7201abd33321b85aaf",
           "comparison_reference": "git:7797f285a72f943db4ea8f2f6ca9e51aef52cfba (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "anatomy_expression": {
           "outcome": "not_applicable",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Setting-only plate: no face, limb or character body is present in the source painting.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "This source is an empty background; it contains no depicted character anatomy or expression. Actual separately staged actors are assessed in the runtime review. Its landscape edit does not create a character.",
           "image_sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
-          "context_signature": "68991aa136af7b86db26e9f2345ba59832256fb1e787ab655200134ef5acc29c",
+          "context_signature": "034105dcb9f5e032cfc020035648831116c1b3c178c83e7201abd33321b85aaf",
           "comparison_reference": "git:7797f285a72f943db4ea8f2f6ca9e51aef52cfba (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "age_stature": {
           "outcome": "not_applicable",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "No named life stage or relative named-cast stature is depicted in this setting-only plate.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "This source is an empty background; it contains no depicted character life stage or body stature. Actual separately staged actors are assessed in the runtime review. Its landscape edit does not create a character.",
           "image_sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
-          "context_signature": "68991aa136af7b86db26e9f2345ba59832256fb1e787ab655200134ef5acc29c",
+          "context_signature": "034105dcb9f5e032cfc020035648831116c1b3c178c83e7201abd33321b85aaf",
           "comparison_reference": "git:7797f285a72f943db4ea8f2f6ca9e51aef52cfba (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "setting_geometry": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Completed wheel is physically in the shallow pond with its water feed and supporting timber. This is the actual story\u2019s installation image; it must not be confused with the dry-plank theme construction test. Visible source-art relationships and props are the reviewed scope; live placements remain separate.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The miniature completed wheel and supports occupy the governing left inlet. The near coping, shallow basin, planted fence and right lilies remain the established construction. Current native dialogue and familiar-support frames show the installed state and dry animal contacts.",
           "image_sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
-          "context_signature": "68991aa136af7b86db26e9f2345ba59832256fb1e787ab655200134ef5acc29c",
-          "comparison_reference": "git:7797f285a72f943db4ea8f2f6ca9e51aef52cfba (preserve the documented source composition; inspect only justified changed scope)",
+          "context_signature": "034105dcb9f5e032cfc020035648831116c1b3c178c83e7201abd33321b85aaf",
+          "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef",
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8"
           }
         },
         "lighting_style_detail": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Completed wheel is physically in the shallow pond with its water feed and supporting timber. This is the actual story\u2019s installation image; it must not be confused with the dry-plank theme construction test. Visible source-art relationships and props are the reviewed scope; live placements remain separate.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Completed wheel is physically in the shallow pond with its water feed and supporting timber. This is the actual story\u2019s installation image; it must not be confused with the dry-plank theme construction test. Visible source-art relationships and props are the reviewed scope; live placements remain separate. The selected image is byte-identical; the newly required pond geometry comparison is complete. Source role, character references and reviewed figure/detail scope remain unchanged.",
           "image_sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
-          "context_signature": "68991aa136af7b86db26e9f2345ba59832256fb1e787ab655200134ef5acc29c",
+          "context_signature": "034105dcb9f5e032cfc020035648831116c1b3c178c83e7201abd33321b85aaf",
           "comparison_reference": "git:7797f285a72f943db4ea8f2f6ca9e51aef52cfba (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "scene_truth_action": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Completed wheel is physically in the shallow pond with its water feed and supporting timber. This is the actual story\u2019s installation image; it must not be confused with the dry-plank theme construction test. Visible source-art relationships and props are the reviewed scope; live placements remain separate.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Completed wheel is physically in the shallow pond with its water feed and supporting timber. This is the actual story\u2019s installation image; it must not be confused with the dry-plank theme construction test. Visible source-art relationships and props are the reviewed scope; live placements remain separate. The selected image is byte-identical; the newly required pond geometry comparison is complete. Source role, character references and reviewed figure/detail scope remain unchanged.",
           "image_sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
-          "context_signature": "68991aa136af7b86db26e9f2345ba59832256fb1e787ab655200134ef5acc29c",
+          "context_signature": "034105dcb9f5e032cfc020035648831116c1b3c178c83e7201abd33321b85aaf",
           "comparison_reference": "git:7797f285a72f943db4ea8f2f6ca9e51aef52cfba (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91"
+            "docs/graphics-background-sprite-audit.md": "1378433e5bd490b1bd9b2d71942a9c380b07fff178b3cd3ece838476c4173b91",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "runtime_compositing": {
           "outcome": "accepted",
-          "reviewer": "glossary_story / 73 native frames and final environment follow-up; root / theme and final assets; matrix_release / exact scope reconciliation and native supplements",
-          "reviewed_at_utc": "2026-09-05T20:46:16.702389+00:00",
-          "notes": "Completed wheel sits in the pond while familiars occupy actual bank/box/stone supports. Acceptance is limited to the listed native static rendering; animation, audio and target-platform release checks remain separate.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The miniature completed wheel and supports occupy the governing left inlet. The near coping, shallow basin, planted fence and right lilies remain the established construction. Current native dialogue and familiar-support frames show the installed state and dry animal contacts. Fresh final pond_state_review: 12 inspected complete frames / 20 assertions, plus hidden-UI support views and the actual paused planting theme cue where relevant. No audio, encoded-motion or target-platform approval is inferred.",
           "image_sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
-          "context_signature": "6b16dc09b029f4d48d6e8625be33a04319630b8a0ae2b3cfa2d1fb5e96e5489e",
+          "context_signature": "b97f2146df99df10307b4cae26e3f8c4ba1981ee34aaae64e3cd9bfba54cfd10",
           "comparison_reference": "Actual selected source image and its source-art comparison; prior native view only for the explicitly measured Barkley delta.",
           "evidence_sha256": {
-            "docs/graphics-runtime-inputs.json": "52c651c1f9aad5910f2b6c02013c6c3e88caf4c412b2a059d1c03c6b6af411c3",
-            "docs/graphics-runtime-reconciliation.json": "8e872edf7e9b806b7bd462aa4cfd88ec5d819c137a4ad4a8af41df83b835c887",
-            "docs/graphics-runtime-review.md": "1a2d3c147fc61df5ca73603487d644b2f23aae3c1dca919b1785655f94b3d135",
-            "test-results/screenshots/grounding-waterwheel-familiars.png": "4b34327f25a428cc6b379315e73d2f9669bf4c66251d93cfe69fff213975b110",
-            "test-results/screenshots/waterwheel.png": "aefd728c89488ac0e70cf83a995d1032ad4ba7cdb0ebe76bef113939d626e76d"
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8",
+            "test-results/pond-states/20-waterwheel-background-dialogue.png": "aefd728c89488ac0e70cf83a995d1032ad4ba7cdb0ebe76bef113939d626e76d",
+            "test-results/pond-states/20-waterwheel-familiar-support.png": "0630bb82cc0632b8015cb7b7329ff00421bb9868e2a1ec1c4ffe7629e98758c2",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         }
       },
@@ -3585,8 +3705,8 @@
       "runtime_coverage": {
         "scope": "Representative actual native scenes, speaker portraits, People and/or paused theme fitting explicitly listed below. This is not every dialogue line, every viewpoint or another platform.",
         "captures": [
-          "test-results/screenshots/waterwheel.png",
-          "test-results/screenshots/grounding-waterwheel-familiars.png"
+          "test-results/pond-states/20-waterwheel-background-dialogue.png",
+          "test-results/pond-states/20-waterwheel-familiar-support.png"
         ],
         "story_scene_inventory": [
           "waterwheel"
@@ -3594,9 +3714,8 @@
         "theme_shots_reviewed": [],
         "all_dialogue_lines_reviewed": false,
         "reports": [
-          "docs/graphics-runtime-inputs.json",
-          "docs/graphics-runtime-reconciliation.json",
-          "docs/graphics-runtime-review.md"
+          "docs/pond-runtime-review.md",
+          "test-results/pond-states/capture-state.json"
         ],
         "remaining": []
       }
@@ -6632,8 +6751,8 @@
       "file": "game/images/cg/book-one/garden-compromise.png",
       "kind": "cg",
       "manifest": "docs/assets.json",
-      "manifest_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
-      "current_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
+      "manifest_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
+      "current_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
       "size": [
         1672,
         941
@@ -6721,6 +6840,21 @@
               "id": "pond-working-bank",
               "authority": "production",
               "text": "Use the dry stone working bank established by garden-work-area.png. No full-body standing cast on the narrow rim or water surface."
+            },
+            {
+              "id": "pond-ground-water-height",
+              "authority": "production",
+              "text": "The governing garden-pond view establishes a low basin beside adjacent dry ground. Across views preserve the waterline-to-coping-to-paving vertical relationship; camera angle alone cannot turn it into a raised retaining-wall pool."
+            },
+            {
+              "id": "pond-pairwise-geometry",
+              "authority": "production",
+              "text": "Compare the visible near/far basin arcs, coping thickness, side returns and at least three shared anchors where visible against garden-pond.png. Any difference must admit a coherent camera/depth explanation. Cropped-out features remain unobserved; plausible local figure contacts do not prove global geometry."
+            },
+            {
+              "id": "pond-water-connectivity",
+              "authority": "production",
+              "text": "Within these shared-basin depictions, all visible water patches must connect plausibly to the same basin. Do not leave an isolated far water strip behind a dry bank that implies another pool; any peninsula or occlusion needs a coherent visible shoreline explanation."
             }
           ]
         }
@@ -6737,7 +6871,7 @@
         "game/closing_theme.rpy": "ff957f3599c93ed354b516c01047de6663ba37fdb7f22cdad1c2afc6a3e0f624",
         "game/family_book_one.rpy": "236741cddb927cfee503326f2c3549b8be8fa1d37b9e29bf904d6a7fa852a722",
         "game/images/backgrounds/book-one/garden-pond.png": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-        "game/images/backgrounds/book-one/garden-work-area.png": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
+        "game/images/backgrounds/book-one/garden-work-area.png": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
         "game/images/characters/book-one/calista-home.png": "407e2ac4a120d2346fd1599c1a9002914e9cd70385f9ef605ac430200b68ab1f",
         "game/images/characters/book-one/calista-young.png": "7e37d6dd316296f9f89f3ce495cf999b0a3ace235c91be6661d129640e64d8ee",
         "game/images/characters/book-one/kael-young.png": "86f1acb57974e793a366ad693f0be9fd8b9d55e454794eaab401b04c7bc13651",
@@ -6746,104 +6880,149 @@
         "game/visuals.rpy": "314b20e8880e94fbfcc26593890f22c5abba23f4da0ec668bb01221f16414a30"
       },
       "edit_provenance": {
-        "source_generation": "alpha-garden-compromise"
+        "source_generation": "alpha-garden-compromise",
+        "production_edit": {
+          "recipe_file": "docs/graphics-edits.json",
+          "id": "garden-compromise-ground-pond",
+          "recipe_sha256": "5eb52ca2e1b1b561ff3c9b8c1ae412ca5df797f13d4d0202f025a7533977fea5"
+        },
+        "current_recipe_sha256": "5eb52ca2e1b1b561ff3c9b8c1ae412ca5df797f13d4d0202f025a7533977fea5",
+        "script_file": "scripts/repair_pond_geometry.py",
+        "current_script_sha256": "732ca53c09f124d48eea2e12781778f5864eec5ebf7a29b4b06b6a54b1ea79e7",
+        "immutable_sources": [
+          {
+            "file": "game/images/cg/book-one/garden-compromise.png",
+            "git_blob": "e822f7ea1369bb94d5bc3af4cde312c965efeb84",
+            "sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc"
+          },
+          {
+            "file": "art/production/garden-compromise-ground-pond.png",
+            "sha256": "c522babf56ab69aa3d9974624dc84eb2cae97c2fa235b205afd29cf7fa434a51"
+          },
+          {
+            "file": "docs/pond-geometry-materials-planting.json",
+            "sha256": "39c8977a3d4891cdebf6844eca301d15e60f78d8309992435f185060d05a3251"
+          }
+        ],
+        "dependency_sha256": {},
+        "materials": [
+          {
+            "registry_file": "docs/graphics-sources/materials.json",
+            "id": "garden-compromise-ground-pond-material",
+            "record_sha256": "f1477356fd9892068eef699bc5f10b00348c462a3a1f6ab1d639b86a9b469846",
+            "current_record_sha256": "f1477356fd9892068eef699bc5f10b00348c462a3a1f6ab1d639b86a9b469846",
+            "current_prompt_sha256": "972e2c2d82aed1466f15956792d57227082315780e2b5066c57399d52d451fbe"
+          }
+        ]
       },
-      "context_signature": "c877fb72646c41d89cce9a75bff47d56c6b2e2741f01c71020d37eb67eeaaed6",
+      "context_signature": "638ffebb709ae714263af5783cba7b20f7183321801bd8f3762e4d95ac4d2cf3",
       "baseline_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
       "baseline_git_commit": "c721791a5350a49634d5da042281c32c867c8882",
       "baseline_git_blob": "e822f7ea1369bb94d5bc3af4cde312c965efeb84",
-      "comparison_reference": null,
+      "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
       "reviews": {
         "identity": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
-          "image_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
-          "context_signature": "cd62f672559e928ce8f24be4a0929a6092771d3e7c778e2d818408a6ad0578a4",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
+          "context_signature": "fee9cb1b07e71d9070b71bedb523f9f02038b769b7f7ab68cec8c12d33c204ab",
           "comparison_reference": "git:e822f7ea1369bb94d5bc3af4cde312c965efeb84 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "anatomy_expression": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
-          "image_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
-          "context_signature": "cd62f672559e928ce8f24be4a0929a6092771d3e7c778e2d818408a6ad0578a4",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
+          "context_signature": "fee9cb1b07e71d9070b71bedb523f9f02038b769b7f7ab68cec8c12d33c204ab",
           "comparison_reference": "git:e822f7ea1369bb94d5bc3af4cde312c965efeb84 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "age_stature": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
-          "image_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
-          "context_signature": "cd62f672559e928ce8f24be4a0929a6092771d3e7c778e2d818408a6ad0578a4",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
+          "context_signature": "fee9cb1b07e71d9070b71bedb523f9f02038b769b7f7ab68cec8c12d33c204ab",
           "comparison_reference": "git:e822f7ea1369bb94d5bc3af4cde312c965efeb84 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "setting_geometry": {
           "outcome": "accepted",
-          "reviewer": "matrix_release / fresh full composition and native detail inspection",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Pots sit on a broad dry surface in front of the pond. Kneeling bodies and the held pot have actual support; no one stands on the narrow pond rim. Only visible support/props and source-supported location relationships are certified; no offscreen floor-plan claim.",
-          "image_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
-          "context_signature": "cd62f672559e928ce8f24be4a0929a6092771d3e7c778e2d818408a6ad0578a4",
-          "comparison_reference": "git:e822f7ea1369bb94d5bc3af4cde312c965efeb84 (preserve the documented source composition; inspect only justified changed scope)",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The closer working-bank planting view retains original people/pots over dry paving. Figures obscure part of the near arc and inlet; the far fence/plant band, right lilies and low near edge connect to the governing/wider views. The original diagonal raised-wall remnant is removed; knees and pots remain grounded.",
+          "image_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
+          "context_signature": "fee9cb1b07e71d9070b71bedb523f9f02038b769b7f7ab68cec8c12d33c204ab",
+          "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
           "evidence_sha256": {
-            "docs/graphics-support-art-review.md": "83fe8cd0e5dab3838f9d2dbb33b4d4ff594f5dbf1548ad745b948abac3a3c382",
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef",
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8"
           }
         },
         "lighting_style_detail": {
           "outcome": "accepted",
-          "reviewer": "matrix_release / fresh full composition and native detail inspection",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "The curve of flowers and shared task organize the image. Brown ground, greenery and clothing retain texture with readable warm faces.",
-          "image_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
-          "context_signature": "cd62f672559e928ce8f24be4a0929a6092771d3e7c778e2d818408a6ad0578a4",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The curve of flowers and shared task organize the image. Brown ground, greenery and clothing retain texture with readable warm faces. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
+          "context_signature": "fee9cb1b07e71d9070b71bedb523f9f02038b769b7f7ab68cec8c12d33c204ab",
           "comparison_reference": "git:e822f7ea1369bb94d5bc3af4cde312c965efeb84 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-support-art-review.md": "83fe8cd0e5dab3838f9d2dbb33b4d4ff594f5dbf1548ad745b948abac3a3c382",
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "scene_truth_action": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses. Face-only or tiny familiar repair does not change the depicted event.",
-          "image_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
-          "context_signature": "cd62f672559e928ce8f24be4a0929a6092771d3e7c778e2d818408a6ad0578a4",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The original planting/cooperation composition and participants remain intact. It illustrates arranging pots, not every individual gesture in adjacent dialogue (the reflected-branch line is not literally enacted). No pose or story timing changed in this repair. The source/native reviewers accepted this bounded scene illustration; its landscape now agrees with the governing pond.",
+          "image_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
+          "context_signature": "fee9cb1b07e71d9070b71bedb523f9f02038b769b7f7ab68cec8c12d33c204ab",
           "comparison_reference": "git:e822f7ea1369bb94d5bc3af4cde312c965efeb84 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "runtime_compositing": {
           "outcome": "accepted",
-          "reviewer": "glossary_story / 73 native frames and final environment follow-up; root / theme and final assets; matrix_release / exact scope reconciliation and native supplements",
-          "reviewed_at_utc": "2026-09-05T20:46:16.702389+00:00",
-          "notes": "Kneeling/reaching garden figures and pots stay on the planting support, clear of the text. Its additional native theme crop preserves the central action. Acceptance is limited to the listed native static rendering; animation, audio and target-platform release checks remain separate.",
-          "image_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
-          "context_signature": "c877fb72646c41d89cce9a75bff47d56c6b2e2741f01c71020d37eb67eeaaed6",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The closer working-bank planting view retains original people/pots over dry paving. Figures obscure part of the near arc and inlet; the far fence/plant band, right lilies and low near edge connect to the governing/wider views. The original diagonal raised-wall remnant is removed; knees and pots remain grounded. Fresh final pond_state_review: 12 inspected complete frames / 20 assertions, plus hidden-UI support views and the actual paused planting theme cue where relevant. No audio, encoded-motion or target-platform approval is inferred.",
+          "image_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
+          "context_signature": "638ffebb709ae714263af5783cba7b20f7183321801bd8f3762e4d95ac4d2cf3",
           "comparison_reference": "Actual selected source image and its source-art comparison; prior native view only for the explicitly measured Barkley delta.",
           "evidence_sha256": {
-            "docs/graphics-runtime-inputs.json": "52c651c1f9aad5910f2b6c02013c6c3e88caf4c412b2a059d1c03c6b6af411c3",
-            "docs/graphics-runtime-reconciliation.json": "8e872edf7e9b806b7bd462aa4cfd88ec5d819c137a4ad4a8af41df83b835c887",
-            "docs/graphics-runtime-review.md": "1a2d3c147fc61df5ca73603487d644b2f23aae3c1dca919b1785655f94b3d135",
-            "docs/graphics-theme-runtime-inputs.json": "cc0b5f9cc4873a584448b852d59fb68f10ec726fb0d9957e3396aaebf5baf9cb",
-            "docs/graphics-theme-runtime-review.md": "58ba4a8f476bebf8afc99d679456eb7851e5b5d89cc67262832b96a623efaf06",
-            "test-results/screenshots/garden-compromise.png": "232ff92f8cceead4903e8f496a9c7fa5c699c11d5432622a0051f308a394719c",
-            "test-results/screenshots/theme-art-02.png": "9181c1463e1b8553fcde1e4ceca95f06a9a4f16f1d844937a164383a158e2d08"
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8",
+            "test-results/pond-states/03-planting-compromise-dialogue.png": "d4782b6fc09eb53643da9efa8818ee92445b0e88bbaf2a32f9c4bd2e46c5a6b1",
+            "test-results/pond-states/03-planting-compromise-support.png": "014456dd2702c64b9c60d27e5c928a5e103e892c37b0e87ee456bc2c25233ec8",
+            "test-results/pond-states/theme-garden-compromise-native.png": "7ce6192c22396be1f52b4389c0dac58a870703c0545602ae4ec028d2295d0479",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         }
       },
@@ -6865,8 +7044,9 @@
       "runtime_coverage": {
         "scope": "Representative actual native scenes, speaker portraits, People and/or paused theme fitting explicitly listed below. This is not every dialogue line, every viewpoint or another platform.",
         "captures": [
-          "test-results/screenshots/garden-compromise.png",
-          "test-results/screenshots/theme-art-02.png"
+          "test-results/pond-states/03-planting-compromise-dialogue.png",
+          "test-results/pond-states/03-planting-compromise-support.png",
+          "test-results/pond-states/theme-garden-compromise-native.png"
         ],
         "story_scene_inventory": [
           "plant_disagreement"
@@ -6876,11 +7056,8 @@
         ],
         "all_dialogue_lines_reviewed": false,
         "reports": [
-          "docs/graphics-runtime-inputs.json",
-          "docs/graphics-runtime-reconciliation.json",
-          "docs/graphics-runtime-review.md",
-          "docs/graphics-theme-runtime-inputs.json",
-          "docs/graphics-theme-runtime-review.md"
+          "docs/pond-runtime-review.md",
+          "test-results/pond-states/capture-state.json"
         ],
         "remaining": []
       }
@@ -6889,8 +7066,8 @@
       "file": "game/images/cg/book-one/pond-comfort.png",
       "kind": "cg",
       "manifest": "docs/assets.json",
-      "manifest_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
-      "current_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
+      "manifest_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+      "current_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
       "size": [
         1672,
         941
@@ -6987,6 +7164,21 @@
               "id": "pond-working-bank",
               "authority": "production",
               "text": "Use the dry stone working bank established by garden-work-area.png. No full-body standing cast on the narrow rim or water surface."
+            },
+            {
+              "id": "pond-ground-water-height",
+              "authority": "production",
+              "text": "The governing garden-pond view establishes a low basin beside adjacent dry ground. Across views preserve the waterline-to-coping-to-paving vertical relationship; camera angle alone cannot turn it into a raised retaining-wall pool."
+            },
+            {
+              "id": "pond-pairwise-geometry",
+              "authority": "production",
+              "text": "Compare the visible near/far basin arcs, coping thickness, side returns and at least three shared anchors where visible against garden-pond.png. Any difference must admit a coherent camera/depth explanation. Cropped-out features remain unobserved; plausible local figure contacts do not prove global geometry."
+            },
+            {
+              "id": "pond-water-connectivity",
+              "authority": "production",
+              "text": "Within these shared-basin depictions, all visible water patches must connect plausibly to the same basin. Do not leave an isolated far water strip behind a dry bank that implies another pool; any peninsula or occlusion needs a coherent visible shoreline explanation."
             }
           ]
         }
@@ -7003,7 +7195,7 @@
         "game/characters_book_one.rpy": "69e72f593760c4f44439a3041e732b7194989102baeb3347fffa698b13990bb5",
         "game/family_book_one.rpy": "236741cddb927cfee503326f2c3549b8be8fa1d37b9e29bf904d6a7fa852a722",
         "game/images/backgrounds/book-one/garden-pond.png": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-        "game/images/backgrounds/book-one/garden-work-area.png": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
+        "game/images/backgrounds/book-one/garden-work-area.png": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
         "game/images/characters/book-one/calista-home.png": "407e2ac4a120d2346fd1599c1a9002914e9cd70385f9ef605ac430200b68ab1f",
         "game/images/characters/book-one/calista-young.png": "7e37d6dd316296f9f89f3ce495cf999b0a3ace235c91be6661d129640e64d8ee",
         "game/images/characters/book-one/kael-young.png": "86f1acb57974e793a366ad693f0be9fd8b9d55e454794eaab401b04c7bc13651",
@@ -7017,125 +7209,150 @@
         "source_generation": "review-027-pond-comfort",
         "production_edit": {
           "recipe_file": "docs/graphics-edits.json",
-          "id": "pond-comfort-shadow-ear-notch",
-          "recipe_sha256": "67eee2e858978ad4a78e031f52ece4aeed554469c063c8d0b2307036e66c4686"
+          "id": "pond-comfort-ground-level-boundary",
+          "recipe_sha256": "95836085609818e2c16aac178d32ec10da2126aff083d18d4b0bd303f210076f"
         },
-        "current_recipe_sha256": "67eee2e858978ad4a78e031f52ece4aeed554469c063c8d0b2307036e66c4686",
-        "script_file": "scripts/polish_shadow_notches.py",
-        "current_script_sha256": "aa79afb9827994af3fc2eedae7abb2fd7299c8d641f9cb305d3c1b1cd1a6fe71",
+        "current_recipe_sha256": "95836085609818e2c16aac178d32ec10da2126aff083d18d4b0bd303f210076f",
+        "script_file": "scripts/repair_pond_comfort_grade.py",
+        "current_script_sha256": "0bb36677cf3e1dc9b4ade81de5be98666da3dbf4bdc2e6efccec2602b79c73be",
         "immutable_sources": [
           {
             "file": "game/images/cg/book-one/pond-comfort.png",
-            "git_blob": "55786245c98655eece2b18ddc56a1e6d9eac7cf4",
-            "sha256": "56074675442f5eee3db5506e1a0816d2fc52e385bdbc175518612d9a34fc6f43"
+            "git_blob": "76d6e492583617269cff206c4150550f068aeb40",
+            "sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0"
           },
           {
-            "file": "game/images/familiars/shadow.png",
-            "git_blob": "68a76f56174178bb7b0409f5215a7aa7ea6e86fb",
-            "sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59"
+            "file": "art/production/pond-comfort-grade.png",
+            "sha256": "f57dea5e2eb843c91ac346f904440afcb373c2803019638bd9c226f6704e0aa0"
+          },
+          {
+            "file": "docs/pond-comfort-grade.json",
+            "sha256": "a584c3aff410efff6d65359549de3f59b63217f0fbb7b763bdc5697c5ac09ba1"
           }
         ],
         "dependency_sha256": {},
-        "materials": []
+        "materials": [
+          {
+            "registry_file": "docs/graphics-sources/materials.json",
+            "id": "pond-comfort-ground-level-material",
+            "record_sha256": "5874017d9238e88cfa28f0cddab6946d29944817cda4f61c965575a5ed13dfc0",
+            "current_record_sha256": "5874017d9238e88cfa28f0cddab6946d29944817cda4f61c965575a5ed13dfc0",
+            "current_prompt_sha256": "e49f8bcbae29e2f8d220d74f440807c93363947d450b48ee4a047223a18c4d54"
+          }
+        ]
       },
-      "context_signature": "cd633e8833112a0013933289208b53e3ed963396772aa769aaa55f3f7bbe7c9f",
+      "context_signature": "f75d079c533530b08f7eb6296d471744c18ccd5abbe329a14d6b9a98e91a1f5f",
       "baseline_sha256": "56074675442f5eee3db5506e1a0816d2fc52e385bdbc175518612d9a34fc6f43",
       "baseline_git_commit": "c721791a5350a49634d5da042281c32c867c8882",
       "baseline_git_blob": "55786245c98655eece2b18ddc56a1e6d9eac7cf4",
-      "comparison_reference": null,
+      "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
       "reviews": {
         "identity": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Cali's embrace of Lyra, Kael's deep crouch and both animals support the immediate recovery. Do not enlarge Kael based on crown height: his long arms, hands and more solid torso already establish the older sibling. Lyra's small limbs and green eyes remain consistent with 08/13.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
-          "image_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
-          "context_signature": "d3e5646d891dda5dfcc29ff98feae59cc761c80849abcf83081b5ee5e9e667eb",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Cali's embrace of Lyra, Kael's deep crouch and both animals support the immediate recovery. Do not enlarge Kael based on crown height: his long arms, hands and more solid torso already establish the older sibling. Lyra's small limbs and green eyes remain consistent with 08/13.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+          "context_signature": "e7286747aa88c308d59750c837a765a2e310622a598e93ca1e1a00594ab5d744",
           "comparison_reference": "git:55786245c98655eece2b18ddc56a1e6d9eac7cf4 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "anatomy_expression": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Cali's embrace of Lyra, Kael's deep crouch and both animals support the immediate recovery. Do not enlarge Kael based on crown height: his long arms, hands and more solid torso already establish the older sibling. Lyra's small limbs and green eyes remain consistent with 08/13.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
-          "image_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
-          "context_signature": "d3e5646d891dda5dfcc29ff98feae59cc761c80849abcf83081b5ee5e9e667eb",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Cali's embrace of Lyra, Kael's deep crouch and both animals support the immediate recovery. Do not enlarge Kael based on crown height: his long arms, hands and more solid torso already establish the older sibling. Lyra's small limbs and green eyes remain consistent with 08/13.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+          "context_signature": "e7286747aa88c308d59750c837a765a2e310622a598e93ca1e1a00594ab5d744",
           "comparison_reference": "git:55786245c98655eece2b18ddc56a1e6d9eac7cf4 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "age_stature": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Cali's embrace of Lyra, Kael's deep crouch and both animals support the immediate recovery. Do not enlarge Kael based on crown height: his long arms, hands and more solid torso already establish the older sibling. Lyra's small limbs and green eyes remain consistent with 08/13.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
-          "image_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
-          "context_signature": "d3e5646d891dda5dfcc29ff98feae59cc761c80849abcf83081b5ee5e9e667eb",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Cali's embrace of Lyra, Kael's deep crouch and both animals support the immediate recovery. Do not enlarge Kael based on crown height: his long arms, hands and more solid torso already establish the older sibling. Lyra's small limbs and green eyes remain consistent with 08/13.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+          "context_signature": "e7286747aa88c308d59750c837a765a2e310622a598e93ca1e1a00594ab5d744",
           "comparison_reference": "git:55786245c98655eece2b18ddc56a1e6d9eac7cf4 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "setting_geometry": {
           "outcome": "accepted",
-          "reviewer": "matrix_release / fresh full composition and native detail inspection",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Cali and Lyra are supported on the dry bank; Kael squats farther back on his boots. His lower crown follows pose/depth, while longer arms and torso communicate larger stature. Barkley and Shadow have ground support. Only visible support/props and source-supported location relationships are certified; no offscreen floor-plan claim.",
-          "image_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
-          "context_signature": "d3e5646d891dda5dfcc29ff98feae59cc761c80849abcf83081b5ee5e9e667eb",
-          "comparison_reference": "git:55786245c98655eece2b18ddc56a1e6d9eac7cf4 (preserve the documented source composition; inspect only justified changed scope)",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The camera has pulled back onto the dry bank after the rescue. Original seated/crouched people and animal paws remain supported; low near coping, the far planted timber boundary and right lilies form a coherent continuation of the shallow basin. No exposed raised-pool wall remains.",
+          "image_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+          "context_signature": "e7286747aa88c308d59750c837a765a2e310622a598e93ca1e1a00594ab5d744",
+          "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
           "evidence_sha256": {
-            "docs/graphics-support-art-review.md": "83fe8cd0e5dab3838f9d2dbb33b4d4ff594f5dbf1548ad745b948abac3a3c382",
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef",
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8"
           }
         },
         "lighting_style_detail": {
           "outcome": "accepted",
-          "reviewer": "matrix_release / fresh full composition and native detail inspection",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Contact, consoling expressions and fabric remain resolved; the pond recedes behind the figures. The small repaired ear detail does not degrade the painting.",
-          "image_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
-          "context_signature": "d3e5646d891dda5dfcc29ff98feae59cc761c80849abcf83081b5ee5e9e667eb",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Contact, consoling expressions and fabric remain resolved; the pond recedes behind the figures. The small repaired ear detail does not degrade the painting. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+          "context_signature": "e7286747aa88c308d59750c837a765a2e310622a598e93ca1e1a00594ab5d744",
           "comparison_reference": "git:55786245c98655eece2b18ddc56a1e6d9eac7cf4 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-support-art-review.md": "83fe8cd0e5dab3838f9d2dbb33b4d4ff594f5dbf1548ad745b948abac3a3c382",
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "scene_truth_action": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Cali's embrace of Lyra, Kael's deep crouch and both animals support the immediate recovery. Do not enlarge Kael based on crown height: his long arms, hands and more solid torso already establish the older sibling. Lyra's small limbs and green eyes remain consistent with 08/13. Shadow again lacks a clear reference notch; limit correction to the visible ear/head area `(1300,455,1470,570)`, preserving the slightly curved tail tip and black coat. Face-only or tiny familiar repair does not change the depicted event.",
-          "image_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
-          "context_signature": "d3e5646d891dda5dfcc29ff98feae59cc761c80849abcf83081b5ee5e9e667eb",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Cali's embrace of Lyra, Kael's deep crouch and both animals support the immediate recovery. Do not enlarge Kael based on crown height: his long arms, hands and more solid torso already establish the older sibling. Lyra's small limbs and green eyes remain consistent with 08/13. Shadow again lacks a clear reference notch; limit correction to the visible ear/head area `(1300,455,1470,570)`, preserving the slightly curved tail tip and black coat. Face-only or tiny familiar repair does not change the depicted event. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+          "context_signature": "e7286747aa88c308d59750c837a765a2e310622a598e93ca1e1a00594ab5d744",
           "comparison_reference": "git:55786245c98655eece2b18ddc56a1e6d9eac7cf4 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "runtime_compositing": {
           "outcome": "accepted",
-          "reviewer": "glossary_story / 73 native frames and final environment follow-up; root / theme and final assets; matrix_release / exact scope reconciliation and native supplements",
-          "reviewed_at_utc": "2026-09-05T20:46:16.702389+00:00",
-          "notes": "Comforting crouched bodies read coherently; native source notch detail is separately reviewed. Acceptance is limited to the listed native static rendering; animation, audio and target-platform release checks remain separate.",
-          "image_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
-          "context_signature": "cd633e8833112a0013933289208b53e3ed963396772aa769aaa55f3f7bbe7c9f",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The camera has pulled back onto the dry bank after the rescue. Original seated/crouched people and animal paws remain supported; low near coping, the far planted timber boundary and right lilies form a coherent continuation of the shallow basin. No exposed raised-pool wall remains. Fresh final pond_state_review: 12 inspected complete frames / 20 assertions, plus hidden-UI support views and the actual paused planting theme cue where relevant. No audio, encoded-motion or target-platform approval is inferred.",
+          "image_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+          "context_signature": "f75d079c533530b08f7eb6296d471744c18ccd5abbe329a14d6b9a98e91a1f5f",
           "comparison_reference": "Actual selected source image and its source-art comparison; prior native view only for the explicitly measured Barkley delta.",
           "evidence_sha256": {
-            "docs/graphics-runtime-inputs.json": "52c651c1f9aad5910f2b6c02013c6c3e88caf4c412b2a059d1c03c6b6af411c3",
-            "docs/graphics-runtime-reconciliation.json": "8e872edf7e9b806b7bd462aa4cfd88ec5d819c137a4ad4a8af41df83b835c887",
-            "docs/graphics-runtime-review.md": "1a2d3c147fc61df5ca73603487d644b2f23aae3c1dca919b1785655f94b3d135",
-            "test-results/screenshots/pond-comfort.png": "c35159f0a8a7ba587e8446bcef90d535f7710b0aa829ebeb8d6969ec7b15f3eb"
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8",
+            "test-results/pond-states/10-pond-comfort-dialogue.png": "9f03e18ff0edbe5cddebd063852c68ecd88c8d34b2778ff36d2fb3223f1cced3",
+            "test-results/pond-states/10-pond-comfort-support.png": "6c6ce49e2c86bf5dc0179239df26f58acdc6615c4020e1ce8f238cf6b4fbcbc1",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         }
       },
@@ -7157,7 +7374,8 @@
       "runtime_coverage": {
         "scope": "Representative actual native scenes, speaker portraits, People and/or paused theme fitting explicitly listed below. This is not every dialogue line, every viewpoint or another platform.",
         "captures": [
-          "test-results/screenshots/pond-comfort.png"
+          "test-results/pond-states/10-pond-comfort-dialogue.png",
+          "test-results/pond-states/10-pond-comfort-support.png"
         ],
         "story_scene_inventory": [
           "pond_scare"
@@ -7165,9 +7383,8 @@
         "theme_shots_reviewed": [],
         "all_dialogue_lines_reviewed": false,
         "reports": [
-          "docs/graphics-runtime-inputs.json",
-          "docs/graphics-runtime-reconciliation.json",
-          "docs/graphics-runtime-review.md"
+          "docs/pond-runtime-review.md",
+          "test-results/pond-states/capture-state.json"
         ],
         "remaining": []
       }
@@ -7176,8 +7393,8 @@
       "file": "game/images/cg/book-one/pond-rescue.png",
       "kind": "cg",
       "manifest": "docs/assets.json",
-      "manifest_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
-      "current_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
+      "manifest_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+      "current_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
       "size": [
         1672,
         941
@@ -7279,6 +7496,21 @@
               "id": "pond-rescue-physics",
               "authority": "production",
               "text": "During the rescue Lyra is wet and frightened; rescuers crouch on supported dry ground and reach her naturally. The recovery takes place on the dry bank beside the same water."
+            },
+            {
+              "id": "pond-ground-water-height",
+              "authority": "production",
+              "text": "The governing garden-pond view establishes a low basin beside adjacent dry ground. Across views preserve the waterline-to-coping-to-paving vertical relationship; camera angle alone cannot turn it into a raised retaining-wall pool."
+            },
+            {
+              "id": "pond-pairwise-geometry",
+              "authority": "production",
+              "text": "Compare the visible near/far basin arcs, coping thickness, side returns and at least three shared anchors where visible against garden-pond.png. Any difference must admit a coherent camera/depth explanation. Cropped-out features remain unobserved; plausible local figure contacts do not prove global geometry."
+            },
+            {
+              "id": "pond-water-connectivity",
+              "authority": "production",
+              "text": "Within these shared-basin depictions, all visible water patches must connect plausibly to the same basin. Do not leave an isolated far water strip behind a dry bank that implies another pool; any peninsula or occlusion needs a coherent visible shoreline explanation."
             }
           ]
         }
@@ -7295,7 +7527,7 @@
         "game/characters_book_one.rpy": "69e72f593760c4f44439a3041e732b7194989102baeb3347fffa698b13990bb5",
         "game/family_book_one.rpy": "236741cddb927cfee503326f2c3549b8be8fa1d37b9e29bf904d6a7fa852a722",
         "game/images/backgrounds/book-one/garden-pond.png": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-        "game/images/backgrounds/book-one/garden-work-area.png": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
+        "game/images/backgrounds/book-one/garden-work-area.png": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
         "game/images/characters/book-one/calista-home.png": "407e2ac4a120d2346fd1599c1a9002914e9cd70385f9ef605ac430200b68ab1f",
         "game/images/characters/book-one/calista-young.png": "7e37d6dd316296f9f89f3ce495cf999b0a3ace235c91be6661d129640e64d8ee",
         "game/images/characters/book-one/kael-young.png": "86f1acb57974e793a366ad693f0be9fd8b9d55e454794eaab401b04c7bc13651",
@@ -7309,125 +7541,150 @@
         "source_generation": "alpha-pond-rescue",
         "production_edit": {
           "recipe_file": "docs/graphics-edits.json",
-          "id": "pond-rescue-shadow-ear-notch",
-          "recipe_sha256": "d9c827d2f1b9f81768778310ea9081aaaf2315a92b2e42258bb1ff317c53b914"
+          "id": "pond-rescue-dry-farbank",
+          "recipe_sha256": "0ab280af0cc651f6ec786f78b3a25544a5bf7c57906852f40b7fb85105c47c45"
         },
-        "current_recipe_sha256": "d9c827d2f1b9f81768778310ea9081aaaf2315a92b2e42258bb1ff317c53b914",
-        "script_file": "scripts/polish_shadow_notches.py",
-        "current_script_sha256": "aa79afb9827994af3fc2eedae7abb2fd7299c8d641f9cb305d3c1b1cd1a6fe71",
+        "current_recipe_sha256": "0ab280af0cc651f6ec786f78b3a25544a5bf7c57906852f40b7fb85105c47c45",
+        "script_file": "scripts/repair_pond_farbank.py",
+        "current_script_sha256": "72a5cb08a76855b449fbd6a4660c17173124eaf3665a11a3a4c3393f86518039",
         "immutable_sources": [
           {
             "file": "game/images/cg/book-one/pond-rescue.png",
-            "git_blob": "2a0fd84ddf57990e45da4136941f3b475a613a23",
-            "sha256": "0de515348590fbc8aff39736ad072e1c1c07d7ccb967fdd847dd5e4a75f009fb"
+            "git_blob": "7d08587c1389a07cfc1c744553fe68ac9ef6908d",
+            "sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e"
           },
           {
-            "file": "game/images/familiars/shadow.png",
-            "git_blob": "68a76f56174178bb7b0409f5215a7aa7ea6e86fb",
-            "sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59"
+            "file": "art/production/pond-rescue-farbank.png",
+            "sha256": "bc3a10c32a72c43e93af292abd6568f42f044b310062b826d31b05970026968f"
+          },
+          {
+            "file": "docs/pond-geometry-materials-rescue.json",
+            "sha256": "3c68011171b325de351b9b7521476f71f863e689dc2f821ab85bc0140b14c2b2"
           }
         ],
         "dependency_sha256": {},
-        "materials": []
+        "materials": [
+          {
+            "registry_file": "docs/graphics-sources/materials.json",
+            "id": "pond-rescue-dry-farbank-material",
+            "record_sha256": "121372d48744118b24f8fd30000f289203e3392d63a4a3b663a8a65869879f48",
+            "current_record_sha256": "121372d48744118b24f8fd30000f289203e3392d63a4a3b663a8a65869879f48",
+            "current_prompt_sha256": "d776ba03a6c60cefe8c886982ed39f17073fe61d9f1f0f853a1fc95664d149b1"
+          }
+        ]
       },
-      "context_signature": "0de26981341c2ec05c58e708b3cbb7070fa2d52eb636d83413d6d8ed55e84d4f",
+      "context_signature": "01c1b4b168fc5febdb8e97facd106c598e95635c7160b3c040b6b02dc3dfd49a",
       "baseline_sha256": "0de515348590fbc8aff39736ad072e1c1c07d7ccb967fdd847dd5e4a75f009fb",
       "baseline_git_commit": "c721791a5350a49634d5da042281c32c867c8882",
       "baseline_git_blob": "2a0fd84ddf57990e45da4136941f3b475a613a23",
-      "comparison_reference": null,
+      "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
       "reviews": {
         "identity": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Lyra is visibly smaller, in shallow water; Kael grasps her while Cali reaches from a supported kneel. The hands resolve into the expected people when viewed with the arms, not extra limbs. Barkley's scale/type fit. Source: Book I pond incident, `family_pond_scare`.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
-          "image_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
-          "context_signature": "a9dd025499b88bdae502531a6c7fbf55345265b0973ee29737636d36e3a0ff81",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Lyra is visibly smaller, in shallow water; Kael grasps her while Cali reaches from a supported kneel. The hands resolve into the expected people when viewed with the arms, not extra limbs. Barkley's scale/type fit. Source: Book I pond incident, `family_pond_scare`.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+          "context_signature": "8b68a5989c00dac2b46bdf2c44d53e4cf3a836f67dbd8528dddbc35ec40f8d29",
           "comparison_reference": "git:2a0fd84ddf57990e45da4136941f3b475a613a23 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "anatomy_expression": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Lyra is visibly smaller, in shallow water; Kael grasps her while Cali reaches from a supported kneel. The hands resolve into the expected people when viewed with the arms, not extra limbs. Barkley's scale/type fit. Source: Book I pond incident, `family_pond_scare`.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
-          "image_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
-          "context_signature": "a9dd025499b88bdae502531a6c7fbf55345265b0973ee29737636d36e3a0ff81",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Lyra is visibly smaller, in shallow water; Kael grasps her while Cali reaches from a supported kneel. The hands resolve into the expected people when viewed with the arms, not extra limbs. Barkley's scale/type fit. Source: Book I pond incident, `family_pond_scare`.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+          "context_signature": "8b68a5989c00dac2b46bdf2c44d53e4cf3a836f67dbd8528dddbc35ec40f8d29",
           "comparison_reference": "git:2a0fd84ddf57990e45da4136941f3b475a613a23 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "age_stature": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Lyra is visibly smaller, in shallow water; Kael grasps her while Cali reaches from a supported kneel. The hands resolve into the expected people when viewed with the arms, not extra limbs. Barkley's scale/type fit. Source: Book I pond incident, `family_pond_scare`.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
-          "image_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
-          "context_signature": "a9dd025499b88bdae502531a6c7fbf55345265b0973ee29737636d36e3a0ff81",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The independently reviewed bounded Shadow ear notch is installed; all other characters, limbs, pose and environment pixels are preserved. Lyra is visibly smaller, in shallow water; Kael grasps her while Cali reaches from a supported kneel. The hands resolve into the expected people when viewed with the arms, not extra limbs. Barkley's scale/type fit. Source: Book I pond incident, `family_pond_scare`.  Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+          "context_signature": "8b68a5989c00dac2b46bdf2c44d53e4cf3a836f67dbd8528dddbc35ec40f8d29",
           "comparison_reference": "git:2a0fd84ddf57990e45da4136941f3b475a613a23 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "setting_geometry": {
           "outcome": "accepted",
-          "reviewer": "matrix_release / fresh full composition and native detail inspection",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Lyra occupies shallow stone-bottom water while Kael kneels on the bank and takes her arm. Cali reaches from the same dry side. The hands belong to their visible arms; the water/stone boundary remains clear. Only visible support/props and source-supported location relationships are certified; no offscreen floor-plan claim.",
-          "image_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
-          "context_signature": "a9dd025499b88bdae502531a6c7fbf55345265b0973ee29737636d36e3a0ff81",
-          "comparison_reference": "git:2a0fd84ddf57990e45da4136941f3b475a613a23 (preserve the documented source composition; inspect only justified changed scope)",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The lower close water-edge view retains its original low reachable coping and supported rescuers. Dry soil/paving now joins the far planter to that coping, removing the isolated second-looking water strip. Right lilies and far timber/plant boundary remain; the cropped inlet is unobserved. Actual final native support and dialogue frames preserve reach and all familiar contacts.",
+          "image_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+          "context_signature": "8b68a5989c00dac2b46bdf2c44d53e4cf3a836f67dbd8528dddbc35ec40f8d29",
+          "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
           "evidence_sha256": {
-            "docs/graphics-support-art-review.md": "83fe8cd0e5dab3838f9d2dbb33b4d4ff594f5dbf1548ad745b948abac3a3c382",
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef",
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8"
           }
         },
         "lighting_style_detail": {
           "outcome": "accepted",
-          "reviewer": "matrix_release / fresh full composition and native detail inspection",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Distinct skin, wet clothing and water highlights preserve readable action. Shadow's bounded ear repair leaves surrounding texture intact.",
-          "image_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
-          "context_signature": "a9dd025499b88bdae502531a6c7fbf55345265b0973ee29737636d36e3a0ff81",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Distinct skin, wet clothing and water highlights preserve readable action. Shadow's bounded ear repair leaves surrounding texture intact. Current four-repair source comparison preserves the original figure/action/style findings within their visible scope. The bounded landscape edit changes basin geometry, not faces, body size or poses; full/native composition and exact protected pixel scope were inspected in pond-repair-review.md.",
+          "image_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+          "context_signature": "8b68a5989c00dac2b46bdf2c44d53e4cf3a836f67dbd8528dddbc35ec40f8d29",
           "comparison_reference": "git:2a0fd84ddf57990e45da4136941f3b475a613a23 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-support-art-review.md": "83fe8cd0e5dab3838f9d2dbb33b4d4ff594f5dbf1548ad745b948abac3a3c382",
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "scene_truth_action": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Lyra is visibly smaller, in shallow water; Kael grasps her while Cali reaches from a supported kneel. The hands resolve into the expected people when viewed with the arms, not extra limbs. Barkley's scale/type fit. Source: Book I pond incident, `family_pond_scare`. Shadow's two visible ear tips read as intact smooth points; reproduce the reference notch on the corresponding ear without changing gaze, tail or body. Inspect only the ear/head area around `(225,600,330,685)`; confirm the anatomical side from the reference before masking. Preserve the rescue composition. Face-only or tiny familiar repair does not change the depicted event.",
-          "image_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
-          "context_signature": "a9dd025499b88bdae502531a6c7fbf55345265b0973ee29737636d36e3a0ff81",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The original smaller Lyra is in the shallow pond while Kael grasps her and Calista reaches from dry supported ground. Shadow and Barkley remain on the bank. The earlier Shadow notch is retained; the narrow far-bank repair changes no person/animal or reach. Current native and full-source review show the same rescue action with one connected visible basin.",
+          "image_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+          "context_signature": "8b68a5989c00dac2b46bdf2c44d53e4cf3a836f67dbd8528dddbc35ec40f8d29",
           "comparison_reference": "git:2a0fd84ddf57990e45da4136941f3b475a613a23 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "runtime_compositing": {
           "outcome": "accepted",
-          "reviewer": "glossary_story / 73 native frames and final environment follow-up; root / theme and final assets; matrix_release / exact scope reconciliation and native supplements",
-          "reviewed_at_utc": "2026-09-05T20:46:16.702389+00:00",
-          "notes": "Reaching rescue action and bank support remain visible. Acceptance is limited to the listed native static rendering; animation, audio and target-platform release checks remain separate.",
-          "image_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
-          "context_signature": "0de26981341c2ec05c58e708b3cbb7070fa2d52eb636d83413d6d8ed55e84d4f",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The lower close water-edge view retains its original low reachable coping and supported rescuers. Dry soil/paving now joins the far planter to that coping, removing the isolated second-looking water strip. Right lilies and far timber/plant boundary remain; the cropped inlet is unobserved. Actual final native support and dialogue frames preserve reach and all familiar contacts. Fresh final pond_state_review: 12 inspected complete frames / 20 assertions, plus hidden-UI support views and the actual paused planting theme cue where relevant. No audio, encoded-motion or target-platform approval is inferred.",
+          "image_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+          "context_signature": "01c1b4b168fc5febdb8e97facd106c598e95635c7160b3c040b6b02dc3dfd49a",
           "comparison_reference": "Actual selected source image and its source-art comparison; prior native view only for the explicitly measured Barkley delta.",
           "evidence_sha256": {
-            "docs/graphics-runtime-inputs.json": "52c651c1f9aad5910f2b6c02013c6c3e88caf4c412b2a059d1c03c6b6af411c3",
-            "docs/graphics-runtime-reconciliation.json": "8e872edf7e9b806b7bd462aa4cfd88ec5d819c137a4ad4a8af41df83b835c887",
-            "docs/graphics-runtime-review.md": "1a2d3c147fc61df5ca73603487d644b2f23aae3c1dca919b1785655f94b3d135",
-            "test-results/screenshots/pond-rescue.png": "44036cc1e31e4c6cfa00375c5509512598d9e6e0c4bcee6c25e5e6ca3dd89033"
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8",
+            "test-results/pond-states/10-pond-rescue-dialogue.png": "48fe68e1089c91cf2b7bd4c626b420f3d17607c4dfb1cab87241a523ba063575",
+            "test-results/pond-states/10-pond-rescue-support.png": "d8ca70cac3dd8bbdbcf1d4d54f006930c5018eb14f25968b52b567ffe75b6124",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         }
       },
@@ -7449,7 +7706,8 @@
       "runtime_coverage": {
         "scope": "Representative actual native scenes, speaker portraits, People and/or paused theme fitting explicitly listed below. This is not every dialogue line, every viewpoint or another platform.",
         "captures": [
-          "test-results/screenshots/pond-rescue.png"
+          "test-results/pond-states/10-pond-rescue-dialogue.png",
+          "test-results/pond-states/10-pond-rescue-support.png"
         ],
         "story_scene_inventory": [
           "pond_scare"
@@ -7457,9 +7715,8 @@
         "theme_shots_reviewed": [],
         "all_dialogue_lines_reviewed": false,
         "reports": [
-          "docs/graphics-runtime-inputs.json",
-          "docs/graphics-runtime-reconciliation.json",
-          "docs/graphics-runtime-review.md"
+          "docs/pond-runtime-review.md",
+          "test-results/pond-states/capture-state.json"
         ],
         "remaining": []
       }
@@ -9730,6 +9987,21 @@
               "id": "pond-working-bank",
               "authority": "production",
               "text": "Use the dry stone working bank established by garden-work-area.png. No full-body standing cast on the narrow rim or water surface."
+            },
+            {
+              "id": "pond-ground-water-height",
+              "authority": "production",
+              "text": "The governing garden-pond view establishes a low basin beside adjacent dry ground. Across views preserve the waterline-to-coping-to-paving vertical relationship; camera angle alone cannot turn it into a raised retaining-wall pool."
+            },
+            {
+              "id": "pond-pairwise-geometry",
+              "authority": "production",
+              "text": "Compare the visible near/far basin arcs, coping thickness, side returns and at least three shared anchors where visible against garden-pond.png. Any difference must admit a coherent camera/depth explanation. Cropped-out features remain unobserved; plausible local figure contacts do not prove global geometry."
+            },
+            {
+              "id": "pond-water-connectivity",
+              "authority": "production",
+              "text": "Within these shared-basin depictions, all visible water patches must connect plausibly to the same basin. Do not leave an isolated far water strip behind a dry bank that implies another pool; any peninsula or occlusion needs a coherent visible shoreline explanation."
             }
           ]
         }
@@ -9745,7 +10017,7 @@
         "game/closing_theme.json": "1ced60548d388801dd655f7de96b001e04b0fa6379cdb8447a5b3d4d5a70865e",
         "game/closing_theme.rpy": "ff957f3599c93ed354b516c01047de6663ba37fdb7f22cdad1c2afc6a3e0f624",
         "game/images/backgrounds/book-one/garden-pond.png": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-        "game/images/backgrounds/book-one/garden-work-area.png": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
+        "game/images/backgrounds/book-one/garden-work-area.png": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
         "game/images/characters/book-one/calista-older.png": "d36489fd12db1fd3f2d360afa83d675e2af5bcb563e942775ad196f5f11f70b3",
         "game/images/characters/book-one/cassia-older.png": "f65d350cb1d99f692c0de61ee2f160f21795aefafd7d263e88e29f27939865d6",
         "game/images/characters/book-one/joren-older.png": "853411333d8c9cc40fae87b3a4089ae551eaae7250319195b1f5e14dc048a8b0",
@@ -9755,102 +10027,116 @@
       "edit_provenance": {
         "source_generation": "theme-recut-waterwheel"
       },
-      "context_signature": "621d0ab9af3f933e863eb0952859e97ba403608d3a1644f9ce5f43e68377bd8d",
+      "context_signature": "ffae088e2098bdacbb7dc86f56a7aeecdf15d6cf95eda589dbfae9ab781f328e",
       "baseline_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
       "baseline_git_commit": "c721791a5350a49634d5da042281c32c867c8882",
       "baseline_git_blob": "741bb14fa76dd4501d4adb18bafd1ad547194e07",
-      "comparison_reference": null,
+      "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
       "editorial_role": "Theme-only outdoor construction test before pond installation; never the completed story installation.",
       "reviews": {
         "identity": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "The three later-childhood figures, hands and kneels are coherent. Cassia rests her chin on a hand; her lower crown does not mean she has become a smaller child. Their shaded eyes should remain shaded. The wheel stands on dry planks under a spout, whereas the completed source wheel is placed in a pond (source near lines 417\u2013423; `book_one_later`). Before using this as the completion image, correct wheel/support/water around `(450,375,855,855)` in coordination with the environment owner. Alternatively label its production role as an earlier test and keep it exclusively in the montage. Do not manufacture a new explanation for the water source in dialogue. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The three later-childhood figures, hands and kneels are coherent. Cassia rests her chin on a hand; her lower crown does not mean she has become a smaller child. Their shaded eyes should remain shaded. The wheel stands on dry planks under a spout, whereas the completed source wheel is placed in a pond (source near lines 417\u2013423; `book_one_later`). Before using this as the completion image, correct wheel/support/water around `(450,375,855,855)` in coordination with the environment owner. Alternatively label its production role as an earlier test and keep it exclusively in the montage. Do not manufacture a new explanation for the water source in dialogue. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. The selected image is byte-identical; the newly required pond geometry comparison is complete. Source role, character references and reviewed figure/detail scope remain unchanged.",
           "image_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
-          "context_signature": "7c58689cefe99905a6a25960b840a90c8802f47ca6c389f5b292ec6a340c96bd",
+          "context_signature": "cc198185d43c239a14ec094296e2b07cf169f9489567edb61be0ff841b775174",
           "comparison_reference": "git:741bb14fa76dd4501d4adb18bafd1ad547194e07 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "anatomy_expression": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "The three later-childhood figures, hands and kneels are coherent. Cassia rests her chin on a hand; her lower crown does not mean she has become a smaller child. Their shaded eyes should remain shaded. The wheel stands on dry planks under a spout, whereas the completed source wheel is placed in a pond (source near lines 417\u2013423; `book_one_later`). Before using this as the completion image, correct wheel/support/water around `(450,375,855,855)` in coordination with the environment owner. Alternatively label its production role as an earlier test and keep it exclusively in the montage. Do not manufacture a new explanation for the water source in dialogue. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The three later-childhood figures, hands and kneels are coherent. Cassia rests her chin on a hand; her lower crown does not mean she has become a smaller child. Their shaded eyes should remain shaded. The wheel stands on dry planks under a spout, whereas the completed source wheel is placed in a pond (source near lines 417\u2013423; `book_one_later`). Before using this as the completion image, correct wheel/support/water around `(450,375,855,855)` in coordination with the environment owner. Alternatively label its production role as an earlier test and keep it exclusively in the montage. Do not manufacture a new explanation for the water source in dialogue. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. The selected image is byte-identical; the newly required pond geometry comparison is complete. Source role, character references and reviewed figure/detail scope remain unchanged.",
           "image_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
-          "context_signature": "7c58689cefe99905a6a25960b840a90c8802f47ca6c389f5b292ec6a340c96bd",
+          "context_signature": "cc198185d43c239a14ec094296e2b07cf169f9489567edb61be0ff841b775174",
           "comparison_reference": "git:741bb14fa76dd4501d4adb18bafd1ad547194e07 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "age_stature": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "The three later-childhood figures, hands and kneels are coherent. Cassia rests her chin on a hand; her lower crown does not mean she has become a smaller child. Their shaded eyes should remain shaded. The wheel stands on dry planks under a spout, whereas the completed source wheel is placed in a pond (source near lines 417\u2013423; `book_one_later`). Before using this as the completion image, correct wheel/support/water around `(450,375,855,855)` in coordination with the environment owner. Alternatively label its production role as an earlier test and keep it exclusively in the montage. Do not manufacture a new explanation for the water source in dialogue. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The three later-childhood figures, hands and kneels are coherent. Cassia rests her chin on a hand; her lower crown does not mean she has become a smaller child. Their shaded eyes should remain shaded. The wheel stands on dry planks under a spout, whereas the completed source wheel is placed in a pond (source near lines 417\u2013423; `book_one_later`). Before using this as the completion image, correct wheel/support/water around `(450,375,855,855)` in coordination with the environment owner. Alternatively label its production role as an earlier test and keep it exclusively in the montage. Do not manufacture a new explanation for the water source in dialogue. Life stage and visible body relationships are assessed with posture/perspective; cropped feet or hidden irises are not asserted measurable. The selected image is byte-identical; the newly required pond geometry comparison is complete. Source role, character references and reviewed figure/detail scope remain unchanged.",
           "image_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
-          "context_signature": "7c58689cefe99905a6a25960b840a90c8802f47ca6c389f5b292ec6a340c96bd",
+          "context_signature": "cc198185d43c239a14ec094296e2b07cf169f9489567edb61be0ff841b775174",
           "comparison_reference": "git:741bb14fa76dd4501d4adb18bafd1ad547194e07 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "setting_geometry": {
           "outcome": "accepted",
-          "reviewer": "matrix_release / fresh full composition and native detail inspection",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Kneeling children, loose components, paper plans and a framed wheel share the paved bank. The wheel's supporting frame is visible. Its dry-bank placement requires the existing theme-only construction-test role. Only visible support/props and source-supported location relationships are certified; no offscreen floor-plan claim.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The construction/test illustration shows the small project and children on a dry near bank with recessed water, low slabs, far planted boundary and right lilies. The working-side camera is compatible with the master; this illustration does not claim the final in-pond project state. Root inspected the unchanged full/native source; earlier exact-byte native theme fitting remains applicable.",
           "image_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
-          "context_signature": "7c58689cefe99905a6a25960b840a90c8802f47ca6c389f5b292ec6a340c96bd",
-          "comparison_reference": "git:741bb14fa76dd4501d4adb18bafd1ad547194e07 (preserve the documented source composition; inspect only justified changed scope)",
+          "context_signature": "cc198185d43c239a14ec094296e2b07cf169f9489567edb61be0ff841b775174",
+          "comparison_reference": "game/images/backgrounds/book-one/garden-pond.png",
           "evidence_sha256": {
-            "docs/graphics-support-art-review.md": "83fe8cd0e5dab3838f9d2dbb33b4d4ff594f5dbf1548ad745b948abac3a3c382",
-            "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c"
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef",
+            "docs/pond-runtime-review.md": "58ee2e721b6ea8b498ec31a8c98ecf96703e6537b58c6afdbaf02b939156f594",
+            "test-results/pond-states/capture-state.json": "c2536de6264f0d0f90403358051a72b622f3a27d228ada527efa205f7d3e44d8"
           }
         },
         "lighting_style_detail": {
           "outcome": "accepted",
-          "reviewer": "matrix_release / fresh full composition and native detail inspection",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Downcast task attention, shaded eyes and native wood/cloth/stone detail remain. A smaller apparent seated crown follows leaning posture, not a changed body size.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Downcast task attention, shaded eyes and native wood/cloth/stone detail remain. A smaller apparent seated crown follows leaning posture, not a changed body size. The selected image is byte-identical; the newly required pond geometry comparison is complete. Source role, character references and reviewed figure/detail scope remain unchanged.",
           "image_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
-          "context_signature": "7c58689cefe99905a6a25960b840a90c8802f47ca6c389f5b292ec6a340c96bd",
+          "context_signature": "cc198185d43c239a14ec094296e2b07cf169f9489567edb61be0ff841b775174",
           "comparison_reference": "git:741bb14fa76dd4501d4adb18bafd1ad547194e07 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-support-art-review.md": "83fe8cd0e5dab3838f9d2dbb33b4d4ff594f5dbf1548ad745b948abac3a3c382",
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "scene_truth_action": {
           "outcome": "accepted",
-          "reviewer": "glossary_story and root / source inspection; matrix_release / evidence reconciliation",
-          "reviewed_at_utc": "2026-09-05T20:42:44.712527+00:00",
-          "notes": "Exclusively a theme construction-test illustration on the dry bank. The actual story completion remains the different in-pond wheel image; no invented explanatory dialogue is added. Face-only or tiny familiar repair does not change the depicted event.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "Exclusively a theme construction-test illustration on the dry bank. The actual story completion remains the different in-pond wheel image; no invented explanatory dialogue is added. Face-only or tiny familiar repair does not change the depicted event. The selected image is byte-identical; the newly required pond geometry comparison is complete. Source role, character references and reviewed figure/detail scope remain unchanged.",
           "image_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
-          "context_signature": "7c58689cefe99905a6a25960b840a90c8802f47ca6c389f5b292ec6a340c96bd",
+          "context_signature": "cc198185d43c239a14ec094296e2b07cf169f9489567edb61be0ff841b775174",
           "comparison_reference": "git:741bb14fa76dd4501d4adb18bafd1ad547194e07 (preserve the documented source composition; inspect only justified changed scope)",
           "evidence_sha256": {
             "docs/graphics-cg-audit.md": "8ed26e458bcc9b61849d256d66968a116f11ea03aba1c2dbf83cd13ed26c511c",
-            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087"
+            "docs/graphics-cg-repair-review.md": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         },
         "runtime_compositing": {
           "outcome": "accepted",
-          "reviewer": "glossary_story / 73 native frames and final environment follow-up; root / theme and final assets; matrix_release / exact scope reconciliation and native supplements",
-          "reviewed_at_utc": "2026-09-05T20:46:16.702389+00:00",
-          "notes": "The actual native paused montage displays this complete expected composition with preserved focal face/action and legible controls. Specific shot findings are in graphics-theme-runtime-review.md; static fitting does not certify moving-camera or encoded-film stability. Acceptance is limited to the listed native static rendering; animation, audio and target-platform release checks remain separate.",
+          "reviewer": "Root / pairwise source and final repair inspection; review_visual_method / bounded landscape repair verification; glossary_story / final native frames; matrix_release / independent source/native comparison and targeted evidence reconciliation",
+          "reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00",
+          "notes": "The source image, shared player and shot remain unchanged from the recorded native theme view; only the pond geometry contracts and secondary landscape reference changed. Root freshly inspected this source against all repaired pond views. The actual native paused montage displays this complete expected composition with preserved focal face/action and legible controls. Specific shot findings are in graphics-theme-runtime-review.md; static fitting does not certify moving-camera or encoded-film stability. Acceptance is limited to the listed native static rendering; animation, audio and target-platform release checks remain separate.",
           "image_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
-          "context_signature": "621d0ab9af3f933e863eb0952859e97ba403608d3a1644f9ce5f43e68377bd8d",
+          "context_signature": "ffae088e2098bdacbb7dc86f56a7aeecdf15d6cf95eda589dbfae9ab781f328e",
           "comparison_reference": "Actual selected source image and its source-art comparison; prior native view only for the explicitly measured Barkley delta.",
           "evidence_sha256": {
             "docs/graphics-runtime-reconciliation.json": "8e872edf7e9b806b7bd462aa4cfd88ec5d819c137a4ad4a8af41df83b835c887",
             "docs/graphics-theme-runtime-inputs.json": "cc0b5f9cc4873a584448b852d59fb68f10ec726fb0d9957e3396aaebf5baf9cb",
             "docs/graphics-theme-runtime-review.md": "58ba4a8f476bebf8afc99d679456eb7851e5b5d89cc67262832b96a623efaf06",
-            "test-results/screenshots/theme-art-10.png": "39d8b4279d8bf7e899a60575a0aaf58f4b2be3f0a7dde43f8b526d5c424b36a7"
+            "test-results/screenshots/theme-art-10.png": "39d8b4279d8bf7e899a60575a0aaf58f4b2be3f0a7dde43f8b526d5c424b36a7",
+            "docs/POND_GEOMETRY_REVIEW.md": "f2314006d7e98bd49c683042e4fa1bcc894a328cce6f005c7e18de99cc493b1f",
+            "docs/pond-repair-review.md": "24567a2b8c18d8a424af094ba4e4a4a0e496185a5fcbba42f9092486342b4aef"
           }
         }
       },

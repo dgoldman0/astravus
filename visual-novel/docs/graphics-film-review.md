@@ -1,13 +1,13 @@
 # Delivered closing film — graphics polish review
 
-The current separate MP4 is **305,187,483 bytes (291.0 MiB), 1920×1080 at 60 fps**, rendered from the approved production cue sheet and images. SHA256: `0c6481a93fcb5eccf967b9c9718e69fd1e024c31f3b02c3a45e783a97f58a509`. This report supersedes the old 126.5 MiB artifact facts in FINAL_FILM_REVIEW.md; it does not reuse that older movie's motion approval.
+The current separate MP4 is **305,028,419 bytes (290.9 MiB), 1920×1080 at 60 fps**, rendered with the corrected planting pond. SHA256: `87f20bf84d226d4a523f60ff42f5132b19ac9830351e10f1ca6605965ea7dd34`. A bounded check of this replacement verified its actual planting frames, all video timestamps, unchanged encoded song packets and current render inputs. Only `garden-compromise.png` changed among the fifteen selected images; the cue and renderer are unchanged.
 
-The delivered ending shows continuous eased dissolves and stable spatial contours in the inspected native frames. Fine lossy pixel variation remains, particularly just after a dissolve. This is decoded-frame analysis, **not subjective real-time playback or auditory listening**; it cannot establish performance on every player/display or guarantee that no viewer will perceive any shimmer.
+The detailed ending measurements below belong to the preceding delivery `0c6481a9…` with the same final three images, cue and renderer. They are retained as prior evidence, **not re-labelled measurements of this replacement**. That review found continuous eased dissolves and stable spatial contours, with fine lossy pixel variation particularly just after a dissolve. Both checks use decoded-frame analysis, **not subjective real-time playback or auditory listening**; they cannot establish performance on every player/display or guarantee that no viewer will perceive any shimmer.
 
 ## Actual delivery and frozen inputs
 
 - H.264 High, progressive yuv420p, square pixels; 10,666 frames. The stored presentation/decode timestamps are equal, unique and strictly monotonic at exactly 1/60-second intervals, from 0 to 177.750 seconds. Video presentation ends at 177.766667 seconds.
-- AAC LC, 48 kHz stereo, approximately 257 kbps according to demux metadata. Its packet timeline ends at 177.76 seconds, matching all 8,532,480 sample frames of the supplied WAV. The first AAC packet has the normal −1,024-sample priming timestamp. This verifies the track timeline, not a fresh sample-by-sample mastering comparison.
+- AAC LC, 48 kHz stereo, approximately 257 kbps according to demux metadata. Its packet timeline ends at 177.76 seconds, matching all 8,532,480 sample frames of the supplied WAV. The complete encoded audio packet hash matches the preceding delivery exactly. The first AAC packet has the normal −1,024-sample priming timestamp. This verifies unchanged delivery audio, not a new score or subjective sound review.
 - Runtime Ogg SHA256: `460ad7c6fdc1c2a6b058b3e8d610bc7f9cc355655b96e9081fe6d1c27f8baa05` (unchanged separate Vorbis asset; MP4 uses the original WAV).
 - Original WAV SHA256: `491ffdb74b0f6b2c02873eae485b6bfdb2506538236c007c7eec23bef2d314a4`.
 - Shared cue SHA256: `1ced60548d388801dd655f7de96b001e04b0fa6379cdb8447a5b3d4d5a70865e`.
@@ -15,9 +15,17 @@ The delivered ending shows continuous eased dissolves and stable spatial contour
 
 The check imports the renderer's actual QP14 delivery profile: stillimage tuning, no B-frames, a whole-film GOP with scene-cut refresh disabled, no adaptive quantization/MB-tree/lookahead and equal I/P quantization ratios. The final three cue compositions are fixed at zoom 1.0 with no focus movement. Earlier camera moves were not re-reviewed by this bounded ending check.
 
-The renderer's complete video/audio decode succeeded before atomic output replacement; its current log and exact movie/image/cue/renderer snapshot are `build/graphics-polish/film-render.log` and `film-render-inputs.json`. This independent check matched that output SHA and all recorded render inputs, audited timestamps for all 10,666 video packets, and decoded frames 8,173–10,031 for the ending measurements. The movie and review inputs were unchanged during verification. `ffprobe` is not installed in this environment; equivalent stream metadata came from the bundled FFmpeg demuxer, with exact packet timestamps and independent OpenCV video metadata/decode. No tool installation was needed.
+The renderer's complete video/audio decode succeeded before atomic output replacement; its current log and exact movie/image/cue/renderer snapshot are `build/graphics-polish/pond-film-render.log` and `film-render-inputs.json`. The independent replacement check matched that output SHA and all recorded render inputs, audited timestamps for all 10,666 video packets, and decoded the three planting samples listed below. The preceding ending check decoded frames 8,173–10,031 of its own artifact. The movie and review inputs were unchanged during each verification. `ffprobe` is not installed in this environment; equivalent stream metadata came from the bundled FFmpeg demuxer, with exact packet timestamps and independent OpenCV video metadata/decode. No tool installation was needed.
 
-## Final three dissolves
+## Current planting revision
+
+The installed planting CG has SHA256 `dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6`. Comparing the new render snapshot against the preceding review confirms that this is the only changed render input.
+
+The actual decoded frames at **22.516667, 23.116667 and 28.366667 seconds** were inspected at their delivered 1920×1080 resolution. The first shows the outgoing flower/insect image; the midpoint visibly blends it with the planting group. The settled frame shows all three figures and pots supported on the dry paved bank, with the corrected low coping, far fence, inlet and lily pads visible. There are no black borders, displaced figures or opaque transition remnants in these samples. Three samples establish the changed image and sampled overlap; they do not constitute another temporal-smoothness study.
+
+The current receipt is `test-results/graphics-film/pond-update/verification.json`, created `2026-09-05T22:00:27Z`; it records the source/image/output hashes, renderer decode-log hash, video timestamps, identical encoded audio packet hash and explicit visual findings. Its three PNGs are review evidence only; no alternate movie was kept.
+
+## Prior detailed review: final three dissolves
 
 All 73 native-timestamp frames of each 1.2-second overlap were measured. Whole-composition opacity fitting uses 480×270 area-downsampled copies; the visual review also inspected seven delivered composition samples per transition and native-pixel beginning/mid/end face-detail crops. Downsampled fitting alone is not a native-detail quality test.
 
@@ -29,7 +37,7 @@ All 73 native-timestamp frames of each 1.2-second overlap were measured. Whole-c
 
 All measured opacity steps are forward. Maximum fitted residual at the 480×270 measurement size is 1.197 RGB levels out of 255. The native midpoint samples show the expected overlapping compositions, without a geometric camera jump. These findings apply to the inspected final three overlaps, not an unseen new full-film visual review.
 
-## Held native detail, including the largest residual changes
+## Prior detailed review: held native detail
 
 Dissolves, title appearance and fades were excluded. Measured windows: 137.450–153.750s for sketch laughter;154.983–164.067s for reading;165.300–167.183s for morning. The script measures every adjacent pair within each window using explicit native face/hair and foliage rectangles. I inspected all six worst-pair native strips, not just averages.
 
@@ -48,9 +56,11 @@ The worst native pairs preserve visible eye/face contours, curls, leaf shapes, t
 From visual-novel:
 
 ```sh
-python3 scripts/review_graphics_film.py
+python3 scripts/review_pond_film.py
 ```
 
-The script reads the delivered MP4, shared cue file, production encoder profile and current render snapshot. It does not render another film or change runtime assets. Outputs under ignored `test-results/graphics-film/` total about 9 MiB: the metadata text, exact timestamp/input/artifact receipt, per-frame crop measurements, three whole-composition overlap strips, three native overlap-detail strips and six native worst-pair strips. `verification.json` contains the explicit manual visual findings and hashes of all inspected strips; a fresh script run intentionally resets manual visual status to pending.
+The bounded script reads the delivered MP4, current render snapshot, shared cue, renderer and previous `test-results/graphics-film/verification.json` receipt. It asserts that the planting image is the only changed render input. It writes metadata, one receipt and three full-resolution frames under ignored `test-results/graphics-film/pond-update/`. It does not render another film or change runtime assets. A fresh run intentionally resets manual visual status to pending.
+
+The preceding detailed ending receipt and its approximately 9 MiB of strips remain under `test-results/graphics-film/`; their input/output hashes identify the artifact actually measured. To repeat that larger study for a later movie without overwriting the bounded check's historical baseline, run `python3 scripts/review_graphics_film.py --output test-results/graphics-film/full-repeat` and inspect the new strips. No such repeat is claimed for the planting-only revision.
 
 The standalone MP4 remains separate from the game's still/Ogg runtime. Its larger size is measured; the long-GOP tradeoff for arbitrary player seeking is not performance-tested by this review. No full-frame export sequence or alternate runtime movie was retained.

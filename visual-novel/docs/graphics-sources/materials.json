@@ -227,6 +227,126 @@
         }
       ],
       "selection_scope": "Only cropped work-surface props are retained. The exact retained material is resized to its declared target box and feathered through a bounded polygon; the generated full room is not selected."
+    },
+    {
+      "id": "pond-comfort-ground-level-material",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "art/production/pond-comfort-grade.png",
+      "sha256": "f57dea5e2eb843c91ac346f904440afcb373c2803019638bd9c226f6704e0aa0",
+      "generation_output_sha256": "69d1bfefeb1e85ef4bbd9639eecbfa6f2dc6a1c06f0f92dd78789b290718e1c8",
+      "retained_size": [
+        1672,
+        941
+      ],
+      "retained_mode": "RGBA",
+      "prompt_file": "docs/graphics-sources/pond-comfort-grade-prompt.txt",
+      "prompt_sha256": "e49f8bcbae29e2f8d220d74f440807c93363947d450b48ee4a047223a18c4d54",
+      "references": [
+        {
+          "file": "game/images/cg/book-one/pond-comfort.png",
+          "git_blob": "76d6e492583617269cff206c4150550f068aeb40",
+          "sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0"
+        },
+        {
+          "file": "game/images/backgrounds/book-one/garden-pond.png",
+          "sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958"
+        }
+      ],
+      "selection_scope": "Retain only generated pond/paving material through inward-feathered landscape polygons, excluding the original cast, familiars and foreground. The RGBA material contains the selected paint and alpha; the final runtime is composited over the immutable original."
+    },
+    {
+      "id": "garden-work-area-ground-pond-material",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "art/production/garden-work-area-ground-pond.png",
+      "sha256": "3c883267bbbd1c6384da21d391d5fcf5b4edd8b2cdebca1d55842823e86e5df0",
+      "generation_output_sha256": "06b892ade5e87d89b4c7fd9af98bf8983e11ebd52afa3f64b6396bc503d7c361",
+      "generation_output_size": [
+        1671,
+        941
+      ],
+      "retained_size": [
+        1672,
+        941
+      ],
+      "retained_mode": "RGBA",
+      "prompt_file": "docs/graphics-sources/pond-work-area-prompt.txt",
+      "prompt_sha256": "94acbb12fb4d9b610b4637a606a929db29b75a8b965a617483baef6f502f8cc6",
+      "references": [
+        {
+          "file": "game/images/backgrounds/book-one/garden-work-area.png",
+          "git_blob": "886a5a98d7f746262fd19e250a5b8b112f198ad1",
+          "sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac"
+        },
+        {
+          "file": "game/images/backgrounds/book-one/garden-pond.png",
+          "git_blob": "153bbe79a42a1aa4740f068fb012c919c8f65284",
+          "sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958"
+        }
+      ],
+      "selection_scope": "Generated 1671x941 material resampled once to original 1672x941; original source never resampled. Only the selected pond/paving area is composited. Original cast/props and source artwork outside the allowed mask are retained; generated replacement characters or fences are not selected."
+    },
+    {
+      "id": "garden-compromise-ground-pond-material",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "art/production/garden-compromise-ground-pond.png",
+      "sha256": "c522babf56ab69aa3d9974624dc84eb2cae97c2fa235b205afd29cf7fa434a51",
+      "generation_output_sha256": "fe4eb3f46c71d04cc82761c30e4cbe54d4786ab9e14e26789377f072bea321ff",
+      "generation_output_size": [
+        1671,
+        941
+      ],
+      "retained_size": [
+        1672,
+        941
+      ],
+      "retained_mode": "RGBA",
+      "prompt_file": "docs/graphics-sources/pond-compromise-prompt.txt",
+      "prompt_sha256": "972e2c2d82aed1466f15956792d57227082315780e2b5066c57399d52d451fbe",
+      "references": [
+        {
+          "file": "game/images/cg/book-one/garden-compromise.png",
+          "git_blob": "e822f7ea1369bb94d5bc3af4cde312c965efeb84",
+          "sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc"
+        },
+        {
+          "file": "game/images/backgrounds/book-one/garden-pond.png",
+          "git_blob": "153bbe79a42a1aa4740f068fb012c919c8f65284",
+          "sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958"
+        },
+        {
+          "kind": "generated_reference",
+          "material_id": "garden-work-area-ground-pond-material",
+          "generation_output_sha256": "06b892ade5e87d89b4c7fd9af98bf8983e11ebd52afa3f64b6396bc503d7c361",
+          "role": "Full generated wider work-area view served as the third composition reference, before its later mask preparation; only the bounded RGBA material is retained."
+        }
+      ],
+      "selection_scope": "Generated 1671x941 material resampled once to original 1672x941; original source never resampled. Only the selected pond/paving area is composited. Original cast/props and source artwork outside the allowed mask are retained; generated replacement characters or fences are not selected."
+    },
+    {
+      "id": "pond-rescue-dry-farbank-material",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "art/production/pond-rescue-farbank.png",
+      "sha256": "bc3a10c32a72c43e93af292abd6568f42f044b310062b826d31b05970026968f",
+      "generation_output_sha256": "cde57b75abb9ea3df81c72d420b4ce8b3a66953b4d25cee833616e2e581c4890",
+      "generation_output_size": [
+        1662,
+        946
+      ],
+      "retained_size": [
+        1672,
+        941
+      ],
+      "retained_mode": "RGBA",
+      "prompt_file": "docs/graphics-sources/pond-rescue-farbank-prompt.txt",
+      "prompt_sha256": "d776ba03a6c60cefe8c886982ed39f17073fe61d9f1f0f853a1fc95664d149b1",
+      "references": [
+        {
+          "file": "game/images/cg/book-one/pond-rescue.png",
+          "git_blob": "7d08587c1389a07cfc1c744553fe68ac9ef6908d",
+          "sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e"
+        }
+      ],
+      "selection_scope": "Generated 1662x946 material resampled once to original 1672x941; original scene never resampled. Only the narrow far-bank strip is selected; original foreground coping, main water and all people/animals are retained. The source scene was the sole generation reference."
     }
   ]
 }

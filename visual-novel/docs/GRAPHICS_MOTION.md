@@ -53,20 +53,26 @@ the delivered film.
 
 ## Completed production delivery
 
-The final approved art was rendered to `build/closing-theme.mp4` on 2026-09-05.
-The actual delivery is 1920×1080 at 60 fps, **305,187,483 bytes (291.0 MiB)**,
-SHA256 `0c6481a93fcb5eccf967b9c9718e69fd1e024c31f3b02c3a45e783a97f58a509`.
+The final approved art was rendered to `build/closing-theme.mp4` on 2026-09-05,
+then rendered again with the corrected planting pond. The current delivery is
+1920×1080 at 60 fps, **305,028,419 bytes (290.9 MiB)**,
+SHA256 `87f20bf84d226d4a523f60ff42f5132b19ac9830351e10f1ca6605965ea7dd34`.
 The renderer completed its full video/audio decode check before atomic replacement.
-The separate [delivered-film review](graphics-film-review.md) verifies the final
-three dissolves and every adjacent native face/foliage crop in their held periods,
-excluding title/dissolve/fade frames. All 10,666 stored presentation timestamps are
-unique and uniformly spaced at 1/60 second; the AAC track ends at 177.76 seconds.
+The bounded replacement check verified the actual changed planting frames and
+all 10,666 stored presentation timestamps, unique and uniformly spaced at 1/60
+second. The AAC track ends at 177.76 seconds and its complete encoded packet
+hash matches the preceding delivery. Only the planting image changed among the
+render inputs; the ending art, cue and renderer remain identical.
 
-The worst native detail pairs retain stable contours. Small codec differences
+The preceding delivery's [detailed ending review](graphics-film-review.md)
+measured the final three dissolves and every adjacent native face/foliage crop
+in their held periods, excluding title/dissolve/fade frames. Its worst native
+detail pairs retain stable contours. Small codec differences
 remain, strongest just after a dissolve; after half a second of each held shot,
 the largest mean crop change is 0.001886/255 and the largest channel change is 4/255.
-These are measured bounds for the inspected crops, not a claim of lossless pixels
-or universal subjective smoothness. No real-time viewing or auditory listening
+These are prior measured bounds for that artifact's inspected crops; the bounded
+planting revision check did not repeat or relabel those measurements. They are
+not a claim of lossless pixels or universal subjective smoothness. No real-time viewing or auditory listening
 approval is claimed. The whole-film GOP may make arbitrary seeking more expensive;
 the increased file size is now measured, but player seek performance is not.
 

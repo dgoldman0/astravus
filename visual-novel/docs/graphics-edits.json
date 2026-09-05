@@ -3215,6 +3215,1360 @@
           "record_sha256": "96d672ef114f662f64eee1e0b214b3c460cd529f212f8ce8ed17db1382430d24"
         }
       ]
+    },
+    {
+      "id": "pond-comfort-ground-level-boundary",
+      "file": "game/images/cg/book-one/pond-comfort.png",
+      "source_generation": "review-027-pond-comfort",
+      "sources": [
+        {
+          "file": "game/images/cg/book-one/pond-comfort.png",
+          "git_blob": "76d6e492583617269cff206c4150550f068aeb40",
+          "sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0"
+        },
+        {
+          "file": "art/production/pond-comfort-grade.png",
+          "sha256": "f57dea5e2eb843c91ac346f904440afcb373c2803019638bd9c226f6704e0aa0"
+        },
+        {
+          "file": "docs/pond-comfort-grade.json",
+          "sha256": "a584c3aff410efff6d65359549de3f59b63217f0fbb7b763bdc5697c5ac09ba1"
+        }
+      ],
+      "operations": [
+        "Composite the retained generated landscape material over the immutable original using its RGBA alpha; preserve all source pixels outside that alpha.",
+        "Use the explicit inward-feathered polygons to limit replacement to low coping/water/paving; figures, familiars and foreground remain protected."
+      ],
+      "mask_geometry": {
+        "polygons": [
+          [
+            [
+              772,
+              84
+            ],
+            [
+              1672,
+              84
+            ],
+            [
+              1672,
+              362
+            ],
+            [
+              1540,
+              379
+            ],
+            [
+              1474,
+              359
+            ],
+            [
+              1390,
+              365
+            ],
+            [
+              1314,
+              373
+            ],
+            [
+              1275,
+              356
+            ],
+            [
+              1263,
+              332
+            ],
+            [
+              1250,
+              312
+            ],
+            [
+              1233,
+              291
+            ],
+            [
+              1248,
+              280
+            ],
+            [
+              1258,
+              260
+            ],
+            [
+              1266,
+              235
+            ],
+            [
+              1260,
+              204
+            ],
+            [
+              1255,
+              165
+            ],
+            [
+              1235,
+              145
+            ],
+            [
+              1220,
+              129
+            ],
+            [
+              1190,
+              104
+            ],
+            [
+              1150,
+              91
+            ],
+            [
+              1105,
+              101
+            ],
+            [
+              1075,
+              116
+            ],
+            [
+              1058,
+              142
+            ],
+            [
+              1038,
+              167
+            ],
+            [
+              1027,
+              193
+            ],
+            [
+              1035,
+              230
+            ],
+            [
+              1044,
+              245
+            ],
+            [
+              1065,
+              257
+            ],
+            [
+              1045,
+              264
+            ],
+            [
+              1027,
+              272
+            ],
+            [
+              1008,
+              283
+            ],
+            [
+              993,
+              298
+            ],
+            [
+              981,
+              315
+            ],
+            [
+              965,
+              332
+            ],
+            [
+              954,
+              347
+            ],
+            [
+              950,
+              337
+            ],
+            [
+              947,
+              322
+            ],
+            [
+              937,
+              307
+            ],
+            [
+              933,
+              292
+            ],
+            [
+              916,
+              278
+            ],
+            [
+              900,
+              271
+            ],
+            [
+              886,
+              264
+            ],
+            [
+              870,
+              260
+            ],
+            [
+              846,
+              264
+            ],
+            [
+              834,
+              267
+            ],
+            [
+              844,
+              242
+            ],
+            [
+              844,
+              212
+            ],
+            [
+              835,
+              188
+            ],
+            [
+              826,
+              158
+            ],
+            [
+              800,
+              134
+            ],
+            [
+              782,
+              111
+            ]
+          ],
+          [
+            [
+              523,
+              175
+            ],
+            [
+              548,
+              153
+            ],
+            [
+              583,
+              136
+            ],
+            [
+              621,
+              120
+            ],
+            [
+              634,
+              117
+            ],
+            [
+              628,
+              128
+            ],
+            [
+              607,
+              143
+            ],
+            [
+              590,
+              165
+            ],
+            [
+              575,
+              183
+            ],
+            [
+              568,
+              203
+            ],
+            [
+              556,
+              213
+            ],
+            [
+              552,
+              226
+            ],
+            [
+              535,
+              234
+            ],
+            [
+              524,
+              231
+            ]
+          ]
+        ],
+        "feather_pixels": 1.2,
+        "feather_direction": "inward",
+        "alpha_sha256": "8598b4288dc6c69abbdbbe8eae82b4e958c4183a78174095479fc6aa0f2c4fa5",
+        "protected_boxes": [
+          [
+            285,
+            154,
+            514,
+            701
+          ],
+          [
+            592,
+            147,
+            805,
+            337
+          ],
+          [
+            744,
+            325,
+            927,
+            493
+          ],
+          [
+            1085,
+            154,
+            1214,
+            336
+          ],
+          [
+            1301,
+            392,
+            1498,
+            747
+          ],
+          [
+            0,
+            425,
+            1672,
+            941
+          ]
+        ]
+      },
+      "output_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/repair_pond_comfort_grade.py",
+      "script_sha256": "0bb36677cf3e1dc9b4ade81de5be98666da3dbf4bdc2e6efccec2602b79c73be",
+      "verification": {
+        "changed_pixels": 173968,
+        "outside_mask_pixels_changed": 0,
+        "protected_portrait_and_foreground_boxes_unchanged": true,
+        "canvas_size": [
+          1672,
+          941
+        ],
+        "change_bbox": [
+          523,
+          84,
+          1672,
+          380
+        ],
+        "canvas_and_mode_unchanged": true,
+        "outside_mask_identical": true
+      },
+      "material_provenance": [
+        {
+          "registry_file": "docs/graphics-sources/materials.json",
+          "id": "pond-comfort-ground-level-material",
+          "record_sha256": "5874017d9238e88cfa28f0cddab6946d29944817cda4f61c965575a5ed13dfc0"
+        }
+      ],
+      "governing_reference": {
+        "file": "game/images/backgrounds/book-one/garden-pond.png",
+        "sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958"
+      },
+      "prior_edit_lineage": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "pond-comfort-shadow-ear-notch",
+        "recipe_sha256": "67eee2e858978ad4a78e031f52ece4aeed554469c063c8d0b2307036e66c4686"
+      }
+    },
+    {
+      "id": "garden-work-area-ground-pond",
+      "file": "game/images/backgrounds/book-one/garden-work-area.png",
+      "source_generation": "review-027-garden-work-area",
+      "sources": [
+        {
+          "file": "game/images/backgrounds/book-one/garden-work-area.png",
+          "git_blob": "886a5a98d7f746262fd19e250a5b8b112f198ad1",
+          "sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac"
+        },
+        {
+          "file": "art/production/garden-work-area-ground-pond.png",
+          "sha256": "3c883267bbbd1c6384da21d391d5fcf5b4edd8b2cdebca1d55842823e86e5df0"
+        },
+        {
+          "file": "docs/pond-geometry-materials-planting.json",
+          "sha256": "39c8977a3d4891cdebf6844eca301d15e60f78d8309992435f185060d05a3251"
+        }
+      ],
+      "operations": [
+        "Register generated pond/paving material once to the original canvas, leaving original pixels unresampled.",
+        "Composite only through the declared feathered region, excluding expanded protected people/pots and retained source vegetation. Reproduction uses the retained RGBA layer over the immutable Git original."
+      ],
+      "mask_geometry": {
+        "polygons": [
+          [
+            [
+              550,
+              316
+            ],
+            [
+              606,
+              338
+            ],
+            [
+              730,
+              370
+            ],
+            [
+              919,
+              394
+            ],
+            [
+              1161,
+              409
+            ],
+            [
+              1399,
+              396
+            ],
+            [
+              1573,
+              351
+            ],
+            [
+              1671,
+              325
+            ],
+            [
+              1671,
+              537
+            ],
+            [
+              1522,
+              520
+            ],
+            [
+              1320,
+              491
+            ],
+            [
+              1100,
+              512
+            ],
+            [
+              864,
+              516
+            ],
+            [
+              739,
+              489
+            ],
+            [
+              650,
+              459
+            ],
+            [
+              535,
+              403
+            ]
+          ]
+        ],
+        "protected_polygons": [
+          [
+            [
+              666,
+              497
+            ],
+            [
+              721,
+              496
+            ],
+            [
+              717,
+              544
+            ],
+            [
+              671,
+              544
+            ]
+          ],
+          [
+            [
+              776,
+              532
+            ],
+            [
+              836,
+              532
+            ],
+            [
+              831,
+              573
+            ],
+            [
+              785,
+              573
+            ]
+          ],
+          [
+            [
+              1015,
+              503
+            ],
+            [
+              1076,
+              500
+            ],
+            [
+              1073,
+              558
+            ],
+            [
+              1020,
+              558
+            ]
+          ],
+          [
+            [
+              1100,
+              543
+            ],
+            [
+              1182,
+              548
+            ],
+            [
+              1178,
+              613
+            ],
+            [
+              1109,
+              608
+            ]
+          ],
+          [
+            [
+              1185,
+              554
+            ],
+            [
+              1270,
+              554
+            ],
+            [
+              1268,
+              611
+            ],
+            [
+              1195,
+              611
+            ]
+          ],
+          [
+            [
+              1313,
+              523
+            ],
+            [
+              1365,
+              522
+            ],
+            [
+              1361,
+              563
+            ],
+            [
+              1320,
+              562
+            ]
+          ]
+        ],
+        "vegetation_regions": [
+          [
+            [
+              393,
+              423
+            ],
+            [
+              450,
+              418
+            ],
+            [
+              487,
+              435
+            ],
+            [
+              530,
+              437
+            ],
+            [
+              539,
+              486
+            ],
+            [
+              528,
+              522
+            ],
+            [
+              405,
+              522
+            ]
+          ],
+          [
+            [
+              475,
+              359
+            ],
+            [
+              555,
+              375
+            ],
+            [
+              610,
+              420
+            ],
+            [
+              657,
+              464
+            ],
+            [
+              647,
+              518
+            ],
+            [
+              588,
+              520
+            ],
+            [
+              539,
+              493
+            ],
+            [
+              495,
+              454
+            ]
+          ],
+          [
+            [
+              646,
+              426
+            ],
+            [
+              713,
+              426
+            ],
+            [
+              753,
+              473
+            ],
+            [
+              734,
+              529
+            ],
+            [
+              718,
+              551
+            ],
+            [
+              663,
+              551
+            ],
+            [
+              645,
+              518
+            ]
+          ],
+          [
+            [
+              752,
+              471
+            ],
+            [
+              821,
+              473
+            ],
+            [
+              856,
+              506
+            ],
+            [
+              853,
+              557
+            ],
+            [
+              838,
+              580
+            ],
+            [
+              778,
+              580
+            ],
+            [
+              763,
+              549
+            ]
+          ],
+          [
+            [
+              980,
+              415
+            ],
+            [
+              1059,
+              415
+            ],
+            [
+              1103,
+              453
+            ],
+            [
+              1104,
+              523
+            ],
+            [
+              1078,
+              565
+            ],
+            [
+              1014,
+              564
+            ],
+            [
+              997,
+              531
+            ]
+          ],
+          [
+            [
+              1041,
+              482
+            ],
+            [
+              1104,
+              449
+            ],
+            [
+              1229,
+              431
+            ],
+            [
+              1328,
+              439
+            ],
+            [
+              1402,
+              467
+            ],
+            [
+              1412,
+              526
+            ],
+            [
+              1379,
+              564
+            ],
+            [
+              1319,
+              575
+            ],
+            [
+              1299,
+              608
+            ],
+            [
+              1164,
+              620
+            ],
+            [
+              1096,
+              616
+            ],
+            [
+              1083,
+              574
+            ],
+            [
+              1044,
+              550
+            ]
+          ]
+        ],
+        "vegetation_mask": "Original green, purple and pink foliage silhouette with 3px gap closing and 0.65px matte antialias; solid plant and pot interiors protected; see script thresholds.",
+        "feather_px": 1.5,
+        "protected_expansion_px": 2
+      },
+      "output_sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/repair_pond_geometry.py",
+      "script_sha256": "732ca53c09f124d48eea2e12781778f5864eec5ebf7a29b4b06b6a54b1ea79e7",
+      "verification": {
+        "changed_pixels": 130640,
+        "change_bbox": [
+          534,
+          314,
+          1672,
+          539
+        ],
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "protected_people_and_props_changes": 0,
+        "canvas_and_mode_unchanged": true
+      },
+      "material_provenance": [
+        {
+          "registry_file": "docs/graphics-sources/materials.json",
+          "id": "garden-work-area-ground-pond-material",
+          "record_sha256": "4cf7b28658a06ae839aa99da2c3115543d7e3952fb503faaecddb97874a504c8"
+        }
+      ],
+      "governing_reference": {
+        "file": "game/images/backgrounds/book-one/garden-pond.png",
+        "git_blob": "153bbe79a42a1aa4740f068fb012c919c8f65284",
+        "sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958"
+      }
+    },
+    {
+      "id": "garden-compromise-ground-pond",
+      "file": "game/images/cg/book-one/garden-compromise.png",
+      "source_generation": "alpha-garden-compromise",
+      "sources": [
+        {
+          "file": "game/images/cg/book-one/garden-compromise.png",
+          "git_blob": "e822f7ea1369bb94d5bc3af4cde312c965efeb84",
+          "sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc"
+        },
+        {
+          "file": "art/production/garden-compromise-ground-pond.png",
+          "sha256": "c522babf56ab69aa3d9974624dc84eb2cae97c2fa235b205afd29cf7fa434a51"
+        },
+        {
+          "file": "docs/pond-geometry-materials-planting.json",
+          "sha256": "39c8977a3d4891cdebf6844eca301d15e60f78d8309992435f185060d05a3251"
+        }
+      ],
+      "operations": [
+        "Register generated pond/paving material once to the original canvas, leaving original pixels unresampled.",
+        "Composite only through the declared feathered region, excluding expanded protected people/pots and retained source vegetation. Reproduction uses the retained RGBA layer over the immutable Git original."
+      ],
+      "mask_geometry": {
+        "polygons": [
+          [
+            [
+              847,
+              353
+            ],
+            [
+              946,
+              359
+            ],
+            [
+              1070,
+              367
+            ],
+            [
+              1070,
+              500
+            ],
+            [
+              990,
+              620
+            ],
+            [
+              898,
+              620
+            ],
+            [
+              875,
+              582
+            ],
+            [
+              856,
+              451
+            ]
+          ],
+          [
+            [
+              1217,
+              363
+            ],
+            [
+              1369,
+              379
+            ],
+            [
+              1518,
+              378
+            ],
+            [
+              1671,
+              346
+            ],
+            [
+              1671,
+              539
+            ],
+            [
+              1534,
+              537
+            ],
+            [
+              1434,
+              520
+            ],
+            [
+              1360,
+              535
+            ],
+            [
+              1328,
+              512
+            ],
+            [
+              1304,
+              475
+            ],
+            [
+              1265,
+              428
+            ]
+          ]
+        ],
+        "protected_polygons": [
+          [
+            [
+              500,
+              0
+            ],
+            [
+              774,
+              0
+            ],
+            [
+              822,
+              149
+            ],
+            [
+              836,
+              252
+            ],
+            [
+              865,
+              330
+            ],
+            [
+              865,
+              360
+            ],
+            [
+              852,
+              382
+            ],
+            [
+              858,
+              414
+            ],
+            [
+              870,
+              466
+            ],
+            [
+              878,
+              523
+            ],
+            [
+              889,
+              559
+            ],
+            [
+              919,
+              581
+            ],
+            [
+              923,
+              627
+            ],
+            [
+              488,
+              627
+            ]
+          ],
+          [
+            [
+              1030,
+              180
+            ],
+            [
+              1215,
+              184
+            ],
+            [
+              1260,
+              335
+            ],
+            [
+              1230,
+              348
+            ],
+            [
+              1250,
+              374
+            ],
+            [
+              1268,
+              398
+            ],
+            [
+              1294,
+              421
+            ],
+            [
+              1319,
+              445
+            ],
+            [
+              1341,
+              473
+            ],
+            [
+              1352,
+              495
+            ],
+            [
+              1362,
+              515
+            ],
+            [
+              1356,
+              547
+            ],
+            [
+              1370,
+              579
+            ],
+            [
+              1438,
+              660
+            ],
+            [
+              1286,
+              731
+            ],
+            [
+              931,
+              717
+            ],
+            [
+              940,
+              630
+            ],
+            [
+              954,
+              597
+            ],
+            [
+              969,
+              569
+            ],
+            [
+              977,
+              546
+            ],
+            [
+              985,
+              526
+            ],
+            [
+              979,
+              515
+            ],
+            [
+              986,
+              501
+            ],
+            [
+              990,
+              493
+            ],
+            [
+              998,
+              483
+            ],
+            [
+              1000,
+              475
+            ],
+            [
+              1013,
+              462
+            ],
+            [
+              1014,
+              452
+            ],
+            [
+              1024,
+              432
+            ],
+            [
+              1031,
+              410
+            ],
+            [
+              1037,
+              390
+            ],
+            [
+              1048,
+              370
+            ],
+            [
+              1055,
+              350
+            ],
+            [
+              1022,
+              327
+            ],
+            [
+              1011,
+              278
+            ]
+          ]
+        ],
+        "vegetation_regions": [],
+        "vegetation_mask": "Original green, purple and pink foliage silhouette with 3px gap closing and 0.65px matte antialias; solid plant and pot interiors protected; see script thresholds.",
+        "feather_px": 1.5,
+        "protected_expansion_px": 2
+      },
+      "output_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/repair_pond_geometry.py",
+      "script_sha256": "732ca53c09f124d48eea2e12781778f5864eec5ebf7a29b4b06b6a54b1ea79e7",
+      "verification": {
+        "changed_pixels": 88587,
+        "change_bbox": [
+          856,
+          343,
+          1672,
+          624
+        ],
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "protected_people_and_props_changes": 0,
+        "canvas_and_mode_unchanged": true
+      },
+      "material_provenance": [
+        {
+          "registry_file": "docs/graphics-sources/materials.json",
+          "id": "garden-compromise-ground-pond-material",
+          "record_sha256": "f1477356fd9892068eef699bc5f10b00348c462a3a1f6ab1d639b86a9b469846"
+        }
+      ],
+      "governing_reference": {
+        "file": "game/images/backgrounds/book-one/garden-pond.png",
+        "git_blob": "153bbe79a42a1aa4740f068fb012c919c8f65284",
+        "sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958"
+      }
+    },
+    {
+      "id": "pond-rescue-dry-farbank",
+      "file": "game/images/cg/book-one/pond-rescue.png",
+      "source_generation": "alpha-pond-rescue",
+      "sources": [
+        {
+          "file": "game/images/cg/book-one/pond-rescue.png",
+          "git_blob": "7d08587c1389a07cfc1c744553fe68ac9ef6908d",
+          "sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e"
+        },
+        {
+          "file": "art/production/pond-rescue-farbank.png",
+          "sha256": "bc3a10c32a72c43e93af292abd6568f42f044b310062b826d31b05970026968f"
+        },
+        {
+          "file": "docs/pond-geometry-materials-rescue.json",
+          "sha256": "3c68011171b325de351b9b7521476f71f863e689dc2f821ab85bc0140b14c2b2"
+        }
+      ],
+      "operations": [
+        "Register generated dry soil/paver material once to the original canvas; never resample the original scene.",
+        "Composite only the inward-feathered far-bank polygon so the planter connects to existing coping. The original foreground water, people, animals and coping remain unmodified."
+      ],
+      "mask_geometry": {
+        "polygon": [
+          [
+            1237,
+            449
+          ],
+          [
+            1289,
+            449
+          ],
+          [
+            1321,
+            451
+          ],
+          [
+            1370,
+            451
+          ],
+          [
+            1431,
+            454
+          ],
+          [
+            1508,
+            454
+          ],
+          [
+            1567,
+            455
+          ],
+          [
+            1608,
+            473
+          ],
+          [
+            1614,
+            482
+          ],
+          [
+            1596,
+            490
+          ],
+          [
+            1581,
+            501
+          ],
+          [
+            1572,
+            509
+          ],
+          [
+            1562,
+            511
+          ],
+          [
+            1540,
+            509
+          ],
+          [
+            1520,
+            508
+          ],
+          [
+            1500,
+            506
+          ],
+          [
+            1470,
+            506
+          ],
+          [
+            1450,
+            504
+          ],
+          [
+            1430,
+            506
+          ],
+          [
+            1415,
+            508
+          ],
+          [
+            1400,
+            507
+          ],
+          [
+            1380,
+            501
+          ],
+          [
+            1360,
+            498
+          ],
+          [
+            1340,
+            501
+          ],
+          [
+            1320,
+            500
+          ],
+          [
+            1300,
+            501
+          ],
+          [
+            1280,
+            504
+          ],
+          [
+            1260,
+            507
+          ],
+          [
+            1240,
+            505
+          ],
+          [
+            1237,
+            502
+          ]
+        ],
+        "feather_px": 0.8,
+        "feather_direction": "inward; clipped to exact polygon so coping-side pixels are untouched"
+      },
+      "output_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/repair_pond_farbank.py",
+      "script_sha256": "72a5cb08a76855b449fbd6a4660c17173124eaf3665a11a3a4c3393f86518039",
+      "verification": {
+        "changed_pixels": 18886,
+        "change_bbox": [
+          1237,
+          449,
+          1615,
+          512
+        ],
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "protected_people_animals_and_main_water_changes": 0,
+        "canvas_and_mode_unchanged": true
+      },
+      "material_provenance": [
+        {
+          "registry_file": "docs/graphics-sources/materials.json",
+          "id": "pond-rescue-dry-farbank-material",
+          "record_sha256": "121372d48744118b24f8fd30000f289203e3392d63a4a3b663a8a65869879f48"
+        }
+      ],
+      "prior_edit_lineage": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "pond-rescue-shadow-ear-notch",
+        "recipe_sha256": "d9c827d2f1b9f81768778310ea9081aaaf2315a92b2e42258bb1ff317c53b914"
+      }
     }
   ]
 }

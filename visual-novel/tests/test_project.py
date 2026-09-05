@@ -20,6 +20,8 @@ class ExportRetentionTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
         (self.root / "game").mkdir()
+        (self.root / "docs").mkdir()
+        (self.root / "docs/release-matrix.json").write_text(json.dumps({"release_version": "0.1-alpha"}))
         (self.root / "game/options.rpy").write_text(
             'define config.version = "0.1-alpha"\n'
             'define build.name = "astravus-book-one"\n'
@@ -110,6 +112,29 @@ class ExportRetentionTests(unittest.TestCase):
         saved = json.loads(path.read_text())
         self.assertEqual(saved["builds"]["desktop"]["kind"], "review")
         self.assertEqual(saved["builds"]["web"]["kind"], "candidate")
+
+    def test_wrong_version_blocks_desktop_and_web_before_any_packaging(self):
+        options = self.root / "game/options.rpy"
+        options.write_text(options.read_text().replace('"0.1-alpha"', '"0.1.1"'))
+        for command in ("build", "web"):
+            for review in ([], ["--review-build"]):
+                with self.subTest(command=command, review=bool(review)), \
+                        patch.object(project.sys, "argv", ["project.py", command, *review]), \
+                        patch.object(project.subprocess, "run") as run, \
+                        patch.object(project, "engine") as engine:
+                    with self.assertRaisesRegex(SystemExit, "locked to '0.1-alpha'"):
+                        project.main()
+                    run.assert_not_called()
+                    engine.assert_not_called()
+        self.assertTrue(self.old.exists())
+
+    def test_provenance_cannot_record_a_version_changed_during_build(self):
+        self.current_exports()
+        options = self.root / "game/options.rpy"
+        options.write_text(options.read_text().replace('"0.1-alpha"', '"0.2.0"'))
+        with self.assertRaisesRegex(SystemExit, "locked to '0.1-alpha'"):
+            project.record_build("desktop", True)
+        self.assertFalse((self.root / "build/release-builds.json").exists())
 
 
 if __name__ == "__main__":

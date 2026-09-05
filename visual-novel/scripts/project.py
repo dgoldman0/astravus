@@ -125,10 +125,7 @@ def prepare_web():
 def prune_desktop_exports():
     """Keep the current release after both ZIPs pass CRC checks, including resets."""
     options = (PROJECT / "game/options.rpy").read_text()
-    version_match = re.search(rf'^define config.version = "({RELEASE_VERSION})"$', options, re.M)
-    if version_match is None:
-        raise SystemExit("Unsupported release version. Existing exports retained.")
-    version = version_match.group(1)
+    version = locked_release_version()
     name = re.search(r'^define build.name = "([\w-]+)"$', options, re.M).group(1)
     dist = PROJECT / "dist"
     current = {dist / f"{name}-{version}-{platform}.zip" for platform in ("pc", "mac")}
@@ -160,9 +157,23 @@ def content_review_gate(review_build):
                     "--phase", "content", "--strict"], cwd=PROJECT, check=True)
 
 
+def locked_release_version():
+    """Even review rebuilds retain the explicitly selected release version."""
+    target = json.loads((PROJECT / "docs/release-matrix.json").read_text())["release_version"]
+    options = (PROJECT / "game/options.rpy").read_text()
+    found = re.search(r'^define config.version = "([^"]+)"$', options, re.M)
+    actual = found.group(1) if found else None
+    if not re.fullmatch(RELEASE_VERSION, target) or actual != target:
+        raise SystemExit(
+            f"Release version is locked to {target!r} by docs/release-matrix.json; "
+            f"config.version is {actual!r}. Existing exports retained."
+        )
+    return actual
+
+
 def record_build(kind, review_build):
     options = (PROJECT / "game/options.rpy").read_text()
-    version = re.search(r'^define config.version = "([^"]+)"$', options, re.M).group(1)
+    version = locked_release_version()
     name = re.search(r'^define build.name = "([^"]+)"$', options, re.M).group(1)
     files = ([PROJECT / "dist" / f"{name}-{version}-{platform}.zip" for platform in ("pc", "mac")]
              if kind == "desktop" else [PROJECT / "build/web.zip"])
@@ -201,7 +212,7 @@ def main():
                            help="Build temporary test artifacts before content approval; excluded from final release signoff")
     test = commands.add_parser("test")
     test.add_argument("--headless", action="store_true")
-    test.add_argument("--suite", choices=("chapter_playthrough", "closing_theme_review", "character_framing_review", "glossary_review", "environment_grounding_review", "environment_state_review"),
+    test.add_argument("--suite", choices=("chapter_playthrough", "closing_theme_review", "character_framing_review", "glossary_review", "environment_grounding_review", "environment_state_review", "pond_state_review"),
                       default="chapter_playthrough")
     review = commands.add_parser("review", help="Show the current release acceptance matrix")
     review.add_argument("--phase", choices=("content", "runtime", "exports"), default="exports")
@@ -209,6 +220,11 @@ def main():
     serve = commands.add_parser("serve")
     serve.add_argument("--port", type=int, default=8000)
     args = parser.parse_args()
+
+    # Content review may be bypassed for a temporary inspection build; the
+    # selected release identity cannot. Check before any packaging or writes.
+    if args.command in ("build", "web"):
+        locked_release_version()
 
     if args.command == "install":
         install()

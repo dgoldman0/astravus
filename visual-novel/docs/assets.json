@@ -164,12 +164,17 @@
     {
       "file": "game/images/cg/book-one/garden-compromise.png",
       "generation": "alpha-garden-compromise",
-      "sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
+      "sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "garden-compromise-ground-pond",
+        "recipe_sha256": "5eb52ca2e1b1b561ff3c9b8c1ae412ca5df797f13d4d0202f025a7533977fea5"
+      }
     },
     {
       "file": "game/images/cg/book-one/flute-rest.png",
@@ -189,7 +194,7 @@
     {
       "file": "game/images/cg/book-one/pond-rescue.png",
       "generation": "alpha-pond-rescue",
-      "sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
+      "sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
       "size": [
         1672,
         941
@@ -197,14 +202,14 @@
       "mode": "RGB",
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
-        "id": "pond-rescue-shadow-ear-notch",
-        "recipe_sha256": "d9c827d2f1b9f81768778310ea9081aaaf2315a92b2e42258bb1ff317c53b914"
+        "id": "pond-rescue-dry-farbank",
+        "recipe_sha256": "0ab280af0cc651f6ec786f78b3a25544a5bf7c57906852f40b7fb85105c47c45"
       }
     },
     {
       "file": "game/images/cg/book-one/pond-comfort.png",
       "generation": "review-027-pond-comfort",
-      "sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
+      "sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
       "size": [
         1672,
         941
@@ -212,8 +217,8 @@
       "mode": "RGB",
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
-        "id": "pond-comfort-shadow-ear-notch",
-        "recipe_sha256": "67eee2e858978ad4a78e031f52ece4aeed554469c063c8d0b2307036e66c4686"
+        "id": "pond-comfort-ground-level-boundary",
+        "recipe_sha256": "95836085609818e2c16aac178d32ec10da2126aff083d18d4b0bd303f210076f"
       }
     },
     {

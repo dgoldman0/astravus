@@ -201,11 +201,11 @@
       "canonical_references": [
         {
           "file": "game/images/backgrounds/book-one/garden-pond.png",
-          "role": "Basin, stone edge, boundary and vegetation."
+          "role": "Governing basin geometry: shallow water, low coping and adjacent dry ground."
         },
         {
           "file": "game/images/backgrounds/book-one/garden-work-area.png",
-          "role": "Same basin from the wider dry working bank."
+          "role": "Secondary wider working-bank view; must agree with the governing garden-pond geometry and cannot override it."
         }
       ],
       "invariants": [
@@ -238,6 +238,21 @@
           "id": "pond-wheel-scale",
           "authority": "source",
           "text": "The wheel is a miniature handmade project built by children with Arin's guidance; it is not a mill building or full-sized mechanism."
+        },
+        {
+          "id": "pond-ground-water-height",
+          "authority": "production",
+          "text": "The governing garden-pond view establishes a low basin beside adjacent dry ground. Across views preserve the waterline-to-coping-to-paving vertical relationship; camera angle alone cannot turn it into a raised retaining-wall pool."
+        },
+        {
+          "id": "pond-pairwise-geometry",
+          "authority": "production",
+          "text": "Compare the visible near/far basin arcs, coping thickness, side returns and at least three shared anchors where visible against garden-pond.png. Any difference must admit a coherent camera/depth explanation. Cropped-out features remain unobserved; plausible local figure contacts do not prove global geometry."
+        },
+        {
+          "id": "pond-water-connectivity",
+          "authority": "production",
+          "text": "Within these shared-basin depictions, all visible water patches must connect plausibly to the same basin. Do not leave an isolated far water strip behind a dry bank that implies another pool; any peninsula or occlusion needs a coherent visible shoreline explanation."
         }
       ],
       "views": [
@@ -465,6 +480,76 @@
       "finding": "Author rejected insufficient weather/outdoor/time variation and effectively frozen furnishings across early, rainy and later remembrance states.",
       "correction": "Retain recognizable architectural structure and connected access; make required weather/light changes readable and give later furniture/dressing appropriate evidence of intervening life. Review current source chronology and the new full compositions before renewing approval.",
       "resolution": "Superseded the rejected near-identical states with four source-timed daylight/rain and early/later furniture paintings. Root and independent full/native source reviews accepted the exact new states; fifteen actual native state captures verified visible weather, furniture chronology, familiar supports and final daylight comfort transition. See docs/graphics-environments.md and final refresh in docs/graphics-runtime-review.md. This is scoped reviewer acceptance, not author signoff."
+    },
+    {
+      "id": "POND-GEO-garden-pond",
+      "status": "resolved",
+      "file": "game/images/backgrounds/book-one/garden-pond.png",
+      "severity": "blocking",
+      "finding": "The governing/related view requires an explicit pairwise geometry review against the repaired pond sequence; no new local defect is inferred solely from reopening.",
+      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "Governing shallow basin: paving meets low coping, with a left inlet, planted timber boundary behind and right lily group. Fresh pairwise views preserve this low water/coping/ground profile; the establishing native frame shows the same anchors. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
+    },
+    {
+      "id": "POND-GEO-garden-work-area",
+      "status": "resolved",
+      "file": "game/images/backgrounds/book-one/garden-work-area.png",
+      "severity": "blocking",
+      "finding": "The elevated exterior wall/water-to-ground relationship conflicts with the governing low basin.",
+      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "The repaired wider working-side view has broad dry paving meeting low near coping, with the left inlet side, far planted fence and right lilies in coherent order. The old tall exterior pool wall is removed; original pot bases and available actor support remain dry. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
+    },
+    {
+      "id": "POND-GEO-garden-compromise",
+      "status": "resolved",
+      "file": "game/images/cg/book-one/garden-compromise.png",
+      "severity": "blocking",
+      "finding": "The elevated exterior wall/water-to-ground relationship conflicts with the governing low basin.",
+      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "The closer working-bank planting view retains original people/pots over dry paving. Figures obscure part of the near arc and inlet; the far fence/plant band, right lilies and low near edge connect to the governing/wider views. The original diagonal raised-wall remnant is removed; knees and pots remain grounded. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
+    },
+    {
+      "id": "POND-GEO-pond-comfort",
+      "status": "resolved",
+      "file": "game/images/cg/book-one/pond-comfort.png",
+      "severity": "blocking",
+      "finding": "The elevated exterior wall/water-to-ground relationship conflicts with the governing low basin.",
+      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "The camera has pulled back onto the dry bank after the rescue. Original seated/crouched people and animal paws remain supported; low near coping, the far planted timber boundary and right lilies form a coherent continuation of the shallow basin. No exposed raised-pool wall remains. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
+    },
+    {
+      "id": "POND-GEO-theme-waterwheel-team",
+      "status": "resolved",
+      "file": "game/images/cg/book-one/theme-waterwheel-team.png",
+      "severity": "blocking",
+      "finding": "The governing/related view requires an explicit pairwise geometry review against the repaired pond sequence; no new local defect is inferred solely from reopening.",
+      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "The construction/test illustration shows the small project and children on a dry near bank with recessed water, low slabs, far planted boundary and right lilies. The working-side camera is compatible with the master; this illustration does not claim the final in-pond project state. Root inspected the unchanged full/native source; earlier exact-byte native theme fitting remains applicable. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
+    },
+    {
+      "id": "POND-GEO-pond-rescue",
+      "status": "resolved",
+      "file": "game/images/cg/book-one/pond-rescue.png",
+      "severity": "blocking",
+      "finding": "The thin far-background water strip behind the right-hand bank reads as a second basin. Plausible local rescue support does not establish correct shared-basin topology.",
+      "correction": "Replace only that background strip with a coherent continuation of the bank/vegetation while preserving foreground rim, rescue figures, familiars and main water. Inspect the exact replacement and fresh native rescue capture.",
+      "resolution": "The lower close water-edge view retains its original low reachable coping and supported rescuers. Dry soil/paving now joins the far planter to that coping, removing the isolated second-looking water strip. Right lilies and far timber/plant boundary remain; the cropped inlet is unobserved. Actual final native support and dialogue frames preserve reach and all familiar contacts. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
+    },
+    {
+      "id": "POND-GEO-waterwheel",
+      "status": "resolved",
+      "file": "game/images/backgrounds/book-one/waterwheel.png",
+      "severity": "blocking",
+      "finding": "The governing/related view requires an explicit pairwise geometry review against the repaired pond sequence; no new local defect is inferred solely from reopening.",
+      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "The miniature completed wheel and supports occupy the governing left inlet. The near coping, shallow basin, planted fence and right lilies remain the established construction. Current native dialogue and familiar-support frames show the installed state and dry animal contacts. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
     }
   ],
   "assets": [
@@ -861,13 +946,25 @@
       "required_invariants": [
         "pond-shallow",
         "pond-production-colocation",
-        "pond-fixed-basin"
+        "pond-fixed-basin",
+        "pond-ground-water-height",
+        "pond-pairwise-geometry",
+        "pond-water-connectivity"
       ],
       "review_status": "consistent",
       "reviewed_sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
-      "findings": [],
-      "review_notes": "Canonical shallow basin and reachable stone edge.",
-      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+      "findings": [
+        "POND-GEO-garden-pond"
+      ],
+      "review_notes": "Governing shallow basin: paving meets low coping, with a left inlet, planted timber boundary behind and right lily group. Fresh pairwise views preserve this low water/coping/ground profile; the establishing native frame shows the same anchors.",
+      "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
+      "production_evidence": [
+        "docs/POND_GEOMETRY_REVIEW.md",
+        "docs/pond-repair-review.md",
+        "docs/pond-runtime-review.md",
+        "test-results/pond-states/capture-state.json"
+      ],
+      "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
       "file": "game/images/backgrounds/book-one/garden-work-area.png",
@@ -879,13 +976,25 @@
       "closing_theme_starts": [],
       "required_invariants": [
         "pond-fixed-basin",
-        "pond-working-bank"
+        "pond-working-bank",
+        "pond-ground-water-height",
+        "pond-pairwise-geometry",
+        "pond-water-connectivity"
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
-      "findings": [],
-      "review_notes": "Wider dry bank retains the basin, timber boundary and plant groups.",
-      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+      "reviewed_sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
+      "findings": [
+        "POND-GEO-garden-work-area"
+      ],
+      "review_notes": "The repaired wider working-side view has broad dry paving meeting low near coping, with the left inlet side, far planted fence and right lilies in coherent order. The old tall exterior pool wall is removed; original pot bases and available actor support remain dry.",
+      "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
+      "production_evidence": [
+        "docs/POND_GEOMETRY_REVIEW.md",
+        "docs/pond-repair-review.md",
+        "docs/pond-runtime-review.md",
+        "test-results/pond-states/capture-state.json"
+      ],
+      "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
       "file": "game/images/cg/book-one/garden-compromise.png",
@@ -899,13 +1008,25 @@
       ],
       "required_invariants": [
         "pond-fixed-basin",
-        "pond-working-bank"
+        "pond-working-bank",
+        "pond-ground-water-height",
+        "pond-pairwise-geometry",
+        "pond-water-connectivity"
       ],
-      "review_status": "consistent",
-      "reviewed_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
-      "findings": [],
-      "review_notes": "Kneeling cast and pots are supported on the broad dry working area.",
-      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
+      "findings": [
+        "POND-GEO-garden-compromise"
+      ],
+      "review_notes": "The closer working-bank planting view retains original people/pots over dry paving. Figures obscure part of the near arc and inlet; the far fence/plant band, right lilies and low near edge connect to the governing/wider views. The original diagonal raised-wall remnant is removed; knees and pots remain grounded.",
+      "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
+      "production_evidence": [
+        "docs/POND_GEOMETRY_REVIEW.md",
+        "docs/pond-repair-review.md",
+        "docs/pond-runtime-review.md",
+        "test-results/pond-states/capture-state.json"
+      ],
+      "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
       "file": "game/images/cg/book-one/pond-comfort.png",
@@ -917,18 +1038,25 @@
       "closing_theme_starts": [],
       "required_invariants": [
         "pond-fixed-basin",
-        "pond-working-bank"
+        "pond-working-bank",
+        "pond-ground-water-height",
+        "pond-pairwise-geometry",
+        "pond-water-connectivity"
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
-      "findings": [],
-      "review_notes": "Restored strongest HEAD painting preserves the same stone-edged shallow basin and dry foreground. Cali kneels upright holding smaller Lyra; Kael squats farther back with boots on the paving and long arms resting on his knees. Barkley and Shadow have supporting paws on the dry bank. The lower Kael crown follows pose/depth; body enlargement was unnecessary and degraded fur/ground detail. Final97pixel iris correction leaves every supporting surface/body pixel identical. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
-      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce",
+      "reviewed_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+      "findings": [
+        "POND-GEO-pond-comfort"
+      ],
+      "review_notes": "The camera has pulled back onto the dry bank after the rescue. Original seated/crouched people and animal paws remain supported; low near coping, the far planted timber boundary and right lilies form a coherent continuation of the shallow basin. No exposed raised-pool wall remains.",
+      "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-support-art-review.md",
-        "docs/graphics-background-sprite-audit.md"
-      ]
+        "docs/POND_GEOMETRY_REVIEW.md",
+        "docs/pond-repair-review.md",
+        "docs/pond-runtime-review.md",
+        "test-results/pond-states/capture-state.json"
+      ],
+      "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
       "file": "game/images/cg/book-one/theme-waterwheel-team.png",
@@ -940,13 +1068,25 @@
       ],
       "required_invariants": [
         "pond-fixed-basin",
-        "pond-working-bank"
+        "pond-working-bank",
+        "pond-ground-water-height",
+        "pond-pairwise-geometry",
+        "pond-water-connectivity"
       ],
       "review_status": "consistent",
       "reviewed_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
-      "findings": [],
-      "review_notes": "Restored strongest HEAD painting retains the dry paved bank, stone basin, planted timber boundary, small working wheel/flow/spout, open sketchbook and tool boxes. Each child kneels on the bank; Cassia leans forward onto a hand, and Cali looks down at the wheel. Different crown heights follow supported poses. No image retouch is applied to this restored painting.",
-      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+      "findings": [
+        "POND-GEO-theme-waterwheel-team"
+      ],
+      "review_notes": "The construction/test illustration shows the small project and children on a dry near bank with recessed water, low slabs, far planted boundary and right lilies. The working-side camera is compatible with the master; this illustration does not claim the final in-pond project state. Root inspected the unchanged full/native source; earlier exact-byte native theme fitting remains applicable.",
+      "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
+      "production_evidence": [
+        "docs/POND_GEOMETRY_REVIEW.md",
+        "docs/pond-repair-review.md",
+        "docs/pond-runtime-review.md",
+        "test-results/pond-states/capture-state.json"
+      ],
+      "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
       "file": "game/images/cg/book-one/pond-rescue.png",
@@ -959,18 +1099,25 @@
       "required_invariants": [
         "pond-shallow",
         "pond-fixed-basin",
-        "pond-rescue-physics"
+        "pond-rescue-physics",
+        "pond-ground-water-height",
+        "pond-pairwise-geometry",
+        "pond-water-connectivity"
       ],
-      "review_status": "consistent",
-      "reviewed_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
-      "findings": [],
-      "review_notes": "Final rescue retains supported knees/hands on the shallow stone edge, smaller Lyra in the water and accessible dry bank for the dog and cat. Only Calista iris pigment changes; Kael shaded sclera is preserved. Existing basin, timber boundary and planting landmarks are pixel-identical outside those63pixels. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
-      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce",
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+      "findings": [
+        "POND-GEO-pond-rescue"
+      ],
+      "review_notes": "The lower close water-edge view retains its original low reachable coping and supported rescuers. Dry soil/paving now joins the far planter to that coping, removing the isolated second-looking water strip. Right lilies and far timber/plant boundary remain; the cropped inlet is unobserved. Actual final native support and dialogue frames preserve reach and all familiar contacts.",
+      "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-support-art-review.md",
-        "docs/graphics-background-sprite-audit.md"
-      ]
+        "docs/POND_GEOMETRY_REVIEW.md",
+        "docs/pond-repair-review.md",
+        "docs/pond-runtime-review.md",
+        "test-results/pond-states/capture-state.json"
+      ],
+      "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
       "file": "game/images/backgrounds/book-one/waterwheel.png",
@@ -982,13 +1129,25 @@
       "closing_theme_starts": [],
       "required_invariants": [
         "pond-fixed-basin",
-        "pond-wheel-scale"
+        "pond-wheel-scale",
+        "pond-ground-water-height",
+        "pond-pairwise-geometry",
+        "pond-water-connectivity"
       ],
       "review_status": "consistent",
       "reviewed_sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
-      "findings": [],
-      "review_notes": "Same basin with a small handmade wheel at the left bank.",
-      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+      "findings": [
+        "POND-GEO-waterwheel"
+      ],
+      "review_notes": "The miniature completed wheel and supports occupy the governing left inlet. The near coping, shallow basin, planted fence and right lilies remain the established construction. Current native dialogue and familiar-support frames show the installed state and dry animal contacts.",
+      "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
+      "production_evidence": [
+        "docs/POND_GEOMETRY_REVIEW.md",
+        "docs/pond-repair-review.md",
+        "docs/pond-runtime-review.md",
+        "test-results/pond-states/capture-state.json"
+      ],
+      "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
       "file": "game/images/backgrounds/book-one/festival.png",

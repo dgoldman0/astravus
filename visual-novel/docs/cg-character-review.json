@@ -859,10 +859,10 @@
         }
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
+      "reviewed_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
       "reviewed_reference_signature": "d3092df8488ba91b5422ff022cb25968fb974b1b5dc34cdf4b6111d84a21691a",
       "findings": [],
-      "review_notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
+      "review_notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate. Pond geometry correction: The final low-bank landscape correction preserves all named figures, facial identities, clothing and hand/body contacts. Root and independent full/native source comparison retained the expressive planting/comfort action and the already reviewed age/body relationships; environmental pixels were selected through explicit protected masks. This renews only source character scope, with final pond gameplay covered separately in docs/pond-repair-review.md and the focused native pond review.",
       "face_review": {
         "status": "accepted",
         "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
@@ -872,7 +872,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses.",
+        "notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses. Pond geometry correction: The final low-bank landscape correction preserves all named figures, facial identities, clothing and hand/body contacts. Root and independent full/native source comparison retained the expressive planting/comfort action and the already reviewed age/body relationships; environmental pixels were selected through explicit protected masks. This renews only source character scope, with final pond gameplay covered separately in docs/pond-repair-review.md and the focused native pond review.",
         "regions": [
           {
             "character": "Calista",
@@ -910,7 +910,8 @@
         "production_evidence": [
           "docs/graphics-cg-audit.md",
           "docs/graphics-background-sprite-audit.md",
-          "docs/graphics-human-sprite-audit.md"
+          "docs/graphics-human-sprite-audit.md",
+          "docs/pond-repair-review.md"
         ]
       },
       "quality_review": {
@@ -918,6 +919,11 @@
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:7350e889f6d170bd36596868b2fd21eeecb034b5",
         "report": "docs/ART_REVIEW_CG.md"
+      },
+      "pond_geometry_review": {
+        "evidence": "docs/pond-repair-review.md",
+        "notes": "The final low-bank landscape correction preserves all named figures, facial identities, clothing and hand/body contacts. Root and independent full/native source comparison retained the expressive planting/comfort action and the already reviewed age/body relationships; environmental pixels were selected through explicit protected masks. This renews only source character scope, with final pond gameplay covered separately in docs/pond-repair-review.md and the focused native pond review.",
+        "protected_characters_unchanged": true
       }
     },
     {
@@ -945,7 +951,7 @@
         }
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
+      "reviewed_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
       "reviewed_reference_signature": "940452a2ca54b51f0b6eddd6a91dd4451201d450779aa47adbdda6834c7c5092",
       "findings": [
         "CG-13"
@@ -960,7 +966,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Final small Shadow ear notch matches her anatomical-left reference ear. Original human/familiar bodies, gestures, eyes and lighting are otherwise unchanged. The original full composition and native character review remains applicable; independent final notch inspection found no unrelated regression.",
+        "notes": "The final far-bank-only pond repair preserves every person/animal, their eyes, hands, clothing/fur, the Shadow notch and foreground water. Independent immutable-source comparison found 18,886 changed pixels only within x1237..1614/y449..511; full/native inspection found no character drift. See docs/pond-repair-review.md. This renews the unchanged cast finding, not an unperformed new face redesign.",
         "regions": [
           {
             "character": "Calista",
@@ -999,7 +1005,8 @@
           "docs/graphics-cg-audit.md",
           "docs/graphics-background-sprite-audit.md",
           "docs/graphics-human-sprite-audit.md",
-          "docs/graphics-cg-repair-review.md"
+          "docs/graphics-cg-repair-review.md",
+          "docs/pond-repair-review.md"
         ]
       },
       "quality_review": {
@@ -1007,6 +1014,12 @@
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:51cd3c86a43145a35a907d30443a62f03299128a",
         "report": "docs/ART_REVIEW_CG.md"
+      },
+      "pond_geometry_review": {
+        "source_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
+        "output_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+        "notes": "The final far-bank-only pond repair preserves every person/animal, their eyes, hands, clothing/fur, the Shadow notch and foreground water. Independent immutable-source comparison found 18,886 changed pixels only within x1237..1614/y449..511; full/native inspection found no character drift. See docs/pond-repair-review.md. This renews the unchanged cast finding, not an unperformed new face redesign.",
+        "evidence": "docs/pond-repair-review.md"
       }
     },
     {
@@ -1034,13 +1047,13 @@
         }
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
+      "reviewed_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
       "reviewed_reference_signature": "940452a2ca54b51f0b6eddd6a91dd4451201d450779aa47adbdda6834c7c5092",
       "findings": [
         "CG-05",
         "CG-14"
       ],
-      "review_notes": "Final small Shadow ear notch matches her anatomical-left reference ear. Original human/familiar bodies, gestures, eyes and lighting are otherwise unchanged. The original full composition and native character review remains applicable; independent final notch inspection found no unrelated regression. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
+      "review_notes": "Final small Shadow ear notch matches her anatomical-left reference ear. Original human/familiar bodies, gestures, eyes and lighting are otherwise unchanged. The original full composition and native character review remains applicable; independent final notch inspection found no unrelated regression. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate. Pond geometry correction: The final low-bank landscape correction preserves all named figures, facial identities, clothing and hand/body contacts. Root and independent full/native source comparison retained the expressive planting/comfort action and the already reviewed age/body relationships; environmental pixels were selected through explicit protected masks. This renews only source character scope, with final pond gameplay covered separately in docs/pond-repair-review.md and the focused native pond review.",
       "face_review": {
         "status": "accepted",
         "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
@@ -1050,7 +1063,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Final small Shadow ear notch matches her anatomical-left reference ear. Original human/familiar bodies, gestures, eyes and lighting are otherwise unchanged. The original full composition and native character review remains applicable; independent final notch inspection found no unrelated regression.",
+        "notes": "Final small Shadow ear notch matches her anatomical-left reference ear. Original human/familiar bodies, gestures, eyes and lighting are otherwise unchanged. The original full composition and native character review remains applicable; independent final notch inspection found no unrelated regression. Pond geometry correction: The final low-bank landscape correction preserves all named figures, facial identities, clothing and hand/body contacts. Root and independent full/native source comparison retained the expressive planting/comfort action and the already reviewed age/body relationships; environmental pixels were selected through explicit protected masks. This renews only source character scope, with final pond gameplay covered separately in docs/pond-repair-review.md and the focused native pond review.",
         "regions": [
           {
             "character": "Calista",
@@ -1089,7 +1102,8 @@
           "docs/graphics-cg-audit.md",
           "docs/graphics-background-sprite-audit.md",
           "docs/graphics-human-sprite-audit.md",
-          "docs/graphics-cg-repair-review.md"
+          "docs/graphics-cg-repair-review.md",
+          "docs/pond-repair-review.md"
         ]
       },
       "proportion_review": {
@@ -1102,6 +1116,11 @@
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:c0f7f367ac993698f56d099e09d4d6dd8d254f28",
         "report": "docs/ART_REVIEW_CG.md"
+      },
+      "pond_geometry_review": {
+        "evidence": "docs/pond-repair-review.md",
+        "notes": "The final low-bank landscape correction preserves all named figures, facial identities, clothing and hand/body contacts. Root and independent full/native source comparison retained the expressive planting/comfort action and the already reviewed age/body relationships; environmental pixels were selected through explicit protected masks. This renews only source character scope, with final pond gameplay covered separately in docs/pond-repair-review.md and the focused native pond review.",
+        "protected_characters_unchanged": true
       }
     },
     {

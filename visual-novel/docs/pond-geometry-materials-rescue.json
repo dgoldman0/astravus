@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "pond-rescue-dry-farbank",
+  "file": "game/images/cg/book-one/pond-rescue.png",
+  "source": {
+    "file": "game/images/cg/book-one/pond-rescue.png",
+    "git_blob": "7d08587c1389a07cfc1c744553fe68ac9ef6908d",
+    "sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e"
+  },
+  "method": "Builtin imagegen soil/paver material retained only through the narrow far-bank water-pocket mask. Original people, animals, foreground water and coping stay original.",
+  "generated_material": "art/production/pond-rescue-farbank.png",
+  "material_sha256": "bc3a10c32a72c43e93af292abd6568f42f044b310062b826d31b05970026968f",
+  "raw_generation": {
+    "sha256": "cde57b75abb9ea3df81c72d420b4ce8b3a66953b4d25cee833616e2e581c4890",
+    "dimensions": [
+      1662,
+      946
+    ]
+  },
+  "prompt_file": "docs/graphics-sources/pond-rescue-farbank-prompt.txt",
+  "prompt_sha256": "d776ba03a6c60cefe8c886982ed39f17073fe61d9f1f0f853a1fc95664d149b1",
+  "polygon": [
+    [
+      1237,
+      449
+    ],
+    [
+      1289,
+      449
+    ],
+    [
+      1321,
+      451
+    ],
+    [
+      1370,
+      451
+    ],
+    [
+      1431,
+      454
+    ],
+    [
+      1508,
+      454
+    ],
+    [
+      1567,
+      455
+    ],
+    [
+      1608,
+      473
+    ],
+    [
+      1614,
+      482
+    ],
+    [
+      1596,
+      490
+    ],
+    [
+      1581,
+      501
+    ],
+    [
+      1572,
+      509
+    ],
+    [
+      1562,
+      511
+    ],
+    [
+      1540,
+      509
+    ],
+    [
+      1520,
+      508
+    ],
+    [
+      1500,
+      506
+    ],
+    [
+      1470,
+      506
+    ],
+    [
+      1450,
+      504
+    ],
+    [
+      1430,
+      506
+    ],
+    [
+      1415,
+      508
+    ],
+    [
+      1400,
+      507
+    ],
+    [
+      1380,
+      501
+    ],
+    [
+      1360,
+      498
+    ],
+    [
+      1340,
+      501
+    ],
+    [
+      1320,
+      500
+    ],
+    [
+      1300,
+      501
+    ],
+    [
+      1280,
+      504
+    ],
+    [
+      1260,
+      507
+    ],
+    [
+      1240,
+      505
+    ],
+    [
+      1237,
+      502
+    ]
+  ],
+  "feather_px": 0.8,
+  "feather_direction": "inward; clipped to exact polygon so coping-side pixels are untouched",
+  "registration": "Generated 1662x946 material resampled once to original 1672x941; original scene never resampled.",
+  "candidate": "build/graphics/pond-geometry/pond-rescue.png",
+  "output_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "verification": {
+    "changed_pixels": 18886,
+    "changed_bounds": [
+      1237,
+      449,
+      1615,
+      512
+    ],
+    "outside_mask_changes": 0,
+    "protected_people_animals_and_main_water_changes": 0
+  },
+  "script_file": "scripts/repair_pond_farbank.py",
+  "script_sha256": "72a5cb08a76855b449fbd6a4660c17173124eaf3665a11a3a4c3393f86518039"
+}

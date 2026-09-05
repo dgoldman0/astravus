@@ -182,12 +182,17 @@
     {
       "file": "game/images/backgrounds/book-one/garden-work-area.png",
       "generation": "review-027-garden-work-area",
-      "sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
+      "sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "garden-work-area-ground-pond",
+        "recipe_sha256": "759c9fb64c236d49d09261d57380e1adb686c0759d269962ac6c7ef2ff70668c"
+      }
     },
     {
       "file": "game/images/backgrounds/book-one/garden-wonders.png",

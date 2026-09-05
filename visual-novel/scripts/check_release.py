@@ -76,6 +76,8 @@ def check_recorded_builds(version, expected_kind="candidate"):
 def check(review_build=False):
     options = (PROJECT / "game/options.rpy").read_text()
     version = re.search(r'^define config.version = "([^"]+)"$', options, re.M).group(1)
+    locked_version = json.loads((PROJECT / "docs/release-matrix.json").read_text())["release_version"]
+    assert version == locked_version, f"Release version locked to {locked_version}; found {version}"
     check_recorded_builds(version, "review" if review_build else "candidate")
     base = re.search(r'^define build.name = "([^"]+)"$', options, re.M).group(1)
     files = [path for path in (PROJECT / "game").rglob("*") if path.is_file()

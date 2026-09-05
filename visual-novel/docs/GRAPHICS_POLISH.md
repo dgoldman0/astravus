@@ -1,5 +1,14 @@
 # Graphics production review
 
+**Pond geometry correction complete:** four landscape repairs now align the
+working-bank, planting, comfort and rescue views with the governing low basin.
+All seven related views received a focused pairwise review of water/coping/ground
+height, connected shoreline and shared visible anchors. The final native run
+passed 20 assertions with 12 inspected captures, including the actual paused
+planting theme cue. [Source review](pond-repair-review.md),
+[geometry criteria](POND_GEOMETRY_REVIEW.md) and
+[native review](pond-runtime-review.md) bind the current findings.
+
 The production ledger is [graphics-polish.json](graphics-polish.json). It covers
 all **78 selected runtime images and 546 dimension reviews**: 434 scoped
 acceptances and 112 justified not-applicable findings. No dimension is pending,
@@ -7,9 +16,9 @@ stale or accepted solely from a hash. This is the graphics production review;
 it does not renew story/audio listening, browser/platform or release approval.
 
 The original 75-image set gained three derived scene-state backgrounds: later
-treehouse, workshop construction and family painting. Twenty-three selected
+treehouse, workshop construction and family painting. Twenty-five selected
 assets have active production-edit recipes. Current asset validation covers
-78 files, 160 generation records, 23 reproducible edits, 20 CG character reviews,
+78 files, 160 generation records, 25 reproducible edits, 20 CG character reviews,
 30 recurring-location views and 26 measured human silhouettes. Earlier release
 receipts remain historical; these findings come from the fresh inspections below.
 
@@ -145,15 +154,19 @@ the two project-specific work surfaces, Lyra's scene, annual remembrance and
 the actual loss dialogue after its one-second pause. It records 15 frames and
 their exact story/input state; these captures still require visual inspection.
 The completed native runs and their observed findings are recorded above and in
-the linked runtime reports. The updated movie has also been rendered and checked;
-see [delivered film review](graphics-film-review.md) for its exact scope and limits.
+the linked runtime reports. The replacement movie has also been rendered; its
+bounded check verifies the updated planting cue and unchanged encoded song. See
+[delivered film review](graphics-film-review.md) for the exact movie hash, checked
+frames and limits; native static views do not certify encoded motion.
 
-Current desktop and web archives were rebuilt as **graphics review builds** and
-checked with `python3 scripts/check_release.py --review-build`. All 128 packaged
-runtime source files match the reviewed working tree, including all selected
-images. `test-results/review-exports.json` identifies the actual ZIP hashes;
-this is separate from full release approval. Editing materials, tests and local
-review artifacts are excluded from these archives.
+Current desktop and web archives were replaced under the same **0.1-alpha**
+filenames as **graphics review builds**, then checked with
+`python3 scripts/check_release.py --review-build`. All 128 packaged runtime source
+files match the reviewed working tree, including the four current pond repairs.
+`test-results/review-exports.json` records the exact PC, Mac and web ZIP hashes.
+The version lock rejects accidental version changes before packaging. This
+archive-integrity check remains separate from full release/platform approval;
+editing materials, tests and local review artifacts are excluded.
 
 ## Recovering the archived proof
 
