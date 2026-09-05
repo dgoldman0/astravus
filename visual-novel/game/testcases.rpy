@@ -23,6 +23,60 @@ init python:
         assigned = [identifier for identifiers in CHAPTER_DIALOGUE_IDS.values() for identifier in identifiers]
         return bool(expected) and all(CHAPTER_DIALOGUE_IDS.values()) and len(assigned) == len(set(assigned)) and set(assigned) == expected
 
+    def _test_theme_buffered_clock():
+        # Exercise the real player clock against an audio backend that updates
+        # only every 80ms, then disappears, pauses, and returns behind the film.
+        # Raw get_pos-driven animation would stall and leap on this sequence.
+        original_pos, original_pause = renpy.music.get_pos, renpy.music.get_pause
+        state = {"audio": 0.0, "paused": False}
+        try:
+            renpy.music.get_pos = lambda channel: state["audio"]
+            renpy.music.get_pause = lambda channel: state["paused"]
+            player = ClosingTheme()
+            positions = []
+            for frame in range(601):
+                st = frame / 60.0
+                state["audio"] = int(st / .08) * .08
+                positions.append(player.position(st))
+            steps = [b - a for a, b in zip(positions, positions[1:])]
+            assert min(steps) >= .95 / 60.0 - 1e-8
+            assert max(steps) <= 1.05 / 60.0 + 1e-8
+            assert abs(positions[-1] - 10.0) < .10
+            # An event may be newer than the render timestamp beside it. Do
+            # not count that interval twice if calls arrive out of order.
+            assert player.position(9.99) == positions[-1]
+            assert player.position(10.0) == positions[-1]
+            state["paused"] = True
+            paused_at = player.last_position
+            state["audio"] = 11.0
+            assert player.position(11.0) == paused_at
+            state["paused"], state["audio"] = False, None
+            assert abs(player.position(12.0) - paused_at - 1.0) < 1e-8
+            state["audio"] = 0.0
+            resumed_at = player.last_position
+            assert 0 < player.position(12.0 + 1.0 / 60.0) - resumed_at <= 1.0 / 60.0
+            return True
+        finally:
+            renpy.music.get_pos, renpy.music.get_pause = original_pos, original_pause
+
+    def _test_render_character_framing():
+        import os
+        directory = os.path.join(config.basedir, "test-results/character-layout")
+        os.makedirs(directory, exist_ok=True)
+        for path in CHARACTER_LAYOUT["actors"]:
+            name = os.path.basename(path).removesuffix(".png").replace("-", " ")
+            actor = At(renpy.display.image.ImageReference(name), at_center)
+            renpy.render_to_file(Fixed(actor, xysize=(1920, 1080)),
+                                os.path.join(directory, os.path.basename(path)), resize=True)
+        for background, filename in (("bg garden_close", "bright-scene"), ("bg treehouse", "dark-scene")):
+            children = [renpy.display.image.ImageReference(background)]
+            for name, x in (("lyra young", .16), ("calista home", .38), ("cassia young", .60), ("selene everyday", .82)):
+                children.append(Transform(renpy.display.image.ImageReference(name), xalign=x,
+                                          yanchor=1.0, ypos=CHARACTER_LAYOUT["foot_y"]))
+            renpy.render_to_file(Fixed(*children, xysize=(1920, 1080)),
+                                os.path.join(directory, filename + ".png"), resize=True)
+        return True
+
 testsuite global:
     setup:
         $ _test.transition_timeout = 0.05
@@ -41,10 +95,10 @@ testsuite global:
 # Keep this identifier: scripts/project.py invokes it explicitly.
 testcase chapter_playthrough:
     assert screen "main_menu"
-    assert eval (config.version == "0.2.7" and config.save_directory == "Astravus-Book-I")
+    assert eval (config.version == "0.1-alpha" and config.save_directory == "Astravus-Book-I")
     assert eval (_test_chapter_dialogue_coverage())
     assert eval (not chapter_warning_needed("first_memory") and chapter_warning_needed("garden"))
-    assert eval ("About 40–50 minutes" in _test_screen_text("main_menu") and "Alpha 0.2.7" in _test_screen_text("main_menu"))
+    assert eval ("About 40–50 minutes" in _test_screen_text("main_menu") and "Version 0.1-alpha" in _test_screen_text("main_menu"))
     screenshot "title"
     click "Chapters"
     click "25 · The news"
@@ -110,6 +164,22 @@ testcase chapter_playthrough:
     assert eval (renpy.slot_json("1-1").get("book_id") == BOOK_SAVE_ID)
     advance
     advance
+    run FileLoad(1, confirm=False, page="1")
+    assert eval (_history_list[-1].what == "Here, Cali." and scene_key == "garden") timeout 4.0
+    click "Load"
+    assert screen "load" timeout 4.0
+    screenshot "load-before-automatic"
+    # FilePage supplies this accessible label to Ren'Py's native test selector.
+    click "File page auto"
+    assert eval (FileCurrentPage() == "auto")
+    click "Save"
+    assert eval (renpy.get_screen("save") and FileCurrentPage() == "1") timeout 4.0
+    screenshot "save-from-automatic"
+    click "Return"
+    assert eval (renpy.music.is_playing(channel="ambience")) timeout 4.0
+    run MainMenu(confirm=False)
+    assert screen "main_menu" timeout 4.0
+    assert eval (not renpy.music.is_playing(channel="ambience") and not renpy.music.is_playing(channel="closing_theme")) timeout 4.0
     run FileLoad(1, confirm=False, page="1")
     assert eval (_history_list[-1].what == "Here, Cali." and scene_key == "garden") timeout 4.0
     click "History"
@@ -433,8 +503,108 @@ testcase chapter_playthrough:
     exit
 
 # Focused review for the closing-film addition; avoids a full-book release run.
+testcase character_framing_review:
+    assert screen "main_menu"
+    assert eval (_test_render_character_framing())
+    exit
+
+testcase environment_grounding_review:
+    assert screen "main_menu"
+    $ persistent.chapter_spoiler_warnings = False
+    $ _test.force = True
+    click "Chapters"
+    click "15 · Something worth finding"
+    advance until eval (renpy.showing("calista young") and renpy.showing("joren young"))
+    keysym "h"
+    assert eval (_windows_hidden)
+    pause .25
+    screenshot "grounding-first-joren"
+    keysym "h"
+    click "Chapters"
+    click "17 · Beyond the familiar paths"
+    advance until eval (renpy.showing("calista home") and renpy.showing("joren young"))
+    keysym "h"
+    assert eval (_windows_hidden)
+    pause .25
+    screenshot "grounding-kaleb-path"
+    keysym "h"
+    click "Chapters"
+    click "21 · The unfinished world"
+    advance until eval (renpy.showing("nibble"))
+    assert eval (renpy.showing("bg construction_path") and renpy.showing("calista older") and renpy.showing("joren older"))
+    keysym "h"
+    assert eval (_windows_hidden)
+    pause .25
+    screenshot "grounding-expedition-path"
+    keysym "h"
+    advance until eval (renpy.showing("bg construction_room"))
+    keysym "h"
+    pause .25
+    screenshot "grounding-construction-room"
+    keysym "h"
+    click "Chapters"
+    click "23 · The view from above"
+    advance until eval (renpy.showing("calista older") and renpy.showing("joren older"))
+    keysym "h"
+    assert eval (_windows_hidden)
+    pause .25
+    screenshot "grounding-dome-path"
+    keysym "h"
+    click "Chapters"
+    click "08 · The days between"
+    advance until eval (renpy.showing("shadow") and renpy.showing("bg music_room"))
+    keysym "h"
+    pause .25
+    screenshot "grounding-music-familiars"
+    keysym "h"
+    click "Chapters"
+    click "09 · The Tree of Echoes"
+    advance until eval (renpy.showing("calista home") and renpy.showing("barkley"))
+    keysym "h"
+    pause .25
+    screenshot "grounding-echoes-familiars"
+    keysym "h"
+    click "Chapters"
+    click "20 · Something that turns"
+    advance until eval (renpy.showing("nibble") and renpy.showing("bg waterwheel"))
+    keysym "h"
+    pause .25
+    screenshot "grounding-waterwheel-familiars"
+    keysym "h"
+    click "Chapters"
+    click "24 · Which way we go"
+    advance until eval (renpy.showing("nibble"))
+    keysym "h"
+    pause .25
+    screenshot "grounding-dispute-familiars"
+    keysym "h"
+    click "Chapters"
+    click "01 · First memory"
+    advance until eval (renpy.showing("nibble") and renpy.showing("bg family_home"))
+    keysym "h"
+    pause .25
+    screenshot "grounding-home-familiars"
+    keysym "h"
+    click "Chapters"
+    click "28 · Between the two of us"
+    advance until eval (renpy.showing("cassia mourning") and renpy.showing("calista mourning"))
+    keysym "h"
+    pause .25
+    screenshot "grounding-treehouse-grief"
+    keysym "h"
+    click "Chapters"
+    click "02 · A small beginning"
+    advance until eval (renpy.showing("calista young") and renpy.showing("maia"))
+    assert eval (renpy.showing("bg garden_close"))
+    keysym "h"
+    assert eval (_windows_hidden)
+    pause .25
+    screenshot "grounding-garden-default"
+    exit
+
 testcase closing_theme_review:
     assert screen "main_menu"
+    assert eval (_test_theme_buffered_clock())
     $ persistent.chapter_spoiler_warnings = False
     click "Chapters"
     click "32 · What remains"
@@ -469,6 +639,10 @@ testcase closing_theme_review:
     $ _theme_silent_at = renpy.get_widget("closing_theme", "montage").position()
     pause .6
     assert eval (renpy.get_widget("closing_theme", "montage").position() > _theme_silent_at + .2)
+    $ renpy.get_widget("closing_theme", "montage").last_position = 11.0
+    run Function(renpy.music.set_pause, True, channel="closing_theme")
+    screenshot "theme-blended-transition"
+    run Function(renpy.music.set_pause, False, channel="closing_theme")
     $ renpy.get_widget("closing_theme", "montage").last_position = 106.0
     pause .2
     screenshot "theme-friends"

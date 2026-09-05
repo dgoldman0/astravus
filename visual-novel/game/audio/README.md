@@ -33,11 +33,15 @@ with no gain, EQ, compression, cuts or additional fades. It is a separate source
 from the CC0 instrument and environmental libraries above. Its source hash and
 encoding details are recorded in `docs/closing-theme-audio.json`; the standalone
 video and game montage share `game/closing_theme.json` for their timing.
+Within the game, the song plays at −6 dB relative to the music mixer to sit
+comfortably beside the quieter score. The hesitant multi-note flute plays at
+−2.5 dB relative to the sound mixer to match the later practice cue. These are
+playback gains; the supplied song and original flute files are unchanged.
 
 The game requires no sample player or additional software. Source recordings
 and 24-bit music masters remain in the developer's cache.
 The repository's `docs/audio-sources.json` pins all downloaded source files by
 SHA-256, including the VSCO commit and license. `scripts/make_audio.py` and
 `scripts/sample_audio.py` reproduce the mix; `scripts/audio_check.py` checks the
-19 score and effects files. The separately encoded closing theme is measured in
-`docs/VALIDATION.md`. Numerical checks do not replace listening in context.
+twenty delivered files, including the closing theme, with decoded-audio and
+relative loudness checks. Numerical checks do not replace listening in context.

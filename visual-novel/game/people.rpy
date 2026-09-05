@@ -2,7 +2,7 @@
 # The current spoken line is already in Ren'Py's rollback-aware history.
 init python:
     PEOPLE_PROFILES = {
-        "Cali": "A curious child who sees the world through color and drawing. Her older self is remembering these scenes. Her five parents are partners in a constellation; their family includes the children they raise together.",
+        "Cali": "A curious child who sees the world through color and drawing. Her older self is remembering these scenes. She grows up with five parents, her older brother Kael, and her younger sister Lyra.",
         "Maia": "One of Cali's five parents. She tends living ecosystems and helps Cali discover the garden through patient, practical care.",
         "Kael": "Cali's older brother. Eager to explore and usually ready with a plan, he shares her childhood adventures and looks after their younger sister, Lyra.",
         "Arin": "One of Cali's five parents. They design biomechanical interfaces and welcome Cali into their workshop, making room for mistakes as well as discoveries.",

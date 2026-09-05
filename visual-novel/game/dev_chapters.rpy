@@ -109,6 +109,7 @@ screen dev_chapters():
                     scrollbars "vertical"
                     mousewheel True
                     draggable True
+                    pagekeys True
                     for number, (key, title) in enumerate(BOOK_SCENES, 1):
                         textbutton "[number:02d] · [title]":
                             xsize 430
@@ -140,7 +141,7 @@ screen chapter_spoiler_warning(target):
             hbox:
                 xalign 1.0
                 spacing 35
-                textbutton "Go back" action Hide("chapter_spoiler_warning")
+                textbutton "Go back" action Hide("chapter_spoiler_warning") default_focus True
                 textbutton "Jump anyway" action chapter_start_action(target)
     key "game_menu" action Hide("chapter_spoiler_warning")
 

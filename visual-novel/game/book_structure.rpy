@@ -79,8 +79,11 @@ init -5 python:
         return metadata.get("book_id") == BOOK_SAVE_ID
 
     def people_lumen_description():
-        if renpy.store.lumen_known:
-            return "Cali's home: a young, living Astravus, the child of Aurora and Nyx. Its gardens and gathering places bring its residents together."
+        # The displayed reveal already counts; the flag is assigned when the
+        # reader dismisses it. Share the glossary gate to keep both menus aligned.
+        entry = glossary_entries().get("lumen")
+        if entry:
+            return entry["description"]
         return "Cali's home: gardens, gathering places, and paths she is still learning to follow. Her family is one of the many households in its community."
 
     def people_joren_description():

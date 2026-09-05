@@ -52,6 +52,7 @@ STATE = '''dict(
     portrait_visible=bool(renpy.get_widget("say", "speaker_portrait")),
     visible_actors=sorted(tag for tag in set(SPEAKER_TAGS.values()) if renpy.showing(tag)),
     people=people_names(),
+    glossary=glossary_entries(),
     familiars=familiar_names(),
     visible_familiars=[name for name in FAMILIAR_PROFILES if renpy.showing(name.lower())],
     complete=persistent.book_one_complete)'''
@@ -148,6 +149,119 @@ for focus in renpy.display.focus.focus_list:
             x, y, width, height = rectangles[0]
             await page.mouse.click((x + width / 2) * 2 / 3, (y + height / 2) * 2 / 3)
 
+        async def click_credit_link(url):
+            # Scroll the credits viewport until the actual hyperlink is visible.
+            # A real click must open the requested URL; intercept its destination
+            # so this test does not depend on an external site's availability.
+            code = f'''result = []
+for focus in renpy.display.focus.focus_list:
+    if not isinstance(focus.widget, renpy.text.text.Text) or focus.x is None:
+        continue
+    layout = focus.widget.get_layout()
+    if layout and layout.hyperlink_targets.get(focus.arg) == {url!r}:
+        result.append([focus.x, focus.y, focus.w, focus.h])'''
+            for _ in range(20):
+                rectangles = await execute(code)
+                if rectangles:
+                    break
+                await page.mouse.move(900, 500)
+                await page.keyboard.press("PageDown")
+                await asyncio.sleep(.2)
+            assert rectangles, f"No visible credits hyperlink for {url}"
+
+            async def credit_destination(route):
+                await route.fulfill(status=200, content_type="text/html", body="Credit link verified.")
+
+            await page.context.route(url, credit_destination)
+            try:
+                x, y, width, height = rectangles[0]
+                assert 0 <= x < 1920 and 0 <= y < 1080 and x + width <= 1920 and y + height <= 1080, rectangles
+                px, py = (x + width / 2) * 2 / 3, (y + height / 2) * 2 / 3
+                # Text hyperlinks resolve their active span on the rendered
+                # hover update. Deliver movement first and wait for that actual
+                # focus before pressing, as a person moving onto the link does.
+                await page.mouse.move(px, py)
+                await until(f"(lambda widget: isinstance(widget, renpy.text.text.Text) and widget.get_layout() and widget.get_layout().hyperlink_targets.get(renpy.display.focus.argument) == {url!r})(renpy.display.focus.get_focused())")
+                async with page.expect_popup() as opened:
+                    await page.mouse.click(px, py)
+                popup = await opened.value
+                await popup.wait_for_url(url)
+                await popup.close()
+            finally:
+                await page.context.unroute(url, credit_destination)
+
+        async def check_sprite_rendering(state):
+            # A very small alpha pulse forces real draws of the current group.
+            # Use Ren'Py's frame timestamps, not browser RAF callbacks, so a
+            # stalled WebGL draw cannot be mistaken for smooth animation.
+            started = await execute('''def _browser_render_pulse(trans, st, at):
+    import math
+    trans.alpha = .999 + .001 * math.sin(st * 3.0)
+    return 0
+renpy.show_layer_at([Transform(function=_browser_render_pulse)], layer="master")
+renpy.restart_interaction()
+result = renpy.display.core.time.time()''')
+            try:
+                await asyncio.sleep(3.5)
+                frames = await value(f"[t for t in renpy.display.interface.frame_times if t > {started + .5}]")
+            finally:
+                await execute('renpy.show_layer_at([], layer="master")\nrenpy.restart_interaction()')
+            assert len(frames) >= 2, "Animated sprite group did not redraw"
+            intervals = sorted((b - a) * 1000 for a, b in zip(frames, frames[1:]))
+            report = {
+                "renderer": "Chromium SwiftShader (software WebGL)",
+                "scene": state["scene"], "actors": state["visible_actors"],
+                "familiars": state["visible_familiars"],
+                "frames": len(frames), "fps": (len(frames) - 1) / (frames[-1] - frames[0]),
+                "median_frame_ms": intervals[len(intervals) // 2],
+                "p95_frame_ms": intervals[int((len(intervals) - 1) * .95)],
+            }
+            (PROJECT / "test-results/browser-render-performance.json").write_text(json.dumps(report, indent=2) + "\n")
+            print(f"Browser sprite rendering: {report['fps']:.1f} fps, p95 {report['p95_frame_ms']:.1f}ms for {len(report['actors'])} actors in software WebGL.", flush=True)
+            assert report["fps"] >= 15, ("Sprite compositor requires performance review", report)
+
+        async def check_closing_theme():
+            await click_button("book_afterword", "Play closing theme")
+            await until('bool(renpy.get_screen("closing_theme"))')
+            await until('renpy.music.is_playing(channel="closing_theme")', seconds=15)
+            assert await value('renpy.get_widget("closing_theme", "montage").reduced_motion')
+            await until('renpy.get_widget("closing_theme", "montage").position() > .5')
+            await page.screenshot(path=str(OUT / "browser-theme-reduced-motion.png"))
+            await click_button("closing_theme", "Pause")
+            assert await value('renpy.music.get_pause(channel="closing_theme")')
+            paused_at = await value('renpy.get_widget("closing_theme", "montage").position()')
+            await asyncio.sleep(.6)
+            paused_later = await value('renpy.get_widget("closing_theme", "montage").position()')
+            assert abs(paused_later - paused_at) < .1, (paused_at, paused_later)
+            await page.keyboard.press("Space")
+            await until(f'renpy.get_widget("closing_theme", "montage").position() > {paused_at + .2}')
+            assert not await value('renpy.music.get_pause(channel="closing_theme")')
+            await click_button("closing_theme", "Skip closing theme")
+            await until('bool(renpy.get_screen("chapter_end"))')
+            assert not await value('renpy.music.is_playing(channel="closing_theme")')
+
+            await execute("persistent.reduced_motion = False")
+            await click_button("chapter_end", "Replay closing theme")
+            await until('bool(renpy.get_screen("closing_theme"))')
+            assert not await value('renpy.get_widget("closing_theme", "montage").reduced_motion')
+            await until('renpy.get_widget("closing_theme", "montage").position() > 1.5')
+            await page.screenshot(path=str(OUT / "browser-theme-camera-motion.png"))
+            await page.keyboard.press("Space")
+            assert await value('renpy.music.get_pause(channel="closing_theme")')
+            await page.keyboard.press("Escape")
+            await until('bool(renpy.get_screen("chapter_end"))')
+            assert not await value('renpy.music.is_playing(channel="closing_theme")')
+
+            await click_button("chapter_end", "Replay closing theme")
+            await until('bool(renpy.get_screen("closing_theme"))')
+            assert not await value('renpy.music.get_pause(channel="closing_theme")')
+            assert await value('renpy.get_widget("closing_theme", "montage").position() < 5')
+            await click_button("closing_theme", "Skip closing theme")
+            await until('bool(renpy.get_screen("chapter_end"))')
+            assert not await value('renpy.music.is_playing(channel="closing_theme")')
+            await execute("persistent.reduced_motion = True")
+            print("Browser closing theme passed: playback, both motion preferences, frozen pause, keyboard resume, skip, Escape while paused, fresh replay and channel cleanup.", flush=True)
+
         assert await value("main_menu")
         expected_version = re.search(r'config.version = "([^"]+)"', (PROJECT / "game/options.rpy").read_text()).group(1)
         assert await value("config.version") == expected_version
@@ -198,6 +312,16 @@ for focus in renpy.display.focus.focus_list:
         assert initial["visited"] == ["first_memory"]
         assert initial["people"] == ["Cali"]
         assert initial["familiars"] == [] and initial["visible_familiars"] == []
+        assert initial["glossary"] == {}, initial
+        await click_button("quick_menu", "Glossary")
+        await until('bool(renpy.get_screen("glossary"))')
+        empty_text = await execute('''result = []
+renpy.get_screen("glossary").visit_all(lambda item, out=result: out.append(item.get_all_text()) if isinstance(item, renpy.text.text.Text) else None)''')
+        assert any("No terms yet" in text for text in empty_text), empty_text
+        assert not any("Transcendence" in text or "Astraviin" in text for text in empty_text), empty_text
+        await page.screenshot(path=str(OUT / "browser-glossary-empty.png"))
+        await click_button("glossary", "Return")
+        await until('bool(renpy.get_screen("say")) and not renpy.context()._menu')
         await page.screenshot(path=str(OUT / "browser-first-memory.png"))
         await execute("preferences.text_cps = 0\npersistent.reduced_motion = True")
         captured = {"first_memory"}
@@ -210,6 +334,7 @@ for focus in renpy.display.focus.focus_list:
         after_echo_reveal = False
         loss_seen = False
         manual_save_checked = False
+        sprite_rendering_checked = False
         portrait_scenes = set()
         people_checked = {"Cali"}
         familiars_checked = False
@@ -217,6 +342,9 @@ for focus in renpy.display.focus.focus_list:
         flute_events = []
         action_stills = set()
         afterword_seen = False
+        glossary_catalog = json.loads((PROJECT / "game/glossary.json").read_text())["entries"]
+        expected_glossary = {}
+        glossary_reveals_checked = set()
         people_fragments = {
             "Maia": "patient, practical care", "Kael": "older brother",
             "Arin": "biomechanical interfaces", "Selene": "listen, breathe",
@@ -262,10 +390,32 @@ for focus in renpy.display.focus.focus_list:
                 assert await value('chapter_read_progress()[0] == set(BOOK_SCENE_KEYS)')
                 await page.screenshot(path=str(OUT / "browser-afterword.png"))
                 afterword_seen = True
-                await click_button("book_afterword", "Finish Book I")
-                await until('bool(renpy.get_screen("chapter_end"))')
+                await check_closing_theme()
                 continue
             key = state["scene"]
+            # Independently accumulate only the cue lines the browser has
+            # actually displayed. Merely entering a scene must not add a term.
+            new_definitions = []
+            for term in glossary_catalog:
+                for level, stage in enumerate(term["stages"]):
+                    if state["text"] == stage["cue"]:
+                        expected_glossary[term["id"]] = {
+                            "title": term["title"], "description": stage["description"], "level": level,
+                        }
+                        if (term["id"], level) not in glossary_reveals_checked:
+                            new_definitions.append((term["id"], level))
+            assert state["glossary"] == expected_glossary, ("Glossary revealed facts before their lines", state)
+            if new_definitions:
+                await click_button("quick_menu", "Glossary")
+                await until('bool(renpy.get_screen("glossary"))')
+                for term_id, level in new_definitions:
+                    entry = expected_glossary[term_id]
+                    await click_button("glossary", entry["title"])
+                    assert await value('renpy.get_widget("glossary", "glossary_description").get_all_text()') == entry["description"]
+                    await page.screenshot(path=str(OUT / f"browser-glossary-{term_id}-{level}.png"))
+                    glossary_reveals_checked.add((term_id, level))
+                await click_button("glossary", "Return")
+                await until('bool(renpy.get_screen("say")) and not renpy.context()._menu')
             if not observed or observed[-1] != key:
                 observed.append(key)
                 entry_states.setdefault(key, state)
@@ -280,6 +430,9 @@ for focus in renpy.display.focus.focus_list:
                 loss_seen = True
                 assert state["joren"] is None, state
                 assert not (state["portrait"] or "").startswith("joren "), state
+            if state["say"] and key == "family_rhythm" and "lyra" in state["visible_actors"] and not sprite_rendering_checked:
+                await check_sprite_rendering(state)
+                sprite_rendering_checked = True
             if state["say"] and state["portrait"]:
                 assert state["portrait_visible"], state
                 if key not in portrait_scenes:
@@ -357,9 +510,14 @@ for focus in renpy.display.focus.focus_list:
                     await page.screenshot(path=str(OUT / "browser-cassia-older.png"))
                 cassia_aged = True
             if key == "garden" and not manual_save_checked and state["text"] == "Here, Cali.":
-                await click_button("quick_menu", "Save")
+                await click_button("quick_menu", "Load")
+                await until('bool(renpy.get_screen("load"))')
+                await click_button("load", "Automatic")
+                assert await value('FileCurrentPage() == "auto"')
+                await click_button("load", "Save")
                 await until('bool(renpy.get_screen("save"))')
-                await click_button("save", "1")
+                assert await value('FileCurrentPage() == "1"')
+                await page.screenshot(path=str(OUT / "browser-save-from-automatic.png"))
                 await asyncio.sleep(.2)
                 await click_button("save", "Empty slot")
                 await until('renpy.can_load("1-1")')
@@ -409,7 +567,7 @@ for focus in renpy.display.focus.focus_list:
         assert state["visited"] == list(SCENES), state["visited"]
         assert observed == list(SCENES), observed
         assert set(SCENES) <= captured, set(SCENES) - captured
-        assert all((first_flute, practiced_flute, cassia_aged, before_echo_reveal, after_echo_reveal, loss_seen, manual_save_checked))
+        assert all((first_flute, practiced_flute, cassia_aged, before_echo_reveal, after_echo_reveal, loss_seen, manual_save_checked, sprite_rendering_checked))
         assert {"sage_story", "soup_experiment", "rain_refuge", "dome_ascent", "treehouse_remembrance"} <= portrait_scenes, portrait_scenes
         assert {cg for scene, cg in action_stills} == set(ACTION_CGS), action_stills
         assert ("family_rhythm", "flute_playing") in action_stills, action_stills
@@ -417,6 +575,8 @@ for focus in renpy.display.focus.focus_list:
         assert familiars_checked and {"first_memory", "family_rhythm", "tree_echoes", "waterwheel", "outer_exploration", "treehouse_dispute", "painting_grief"} <= familiar_scenes, familiar_scenes
         assert flute_events == ["audio/flute_attempt.wav", "audio/flute_first.wav", "audio/flute_practice.wav"], flute_events
         assert afterword_seen
+        assert len(glossary_reveals_checked) == sum(len(term["stages"]) for term in glossary_catalog)
+        print("Browser glossary passed: all 10 reveal stages appear at their actual lines, with no premature definitions.", flush=True)
         await page.screenshot(path=str(OUT / "browser-end.png"))
         # End menus, persistence and Continue must remain usable after reload.
         await click_button("chapter_end", "Credits")
@@ -424,6 +584,15 @@ for focus in renpy.display.focus.focus_list:
         assert await value('renpy.get_widget("about", "itch_link").action.url == "https://arcadiumgames.itch.io/astravus-calista"')
         assert await value('("{a=" + ASTRAVUS_REPO_URL + "}dgoldman0{/a}") in renpy.get_widget("about", "author_credit").get_all_text()')
         await page.screenshot(path=str(OUT / "browser-credits.png"))
+        credit_text = await execute('''result = []
+renpy.get_screen("about").visit_all(lambda item, out=result: out.append(item.get_all_text()) if isinstance(item, renpy.text.text.Text) else None)''')
+        song_credit = next(text for text in credit_text if "Curiosity and Discovery" in text)
+        assert "By Daniel Goldman, with assistance from ChatGPT and SUNO." in song_credit, song_credit
+        suno_url = "https://suno.com/s/IoZ3kzpqJBFXAgJJ"
+        assert f"{{a={suno_url}}}Listen on SUNO{{/a}}" in song_credit, song_credit
+        await click_credit_link(suno_url)
+        await page.screenshot(path=str(OUT / "browser-song-credit.png"))
+        print("Browser song credit passed: title, attribution and real SUNO hyperlink click (destination intercepted).", flush=True)
         await page.keyboard.press("Escape")
         await until('bool(renpy.get_screen("chapter_end")) and not renpy.context()._menu')
         await click_button("chapter_end", "Return to title")
@@ -435,6 +604,7 @@ for focus in renpy.display.focus.focus_list:
         await until('bool(renpy.get_screen("chapter_end"))')
         resumed = await value(STATE)
         assert resumed["scene"] == "annual_remembrance" and resumed["visited"] == list(SCENES)
+        assert resumed["glossary"] == expected_glossary
         assert not errors, errors
         assert set(resumed["people"]) == people_checked, resumed
         assert resumed["familiars"] == ["Shadow", "Barkley", "Nibble"], resumed
@@ -454,6 +624,7 @@ for focus in renpy.display.focus.focus_list:
             "met_cassia", "met_joren", "bg", "cg", "calista", "cassia", "joren",
             "text", "speaker", "portrait", "people", "familiars",
             "visible_actors", "visible_familiars",
+            "glossary",
         )
         for index, key in enumerate(reversed(SCENES)):
             if index:

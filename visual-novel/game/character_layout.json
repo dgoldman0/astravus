@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "foot_y": 1000,
+  "measurement": "RGB foreground: green dominance <=38/255; authored alpha: alpha >=128/255. Bounds are left, top, right, bottom; right/bottom exclusive.",
+  "heights": {
+    "calista_early": 675,
+    "calista_later": 750,
+    "cassia_early": 680,
+    "cassia_later": 755,
+    "joren_early": 710,
+    "joren_later": 790,
+    "kael": 785,
+    "lyra": 495,
+    "maia": 820,
+    "arin": 820,
+    "selene": 770,
+    "dorian": 850,
+    "sage": 785,
+    "thalia": 785,
+    "lyron": 825,
+    "soren": 770,
+    "kaleb": 825
+  },
+  "actors": {
+    "images/characters/book-one/arin-everyday.png": {
+      "group": "arin",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        276,
+        16,
+        731,
+        1522
+      ],
+      "sha256": "5f0e5a1c6a31cd742ebd615284a3d4860217a30d576f6edc79ca00c26b286b7e",
+      "key": "green",
+      "sampling_scale": 1.001221
+    },
+    "images/characters/book-one/calista-festival.png": {
+      "group": "calista_early",
+      "size": [
+        1023,
+        1537
+      ],
+      "bounds": [
+        304,
+        65,
+        690,
+        1394
+      ],
+      "sha256": "3a796e998447303d3006871047579793e47db85bebceef1ec0dca323601e29c7",
+      "key": "green",
+      "sampling_scale": 1.004464
+    },
+    "images/characters/book-one/calista-festive.png": {
+      "group": "calista_early",
+      "size": [
+        1023,
+        1537
+      ],
+      "bounds": [
+        304,
+        91,
+        688,
+        1412
+      ],
+      "sha256": "ae6808ba84ca5d16f87353f5ecac1aca111fd1531d9933b1a794f4e3f15e350c",
+      "key": "green",
+      "sampling_scale": 1.001484
+    },
+    "images/characters/book-one/calista-frustrated.png": {
+      "group": "calista_later",
+      "size": [
+        1023,
+        1537
+      ],
+      "bounds": [
+        257,
+        53,
+        781,
+        1469
+      ],
+      "sha256": "c294370e2f4fa63e22d772cd68c60f99c3c61477077e58029a88ca1f6c7c420d",
+      "key": "green",
+      "sampling_scale": 1.001335
+    },
+    "images/characters/book-one/calista-home.png": {
+      "group": "calista_early",
+      "size": [
+        1023,
+        1537
+      ],
+      "bounds": [
+        311,
+        53,
+        712,
+        1490
+      ],
+      "sha256": "c89f5aa739a14a19b687842c9dc00c54cc2cae3fba101d6869c19a5134494d36",
+      "key": "green",
+      "sampling_scale": 1.001484
+    },
+    "images/characters/book-one/calista-mourning.png": {
+      "group": "calista_later",
+      "size": [
+        1023,
+        1537
+      ],
+      "bounds": [
+        322,
+        60,
+        677,
+        1468
+      ],
+      "sha256": "0075c2688598b716a97d7f720e61452a8a6a0ebe3198c2b1cb8a45f3d3da0df8",
+      "key": "green",
+      "sampling_scale": 1.004016
+    },
+    "images/characters/book-one/calista-older.png": {
+      "group": "calista_later",
+      "size": [
+        1023,
+        1537
+      ],
+      "bounds": [
+        313,
+        54,
+        690,
+        1470
+      ],
+      "sha256": "d36489fd12db1fd3f2d360afa83d675e2af5bcb563e942775ad196f5f11f70b3",
+      "key": "green",
+      "sampling_scale": 1.002674
+    },
+    "images/characters/book-one/calista-painting.png": {
+      "group": "calista_later",
+      "size": [
+        1023,
+        1537
+      ],
+      "bounds": [
+        314,
+        54,
+        751,
+        1473
+      ],
+      "sha256": "ca499733b762cd9a2cc9e66f8ec82ddf67a3c1f639db93ab7465fc858f8aaf0e",
+      "key": "green",
+      "sampling_scale": 1.004016
+    },
+    "images/characters/book-one/calista-young.png": {
+      "group": "calista_early",
+      "size": [
+        1022,
+        1538
+      ],
+      "bounds": [
+        298,
+        53,
+        711,
+        1471
+      ],
+      "sha256": "75649a7bc527427ab83e01d4b65749e9207562dadc9e36e0d9d4ce6cc1c541aa",
+      "key": "green",
+      "sampling_scale": 1.002972
+    },
+    "images/characters/book-one/cassia-mourning.png": {
+      "group": "cassia_later",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        324,
+        24,
+        696,
+        1502
+      ],
+      "sha256": "9495dfb45c7f45f62bc746b3f655477279e2ab13d39cd31aa2cd45fd16f2caa2",
+      "key": "green",
+      "sampling_scale": 1.001326
+    },
+    "images/characters/book-one/cassia-older.png": {
+      "group": "cassia_later",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        281,
+        18,
+        871,
+        1518
+      ],
+      "sha256": "70b224c4bdc84af7bd09a0e36c44f79294469d1d08a7535a08284b6716f2186c",
+      "key": "green",
+      "sampling_scale": 1.002656
+    },
+    "images/characters/book-one/cassia-young.png": {
+      "group": "cassia_early",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        253,
+        13,
+        881,
+        1520
+      ],
+      "sha256": "362378277efed564dcc97d3902fd3262bd3cd7ce5c0a7e1c979f3b240ce81283",
+      "key": "green",
+      "sampling_scale": 1.004431
+    },
+    "images/characters/book-one/dorian-everyday.png": {
+      "group": "dorian",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        166,
+        25,
+        779,
+        1498
+      ],
+      "sha256": "100a3c36ae18a31572741a6ab66beee190dc19c58054dd5af557b3eee553664a",
+      "key": "green",
+      "sampling_scale": 1.001178
+    },
+    "images/characters/book-one/joren-frustrated.png": {
+      "group": "joren_later",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        194,
+        49,
+        710,
+        1447
+      ],
+      "sha256": "1ef2db5eb4b132947fb39ac4757ca54b37bd3faefa24be71d785faf24117f004",
+      "key": "green",
+      "sampling_scale": 1.007653
+    },
+    "images/characters/book-one/joren-older.png": {
+      "group": "joren_later",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        242,
+        57,
+        709,
+        1448
+      ],
+      "sha256": "853411333d8c9cc40fae87b3a4089ae551eaae7250319195b1f5e14dc048a8b0",
+      "key": "green",
+      "sampling_scale": 1.002538
+    },
+    "images/characters/book-one/joren-young.png": {
+      "group": "joren_early",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        268,
+        31,
+        728,
+        1500
+      ],
+      "sha256": "e7fdfcb40ec82c98d46f6343ea458ba83b54cea2c7cb37bcc34c21d009286ce2",
+      "key": "green",
+      "sampling_scale": 1.004243
+    },
+    "images/characters/book-one/kael-young.png": {
+      "group": "kael",
+      "size": [
+        1023,
+        1537
+      ],
+      "bounds": [
+        278,
+        47,
+        748,
+        1487
+      ],
+      "sha256": "86f1acb57974e793a366ad693f0be9fd8b9d55e454794eaab401b04c7bc13651",
+      "key": "green",
+      "sampling_scale": 1.001276
+    },
+    "images/characters/book-one/kaleb-everyday.png": {
+      "group": "kaleb",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        261,
+        49,
+        762,
+        1493
+      ],
+      "sha256": "dbd65a8637da9692dda912025d87da0d3419d1acedb20cc3b0bf96a57be1184b",
+      "key": "green",
+      "sampling_scale": 1.00365
+    },
+    "images/characters/book-one/lyra-young.png": {
+      "group": "lyra",
+      "size": [
+        1023,
+        1537
+      ],
+      "bounds": [
+        301,
+        73,
+        732,
+        1472
+      ],
+      "sha256": "7671dd825364831392dad574e2eccad9f73bf538360f75f3fd26b8da6af7cd92",
+      "key": "green",
+      "sampling_scale": 1.008147
+    },
+    "images/characters/book-one/lyron-everyday.png": {
+      "group": "lyron",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        277,
+        43,
+        727,
+        1483
+      ],
+      "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f",
+      "key": "green",
+      "sampling_scale": 1.00365
+    },
+    "images/characters/book-one/maia-home.png": {
+      "group": "maia",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        279,
+        35,
+        751,
+        1505
+      ],
+      "sha256": "5af5fc0864752f96d60c8eb8f0fafaf05124edfa2205f7da8c72c70b49d681b2",
+      "key": "green",
+      "sampling_scale": 1.001221
+    },
+    "images/characters/book-one/sage-everyday.png": {
+      "group": "sage",
+      "size": [
+        1023,
+        1537
+      ],
+      "bounds": [
+        363,
+        35,
+        727,
+        1474
+      ],
+      "sha256": "c2065df8ea3d578ac691392c7e3ecdae34ec2344fac05cc31cc5ce9739180f32",
+      "key": "green",
+      "sampling_scale": 1.003836
+    },
+    "images/characters/book-one/selene-everyday.png": {
+      "group": "selene",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        257,
+        47,
+        720,
+        1504
+      ],
+      "sha256": "4b18d24c659a09bcbd83f1b9e01b2fbc6bfe40578e14ee16c69a5cc455e8beb2",
+      "key": "green",
+      "sampling_scale": 1.0013
+    },
+    "images/characters/book-one/soren-everyday.png": {
+      "group": "soren",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        273,
+        76,
+        734,
+        1462
+      ],
+      "sha256": "aa9cefcc28cff081cf23ee1f6a56bfbe44731318b1ef3f7ec1946dd57cd516cf",
+      "key": "green",
+      "sampling_scale": 1.0013
+    },
+    "images/characters/book-one/thalia-everyday.png": {
+      "group": "thalia",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        313,
+        65,
+        711,
+        1487
+      ],
+      "sha256": "654c9f3316c1c78d023efb8b4d22afd1b68003d7f47a6435c2a6b1984f637132",
+      "key": "green",
+      "sampling_scale": 1.001276
+    },
+    "images/characters/maia.png": {
+      "group": "maia",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds": [
+        290,
+        11,
+        753,
+        1530
+      ],
+      "sha256": "2d7d24a32ea57345cd91090c9b7fbfa051e3fdf7ebd65160421117dee2c8eb0b",
+      "key": "alpha",
+      "sampling_scale": 1.003672
+    }
+  },
+  "sampling_note": "Per-source sampling_scale compensates for fine hair tips lost during native GPU downsampling; measured from alpha>=128 at the standing target, then independently verified by character_framing_review."
+}

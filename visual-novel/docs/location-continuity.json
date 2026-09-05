@@ -1,0 +1,997 @@
+{
+  "schema_version": 1,
+  "review_version": "0.1-alpha",
+  "path_base": "visual-novel",
+  "review_scope": "Recurring treehouse/garden/pond/plaza/courtyard views and the distinct neighborhood path, including closing-theme shots. Image hashes identify pixels actually inspected; production landmarks are not new prose canon.",
+  "review_policy": {
+    "passing_statuses": [
+      "consistent",
+      "consistent_crop"
+    ],
+    "blocking_statuses": [
+      "needs_correction",
+      "needs_review"
+    ],
+    "hash_rule": "Any pixel change invalidates the old visual review until a reviewer inspects the replacement and records its new hash.",
+    "authority_rule": "Source facts come from revision/latest.md and author references. Production landmarks are choices frozen for cross-shot continuity, not dimensions or history invented for the prose.",
+    "reference_rule": "A changed canonical reference invalidates dependent image reviews even if their own pixels did not change."
+  },
+  "tracked_asset_patterns": [
+    "game/images/backgrounds/*treehouse*.png",
+    "game/images/backgrounds/book-one/*treehouse*.png",
+    "game/images/cg/book-one/*treehouse*.png",
+    "game/images/backgrounds/book-one/*pond*.png",
+    "game/images/cg/book-one/*pond*.png",
+    "game/images/backgrounds/book-one/*plaza*.png"
+  ],
+  "locations": [
+    {
+      "id": "maia_treehouse",
+      "name": "Maia's garden oak and shared treehouse",
+      "source_facts": [
+        {
+          "file": "../revision/latest.md",
+          "kind": "source_prose",
+          "anchor": "The treehouse was built high among the sturdy branches of an old oak"
+        },
+        {
+          "file": "../revision/latest.md",
+          "kind": "source_prose",
+          "anchor": "The hollow underneath the structure had a second secret entrance"
+        }
+      ],
+      "canonical_references": [
+        {
+          "file": "../revision/Treehouse.png",
+          "role": "Author repository reference: old oak, raised room, ladder and lower hollow."
+        },
+        {
+          "file": "game/images/backgrounds/treehouse-shaded.png",
+          "role": "Approved production interior: governing room layout."
+        },
+        {
+          "file": "game/images/backgrounds/garden.png",
+          "role": "Approved production exterior derived from the interior."
+        }
+      ],
+      "invariants": [
+        {
+          "id": "tree-old-oak",
+          "authority": "source",
+          "text": "One old oak with sturdy load-bearing branches and a thick canopy, in the far corner of Maia's garden; distinct from the Tree of Echoes."
+        },
+        {
+          "id": "tree-two-levels",
+          "authority": "source",
+          "text": "A raised main room reached by an old ladder, and a separate lower hollow with a second secret entrance; the lower entrance does not replace the upper room."
+        },
+        {
+          "id": "tree-room-materials",
+          "authority": "source",
+          "text": "Patched timber, a wooden roof beneath the canopy, open window cutouts with scrap-fabric curtains, maps/drawings, cushions, blankets, a small wooden table and treasure boxes."
+        },
+        {
+          "id": "tree-exterior-handedness",
+          "authority": "production",
+          "text": "In the garden-wide camera, the broad upper room projects left of the massive right-hand trunk; its arched upper entrance is at the trunk/right end."
+        },
+        {
+          "id": "tree-connected-access",
+          "authority": "production",
+          "text": "The ladder connects the lower refuge to an opening in the upper landing beside the arched upper door. Door, landing and room floor occupy one connected upper level."
+        },
+        {
+          "id": "tree-ground-refuge",
+          "authority": "production",
+          "text": "The canonical garden-wide view has a broad rounded lower seating platform surrounding the hollow: cushions, low tables, maps and chests. Beds border this refuge; they do not replace its floor."
+        },
+        {
+          "id": "tree-interior-landmarks",
+          "authority": "production",
+          "text": "In the canonical interior camera, the massive diagonal trunk is left, the arched door behind it near the center-left, and repeated open viewing bays/branch rails/rust curtains extend across the right. The low round map table is near right foreground."
+        },
+        {
+          "id": "tree-weather-only",
+          "authority": "production",
+          "text": "Dry, rainy and remembrance background variants retain camera, trunk, door, beams, rails, table and cushion positions. Rain is outside the sheltered room; no glazing is added. Drawings/messages may be added in remembrance."
+        },
+        {
+          "id": "tree-human-scale",
+          "authority": "production",
+          "text": "Keep one consistent human-usable room, door, ladder and landing. A new camera may foreshorten them, but must not turn the upper room into a tiny trunk cupboard or a detached cottage."
+        },
+        {
+          "id": "tree-no-extra-buildings",
+          "authority": "production",
+          "text": "An image assigned to the canonical garden approach cannot add a new cluster of cottage-like tree buildings or a bridge route in place of the established ground path."
+        }
+      ],
+      "views": [
+        {
+          "id": "garden_wide",
+          "description": "Ground path looking toward the oak and both levels."
+        },
+        {
+          "id": "upper_interior_wide",
+          "description": "Inside the upper room looking past the trunk to the door and open viewing bays."
+        },
+        {
+          "id": "upper_interior_close",
+          "description": "A close view within the same upper room; landmarks outside the crop need not be visible."
+        },
+        {
+          "id": "upper_landing",
+          "description": "At the actual upper entrance reached by the ladder, with a connected safe landing and clear access into the broad room."
+        }
+      ]
+    },
+    {
+      "id": "maia_garden_beds",
+      "name": "Maia's planting beds and ground paths",
+      "source_facts": [
+        {
+          "file": "../revision/latest.md",
+          "kind": "source_prose",
+          "anchor": "one of my favorite activities was spending time in Maia's garden"
+        }
+      ],
+      "canonical_references": [
+        {
+          "file": "game/images/backgrounds/garden-close.png",
+          "role": "Ground path and planting-bed view."
+        },
+        {
+          "file": "game/images/backgrounds/garden.png",
+          "role": "Garden-to-oak relationship when the treehouse is visible."
+        }
+      ],
+      "invariants": [
+        {
+          "id": "garden-source",
+          "authority": "source",
+          "text": "Maia tends a varied garden with flowers, insects, places for planting and ponds. Different beds and light levels may appear; individual plant positions are not prose canon."
+        },
+        {
+          "id": "garden-path",
+          "authority": "production",
+          "text": "The established approach is a gently curving ground-level stone path through timber-edged beds, within an enclosed planted garden. It is not a newly invented elevated bridge neighborhood."
+        },
+        {
+          "id": "garden-dry-work",
+          "authority": "production",
+          "text": "Planting activities take place on broad dry ground; pots and tools stay within reach. Standing or kneeling people have support on the bank/path, not on water."
+        },
+        {
+          "id": "garden-palette",
+          "authority": "production",
+          "text": "Sheltered foliage, tactile wood/stone, and local natural-looking/artificial daylight with small warm light sources. No exposed space panorama before the story's reveal."
+        }
+      ],
+      "views": [
+        {
+          "id": "planting_close",
+          "description": "Local planting bed or garden detail; distant layout may be outside the frame."
+        },
+        {
+          "id": "garden_path",
+          "description": "A person-sized ground path through the established beds."
+        }
+      ]
+    },
+    {
+      "id": "garden_pond",
+      "name": "The production pond and dry working bank",
+      "source_facts": [
+        {
+          "file": "../revision/latest.md",
+          "kind": "source_prose",
+          "anchor": "The pond was shallow"
+        },
+        {
+          "file": "../revision/latest.md",
+          "kind": "source_prose",
+          "anchor": "a miniature water wheel to place in one of the garden's ponds"
+        }
+      ],
+      "canonical_references": [
+        {
+          "file": "game/images/backgrounds/book-one/garden-pond.png",
+          "role": "Basin, stone edge, boundary and vegetation."
+        },
+        {
+          "file": "game/images/backgrounds/book-one/garden-work-area.png",
+          "role": "Same basin from the wider dry working bank."
+        }
+      ],
+      "invariants": [
+        {
+          "id": "pond-shallow",
+          "authority": "source",
+          "text": "Lyra's fall is into a shallow small pond; Cali and Kael help her to its edge. The water-wheel project is later placed in one of the garden ponds."
+        },
+        {
+          "id": "pond-production-colocation",
+          "authority": "production",
+          "text": "These selected shots reuse one visual pond for economy; the manuscript does not specify that every pond event occurs at exactly one named basin."
+        },
+        {
+          "id": "pond-fixed-basin",
+          "authority": "production",
+          "text": "Preserve the low irregular stone basin, shallow visible pebbles, timber boundary/fence, plants and accessible bank from garden-pond.png."
+        },
+        {
+          "id": "pond-working-bank",
+          "authority": "production",
+          "text": "Use the dry stone working bank established by garden-work-area.png. No full-body standing cast on the narrow rim or water surface."
+        },
+        {
+          "id": "pond-rescue-physics",
+          "authority": "production",
+          "text": "During the rescue Lyra is wet and frightened; rescuers crouch on supported dry ground and reach her naturally. The recovery takes place on the dry bank beside the same water."
+        },
+        {
+          "id": "pond-wheel-scale",
+          "authority": "source",
+          "text": "The wheel is a miniature handmade project built by children with Arin's guidance; it is not a mill building or full-sized mechanism."
+        }
+      ],
+      "views": [
+        {
+          "id": "pond_wide",
+          "description": "Across the shallow stone basin."
+        },
+        {
+          "id": "working_bank",
+          "description": "Looking across dry ground with the pond behind or beside the cast."
+        },
+        {
+          "id": "water_edge_close",
+          "description": "Close to the low reachable stone edge during the rescue."
+        }
+      ]
+    },
+    {
+      "id": "central_plaza",
+      "name": "Central Plaza",
+      "source_facts": [
+        {
+          "file": "../revision/latest.md",
+          "kind": "source_prose",
+          "anchor": "Festival of Lights, held annually in the central plaza"
+        },
+        {
+          "file": "../revision/latest.md",
+          "kind": "source_prose",
+          "anchor": "The central plaza, usually a place of celebration and joy"
+        }
+      ],
+      "canonical_references": [
+        {
+          "file": "game/images/backgrounds/book-one/festival.png",
+          "role": "Production architecture and matching camera shared by all three gatherings."
+        }
+      ],
+      "invariants": [
+        {
+          "id": "plaza-source",
+          "authority": "source",
+          "text": "The central plaza hosts the annual Festival of Lights, Joren's community memorial, and later celebrations of his life. The festival has Selene's harp on a small stage; memorials have flowers/messages and gathered residents."
+        },
+        {
+          "id": "plaza-fixed-plan",
+          "authority": "production",
+          "text": "Across the selected matching camera: huge tree and curved staircase at left, central passage under the rear bridge, surrounding occupied residential terraces/arcades, and a low performance dais center-right."
+        },
+        {
+          "id": "plaza-crowd",
+          "authority": "source",
+          "text": "Gathered community members occupy the square. Do not portray the community-wide occasions as a nearly empty small courtyard."
+        },
+        {
+          "id": "plaza-event-dressing",
+          "authority": "production",
+          "text": "Festival lanterns and harp may give way to memorial flowers/messages or annual drawings; architecture, stage footprint and circulation remain fixed."
+        },
+        {
+          "id": "plaza-not-courtyard",
+          "authority": "production",
+          "text": "Cassia's community storytelling courtyard is a separate intimate venue, not another camera on the central plaza."
+        }
+      ],
+      "views": [
+        {
+          "id": "plaza_wide",
+          "description": "Tree/stair left, central passage rear, dais center-right, arcaded terraces around the crowd."
+        }
+      ]
+    },
+    {
+      "id": "community_courtyard",
+      "name": "Community storytelling courtyard",
+      "source_facts": [
+        {
+          "file": "../revision/latest.md",
+          "kind": "source_prose",
+          "anchor": "first time I met Cassia at a community gathering"
+        }
+      ],
+      "canonical_references": [
+        {
+          "file": "game/images/backgrounds/community-courtyard.png",
+          "role": "Small storytelling circle and organic arched enclosure; separate from Central Plaza."
+        }
+      ],
+      "invariants": [
+        {
+          "id": "courtyard-small-circle",
+          "authority": "production",
+          "text": "An intimate seated storytelling circle under rounded organic arches, surrounded by planting. Do not use it as the community-wide central plaza."
+        }
+      ],
+      "views": [
+        {
+          "id": "courtyard_wide",
+          "description": "Local gathering beneath organic arches."
+        },
+        {
+          "id": "courtyard_story_close",
+          "description": "Children and drawings within that same gathering."
+        }
+      ]
+    },
+    {
+      "id": "garden_mural",
+      "name": "Garden remembrance mural",
+      "source_facts": [
+        {
+          "file": "../revision/latest.md",
+          "kind": "source_prose",
+          "anchor": "I painted a mural in Maia's garden"
+        }
+      ],
+      "canonical_references": [
+        {
+          "file": "game/images/backgrounds/book-one/memory-mural-v2.png",
+          "role": "The selected garden wall with a visibly hand-painted memory."
+        }
+      ],
+      "invariants": [
+        {
+          "id": "mural-is-paint",
+          "authority": "source",
+          "text": "Joren and the imagined adventures are painted representations on the wall, not living people, a physical replacement treehouse, or a supernatural return."
+        }
+      ],
+      "views": [
+        {
+          "id": "mural_wall",
+          "description": "View of the painted garden wall; painted architecture is not used to infer the real building plan."
+        }
+      ]
+    },
+    {
+      "id": "lumen_neighborhood_path",
+      "name": "Planted neighborhood walkway in Lumen",
+      "source_facts": [
+        {
+          "file": "../revision/latest.md",
+          "kind": "source_prose",
+          "anchor": "It was a sprawling environment filled with interconnected pathways, lush gardens, and open plazas."
+        }
+      ],
+      "canonical_references": [
+        {
+          "file": "../revision/latest.md",
+          "role": "Source establishes varied interconnected community pathways; this shot is not assigned to Maia's particular garden."
+        }
+      ],
+      "production_reference": "HEAD 7b1c760 theme-path-friends: the author preferred its close composition and warm neighborhood view. Timber decking/rails/distant dwellings are illustration choices, not additional prose facts.",
+      "invariants": [
+        {
+          "id": "neighborhood-path-support",
+          "authority": "production",
+          "text": "Continuous timber walking surface and protective branch railings, with planted edges; bodies have credible support on the same route."
+        },
+        {
+          "id": "neighborhood-distinct",
+          "authority": "source_scope",
+          "text": "An exploratory neighborhood path. Do not identify distant dwellings as Maia's oak treehouse or require its room layout here."
+        }
+      ],
+      "views": [
+        {
+          "id": "close_trio_walk",
+          "description": "Close knee-up trio reading a map, with the supported timber path receding between plants and neighborhood dwellings."
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "TH-01",
+      "status": "resolved",
+      "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
+      "severity": "blocking",
+      "finding": "The doorway reads as a narrow trunk/cupboard passage rather than the established entrance into the broad upper room. Its framing leaves the real upper landing/room relationship unconvincing.",
+      "correction": "Rebuild this shot from treehouse-shaded.png (governing interior) and garden.png (exterior/access relationship), not from the defective arrival image. Put the children at the actual upper door; preserve human scale, door clearance, visible floor continuity into the broad upper room, and a supported landing. Keep the trunk and door on the correct side for the chosen declared camera. The separate ground hollow remains downstairs.",
+      "resolution": "Final warm close camera is inside the broad upper room: enormous diagonal oak at left, single real arched exterior entry behind the girls, continuous timber floor, open bays and branch rails on the right, map table at right foreground. The erroneous second door is absent; Joren touches the real bay post. Figures are cropped below thighs rather than shrunk to fit the whole room. Local iris proof preserves this geometry exactly."
+    },
+    {
+      "id": "TH-02",
+      "status": "resolved",
+      "file": "game/images/cg/book-one/theme-morning-outlook.png",
+      "severity": "blocking",
+      "finding": "The exterior replaces the established rounded lower refuge, cushions and chests with planting beds, and the cropped slim-looking trunk/tiny doorway loses the two-level refuge's believable scale.",
+      "correction": "Use garden.png as the edit base. Preserve the massive oak, broad upper room, right-side upper entrance and connected ladder, plus the rounded lower platform with cushions/chests/low tables and its separate hollow door. Add Cali and morning light within that unchanged layout; do not rebuild the background around her.",
+      "resolution": "Final foreground Calista stands nearer the camera on the garden route, with the building behind her: massive oak at right, broad raised room extending left, real upper entry beside trunk, connected ladder, separate lower hollow and lower sitting refuge with cushions/table/chests. Her closer portrait scale does not put a giant figure on the distant deck. Bright sunrise and detailed character presence are restored. Only64iris pixels changed after this geometry inspection."
+    },
+    {
+      "id": "TH-03",
+      "status": "resolved",
+      "file": "game/images/cg/book-one/theme-path-friends.png",
+      "severity": "blocking",
+      "finding": "The untracked approach adds cottage-like structures and a raised rail/bridge route, so it does not read as the established garden ground path and one oak refuge.",
+      "correction": "Use garden-close.png as the environmental base for the trio walking/reading a map. Keep a ground-level stone path and planting beds. Avoid extra cabin entrances or a new bridge complex. If the oak is visible, use garden.png for its fixed layout; otherwise leave it outside the frame.",
+      "resolution": "Corrected an unsupported location assignment rather than rewriting the source. This theme exploration shot is a distinct Lumen neighborhood path, consistent with Book I interconnected pathways. It does not depict Maia's garden oak or establish a second version of that building. Art quality and final pixel review remain separate."
+    }
+  ],
+  "assets": [
+    {
+      "file": "game/images/backgrounds/garden.png",
+      "location_id": "maia_treehouse",
+      "view_id": "garden_wide",
+      "story_scene_keys": [
+        "garden",
+        "lyra_included",
+        "treehouse"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "tree-old-oak",
+        "tree-two-levels",
+        "tree-exterior-handedness",
+        "tree-connected-access",
+        "tree-ground-refuge",
+        "tree-human-scale"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "e32d470defeda7faccd5e6fa1c08125faf9e60f818506e6cb15aae364725d243",
+      "findings": [],
+      "review_notes": "Governing exterior shows both levels and the full lower refuge; do not replace its floor with beds.",
+      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+    },
+    {
+      "file": "game/images/backgrounds/treehouse-shaded.png",
+      "location_id": "maia_treehouse",
+      "view_id": "upper_interior_wide",
+      "story_scene_keys": [
+        "cassia_grief",
+        "treehouse",
+        "treehouse_dispute"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "tree-room-materials",
+        "tree-interior-landmarks",
+        "tree-weather-only",
+        "tree-human-scale"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "9dcbc10785238d2c964cbc32b24451e63f8228173270c052394d8fe8bc74dda9",
+      "findings": [],
+      "review_notes": "Governing dry interior.",
+      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+    },
+    {
+      "file": "game/images/backgrounds/treehouse-rain.png",
+      "location_id": "maia_treehouse",
+      "view_id": "upper_interior_wide",
+      "story_scene_keys": [
+        "rain_refuge"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "tree-room-materials",
+        "tree-interior-landmarks",
+        "tree-weather-only",
+        "tree-human-scale"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "99e7ba8ea62daa5a42ad490a71dd33fa23204f958152f8d9fa9ae0491d3459f6",
+      "findings": [],
+      "review_notes": "Same camera and furniture with visible rain outside.",
+      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/treehouse-memory.png",
+      "location_id": "maia_treehouse",
+      "view_id": "upper_interior_wide",
+      "story_scene_keys": [
+        "treehouse_remembrance"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "tree-room-materials",
+        "tree-interior-landmarks",
+        "tree-weather-only",
+        "tree-human-scale"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "f90215045bf2a4c2262f9f18cda26b3cd98a4e5ad02ee2c668975e19c4802913",
+      "findings": [],
+      "review_notes": "Same rainy refuge; added drawings/messages do not relocate the room.",
+      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+    },
+    {
+      "file": "game/images/cg/book-one/treehouse-friends.png",
+      "location_id": "maia_treehouse",
+      "view_id": "upper_interior_close",
+      "story_scene_keys": [],
+      "closing_theme_starts": [
+        104.32
+      ],
+      "required_invariants": [
+        "tree-room-materials",
+        "tree-human-scale"
+      ],
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "5bf094774526bf79a5ffd6bdd7b9e1cf2b07c74a8dd0c42778b3b43a2892f318",
+      "findings": [],
+      "review_notes": "Final close table group retains the large left trunk, arched entry behind and open right viewing bays. Shared map table and cushions support the seated bodies; Cali has comparable peer torso/limbs. Final local iris retouches leave those room/body pixels identical to the inspected composition.",
+      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+    },
+    {
+      "file": "game/images/cg/book-one/cassia-comfort.png",
+      "location_id": "maia_treehouse",
+      "view_id": "upper_interior_close",
+      "story_scene_keys": [
+        "cassia_grief"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "tree-room-materials",
+        "tree-human-scale"
+      ],
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "0083b1675573b96c77f905f3daea75e48f8a02d151715ef02418ef080122acd0",
+      "findings": [],
+      "review_notes": "Seated girls beside the trunk; original door, right bays and near table remain visible.",
+      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-sketch-laughter.png",
+      "location_id": "maia_treehouse",
+      "view_id": "upper_interior_close",
+      "story_scene_keys": [],
+      "closing_theme_starts": [
+        136.24
+      ],
+      "required_invariants": [
+        "tree-room-materials",
+        "tree-human-scale"
+      ],
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "834fd2c8430fe29da8d504b36170d417e3a7bfff710d014b4a2e6229ae7d73d8",
+      "findings": [],
+      "review_notes": "Final close laughter/table crop retains compatible timber room, open bay and supported hands around the shared drawing. Anatomy correction restores a natural Cassia smile; local iris correction changes no room/table/hand pixels. Tight crop cannot certify offscreen floor geometry, and does not invent a second plan.",
+      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-evening-reading.png",
+      "location_id": "maia_treehouse",
+      "view_id": "upper_interior_close",
+      "story_scene_keys": [],
+      "closing_theme_starts": [
+        153.76
+      ],
+      "required_invariants": [
+        "tree-room-materials",
+        "tree-human-scale"
+      ],
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "3600e695c1bddaf867faa04d5f157faf323012e269626fcce8fa5aab247627fc",
+      "findings": [],
+      "review_notes": "Cali sits with a sketchbook on her lap beside cushions, shelf and open rail; no added desk or glazed window is established.",
+      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
+      "location_id": "maia_treehouse",
+      "view_id": "upper_interior_close",
+      "story_scene_keys": [],
+      "closing_theme_starts": [
+        75.44
+      ],
+      "required_invariants": [
+        "tree-room-materials",
+        "tree-human-scale",
+        "tree-interior-landmarks"
+      ],
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "7525e3f19fab329fb96b0ed6d1ac6c1aa06db608b8197ad8d7b83fbd3c5554a6",
+      "findings": [
+        "TH-01"
+      ],
+      "review_notes": "Final warm close camera is inside the broad upper room: enormous diagonal oak at left, single real arched exterior entry behind the girls, continuous timber floor, open bays and branch rails on the right, map table at right foreground. The erroneous second door is absent; Joren touches the real bay post. Figures are cropped below thighs rather than shrunk to fit the whole room. Local iris proof preserves this geometry exactly.",
+      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-morning-outlook.png",
+      "location_id": "maia_treehouse",
+      "view_id": "garden_wide",
+      "story_scene_keys": [],
+      "closing_theme_starts": [
+        164.08
+      ],
+      "required_invariants": [
+        "tree-two-levels",
+        "tree-exterior-handedness",
+        "tree-connected-access",
+        "tree-ground-refuge",
+        "tree-human-scale"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "61382b336aeb7c7989e7339855dbf89337e0f9c29ab5a90cbd04bb25b147834f",
+      "findings": [
+        "TH-02"
+      ],
+      "review_notes": "Final foreground Calista stands nearer the camera on the garden route, with the building behind her: massive oak at right, broad raised room extending left, real upper entry beside trunk, connected ladder, separate lower hollow and lower sitting refuge with cushions/table/chests. Her closer portrait scale does not put a giant figure on the distant deck. Bright sunrise and detailed character presence are restored. Only64iris pixels changed after this geometry inspection.",
+      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-path-friends.png",
+      "location_id": "lumen_neighborhood_path",
+      "view_id": "close_trio_walk",
+      "story_scene_keys": [],
+      "closing_theme_starts": [
+        43.76
+      ],
+      "required_invariants": [
+        "neighborhood-path-support",
+        "neighborhood-distinct"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "1fbaeeac453d40ad6761894b68b6955a332942fa29b02ae2be93934fbabde2f5",
+      "findings": [
+        "TH-03"
+      ],
+      "review_notes": "Final close trio walks on a continuous timber neighborhood route between protective branch rails and planted edges. The background dwellings are a distinct neighborhood view, not the Maia-garden treehouse. No unsupported garden-only assignment remains. Root inspected complete frame and local iris proof: recoloring changed no path, railing or body pixels.",
+      "reviewed_reference_signature": "0163a0b2260d0103907c4afae2cfa99d6e2d03acb0fb9dfdfcea784f06c337af"
+    },
+    {
+      "file": "game/images/backgrounds/garden-close.png",
+      "location_id": "maia_garden_beds",
+      "view_id": "planting_close",
+      "story_scene_keys": [
+        "family_rhythm",
+        "first_memory",
+        "garden"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "garden-source",
+        "garden-palette"
+      ],
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "4d6729bc69f1ca19f13bfc50015d2efc9ecdcb63ab269e889cf79ddd73f05c0a",
+      "findings": [],
+      "review_notes": "Canonical local ground path and planting area.",
+      "reviewed_reference_signature": "5c370d8e211fde8e5c97895a9a706802af6a55060ad15d3098e8516f5a41d404"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/garden-wonders.png",
+      "location_id": "maia_garden_beds",
+      "view_id": "planting_close",
+      "story_scene_keys": [],
+      "closing_theme_starts": [
+        10.4
+      ],
+      "required_invariants": [
+        "garden-source",
+        "garden-palette"
+      ],
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "7da2fab31aef36de1a6bde4bbd347193bffe79bd395d3fd6d26ff75c8b0b4aef",
+      "findings": [],
+      "review_notes": "Close flowers and path insert; the oak is outside the frame.",
+      "reviewed_reference_signature": "5c370d8e211fde8e5c97895a9a706802af6a55060ad15d3098e8516f5a41d404"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-garden-opening.png",
+      "location_id": "maia_garden_beds",
+      "view_id": "planting_close",
+      "story_scene_keys": [],
+      "closing_theme_starts": [
+        0
+      ],
+      "required_invariants": [
+        "garden-source",
+        "garden-palette"
+      ],
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "cc409a5fd4996cf8839252c402efda8ef611da9670e82426e2611b07ba531c51",
+      "findings": [],
+      "review_notes": "Close sunflower exploration; no contradictory building footprint visible.",
+      "reviewed_reference_signature": "5c370d8e211fde8e5c97895a9a706802af6a55060ad15d3098e8516f5a41d404"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-insect-discovery.png",
+      "location_id": "maia_garden_beds",
+      "view_id": "planting_close",
+      "story_scene_keys": [],
+      "closing_theme_starts": [
+        54.8
+      ],
+      "required_invariants": [
+        "garden-source",
+        "garden-palette"
+      ],
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8",
+      "findings": [],
+      "review_notes": "Close discovery among plants; no distant layout claim.",
+      "reviewed_reference_signature": "5c370d8e211fde8e5c97895a9a706802af6a55060ad15d3098e8516f5a41d404"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-nibble-moment.png",
+      "location_id": "maia_garden_beds",
+      "view_id": "planting_close",
+      "story_scene_keys": [],
+      "closing_theme_starts": [
+        65.36
+      ],
+      "required_invariants": [
+        "garden-source",
+        "garden-palette"
+      ],
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "c20617d52737079f8d91da956b3b0aa7c958cf87577696f32bb691c4576b1fb5",
+      "findings": [],
+      "review_notes": "Garden close-up with Cali and Nibble; no distant treehouse geometry claimed.",
+      "reviewed_reference_signature": "5c370d8e211fde8e5c97895a9a706802af6a55060ad15d3098e8516f5a41d404"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/garden-pond.png",
+      "location_id": "garden_pond",
+      "view_id": "pond_wide",
+      "story_scene_keys": [
+        "pond_scare"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "pond-shallow",
+        "pond-production-colocation",
+        "pond-fixed-basin"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
+      "findings": [],
+      "review_notes": "Canonical shallow basin and reachable stone edge.",
+      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/garden-work-area.png",
+      "location_id": "garden_pond",
+      "view_id": "working_bank",
+      "story_scene_keys": [
+        "plant_disagreement"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "pond-fixed-basin",
+        "pond-working-bank"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
+      "findings": [],
+      "review_notes": "Wider dry bank retains the basin, timber boundary and plant groups.",
+      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+    },
+    {
+      "file": "game/images/cg/book-one/garden-compromise.png",
+      "location_id": "garden_pond",
+      "view_id": "working_bank",
+      "story_scene_keys": [
+        "plant_disagreement"
+      ],
+      "closing_theme_starts": [
+        22.52
+      ],
+      "required_invariants": [
+        "pond-fixed-basin",
+        "pond-working-bank"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
+      "findings": [],
+      "review_notes": "Kneeling cast and pots are supported on the broad dry working area.",
+      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+    },
+    {
+      "file": "game/images/cg/book-one/pond-comfort.png",
+      "location_id": "garden_pond",
+      "view_id": "working_bank",
+      "story_scene_keys": [
+        "pond_scare"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "pond-fixed-basin",
+        "pond-working-bank"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "56074675442f5eee3db5506e1a0816d2fc52e385bdbc175518612d9a34fc6f43",
+      "findings": [],
+      "review_notes": "Restored strongest HEAD painting preserves the same stone-edged shallow basin and dry foreground. Cali kneels upright holding smaller Lyra; Kael squats farther back with boots on the paving and long arms resting on his knees. Barkley and Shadow have supporting paws on the dry bank. The lower Kael crown follows pose/depth; body enlargement was unnecessary and degraded fur/ground detail. Final97pixel iris correction leaves every supporting surface/body pixel identical.",
+      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-waterwheel-team.png",
+      "location_id": "garden_pond",
+      "view_id": "working_bank",
+      "story_scene_keys": [],
+      "closing_theme_starts": [
+        114.64
+      ],
+      "required_invariants": [
+        "pond-fixed-basin",
+        "pond-working-bank"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
+      "findings": [],
+      "review_notes": "Restored strongest HEAD painting retains the dry paved bank, stone basin, planted timber boundary, small working wheel/flow/spout, open sketchbook and tool boxes. Each child kneels on the bank; Cassia leans forward onto a hand, and Cali looks down at the wheel. Different crown heights follow supported poses. No image retouch is applied to this restored painting.",
+      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+    },
+    {
+      "file": "game/images/cg/book-one/pond-rescue.png",
+      "location_id": "garden_pond",
+      "view_id": "water_edge_close",
+      "story_scene_keys": [
+        "pond_scare"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "pond-shallow",
+        "pond-fixed-basin",
+        "pond-rescue-physics"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "0de515348590fbc8aff39736ad072e1c1c07d7ccb967fdd847dd5e4a75f009fb",
+      "findings": [],
+      "review_notes": "Final rescue retains supported knees/hands on the shallow stone edge, smaller Lyra in the water and accessible dry bank for the dog and cat. Only Calista iris pigment changes; Kael shaded sclera is preserved. Existing basin, timber boundary and planting landmarks are pixel-identical outside those63pixels.",
+      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/waterwheel.png",
+      "location_id": "garden_pond",
+      "view_id": "pond_wide",
+      "story_scene_keys": [
+        "waterwheel"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "pond-fixed-basin",
+        "pond-wheel-scale"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
+      "findings": [],
+      "review_notes": "Same basin with a small handmade wheel at the left bank.",
+      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/festival.png",
+      "location_id": "central_plaza",
+      "view_id": "plaza_wide",
+      "story_scene_keys": [
+        "festival_lights"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "plaza-fixed-plan",
+        "plaza-crowd",
+        "plaza-event-dressing",
+        "plaza-not-courtyard"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "0d1ddc42de15e46e839290310074c2db15d0ab5a25f000f2fb4882f236ffb141",
+      "findings": [],
+      "review_notes": "Canonical plaza footprint; gathered crowd, lanterns and Selene's harp on the dais.",
+      "reviewed_reference_signature": "b4cae3de53e8e913242d2dcf32e4a35a4a0e77b23e8725f8735443ff67af6d0a"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/memorial-plaza.png",
+      "location_id": "central_plaza",
+      "view_id": "plaza_wide",
+      "story_scene_keys": [
+        "community_memorial"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "plaza-fixed-plan",
+        "plaza-crowd",
+        "plaza-event-dressing",
+        "plaza-not-courtyard"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "242f9f11339c27d0f479a5280b58ed37e9df754030c490feca59c121c455167c",
+      "findings": [],
+      "review_notes": "Same tree/stair, rear passage, terraces and dais; flowers/messages and substantial community gathering.",
+      "reviewed_reference_signature": "b4cae3de53e8e913242d2dcf32e4a35a4a0e77b23e8725f8735443ff67af6d0a"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/remembrance-plaza.png",
+      "location_id": "central_plaza",
+      "view_id": "plaza_wide",
+      "story_scene_keys": [
+        "annual_remembrance"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "plaza-fixed-plan",
+        "plaza-crowd",
+        "plaza-event-dressing",
+        "plaza-not-courtyard"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "ad1667be4328b4763e5d9282528e40b042c4eb489de7633663169e551bb54495",
+      "findings": [],
+      "review_notes": "Same plaza footprint and inhabited terraces; anniversary drawings/messages replace festival dressing.",
+      "reviewed_reference_signature": "b4cae3de53e8e913242d2dcf32e4a35a4a0e77b23e8725f8735443ff67af6d0a"
+    },
+    {
+      "file": "game/images/backgrounds/community-courtyard.png",
+      "location_id": "community_courtyard",
+      "view_id": "courtyard_wide",
+      "story_scene_keys": [
+        "meeting_cassia"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "courtyard-small-circle"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "a02f53750be493a139f06a3811e3911736f9846aa6eb06de6e53342974f9f048",
+      "findings": [],
+      "review_notes": "Distinct small gathering space; not the central plaza.",
+      "reviewed_reference_signature": "93fc6183dd603c2de212f2ff3be2af1de247b3e4d68cb0090d47ca3b111171ad"
+    },
+    {
+      "file": "game/images/cg/book-one/cassia-storytelling.png",
+      "location_id": "community_courtyard",
+      "view_id": "courtyard_story_close",
+      "story_scene_keys": [
+        "meeting_cassia"
+      ],
+      "closing_theme_starts": [
+        89.88
+      ],
+      "required_invariants": [
+        "courtyard-small-circle"
+      ],
+      "review_status": "consistent_crop",
+      "reviewed_sha256": "74608e12c38015c5129b3c08db5af53d267d4e35b473857acf2d398d85ac3503",
+      "findings": [],
+      "review_notes": "Final courtyard storytelling circle retains its intimate audience, steps and rounded background openings. It is a separate smaller venue from the festival/memorial plaza. Calista31pixel iris correction leaves courtyard, listeners and props exactly unchanged.",
+      "reviewed_reference_signature": "93fc6183dd603c2de212f2ff3be2af1de247b3e4d68cb0090d47ca3b111171ad"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/memory-mural-v2.png",
+      "location_id": "garden_mural",
+      "view_id": "mural_wall",
+      "story_scene_keys": [
+        "mural_remembrance"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "mural-is-paint"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "38cb3dd1cfad04400f6fec8d971a4171a4eff513c26f9c1e507aefd9fceaba47",
+      "findings": [],
+      "review_notes": "Painted treehouse/adventure images are stylized memories, not replacement architecture.",
+      "reviewed_reference_signature": "e0de6e044f33d471586fa47c454a337d1b9f480f33c0dfa761175a7f4d381a79"
+    }
+  ]
+}

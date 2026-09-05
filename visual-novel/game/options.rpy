@@ -27,7 +27,7 @@ init -10 python:
         return None if persistent.reduced_motion else Fade(0.35, 0.15, 0.35)
 
 define config.name = "Astravus — Seeds of Youth"
-define config.version = "0.2.7"
+define config.version = "0.1-alpha"
 define ITCH_URL = "https://arcadiumgames.itch.io/astravus-calista"
 define ASTRAVUS_REPO_URL = "https://github.com/dgoldman0/Astravus"
 define CLOSING_THEME_URL = "https://suno.com/s/IoZ3kzpqJBFXAgJJ"
@@ -38,6 +38,7 @@ define config.has_sound = True
 define config.has_music = True
 define config.has_voice = False
 define config.main_menu_music = "audio/first_light.ogg"
+define config.main_menu_stop_channels = ["sound", "voice", "movie", "ambience", "closing_theme"]
 define config.default_music_volume = 0.32
 define config.default_sfx_volume = 0.4
 define config.default_text_cps = 38
@@ -73,11 +74,13 @@ init python:
     build.classify("game/cache/**", None)
     build.classify("game/saves/**", None)
     build.classify("game/testcases.rpy*", None)
+    build.classify("game/glossary_testcases.rpy*", None)
     build.classify("test-results/**", None)
     build.classify("tests/**", None)
     build.classify("scripts/**", None)
     build.classify("web/**", None)
     build.classify("docs/**", None)
+    build.classify("marketing/**", None)
     build.classify("build/**", None)
     build.classify("dist/**", None)
     build.classify("**.pyc", None)

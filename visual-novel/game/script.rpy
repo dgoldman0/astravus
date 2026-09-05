@@ -1,5 +1,6 @@
 # Adapted from revision/latest.md, Book I. See docs/ADAPTATION.md.
 # Say IDs are retained where possible; start fresh to review revised scene pacing.
+# Keep a cue running across adjacent scenes that share it; new cues still fade.
 label start:
     stop music fadeout 1.0
     $ met_cassia = False
@@ -16,7 +17,7 @@ label chapter_one:
     $ enter_scene("first_memory")
     scene cg first_memory
     with mood_transition()
-    play music "audio/first_light.ogg" fadein 2.0
+    play music "audio/first_light.ogg" fadein 2.0 if_changed
     call screen chapter_card("BOOK I", "Seeds of Youth", "Calista's childhood · A life remembered")
     $ remember_scene("first_memory")
 
@@ -37,12 +38,12 @@ label chapter_one:
     show nibble at nibble_home
     with mood_transition()
     n "Shadow watched from the sofa. Barkley came to meet us at the door. Nibble's tiny feet tickled when she ran across my hand." id opening_home_002
-    n "My parents' partnership was called a constellation. With Lyra's arrival, the five of them were raising three children." id opening_010
+    n "With Lyra's arrival, my parents' constellation had three children to raise together." id opening_010
     n "Arin's workshop hummed. Selene's music found its way under every door. Dorian could turn a question about breakfast into the history of an entire world." id opening_011
     n "Sage made sure everyone had their say. My older brother Kael usually had a plan; my younger sister Lyra usually had questions about it." id opening_012
     scene bg garden_close
     with mood_transition()
-    play ambience "audio/garden_air.ogg" fadein 2.0
+    play ambience "audio/garden_air.ogg" fadein 2.0 if_changed
     $ remember_scene("garden")
     n "And Maia had the garden." id opening_013
     n "It folded around our home: pond water, dark leaves, paths lit by little living lights. Beyond the garden wall, there were paths I had yet to follow." id opening_014
@@ -53,8 +54,8 @@ label chapter_one:
 label garden_lesson:
     $ enter_scene("garden")
     scene bg garden_close
-    play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0
-    play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0
+    play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     show maia at at_right
     show calista young at at_left
     with mood_transition()
@@ -97,8 +98,8 @@ label meeting_cassia:
     $ enter_scene("meeting_cassia")
     scene bg community_courtyard
     with mood_transition()
-    play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0
-    play ambience "audio/plaza_air.ogg" fadeout 1.5 fadein 1.5
+    play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play ambience "audio/plaza_air.ogg" fadeout 1.5 fadein 1.5 if_changed
     n "As I grew, I went farther from the garden. At one community gathering, I stopped to listen to a girl telling a story." id cassia_001
     n "A few children sat around her. I stayed at the edge, with my sketchbook held against my chest." id cassia_003
     show cassia young at at_right
@@ -136,8 +137,8 @@ label meeting_joren:
     $ enter_scene("meeting_joren")
     scene bg construction_path
     with mood_transition()
-    play music "audio/discovery_theme.ogg" fadeout 1.5 fadein 1.5
-    play ambience "audio/workshop_air.ogg" fadeout 1.5 fadein 1.5
+    play music "audio/discovery_theme.ogg" fadeout 1.5 fadein 1.5 if_changed
+    play ambience "audio/workshop_air.ogg" fadeout 1.5 fadein 1.5 if_changed
     n "I first met Joren in one of Lumen's construction zones. He came around the corner at the head of a group of children, laughing and calling for the others to catch up." id joren_002
     show joren young at at_right
     show calista young at at_left
@@ -171,8 +172,8 @@ label the_treehouse:
     $ enter_scene("treehouse")
     scene bg garden
     with mood_transition()
-    play music "audio/discovery_theme.ogg" fadeout 1.5 fadein 1.5
-    play ambience "audio/garden_air.ogg" fadein 2.0
+    play music "audio/discovery_theme.ogg" fadeout 1.5 fadein 1.5 if_changed
+    play ambience "audio/garden_air.ogg" fadein 2.0 if_changed
     play sound "audio/wood.wav"
     n "One afternoon I climbed up ahead of the others. Joren stopped on the landing to help Cassia with the last rung." id tree_001
     j "Remember the first time, Cali? You wouldn't look down." id tree_002
@@ -218,9 +219,9 @@ label the_treehouse:
     hide joren
 label chapter_rain_refuge:
     $ enter_scene("rain_refuge")
-    play music "audio/rain_refuge.ogg" fadeout 2.0 fadein 3.0
+    play music "audio/rain_refuge.ogg" fadeout 2.0 fadein 3.0 if_changed
     stop ambience fadeout 2.0
-    play ambience "audio/rain.ogg" fadein 3.0
+    play ambience "audio/rain.ogg" fadein 3.0 if_changed
     scene bg treehouse_rain
     with mood_transition()
     n "On rainy afternoons, we huddled under blankets while the drops pattered on the wooden roof." id rain_001

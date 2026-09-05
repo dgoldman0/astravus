@@ -60,7 +60,7 @@ The draft's repeated garden patience lesson, workshop learning, music practice a
 
 New connective details include sorting screws into three trays, the particular flower-placement negotiation, the children's interruptions in Sage's story, and waiting for a second pot of soup. These make the source developments playable; they introduce no new historical events, family members or world mechanics. The siblings in Sage's tale are fictional characters told by Sage, not new residents of Lumen.
 
-Environment art cannot show every hand movement. Actors are hidden for the flute performance, the close listening at the tree, the pond rescue, the lap-and-blanket bedtime story, and lantern release when a standing or held-prop sprite would contradict the action. Where an actor remains, clothing, age, mood and location must match the scene.
+Environment art cannot show every hand movement. The garden negotiation, flute playing/resting, pond rescue/recovery, courtyard storytelling, and two grief embraces have action illustrations. Standing actors are hidden for close listening at the tree, the lap-and-blanket bedtime story, and lantern release when that pose would contradict the action; speaker portraits identify speakers who are not already depicted. Where an actor remains, clothing, age, mood and location must match the scene.
 
 ## Integration checkpoints
 

@@ -91,7 +91,7 @@ screen main_menu():
         ypos 932
         spacing 12
         text "BOOK I   /   SEEDS OF YOUTH" style "eyebrow_text"
-        text "The complete first book · A kinetic novel · About 40–50 minutes · Alpha [config.version]" style "small_text" size 20
+        text "The complete first book · A kinetic novel · About 40–50 minutes · Version [config.version]" style "small_text" size 20
     text "01" xpos 1780 ypos 936 font "fonts/Story-Serif.ttf" size 64 color "#e6cf9b"
 
 style title_button:
@@ -151,6 +151,7 @@ screen quick_menu():
             textbutton "Auto" action Preference("auto-forward", "toggle")
             textbutton "Skip" action Skip() alternate Skip(fast=True, confirm=True)
             textbutton "People" action ShowMenu("people")
+            textbutton "Glossary" action ShowMenu("glossary")
             textbutton "Settings" action ShowMenu("preferences")
             if DEV_CHAPTER_SELECT:
                 textbutton "Chapters" action ShowMenu("dev_chapters")
@@ -162,7 +163,7 @@ style quick_button:
     padding (12, 11)
 
 style quick_button_text:
-    size 21
+    size 26
     color "#aebdb2"
     hover_color "#f4d698"
     selected_color "#f4d698"
@@ -236,6 +237,7 @@ screen book_menu(title):
             textbutton "Save" action ShowMenu("save")
             textbutton "History" action ShowMenu("history")
             textbutton "People" action ShowMenu("people")
+            textbutton "Glossary" action ShowMenu("glossary")
         textbutton "Load" action ShowMenu("load")
         textbutton "Settings" action ShowMenu("preferences")
         textbutton "How to read" action ShowMenu("help")
@@ -267,6 +269,10 @@ screen pause_menu():
 
 screen save():
     tag menu
+    # Save and Load share their selected page. Automatic slots cannot be
+    # overwritten manually, so return to a writable page when opening Save.
+    on "show" action If(FileCurrentPage() == "auto", FilePage(1), NullAction())
+    on "replace" action If(FileCurrentPage() == "auto", FilePage(1), NullAction())
     use file_slots("Save your place", saving=True)
 
 screen load():
@@ -279,7 +285,7 @@ screen file_slots(title, saving=False):
             spacing 22
             hbox:
                 spacing 18
-                textbutton "Automatic" action FilePage("auto")
+                textbutton "Automatic" action FilePage("auto") sensitive not saving
                 textbutton "Quick" action FilePage("quick")
                 for page in range(1, 4):
                     textbutton "[page]" action FilePage(page)
@@ -293,7 +299,7 @@ screen file_slots(title, saving=False):
                         background Solid("#1a3030")
                         hover_background Solid("#2c4240")
                         action FileAction(slot)
-                        sensitive saving or FileJson(slot, "book_id") == BOOK_SAVE_ID
+                        sensitive (saving and FileCurrentPage() != "auto") or (not saving and FileLoadable(slot) and FileJson(slot, "book_id") == BOOK_SAVE_ID)
                         key "save_delete" action FileDelete(slot)
                         vbox:
                             spacing 8
@@ -302,7 +308,7 @@ screen file_slots(title, saving=False):
                                 text "Earlier draft save" size 23
                             else:
                                 text FileTime(slot, format="%b %d · %H:%M", empty="Empty slot") size 23
-            text "Automatic saves keep each new scene. Manual saves keep your exact place." style "small_text"
+            text "Automatic saves keep the latest scene starts. Numbered pages keep your manual saves.\nAutomatic and Quick slots are reused as you continue reading." style "small_text" line_spacing 5
 
 screen preferences():
     tag menu
@@ -350,6 +356,7 @@ screen history():
             scrollbars "vertical"
             mousewheel True
             draggable True
+            pagekeys True
             yinitial 1.0
             vbox:
                 spacing 27
@@ -382,6 +389,7 @@ screen people():
                     scrollbars "vertical"
                     mousewheel True
                     draggable True
+                    pagekeys True
                     vbox:
                         spacing 4
                         for name in known_people + ["Lumen"]:
@@ -433,9 +441,13 @@ screen help():
             text "Book I tells one fixed story. There are no branching paths or timed choices." xmaximum 1210 size 32
             for control, description in [("Click · Enter · Space", "Reveal the current line, then move to the next."), ("Mouse wheel up · Page Up", "Return to an earlier line."), ("Escape · Right click", "Open or close the reading menu."), ("H", "Hide the interface to look at the illustration."), ("V", "Toggle self-voicing."), ("Touch", "Tap to read; use the bottom controls for menus and history.")]:
                 hbox:
-                    text control xsize 420 color "#d9bf8e" size 26
+                    spacing 30
+                    fixed:
+                        xsize 420
+                        yfit True
+                        text control color "#d9bf8e" size 26
                     text description xmaximum 825 size 26
-            text "Auto advances the text for you. Skip moves through previously read lines.\nSettings include larger text, stronger contrast, reduced motion, and separate sound controls." xmaximum 1250 style "small_text" line_spacing 8
+            text "Auto advances the text for you. Skip moves through previously read lines unless you enable unread skipping in Settings.\nUse arrow keys to move between menu buttons; Page Up and Page Down scroll lists and history.\nSettings include larger text, stronger contrast, reduced motion, and separate sound controls." xmaximum 1250 style "small_text" line_spacing 8
 
 screen about():
     tag menu
@@ -444,6 +456,7 @@ screen about():
             scrollbars "vertical"
             mousewheel True
             draggable True
+            pagekeys True
             vbox:
                 spacing 25
                 text "Astravus · Seeds of Youth" size 35 color "#d9bf8e"

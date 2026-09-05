@@ -2,34 +2,53 @@
 # Use positional transforms at call sites; do not add the legacy clean_sprite.
 # Palette, stage boundaries, and provenance: docs/CHARACTER_CONTINUITY.md.
 
-image calista young = Transform("images/characters/book-one/calista-young.png", ysize=730, fit="contain", mesh=True, shader="astravus.chroma_green")
-image cassia young = Transform("images/characters/book-one/cassia-young.png", ysize=740, fit="contain", mesh=True, shader="astravus.chroma_green")
-image joren young = Transform("images/characters/book-one/joren-young.png", ysize=770, fit="contain", mesh=True, shader="astravus.chroma_green")
+init -6 python:
+    import json
 
-image calista home = Transform("images/characters/book-one/calista-home.png", ysize=730, fit="contain", mesh=True, shader="astravus.chroma_green")
-image calista festival = Transform("images/characters/book-one/calista-festival.png", ysize=730, fit="contain", mesh=True, shader="astravus.chroma_green")
-image calista festive = Transform("images/characters/book-one/calista-festive.png", ysize=730, fit="contain", mesh=True, shader="astravus.chroma_green")
-image calista older = Transform("images/characters/book-one/calista-older.png", ysize=810, fit="contain", mesh=True, shader="astravus.chroma_green")
-image calista frustrated = Transform("images/characters/book-one/calista-frustrated.png", ysize=810, fit="contain", mesh=True, shader="astravus.chroma_green")
-image calista mourning = Transform("images/characters/book-one/calista-mourning.png", ysize=810, fit="contain", mesh=True, shader="astravus.chroma_green")
-image calista painting = Transform("images/characters/book-one/calista-painting.png", ysize=810, fit="contain", mesh=True, shader="astravus.chroma_green")
+    with renpy.file("character_layout.json") as layout_file:
+        CHARACTER_LAYOUT = json.load(layout_file)
 
-image cassia older = Transform("images/characters/book-one/cassia-older.png", ysize=820, fit="contain", mesh=True, shader="astravus.chroma_green")
-image cassia mourning = Transform("images/characters/book-one/cassia-mourning.png", ysize=820, fit="contain", mesh=True, shader="astravus.chroma_green")
-image joren older = Transform("images/characters/book-one/joren-older.png", ysize=835, fit="contain", mesh=True, shader="astravus.chroma_green")
-image joren frustrated = Transform("images/characters/book-one/joren-frustrated.png", ysize=835, fit="contain", mesh=True, shader="astravus.chroma_green")
+    def book_actor(path):
+        framing = CHARACTER_LAYOUT["actors"][path]
+        left, top, right, bottom = framing["bounds"]
+        # Keep the authored horizontal composition; remove only the variable
+        # padding above the hair and below the feet before applying body height.
+        # Fine translucent hair tips can vanish while shrinking the source. The
+        # reviewed correction is under 1%; native captures verify visible height.
+        source = (Transform(path, mesh=True, shader="astravus.chroma_green")
+                  if framing["key"] == "green" else path)
+        return Transform(source, crop=(0, top, framing["size"][0], bottom - top),
+                         ysize=int(round(CHARACTER_LAYOUT["heights"][framing["group"]] * framing["sampling_scale"])),
+                         fit="contain")
 
-image kael young = Transform("images/characters/book-one/kael-young.png", ysize=810, fit="contain", mesh=True, shader="astravus.chroma_green")
-image lyra young = Transform("images/characters/book-one/lyra-young.png", ysize=655, fit="contain", mesh=True, shader="astravus.chroma_green")
+image calista young = book_actor("images/characters/book-one/calista-young.png")
+image cassia young = book_actor("images/characters/book-one/cassia-young.png")
+image joren young = book_actor("images/characters/book-one/joren-young.png")
 
-image maia home = Transform("images/characters/book-one/maia-home.png", ysize=850, fit="contain", mesh=True, shader="astravus.chroma_green")
-image arin everyday = Transform("images/characters/book-one/arin-everyday.png", ysize=835, fit="contain", mesh=True, shader="astravus.chroma_green")
-image selene everyday = Transform("images/characters/book-one/selene-everyday.png", ysize=810, fit="contain", mesh=True, shader="astravus.chroma_green")
-image dorian everyday = Transform("images/characters/book-one/dorian-everyday.png", ysize=885, fit="contain", mesh=True, shader="astravus.chroma_green")
-image sage everyday = Transform("images/characters/book-one/sage-everyday.png", ysize=835, fit="contain", mesh=True, shader="astravus.chroma_green")
+image calista home = book_actor("images/characters/book-one/calista-home.png")
+image calista festival = book_actor("images/characters/book-one/calista-festival.png")
+image calista festive = book_actor("images/characters/book-one/calista-festive.png")
+image calista older = book_actor("images/characters/book-one/calista-older.png")
+image calista frustrated = book_actor("images/characters/book-one/calista-frustrated.png")
+image calista mourning = book_actor("images/characters/book-one/calista-mourning.png")
+image calista painting = book_actor("images/characters/book-one/calista-painting.png")
+
+image cassia older = book_actor("images/characters/book-one/cassia-older.png")
+image cassia mourning = book_actor("images/characters/book-one/cassia-mourning.png")
+image joren older = book_actor("images/characters/book-one/joren-older.png")
+image joren frustrated = book_actor("images/characters/book-one/joren-frustrated.png")
+
+image kael young = book_actor("images/characters/book-one/kael-young.png")
+image lyra young = book_actor("images/characters/book-one/lyra-young.png")
+
+image maia home = book_actor("images/characters/book-one/maia-home.png")
+image arin everyday = book_actor("images/characters/book-one/arin-everyday.png")
+image selene everyday = book_actor("images/characters/book-one/selene-everyday.png")
+image dorian everyday = book_actor("images/characters/book-one/dorian-everyday.png")
+image sage everyday = book_actor("images/characters/book-one/sage-everyday.png")
 
 # Supporting parents share the same portrait and compositing conventions.
-image thalia everyday = Transform("images/characters/book-one/thalia-everyday.png", ysize=845, fit="contain", mesh=True, shader="astravus.chroma_green")
-image lyron everyday = Transform("images/characters/book-one/lyron-everyday.png", ysize=880, fit="contain", mesh=True, shader="astravus.chroma_green")
-image soren everyday = Transform("images/characters/book-one/soren-everyday.png", ysize=830, fit="contain", mesh=True, shader="astravus.chroma_green")
-image kaleb everyday = Transform("images/characters/book-one/kaleb-everyday.png", ysize=880, fit="contain", mesh=True, shader="astravus.chroma_green")
+image thalia everyday = book_actor("images/characters/book-one/thalia-everyday.png")
+image lyron everyday = book_actor("images/characters/book-one/lyron-everyday.png")
+image soren everyday = book_actor("images/characters/book-one/soren-everyday.png")
+image kaleb everyday = book_actor("images/characters/book-one/kaleb-everyday.png")

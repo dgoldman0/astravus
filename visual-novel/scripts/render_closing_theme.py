@@ -8,10 +8,12 @@ Install imageio-ffmpeg==0.6.0 into .cache/video-tools, or set ASTRAVUS_FFMPEG.
 from __future__ import annotations
 
 import argparse
+import errno
 import hashlib
 import json
 import os
 from pathlib import Path
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -104,12 +106,13 @@ def title_overlay(path, width, height, data):
     overlay.save(path)
 
 
-def camera_filter(shot, width, height, frames):
+def camera_filter(shot, width, height, frames, move_start=0, move_end=None):
     """Sample a floating-point camera transform, avoiding zoompan's rounded crop."""
     z0, z1 = shot["zoom"]
     fx0, fy0 = shot["focus"]
     fx1, fy1 = shot.get("focus_to", shot["focus"])
-    progress = f"(on/{frames-1})"
+    move_end = frames - 1 if move_end is None else move_end
+    progress = f"clip((on-{move_start})/{move_end-move_start},0,1)"
     ease = f"({progress}*{progress}*(3-2*{progress}))"
     zoom = f"({z0}+({z1}-{z0})*{ease})"
     fx = f"({fx0}+({fx1}-{fx0})*{ease})"
@@ -127,29 +130,35 @@ def render(ffmpeg, source, output, data, width):
     height = width * 9 // 16
     assert height % 2 == 0, "Choose a 16:9 width with an even height (1280 or 1920)."
     fps, dissolve, total = data["fps"], data["dissolve"], data["duration"]
+    starts = [round(shot["at"] * fps) for shot in data["shots"]]
+    total_frames, blend_frames = round(total * fps), round(dissolve * fps)
     output.parent.mkdir(parents=True, exist_ok=True)
     # Temporary clips disappear after the render; only the current preview remains.
     with tempfile.TemporaryDirectory(prefix="closing-theme-", dir=PROJECT / ".cache") as scratch:
         scratch = Path(scratch)
         clips = []
         for index, shot in enumerate(data["shots"]):
-            end = data["shots"][index + 1]["at"] + dissolve if index + 1 < len(data["shots"]) else total
-            frames = round((end - shot["at"]) * fps)
+            next_start = starts[index + 1] if index + 1 < len(starts) else total_frames
+            frames = next_start - starts[index] + (blend_frames if index + 1 < len(starts) else 0)
+            move_start = blend_frames if index else round(data["fade_in"] * fps)
+            move_end = next_start - starts[index]
+            if index + 1 == len(starts):
+                move_end -= round(data["fade_out"] * fps)
             # Size the still once, cache it, then sample each camera frame.
             base = (f"scale={width}:{height}:force_original_aspect_ratio=increase:flags=lanczos,"
                     f"crop={width}:{height},format=yuv444p")
             loop = f"loop=loop=-1:size=1:start=0,setpts=N/({fps}*TB)"
-            camera = camera_filter(shot, width, height, frames)
+            camera = camera_filter(shot, width, height, frames, move_start, move_end)
             held = (shot["zoom"][0] == shot["zoom"][1]
                     and shot.get("focus_to", shot["focus"]) == shot["focus"])
             # A held composition only needs sampling once, before it is looped.
             filters = f"{base},{camera},{loop}" if held else f"{base},{loop},{camera}"
-            filters += ",setsar=1,format=yuv420p"
+            filters += ",setsar=1,format=yuv444p"
             clip = scratch / f"shot-{index:02}.mp4"
             print(f"Shot {index+1:02}/{len(data['shots'])}: {shot['label']}", flush=True)
             run(ffmpeg, "-filter_threads", "4", "-framerate", fps, "-i", PROJECT / "game" / shot["image"],
-                "-vf", filters, "-frames:v", frames, "-an", "-c:v", "libx264", "-preset", "fast",
-                "-crf", "18", "-threads", "4", clip)
+                "-vf", filters, "-frames:v", frames, "-an", "-c:v", "libx264", "-preset", "veryfast",
+                "-crf", "0", "-threads", "4", clip)
             clips.append(clip)
 
         overlay = scratch / "title.png"
@@ -162,8 +171,11 @@ def render(ffmpeg, source, output, data, width):
         last = "v0"
         for index in range(1, len(clips)):
             name = f"x{index}"
-            graph.append(f"[{last}][v{index}]xfade=transition=fade:duration={dissolve}:"
-                         f"offset={data['shots'][index]['at']}[{name}]")
+            # P runs from one to zero. Ease the mix itself, matching native
+            # playback, while both cameras hold their overlap compositions.
+            mix = "P*P*(3-2*P)"
+            graph.append(f"[{last}][v{index}]xfade=transition=custom:duration={dissolve}:"
+                         f"offset={starts[index]/fps}:expr='A*({mix})+B*(1-({mix}))'[{name}]")
             last = name
         audio_index = len(clips)
         title_index = audio_index + 1
@@ -178,9 +190,12 @@ def render(ffmpeg, source, output, data, width):
         filters.write_text(";\n".join(graph))
         print("Joining shots and attaching the supplied song…", flush=True)
         completed = scratch / "completed.mp4"
-        run(ffmpeg, "-filter_complex_threads", "1", *inputs, "-filter_complex_script", filters,
+        # Lossless temporary clips prevent repeated compression from making
+        # fine painted detail pulse at intermediate keyframes. Only this final
+        # delivery encode is lossy, and all temporary clips are removed.
+        run(ffmpeg, "-filter_complex_threads", "4", *inputs, "-filter_complex_script", filters,
             "-map", "[film]", "-map", f"{audio_index}:a:0", "-t", total,
-            "-r", fps, "-c:v", "libx264", "-preset", "fast", "-crf", "20", "-threads", "4",
+            "-r", fps, "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-threads", "4",
             "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", completed)
         print("Checking the complete video and audio streams…", flush=True)
         check = subprocess.run([ffmpeg, "-hide_banner", "-loglevel", "error", "-i", str(completed),
@@ -189,7 +204,20 @@ def render(ffmpeg, source, output, data, width):
         fields = dict(line.split("=", 1) for line in check.stdout.splitlines() if "=" in line)
         assert int(fields["frame"]) == round(total * fps), fields
         assert not check.stderr.strip(), check.stderr
-        completed.replace(output)
+        # --output may be on another filesystem. Stage beside the destination
+        # so replacement remains atomic after the complete stream check.
+        try:
+            completed.replace(output)
+        except OSError as error:
+            if error.errno != errno.EXDEV:
+                raise
+            with tempfile.NamedTemporaryFile(prefix=".closing-theme-", suffix=".mp4", dir=output.parent, delete=False) as staging:
+                staging_path = Path(staging.name)
+            try:
+                shutil.copyfile(completed, staging_path)
+                staging_path.replace(output)
+            finally:
+                staging_path.unlink(missing_ok=True)
     print(f"Preview: {output} ({output.stat().st_size/1024**2:.1f} MiB)", flush=True)
 
 

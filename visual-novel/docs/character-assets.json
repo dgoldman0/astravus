@@ -23,9 +23,9 @@
     },
     {
       "file": "game/images/characters/book-one/calista-festival.png",
-      "generation": "review-025-calista_paper_lantern",
+      "generation": "alpha-calista-festival-natural-proportions",
       "image": "calista festival",
-      "sha256": "4641c420de1915ca78ecc4305429a78bc88a16977f01956773f422100303bab9",
+      "sha256": "3a796e998447303d3006871047579793e47db85bebceef1ec0dca323601e29c7",
       "size": [
         1023,
         1537
@@ -37,7 +37,12 @@
         232,
         20
       ],
-      "draw_height": 730
+      "draw_height": 730,
+      "postprocess": {
+        "id": "alpha-calista-festival-masked-deep-blue-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "afd7e643203bb6d64b79a731cbfe7a599eb132db285cea3e462291a0069135f0"
+      }
     },
     {
       "file": "game/images/characters/book-one/calista-frustrated.png",
@@ -59,9 +64,9 @@
     },
     {
       "file": "game/images/characters/book-one/calista-home.png",
-      "generation": "calista-home-key-v1",
+      "generation": "alpha-calista-home-natural-proportions",
       "image": "calista home",
-      "sha256": "e932bd07b1487f2471bc21250a7517af71d2a84a00517a196f662ef0c647295a",
+      "sha256": "c89f5aa739a14a19b687842c9dc00c54cc2cae3fba101d6869c19a5134494d36",
       "size": [
         1023,
         1537
@@ -73,7 +78,12 @@
         239,
         22
       ],
-      "draw_height": 730
+      "draw_height": 730,
+      "postprocess": {
+        "id": "alpha-calista-home-masked-deep-blue-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "dc4054c1811f2656d3e0f81945e60600fa4d434ddbf60590a5552539b26f94b7"
+      }
     },
     {
       "file": "game/images/characters/book-one/calista-mourning.png",
@@ -131,12 +141,12 @@
     },
     {
       "file": "game/images/characters/book-one/calista-young.png",
-      "generation": "calista-young-key-v1",
+      "generation": "alpha-calista-young-natural-proportions",
       "image": "calista young",
-      "sha256": "aa34221f459a1729fd2aefece28fbdd38a350b1ed4a6189848e596a7c4899f04",
+      "sha256": "75649a7bc527427ab83e01d4b65749e9207562dadc9e36e0d9d4ce6cc1c541aa",
       "size": [
-        1021,
-        1540
+        1022,
+        1538
       ],
       "mode": "RGB",
       "background": "saturated green, composited by astravus.chroma_green",
@@ -145,7 +155,12 @@
         239,
         21
       ],
-      "draw_height": 730
+      "draw_height": 730,
+      "postprocess": {
+        "id": "alpha-calista-young-masked-deep-blue-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "aa8525e9cb554dfae794da7579c801303760e5e2443e0b55961f7abd01b4fa59"
+      }
     },
     {
       "file": "game/images/characters/book-one/cassia-mourning.png",
@@ -405,13 +420,18 @@
     },
     {
       "file": "game/images/characters/book-one/calista-festive.png",
-      "generation": "review-025-calista_festive",
-      "sha256": "de762d14dda9368a3015b601e97a368b2e10a58302481ef08ec03f0bff9fd782",
+      "generation": "alpha-calista-festive-natural-proportions",
+      "sha256": "ae6808ba84ca5d16f87353f5ecac1aca111fd1531d9933b1a794f4e3f15e350c",
       "size": [
         1023,
         1537
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-calista-festive-masked-deep-blue-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "545ccdc3e15f760e6a295782e65fc28c45d2c3e23bf27398631b72b5c2e9ce77"
+      }
     }
   ],
   "generations": [
@@ -556,7 +576,7 @@
     {
       "id": "calista-home-key-v1",
       "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including white hair and eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
-      "selected": true,
+      "selected": false,
       "references": [
         "generation:calista-home-v1"
       ],
@@ -709,7 +729,7 @@
     {
       "id": "calista-young-key-v1",
       "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact young child from this image: identical recognizable face, age, expression, pose, body proportions, hairstyle and individual fine strands, natural skin and eye color, exact clothing, fabric folds, boots, held objects, warm painterly lighting, and FULL BODY portrait framing. Do not age this character or change their design. Replace ONLY the white/gray checkerboard around the child and through all gaps between limbs/hair/fingers with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green extends uniformly to all four edges, no gradient, shadow, floor, pattern or backdrop texture. No green glow, spill, reflection or color cast on the person. Background must be SOLID PURE GREEN, not transparency, not checkerboard. Keep clean natural silhouette edges, don't crop any hair/boots. No text, logos, new props or scenery.",
-      "selected": true,
+      "selected": false,
       "references": [
         "generation:calista-v2"
       ],
@@ -803,7 +823,7 @@
         "generation:calista-festival-key-v1"
       ],
       "output_id": "exec-c662b418-0d97-4eba-a835-109bdbdb6021",
-      "selected": true
+      "selected": false
     },
     {
       "id": "review-025-calista_paper_lantern",
@@ -812,13 +832,57 @@
         "generation:calista-festival-key-v1"
       ],
       "output_id": "exec-f3c801f6-1d04-4196-b141-2e6ac97d217e",
+      "selected": false
+    },
+    {
+      "id": "alpha-calista-young-natural-proportions",
+      "prompt": "Use case: identity-preserve. Asset type: existing visual-novel full-body child sprite on a solid chroma-green background.\nEDIT IMAGE 1 ONLY. Image 2 (older Cali) and image 3 (mourning Cali) are supporting references for restrained human eye proportions and dimensional painterly facial rendering, not references for age, expression, outfit or pose.\nPrimary request: make a small, careful facial-proportion correction to young Calista in image 1. Her eyes currently look oversized and doll-like. Reduce the eye openings and oversized irises moderately to natural human child proportions, keeping the same gaze and gentle expression. Both irises must be clearly deep blue, with subtle small highlights, natural sclera and softly modeled eyelids. Retain the same young child's identity and age, round youthful cheeks, light olive complexion, freckles over nose and cheeks, chestnut-brown wavy hair, and existing nose and mouth. Maintain painterly detail, warm facial midtones and dimensional cheeks; no flat cartoon outlines and no glossy plastic skin.\nPreserve image 1's entire existing composition, canvas framing, full-body size and placement, silhouette, hand anatomy, stance, clothing, props, hair arrangement and lighting. Specifically retain brown gardening overalls and beige blouse, book hanging from her hand, same half-up loose hair and bow. Show the complete boots and full hair exactly as framed. Preserve the uniform vivid green matte across every background area, including between limbs and hair: no scenery, floor, shadows, gradient, frame or transparency. This is a face-only refinement, not a character redesign, new pose, costume change, or aging-up. Keep every part outside the face unchanged as closely as possible. Return one single full-body portrait sprite, same aspect ratio and framing as image 1; no text, labels, comparison panels or added objects.",
+      "references": [
+        "generation:calista-young-key-v1",
+        "generation:calista-older-key-v1",
+        "generation:calista-mourning-key-v1"
+      ],
+      "output_id": "exec-c03a6eb2-0944-4f6d-8f0d-b71026b16595",
+      "selected": true
+    },
+    {
+      "id": "alpha-calista-home-natural-proportions",
+      "prompt": "Use case: identity-preserve. Asset type: existing visual-novel full-body child sprite on a solid chroma-green background.\nEDIT IMAGE 1 ONLY. Image 2 (older Cali) and image 3 (mourning Cali) are supporting references for restrained human eye proportions and dimensional painterly facial rendering, not references for age, expression, outfit or pose.\nPrimary request: make a small, careful facial-proportion correction to young Calista in image 1. Her eyes currently look oversized and doll-like. Reduce the eye openings and oversized irises moderately to natural human child proportions, keeping the same gaze and gentle expression. Both irises must be clearly deep blue, with subtle small highlights, natural sclera and softly modeled eyelids. Retain the same young child's identity and age, round youthful cheeks, light olive complexion, freckles over nose and cheeks, chestnut-brown wavy hair, and existing nose and mouth. Maintain painterly detail, warm facial midtones and dimensional cheeks; no flat cartoon outlines and no glossy plastic skin.\nPreserve image 1's entire existing composition, canvas framing, full-body size and placement, silhouette, hand anatomy, stance, clothing, props, hair arrangement and lighting. Specifically retain blue-gray home tunic, brown sash and trousers, same side braid, hands resting together. Show the complete boots and full hair exactly as framed. Preserve the uniform vivid green matte across every background area, including between limbs and hair: no scenery, floor, shadows, gradient, frame or transparency. This is a face-only refinement, not a character redesign, new pose, costume change, or aging-up. Keep every part outside the face unchanged as closely as possible. Return one single full-body portrait sprite, same aspect ratio and framing as image 1; no text, labels, comparison panels or added objects.",
+      "references": [
+        "generation:calista-home-key-v1",
+        "generation:calista-older-key-v1",
+        "generation:calista-mourning-key-v1"
+      ],
+      "output_id": "exec-023009ed-b722-4faf-baad-0397e4746048",
+      "selected": true
+    },
+    {
+      "id": "alpha-calista-festival-natural-proportions",
+      "prompt": "Use case: identity-preserve. Asset type: existing visual-novel full-body child sprite on a solid chroma-green background.\nEDIT IMAGE 1 ONLY. Image 2 (older Cali) and image 3 (mourning Cali) are supporting references for restrained human eye proportions and dimensional painterly facial rendering, not references for age, expression, outfit or pose.\nPrimary request: make a small, careful facial-proportion correction to young Calista in image 1. Her eyes currently look oversized and doll-like. Reduce the eye openings and oversized irises moderately to natural human child proportions, keeping the same gaze and gentle expression. Both irises must be clearly deep blue, with subtle small highlights, natural sclera and softly modeled eyelids. Retain the same young child's identity and age, round youthful cheeks, light olive complexion, freckles over nose and cheeks, chestnut-brown wavy hair, and existing nose and mouth. Maintain painterly detail, warm facial midtones and dimensional cheeks; no flat cartoon outlines and no glossy plastic skin.\nPreserve image 1's entire existing composition, canvas framing, full-body size and placement, silhouette, hand anatomy, stance, clothing, props, hair arrangement and lighting. Specifically retain navy embroidered festival outfit and plum leggings, holding the glowing paper lantern with both hands, same small flower in hair. Show the complete boots and full hair exactly as framed. Preserve the uniform vivid green matte across every background area, including between limbs and hair: no scenery, floor, shadows, gradient, frame or transparency. This is a face-only refinement, not a character redesign, new pose, costume change, or aging-up. Keep every part outside the face unchanged as closely as possible. Return one single full-body portrait sprite, same aspect ratio and framing as image 1; no text, labels, comparison panels or added objects.",
+      "references": [
+        "generation:review-025-calista_paper_lantern",
+        "generation:calista-older-key-v1",
+        "generation:calista-mourning-key-v1"
+      ],
+      "output_id": "exec-19f031d8-a783-4a7a-8701-f063befa45d0",
+      "selected": true
+    },
+    {
+      "id": "alpha-calista-festive-natural-proportions",
+      "prompt": "Use case: identity-preserve. Asset type: existing visual-novel full-body child sprite on a solid chroma-green background.\nEDIT IMAGE 1 ONLY. Image 2 (older Cali) and image 3 (mourning Cali) are supporting references for restrained human eye proportions and dimensional painterly facial rendering, not references for age, expression, outfit or pose.\nPrimary request: make a small, careful facial-proportion correction to young Calista in image 1. Her eyes currently look oversized and doll-like. Reduce the eye openings and oversized irises moderately to natural human child proportions, keeping the same gaze and gentle expression. Both irises must be clearly deep blue, with subtle small highlights, natural sclera and softly modeled eyelids. Retain the same young child's identity and age, round youthful cheeks, light olive complexion, freckles over nose and cheeks, chestnut-brown wavy hair, and existing nose and mouth. Maintain painterly detail, warm facial midtones and dimensional cheeks; no flat cartoon outlines and no glossy plastic skin.\nPreserve image 1's entire existing composition, canvas framing, full-body size and placement, silhouette, hand anatomy, stance, clothing, props, hair arrangement and lighting. Specifically retain navy embroidered festival outfit and plum leggings, hands folded without a lantern, same small flower in hair. Show the complete boots and full hair exactly as framed. Preserve the uniform vivid green matte across every background area, including between limbs and hair: no scenery, floor, shadows, gradient, frame or transparency. This is a face-only refinement, not a character redesign, new pose, costume change, or aging-up. Keep every part outside the face unchanged as closely as possible. Return one single full-body portrait sprite, same aspect ratio and framing as image 1; no text, labels, comparison panels or added objects.",
+      "references": [
+        "generation:review-025-calista_festive",
+        "generation:calista-older-key-v1",
+        "generation:calista-mourning-key-v1"
+      ],
+      "output_id": "exec-d7ea837f-94fa-41ea-b255-6b70633abc77",
       "selected": true
     }
   ],
   "tool": "Built-in OpenAI image_gen (no CLI/API fallback)",
   "reference_path_base": "Astravus repository root",
   "runtime_path_base": "visual-novel",
-  "note": "Generated PNGs preserved unmodified. Requested alpha was not delivered, so selected actors use generated saturated-green backgrounds composited at runtime. Corner color measurements reflect actual output rather than the exact requested green. Wardrobes and visual age bands are adaptation design choices, not newly asserted canonical ages.",
+  "note": "Generated artwork provenance is retained. Selected assets with postprocess records have author-authorized, tightly masked deterministic iris corrections documented in iris-retouches.json; all other pixels are unchanged. Saturated-green backings are composited at runtime. Wardrobes and visual age bands are production choices, not new canonical ages.",
   "canonical_sources": [
     "revision/latest.md",
     "wiki/bios/Calista.md",

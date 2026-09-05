@@ -16,10 +16,20 @@ init python:
         gl_FragColor *= 1.0 - key;
     """)
 
+    def familiar_surface_position(x, y, height):
+        if renpy.showing("bg construction_room"):
+            # The generic path coordinates cross the equipment shelves here.
+            return {820: (820, 870, 185), 1090: (1150, 915, 310),
+                    670: (735, 860, 90)}.get(x, (x, y, height))
+        if renpy.showing("bg music_room") and (x, y, height) == (910, 735, 90):
+            # Nibble scurries past on the floor, below the piano bench.
+            return (910, 825, 90)
+        return (x, y, height)
+
 transform familiar_at(x, y, height):
     anchor (0.5, 1.0)
-    pos (x, y)
-    ysize height
+    pos familiar_surface_position(x, y, height)[:2]
+    ysize familiar_surface_position(x, y, height)[2]
     fit "contain"
 
 # Home: Shadow on the sofa, Barkley by the open door, Nibble on the table.
@@ -34,10 +44,14 @@ transform nibble_home:
 
 # Open foreground between the standing children, clear of their faces/hands.
 transform shadow_path:
-    familiar_at(820, 760, 225)
+    # Construction has no floor at the generic waist-high display line. The
+    # companions sit on the foreground paving; Nibble can use the work ledge.
+    familiar_at(*((835, 1020, 165) if renpy.showing("bg construction_path") else (820, 760, 225)))
 
 transform barkley_path:
-    familiar_at(1090, 780, 335)
+    familiar_at(*((1040, 1030, 300) if renpy.showing("bg construction_path") else (1090, 780, 335)))
 
 transform nibble_path:
-    familiar_at(670, 755, 90)
+    # Passing the resolved tuple also restarts this transform on a location
+    # change; reusing identical ATL arguments can preserve its previous pose.
+    familiar_at(*familiar_surface_position(670, 755, 90))

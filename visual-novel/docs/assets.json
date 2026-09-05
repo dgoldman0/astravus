@@ -98,23 +98,33 @@
     },
     {
       "file": "game/images/cg/book-one/flute-playing.png",
-      "generation": "review-027-flute-playing",
-      "sha256": "5cda82349822762bfdae599b5f34af1b8e54df350ccdafd162e3ed107ddba1cb",
+      "generation": "alpha-flute-playing",
+      "sha256": "8f44a837334af47ec5081cd04a4ab65087faca327fb278127ea3062214d109c1",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-flute-playing-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "a52572bf98539108b5df61ebc4997dbec0a0942536b61f74c23f9772d98d4e6c"
+      }
     },
     {
       "file": "game/images/cg/book-one/cassia-storytelling.png",
-      "generation": "review-027-cassia-storytelling",
-      "sha256": "7306626a47d300eba4774c3e3edc8ea11659e677ace41e423a38a6db4ce8753f",
+      "generation": "alpha-cassia-storytelling",
+      "sha256": "74608e12c38015c5129b3c08db5af53d267d4e35b473857acf2d398d85ac3503",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-cassia-storytelling-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "f38fa65197542ee7784d837b4b78a6d80c388e5121490a67063d54d97367d464"
+      }
     },
     {
       "file": "game/images/cg/book-one/family-embrace.png",
@@ -138,8 +148,8 @@
     },
     {
       "file": "game/images/cg/book-one/garden-compromise.png",
-      "generation": "review-027-garden-compromise",
-      "sha256": "234d315ea633c3f7b229cdf7fbf6dc45196b267f7c555c968ef566e5ccf2036d",
+      "generation": "alpha-garden-compromise",
+      "sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
       "size": [
         1672,
         941
@@ -148,48 +158,68 @@
     },
     {
       "file": "game/images/cg/book-one/flute-rest.png",
-      "generation": "review-027-flute-rest",
-      "sha256": "89174c2fd8bced16be2e70b2fa0908131ff226c64691fb2c7f4fe4522e11b717",
+      "generation": "alpha-flute-rest",
+      "sha256": "7554e2418496049f96c44d83b65460e9cc79a038f902ff2639ab6648215ae521",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-flute-rest-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "6f82d14787a3b1b79a6d56d29191a32b72f9dcda872754ba19809940185b350c"
+      }
     },
     {
       "file": "game/images/cg/book-one/pond-rescue.png",
-      "generation": "review-027-pond-rescue",
-      "sha256": "cf7ae473c623c5c9d42f7aa76d28c3022e30a3499f455fce4ed95ce2c4165f47",
+      "generation": "alpha-pond-rescue",
+      "sha256": "0de515348590fbc8aff39736ad072e1c1c07d7ccb967fdd847dd5e4a75f009fb",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-pond-rescue-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "0f03cf6a30bd3d24bc7744a475eb4cd06eefdbef94ba0521e7beb375900abd5e"
+      }
     },
     {
       "file": "game/images/cg/book-one/pond-comfort.png",
       "generation": "review-027-pond-comfort",
-      "sha256": "55ee6da13f6da16add60ed3bb23488a937d334aba86bb55ec0caf9f4c899e88b",
+      "sha256": "56074675442f5eee3db5506e1a0816d2fc52e385bdbc175518612d9a34fc6f43",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-pond-comfort-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "7ab054ec35e0f5b1198366d17492b649d69cba3c523dd26f160d44250147d7c9"
+      }
     },
     {
       "file": "game/images/cg/book-one/treehouse-friends.png",
-      "generation": "theme-027-treehouse-friends",
-      "sha256": "8bc33126d7622c886f4192ce5164042dc1afb23f051cd80e4768ba6577e61bb4",
+      "generation": "alpha-scale-treehouse-friends",
+      "sha256": "5bf094774526bf79a5ffd6bdd7b9e1cf2b07c74a8dd0c42778b3b43a2892f318",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-treehouse-friends-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "9bc21bc48da67b380930c079c7e7fa9b6d1a86724aa136910e18d6ef6e9ea109"
+      }
     },
     {
       "file": "game/images/cg/book-one/theme-garden-opening.png",
-      "generation": "theme-recut-garden-opening",
-      "sha256": "221ab812750eb151a2951c580f6d3cf83ada29b185a4f444c2a917ed5981716f",
+      "generation": "alpha-opening-consistency",
+      "sha256": "cc409a5fd4996cf8839252c402efda8ef611da9670e82426e2611b07ba531c51",
       "size": [
         1672,
         941
@@ -198,18 +228,23 @@
     },
     {
       "file": "game/images/cg/book-one/theme-path-friends.png",
-      "generation": "theme-recut-path-friends",
-      "sha256": "701b570bdcbb3017500aeac49a4f2496a806a0c519a7f9bc444f0172ba314701",
+      "generation": "alpha-path-close-stature",
+      "sha256": "1fbaeeac453d40ad6761894b68b6955a332942fa29b02ae2be93934fbabde2f5",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-theme-path-friends-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "92a6428246638a29d26d831fd77100d75627543ab6f7dd1cd5b34086cc15913b"
+      }
     },
     {
       "file": "game/images/cg/book-one/theme-insect-discovery.png",
-      "generation": "theme-recut-insects",
-      "sha256": "55c996f0201bac1ebe68e80c54fc3290a60fb2d5985e9f795192a53fb39d9fa6",
+      "generation": "alpha-theme-insect-discovery",
+      "sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8",
       "size": [
         1672,
         941
@@ -218,8 +253,8 @@
     },
     {
       "file": "game/images/cg/book-one/theme-nibble-moment.png",
-      "generation": "theme-recut-nibble",
-      "sha256": "b8c14b4b8bb0e9c1a5963695ee6553f00e2598a0f060962cc9cb4af6c36f1eb3",
+      "generation": "alpha-nibble-consistency",
+      "sha256": "c20617d52737079f8d91da956b3b0aa7c958cf87577696f32bb691c4576b1fb5",
       "size": [
         1672,
         941
@@ -228,13 +263,18 @@
     },
     {
       "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
-      "generation": "theme-recut-treehouse-arrival",
-      "sha256": "98c951189682002a37f383c882a484336ae0ffafb77fd63da0f729af157aa85a",
+      "generation": "alpha-theme-arrival-quality",
+      "sha256": "7525e3f19fab329fb96b0ed6d1ac6c1aa06db608b8197ad8d7b83fbd3c5554a6",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-theme-treehouse-arrival-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "7f065fc0f13a4c59658ac0592e61931b93140cb9606130e0caac7096406442bf"
+      }
     },
     {
       "file": "game/images/cg/book-one/theme-waterwheel-team.png",
@@ -248,28 +288,38 @@
     },
     {
       "file": "game/images/cg/book-one/theme-dome-friends.png",
-      "generation": "theme-recut-dome",
-      "sha256": "6326a3caffc664b67e718d7fdcc22b5e18dbb488810c081ab6fa9a561ecc1fce",
+      "generation": "alpha-scale-theme-dome-friends",
+      "sha256": "9ee19cb65c68b41d5e03f3c6cf40d6fe617c6d0db3abe7ce6774a7e0da3611c1",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-theme-dome-friends-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "5d7eaac1819f2fa2914a283cab3081e3fa6e228411f53ada531fda6fb9ef42ea"
+      }
     },
     {
       "file": "game/images/cg/book-one/theme-sketch-laughter.png",
-      "generation": "theme-recut-sketch",
-      "sha256": "b626013012f9ad310b02ebb951f475f3eadd58479b90dcd5a7ba2e5968b841f8",
+      "generation": "alpha-face-theme-sketch-laughter",
+      "sha256": "834fd2c8430fe29da8d504b36170d417e3a7bfff710d014b4a2e6229ae7d73d8",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-theme-sketch-laughter-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "f4bf7c7a0658c2f49f5055488a0c4b5d2de61158d744108ea6bcae3c2307d14d"
+      }
     },
     {
       "file": "game/images/cg/book-one/theme-evening-reading.png",
-      "generation": "theme-recut-evening",
-      "sha256": "6901aac172f7744449c32f787be668859c6345a86120c917b2fb6323562569f9",
+      "generation": "alpha-theme-evening-reading",
+      "sha256": "3600e695c1bddaf867faa04d5f157faf323012e269626fcce8fa5aab247627fc",
       "size": [
         1672,
         941
@@ -278,13 +328,18 @@
     },
     {
       "file": "game/images/cg/book-one/theme-morning-outlook.png",
-      "generation": "theme-recut-morning",
-      "sha256": "45698baaf81a6583cd0c7fa03d06c5e8d2c39d55c9bbed752b086e8c73bfab5f",
+      "generation": "alpha-theme-morning-quality",
+      "sha256": "61382b336aeb7c7989e7339855dbf89337e0f9c29ab5a90cbd04bb25b147834f",
       "size": [
-        1672,
-        941
+        1680,
+        936
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "postprocess": {
+        "id": "alpha-theme-morning-outlook-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "3f0c5627a739fa2cc5188e4d8b22b002b7af99306b4683838070326ec5761be9"
+      }
     }
   ],
   "generations": [
@@ -490,7 +545,7 @@
         "generation:selene-everyday-key-v1"
       ],
       "output_id": "exec-8ec13d8b-977f-4873-b31e-17027c7c4c4f",
-      "selected": true
+      "selected": false
     },
     {
       "id": "review-027-cassia-storytelling",
@@ -501,7 +556,7 @@
         "generation:review-025-cassia_young"
       ],
       "output_id": "exec-e263021d-f507-4006-9e9f-3107dde6bcea",
-      "selected": true
+      "selected": false
     },
     {
       "id": "review-027-family-embrace",
@@ -535,7 +590,7 @@
         "generation:maia-home-key-v1"
       ],
       "output_id": "exec-8cbb8f65-582b-4bc5-8b57-1443419f63fb",
-      "selected": true
+      "selected": false
     },
     {
       "id": "review-027-flute-rest",
@@ -544,7 +599,7 @@
         "generation:review-027-flute-playing"
       ],
       "output_id": "exec-908e12db-adf1-45b0-8eeb-0761223073fa",
-      "selected": true
+      "selected": false
     },
     {
       "id": "review-027-pond-rescue",
@@ -557,7 +612,7 @@
         "generation:familiar-barkley-key-v3"
       ],
       "output_id": "exec-aef605aa-130c-40aa-8adf-b9f327b50cf3",
-      "selected": true
+      "selected": false
     },
     {
       "id": "review-027-pond-comfort",
@@ -582,7 +637,7 @@
         "generation:joren-young-key-v1"
       ],
       "output_id": "exec-0e896cbf-d9e2-4700-9c02-ff644b1c2342",
-      "selected": true
+      "selected": false
     },
     {
       "id": "theme-recut-garden-opening",
@@ -591,7 +646,7 @@
         "generation:review-027-garden-compromise"
       ],
       "output_id": "exec-9d726561-d6fb-4950-9c1a-7149b61c99e5",
-      "selected": true
+      "selected": false
     },
     {
       "id": "theme-recut-path-friends",
@@ -600,7 +655,7 @@
         "generation:theme-027-treehouse-friends"
       ],
       "output_id": "exec-aad4bdc5-ecd2-4038-aba9-855acdea5e7a",
-      "selected": true
+      "selected": false
     },
     {
       "id": "theme-recut-insects",
@@ -610,7 +665,7 @@
         "generation:lyra-young-key-v1"
       ],
       "output_id": "exec-027365a8-24e6-421b-9770-d70cf75f3502",
-      "selected": true
+      "selected": false
     },
     {
       "id": "theme-recut-nibble",
@@ -620,7 +675,7 @@
         "generation:familiar-nibble-author-reference-v4"
       ],
       "output_id": "exec-eafd4367-ba0b-42e5-9a9a-f39b1602d7ca",
-      "selected": true
+      "selected": false
     },
     {
       "id": "theme-recut-treehouse-arrival",
@@ -630,7 +685,7 @@
         "generation:garden-v3"
       ],
       "output_id": "exec-1b04ccd6-32a7-4e28-bed9-473bb7ee05f2",
-      "selected": true
+      "selected": false
     },
     {
       "id": "theme-recut-waterwheel",
@@ -654,7 +709,7 @@
         "generation:joren-older-key-v1"
       ],
       "output_id": "exec-a2988573-4d0b-4a95-9fb0-b2fa64e1062f",
-      "selected": true
+      "selected": false
     },
     {
       "id": "theme-recut-sketch",
@@ -663,7 +718,7 @@
         "generation:theme-027-treehouse-friends"
       ],
       "output_id": "exec-b3a6a959-c6de-40b3-8b1b-33c85ee56d7a",
-      "selected": true
+      "selected": false
     },
     {
       "id": "theme-recut-evening",
@@ -672,7 +727,7 @@
         "generation:theme-027-treehouse-friends"
       ],
       "output_id": "exec-cd5722a8-3da3-4520-8f5b-17781464c569",
-      "selected": true
+      "selected": false
     },
     {
       "id": "theme-recut-morning",
@@ -682,6 +737,386 @@
         "generation:garden-v3"
       ],
       "output_id": "exec-16b76d90-9c1a-4701-b042-635a4a8aef70",
+      "selected": false
+    },
+    {
+      "id": "alpha-opening-consistency",
+      "prompt": "Use case: identity-preserve. Edit image 1, the landscape opening garden illustration, using image 2 only as Calista's established identity reference. Preserve the existing composition, clothing, ages, actions, sunflower garden, Kael's face and golden-brown eyes, and warm painterly lighting. Correct ONLY Calista's face and eye rendering: restore unmistakably deep BLUE irises, not green, teal or hazel. Reduce the exaggerated tall, wide cartoon eye openings and oversized irises substantially; use natural human child facial proportions with softly shaded upper lids, small subdued catchlights, dimensional cheeks/nose/forehead and restrained lips. Keep her recognizably a young child, light olive complexion, chestnut curls, scattered freckles and delighted attentive expression. Match the detailed naturalistic painterly rendering of Kael and the plants; avoid anime, doll faces, huge glossy eyeballs, eyeliner and photoreal collage. Do not change camera, blocking, background, garment, hands, or anything else. One finished landscape frame, same aspect as image 1, no text, no panels.",
+      "references": [
+        "generation:theme-recut-garden-opening",
+        "generation:calista-young-key-v1"
+      ],
+      "output_id": "exec-782fcb1e-866e-4c21-b043-43dafc11ceb2",
+      "selected": true
+    },
+    {
+      "id": "alpha-nibble-consistency",
+      "prompt": "Use case: identity-preserve. Edit landscape image 1 to correct identity consistency; image 2 is the AUTHOR-APPROVED Nibble design, image 3 Calista identity. Preserve garden, wooden seat, camera, Calista's clothing, hands, age, expression and affectionate interaction. Nibble must faithfully match image 2: fluffy white fur with soft very dark charcoal black patches concentrated around head and shoulders, broad white facial blaze and white chest, a tousled white forelock, large pink ears, pink nose, pink single tail and four pink paws. Turn Nibble's head slightly toward viewer so BOTH distinctive irises can be seen: violet iris on VIEWER LEFT (rat's anatomical right), coral-orange iris on VIEWER RIGHT (rat's anatomical left), with dark pupils. These are visible iris colors, not colored eyelid rings. Preserve small believable pet scale supported in Calista's hands, no giant rat. Keep appealing plush fluff from approved design while lighting her coherently in this detailed painterly scene; do not turn her into a bland slick grey or brown rat. Calista: reduce exaggerated cartoon eye size, use natural child eyelids and restrained lashes, deep blue irises wherever visible in her downward gaze, softly dimensional light olive freckled face and chestnut curls. Do not add objects or change the rest of the composition. One finished landscape frame, same aspect as image 1, no text, no panels.",
+      "references": [
+        "generation:theme-recut-nibble",
+        "generation:familiar-nibble-author-reference-v4",
+        "generation:calista-young-key-v1"
+      ],
+      "output_id": "exec-37aa654f-be6a-4546-9449-003d2f9919f1",
+      "selected": true
+    },
+    {
+      "id": "alpha-theme-insect-discovery",
+      "prompt": "Use case: identity-preserve. Image 1 is the edit target, image 2 is the corrected naturalistic painterly style and Calista face/blue-eye reference. Make a restrained character consistency edit to image 1. Calista is the older chestnut-haired girl on LEFT. Lyra is the little golden-haired girl on RIGHT. Give Calista deep BLUE irises; retain Lyra's GREEN irises. Substantially reduce the oversized glossy eyes of BOTH girls to natural human child proportions while preserving their different ages and tender curiosity. Preserve camera, composition, blocking, all clothes, hands, props, background geometry, age differences, skin tones, chestnut hair and freckles. All irises should remain readable in warm light without glowing or unnatural saturation. Preserve the rich detailed painterly art, avoid anime/doll eyes, avoid photoreal collage. Change only facial/eye consistency as described; do not replace the scene with image 2. One finished landscape frame at image 1 aspect, no text or panels.",
+      "references": [
+        "generation:theme-recut-insects",
+        "generation:alpha-opening-consistency"
+      ],
+      "output_id": "exec-8ee2fa30-047e-44c5-81e5-2102cce4efb4",
+      "selected": true
+    },
+    {
+      "id": "alpha-theme-path-friends",
+      "prompt": "Use case: identity-preserve. Image 1 is the edit target, image 2 is the corrected naturalistic painterly style and Calista face/blue-eye reference. Make a restrained character consistency edit to image 1. Calista is LEFT holding the map: give her deep BLUE irises. Cassia is CENTER with rich umber complexion: retain it, softly dimensional facial midtones and her deep GREEN irises. Joren is RIGHT blond: preserve his identity. Reduce any exaggerated cartoon eye openings and heavy lashes, matching image 2's restrained naturalistic painterly proportions. Preserve camera, composition, blocking, all clothes, hands, props, background geometry, age differences, skin tones, chestnut hair and freckles. All irises should remain readable in warm light without glowing or unnatural saturation. Preserve the rich detailed painterly art, avoid anime/doll eyes, avoid photoreal collage. Change only facial/eye consistency as described; do not replace the scene with image 2. One finished landscape frame at image 1 aspect, no text or panels.",
+      "references": [
+        "generation:theme-recut-path-friends",
+        "generation:alpha-opening-consistency"
+      ],
+      "output_id": "exec-796ebb62-060f-45f1-b04d-bcc166e5cd10",
+      "selected": false
+    },
+    {
+      "id": "alpha-theme-sketch-laughter",
+      "prompt": "Use case: identity-preserve. Image 1 is the edit target, image 2 is the corrected naturalistic painterly style and Calista face/blue-eye reference. Make a restrained character consistency edit to image 1. Calista is LEFT holding the drawing: give her deep BLUE irises. Cassia is RIGHT with rich umber complexion: retain it, softly dimensional facial midtones and her deep GREEN irises. Joren is CENTER blond: preserve him. Preserve the joyful laughter. Reduce exaggerated cartoon eye openings and heavy lashes while keeping recognizably child faces. Preserve camera, composition, blocking, all clothes, hands, props, background geometry, age differences, skin tones, chestnut hair and freckles. All irises should remain readable in warm light without glowing or unnatural saturation. Preserve the rich detailed painterly art, avoid anime/doll eyes, avoid photoreal collage. Change only facial/eye consistency as described; do not replace the scene with image 2. One finished landscape frame at image 1 aspect, no text or panels.",
+      "references": [
+        "generation:theme-recut-sketch",
+        "generation:alpha-opening-consistency"
+      ],
+      "output_id": "exec-8b364b77-31a5-435f-b936-a77c8e08e2f0",
+      "selected": false
+    },
+    {
+      "id": "alpha-theme-morning-outlook",
+      "prompt": "Use case: identity-preserve. Image 1 is the edit target, image 2 is the corrected naturalistic painterly style and Calista face/blue-eye reference. Make a restrained character consistency edit to image 1. Calista is the only girl: give her unmistakably deep BLUE irises, not hazel or green. Match her later-childhood sprite proportions: softly dimensional facial midtones, naturally sized child eye openings, understated lashes and lip boundaries. Keep her hopeful attentive expression and age. Preserve camera, composition, blocking, all clothes, hands, props, background geometry, age differences, skin tones, chestnut hair and freckles. All irises should remain readable in warm light without glowing or unnatural saturation. Preserve the rich detailed painterly art, avoid anime/doll eyes, avoid photoreal collage. Change only facial/eye consistency as described; do not replace the scene with image 2. One finished landscape frame at image 1 aspect, no text or panels.",
+      "references": [
+        "generation:theme-recut-morning",
+        "generation:alpha-opening-consistency"
+      ],
+      "output_id": "exec-c4302c62-8c00-4655-9452-053c8e191fe0",
+      "selected": false
+    },
+    {
+      "id": "alpha-theme-evening-reading",
+      "prompt": "Use case: identity-preserve. Image 1 edit target; image 2 corrected painterly Calista/blue-eye reference. Correct facial identity consistency in image 1 only. Calista is drawing with gaze down; keep the gaze and eyelid angle. The small visible irises must be deep BLUE, not brown or green. Preserve quiet concentration and natural child proportions. Preserve camera, composition, age, actions, hands, clothes, hair, props, background geometry and lighting exactly. Natural human child eye proportions, restrained lips/lashes, softly dimensional cheeks/nose/forehead. Deep blue means blue, not teal/green/hazel, without making irises glow. Preserve rich naturalistic painterly style, avoid anime/doll/cartoon exaggeration and photoreal collage. No added objects or changed narrative. One landscape frame at same aspect as image1, no text or panels.",
+      "references": [
+        "generation:theme-recut-evening",
+        "generation:alpha-opening-consistency"
+      ],
+      "output_id": "exec-2d4f8ac3-773e-4312-8021-b6c3bc9e58d6",
+      "selected": true
+    },
+    {
+      "id": "alpha-theme-dome-friends",
+      "prompt": "Use case: identity-preserve. Image 1 edit target; image 2 corrected painterly Calista/blue-eye reference. Correct facial identity consistency in image 1 only. Calista LEFT must have deep BLUE irises. Cassia CENTER must retain rich umber skin and deep GREEN irises with dimensional midtone facial shading. Preserve blond Joren RIGHT and all their later-childhood ages. Reduce oversized cartoon eyes only if necessary; do not turn them into adults. Preserve camera, composition, age, actions, hands, clothes, hair, props, background geometry and lighting exactly. Natural human child eye proportions, restrained lips/lashes, softly dimensional cheeks/nose/forehead. Deep blue means blue, not teal/green/hazel, without making irises glow. Preserve rich naturalistic painterly style, avoid anime/doll/cartoon exaggeration and photoreal collage. No added objects or changed narrative. One landscape frame at same aspect as image1, no text or panels.",
+      "references": [
+        "generation:theme-recut-dome",
+        "generation:alpha-opening-consistency"
+      ],
+      "output_id": "exec-0f9f45c6-b4cc-410a-b680-db6238ab7ec6",
+      "selected": false
+    },
+    {
+      "id": "alpha-theme-treehouse-arrival",
+      "prompt": "Use case: identity-preserve. Image 1 edit target; image 2 corrected painterly Calista/blue-eye reference. Correct facial identity consistency in image 1 only. Calista LEFT in profile must have a deep BLUE visible iris. Cassia CENTER must retain rich umber skin and deep GREEN irises with dimensional midtone facial shading. Preserve blond Joren RIGHT and all their younger childhood ages. Reduce exaggerated eye openings and lashes, maintaining the same warm emotions. Preserve camera, composition, age, actions, hands, clothes, hair, props, background geometry and lighting exactly. Natural human child eye proportions, restrained lips/lashes, softly dimensional cheeks/nose/forehead. Deep blue means blue, not teal/green/hazel, without making irises glow. Preserve rich naturalistic painterly style, avoid anime/doll/cartoon exaggeration and photoreal collage. No added objects or changed narrative. One landscape frame at same aspect as image1, no text or panels.",
+      "references": [
+        "generation:theme-recut-treehouse-arrival",
+        "generation:alpha-opening-consistency"
+      ],
+      "output_id": "exec-88d9db29-c30a-4d4e-9409-c66ad165a071",
+      "selected": false
+    },
+    {
+      "id": "alpha-theme-waterwheel-team",
+      "prompt": "Use case: identity-preserve. Image 1 edit target; image 2 corrected painterly Calista/blue-eye reference. Correct facial identity consistency in image 1 only. Calista LEFT looking down must have deep BLUE visible irises. Cassia CENTER must retain rich umber skin and deep GREEN irises with dimensional midtone facial shading. Preserve blond Joren RIGHT. Reduce exaggerated cartoon eye openings and lashes as needed. Keep older childhood age and concentrated happy expressions. Preserve camera, composition, age, actions, hands, clothes, hair, props, background geometry and lighting exactly. Natural human child eye proportions, restrained lips/lashes, softly dimensional cheeks/nose/forehead. Deep blue means blue, not teal/green/hazel, without making irises glow. Preserve rich naturalistic painterly style, avoid anime/doll/cartoon exaggeration and photoreal collage. No added objects or changed narrative. One landscape frame at same aspect as image1, no text or panels.",
+      "references": [
+        "generation:theme-recut-waterwheel",
+        "generation:alpha-opening-consistency"
+      ],
+      "output_id": "exec-02a05668-6dee-4413-b08e-b60c30e6dc51",
+      "selected": false
+    },
+    {
+      "id": "alpha-flute-playing",
+      "prompt": "Use case: identity-preserve. Image 1 is edit target. Image 2 ONLY exemplifies restrained painterly face rendering and stable Calista/Cassia identity; DO NOT copy its older ages or sad expressions. Polish character consistency of image1. Young Calista LEFT holds the flute to her lips. Deep BLUE irises, reduce overlarge eyes to naturally proportioned young-child eyes. Preserve nervous attention, flute position, fingers, seated pose. Preserve Selene RIGHT's genetic white hair, deep bronze complexion and adult face. Preserve image1 composition, camera, anatomy, garments, ages, hair, skin tones, freckles, narrative expressions and ALL physical scene actions. Blue irises must read blue rather than bright turquoise, teal, green or hazel; no glow. Keep detailed dimensional painterly style, gently modeled face, no huge cartoon/doll eyes or heavy lashes, no photoreal collage. Do not move figures or change architecture. One landscape frame same aspect, no text or panels.",
+      "references": [
+        "generation:review-027-flute-playing",
+        "generation:review-027-cassia-comfort"
+      ],
+      "output_id": "exec-9bc3e9fe-f608-4836-8341-be40c34db4f7",
+      "selected": true
+    },
+    {
+      "id": "alpha-flute-rest",
+      "prompt": "Use case: identity-preserve. Image 1 is edit target. Image 2 ONLY exemplifies restrained painterly face rendering and stable Calista/Cassia identity; DO NOT copy its older ages or sad expressions. Polish character consistency of image1. Young Calista LEFT holds flute down on lap. Deep BLUE irises, reduce overlarge eyes to naturally proportioned young-child eyes. Preserve tentative expression, flute position, hands, seated pose. Preserve Selene RIGHT's genetic white hair, deep bronze complexion and adult face. Preserve image1 composition, camera, anatomy, garments, ages, hair, skin tones, freckles, narrative expressions and ALL physical scene actions. Blue irises must read blue rather than bright turquoise, teal, green or hazel; no glow. Keep detailed dimensional painterly style, gently modeled face, no huge cartoon/doll eyes or heavy lashes, no photoreal collage. Do not move figures or change architecture. One landscape frame same aspect, no text or panels.",
+      "references": [
+        "generation:review-027-flute-rest",
+        "generation:review-027-cassia-comfort"
+      ],
+      "output_id": "exec-873d47dc-e39c-4088-95d6-3753ba89af77",
+      "selected": true
+    },
+    {
+      "id": "alpha-garden-compromise",
+      "prompt": "Use case: identity-preserve. Image 1 is edit target. Image 2 ONLY exemplifies restrained painterly face rendering and stable Calista/Cassia identity; DO NOT copy its older ages or sad expressions. Polish character consistency of image1. Young Calista LEFT kneels with potted flowers: Deep BLUE irises, reduce overlarge eyes to naturally proportioned young-child eyes. Preserve Maia CENTER, her warm brown skin, Kael RIGHT with deep warm brown skin and golden-hazel eyes. Keep pots, dry ground, pond behind, contact/poses. Preserve image1 composition, camera, anatomy, garments, ages, hair, skin tones, freckles, narrative expressions and ALL physical scene actions. Blue irises must read blue rather than bright turquoise, teal, green or hazel; no glow. Keep detailed dimensional painterly style, gently modeled face, no huge cartoon/doll eyes or heavy lashes, no photoreal collage. Do not move figures or change architecture. One landscape frame same aspect, no text or panels.",
+      "references": [
+        "generation:review-027-garden-compromise",
+        "generation:review-027-cassia-comfort"
+      ],
+      "output_id": "exec-a04fe1bc-b844-47e3-b6b3-60f46f0f7bf3",
+      "selected": true
+    },
+    {
+      "id": "alpha-cassia-storytelling",
+      "prompt": "Use case: identity-preserve. Image 1 is edit target. Image 2 ONLY exemplifies restrained painterly face rendering and stable Calista/Cassia identity; DO NOT copy its older ages or sad expressions. Polish character consistency of image1. Young Calista CENTER LEFT draws on a lap sketchbook: deep BLUE irises and naturally proportioned child eyes. Cassia CENTER RIGHT points to drawing: deep GREEN irises, rich umber skin with dimensional facial midtones, gentle lip shading and natural child proportions. Preserve surrounding children, their identities, ages, seated circle and all background people. Preserve image1 composition, camera, anatomy, garments, ages, hair, skin tones, freckles, narrative expressions and ALL physical scene actions. Blue irises must read blue rather than bright turquoise, teal, green or hazel; no glow. Keep detailed dimensional painterly style, gently modeled face, no huge cartoon/doll eyes or heavy lashes, no photoreal collage. Do not move figures or change architecture. One landscape frame same aspect, no text or panels.",
+      "references": [
+        "generation:review-027-cassia-storytelling",
+        "generation:review-027-cassia-comfort"
+      ],
+      "output_id": "exec-245e1ab1-f02a-47df-bc60-b7ba0bce7158",
+      "selected": true
+    },
+    {
+      "id": "alpha-iris-lock-theme-path-friends",
+      "prompt": "Use case: precise-object-edit. Perform ONLY a precise iris-color consistency edit on this finished illustration. Do not regenerate/redesign faces or scene. The chestnut-haired light olive girl Calista (LEFT) has deep sapphire BLUE irises. The dark umber-skinned chestnut-haired girl Cassia (CENTER) has deep emerald GREEN irises. The fair blond boy Joren (RIGHT) has clear medium BLUE irises. Correct all visible iris pigment accordingly. Their iris colors MUST visibly read blue/green/blue respectively, even in warm light; do not leave them brown, amber, gold, hazel or neutral grey. Use natural dark pupils and restrained highlights, no glow, no colored sclera, no colored eyelid makeup. The changes must be confined to colored iris regions; preserve their newly improved small eye openings, expressions, gaze angles, face structure, skin, age, clothes, hair, hands, props, camera, background geometry and exact composition. Keep original detailed painterly rendering, not a different style. One unchanged landscape frame with just these small color corrections, no panels/text.",
+      "references": [
+        "generation:alpha-theme-path-friends"
+      ],
+      "output_id": "exec-2cc111be-7c97-4c0c-8d1a-88924aad1523",
+      "selected": false
+    },
+    {
+      "id": "alpha-iris-lock-theme-sketch-laughter",
+      "prompt": "Use case: precise-object-edit. Perform ONLY a precise iris-color consistency edit on this finished illustration. Do not regenerate/redesign faces or scene. The chestnut-haired light olive girl Calista (LEFT) has deep sapphire BLUE irises. The dark umber-skinned chestnut-haired girl Cassia (RIGHT) has deep emerald GREEN irises. The fair blond boy Joren (CENTER) has clear medium BLUE irises. Correct all visible iris pigment accordingly. Their iris colors MUST visibly read blue/green/blue respectively, even in warm light; do not leave them brown, amber, gold, hazel or neutral grey. Use natural dark pupils and restrained highlights, no glow, no colored sclera, no colored eyelid makeup. The changes must be confined to colored iris regions; preserve their newly improved small eye openings, expressions, gaze angles, face structure, skin, age, clothes, hair, hands, props, camera, background geometry and exact composition. Keep original detailed painterly rendering, not a different style. One unchanged landscape frame with just these small color corrections, no panels/text.",
+      "references": [
+        "generation:alpha-theme-sketch-laughter"
+      ],
+      "output_id": "exec-37760ee9-705a-4c6f-9e8d-a0839bb7b6cf",
+      "selected": false
+    },
+    {
+      "id": "alpha-iris-lock-theme-dome-friends",
+      "prompt": "Use case: precise-object-edit. Perform ONLY a precise iris-color consistency edit on this finished illustration. Do not regenerate/redesign faces or scene. The chestnut-haired light olive girl Calista (LEFT) has deep sapphire BLUE irises. The dark umber-skinned chestnut-haired girl Cassia (CENTER) has deep emerald GREEN irises. The fair blond boy Joren (RIGHT) has clear medium BLUE irises. Correct all visible iris pigment accordingly. Their iris colors MUST visibly read blue/green/blue respectively, even in warm light; do not leave them brown, amber, gold, hazel or neutral grey. Use natural dark pupils and restrained highlights, no glow, no colored sclera, no colored eyelid makeup. The changes must be confined to colored iris regions; preserve their newly improved small eye openings, expressions, gaze angles, face structure, skin, age, clothes, hair, hands, props, camera, background geometry and exact composition. Keep original detailed painterly rendering, not a different style. One unchanged landscape frame with just these small color corrections, no panels/text.",
+      "references": [
+        "generation:alpha-theme-dome-friends"
+      ],
+      "output_id": "exec-09b132e1-93bb-451d-ab30-372244e966c1",
+      "selected": false
+    },
+    {
+      "id": "alpha-iris-lock-theme-treehouse-arrival",
+      "prompt": "Use case: precise-object-edit. Perform ONLY a precise iris-color consistency edit on this finished illustration. Do not regenerate/redesign faces or scene. The chestnut-haired light olive girl Calista (LEFT) has deep sapphire BLUE irises. The dark umber-skinned chestnut-haired girl Cassia (CENTER) has deep emerald GREEN irises. The fair blond boy Joren (RIGHT) has clear medium BLUE irises. Correct all visible iris pigment accordingly. Their iris colors MUST visibly read blue/green/blue respectively, even in warm light; do not leave them brown, amber, gold, hazel or neutral grey. Use natural dark pupils and restrained highlights, no glow, no colored sclera, no colored eyelid makeup. The changes must be confined to colored iris regions; preserve their newly improved small eye openings, expressions, gaze angles, face structure, skin, age, clothes, hair, hands, props, camera, background geometry and exact composition. Keep original detailed painterly rendering, not a different style. One unchanged landscape frame with just these small color corrections, no panels/text.",
+      "references": [
+        "generation:alpha-theme-treehouse-arrival"
+      ],
+      "output_id": "exec-02d61a1e-226e-4015-8d0b-fca89462802f",
+      "selected": false
+    },
+    {
+      "id": "alpha-iris-lock-theme-waterwheel-team",
+      "prompt": "Use case: precise-object-edit. Perform ONLY a precise iris-color consistency edit on this finished illustration. Do not regenerate/redesign faces or scene. The chestnut-haired light olive girl Calista (LEFT) has deep sapphire BLUE irises. The dark umber-skinned chestnut-haired girl Cassia (CENTER) has deep emerald GREEN irises. The fair blond boy Joren (RIGHT) has clear medium BLUE irises. Correct all visible iris pigment accordingly. Their iris colors MUST visibly read blue/green/blue respectively, even in warm light; do not leave them brown, amber, gold, hazel or neutral grey. Use natural dark pupils and restrained highlights, no glow, no colored sclera, no colored eyelid makeup. The changes must be confined to colored iris regions; preserve their newly improved small eye openings, expressions, gaze angles, face structure, skin, age, clothes, hair, hands, props, camera, background geometry and exact composition. Keep original detailed painterly rendering, not a different style. One unchanged landscape frame with just these small color corrections, no panels/text.",
+      "references": [
+        "generation:alpha-theme-waterwheel-team"
+      ],
+      "output_id": "exec-9512354b-ae61-467f-ad0a-44ce5a6eebd6",
+      "selected": false
+    },
+    {
+      "id": "alpha-pond-rescue",
+      "prompt": "Use case: precise-object-edit. Polish ONLY the eye colors and eye proportions in this existing, fully clothed family story illustration. Calista is the light olive girl with chestnut curls and a blue tunic (left in treehouse image instead wearing overalls): her irises should clearly be deep blue and her eyes a little smaller and naturally proportioned, with gentle painterly shading. Preserve her age, expression and gaze. If Cassia is present, she is the rich brown-skinned girl in purple: deep green irises. If Joren is present, he is the blond boy: blue irises. If Lyra is present, she is the smallest golden-curled girl: retain green eyes. Keep all other people, animals, hands, objects, clothes, bodies, setting and action EXACTLY as the source image. No change to camera or composition. Preserve the existing detailed painterly style and natural lighting. Change only eye rendering, not scene content. Return one landscape frame, same aspect, no text.",
+      "references": [
+        "generation:review-027-pond-rescue"
+      ],
+      "output_id": "exec-0797e450-62bd-466f-a876-98e52d793cc1",
+      "selected": true
+    },
+    {
+      "id": "alpha-pond-comfort",
+      "prompt": "Use case: precise-object-edit. Polish ONLY the eye colors and eye proportions in this existing, fully clothed family story illustration. Calista is the light olive girl with chestnut curls and a blue tunic (left in treehouse image instead wearing overalls): her irises should clearly be deep blue and her eyes a little smaller and naturally proportioned, with gentle painterly shading. Preserve her age, expression and gaze. If Cassia is present, she is the rich brown-skinned girl in purple: deep green irises. If Joren is present, he is the blond boy: blue irises. If Lyra is present, she is the smallest golden-curled girl: retain green eyes. Keep all other people, animals, hands, objects, clothes, bodies, setting and action EXACTLY as the source image. No change to camera or composition. Preserve the existing detailed painterly style and natural lighting. Change only eye rendering, not scene content. Return one landscape frame, same aspect, no text.",
+      "references": [
+        "generation:review-027-pond-comfort"
+      ],
+      "output_id": "exec-97abe380-1c7a-4ad9-a3ae-934697122e8d",
+      "selected": false
+    },
+    {
+      "id": "alpha-treehouse-friends",
+      "prompt": "Use case: precise-object-edit. Polish ONLY the eye colors and eye proportions in this existing, fully clothed family story illustration. Calista is the light olive girl with chestnut curls and a blue tunic (left in treehouse image instead wearing overalls): her irises should clearly be deep blue and her eyes a little smaller and naturally proportioned, with gentle painterly shading. Preserve her age, expression and gaze. If Cassia is present, she is the rich brown-skinned girl in purple: deep green irises. If Joren is present, he is the blond boy: blue irises. If Lyra is present, she is the smallest golden-curled girl: retain green eyes. Keep all other people, animals, hands, objects, clothes, bodies, setting and action EXACTLY as the source image. No change to camera or composition. Preserve the existing detailed painterly style and natural lighting. Change only eye rendering, not scene content. Return one landscape frame, same aspect, no text.",
+      "references": [
+        "generation:theme-027-treehouse-friends"
+      ],
+      "output_id": "exec-dbac2303-fd87-41d4-9647-32880be61c3c",
+      "selected": false
+    },
+    {
+      "id": "alpha-treehouse-arrival-layout",
+      "prompt": "Use case: compositing. IMAGE 1 IS THE LOCKED ENVIRONMENT TO EDIT. IMAGE 2 IS CHARACTER REFERENCE ONLY; its architecture is WRONG and must not be used. Preserve image1 camera, room dimensions, massive diagonal oak trunk at LEFT, broad open timber upper room, low ceiling beams, arched door just RIGHT OF the trunk, three open viewing bays extending RIGHT from that door, branch rails, rust curtains, low round map table foreground right, cushions and chests. Add the three friends from image2 at the REAL arched door of image1, viewed from INSIDE this broad room as they arrive from the upper landing: Joren (blond, blue eyes, rust shirt/shorts) just inside holding the door open, Cassia (rich umber skin, green eyes, purple tunic/yellow scarf) stepping over the threshold, Calista (olive freckled skin, chestnut curls, blue eyes, beige shirt/overalls, notebook) already inside looking back at them. Natural child proportions; fit their feet to image1 floor and scale them relative to the existing door. Keep them visible in middle-left area, without obscuring all room landmarks. The doorway opens OUTSIDE to foliage/landing, never into a cupboard or stairs inside a hollow trunk. The wooden upper room is beside the oak, not carved inside it. Change only adding people and opening the existing door as needed; do not move the door, walls, trunk, window bays, table, or rail. Preserve painterly detail and gentle warm faces against shaded teal garden. Landscape one frame same aspect, no labels.",
+      "references": [
+        "generation:treehouse-shaded-v1",
+        "generation:alpha-iris-lock-theme-treehouse-arrival"
+      ],
+      "output_id": "exec-dffa0d6c-fe43-44b9-a0e8-47f46ba1dd0b",
+      "selected": false
+    },
+    {
+      "id": "alpha-morning-layout",
+      "prompt": "Use case: compositing. IMAGE1 IS THE LOCKED GARDEN/TREEHOUSE ENVIRONMENT. Edit image1, not image2. Image2 provides ONLY Calista's older-child identity, pose and wardrobe: chestnut curls, olive freckles, deep blue eyes, beige shirt, olive vest, blue trousers and notebook. Add her standing on the foreground-right part of image1's LOWER CIRCULAR SEATING PLATFORM, calmly looking ahead and holding her notebook as in image2. Fit feet naturally to wooden platform and preserve child-to-building scale. Shift illumination subtly toward soft morning light filtering through canopy, retaining shaded teal leaves and warm lamps. Crucial preserve physical geometry of image1 exactly: huge old oak trunk right, broad upper timber room projecting LEFT, low roof, open curtained bays, branch railings, arched upper doorway at room RIGHT beside trunk, straight old wooden LADDER connecting ground to that upper landing, separate LOWER HOLLOW doorway below it, lower circular wooden sitting platform with cushions/chests/maps. All those structural landmarks remain, including visible cushion seating. Do not replace lower seating platform with flower beds, shrink oak to a sapling, add stairs, move either entrance, or turn building into cottage/hobbit-house. Left garden path remains open for later title overlay. Painterly, natural child face proportions, clear deep blue irises (not hazel), no text, one landscape.",
+      "references": [
+        "generation:garden-v3",
+        "generation:alpha-theme-morning-outlook"
+      ],
+      "output_id": "exec-317ade8d-6ca8-4e42-a82a-e5f6dba737e9",
+      "selected": false
+    },
+    {
+      "id": "alpha-garden-path-layout",
+      "prompt": "Use case: compositing. IMAGE1 is the canonical garden path environment, use it as the base to edit. IMAGE2 ONLY provides the three children's identities, poses and clothing. Add those three children to the path in image1: Calista LEFT (light olive freckles/chestnut curls/deep BLUE eyes/beige overalls outfit) holds map, Cassia CENTER (rich umber skin/chestnut curls/deep GREEN eyes/purple/yellow scarf) looks along path, blond Joren RIGHT (fair ruddy skin/clear BLUE eyes/rust shirt/shorts) points excitedly ahead. Keep cheerful natural child faces and age differences, smaller human eye proportions, deep iris colors without glow. Fit their feet on the existing stone garden path, map held naturally. Preserve the exact established curved stone garden beds, planted shade, boundary and oak position of image1, in detailed painterly light. Do not borrow architecture from image2; add no wooden raised bridge, extra cabins, roofs, treeholes, new doors or new treehouse. Children occupy foreground/middle together; environmental geometry stays image1. Same landscape aspect, no text or panels.",
+      "references": [
+        "generation:garden-close-v1",
+        "generation:alpha-iris-lock-theme-path-friends"
+      ],
+      "output_id": "exec-6733261f-0d97-48f9-929a-4fbcb278c3a2",
+      "selected": false
+    },
+    {
+      "id": "alpha-scale-theme-path-friends",
+      "prompt": "Use case: identity-preserve. This is a character PROPORTION AND BLOCKING correction to the existing illustration, not a new scene. All three friends are the SAME early-childhood peer group, NOT siblings of widely different ages. Calista LEFT currently looks much shorter than Cassia. REDRAW her full body about 12% taller so her standing crown, shoulders, elbows and hips are nearly aligned with Cassia at the same ground depth. Cassia CENTER remains about Calista's height. Joren RIGHT should stand only about 5% taller than BOTH girls, with proportionately longer torso/legs, not a bigger head. Stage their supporting feet along one clear, shared stone path plane so this height relationship is readable; they may be mid-step but not one on a raised bed. Preserve all three young facial identities and child proportions. Calista's BLUE eyes, Cassia's GREEN eyes, Joren's BLUE eyes. Also correct the environment error: the background oval patch behind them must be densely planted garden foliage as in the surrounding beds, not an added pond/water basin. Preserve other garden geometry. Keep detailed naturalistic painterly style, gentle dimensional face midtones, small natural child eye proportions, exact character identities, and restrained clear iris colors without glow. Maintain story actions and expression. Preserve camera framing and all environment pixels as closely as possible except the explicit change, no new buildings/doors/props/characters. One finished landscape frame same aspect, no text or comparison panels.",
+      "references": [
+        "generation:alpha-garden-path-layout"
+      ],
+      "output_id": "exec-4f23806a-923b-4710-af32-e78848e2c125",
+      "selected": false
+    },
+    {
+      "id": "alpha-scale-theme-treehouse-arrival",
+      "prompt": "Use case: identity-preserve. This is a character PROPORTION AND BLOCKING correction to the existing illustration, not a new scene. Preserve this newly corrected broad upper room EXACTLY: massive trunk LEFT, arched exterior door beside it, wide open window bays and branch railings extending RIGHT, curtains, map table, cushions, floor. Change ONLY blocking/scales of the three children. Place all three in a shallow line/arc at essentially the SAME depth just inside the real doorway, all feet on the SAME clear floor plane around midframe, not one far closer to camera. Calista (chestnut hair/light olive/overalls/notebook/BLUE eyes) and Cassia (rich umber/purple/yellow scarf/GREEN eyes) have approximately equal whole-body standing heights and comparable head sizes. Joren (blond/rust shirt/shorts/BLUE eyes) is modestly taller, around 5%, through torso/leg length not a giant head. Make Calista look like Cassia's same-age friend, not a little sibling. Keep the friendly arriving interaction, Joren holding the existing door open to outside. Natural human child proportions. Do not alter architecture or add a trunk tunnel. Keep detailed naturalistic painterly style, gentle dimensional face midtones, small natural child eye proportions, exact character identities, and restrained clear iris colors without glow. Maintain story actions and expression. Preserve camera framing and all environment pixels as closely as possible except the explicit change, no new buildings/doors/props/characters. One finished landscape frame same aspect, no text or comparison panels.",
+      "references": [
+        "generation:alpha-treehouse-arrival-layout"
+      ],
+      "output_id": "exec-f9e5a82d-7edd-4804-be2e-68608c88afb7",
+      "selected": false
+    },
+    {
+      "id": "alpha-scale-theme-dome-friends",
+      "prompt": "Use case: identity-preserve. This is a character PROPORTION AND BLOCKING correction to the existing illustration, not a new scene. Correct the standing height reversal in this later-childhood trio. Joren blond on RIGHT must be modestly taller than BOTH girls, not shorter; lengthen his whole body in proportion, mainly torso/legs, with same face/head identity. Calista LEFT and Cassia CENTER are approximately equal height with comparable head sizes; Joren approximately 5% taller. Reposition their supporting feet onto one easily readable shared horizontal floor depth in the foreground, so perspective does not reverse this relationship. All are still older children, not teens or adults. Preserve Calista's olive freckles/chestnut curls/BLUE eyes/beige shirt/olive vest/blue trousers/notebook; Cassia's rich umber skin/chestnut curls/GREEN eyes/purple tunic/copper trousers; Joren's fair ruddy skin/blond hair/BLUE eyes/blue jacket/pointing arm/scanner. Preserve the existing dome view, rail, stone ledge and floor geometry, light and camera. Keep detailed naturalistic painterly style, gentle dimensional face midtones, small natural child eye proportions, exact character identities, and restrained clear iris colors without glow. Maintain story actions and expression. Preserve camera framing and all environment pixels as closely as possible except the explicit change, no new buildings/doors/props/characters. One finished landscape frame same aspect, no text or comparison panels.",
+      "references": [
+        "generation:alpha-iris-lock-theme-dome-friends"
+      ],
+      "output_id": "exec-bba216a6-d24c-45b9-9493-8d5804fc9d93",
+      "selected": true
+    },
+    {
+      "id": "alpha-scale-treehouse-friends",
+      "prompt": "Use case: identity-preserve. This is a character PROPORTION AND BLOCKING correction to the existing illustration, not a new scene. Correct Calista LEFT's body scale in this seated early-childhood trio. She and Cassia CENTER are same-age peers of approximately equal standing height, while Joren RIGHT is only modestly taller (~5%). Calista sits on the nearer cushion yet reads undersized: increase her full seated figure proportionally about8–10%, including torso, arms, legs and head, fit naturally to the SAME cushion and support plane. Do not enlarge just her eyes/head or make her older. Retain notebook in lap and attentive gaze. Cassia retains storytelling gesture; Joren retains happy listening pose. BLUE irises for Calista and blond Joren, deep GREEN for dark umber Cassia. Retain distinct skin tones, hair, early outfits, natural child facial proportions. Preserve room geometry, real door, trunk, window bays, table, cushions and all objects. Keep detailed naturalistic painterly style, gentle dimensional face midtones, small natural child eye proportions, exact character identities, and restrained clear iris colors without glow. Maintain story actions and expression. Preserve camera framing and all environment pixels as closely as possible except the explicit change, no new buildings/doors/props/characters. One finished landscape frame same aspect, no text or comparison panels.",
+      "references": [
+        "generation:alpha-treehouse-friends"
+      ],
+      "output_id": "exec-931a2cfc-8031-44bf-a4e1-a58c65728390",
+      "selected": true
+    },
+    {
+      "id": "alpha-scale-pond-comfort",
+      "prompt": "Use case: identity-preserve. This is a character PROPORTION AND BLOCKING correction to the existing illustration, not a new scene. Clarify that Kael, the dark-haired boy on RIGHT, is Calista's OLDER brother and is bigger than her. Redraw only his figure into a slightly higher supported kneel with a longer upright torso, proportionately older-child limbs/hands and broader shoulders, maintaining gentle attention to his sisters. Do not turn him into an adult or simply enlarge his head. Calista, chestnut hair/blue tunic in CENTER, stays same size and keeps embracing smaller golden-haired Lyra; their whole-body standing proportions would be Calista1.00, Kael1.16, Lyra0.73. Preserve both girls' current positions, face/age and embrace. Kael retains deep warm brown skin, tousled dark hair and golden HAZEL eyes; Calista deep BLUE eyes; Lyra GREEN eyes. Preserve all garments, golden dog, black green-eyed cat with one tail, dry stone bank, pond and surrounding garden geometry exactly. Keep detailed naturalistic painterly style, gentle dimensional face midtones, small natural child eye proportions, exact character identities, and restrained clear iris colors without glow. Maintain story actions and expression. Preserve camera framing and all environment pixels as closely as possible except the explicit change, no new buildings/doors/props/characters. One finished landscape frame same aspect, no text or comparison panels.",
+      "references": [
+        "generation:alpha-pond-comfort"
+      ],
+      "output_id": "exec-fdb4dfc0-426e-440f-8179-b10b5bb1fb52",
+      "selected": false
+    },
+    {
+      "id": "alpha-scale-morning",
+      "prompt": "Use case: precise-object-edit. Preserve this entire established garden/treehouse architecture and camera framing. Correct ONLY the scale of the one girl relative to the large building. Calista is currently too large on the lower circular deck and makes the upper room look miniature. Reduce her COMPLETE figure uniformly to approximately 65% of its present height and width, keeping her feet grounded on the same foreground-right wooden platform. Restore revealed deck/cushion background naturally behind her. Her head must now sit well BELOW the upper treehouse floor, so the straight wooden ladder visibly climbs far above her to the broad upper room. Do not shrink the treehouse or change the enormous oak, upper doorway, open bays, roof, lower hollow, ladder, circular cushion platform or garden paths. Preserve Calista's older-child age, exact pose, chestnut curls, light olive freckles, deep blue irises, beige shirt, olive vest, blue trousers, notebook and warm hopeful expression. No new objects; no text; same landscape frame with only the child size corrected.",
+      "references": [
+        "generation:alpha-morning-layout"
+      ],
+      "output_id": "exec-8c691c69-2112-4b43-a84d-8251550295a7",
+      "selected": false
+    },
+    {
+      "id": "alpha-path-face-reference-repair",
+      "prompt": "Use case: identity-preserve. Edit ONLY the three children's FACES in image1. Keep image1's entire landscape composition, garden, bodies, relative heights, skull sizes, hair silhouettes, clothes, hands, feet, poses, map and lighting unchanged. Image2 is Cassia's established facial anatomy and painterly shading reference; image3 is Calista's face anatomy/style reference; image4 is Joren's identity reference. Do not copy the reference clothes/poses, and keep all three the early-childhood age of image1. The current faces in image1 are visibly distorted and over-cartooned. Cassia CENTER needs the recognizable face from image2 with its natural nose bridge, rounded cheeks, softly modeled lips and coherent gaze, adapted to a gentle small closed-mouth smile and the current slight rightward head turn. Her eyes must be deep FOREST GREEN irises around dark pupils with tiny ordinary catchlights, NOT cyan/turquoise/blue or yellow. Calista LEFT needs restrained natural eyelids and deep NAVY BLUE irises; Joren RIGHT needs natural medium-dark BLUE irises, keeping his happy face and blond identity. All eye colors must live in the iris only, correctly shaded under the upper eyelid, never glowing, luminous, fluorescent or painted white. Reduce excessive exposed white and bulging/oversized eye shape; natural child facial anatomy, not dolls or animated-movie caricatures. Preserve the warm umber complexion of Cassia, lighter olive freckles of Calista and ruddy fair complexion of Joren. Use the rich dimensional facial midtones and subtle lip edges of image2, within image1's existing naturalistic painterly illustration. The requested correction is confined to faces: absolutely preserve successful relative body scale, limb proportions, character positions, environment and landscape aspect ratio. Output one finished full landscape illustration, no panels or words.",
+      "references": [
+        "generation:alpha-scale-theme-path-friends",
+        "generation:review-025-cassia_mourning",
+        "generation:calista-older-key-v1",
+        "generation:joren-young-key-v1"
+      ],
+      "output_id": "exec-dff8214f-27a9-43ba-ad6e-eeb775d79524",
+      "selected": false
+    },
+    {
+      "id": "alpha-path-natural-irises",
+      "prompt": "Edit this exact illustration. Make one precise visible correction: darken and recolor the IRIS of both eyes on each of the three children. Left girl Calista: dark denim/navy BLUE (#24446b); center girl Cassia: dark FOREST GREEN (#244c32); right blond boy Joren: natural muted BLUE (#315779). These RGB colors describe the iris midtone, with a dark pupil and upper eyelid shadow, tiny cream catchlight. Currently the eyes are too pale and turquoise/lime; their iris midtones need to be about half as bright, darker than the surrounding lit skin, integrated into the face. The whites of the eyes stay natural shaded off-white. Remove broad luminous pale bands from the irises. Do NOT change facial anatomy, gaze, head position, nose, mouth, expression, hair, clothes, bodies, relative heights, environment, light or framing. Only the iris pigmentation and its local shading change. Preserve the entire full landscape picture exactly outside those six small eye regions. Finished illustration, no text.",
+      "references": [
+        "generation:alpha-path-face-reference-repair"
+      ],
+      "output_id": "exec-7404b4e7-37c5-411d-aab3-80f0864be885",
+      "selected": false
+    },
+    {
+      "id": "alpha-path-close-stature",
+      "prompt": "Use case: identity-preserve. Edit this exact close painterly illustration. Make just one local proportion correction: Calista, the brown-curled girl LEFT holding the map, should be close in stature to Cassia, the dark-skinned girl CENTER; Calista is currently too much smaller. Increase Calista's entire figure and her held map naturally by about 12 percent, anchored at the bottom of the frame, raising her crown and shoulders toward Cassia's. Her crown should remain slightly lower than Cassia's, as she is looking up, while Joren RIGHT is modestly taller than both. Preserve Calista's exact recognizable freckled face, warm dimensional cheek/nose/lip modeling, natural eye shapes, curls, outfit and intent upward glance. Preserve Cassia and Joren exactly, their facial anatomy, natural expressions, clothing, hand gestures. Keep this SAME intimate knee-up trio composition and camera, the expressive readable faces, warm golden side light, rich detailed hair and fabric, large readable map, wooden neighborhood pathway and railings, trees and background raised dwellings. Do not zoom out, widen the landscape, make the children distant, change the path into a different garden, flatten/darken the lighting, smooth away texture or redraw faces. This is a tightly localized stature correction to the strongest original composition. Output the complete landscape illustration at the same framing, no words or panels.",
+      "references": [
+        "generation:theme-recut-path-friends"
+      ],
+      "output_id": "exec-19fd0ba0-a33e-40f4-b310-e71051db1537",
+      "selected": true
+    },
+    {
+      "id": "alpha-face-theme-sketch-laughter",
+      "prompt": "Use case: identity-preserve. Edit only the specified faces/irises in image1. Image2 is the corrected peer trio: use its naturalistic facial anatomy and SUBDUED iris rendering as your identity/color reference. Preserve image1's entire composition, character skull sizes, hair outlines, ages, body heights, poses, hands, clothes, background, architecture, props, light and all other pixels. Calista's iris midtone is dark denim/navy BLUE (#24446b), Cassia's deep FOREST GREEN (#244c32), Joren's muted BLUE (#315779), dark pupils and upper-lid shadows with tiny ordinary catchlights. Iris colors must be darker than the surrounding lit skin, with no luminous pale cyan/mint/lime bands. Eye whites stay naturally shaded cream. The successful reference is subdued and believable under warm forest shade. The children are EARLY childhood. Calista LEFT and Joren CENTER keep their current cheerful faces, only iris shade/color changes. Cassia RIGHT currently has a pinched chin, distorted long wide-open mouth and small button nose. Restore her recognizable nose/cheeks/lip anatomy from image2 and image3 (use image3 for facial anatomy, not its sad expression or older age), adapting it to a natural happy laugh: a relaxed slightly open smile with coherent jaw, restrained smile creases, not a cartoon caricature. Preserve her enjoyment of the funny drawing and attentive gaze toward the sheet, deep umber complexion, existing hair. Preserve the actual drawing, sheet, hands, table and all body sizes. Output one complete full landscape illustration with the same dimensions/framing; no words or panels.",
+      "references": [
+        "generation:alpha-iris-lock-theme-sketch-laughter",
+        "generation:alpha-path-natural-irises",
+        "generation:review-025-cassia_mourning"
+      ],
+      "output_id": "exec-225637c1-5b27-439b-8226-a5da2b1ba8a8",
+      "selected": true
+    },
+    {
+      "id": "alpha-theme-morning-quality",
+      "prompt": "Use case: identity-preserve / precise-object-edit. Asset type: a richly detailed 16:9 painterly visual-novel closing-film still, 2560 by 1440.\nEdit image 1. It is the composition, pose, beautiful warm sunrise illumination, material detail, and emotional-quality reference to preserve. Image 2 is a strict architectural reference for the SAME treehouse and its lower refuge, not a reference for nighttime lighting. Image 3 is the identity/age/clothing reference for the same later-childhood Calista.\nKeep the compelling LARGE foreground portrait of Calista on the right, framed from the knees up, looking hopefully to her right and holding the same closed brown sketchbook. She is on the foreground stone path several metres closer to camera than the tree. Retain the light olive complexion, freckles, natural facial anatomy, rich chestnut loose curls, deep blue irises, the cream rolled-sleeve shirt, olive vest and patched blue trousers. Preserve her detailed expression and dimensional cheeks, nose and forehead, warm backlit hair, crisp fabric stitching and subtle skin texture. She must remain the visual focus and occupy roughly the same 85 percent of image height as image 1.\nCorrect ONLY the background treehouse geometry to match image 2. The enormous old oak stands on the right; the broad upper timber room projects left, its low roof, three open curtained bays and branch railings intact. The upper arched door is next to the trunk at the right end. The straight old wooden ladder really connects the lower refuge to that upper door's landing. Beneath the upper room, restore image 2's rounded lower wooden seating platform with cushions, small low map table and chests around the separate lower hollow entrance. This lower platform is behind Calista, with convincing distance and occlusion, not under her foreground feet. Planting beds border the platform rather than replacing its floor. No extra cottages, platforms, connecting bridges or tiny hut inside a narrow tree.\nKeep image 1's inviting warm dawn rays from upper left, fine leaf translucency, broad depth, softly illuminated recognizable face, lush garden path and warm/cool tonal separation. Do not shrink Calista to show every architectural detail: her foreground figure can naturally occlude the far platform. Keep the shot intimate, hopeful and visually rich. No glow coming from eyes, no oversized doll eyes, no text, no border, no watermark.",
+      "references": [
+        "generation:theme-recut-morning",
+        "generation:garden-v3",
+        "generation:calista-older-key-v1"
+      ],
+      "output_id": "exec-5543913c-d675-410d-997f-623d1d73e168",
+      "selected": true
+    },
+    {
+      "id": "alpha-theme-arrival-quality-base",
+      "prompt": "Use case: compositing / identity-preserve. Asset type: final-quality 16:9 painterly visual-novel closing-film still, 2560 by 1440.\nImage 1 is the edit target: preserve its beautifully rich warm tactile painting, close welcoming character interaction and distinct detailed faces. Image 2 is the strict physical architecture reference for the SAME large upper treehouse room. Images 3, 4 and 5 lock respectively early-childhood Calista, Cassia and Joren's individual identities/clothes. The task is to correct the tiny cupboard architecture and peer proportions WITHOUT losing the close character composition.\nPlace the camera just INSIDE the real upper room, close to its exterior doorway. The three young friends have just come through the doorway and stand close to us on the same continuous timber floor: Calista left hugging her closed brown sketchbook, Cassia middle turning toward her with a welcoming delighted smile, Joren right holding the open door and looking toward his friends. Frame them approximately from their knees to above their heads, occupying about 80 percent of image height, like the vivid close image 1. The three are peers: Calista and Cassia almost equal standing stature, Joren only about five percent taller, all at similar depth. Preserve plausible limb and torso proportions and their separate identities.\nCalista: light olive skin with freckles, rich chestnut curls partially tied with grey ribbon, deep blue irises, cream rolled-sleeve blouse and brown overalls. Cassia: rich umber skin and chestnut waves, deep green irises, mustard headband/scarf, embroidered plum tunic, blue trousers, satchel. Give Cassia gently dimensional cheeks, nose and forehead, a naturally shaped mouth with soft lip edges, normally proportioned eyes with relaxed lids; keep her recognizable from image 4 rather than reshaping her into a generic doll. Joren: ruddy fair freckled complexion, unruly blond curls, deep blue irises, rust overshirt and brown shorts. Their eyes are ordinary shaded irises with small realistic catchlights, never luminous or oversized.\nArchitecture from image 2 must remain physically intelligible: the enormous diagonal oak trunk fills the LEFT edge; immediately beside it is the arched EXTERIOR door opening toward a safe upper landing and daylight leaves outside. To the RIGHT of the door, the same broad upper room continues with repeated open viewing bays, branch rails and rust curtains. Timber roof beams span a generous usable floor. At the lower right edge a glimpse of the round map table or cushions can establish the room without making this a room-wide shot. The door opens OUTSIDE; it is not a door into a narrow cupboard hollow, there are no shelves filling its opening. Do not enclose the entire room in a small trunk. No new hallways, stairs or extra doors.\nWarm dappled daytime garden light crosses faces and wood, with soft reflected fill giving full midtone detail. Preserve the original's warm inviting golden-brown atmosphere, intricate hair strands, woven cloth, lively expressions and confident painterly finish. Do not retreat to a wide shot with tiny people. No text, no border, no watermark.",
+      "references": [
+        "generation:theme-recut-treehouse-arrival",
+        "generation:treehouse-shaded-v1",
+        "generation:alpha-calista-young-natural-proportions",
+        "generation:review-025-cassia_young",
+        "generation:joren-young-key-v1"
+      ],
+      "output_id": "exec-c3afc3a7-9b0f-4e6d-9820-684f054de9c0",
+      "selected": false
+    },
+    {
+      "id": "alpha-theme-arrival-door-post",
+      "prompt": "Use case: precise-object-edit. Edit this illustration with ONE localized architectural correction only. On the FAR RIGHT beside the blond boy's outstretched hand there is an erroneous second freestanding open door, with a large iron handle and hinges. Remove that entire extra door panel and its iron door fittings. In precisely that same narrow area, show the room's ordinary vertical timber window-bay support, extending from floor to roof, with the blond boy's existing hand naturally resting around the post instead. Behind that narrow support, continue the already visible open garden-facing bay, branch railing and soft daylight leaves. The boy's wrist/forearm, pose, smile, stature, clothes, silhouette and hand position stay the same; adjust just finger contact as necessary for the wooden post.\nThe REAL arched exterior entrance beside the enormous oak trunk in the LEFT BACKGROUND must remain exactly as shown; it is the only door. Leave that entrance, trunk, room perspective, open bays, floor, map table, every face and iris, every hair strand and all clothing completely unchanged. Keep this close composition, character sizes, warm dimensional painterly illumination and fine texture at full quality. Do not regenerate the people or zoom out. No other modifications. 16:9, 2560 by1440.",
+      "references": [
+        "generation:alpha-theme-arrival-quality-base"
+      ],
+      "output_id": "exec-a4a7ba41-e9aa-4575-9f89-fc580cee260c",
+      "selected": false
+    },
+    {
+      "id": "alpha-theme-arrival-quality",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE localized scale correction to this existing finished painting. Enlarge only Calista, the girl on the LEFT in cream blouse and brown overalls hugging a brown book, as one entire coherent figure by about 9 percent, anchored at the bottom of the frame. Include her hair, naturally tilted head, shoulders, torso, book, folded arms, hands and trousers together at the same proportional scale. This should bring her shoulder line roughly 65–75 pixels higher in this image: she is Cassia's same-age peer, standing slightly nearer camera, not a younger child. Do not stretch her neck or separately move her head. Keep the existing tilt, exact facial anatomy, expression, freckles, softly modeled cheek/nose light, iris colors, natural eye shape, detailed curls, cloth patterns and book.\nLeave Cassia in the MIDDLE and Joren on the RIGHT entirely unchanged in size, position, face, clothing and gesture. Leave the camera, warm golden painterly finish, fine textures, oak trunk, single arched outside doorway, real room floor, right post, open bays, curtains and map table unchanged. Do not align hair crowns artificially; her larger hair may rise close to Cassia's crown while the actual body proportions remain natural. Fill only the tiny background edges exposed by the local figure adjustment using their existing adjoining textures. No other edits, no new objects, no iris correction, no style change, no zoom or crop.",
+      "references": [
+        "generation:alpha-theme-arrival-door-post"
+      ],
+      "output_id": "exec-df7553e2-43eb-4d2c-b06d-ef47cc638dd6",
       "selected": true
     }
   ]

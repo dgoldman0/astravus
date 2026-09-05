@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "policy": "Definitions contain only facts available at their displayed cue. No persistent completion, later-book mechanics, future titles, or locked-entry placeholders.",
+  "entries": [
+    {
+      "id": "first_breath",
+      "title": "First Breath",
+      "stages": [
+        {
+          "scene": "first_memory",
+          "cue": "They told me about the Sanctuary. About my First Breath, and the five pairs of hands waiting to hold me.",
+          "description": "A child's birth and welcome into the community. Cali's parents remember her First Breath at the Sanctuary.",
+          "sources": [
+            {
+              "path": "../revision/latest.md",
+              "anchor": "They spoke of my First Breath and taking me home from the Sanctuary"
+            },
+            {
+              "path": "../wiki/worldbuilding/The-Sanctuary.md",
+              "anchor": "The moment of arrival is called \"First Breath\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sanctuary",
+      "title": "Sanctuary",
+      "stages": [
+        {
+          "scene": "first_memory",
+          "cue": "They told me about the Sanctuary. About my First Breath, and the five pairs of hands waiting to hold me.",
+          "description": "The place where children are born and welcomed by their waiting parents. Cali's parents brought her home from the Sanctuary.",
+          "sources": [
+            {
+              "path": "../revision/latest.md",
+              "anchor": "They spoke of my First Breath and taking me home from the Sanctuary"
+            },
+            {
+              "path": "../wiki/worldbuilding/The-Sanctuary.md",
+              "anchor": "All Astraviin children are born at the Sanctuary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lumen",
+      "title": "Lumen",
+      "stages": [
+        {
+          "scene": "first_memory",
+          "cue": "Lumen, the child of Aurora and Nyx, was still a young world when I was born.",
+          "description": "Cali's home: a young world, the child of Aurora and Nyx. Its community is still growing.",
+          "sources": [
+            {
+              "path": "../revision/latest.md",
+              "anchor": "Lumen, the child of Aurora and Nyx, was a world still in its infancy"
+            }
+          ]
+        },
+        {
+          "scene": "tree_echoes",
+          "cue": "Lumen was a living ship. I had grown up inside that life without needing to picture its whole shape.",
+          "description": "Cali's home: a young, living Astravus, the child of Aurora and Nyx. Its gardens, paths, and gathering places are part of the world its residents share.",
+          "sources": [
+            {
+              "path": "../revision/latest.md",
+              "anchor": "Lumen, the child of Aurora and Nyx, was a world still in its infancy"
+            },
+            {
+              "path": "../revision/latest.md",
+              "anchor": "the living ship that had given us this remarkable gift"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "constellation",
+      "title": "Constellation",
+      "stages": [
+        {
+          "scene": "first_memory",
+          "cue": "With Lyra's arrival, my parents' constellation had three children to raise together.",
+          "description": "A committed romantic partnership among adults. Cali's five parents form a constellation; the family they raise together also includes their children and animal companions.",
+          "sources": [
+            {
+              "path": "../revision/latest.md",
+              "anchor": "My parents were part of one such diverse and loving constellation, with five adults raising three children"
+            },
+            {
+              "path": "docs/ADAPTATION.md",
+              "anchor": "**Constellation** names the adults' romantic partnership."
+            }
+          ],
+          "author_clarification": "The author's September 4, 2026 clarification takes precedence over wiki passages that include the whole household in the term."
+        }
+      ]
+    },
+    {
+      "id": "astravus",
+      "title": "Astravus",
+      "stages": [
+        {
+          "scene": "sage_story",
+          "cue": "They lived aboard an Astravus, a great living ship traveling through the cosmos. Its passages were as familiar to them as these halls are to you.",
+          "description": "A great living ship that travels through the cosmos and is home to a community. In Sage's story, Aria, Bram, and Cora live aboard one.",
+          "sources": [
+            {
+              "path": "../revision/latest.md",
+              "anchor": "aboard a great Astravus traveling through the cosmos"
+            },
+            {
+              "path": "../revision/latest.md",
+              "anchor": "They lived within the living ship"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tree_of_echoes",
+      "title": "Tree of Echoes",
+      "stages": [
+        {
+          "scene": "tree_echoes",
+          "cue": "The Tree of Echoes. Dorian told us about it.",
+          "description": "An old, hollow tree from Dorian's stories. Cali and her siblings find it in a clearing along an unfamiliar path.",
+          "sources": [
+            {
+              "path": "../revision/latest.md",
+              "anchor": "This must be the Tree of Echoes"
+            },
+            {
+              "path": "game/family_book_one.rpy",
+              "anchor": "One clear afternoon, we followed a path we hadn't taken before."
+            }
+          ]
+        },
+        {
+          "scene": "tree_echoes",
+          "cue": "It grew from a seed another Astravus gave. An ancient one. Then the tree came here when Lumen was founded.",
+          "description": "An ancient, hollow tree brought here when Lumen was founded. It grew from a seed given by an ancient Astravus, a reminder of the community's heritage.",
+          "sources": [
+            {
+              "path": "../revision/latest.md",
+              "anchor": "It was transplanted here when Lumen was founded. The tree was already ancient, grown from a seed gifted by an ancient Astravus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astraviin",
+      "title": "Astraviin",
+      "stages": [
+        {
+          "scene": "loss",
+          "cue": "In our world, where transcendence and joining with one's Astravus was the norm, and death among the Astraviin was nearly unheard of, Joren's loss was profoundly shocking and unbearably painful.",
+          "description": "The people who live within and share a close bond with an Astravus. Cali and her community are Astraviin.",
+          "sources": [
+            {
+              "path": "../revision/latest.md",
+              "anchor": "As Astraviin, we shared a deep and intimate connection with our home"
+            },
+            {
+              "path": "../revision/latest.md",
+              "anchor": "death among the Astraviin was nearly unheard of"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transcendence",
+      "title": "Transcendence",
+      "stages": [
+        {
+          "scene": "loss",
+          "cue": "In our world, where transcendence and joining with one's Astravus was the norm, and death among the Astraviin was nearly unheard of, Joren's loss was profoundly shocking and unbearably painful.",
+          "description": "Joining with one's Astravus. In Cali's world, this is the familiar course of life, distinct from death.",
+          "sources": [
+            {
+              "path": "../revision/latest.md",
+              "anchor": "In our world, where transcendence and joining with one's Astravus was the norm, and death among the Astraviin was nearly unheard of"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

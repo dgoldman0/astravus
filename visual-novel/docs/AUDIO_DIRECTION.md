@@ -1,6 +1,6 @@
 # Book I audio direction
 
-Version 0.2.2 keeps the original instrumental compositions and renders them with CC0 recorded instruments. Rain, water, and wood use selected CC0 recordings; soft room air and the quiet festival pulse remain original synthesis. The flute lesson begins with one broken breath, then uses the original hesitant phrase when the narration reaches several notes. There are no borrowed melodies, Suno tracks, or voice performances. NumPy, SciPy, and SoundFile are build dependencies, not runtime dependencies. Music and ambience ship as Ogg Vorbis; six short effects remain PCM WAV. Ren'Py plays these files directly.
+Version 0.1-alpha keeps the original instrumental compositions and renders them with CC0 recorded instruments. Rain, water, and wood use selected CC0 recordings; soft room air and the quiet festival pulse remain original synthesis. The flute lesson begins with one broken breath, then uses the original hesitant phrase when the narration reaches several notes. The optional vocal closing theme is the author's **Curiosity and Discovery**, created by Daniel Goldman with assistance from ChatGPT and SUNO. Story dialogue is not voiced. NumPy, SciPy, and SoundFile are build dependencies, not runtime dependencies. Music and ambience ship as Ogg Vorbis; six short effects remain PCM WAV. Ren'Py plays these files directly.
 
 The original **First Light** motif remains recognizable: C–D–E–G–C–A–G–C. Its arrangement uses answering phrases, overlapping harmony, a low register, and a small stereo room. The score shares this musical vocabulary across the book, but each cue changes its density, register, rhythm, and harmonic emphasis. This is intended to give scenes continuity without putting the same unchanging loop underneath every emotion.
 
@@ -37,14 +37,18 @@ All music cues loop. The lengths above are rounded; the renderer places eight tw
 
 The flute sounds are story events. Fade out the background music before them; let each phrase continue across text where possible, then return to the score. Avoid a mandatory long wait that punishes a quick reader. Sound settings still govern these cues.
 
-Music, ambience, and effects stay on their existing Ren'Py channels so the reader can adjust them. At the current default music volume of 0.32, the environmental layers are deliberately quiet, with rain more present than room tone. Keep silence available, especially at the death notification and the first stunned responses. A change of scene does not always need a change of music; change it when the emotional or physical setting warrants it.
+Music, ambience, and effects stay on their existing Ren'Py channels so the reader can adjust them. At the current default music volume of 0.32 and sound volume of 0.4, the environmental layers are deliberately quiet, with rain more present than room tone. Keep silence available, especially at the death notification and the first stunned responses. Narrative cue starts use `if_changed`: adjacent scenes sharing a cue continue it without a restart or fade dip. A new cue still uses its stated fade.
+
+The final level check measures all twenty files with FFmpeg's EBU R128 meter and applies the gains actually specified by the game. The ordinary score spans −22.8 to −20.4 LUFS; grief (−25.2) and rain refuge (−23.7) remain intentionally quieter. These cues are not normalized to one loudness. The original hesitant flute phrase plays at `volume 0.75` (−2.5 dB), putting it at −19.3 LUFS before the reader's sound setting, close to the later practice phrase at −19.0. The short broken first breath remains quieter at −21.5 LUFS. Their notes, timing, timbre, and WAV files are unchanged.
+
+The closing song is mastered at −14.7 LUFS. Its dedicated music channel applies a −6 dB track gain from `closing_theme.json`, placing it at −20.7 LUFS, close to the preceding home theme at −21.1. The source WAV, runtime Ogg, and standalone MP4 retain the supplied mastering; the gain is specific to playback within the game's quieter mix. Music settings still apply. [Listen on SUNO](https://suno.com/s/IoZ3kzpqJBFXAgJJ).
 
 ## Sources and rendering
 
-Every external audio source is explicitly CC0. [audio-sources.json](audio-sources.json)
+Every downloaded instrument and environmental recording is explicitly CC0. [audio-sources.json](audio-sources.json)
 records the author, source page, download URL, SHA-256, byte size, and pinned VSCO
 commit (`440300901dfe9275fd84e0b7763af1f8443ae62e`). The shipped
-[audio credits](../game/audio/README.md) identify the recordings and their uses.
+[audio credits](../game/audio/README.md) identify the recordings and their uses. The author-supplied closing song is a separate source, documented in [closing-theme-audio.json](closing-theme-audio.json).
 
 The instrument set uses 73 source samples from [VSCO 2 Community Edition](https://versilian-studios.com/vsco-community/):
 harp, the soft layer of Upright Nr1, sustained cello/viola ensembles, and flute.
@@ -107,13 +111,13 @@ page checksums are made deterministic without altering compressed audio packets.
 
 ## Validation and listening
 
-`audio_check.py` decodes all nineteen delivered assets and checks sample rate,
+`audio_check.py` decodes all twenty delivered assets and checks sample rate,
 codec/PCM subtype, stereo content, duration, DC, sample and reconstructed peaks,
 loop seams, and frame/level agreement with cached masters. It also checks the
-first flute against its preserved hash. Reports are in `test-results/`.
+first flute against its preserved hash. The closing song is checked against its provenance and full source duration. FFmpeg EBU R128 measurements, script gains, estimates at the default mixer settings, and related-cue balance checks are included in `test-results/audio-report.json`. The cached FFmpeg installed for the theme renderer is supported; `--ffmpeg /path/to/ffmpeg` selects another installation.
 
 The renderer and checks do not provide a human listening verdict. Audition the
 music, rain, water, and scene balance in the rebuilt game. Git preserves earlier
 audio versions; do not retain separate historical copies or comparison exports.
-Runtime audio totals about 24 MiB; raw sample libraries are excluded from
+Runtime audio totals about 28 MiB; raw sample libraries are excluded from
 exported games.

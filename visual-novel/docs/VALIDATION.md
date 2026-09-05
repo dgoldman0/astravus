@@ -1,73 +1,100 @@
-# Book I alpha validation — 0.2.7 work in progress
+# Book I validation — 0.1-alpha
 
-The current staging/pacing and closing-theme pass has **658 dialogue blocks, 7,863 words, 65 named images and 22 screens**. Script lint passes with no script warnings or errors. The image audit passes for all **75 selected files and 117 generation records** (including ten new illustrations loaded directly from the closing-theme cue sheet). Artwork outputs have been inspected individually; the final in-game visual review and full native/browser playthroughs have **not** been rerun yet. Test definitions cover the new scene illustrations and cast-aware speaker portraits. See `REVIEW_0_2_7.md`.
+The final strict release gate passes: **128 PASS, one explicitly LIMITED platform row, and no pending, stale or failed checks**. This includes the 116-check content gate, current native and browser runs, separate artistic and usability reviews, package integrity, bundled Linux startup and the complete film review. The limited row records unverified platforms/devices; it does not waive a required failure.
 
-The user requested that release finalization wait while additional edits are considered. No 0.2.7 release archives have been built. The richer afterword and optional closing montage are implemented in the working copy. The focused `closing_theme_review` native check passes **18 assertions**: playback, pause/resume, skip, replay (including skipping while paused), motion preference, audio-position fallback, automatic completion, channel cleanup and Continue. The revised sequence again passes all 18 checks. Reviewed screenshots cover the richer afterword, both motion modes, the three friends, the new opening with Cali and Kael, and the final title beside Calista. The song's Ogg encode decodes to all **8,532,480 stereo frames at 48 kHz**, with **−0.030 dB** RMS change and **−3.76 dBFS** decoded peak. It is distinct from the previously measured CC0 score/effects assets.
+Ren’Py is pinned to **8.5.3.26051504**. The public version is **0.1-alpha**; the existing save namespace remains `Astravus-Book-I`. The [release matrix](RELEASE_MATRIX.md) tracks **129 checks: 32 scenes, 75 images and 22 shared checks**. Its [evidence register](release-evidence.json) binds each result to the exact reviewed inputs and evidence. Changes invalidate affected results; earlier preview runs do not approve this release.
 
-The closing-theme recut has **15 distinct pictures**, with characters in **14**. It opens with Cali and Kael among sunflowers, then alternates close interactions and shared activities, ending with Calista looking ahead to another day. Ten new generated pictures were inspected for identity, framing, believable contact with the ground and source context. Both renderers use eased, fractional camera positioning; the export uses cubic sampling at **50 fps**, with 0.8-second dissolves and several held pictures. A 150-frame synthetic-marker check found no backward camera steps above 0.02 pixels and a maximum position error of 0.090 pixels. The complete revised H.264/AAC MP4 decodes successfully: **1920 × 1080, 50 fps, 177.76 seconds, 8,888 frames, 96.9 MiB**. Extracted frames from every shot, a midpoint dissolve and the final title were inspected. The runtime Ogg and its provenance remain byte-for-byte unchanged. Temporary shot clips were removed; the recut replaces the existing preview file.
+## Story and reader knowledge
 
-The results below describe the previously tested **0.2.6 baseline**, not new passes of those checks. `CLOSING_THEME_DRAFT.md` describes the editable film, supplied song and reproduction steps; musical/lyric alignment remains an editorial first pass.
+All **32 scenes, 658 dialogue blocks and 7,857 words** were reviewed against Book I and the author’s corrections. The restored source passage and bridge from scenes 24 to 25 remain unchanged. The story keeps the sudden loss, its unusual cultural context and the subsequent grief without adding metaphysical explanations. [The story/audio review](POLISH_STORY_AUDIO.md) and [glossary review](GLOSSARY_REVIEW.md) record the source comparisons.
 
-## Previous released baseline — 0.2.6
+The new **Glossary has eight entries and ten reveal stages**. Terms appear at their introduction, and later revelations expand definitions only when reached. Future titles and locked-entry counts stay hidden. Rollback, load and new game restore current-reading knowledge. Chapter jumps reconstruct earlier context, like People, while destination revelations wait for their own cues. The constellation passage now reads naturally without interrupting the family scene to define the adult partnership.
 
-Verified locally on September 4, 2026, using Ren'Py **8.5.3.26051504** on Linux. The rough 0.1.3 preview and its original validation remain in commit `3dfcf6c`; this document covers the expanded Book I build with illustrated familiars, individual People entries, corrected flute staging, sampled audio and dialogue portraits.
+The **40–50 minute** reading estimate comes from the text and reading beats, not a timed human playthrough. The optional **2:58** closing theme adds about three minutes. Credits retain the repository, itch.io and SUNO links and the requested Daniel Goldman/ChatGPT/SUNO song credit. The afterword points toward Calista’s wider life without promising a release date. See [credits and release review](CREDITS_RELEASE_REVIEW.md).
 
-Version 0.2.6 adds chapter spoiler warnings, a persistent setting, an itch link in the credits, and a separate hopeful afterword. The title now says **about 40–50 minutes**, based on the calculation in `ALPHA_0_2_6.md`, and identifies the build as an alpha. Story and images retain the 0.2.5 source and visual review. Audio is unchanged from 0.2.3; its measurements and provenance checks below are retained.
+## Visual quality and physical continuity
 
-| Check | Result |
+Every one of the **75 selected images** has a separate artistic-quality review against a deliberately chosen earlier image or reference, covering composition, light, detail, anatomy, expression, identity and sharpness. A correct iris or file hash is not an artistic approval. The three reports are [CG artwork](ART_REVIEW_CG.md), [standing characters and stable CGs](ART_REVIEW_STABLE.md), and [backgrounds and familiars](BACKGROUND_FAMILIAR_QUALITY_REVIEW.md).
+
+Compared with the previous committed build, **16 CGs and four Calista sprites** change. The stronger close path, arrival and morning compositions replace the rejected distant versions. Pond comfort returns to its original painting with only a small Calista iris correction; the waterwheel painting is restored byte for byte. Supported crouching and leaning explain their crown heights, so neither needed a body enlargement. The accepted pictures retain natural faces, dimensional shading and painterly material detail.
+
+All **20 CGs** have explicit identity, face, age, iris and supported-proportion findings in [the character register](cg-character-review.json). Four sprite and eleven CG iris corrections have deterministic recipes, source/output hashes and exact reproducibility checks in [iris-retouches.json](iris-retouches.json). Independent checks confirm no changes outside their masks or to protected pupils and catchlights. That proof is separate from approval of the source painting.
+
+[Location continuity](LOCATION_CONTINUITY.md) covers **29 images across seven locations**. The treehouse retains its broad upper room, connected ladder/entry and separate lower hollow; festival and memorial retain shared plaza landmarks and a visible community. The close trio’s neighborhood walkway is a distinct source-supported place, not another version of Maia’s treehouse. [CG scale review](CG_SCALE_REVIEW.md) distinguishes stature from pose and depth; production proportions do not invent canonical centimeters or exact ages.
+
+The runtime support-plane pass corrects construction-path standing positions, places the children on the treehouse’s clear floor at one shared camera distance, and moves several familiar placements onto actual floors/ledges. It preserves their relative size. **Twelve UI-hidden captures and eight assertions** support these changes in [the grounding review](CONSTRUCTION_GROUNDING_REVIEW.md).
+
+The [integrated scene review](RUNTIME_VISUAL_REVIEW.md) inspects the assembled game, including portraits, dialogue, staging and the larger reading controls. Native captures supply 29 scene views plus the news transition; final browser frames supply readable dialogue for all 32 scenes, including the three native screenshot gaps. The native functional suite separately traverses every scene. This distinguishes actual visual evidence from automated progression.
+
+## Reader controls and usability
+
+The final browser usability probe passes **five grouped control checks**, with **41 fresh captures at 1280×720 and 960×540** and no reported engine/browser errors. The screenshots were inspected separately for legibility, spacing, visible focus, pointer targets, feedback and predictable destinations. [The usability review](USABILITY_REVIEW.md) records the actual observations and limits.
+
+That visual inspection caught concatenated shortcut/explanation text in the reading guide. Fixed-width label containers and a separate gap now keep those columns aligned. The bottom reading controls also use larger labels, which fit at both tested sizes. Save switches away from the read-only Automatic page; empty or incompatible Load slots stay disabled. Warning, overwrite and delete cancellation preserve the current story or saved slot. The unread-chapter warning, its opt-out setting, People/Glossary navigation, larger dialogue, stronger contrast, reduced motion and theme pause/skip controls were exercised through real mouse and keyboard input.
+
+## Completed technical checks
+
+| Check | Final evidence |
 | --- | --- |
-| Script lint | Pass: **667 dialogue blocks, 7,934 words, 54 images, 21 screens**; no script warnings or errors. |
-| Native complete playthrough | Pass: **143 assertions across all 32 scenes**. Adds coverage of all 667 dialogue identifiers, warnings from title and reading menus, cancellation, confirmed jumps leaving earlier gaps unread, setting changes surviving loading, credits URL, the afterword and Continue after finishing. Retains supporting portraits, festival poses, familiar/People discovery and rollback, save/load, scene cleanup, source-order reveals, flute cue order, ages, weather, chapter continuation and fresh-start reset. The final author hyperlink receives a focused browser check after this run. |
-| Chromium full playthrough | Pass: **all 32 scenes in order**, all **14 individual People entries** opened and checked on their first spoken lines, **three illustrated familiar profiles** checked at their narrated introduction, familiar appearances in **seven scenes**, and all three flute cues in story order. Every spoken line requires its actual speaker to be depicted by a standing actor, portrait or applicable CG. Includes save/load, reveals, age/clothing, portraits, rain, grief, afterword, Credits, reload and Continue; no engine/page errors. |
-| Chromium chapter selection | Pass: **all 32 jump destinations** match entrances recorded during ordinary reading, including dialogue, backgrounds, actors, People/familiar rosters, ages, loss and revelation flags. The picker also opens after completing, reloading, continuing and returning to title; the test waits for the title fade to finish before clicking. Reverse-order jumps remove later knowledge. |
-| Chromium alpha controls | Pass: spoiler warning opens on an unread title-menu jump, Escape and Go back cancel without changing the reading position, confirmation permits the jump, skipped earlier chapters remain unread, and the completed-book flag cannot bypass gaps. Disabling warnings permits a direct jump. The setting survives a browser reload. Both credits and afterword buttons target the requested itch URL. |
-| Final credits link | Pass: a focused Chromium check verifies the rendered `dgoldman0` hyperlink and clicks it to open `https://github.com/dgoldman0/Astravus`. The external destination is intercepted for this check; no claim is made about GitHub's live availability. The separate itch link remains correct. Final desktop and web archives are rechecked against the updated runtime files. |
-| Cache and unavailable WebGL | Pass: stale cached content refreshes online and remains available offline. Unsupported WebGL shows the fallback before any engine/game download. |
-| Image provenance | Pass: **54 selected images and 96 generation records** across four manifests. Files, dimensions, modes and SHA-256 hashes match. Selected generations, runtime definitions and stored reference chains resolve; no unlisted images remain in the runtime tree. Nibble's author-supplied reference is documented as a conversation attachment, without an available local source file. |
-| Audio | Retained passing measurements: all **19 delivered assets** decode correctly. Format, stereo content, DC, clipping, oversampled peak estimates, duration and loop boundaries pass. All thirteen compressed loops preserve their masters' frame counts. The single attempt is 1.6 seconds at 24 kHz; the original hesitant phrase plays later in the first lesson. Runtime audio totals **24.16 MiB**. This pass verifies their packaged bytes and cue order; it does not claim a new listening assessment. |
-| Audio provenance | Retained passing audit: **78 pinned source files**, including 73 VSCO instrument samples, the library license, and four environmental downloads, plus ten extracted archive members match their SHA-256 hashes. Every external source is CC0. Sources and uses are recorded in `audio-sources.json` and the bundled audio credits. |
-| Visual review | Inspected the alpha title, spoiler dialog, Settings, credits link and afterword at native and browser sizes. Retain the complete 0.2.5 artwork review: shared plaza architecture/crowds, three Cassia variants, four supporting parents, pond/waterwheel, familiar placement and festival poses. See `REVIEW_0_2_5.md` for those scene-by-scene findings. |
-| Exports | Pass: **0.2.6 PC and Mac ZIPs, browser ZIP and nested game ZIP** pass CRC checks. All **87 relevant source/asset files** match the working tree: 19 audio files, 54 images, 13 runtime scripts and audio credits. The chapter picker, warning and afterword are included. Packaged READMEs also match. The PC package contains Windows and Linux launchers. Test scripts, source libraries, saves and development caches are excluded; Ren'Py includes its generated runtime bytecode and build metadata. |
-| Source coverage | Compared all 32 scenes against Book I of `revision/latest.md`, from First Breath through annual remembrance, and checked supporting biographies and expanded dialogue. Eight paragraphs from the familiars' intervention through the first grief are reverified verbatim and in source order, with reading-beat and italics formatting adapted for the VN. This includes the closing reflection on friendship and the opening turn toward unforeseen tragedy across scenes 24–25. No Book II events or alternate outcomes. See `BOOK_ONE_COVERAGE.md` and `REVIEW_0_2_5.md`. |
-| Repository boundaries | Source, selected images and delivered audio are under `visual-novel/`. SDK downloads, masters, rejected art, builds, ZIPs, saves, compiled scripts, screenshots and test logs remain ignored. |
-| Build retention | Pass: the desktop helper checks both new ZIPs before removing older Astravus exports. The 0.2.6 build replaces the superseded 0.2.5 pair; subsequent builds overwrite the same 0.2.6 filenames. Only the current PC and Mac ZIPs remain in `dist/`. Earlier temporary-directory checks cover corrupt/missing-package protection and preservation of unrelated or newer ZIPs. No before/after artwork copies are added to the repository. |
+| Native full-book integration | **156/156 assertions pass**, including progression, saves, menu state, People/familiars, chapter reconstruction and cleanup. `test-results/release-matrix/native-playthrough.log`. |
+| Standing-character framing | **26 rendered silhouettes pass**, with feet within 2 virtual pixels and same-stage variants within 3 pixels. `test-results/release-matrix/native-framing.log`. |
+| Native glossary | **25/25 assertions pass**, including rollback, loading, new game and chapter knowledge. |
+| Native closing theme | **19/19 assertions pass**, including timing, pause/resume, reduced motion, skip/replay and audio state. |
+| Final browser playthrough | All **32 normal scenes and 32 backward chapter jumps pass**, including corresponding story/character state, glossary reveals, portraits, audio ordering, theme, spoiler controls, actual credit-link clicks, cache refresh and unsupported-graphics fallback. `test-results/release-matrix/browser-playthrough.log`. |
+| Regression tests | **50 tests pass**, covering review invalidation, source/reveal state, build gates, review-only artifacts, comparison references, version-reset export retention and the exact allowed generated engine files. |
+| Asset and continuity guards | **75 selected files, 160 complete generation records, 20 CG reviews, 29 location views and 26 sprite layouts pass**. Iris recipes and their scripts are tracked inputs. |
+| Syntax and source references | Final Ren’Py lint passes with **658 dialogue blocks and 7,857 words**. |
+| Audio measurements | All **20 delivered audio files and four related-cue balance checks pass**. `test-results/release-matrix/audio-measurements.log`. |
+
+The song now enters at approximately **0.4 LU** above the preceding home music, rather than 6.4 LU. Hesitant and practiced flute phrases are about **0.3 LU** apart; the initial broken breath remains deliberately quieter and unskilled. Repeated score/ambience cues continue across adjacent scenes instead of restarting. The original song WAV remains unchanged. See [audio sequence review](AUDIO_SEQUENCE_REVIEW.md).
+
+## Closing film
+
+The final [standalone movie](../build/closing-theme.mp4) is **1920×1080 at 60 fps, 126.5 MiB**, using H.264 video and stereo AAC audio. All **10,666 frames** decode; their timestamps are unique and exactly 1/60 second apart. The complete **177.76-second** source song remains present, with measured encoded level change of −0.0556 dB and no applied mastering change.
+
+All 15 settled compositions and all 14 dissolves were inspected. The overlapping pictures hold their camera positions and blend smoothly; movement resumes between overlaps. The review also investigated keyframe difference peaks, finding small fine-detail compression refresh without a discernible spatial jump or gross whole-frame flash. The [final film report](FINAL_FILM_REVIEW.md) records those observations, measurements and limits. Runtime and export use the same final cue sheet and approved images; reduced motion intentionally holds images and uses cuts.
 
 ## Reproduce
 
 From `visual-novel/`:
 
 ```sh
-python3 scripts/project.py lint
+python3 scripts/project.py review --strict
+python3 scripts/release_review.py run asset-registers
+python3 scripts/release_review.py run glossary-rules
+python3 scripts/release_review.py run regressions
+python3 scripts/release_review.py run lint
+python3 scripts/release_review.py run audio-measurements
 python3 scripts/project.py test --headless
-python3 scripts/check_assets.py
-python3 scripts/audio_check.py
-python3 scripts/project.py web
+python3 scripts/project.py test --headless --suite character_framing_review
+python3 scripts/project.py test --headless --suite glossary_review
+python3 scripts/project.py test --headless --suite closing_theme_review
 python3 scripts/project.py build
+python3 scripts/project.py web
 python3 scripts/project.py serve --port 8000
-# Separate terminal, with Playwright and Chromium installed:
-python3 scripts/browser_smoke.py --url 'http://127.0.0.1:8000/?preview=0.2.6'
+# Separate terminal with Playwright and Chromium installed:
+python3 scripts/browser_smoke.py --url 'http://127.0.0.1:8000/?preview=0.1-alpha'
+python3 scripts/browser_usability.py 'http://127.0.0.1:8000/?preview=0.1-alpha'
+python3 scripts/check_release.py
 ```
 
-Native tests run with separate state under `test-results/state/`. Browser tests use a fresh Chromium context, observe the running engine through its web bridge, and read using real keyboard/mouse input. They require the exact ordered 32-scene sequence, capture each scene, check both sides of the Lumen reveal, require the older Cassia before loss, and prohibit a live Joren portrait after his death. Spoken dialogue requires the actual speaker's depiction; a visible listener alone does not pass. Key action scenes must exercise the portrait fallback. The test bridge sends ASCII Python source to preserve Unicode date and dialogue labels through the SDK's base64 transport. Rain checks allow the previous ambience's scheduled fadeout to finish. Screenshots, build logs and audio measurements are local ignored review artifacts in `test-results/`.
+Normal build commands require current content approval; temporary `--review-build` artifacts cannot pass final signoff. Test state is isolated from the reader’s saves. Reports, screenshots and packages are ignored development artifacts. Only selected runtime assets ship; no before/after artwork bundles or previous release archives are included.
 
-The People guide reserves “constellation” for the adults' partnership and uses “family” or “household” for the wider group. The browser test opens the guide on each speaker's first line, selects that person's button, and checks the displayed profile. Native tests also check that rollback removes an encounter, loading an earlier save restores the earlier roster, and loading the encounter save brings the entry back.
+## Verification limits
 
-Familiars unlock from their first narrated introduction at home. Tests open all three illustrated profiles, check that the roster persists afterward, and require their scene appearances during First Memory, family routine, Tree of Echoes, waterwheel, construction exploration, treehouse disagreement and painting. Native tests verify familiar rollback, saves before and after discovery, scene cleanup and a fresh reading's empty familiar roster.
+Windows and macOS archives are constructed on Linux; **target-OS launch testing has not been performed**, and macOS is unsigned. Safari, mobile layouts, self-voicing output and physical speaker/headphone playback remain unverified. Technical audio measurements and cue review are not a subjective listening assessment.
 
-## Saves, startup and caching
+The movie review uses complete decoding, native 60 fps timestamps, inspected frame sequences and measured motion/blending. It does not claim subjective real-time audiovisual viewing or verified word-by-word lyric alignment. These explicit limits remain separate from required artistic, narrative, functional and package checks.
 
-Book I uses `Astravus-Book-I` as its save namespace and stamps saves with `astravus-book-one-v1`. Continue selects the newest compatible save; the load UI disables incompatible slots. The old preview's files are preserved. Scene autosaves wait for displayed dialogue so saved thumbnails and state reflect the new setting. Revelation and loss flags belong to the current reading and roll back or reset with it; completing the book does not spoil the next fresh reading's People guide.
+## Release artifacts
 
-The new roster reads the existing current dialogue history and completed scene progress, so compatible saves need no new unlock flags. Entries for the current scene follow actual speakers; completed scenes restore earlier encounters if the history is shortened. The title footer shows the running preview version.
+| Artifact | Size | Use |
+| --- | ---: | --- |
+| [PC ZIP](../dist/astravus-book-one-0.1-alpha-pc.zip) | 223.4 MiB | Windows and Linux download, with both launchers. |
+| [macOS ZIP](../dist/astravus-book-one-0.1-alpha-mac.zip) | 217.9 MiB | macOS app bundle; unsigned and not launched on macOS here. |
+| [Browser ZIP](../build/web.zip) | 197.5 MiB | HTML game with `index.html` at the ZIP root. |
+| [Closing film](../build/closing-theme.mp4) | 126.5 MiB | Separate 1080p60 video; the game plays the same stills and song directly. |
 
-Chapter selection reconstructs earlier scene state for the selected destination. It clears the old history and call stack, sets a rollback boundary, restores ages and revelation flags, and supplies inherited music. Family episodes retain their normal continuation after a jump and after save/load. Manual saves remain available; subsequent autosaves follow the new reading position. `DEV_CHAPTER_SELECT` remains enabled in both native and exported builds. The browser test records entrances during normal reading, then visits all 32 destinations in reverse order and compares their dialogue, backgrounds, actors, People/familiar rosters and story state with those entrances.
+The current PC, Mac and browser candidates pass ZIP integrity and exact equality against **125 runtime/source files**, plus expected launcher/permission checks and version metadata. Only the pinned engine’s generated `build_info.json` and `bytecode-312.rpyb` are allowed under its cache directory; development caches, tests, tools, marketing files and saves are excluded. Actual archive identities are recorded in `test-results/release-exports.json`. Superseded Astravus desktop exports were removed only after replacement archives passed integrity checks. Nothing was uploaded or published.
 
-Spoiler warnings use the engine's separate persistent record of viewed dialogue. Neither a fabricated earlier scene list nor reaching the ending marks skipped chapters as read. The default is On, with an immediately saved Settings toggle. Tests also cover going back to the same reading position from the modal warning, gaps after a confirmed jump, and existing viewed dialogue remaining available across reloads. The chapter selector's reading record is not used to reveal People entries in a new or earlier reading.
-
-The prior browser failures remain covered. Unsupported WebGL receives a useful fallback before any engine/game download. The service worker copies immutable request headers before revalidation, updates online, and retains the refreshed response for offline access. Startup checks for worker updates. The exporter gives game/bootstrap URLs a content-based build identifier; the local server sends `Cache-Control: no-store`. Browser save storage is not cleared. A tab already running the old engine still needs to navigate to the fresh preview address.
-
-## Scope of verification
-
-The automated runs verify function and presentation state, not literary or artistic finality. This pass also includes a source comparison and visual review; the preview remains open to the author's judgment of pacing and emotional balance. Audio was previously decoded and measured; it has **not** been subjectively certified by listening. The original score uses recorded instruments; environmental recordings supply rain, water and wood. There are no voice performances or recorded crowds.
-
-Windows and macOS packages are built and inspected, but have not been launched on their target operating systems. The Mac package is unsigned. Safari, mobile layouts, self-voicing output and physical speaker/headphone playback have not been manually verified. Character artwork has limited poses and expressions; all fourteen speakers now have dialogue portraits when their standing pose is hidden. The rain is painted rather than animated. These are current preview limitations, not missing Book I plot events.
+The final PC ZIP also passes a **bundled Linux startup/quit smoke test**. An isolated temporary extraction launched its own `.sh` and bundled executable, reached the rendered title with the correct artwork, fonts, controls and `Version 0.1-alpha`, then exited cleanly through its Quit button. No traceback was reported and the archive hash remained unchanged. This used Xvfb, Mesa software rendering and dummy audio; it checks packaged initialization/title/quit, while the full native story tests are separate. Evidence is in `test-results/packaged-linux/`; the extraction and isolated saves were removed afterward.

@@ -2,14 +2,18 @@
 """Decode runtime Ogg/WAV and check measurable audio properties.
 
 These checks catch clipping, DC, empty/broken assets, mono rendering mistakes,
-missing cues, and anomalous loop seams. They do not certify musical quality or
-replace listening in the game. Requires NumPy and SciPy.
+missing cues, anomalous loop seams, and relative playback loudness. They do not
+certify musical quality or replace listening in the game. Requires NumPy,
+SciPy, and FFmpeg (the closing-theme renderer's cached copy is supported).
 """
 from __future__ import annotations
 import argparse
 import hashlib
 import json
 from pathlib import Path
+import re
+import shutil
+import subprocess
 import sys
 import numpy as np
 from scipy.signal import resample_poly, welch
@@ -20,6 +24,54 @@ MUSIC = {"first_light", "home_theme", "discovery_theme", "wonder_theme", "festiv
          "rain_refuge", "grief_theme", "remembrance_theme"}
 AMBIENCE = {"garden_air", "rain", "room_air", "workshop_air", "plaza_air"}
 EFFECTS = {"wood", "flute_attempt", "flute_first", "flute_practice", "tree_creak", "water_splash"}
+SONGS = {"curiosity_and_discovery"}
+
+
+def playback_uses():
+    """Read the actual script gains instead of duplicating mix values here."""
+    options = (PROJECT / "game/options.rpy").read_text()
+    defaults = {
+        channel: float(re.search(r"define config.default_" + setting + r"_volume\s*=\s*([.\d]+)", options).group(1))
+        for channel, setting in (("music", "music"), ("sound", "sfx"), ("ambience", "sfx"))
+    }
+    uses = {}
+    for path in sorted((PROJECT / "game").glob("*.rpy")):
+        scene = None
+        for number, line in enumerate(path.read_text().splitlines(), 1):
+            entered = re.search(r'enter_scene\("([^"]+)"\)', line)
+            if entered:
+                scene = entered.group(1)
+            cue = re.match(r'\s*play (music|sound|ambience) "(audio/[^"\n]+)"(.*)', line)
+            if not cue:
+                continue
+            channel, filename, clauses = cue.groups()
+            gain = re.search(r"\bvolume\s+([.\d]+)", clauses)
+            relative = float(gain.group(1)) if gain else 1.0
+            uses.setdefault(Path(filename).stem, []).append({
+                "source": f"{path.relative_to(PROJECT)}:{number}", "scene": scene,
+                "channel": channel, "relative_amplitude": relative,
+                "default_mixer_amplitude": defaults[channel],
+            })
+    theme = json.loads((PROJECT / "game/closing_theme.json").read_text())
+    uses.setdefault(Path(theme["audio"]).stem, []).append({
+        "source": "game/closing_theme.json", "scene": "closing_theme", "channel": "closing_theme",
+        "relative_amplitude": 10 ** (theme["runtime_gain_db"] / 20),
+        "default_mixer_amplitude": defaults["music"],
+    })
+    return uses
+
+
+def loudness(path, ffmpeg):
+    result = subprocess.run([
+        str(ffmpeg), "-hide_banner", "-nostats", "-i", str(path),
+        "-af", "ebur128=peak=true:framelog=verbose", "-f", "null", "-",
+    ], check=True, capture_output=True, text=True)
+    summary = result.stderr.rsplit("Summary:", 1)[-1]
+    return {
+        "integrated_lufs": float(re.search(r"I:\s+(-?[\d.]+) LUFS", summary).group(1)),
+        "loudness_range_lu": float(re.search(r"LRA:\s+(-?[\d.]+) LU", summary).group(1)),
+        "true_peak_dbtp": float(re.search(r"Peak:\s+(-?[\d.]+) dBFS", summary).group(1)),
+    }
 
 
 def db(value):
@@ -44,12 +96,17 @@ def analyze(path):
     peak = np.max(np.abs(signal))
     rms = np.sqrt(np.mean(signal ** 2))
     dc = np.max(np.abs(signal.mean(axis=0)))
-    if peak > .45:
-        errors.append("Decoded peak exceeds -6.94 dBFS ceiling")
+    # The supplied song has its own mastering. Its game balance is controlled
+    # at playback, while the unchanged standalone song keeps its headroom.
+    supplied_song = path.stem in SONGS
+    ceiling = 10 ** (-1 / 20) if supplied_song else .45
+    dc_ceiling = .001 if supplied_song else 3e-5
+    if peak > ceiling:
+        errors.append(f"Decoded peak exceeds {db(ceiling):.2f} dBFS ceiling")
     if np.any(np.abs(signal) >= 1):
         errors.append("Clipped decoded sample")
-    if dc > 3e-5:
-        errors.append("DC offset exceeds -90 dBFS")
+    if dc > dc_ceiling:
+        errors.append(f"DC offset exceeds {db(dc_ceiling):.1f} dBFS")
     if rms < .001:
         errors.append("Unexpectedly silent asset")
     if np.array_equal(signal[:, 0], signal[:, 1]):
@@ -59,9 +116,15 @@ def analyze(path):
         errors.append("The first broken breath must be a short single attempt")
     if path.stem in MUSIC and not 45 <= seconds <= 90:
         errors.append("Music duration outside 45–90 seconds")
+    if supplied_song:
+        metadata = json.loads((PROJECT / "docs/closing-theme-audio.json").read_text())
+        if hashlib.sha256(path.read_bytes()).hexdigest() != metadata["output"]["sha256"]:
+            errors.append("Supplied song encoding differs from its recorded provenance")
+        if frames != metadata["source"]["frames"]:
+            errors.append("Supplied song does not retain its complete source duration")
     oversampled = resample_poly(signal, 4, 1, axis=0)
     true_peak = np.max(np.abs(oversampled))
-    if true_peak > .45:
+    if true_peak > ceiling:
         errors.append("Reconstructed peak exceeds available headroom")
     del oversampled
     derivatives = np.abs(np.diff(signal, axis=0))
@@ -82,6 +145,10 @@ def analyze(path):
         bands[name] = round(float(100 * np.sum(density[(frequency >= low) & (frequency < high)]) / total), 2)
     master_comparison = None
     master_path = MASTER_OUT / (path.stem + ".wav")
+    if supplied_song:
+        master_path = PROJECT.parents[1] / metadata["source"]["file"]
+        if master_path.exists() and hashlib.sha256(master_path.read_bytes()).hexdigest() != metadata["source"]["sha256"]:
+            errors.append("Supplied source WAV differs from its recorded provenance")
     if path.suffix == ".ogg" and master_path.exists():
         reference, reference_rate = sf.read(master_path, dtype="float64", always_2d=True)
         if reference_rate != rate or reference.shape != signal.shape:
@@ -118,32 +185,75 @@ def analyze(path):
     }
 
 
+def balance_checks(rows):
+    """Compare related cues; room tone and dramatic silence are not targets."""
+    by_name = {Path(row["file"]).stem: row for row in rows if row["playback_uses"]}
+    checks = []
+
+    def level(name):
+        return by_name[name]["playback_uses"][0]["lufs_before_user_mixer"]
+
+    if SONGS | {"home_theme"} <= by_name.keys():
+        difference = abs(level("curiosity_and_discovery") - level("home_theme"))
+        checks.append({"check": "Closing song versus the preceding home theme", "difference_lu": round(difference, 2), "limit_lu": 1.5, "pass": difference <= 1.5})
+    if {"flute_attempt", "flute_first", "flute_practice"} <= by_name.keys():
+        difference = abs(level("flute_first") - level("flute_practice"))
+        checks.append({"check": "Hesitant phrase versus later practice", "difference_lu": round(difference, 2), "limit_lu": 1.5, "pass": difference <= 1.5})
+        difference = level("flute_first") - level("flute_attempt")
+        checks.append({"check": "Single broken breath remains quieter than a phrase", "difference_lu": round(difference, 2), "minimum_lu": 1, "pass": difference >= 1})
+    ordinary_music = MUSIC - {"grief_theme", "rain_refuge"}
+    if ordinary_music <= by_name.keys():
+        levels = [level(name) for name in ordinary_music]
+        spread = max(levels) - min(levels)
+        checks.append({"check": "Ordinary score cue spread; quieter grief/rain cues retain their dynamics", "spread_lu": round(spread, 2), "limit_lu": 3, "pass": spread <= 3})
+    return checks
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--json", type=Path, default=PROJECT / "test-results" / "audio-report.json")
+    cached_ffmpeg = PROJECT / ".cache/video-tools/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2"
+    parser.add_argument("--ffmpeg", type=Path, default=cached_ffmpeg if cached_ffmpeg.exists() else shutil.which("ffmpeg"))
     args = parser.parse_args()
+    if not args.ffmpeg:
+        parser.error("FFmpeg is required; pass --ffmpeg or install the closing-theme renderer's tools")
     rows = []
     missing = []
-    for name in sorted(MUSIC | AMBIENCE | EFFECTS):
-        path = PROJECT / "game" / "audio" / (name + (".ogg" if name in MUSIC | AMBIENCE else ".wav"))
+    uses = playback_uses()
+    for name in sorted(MUSIC | AMBIENCE | EFFECTS | SONGS):
+        path = PROJECT / "game" / "audio" / (name + (".ogg" if name in MUSIC | AMBIENCE | SONGS else ".wav"))
         if not path.exists():
             missing.append(str(path.relative_to(PROJECT)))
             continue
         row = analyze(path)
+        row["loudness"] = loudness(path, args.ffmpeg)
+        row["playback_uses"] = uses.get(name, [])
+        if not row["playback_uses"]:
+            row["errors"].append("Delivered cue has no audited playback use")
+        for use in row["playback_uses"]:
+            relative_db = db(use["relative_amplitude"])
+            use["relative_gain_db"] = round(relative_db, 3)
+            use["lufs_before_user_mixer"] = round(row["loudness"]["integrated_lufs"] + relative_db, 2)
+            use["estimated_default_lufs"] = round(row["loudness"]["integrated_lufs"] + relative_db + db(use["default_mixer_amplitude"]), 2)
         rows.append(row)
         state = "PASS" if not row["errors"] else "FAIL"
-        print(f"{state} {name:22} {row['duration_seconds']:6.2f}s  peak {row['peak_dbfs']:6.2f}  RMS {row['rms_dbfs']:6.2f} dBFS")
+        print(f"{state} {name:24} {row['duration_seconds']:6.2f}s  peak {row['peak_dbfs']:6.2f} dBFS  loudness {row['loudness']['integrated_lufs']:5.1f} LUFS", flush=True)
         for error in row["errors"]:
             print(f"     {error}")
-    report = {"method": "Decoded runtime audio, 4x reconstruction, periodic seam comparison, Welch spectrum; no subjective listening claim",
+    checks = balance_checks(rows)
+    for check in checks:
+        print(("PASS " if check["pass"] else "FAIL ") + check["check"])
+    report = {"method": "Decoded runtime audio, 4x reconstruction, periodic seam comparison, Welch spectrum and FFmpeg EBU R128. Playback estimates apply script gains and default mixers to file loudness; no human listening or live capture claim.",
               "encoder": {"soundfile": sf.__version__, "libsndfile": sf.__libsndfile_version__,
                           "vorbis_compression_level": VORBIS_COMPRESSION, "sample_rate": 48000,
                           "preserved_first_flute_sample_rate": 24000},
-              "renderer": "scripts/make_audio.py", "missing": missing, "assets": rows}
+              "renderers": ["scripts/make_audio.py", "scripts/render_closing_theme.py"],
+              "loudness_meter": str(args.ffmpeg), "balance_checks": checks,
+              "missing": missing, "assets": rows}
     args.json.parent.mkdir(parents=True, exist_ok=True)
     args.json.write_text(json.dumps(report, indent=2) + "\n")
     print(f"Report: {args.json}")
-    return 1 if missing or any(row["errors"] for row in rows) else 0
+    return 1 if missing or any(row["errors"] for row in rows) or any(not check["pass"] for check in checks) else 0
 
 
 if __name__ == "__main__":

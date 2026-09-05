@@ -23,23 +23,32 @@ init -5 python:
                                  size=25, color="#e2cba2", outlines=[(1, "#00000096", 0, 0)])
 
         def position(self, st=None):
-            # Muted/disabled audio can report no position. Keep the film moving
-            # on its shown-time clock, while honoring the same pause control.
+            # Audio positions may arrive in buffer-sized steps. Advance on the
+            # display clock, using audio only to gently correct sustained drift.
+            # This also works with muted/disabled audio, without jumps on resume.
             elapsed = max(0.0, st - self.last_st) if st is not None else 0.0
             if st is not None:
-                self.last_st = st
-            position = renpy.music.get_pos(channel="closing_theme")
-            if position is not None:
-                self.last_position = max(0.0, position)
-            elif not renpy.music.get_pause(channel="closing_theme"):
-                self.last_position += elapsed
+                self.last_st = max(self.last_st, st)
+            if not renpy.music.get_pause(channel="closing_theme"):
+                position = self.last_position + elapsed
+                audio_position = renpy.music.get_pos(channel="closing_theme")
+                if audio_position is not None:
+                    drift = audio_position - position
+                    # Ignore normal buffering; cap synchronization changes at
+                    # 5% of elapsed time so the camera can never jump backward.
+                    if abs(drift) > .10:
+                        position += max(-elapsed * .05, min(elapsed * .05, drift))
+                self.last_position = position
             return self.last_position
 
         def draw_shot(self, result, index, position, alpha, st, at):
             shot = CLOSING_THEME["shots"][index]
-            end = (THEME_STARTS[index + 1] + CLOSING_THEME["dissolve"]
-                   if index + 1 < len(THEME_STARTS) else CLOSING_THEME["duration"])
-            progress = min(1.0, max(0.0, (position - shot["at"]) / (end - shot["at"])))
+            # Hold both pictures still while they blend. Movement starts once
+            # the new picture is clear, and settles before the next dissolve.
+            start = shot["at"] + (CLOSING_THEME["dissolve"] if index else CLOSING_THEME["fade_in"])
+            end = (THEME_STARTS[index + 1] if index + 1 < len(THEME_STARTS)
+                   else CLOSING_THEME["duration"] - CLOSING_THEME["fade_out"])
+            progress = min(1.0, max(0.0, (position - start) / (end - start)))
             progress = progress * progress * (3.0 - 2.0 * progress)
             first, last = shot["zoom"]
             zoom = 1.0 if self.reduced_motion else first + (last - first) * progress
@@ -62,6 +71,7 @@ init -5 python:
                 1.0, position / CLOSING_THEME["fade_in"],
                 max(0.0, CLOSING_THEME["duration"] - position) / CLOSING_THEME["fade_out"])
             blend = min(1.0, (position - THEME_STARTS[index]) / CLOSING_THEME["dissolve"])
+            blend = blend * blend * (3.0 - 2.0 * blend)
             if index and blend < 1.0 and not self.reduced_motion:
                 self.draw_shot(result, index - 1, position, fade, st, at)
                 self.draw_shot(result, index, position, blend * fade, st, at)
@@ -73,7 +83,9 @@ init -5 python:
                 for child, y in ((self.title, 465), (self.subtitle, 560)):
                     text_render = renpy.render(Transform(child, alpha=title_alpha * fade), 1920, 1080, st, at)
                     result.blit(text_render, (1920 * CLOSING_THEME.get("title_x", .5) - text_render.width / 2, y))
-            renpy.redraw(self, .1 if self.reduced_motion else 1.0 / CLOSING_THEME["fps"])
+            # Let the display refresh drive animation; a 50fps timer on a 60Hz
+            # display alternates frame holds even with perfectly smooth motion.
+            renpy.redraw(self, .1 if self.reduced_motion or renpy.music.get_pause(channel="closing_theme") else 0)
             return result.subsurface((0, 0, 1920, 1080))
 
         def event(self, ev, x, y, st):
@@ -91,7 +103,7 @@ init -5 python:
 screen closing_theme():
     modal True
     default player = ClosingTheme(persistent.reduced_motion)
-    on "show" action [Function(renpy.music.set_pause, False, channel="closing_theme"), Play("closing_theme", CLOSING_THEME["audio"], loop=False)]
+    on "show" action [Function(renpy.music.set_pause, False, channel="closing_theme"), Play("closing_theme", CLOSING_THEME["audio"], loop=False, relative_volume=10 ** (CLOSING_THEME["runtime_gain_db"] / 20.0))]
     on "hide" action [Stop("closing_theme"), Function(renpy.music.set_pause, False, channel="closing_theme")]
     add player id "montage"
     hbox:

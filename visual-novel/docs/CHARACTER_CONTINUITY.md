@@ -21,6 +21,22 @@ Outfits are a production design choice, not an assertion that a color, embroider
 
 Kael remains Cali's older brother and Lyra her younger sister. Kael has deep warm brown skin, dark tousled hair, and gold-hazel eyes; Lyra has golden-tan skin with olive undertones, golden freckles, unruly golden-blonde curls, and green eyes. Their exact age gaps are not newly specified. Keep Lyra visibly smaller in group blocking. Do not show a smiling dry sprite during the pond rescue or frightened aftermath.
 
+## Standing height and grounding
+
+`game/character_layout.json` records each human sprite's measured foreground bounds, source hash, and character/age group. Runtime framing removes variable padding above the hair and below the feet before applying a group height; the PNGs remain unchanged. Horizontal framing remains authored. All standing placement transforms anchor the visible feet at virtual y=1000, so a wardrobe change cannot move the character's feet or silently change their stature.
+
+| Character | Early childhood visible height | Later childhood visible height |
+| --- | ---: | ---: |
+| Cali | 675 px | 750 px |
+| Cassia | 680 px | 755 px |
+| Joren | 710 px | 790 px |
+
+Lyra is 495 px and Kael 785 px in their standing designs. Parents retain individual heights and builds; Maia's gardening and home outfits both use 820 px. These are composition values in the 1920×1080 game stage, not new in-universe measurements. Later-childhood faces, proportions, and clothing still establish aging; scale alone does not. Group illustrations must follow the same relative stature while accounting for posture and perspective, rather than copying pixel values from the standing stage.
+
+The asset/build audit rejects stale framing after a sprite replacement. `python3 scripts/project.py test --headless --suite character_framing_review` renders every actual actor through the GPU compositor, then measures its alpha silhouette. Faint hair tips can disappear during downsampling. A reviewed per-source sampling correction (under 1%) compensates for that loss; the opaque silhouette must be within three pixels of its framing target. Same-character/age variants must agree within three rendered pixels, and feet must fall within two pixels of the common baseline. It also produces bright-garden and dark-treehouse compositions for checking hair edges, green eyes/clothes, white hair, and skin tones.
+
+The green compositor now requires nearby confidently green backing before modifying edge colors. This protects interior green details and removes yellow-green backing contamination from blonde hair; source artwork and the separate blue key for Shadow remain unchanged.
+
 ## Parent identities
 
 New parent sprites use the approved First Memory composition as the identity reference. Their everyday appearance belongs to Cali's childhood, with only modest visual aging from that opening. The biographies' later-life “125+” labels do not establish an age at Cali's birth, and Astraviin longevity does not justify applying ordinary human age arithmetic.
@@ -40,7 +56,7 @@ New parent sprites use the approved First Memory composition as the identity ref
 - A standing sprite cannot depict a character sitting in someone's lap, playing an absent instrument, climbing, or embracing another character. During those actions, the dialogue UI shows a cropped face/shoulder portrait when the speaker's standing sprite is hidden. The crop excludes hands, props, and the lower-body pose. It uses existing character artwork and follows the current childhood stage, outfit, and grief state. Narration and First Memory keep their existing presentation.
 - Use restrained grief expressions; a brighter memory may briefly recall Joren, but never imply he is physically present after his death.
 - Validate edges against both dark treehouse and brighter garden backgrounds. The generator returned RGB art with a baked transparency preview despite alpha requests. Selected new actors therefore use generated saturated-green backgrounds, removed once by the runtime `astravus.chroma_green` shader. This preserves Selene's white hair and pale highlights that the older light-matte shader could remove. The manifest records actual file modes; runtime compositing must not be described as authored alpha. Call sites apply positioning only, without the legacy `clean_sprite` transform.
-- Full prompts, input relationships, output identifiers, dimensions, and hashes live in [`character-assets.json`](character-assets.json). Selected PNGs remain unmodified generated artwork; discarded candidates belong in ignored staging.
+- Full prompts, input relationships, output identifiers, dimensions, and hashes live in [`character-assets.json`](character-assets.json). Author-approved deterministic iris corrections are explicitly identified by `postprocess` records and reproducible recipes in [`iris-retouches.json`](iris-retouches.json); their source generation, original hash and unchanged outside pixels remain documented. Other selected PNGs retain their generated pixels. Discarded candidates belong in ignored staging.
 
 ## Dialogue visibility in 0.2.5
 

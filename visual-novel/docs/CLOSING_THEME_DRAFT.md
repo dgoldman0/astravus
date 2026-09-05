@@ -1,10 +1,10 @@
 # Closing theme — revised sequence
 
-The user supplied `Curiosity and Discovery.wav` at the workspace root and the lyrics in conversation. The expanded afterword now offers **Play closing theme**, alongside finishing immediately. The film leads to the end-of-book controls, which also offer replay. This remains an editable development preview; release packaging is on hold.
+The user supplied `Curiosity and Discovery.wav` at the workspace root and the lyrics in conversation. The expanded afterword offers **Play closing theme**, alongside finishing immediately. The film leads to the end-of-book controls, which also offer replay. The sequence is included in the `0.1-alpha` release polish.
 
 The credits list **Curiosity and Discovery — by Daniel Goldman, with assistance from ChatGPT and SUNO**, with a [Listen on SUNO](https://suno.com/s/IoZ3kzpqJBFXAgJJ) link supplied by the author.
 
-`build/closing-theme.mp4` is the standalone 1080p/50 fps preview. The game reuses the images with a 3.81 MiB Ogg version of the song, rather than including the entire MP4. Both use the shot order, timing and shallow camera moves in `game/closing_theme.json`. The complete supplied song is retained. Its 48 kHz stereo encode has the same frame count and only a −0.030 dB average-level change; no gain, EQ, compression or cuts were applied. Source and output hashes are in [closing-theme-audio.json](closing-theme-audio.json).
+`build/closing-theme.mp4` is the standalone 1080p/60 fps film. The game reuses the images with a 3.81 MiB Ogg version of the song, rather than including the entire MP4. Both use the shot order, timing and shallow camera moves in `game/closing_theme.json`. The complete supplied song is retained. Its 48 kHz stereo encode has the same frame count and only a −0.030 dB average-level change; no gain, EQ, compression or cuts were applied to the source or stored Ogg. In-game playback applies **−6 dB** to the song to match the preceding music; the standalone video retains the supplied master level. Source and output hashes are in [closing-theme-audio.json](closing-theme-audio.json).
 
 ## Measured audio
 
@@ -38,13 +38,13 @@ The film opens on **Cali and Kael exploring the sunflowers**. **Fourteen of fift
 | 2:33.76 | [One more page before night](../game/images/cg/book-one/theme-evening-reading.png) | Gentle push in |
 | 2:44.08 | [Another day to discover](../game/images/cg/book-one/theme-morning-outlook.png) | Gentle pull back |
 
-The **0.8-second dissolves** are shorter than the first cut's transitions. Camera movement uses gentle starts and stops, fractional positioning and **50 fps**, with several fully held pictures. The standalone renderer uses cubic sampling through FFmpeg's [perspective filter](https://ffmpeg.org/ffmpeg-filters.html#perspective), avoiding the previous rounded moving crop. Native playback also uses fractional placement and derives its offsets from the actual scale, instead of rounded render bounds. Reduced motion keeps every frame still.
+The **1.2-second dissolves** ease the image blend in and out. Both cameras hold still throughout each overlap, then ease into the next shallow move. The standalone renderer uses **60 fps**, lossless temporary clips and one final delivery encode. Cubic sampling through FFmpeg's [perspective filter](https://ffmpeg.org/ffmpeg-filters.html#perspective) preserves fractional movement. Native playback follows display refresh, advances from a continuous display clock, and uses audio position only to correct sustained drift gradually. Reduced motion keeps every frame still and replaces dissolves with cuts.
 
-A 150-frame synthetic-marker check measured the exported camera's smooth path: maximum position error **0.090 pixels**, no backward steps above the check's 0.02-pixel tolerance, and maximum frame-to-frame acceleration **0.011 pixels**. This checks the movement mechanism; it does not certify artistic pacing. Musical boundaries remain an editable timing pass, not verified word-level lyric alignment.
+A focused native review passes **19 assertions**, including a simulated audio backend that reports its position only every 80 ms. A short render checks the actual image blend across a full transition, rather than checking only a synthetic camera marker. Details and the limits of those checks are in [POLISH_MOTION.md](POLISH_MOTION.md). Musical boundaries remain an editorial timing pass, not verified word-level lyric alignment.
 
 The in-game film has Pause/Resume, Space to pause, Skip, and Escape to return to the ending. Reduced motion removes camera moves and dissolves. If an audio backend provides no position (for example when muted), a fallback clock keeps the visuals progressing. Skipping while paused does not leave replay paused. Continue after finishing returns to the end card.
 
-Ten new character illustrations are saved under `game/images/cg/book-one/theme-*.png`, with the individual paths linked in the table above. They use the **built-in image_gen tool**, with the established cast, clothes and settings as references. Their complete prompts, input references and selected hashes are the `theme-recut-*` records in [assets.json](assets.json). The earlier garden detail and friends' treehouse image retain their original records in [environment-assets.json](environment-assets.json) and [assets.json](assets.json). The original character-free backgrounds and separate sprites remain available for story scenes.
+Ten character illustrations are saved under `game/images/cg/book-one/theme-*.png`, with the individual paths linked in the table above. They use the **built-in image_gen tool**, with the established cast, clothes and settings as references. Complete prompts, input references and current selected hashes are recorded in [assets.json](assets.json), including the `0.1-alpha` identity corrections. The earlier garden detail and friends' treehouse image retain their original records in [environment-assets.json](environment-assets.json) and [assets.json](assets.json). The original character-free backgrounds and separate sprites remain available for story scenes.
 
 ## Reproduce and adjust
 
@@ -57,7 +57,7 @@ python3 scripts/render_closing_theme.py
 
 Use `--source /path/to/song.wav` when the author's original WAV is elsewhere; `--width 1280` gives a smaller review render. The default source is the workspace-root upload. The renderer removes its temporary shot clips and replaces the current MP4 only after decoding the entire result and checking the expected frame count. The original WAV and existing runtime audio encode remain untouched when their recorded hashes match. The title overlay is programmatic typography; scene artwork is copied from selected generated pixels without retouching.
 
-The native sequence uses Ren'Py's [creator-defined displayable API](https://www.renpy.org/doc/html/cdd.html), with audio-position timing and a pause-aware fallback. A standalone MP4 is for ordinary video players; the game itself does not depend on platform-specific movie decoding.
+The native sequence uses Ren'Py's [creator-defined displayable API](https://www.renpy.org/doc/html/cdd.html), with a pause-aware display clock and gradual audio synchronization. A standalone MP4 is for ordinary video players; the game itself does not depend on platform-specific movie decoding.
 
 ## Current afterword copy
 

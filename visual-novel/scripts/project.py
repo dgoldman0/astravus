@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timezone
+import fcntl
 import functools
 import hashlib
 import http.server
@@ -25,6 +27,7 @@ CHECKSUMS = {
     f"renpy-{VERSION}-sdk.tar.bz2": "eb0a9be7f0fb13632fe25ceade9a8bed5a1b4d6b6e83bd19eeeb29e1a1bb4a45",
     f"renpy-{VERSION}-web.zip": "954db897e65f51ea63cb2fb7b203d02be0447f4e22069514020bbe6c6691fdfc",
 }
+RELEASE_VERSION = r"\d+\.\d+(?:\.\d+)?(?:-[A-Za-z0-9]+(?:[.-][A-Za-z0-9]+)*)?"
 
 
 def download(name):
@@ -120,25 +123,63 @@ def prepare_web():
 
 
 def prune_desktop_exports():
-    """Discard superseded local exports after both current ZIPs pass CRC checks."""
+    """Keep the current release after both ZIPs pass CRC checks, including resets."""
     options = (PROJECT / "game/options.rpy").read_text()
-    version = re.search(r'^define config.version = "(\d+\.\d+\.\d+)"$', options, re.M).group(1)
+    version_match = re.search(rf'^define config.version = "({RELEASE_VERSION})"$', options, re.M)
+    if version_match is None:
+        raise SystemExit("Unsupported release version. Existing exports retained.")
+    version = version_match.group(1)
     name = re.search(r'^define build.name = "([\w-]+)"$', options, re.M).group(1)
     dist = PROJECT / "dist"
+    current = {dist / f"{name}-{version}-{platform}.zip" for platform in ("pc", "mac")}
     for platform in ("pc", "mac"):
         path = dist / f"{name}-{version}-{platform}.zip"
         with zipfile.ZipFile(path) as archive:
+            if not any(not member.is_dir() for member in archive.infolist()):
+                raise SystemExit(f"Empty export: {path}. Existing exports retained.")
             bad_member = archive.testzip()
             if bad_member:
-                raise SystemExit(f"Corrupt export: {path}: {bad_member}. Older exports retained.")
-    current = tuple(map(int, version.split(".")))
+                raise SystemExit(f"Corrupt export: {path}: {bad_member}. Existing exports retained.")
     removed_bytes = 0
     for path in dist.glob("*.zip"):
-        match = re.fullmatch(r"astravus-(?:book|chapter)-one-(\d+\.\d+\.\d+)-(?:pc|mac)\.zip", path.name)
-        if match and tuple(map(int, match.group(1).split("."))) < current:
+        match = re.fullmatch(rf"astravus-(?:book|chapter)-one-{RELEASE_VERSION}-(?:pc|mac)\.zip", path.name)
+        # Version numbers may deliberately restart (0.2.7 -> 0.1-alpha).
+        # Only this project's recognized exports are replaced; unrelated ZIPs
+        # and save directories never participate in retention.
+        if match and path not in current:
             removed_bytes += path.stat().st_size
             path.unlink()
     print(f"Desktop exports checked; removed {removed_bytes / 1024**2:.1f} MiB of superseded builds.")
+
+
+def content_review_gate(review_build):
+    if review_build:
+        print("Review build: final content approval is bypassed for testing; this is not a release candidate.", flush=True)
+        return
+    subprocess.run([sys.executable, PROJECT / "scripts/release_review.py", "status",
+                    "--phase", "content", "--strict"], cwd=PROJECT, check=True)
+
+
+def record_build(kind, review_build):
+    options = (PROJECT / "game/options.rpy").read_text()
+    version = re.search(r'^define config.version = "([^"]+)"$', options, re.M).group(1)
+    name = re.search(r'^define build.name = "([^"]+)"$', options, re.M).group(1)
+    files = ([PROJECT / "dist" / f"{name}-{version}-{platform}.zip" for platform in ("pc", "mac")]
+             if kind == "desktop" else [PROJECT / "build/web.zip"])
+    stamp = PROJECT / "build/release-builds.json"
+    record = {"kind": "review" if review_build else "candidate", "version": version,
+              "built_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "files": {}}
+    for path in files:
+        with path.open("rb") as stream:
+            record["files"][path.relative_to(PROJECT).as_posix()] = hashlib.file_digest(stream, "sha256").hexdigest()
+    stamp.parent.mkdir(parents=True, exist_ok=True)
+    with stamp.with_suffix(".lock").open("w") as stream:
+        fcntl.flock(stream.fileno(), fcntl.LOCK_EX)
+        data = json.loads(stamp.read_text()) if stamp.exists() else {"schema_version": 1, "builds": {}}
+        data["builds"][kind] = record
+        temporary = stamp.with_suffix(".tmp")
+        temporary.write_text(json.dumps(data, indent=2) + "\n")
+        temporary.replace(stamp)
 
 
 class PreviewRequestHandler(http.server.SimpleHTTPRequestHandler):
@@ -152,10 +193,19 @@ class PreviewRequestHandler(http.server.SimpleHTTPRequestHandler):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
-    for name in ("install", "run", "lint", "build", "web"):
+    for name in ("install", "run", "lint"):
         commands.add_parser(name)
+    for name in ("build", "web"):
+        build = commands.add_parser(name)
+        build.add_argument("--review-build", action="store_true",
+                           help="Build temporary test artifacts before content approval; excluded from final release signoff")
     test = commands.add_parser("test")
     test.add_argument("--headless", action="store_true")
+    test.add_argument("--suite", choices=("chapter_playthrough", "closing_theme_review", "character_framing_review", "glossary_review", "environment_grounding_review"),
+                      default="chapter_playthrough")
+    review = commands.add_parser("review", help="Show the current release acceptance matrix")
+    review.add_argument("--phase", choices=("content", "runtime", "exports"), default="exports")
+    review.add_argument("--strict", action="store_true")
     serve = commands.add_parser("serve")
     serve.add_argument("--port", type=int, default=8000)
     args = parser.parse_args()
@@ -166,18 +216,34 @@ def main():
         engine(PROJECT)
     elif args.command == "lint":
         engine(PROJECT, "lint")
+    elif args.command == "review":
+        command = [sys.executable, PROJECT / "scripts/release_review.py", "status", "--phase", args.phase]
+        if args.strict:
+            command.append("--strict")
+        subprocess.run(command, cwd=PROJECT, check=True)
     elif args.command == "test":
-        engine(PROJECT, "test", "chapter_playthrough", "--overwrite-screenshots",
+        engine(PROJECT, "test", args.suite, "--overwrite-screenshots",
                "--hide-execution", "hooks", headless=args.headless, testing=True)
+        if args.suite == "character_framing_review":
+            subprocess.run([sys.executable, PROJECT / "scripts/character_layout.py", "--renders",
+                            PROJECT / "test-results/character-layout"], cwd=PROJECT, check=True)
     elif args.command == "build":
+        if not args.review_build:
+            subprocess.run([sys.executable, PROJECT / "scripts/check_assets.py"], cwd=PROJECT, check=True)
+        content_review_gate(args.review_build)
         engine(SDK / "launcher", "distribute", PROJECT, "--destination", PROJECT / "dist",
                "--package", "pc", "--package", "mac")
         prune_desktop_exports()
+        record_build("desktop", args.review_build)
     elif args.command == "web":
+        if not args.review_build:
+            subprocess.run([sys.executable, PROJECT / "scripts/check_assets.py"], cwd=PROJECT, check=True)
+        content_review_gate(args.review_build)
         if not (SDK / "web").is_dir():
             raise SystemExit("Web support missing. Run: python3 scripts/project.py install")
         engine(SDK / "launcher", "web_build", PROJECT, "--destination", PROJECT / "build/web")
         prepare_web()
+        record_build("web", args.review_build)
     elif args.command == "serve":
         web = PROJECT / "build/web"
         if not (web / "index.html").exists():

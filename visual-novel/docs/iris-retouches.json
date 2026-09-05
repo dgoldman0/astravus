@@ -1,0 +1,4547 @@
+{
+  "schema_version": 1,
+  "authorization": "Author explicitly approved tightly masked deterministic iris color correction after explanation.",
+  "retouches": [
+    {
+      "id": "alpha-calista-young-masked-deep-blue-irises",
+      "file": "game/images/characters/book-one/calista-young.png",
+      "mask_geometry": [
+        {
+          "ring": [
+            [
+              491,
+              273
+            ],
+            [
+              493,
+              272
+            ],
+            [
+              495,
+              274
+            ],
+            [
+              497,
+              276
+            ],
+            [
+              500,
+              276
+            ],
+            [
+              502,
+              274
+            ],
+            [
+              503,
+              270
+            ],
+            [
+              505,
+              269
+            ],
+            [
+              507,
+              271
+            ],
+            [
+              507,
+              277
+            ],
+            [
+              505,
+              280
+            ],
+            [
+              501,
+              282
+            ],
+            [
+              496,
+              282
+            ],
+            [
+              493,
+              280
+            ],
+            [
+              491,
+              277
+            ]
+          ],
+          "pupil": [
+            [
+              494,
+              267
+            ],
+            [
+              502,
+              267
+            ],
+            [
+              503,
+              271
+            ],
+            [
+              501,
+              275
+            ],
+            [
+              498,
+              276
+            ],
+            [
+              495,
+              274
+            ],
+            [
+              494,
+              271
+            ]
+          ],
+          "highlight": [
+            496,
+            267,
+            501,
+            273
+          ]
+        },
+        {
+          "ring": [
+            [
+              566,
+              270
+            ],
+            [
+              570,
+              270
+            ],
+            [
+              572,
+              269
+            ],
+            [
+              574,
+              266
+            ],
+            [
+              575,
+              263
+            ],
+            [
+              578,
+              262
+            ],
+            [
+              580,
+              264
+            ],
+            [
+              580,
+              270
+            ],
+            [
+              578,
+              273
+            ],
+            [
+              575,
+              275
+            ],
+            [
+              570,
+              275
+            ],
+            [
+              567,
+              273
+            ]
+          ],
+          "pupil": [
+            [
+              567,
+              263
+            ],
+            [
+              575,
+              261
+            ],
+            [
+              575,
+              266
+            ],
+            [
+              573,
+              269
+            ],
+            [
+              570,
+              270
+            ],
+            [
+              567,
+              268
+            ]
+          ],
+          "highlight": [
+            569,
+            261,
+            575,
+            267
+          ]
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "authorization": "User explicitly authorized tightly masked deterministic iris color correction.",
+        "target_chromaticity_rgb": [
+          0.32,
+          0.53,
+          0.84
+        ],
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "luminance_multiplier": 0.78,
+        "weight": "clamp((G-R-2)/12,0,1) * clamp((Y-18)/12,0,1) within hand-reviewed iris polygons, excluding pupil and catchlight shapes and Y>=155",
+        "blend": "round(source*(1-weight) + target*weight)"
+      },
+      "verification": {
+        "changed_pixels": 159,
+        "change_bbox": [
+          491,
+          263,
+          580,
+          281
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true
+      },
+      "source_generation": "alpha-calista-young-natural-proportions",
+      "source_sha256": "764179bdbbec644696a28c145e1f5adc770b0ce5a145c948843a60632718d469",
+      "output_sha256": "75649a7bc527427ab83e01d4b65749e9207562dadc9e36e0d9d4ce6cc1c541aa",
+      "script_file": "scripts/retouch_sprite_irises.py",
+      "script_sha256": "eaa621d0264f8e88da92973afcdaf6c20dd38dd86badcdae5b9efb91042fd487",
+      "review": "Root inspected face and 5x unfiltered iris crops: dark blue ring with original pupils, catchlights, lid shadows, facial midtones and all costume/backing pixels preserved."
+    },
+    {
+      "id": "alpha-calista-home-masked-deep-blue-irises",
+      "file": "game/images/characters/book-one/calista-home.png",
+      "mask_geometry": [
+        {
+          "ring": [
+            [
+              486,
+              249
+            ],
+            [
+              489,
+              248
+            ],
+            [
+              491,
+              250
+            ],
+            [
+              493,
+              252
+            ],
+            [
+              496,
+              253
+            ],
+            [
+              498,
+              251
+            ],
+            [
+              500,
+              247
+            ],
+            [
+              502,
+              246
+            ],
+            [
+              503,
+              248
+            ],
+            [
+              503,
+              254
+            ],
+            [
+              500,
+              257
+            ],
+            [
+              496,
+              259
+            ],
+            [
+              491,
+              258
+            ],
+            [
+              488,
+              256
+            ],
+            [
+              486,
+              252
+            ]
+          ],
+          "pupil": [
+            [
+              491,
+              244
+            ],
+            [
+              500,
+              244
+            ],
+            [
+              499,
+              248
+            ],
+            [
+              497,
+              252
+            ],
+            [
+              494,
+              253
+            ],
+            [
+              491,
+              251
+            ]
+          ],
+          "highlight": [
+            492,
+            244,
+            498,
+            250
+          ]
+        },
+        {
+          "ring": [
+            [
+              561,
+              246
+            ],
+            [
+              564,
+              247
+            ],
+            [
+              567,
+              248
+            ],
+            [
+              569,
+              246
+            ],
+            [
+              571,
+              242
+            ],
+            [
+              574,
+              242
+            ],
+            [
+              576,
+              244
+            ],
+            [
+              576,
+              250
+            ],
+            [
+              573,
+              253
+            ],
+            [
+              568,
+              254
+            ],
+            [
+              564,
+              253
+            ],
+            [
+              561,
+              250
+            ]
+          ],
+          "pupil": [
+            [
+              564,
+              240
+            ],
+            [
+              572,
+              239
+            ],
+            [
+              572,
+              243
+            ],
+            [
+              570,
+              247
+            ],
+            [
+              567,
+              248
+            ],
+            [
+              564,
+              246
+            ]
+          ],
+          "highlight": [
+            565,
+            240,
+            571,
+            246
+          ]
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "authorization": "User explicitly authorized tightly masked deterministic iris color correction.",
+        "target_chromaticity_rgb": [
+          0.32,
+          0.53,
+          0.84
+        ],
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "luminance_multiplier": 0.78,
+        "weight": "clamp((G-R-2)/12,0,1) * clamp((Y-18)/12,0,1) within hand-reviewed iris polygons, excluding pupil and catchlight shapes and Y>=155",
+        "blend": "round(source*(1-weight) + target*weight)"
+      },
+      "verification": {
+        "changed_pixels": 162,
+        "change_bbox": [
+          486,
+          242,
+          576,
+          258
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true
+      },
+      "source_generation": "alpha-calista-home-natural-proportions",
+      "source_sha256": "3483149447c8880f7708e0ebdcd185fff288488d79067542e3f4a502c384829b",
+      "output_sha256": "c89f5aa739a14a19b687842c9dc00c54cc2cae3fba101d6869c19a5134494d36",
+      "script_file": "scripts/retouch_sprite_irises.py",
+      "script_sha256": "eaa621d0264f8e88da92973afcdaf6c20dd38dd86badcdae5b9efb91042fd487",
+      "review": "Root inspected face and 5x unfiltered iris crops: dark blue ring with original pupils, catchlights, lid shadows, facial midtones and all costume/backing pixels preserved."
+    },
+    {
+      "id": "alpha-calista-festival-masked-deep-blue-irises",
+      "file": "game/images/characters/book-one/calista-festival.png",
+      "mask_geometry": [
+        {
+          "ring": [
+            [
+              474,
+              246
+            ],
+            [
+              477,
+              244
+            ],
+            [
+              479,
+              246
+            ],
+            [
+              481,
+              249
+            ],
+            [
+              484,
+              250
+            ],
+            [
+              487,
+              248
+            ],
+            [
+              488,
+              244
+            ],
+            [
+              490,
+              243
+            ],
+            [
+              492,
+              245
+            ],
+            [
+              492,
+              251
+            ],
+            [
+              489,
+              254
+            ],
+            [
+              485,
+              256
+            ],
+            [
+              480,
+              255
+            ],
+            [
+              476,
+              252
+            ],
+            [
+              474,
+              249
+            ]
+          ],
+          "pupil": [
+            [
+              479,
+              241
+            ],
+            [
+              487,
+              241
+            ],
+            [
+              487,
+              245
+            ],
+            [
+              485,
+              249
+            ],
+            [
+              482,
+              250
+            ],
+            [
+              479,
+              247
+            ]
+          ],
+          "highlight": [
+            481,
+            241,
+            487,
+            247
+          ]
+        },
+        {
+          "ring": [
+            [
+              548,
+              240
+            ],
+            [
+              551,
+              241
+            ],
+            [
+              554,
+              242
+            ],
+            [
+              556,
+              240
+            ],
+            [
+              558,
+              235
+            ],
+            [
+              561,
+              233
+            ],
+            [
+              564,
+              235
+            ],
+            [
+              564,
+              241
+            ],
+            [
+              561,
+              245
+            ],
+            [
+              557,
+              247
+            ],
+            [
+              552,
+              246
+            ],
+            [
+              549,
+              244
+            ]
+          ],
+          "pupil": [
+            [
+              549,
+              234
+            ],
+            [
+              557,
+              232
+            ],
+            [
+              558,
+              236
+            ],
+            [
+              556,
+              240
+            ],
+            [
+              553,
+              242
+            ],
+            [
+              550,
+              240
+            ]
+          ],
+          "highlight": [
+            550,
+            233,
+            556,
+            239
+          ]
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "authorization": "User explicitly authorized tightly masked deterministic iris color correction.",
+        "target_chromaticity_rgb": [
+          0.32,
+          0.53,
+          0.84
+        ],
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "luminance_multiplier": 0.78,
+        "weight": "clamp((G-R-2)/12,0,1) * clamp((Y-18)/12,0,1) within hand-reviewed iris polygons, excluding pupil and catchlight shapes and Y>=155",
+        "blend": "round(source*(1-weight) + target*weight)"
+      },
+      "verification": {
+        "changed_pixels": 177,
+        "change_bbox": [
+          475,
+          234,
+          564,
+          255
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true
+      },
+      "source_generation": "alpha-calista-festival-natural-proportions",
+      "source_sha256": "edb9effd27681ddb7d7b1243d45e3814601c872dbdab2227f14a5407c05b7355",
+      "output_sha256": "3a796e998447303d3006871047579793e47db85bebceef1ec0dca323601e29c7",
+      "script_file": "scripts/retouch_sprite_irises.py",
+      "script_sha256": "eaa621d0264f8e88da92973afcdaf6c20dd38dd86badcdae5b9efb91042fd487",
+      "review": "Root inspected face and 5x unfiltered iris crops: dark blue ring with original pupils, catchlights, lid shadows, facial midtones and all costume/backing pixels preserved."
+    },
+    {
+      "id": "alpha-calista-festive-masked-deep-blue-irises",
+      "file": "game/images/characters/book-one/calista-festive.png",
+      "mask_geometry": [
+        {
+          "ring": [
+            [
+              473,
+              266
+            ],
+            [
+              476,
+              264
+            ],
+            [
+              478,
+              266
+            ],
+            [
+              480,
+              270
+            ],
+            [
+              483,
+              271
+            ],
+            [
+              486,
+              269
+            ],
+            [
+              487,
+              264
+            ],
+            [
+              490,
+              263
+            ],
+            [
+              492,
+              266
+            ],
+            [
+              491,
+              271
+            ],
+            [
+              488,
+              275
+            ],
+            [
+              482,
+              277
+            ],
+            [
+              477,
+              275
+            ],
+            [
+              474,
+              272
+            ]
+          ],
+          "pupil": [
+            [
+              478,
+              262
+            ],
+            [
+              486,
+              262
+            ],
+            [
+              486,
+              267
+            ],
+            [
+              484,
+              270
+            ],
+            [
+              481,
+              271
+            ],
+            [
+              478,
+              268
+            ]
+          ],
+          "highlight": [
+            479,
+            263,
+            485,
+            268
+          ]
+        },
+        {
+          "ring": [
+            [
+              546,
+              263
+            ],
+            [
+              550,
+              264
+            ],
+            [
+              553,
+              264
+            ],
+            [
+              555,
+              261
+            ],
+            [
+              556,
+              257
+            ],
+            [
+              559,
+              256
+            ],
+            [
+              561,
+              258
+            ],
+            [
+              562,
+              262
+            ],
+            [
+              560,
+              266
+            ],
+            [
+              556,
+              269
+            ],
+            [
+              551,
+              269
+            ],
+            [
+              547,
+              267
+            ]
+          ],
+          "pupil": [
+            [
+              547,
+              257
+            ],
+            [
+              555,
+              255
+            ],
+            [
+              556,
+              259
+            ],
+            [
+              554,
+              263
+            ],
+            [
+              551,
+              264
+            ],
+            [
+              548,
+              262
+            ]
+          ],
+          "highlight": [
+            548,
+            256,
+            554,
+            262
+          ]
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "authorization": "User explicitly authorized tightly masked deterministic iris color correction.",
+        "target_chromaticity_rgb": [
+          0.32,
+          0.53,
+          0.84
+        ],
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "luminance_multiplier": 0.78,
+        "weight": "clamp((G-R-2)/12,0,1) * clamp((Y-18)/12,0,1) within hand-reviewed iris polygons, excluding pupil and catchlight shapes and Y>=155",
+        "blend": "round(source*(1-weight) + target*weight)"
+      },
+      "verification": {
+        "changed_pixels": 158,
+        "change_bbox": [
+          474,
+          257,
+          561,
+          275
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true
+      },
+      "source_generation": "alpha-calista-festive-natural-proportions",
+      "source_sha256": "60ebefa458621bc07a19e3e06ae77637d05a8480ae54978aa2ad940874630e78",
+      "output_sha256": "ae6808ba84ca5d16f87353f5ecac1aca111fd1531d9933b1a794f4e3f15e350c",
+      "script_file": "scripts/retouch_sprite_irises.py",
+      "script_sha256": "eaa621d0264f8e88da92973afcdaf6c20dd38dd86badcdae5b9efb91042fd487",
+      "review": "Root inspected face and 5x unfiltered iris crops: dark blue ring with original pupils, catchlights, lid shadows, facial midtones and all costume/backing pixels preserved."
+    },
+    {
+      "id": "alpha-flute-playing-masked-irises",
+      "file": "game/images/cg/book-one/flute-playing.png",
+      "source_sha256": "16eb9b846c72f31402bcd83c2e7885ad05f297b86b456a3d2f50a606371c7c23",
+      "script_file": "scripts/retouch_cg_irises.py",
+      "script_sha256": "4b1c00e8947891f4dc651c8546a9aa2b4636d506655b6ad41c1e3deae13240e0",
+      "mask_geometry": [
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              595,
+              341
+            ],
+            [
+              597,
+              339
+            ],
+            [
+              601,
+              338
+            ],
+            [
+              605,
+              339
+            ],
+            [
+              607,
+              342
+            ],
+            [
+              607,
+              346
+            ],
+            [
+              604,
+              349
+            ],
+            [
+              599,
+              349
+            ],
+            [
+              596,
+              347
+            ],
+            [
+              594,
+              344
+            ]
+          ],
+          "pupil": [
+            [
+              598,
+              337
+            ],
+            [
+              604,
+              337
+            ],
+            [
+              604,
+              342
+            ],
+            [
+              602,
+              345
+            ],
+            [
+              600,
+              345
+            ],
+            [
+              598,
+              343
+            ]
+          ],
+          "highlights": [
+            [
+              597,
+              338,
+              601,
+              342
+            ]
+          ],
+          "palette": "calista_blue"
+        },
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              650,
+              333
+            ],
+            [
+              653,
+              330
+            ],
+            [
+              657,
+              328
+            ],
+            [
+              660,
+              329
+            ],
+            [
+              661,
+              334
+            ],
+            [
+              659,
+              337
+            ],
+            [
+              655,
+              339
+            ],
+            [
+              651,
+              337
+            ]
+          ],
+          "pupil": [
+            [
+              653,
+              329
+            ],
+            [
+              658,
+              328
+            ],
+            [
+              659,
+              332
+            ],
+            [
+              658,
+              335
+            ],
+            [
+              655,
+              335
+            ],
+            [
+              653,
+              333
+            ]
+          ],
+          "highlights": [
+            [
+              652,
+              329,
+              655,
+              332
+            ]
+          ],
+          "palette": "calista_blue"
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "palettes": {
+          "calista_blue": {
+            "target_chromaticity_rgb": [
+              0.32,
+              0.53,
+              0.84
+            ],
+            "luminance_multiplier": 0.78,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -1.0,
+                1.0,
+                0.0
+              ],
+              "offset": 1.0,
+              "ramp": 10.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          }
+        },
+        "blend": "round(source*(1-weight)+target*weight); target retains local luminance pattern at the named multiplier",
+        "authorization": "Author explicitly approved tightly masked deterministic iris correction."
+      },
+      "output_sha256": "8f44a837334af47ec5081cd04a4ab65087faca327fb278127ea3062214d109c1",
+      "verification": {
+        "changed_pixels": 90,
+        "change_bbox": [
+          594,
+          329,
+          661,
+          349
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "eyes": [
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 51
+          },
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 41
+          }
+        ]
+      },
+      "source_generation": "alpha-flute-playing",
+      "review": "Root and independent art reviewer inspected full composition and native iris/face details. Original lids, pupils, catchlights and sclera are preserved. Only bounded pigment changes; prior quality comparison is recorded separately in the release matrix."
+    },
+    {
+      "id": "alpha-flute-rest-masked-irises",
+      "file": "game/images/cg/book-one/flute-rest.png",
+      "source_sha256": "e16e5ba61f12a3548d34f3ecd1540127fcac689115d652bb93b2ba466e07beed",
+      "script_file": "scripts/retouch_cg_irises.py",
+      "script_sha256": "4b1c00e8947891f4dc651c8546a9aa2b4636d506655b6ad41c1e3deae13240e0",
+      "mask_geometry": [
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              605,
+              329
+            ],
+            [
+              608,
+              327
+            ],
+            [
+              612,
+              324
+            ],
+            [
+              615,
+              326
+            ],
+            [
+              616,
+              331
+            ],
+            [
+              614,
+              334
+            ],
+            [
+              610,
+              336
+            ],
+            [
+              607,
+              334
+            ]
+          ],
+          "pupil": [
+            [
+              608,
+              325
+            ],
+            [
+              613,
+              324
+            ],
+            [
+              613,
+              329
+            ],
+            [
+              612,
+              332
+            ],
+            [
+              609,
+              332
+            ],
+            [
+              608,
+              329
+            ]
+          ],
+          "highlights": [
+            [
+              606,
+              326,
+              610,
+              330
+            ]
+          ],
+          "palette": "calista_blue"
+        },
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              652,
+              311
+            ],
+            [
+              655,
+              308
+            ],
+            [
+              658,
+              306
+            ],
+            [
+              661,
+              308
+            ],
+            [
+              662,
+              313
+            ],
+            [
+              659,
+              316
+            ],
+            [
+              655,
+              317
+            ],
+            [
+              652,
+              315
+            ]
+          ],
+          "pupil": [
+            [
+              655,
+              307
+            ],
+            [
+              660,
+              306
+            ],
+            [
+              660,
+              311
+            ],
+            [
+              658,
+              313
+            ],
+            [
+              655,
+              312
+            ]
+          ],
+          "highlights": [
+            [
+              652,
+              308,
+              655,
+              312
+            ]
+          ],
+          "palette": "calista_blue"
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "palettes": {
+          "calista_blue": {
+            "target_chromaticity_rgb": [
+              0.32,
+              0.53,
+              0.84
+            ],
+            "luminance_multiplier": 0.78,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -1.0,
+                1.0,
+                0.0
+              ],
+              "offset": 1.0,
+              "ramp": 10.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          }
+        },
+        "blend": "round(source*(1-weight)+target*weight); target retains local luminance pattern at the named multiplier",
+        "authorization": "Author explicitly approved tightly masked deterministic iris correction."
+      },
+      "output_sha256": "7554e2418496049f96c44d83b65460e9cc79a038f902ff2639ab6648215ae521",
+      "verification": {
+        "changed_pixels": 54,
+        "change_bbox": [
+          605,
+          312,
+          660,
+          336
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "eyes": [
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 31
+          },
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 23
+          }
+        ]
+      },
+      "source_generation": "alpha-flute-rest",
+      "review": "Root and independent art reviewer inspected full composition and native iris/face details. Original lids, pupils, catchlights and sclera are preserved. Only bounded pigment changes; prior quality comparison is recorded separately in the release matrix."
+    },
+    {
+      "id": "alpha-cassia-storytelling-masked-irises",
+      "file": "game/images/cg/book-one/cassia-storytelling.png",
+      "source_sha256": "e9f74f119e91cbb130e342a1c9e3cb90d8dd6c178dce958a6d6c4b33c11e37cd",
+      "script_file": "scripts/retouch_cg_irises.py",
+      "script_sha256": "4b1c00e8947891f4dc651c8546a9aa2b4636d506655b6ad41c1e3deae13240e0",
+      "mask_geometry": [
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              679,
+              308
+            ],
+            [
+              681,
+              306
+            ],
+            [
+              684,
+              304
+            ],
+            [
+              687,
+              306
+            ],
+            [
+              687,
+              311
+            ],
+            [
+              684,
+              314
+            ],
+            [
+              681,
+              314
+            ],
+            [
+              678,
+              311
+            ]
+          ],
+          "pupil": [
+            [
+              681,
+              304
+            ],
+            [
+              685,
+              303
+            ],
+            [
+              686,
+              307
+            ],
+            [
+              684,
+              310
+            ],
+            [
+              681,
+              310
+            ]
+          ],
+          "highlights": [
+            [
+              679,
+              305,
+              682,
+              309
+            ]
+          ],
+          "palette": "calista_blue"
+        },
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              720,
+              294
+            ],
+            [
+              722,
+              292
+            ],
+            [
+              725,
+              293
+            ],
+            [
+              725,
+              299
+            ],
+            [
+              723,
+              302
+            ],
+            [
+              720,
+              300
+            ],
+            [
+              720,
+              297
+            ]
+          ],
+          "pupil": [
+            [
+              722,
+              291
+            ],
+            [
+              725,
+              292
+            ],
+            [
+              725,
+              297
+            ],
+            [
+              723,
+              298
+            ],
+            [
+              721,
+              296
+            ]
+          ],
+          "highlights": [
+            [
+              719,
+              293,
+              722,
+              295
+            ]
+          ],
+          "palette": "calista_blue"
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "palettes": {
+          "calista_blue": {
+            "target_chromaticity_rgb": [
+              0.32,
+              0.53,
+              0.84
+            ],
+            "luminance_multiplier": 0.78,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -1.0,
+                1.0,
+                0.0
+              ],
+              "offset": 1.0,
+              "ramp": 10.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          }
+        },
+        "blend": "round(source*(1-weight)+target*weight); target retains local luminance pattern at the named multiplier",
+        "authorization": "Author explicitly approved tightly masked deterministic iris correction."
+      },
+      "output_sha256": "74608e12c38015c5129b3c08db5af53d267d4e35b473857acf2d398d85ac3503",
+      "verification": {
+        "changed_pixels": 31,
+        "change_bbox": [
+          678,
+          297,
+          726,
+          314
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "eyes": [
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 21
+          },
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 10
+          }
+        ]
+      },
+      "source_generation": "alpha-cassia-storytelling",
+      "review": "Root and independent art reviewer inspected full composition and native iris/face details. Original lids, pupils, catchlights and sclera are preserved. Only bounded pigment changes; prior quality comparison is recorded separately in the release matrix."
+    },
+    {
+      "id": "alpha-pond-rescue-masked-irises",
+      "file": "game/images/cg/book-one/pond-rescue.png",
+      "source_sha256": "4f07d7f2ebc3693447afb08b19652adcb1965b93bfd02f1e409002b24b5f99cb",
+      "script_file": "scripts/retouch_cg_irises.py",
+      "script_sha256": "4b1c00e8947891f4dc651c8546a9aa2b4636d506655b6ad41c1e3deae13240e0",
+      "mask_geometry": [
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              814,
+              172
+            ],
+            [
+              817,
+              170
+            ],
+            [
+              821,
+              170
+            ],
+            [
+              824,
+              173
+            ],
+            [
+              824,
+              177
+            ],
+            [
+              821,
+              180
+            ],
+            [
+              817,
+              179
+            ],
+            [
+              814,
+              176
+            ]
+          ],
+          "pupil": [
+            [
+              816,
+              169
+            ],
+            [
+              821,
+              169
+            ],
+            [
+              821,
+              173
+            ],
+            [
+              820,
+              176
+            ],
+            [
+              817,
+              175
+            ],
+            [
+              816,
+              172
+            ]
+          ],
+          "highlights": [
+            [
+              816,
+              170,
+              819,
+              173
+            ]
+          ],
+          "palette": "calista_blue"
+        },
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              854,
+              181
+            ],
+            [
+              857,
+              179
+            ],
+            [
+              861,
+              179
+            ],
+            [
+              864,
+              181
+            ],
+            [
+              864,
+              184
+            ],
+            [
+              861,
+              187
+            ],
+            [
+              857,
+              187
+            ],
+            [
+              854,
+              184
+            ]
+          ],
+          "pupil": [
+            [
+              856,
+              178
+            ],
+            [
+              862,
+              178
+            ],
+            [
+              862,
+              181
+            ],
+            [
+              860,
+              183
+            ],
+            [
+              857,
+              182
+            ]
+          ],
+          "highlights": [
+            [
+              857,
+              178,
+              861,
+              181
+            ]
+          ],
+          "palette": "calista_blue"
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "palettes": {
+          "calista_blue": {
+            "target_chromaticity_rgb": [
+              0.32,
+              0.53,
+              0.84
+            ],
+            "luminance_multiplier": 0.78,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -1.0,
+                1.0,
+                0.0
+              ],
+              "offset": 1.0,
+              "ramp": 10.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          }
+        },
+        "blend": "round(source*(1-weight)+target*weight); target retains local luminance pattern at the named multiplier",
+        "authorization": "Author explicitly approved tightly masked deterministic iris correction."
+      },
+      "output_sha256": "0de515348590fbc8aff39736ad072e1c1c07d7ccb967fdd847dd5e4a75f009fb",
+      "verification": {
+        "changed_pixels": 63,
+        "change_bbox": [
+          814,
+          173,
+          865,
+          186
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "eyes": [
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 32
+          },
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 32
+          }
+        ]
+      },
+      "source_generation": "alpha-pond-rescue",
+      "review": "Root and independent art reviewer inspected full composition and native iris/face details. Original lids, pupils, catchlights and sclera are preserved. Only bounded pigment changes; prior quality comparison is recorded separately in the release matrix."
+    },
+    {
+      "id": "alpha-pond-comfort-masked-irises",
+      "file": "game/images/cg/book-one/pond-comfort.png",
+      "source_sha256": "55ee6da13f6da16add60ed3bb23488a937d334aba86bb55ec0caf9f4c899e88b",
+      "script_file": "scripts/retouch_cg_irises.py",
+      "script_sha256": "4b1c00e8947891f4dc651c8546a9aa2b4636d506655b6ad41c1e3deae13240e0",
+      "mask_geometry": [
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              711,
+              274
+            ],
+            [
+              714,
+              272
+            ],
+            [
+              720,
+              269
+            ],
+            [
+              724,
+              271
+            ],
+            [
+              725,
+              276
+            ],
+            [
+              723,
+              280
+            ],
+            [
+              719,
+              282
+            ],
+            [
+              715,
+              281
+            ],
+            [
+              711,
+              278
+            ]
+          ],
+          "pupil": [
+            [
+              715,
+              269
+            ],
+            [
+              722,
+              269
+            ],
+            [
+              722,
+              273
+            ],
+            [
+              720,
+              278
+            ],
+            [
+              717,
+              278
+            ],
+            [
+              714,
+              275
+            ]
+          ],
+          "highlights": [
+            [
+              717,
+              270,
+              722,
+              274
+            ]
+          ],
+          "palette": "calista_blue"
+        },
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              770,
+              271
+            ],
+            [
+              773,
+              268
+            ],
+            [
+              778,
+              265
+            ],
+            [
+              781,
+              266
+            ],
+            [
+              782,
+              271
+            ],
+            [
+              780,
+              275
+            ],
+            [
+              776,
+              277
+            ],
+            [
+              772,
+              275
+            ]
+          ],
+          "pupil": [
+            [
+              773,
+              265
+            ],
+            [
+              779,
+              265
+            ],
+            [
+              779,
+              269
+            ],
+            [
+              777,
+              273
+            ],
+            [
+              774,
+              273
+            ],
+            [
+              772,
+              270
+            ]
+          ],
+          "highlights": [
+            [
+              774,
+              266,
+              778,
+              269
+            ]
+          ],
+          "palette": "calista_blue"
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "palettes": {
+          "calista_blue": {
+            "target_chromaticity_rgb": [
+              0.32,
+              0.53,
+              0.84
+            ],
+            "luminance_multiplier": 0.78,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -1.0,
+                1.0,
+                0.0
+              ],
+              "offset": 1.0,
+              "ramp": 10.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          }
+        },
+        "blend": "round(source*(1-weight)+target*weight); target retains local luminance pattern at the named multiplier",
+        "authorization": "Author explicitly approved tightly masked deterministic iris correction."
+      },
+      "output_sha256": "56074675442f5eee3db5506e1a0816d2fc52e385bdbc175518612d9a34fc6f43",
+      "verification": {
+        "changed_pixels": 97,
+        "change_bbox": [
+          712,
+          269,
+          782,
+          283
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "eyes": [
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 57
+          },
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 41
+          }
+        ]
+      },
+      "source_generation": "review-027-pond-comfort",
+      "review": "Root and independent art reviewer inspected full composition and native iris/face details. Original lids, pupils, catchlights and sclera are preserved. Only bounded pigment changes; prior quality comparison is recorded separately in the release matrix."
+    },
+    {
+      "id": "alpha-treehouse-friends-masked-irises",
+      "file": "game/images/cg/book-one/treehouse-friends.png",
+      "source_sha256": "219eb76ae15c5b171e7a204827c53ae9705a7e95d1bbbca03ddcc7674e8d3058",
+      "script_file": "scripts/retouch_cg_irises.py",
+      "script_sha256": "4b1c00e8947891f4dc651c8546a9aa2b4636d506655b6ad41c1e3deae13240e0",
+      "mask_geometry": [
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              445,
+              305
+            ],
+            [
+              448,
+              302
+            ],
+            [
+              451,
+              302
+            ],
+            [
+              454,
+              305
+            ],
+            [
+              454,
+              310
+            ],
+            [
+              451,
+              313
+            ],
+            [
+              448,
+              313
+            ],
+            [
+              445,
+              310
+            ]
+          ],
+          "pupil": [
+            [
+              448,
+              301
+            ],
+            [
+              450,
+              301
+            ],
+            [
+              450,
+              305
+            ],
+            [
+              449,
+              307
+            ],
+            [
+              447,
+              306
+            ],
+            [
+              447,
+              303
+            ]
+          ],
+          "highlights": [
+            [
+              443,
+              302,
+              447,
+              306
+            ]
+          ],
+          "palette": "calista_blue"
+        },
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              485,
+              297
+            ],
+            [
+              488,
+              294
+            ],
+            [
+              490,
+              294
+            ],
+            [
+              492,
+              297
+            ],
+            [
+              492,
+              302
+            ],
+            [
+              489,
+              304
+            ],
+            [
+              486,
+              303
+            ],
+            [
+              484,
+              300
+            ]
+          ],
+          "pupil": [
+            [
+              486,
+              295
+            ],
+            [
+              489,
+              294
+            ],
+            [
+              489,
+              298
+            ],
+            [
+              488,
+              300
+            ],
+            [
+              486,
+              299
+            ]
+          ],
+          "highlights": [
+            [
+              483,
+              295,
+              486,
+              298
+            ]
+          ],
+          "palette": "calista_blue"
+        },
+        {
+          "character": "Cassia",
+          "ring": [
+            [
+              838,
+              261
+            ],
+            [
+              840,
+              258
+            ],
+            [
+              844,
+              256
+            ],
+            [
+              847,
+              258
+            ],
+            [
+              848,
+              263
+            ],
+            [
+              846,
+              266
+            ],
+            [
+              841,
+              267
+            ],
+            [
+              838,
+              265
+            ]
+          ],
+          "pupil": [
+            [
+              840,
+              256
+            ],
+            [
+              844,
+              256
+            ],
+            [
+              844,
+              260
+            ],
+            [
+              843,
+              262
+            ],
+            [
+              841,
+              261
+            ],
+            [
+              840,
+              258
+            ]
+          ],
+          "highlights": [
+            [
+              837,
+              257,
+              841,
+              261
+            ]
+          ],
+          "palette": "cassia_green"
+        },
+        {
+          "character": "Cassia",
+          "ring": [
+            [
+              882,
+              259
+            ],
+            [
+              885,
+              256
+            ],
+            [
+              888,
+              255
+            ],
+            [
+              890,
+              258
+            ],
+            [
+              890,
+              263
+            ],
+            [
+              888,
+              266
+            ],
+            [
+              884,
+              266
+            ],
+            [
+              881,
+              263
+            ]
+          ],
+          "pupil": [
+            [
+              884,
+              255
+            ],
+            [
+              886,
+              255
+            ],
+            [
+              887,
+              258
+            ],
+            [
+              886,
+              260
+            ],
+            [
+              884,
+              260
+            ]
+          ],
+          "highlights": [
+            [
+              881,
+              256,
+              884,
+              259
+            ]
+          ],
+          "palette": "cassia_green"
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "palettes": {
+          "calista_blue": {
+            "target_chromaticity_rgb": [
+              0.32,
+              0.53,
+              0.84
+            ],
+            "luminance_multiplier": 0.78,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -1.0,
+                1.0,
+                0.0
+              ],
+              "offset": 1.0,
+              "ramp": 10.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          },
+          "cassia_green": {
+            "target_chromaticity_rgb": [
+              0.26,
+              0.52,
+              0.34
+            ],
+            "luminance_multiplier": 0.8,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -0.55,
+                1.0,
+                0.0
+              ],
+              "offset": 0.0,
+              "ramp": 12.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          }
+        },
+        "blend": "round(source*(1-weight)+target*weight); target retains local luminance pattern at the named multiplier",
+        "authorization": "Author explicitly approved tightly masked deterministic iris correction."
+      },
+      "output_sha256": "5bf094774526bf79a5ffd6bdd7b9e1cf2b07c74a8dd0c42778b3b43a2892f318",
+      "verification": {
+        "changed_pixels": 117,
+        "change_bbox": [
+          445,
+          257,
+          891,
+          311
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "eyes": [
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 28
+          },
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 18
+          },
+          {
+            "character": "Cassia",
+            "palette": "cassia_green",
+            "allowed_pixels": 36
+          },
+          {
+            "character": "Cassia",
+            "palette": "cassia_green",
+            "allowed_pixels": 37
+          }
+        ]
+      },
+      "source_generation": "alpha-scale-treehouse-friends",
+      "review": "Root and independent art reviewer inspected full composition and native iris/face details. Original lids, pupils, catchlights and sclera are preserved. Only bounded pigment changes; prior quality comparison is recorded separately in the release matrix."
+    },
+    {
+      "id": "alpha-theme-dome-friends-masked-irises",
+      "file": "game/images/cg/book-one/theme-dome-friends.png",
+      "source_sha256": "e0cf5f5eb62053d2efd8994c00d1cc87469e834e830b924fbb29583499746350",
+      "script_file": "scripts/retouch_cg_irises.py",
+      "script_sha256": "4b1c00e8947891f4dc651c8546a9aa2b4636d506655b6ad41c1e3deae13240e0",
+      "mask_geometry": [
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              528,
+              170
+            ],
+            [
+              530,
+              169
+            ],
+            [
+              532,
+              170
+            ],
+            [
+              533,
+              173
+            ],
+            [
+              532,
+              176
+            ],
+            [
+              529,
+              175
+            ],
+            [
+              527,
+              173
+            ]
+          ],
+          "pupil": [
+            [
+              529,
+              168
+            ],
+            [
+              532,
+              168
+            ],
+            [
+              532,
+              171
+            ],
+            [
+              530,
+              173
+            ],
+            [
+              529,
+              172
+            ]
+          ],
+          "highlights": [
+            [
+              527,
+              169,
+              529,
+              171
+            ]
+          ],
+          "palette": "calista_blue"
+        },
+        {
+          "character": "Cassia",
+          "ring": [
+            [
+              632,
+              170
+            ],
+            [
+              635,
+              168
+            ],
+            [
+              638,
+              168
+            ],
+            [
+              641,
+              171
+            ],
+            [
+              640,
+              174
+            ],
+            [
+              636,
+              176
+            ],
+            [
+              632,
+              174
+            ]
+          ],
+          "pupil": [
+            [
+              634,
+              166
+            ],
+            [
+              638,
+              167
+            ],
+            [
+              639,
+              170
+            ],
+            [
+              637,
+              173
+            ],
+            [
+              634,
+              172
+            ]
+          ],
+          "highlights": [
+            [
+              637,
+              169,
+              640,
+              171
+            ]
+          ],
+          "palette": "cassia_green"
+        },
+        {
+          "character": "Cassia",
+          "ring": [
+            [
+              665,
+              173
+            ],
+            [
+              668,
+              170
+            ],
+            [
+              671,
+              169
+            ],
+            [
+              674,
+              171
+            ],
+            [
+              674,
+              175
+            ],
+            [
+              670,
+              178
+            ],
+            [
+              666,
+              177
+            ]
+          ],
+          "pupil": [
+            [
+              668,
+              168
+            ],
+            [
+              672,
+              168
+            ],
+            [
+              673,
+              171
+            ],
+            [
+              671,
+              174
+            ],
+            [
+              668,
+              174
+            ]
+          ],
+          "highlights": [
+            [
+              672,
+              170,
+              674,
+              172
+            ]
+          ],
+          "palette": "cassia_green"
+        },
+        {
+          "character": "Joren",
+          "ring": [
+            [
+              926,
+              129
+            ],
+            [
+              929,
+              127
+            ],
+            [
+              931,
+              129
+            ],
+            [
+              932,
+              132
+            ],
+            [
+              930,
+              135
+            ],
+            [
+              926,
+              135
+            ],
+            [
+              925,
+              132
+            ]
+          ],
+          "pupil": [
+            [
+              927,
+              127
+            ],
+            [
+              930,
+              126
+            ],
+            [
+              931,
+              129
+            ],
+            [
+              929,
+              132
+            ],
+            [
+              927,
+              131
+            ]
+          ],
+          "highlights": [
+            [
+              925,
+              127,
+              927,
+              130
+            ]
+          ],
+          "palette": "joren_blue"
+        },
+        {
+          "character": "Joren",
+          "ring": [
+            [
+              953,
+              121
+            ],
+            [
+              955,
+              120
+            ],
+            [
+              957,
+              121
+            ],
+            [
+              957,
+              124
+            ],
+            [
+              955,
+              126
+            ],
+            [
+              953,
+              126
+            ],
+            [
+              952,
+              124
+            ]
+          ],
+          "pupil": [
+            [
+              953,
+              118
+            ],
+            [
+              956,
+              118
+            ],
+            [
+              956,
+              123
+            ],
+            [
+              954,
+              124
+            ],
+            [
+              952,
+              123
+            ]
+          ],
+          "highlights": [
+            [
+              951,
+              121,
+              953,
+              123
+            ]
+          ],
+          "palette": "joren_blue"
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "palettes": {
+          "calista_blue": {
+            "target_chromaticity_rgb": [
+              0.32,
+              0.53,
+              0.84
+            ],
+            "luminance_multiplier": 0.78,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -1.0,
+                1.0,
+                0.0
+              ],
+              "offset": 1.0,
+              "ramp": 10.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          },
+          "joren_blue": {
+            "target_chromaticity_rgb": [
+              0.37,
+              0.56,
+              0.78
+            ],
+            "luminance_multiplier": 0.8,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -1.0,
+                1.0,
+                0.0
+              ],
+              "offset": 1.0,
+              "ramp": 10.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          },
+          "cassia_green": {
+            "target_chromaticity_rgb": [
+              0.26,
+              0.52,
+              0.34
+            ],
+            "luminance_multiplier": 0.8,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -0.55,
+                1.0,
+                0.0
+              ],
+              "offset": 0.0,
+              "ramp": 12.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          }
+        },
+        "blend": "round(source*(1-weight)+target*weight); target retains local luminance pattern at the named multiplier",
+        "authorization": "Author explicitly approved tightly masked deterministic iris correction."
+      },
+      "output_sha256": "9ee19cb65c68b41d5e03f3c6cf40d6fe617c6d0db3abe7ce6774a7e0da3611c1",
+      "verification": {
+        "changed_pixels": 81,
+        "change_bbox": [
+          527,
+          131,
+          929,
+          178
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "eyes": [
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 10
+          },
+          {
+            "character": "Cassia",
+            "palette": "cassia_green",
+            "allowed_pixels": 32
+          },
+          {
+            "character": "Cassia",
+            "palette": "cassia_green",
+            "allowed_pixels": 31
+          },
+          {
+            "character": "Joren",
+            "palette": "joren_blue",
+            "allowed_pixels": 8
+          },
+          {
+            "character": "Joren",
+            "palette": "joren_blue",
+            "allowed_pixels": 0
+          }
+        ]
+      },
+      "source_generation": "alpha-scale-theme-dome-friends",
+      "review": "Root and independent art reviewer inspected full composition and native iris/face details. Original lids, pupils, catchlights and sclera are preserved. Only bounded pigment changes; prior quality comparison is recorded separately in the release matrix."
+    },
+    {
+      "id": "alpha-theme-sketch-laughter-masked-irises",
+      "file": "game/images/cg/book-one/theme-sketch-laughter.png",
+      "source_sha256": "c7f7a278808705c3197c43aa8ce8d1657374b177d85b5690e31982caca27faa1",
+      "script_file": "scripts/retouch_cg_irises.py",
+      "script_sha256": "4b1c00e8947891f4dc651c8546a9aa2b4636d506655b6ad41c1e3deae13240e0",
+      "mask_geometry": [
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              384,
+              390
+            ],
+            [
+              386,
+              388
+            ],
+            [
+              390,
+              387
+            ],
+            [
+              394,
+              384
+            ],
+            [
+              397,
+              385
+            ],
+            [
+              398,
+              388
+            ],
+            [
+              398,
+              395
+            ],
+            [
+              395,
+              399
+            ],
+            [
+              390,
+              401
+            ],
+            [
+              386,
+              399
+            ],
+            [
+              383,
+              395
+            ]
+          ],
+          "pupil": [
+            [
+              388,
+              386
+            ],
+            [
+              394,
+              384
+            ],
+            [
+              394,
+              390
+            ],
+            [
+              393,
+              395
+            ],
+            [
+              390,
+              397
+            ],
+            [
+              388,
+              394
+            ]
+          ],
+          "highlights": [
+            [
+              388,
+              386,
+              392,
+              390
+            ],
+            [
+              383,
+              388,
+              387,
+              392
+            ]
+          ],
+          "palette": "calista_blue"
+        },
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              444,
+              367
+            ],
+            [
+              447,
+              363
+            ],
+            [
+              450,
+              360
+            ],
+            [
+              452,
+              358
+            ],
+            [
+              455,
+              359
+            ],
+            [
+              456,
+              365
+            ],
+            [
+              456,
+              371
+            ],
+            [
+              453,
+              375
+            ],
+            [
+              449,
+              377
+            ],
+            [
+              445,
+              374
+            ],
+            [
+              443,
+              371
+            ]
+          ],
+          "pupil": [
+            [
+              447,
+              361
+            ],
+            [
+              452,
+              357
+            ],
+            [
+              452,
+              365
+            ],
+            [
+              451,
+              370
+            ],
+            [
+              449,
+              372
+            ],
+            [
+              446,
+              370
+            ]
+          ],
+          "highlights": [
+            [
+              448,
+              358,
+              451,
+              361
+            ],
+            [
+              447,
+              362,
+              451,
+              365
+            ]
+          ],
+          "palette": "calista_blue"
+        },
+        {
+          "character": "Cassia",
+          "ring": [
+            [
+              991,
+              334
+            ],
+            [
+              994,
+              332
+            ],
+            [
+              998,
+              332
+            ],
+            [
+              1002,
+              332
+            ],
+            [
+              1005,
+              334
+            ],
+            [
+              1006,
+              338
+            ],
+            [
+              1002,
+              341
+            ],
+            [
+              996,
+              342
+            ],
+            [
+              992,
+              340
+            ]
+          ],
+          "pupil": [
+            [
+              994,
+              331
+            ],
+            [
+              1000,
+              330
+            ],
+            [
+              1001,
+              334
+            ],
+            [
+              1000,
+              338
+            ],
+            [
+              997,
+              340
+            ],
+            [
+              994,
+              336
+            ]
+          ],
+          "highlights": [
+            [
+              1000,
+              331,
+              1003,
+              334
+            ]
+          ],
+          "palette": "cassia_green"
+        },
+        {
+          "character": "Cassia",
+          "ring": [
+            [
+              1060,
+              324
+            ],
+            [
+              1063,
+              321
+            ],
+            [
+              1068,
+              320
+            ],
+            [
+              1073,
+              321
+            ],
+            [
+              1076,
+              324
+            ],
+            [
+              1076,
+              328
+            ],
+            [
+              1072,
+              331
+            ],
+            [
+              1066,
+              332
+            ],
+            [
+              1062,
+              330
+            ]
+          ],
+          "pupil": [
+            [
+              1064,
+              319
+            ],
+            [
+              1071,
+              318
+            ],
+            [
+              1072,
+              322
+            ],
+            [
+              1070,
+              327
+            ],
+            [
+              1067,
+              329
+            ],
+            [
+              1064,
+              327
+            ]
+          ],
+          "highlights": [
+            [
+              1070,
+              320,
+              1073,
+              323
+            ]
+          ],
+          "palette": "cassia_green"
+        },
+        {
+          "character": "Joren",
+          "ring": [
+            [
+              683,
+              234
+            ],
+            [
+              688,
+              234
+            ],
+            [
+              693,
+              234
+            ],
+            [
+              698,
+              236
+            ],
+            [
+              702,
+              238
+            ],
+            [
+              705,
+              240
+            ],
+            [
+              704,
+              245
+            ],
+            [
+              700,
+              248
+            ],
+            [
+              693,
+              249
+            ],
+            [
+              687,
+              246
+            ],
+            [
+              683,
+              241
+            ]
+          ],
+          "pupil": [
+            [
+              690,
+              233
+            ],
+            [
+              696,
+              233
+            ],
+            [
+              699,
+              236
+            ],
+            [
+              699,
+              242
+            ],
+            [
+              696,
+              245
+            ],
+            [
+              692,
+              244
+            ],
+            [
+              689,
+              240
+            ]
+          ],
+          "highlights": [
+            [
+              695,
+              235,
+              699,
+              239
+            ]
+          ],
+          "palette": "joren_blue"
+        },
+        {
+          "character": "Joren",
+          "ring": [
+            [
+              788,
+              260
+            ],
+            [
+              792,
+              258
+            ],
+            [
+              797,
+              260
+            ],
+            [
+              802,
+              260
+            ],
+            [
+              805,
+              263
+            ],
+            [
+              808,
+              265
+            ],
+            [
+              807,
+              269
+            ],
+            [
+              802,
+              272
+            ],
+            [
+              796,
+              272
+            ],
+            [
+              792,
+              269
+            ],
+            [
+              788,
+              265
+            ]
+          ],
+          "pupil": [
+            [
+              794,
+              258
+            ],
+            [
+              801,
+              259
+            ],
+            [
+              802,
+              262
+            ],
+            [
+              801,
+              266
+            ],
+            [
+              798,
+              269
+            ],
+            [
+              794,
+              267
+            ],
+            [
+              792,
+              263
+            ]
+          ],
+          "highlights": [
+            [
+              798,
+              259,
+              802,
+              263
+            ],
+            [
+              795,
+              260,
+              799,
+              264
+            ]
+          ],
+          "palette": "joren_blue"
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "palettes": {
+          "calista_blue": {
+            "target_chromaticity_rgb": [
+              0.32,
+              0.53,
+              0.84
+            ],
+            "luminance_multiplier": 0.78,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -1.0,
+                1.0,
+                0.0
+              ],
+              "offset": 1.0,
+              "ramp": 10.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          },
+          "joren_blue": {
+            "target_chromaticity_rgb": [
+              0.37,
+              0.56,
+              0.78
+            ],
+            "luminance_multiplier": 0.8,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -1.0,
+                1.0,
+                0.0
+              ],
+              "offset": 1.0,
+              "ramp": 10.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          },
+          "cassia_green": {
+            "target_chromaticity_rgb": [
+              0.26,
+              0.52,
+              0.34
+            ],
+            "luminance_multiplier": 0.8,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                -0.55,
+                1.0,
+                0.0
+              ],
+              "offset": 0.0,
+              "ramp": 12.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          }
+        },
+        "blend": "round(source*(1-weight)+target*weight); target retains local luminance pattern at the named multiplier",
+        "authorization": "Author explicitly approved tightly masked deterministic iris correction."
+      },
+      "output_sha256": "834fd2c8430fe29da8d504b36170d417e3a7bfff710d014b4a2e6229ae7d73d8",
+      "verification": {
+        "changed_pixels": 507,
+        "change_bbox": [
+          383,
+          234,
+          1077,
+          400
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "eyes": [
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 74
+          },
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 69
+          },
+          {
+            "character": "Cassia",
+            "palette": "cassia_green",
+            "allowed_pixels": 70
+          },
+          {
+            "character": "Cassia",
+            "palette": "cassia_green",
+            "allowed_pixels": 80
+          },
+          {
+            "character": "Joren",
+            "palette": "joren_blue",
+            "allowed_pixels": 119
+          },
+          {
+            "character": "Joren",
+            "palette": "joren_blue",
+            "allowed_pixels": 102
+          }
+        ]
+      },
+      "source_generation": "alpha-face-theme-sketch-laughter",
+      "review": "Root and independent art reviewer inspected full composition and native iris/face details. Original lids, pupils, catchlights and sclera are preserved. Only bounded pigment changes; prior quality comparison is recorded separately in the release matrix."
+    },
+    {
+      "id": "alpha-theme-path-friends-masked-irises",
+      "file": "game/images/cg/book-one/theme-path-friends.png",
+      "source_sha256": "08ade5a93c7c5d9128eb4927876b4dd6744205c375f51e318a30972e6df4b029",
+      "script_file": "scripts/retouch_cg_irises.py",
+      "script_sha256": "4b1c00e8947891f4dc651c8546a9aa2b4636d506655b6ad41c1e3deae13240e0",
+      "mask_geometry": [
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              490,
+              277
+            ],
+            [
+              493,
+              273
+            ],
+            [
+              496,
+              274
+            ],
+            [
+              498,
+              278
+            ],
+            [
+              498,
+              282
+            ],
+            [
+              495,
+              285
+            ],
+            [
+              491,
+              284
+            ],
+            [
+              490,
+              281
+            ]
+          ],
+          "pupil": [
+            [
+              491,
+              273
+            ],
+            [
+              495,
+              272
+            ],
+            [
+              496,
+              276
+            ],
+            [
+              494,
+              280
+            ],
+            [
+              492,
+              280
+            ]
+          ],
+          "highlights": [
+            [
+              488,
+              275,
+              492,
+              279
+            ]
+          ],
+          "palette": "calista_blue_warm"
+        },
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              530,
+              259
+            ],
+            [
+              533,
+              256
+            ],
+            [
+              535,
+              257
+            ],
+            [
+              536,
+              260
+            ],
+            [
+              536,
+              264
+            ],
+            [
+              534,
+              267
+            ],
+            [
+              531,
+              266
+            ],
+            [
+              529,
+              263
+            ]
+          ],
+          "pupil": [
+            [
+              531,
+              256
+            ],
+            [
+              534,
+              255
+            ],
+            [
+              535,
+              259
+            ],
+            [
+              533,
+              262
+            ],
+            [
+              531,
+              262
+            ]
+          ],
+          "highlights": [
+            [
+              530,
+              257,
+              533,
+              260
+            ]
+          ],
+          "palette": "calista_blue_warm"
+        },
+        {
+          "character": "Cassia",
+          "ring": [
+            [
+              774,
+              262
+            ],
+            [
+              777,
+              262
+            ],
+            [
+              781,
+              261
+            ],
+            [
+              781,
+              264
+            ],
+            [
+              778,
+              266
+            ],
+            [
+              775,
+              266
+            ],
+            [
+              774,
+              264
+            ]
+          ],
+          "pupil": [
+            [
+              775,
+              258
+            ],
+            [
+              780,
+              258
+            ],
+            [
+              780,
+              261
+            ],
+            [
+              778,
+              263
+            ],
+            [
+              775,
+              262
+            ]
+          ],
+          "highlights": [
+            [
+              774,
+              259,
+              778,
+              262
+            ]
+          ],
+          "palette": "cassia_green_warm"
+        },
+        {
+          "character": "Cassia",
+          "ring": [
+            [
+              825,
+              259
+            ],
+            [
+              828,
+              257
+            ],
+            [
+              831,
+              257
+            ],
+            [
+              832,
+              259
+            ],
+            [
+              831,
+              262
+            ],
+            [
+              827,
+              263
+            ],
+            [
+              825,
+              261
+            ]
+          ],
+          "pupil": [
+            [
+              826,
+              255
+            ],
+            [
+              831,
+              254
+            ],
+            [
+              831,
+              257
+            ],
+            [
+              829,
+              259
+            ],
+            [
+              827,
+              259
+            ]
+          ],
+          "highlights": [
+            [
+              824,
+              255,
+              827,
+              258
+            ]
+          ],
+          "palette": "cassia_green_warm"
+        },
+        {
+          "character": "Joren",
+          "ring": [
+            [
+              1048,
+              241
+            ],
+            [
+              1051,
+              238
+            ],
+            [
+              1054,
+              238
+            ],
+            [
+              1056,
+              240
+            ],
+            [
+              1056,
+              244
+            ],
+            [
+              1053,
+              247
+            ],
+            [
+              1049,
+              247
+            ],
+            [
+              1046,
+              244
+            ]
+          ],
+          "pupil": [
+            [
+              1049,
+              237
+            ],
+            [
+              1054,
+              236
+            ],
+            [
+              1054,
+              241
+            ],
+            [
+              1052,
+              244
+            ],
+            [
+              1049,
+              243
+            ]
+          ],
+          "highlights": [
+            [
+              1046,
+              239,
+              1049,
+              242
+            ]
+          ],
+          "palette": "joren_blue_warm"
+        },
+        {
+          "character": "Joren",
+          "ring": [
+            [
+              1100,
+              225
+            ],
+            [
+              1103,
+              223
+            ],
+            [
+              1106,
+              222
+            ],
+            [
+              1107,
+              225
+            ],
+            [
+              1107,
+              229
+            ],
+            [
+              1104,
+              231
+            ],
+            [
+              1100,
+              231
+            ],
+            [
+              1098,
+              228
+            ]
+          ],
+          "pupil": [
+            [
+              1101,
+              221
+            ],
+            [
+              1105,
+              220
+            ],
+            [
+              1106,
+              224
+            ],
+            [
+              1105,
+              227
+            ],
+            [
+              1102,
+              227
+            ],
+            [
+              1100,
+              225
+            ]
+          ],
+          "highlights": [
+            [
+              1099,
+              222,
+              1102,
+              225
+            ]
+          ],
+          "palette": "joren_blue_warm"
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "palettes": {
+          "calista_blue_warm": {
+            "target_chromaticity_rgb": [
+              0.32,
+              0.53,
+              0.84
+            ],
+            "luminance_multiplier": 0.78,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "offset": -1.0,
+              "ramp": 1.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          },
+          "cassia_green_warm": {
+            "target_chromaticity_rgb": [
+              0.26,
+              0.52,
+              0.34
+            ],
+            "luminance_multiplier": 0.8,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "offset": -1.0,
+              "ramp": 1.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          },
+          "joren_blue_warm": {
+            "target_chromaticity_rgb": [
+              0.37,
+              0.56,
+              0.78
+            ],
+            "luminance_multiplier": 0.8,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "offset": -1.0,
+              "ramp": 1.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          }
+        },
+        "blend": "round(source*(1-weight)+target*weight); target retains local luminance pattern at the named multiplier",
+        "authorization": "Author explicitly approved tightly masked deterministic iris correction."
+      },
+      "output_sha256": "1fbaeeac453d40ad6761894b68b6955a332942fa29b02ae2be93934fbabde2f5",
+      "verification": {
+        "changed_pixels": 207,
+        "change_bbox": [
+          490,
+          224,
+          1108,
+          286
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "eyes": [
+          {
+            "character": "Calista",
+            "palette": "calista_blue_warm",
+            "allowed_pixels": 45
+          },
+          {
+            "character": "Calista",
+            "palette": "calista_blue_warm",
+            "allowed_pixels": 37
+          },
+          {
+            "character": "Cassia",
+            "palette": "cassia_green_warm",
+            "allowed_pixels": 22
+          },
+          {
+            "character": "Cassia",
+            "palette": "cassia_green_warm",
+            "allowed_pixels": 22
+          },
+          {
+            "character": "Joren",
+            "palette": "joren_blue_warm",
+            "allowed_pixels": 41
+          },
+          {
+            "character": "Joren",
+            "palette": "joren_blue_warm",
+            "allowed_pixels": 42
+          }
+        ]
+      },
+      "source_generation": "alpha-path-close-stature",
+      "review": "Root and independent art reviewer inspected full composition and native iris/face details. Original lids, pupils, catchlights and sclera are preserved. Only bounded pigment changes; prior quality comparison is recorded separately in the release matrix."
+    },
+    {
+      "id": "alpha-theme-morning-outlook-masked-irises",
+      "file": "game/images/cg/book-one/theme-morning-outlook.png",
+      "source_sha256": "c124f0469f89d7889a7645575f08ff7f37c0b91d2fb71da3b50ad1d8382efc01",
+      "script_file": "scripts/retouch_cg_irises.py",
+      "script_sha256": "4b1c00e8947891f4dc651c8546a9aa2b4636d506655b6ad41c1e3deae13240e0",
+      "mask_geometry": [
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              1057,
+              183
+            ],
+            [
+              1059,
+              182
+            ],
+            [
+              1063,
+              182
+            ],
+            [
+              1065,
+              183
+            ],
+            [
+              1066,
+              185
+            ],
+            [
+              1066,
+              188
+            ],
+            [
+              1064,
+              190
+            ],
+            [
+              1061,
+              191
+            ],
+            [
+              1058,
+              189
+            ],
+            [
+              1056,
+              187
+            ],
+            [
+              1056,
+              185
+            ]
+          ],
+          "pupil": [
+            [
+              1059,
+              179
+            ],
+            [
+              1064,
+              180
+            ],
+            [
+              1065,
+              184
+            ],
+            [
+              1064,
+              187
+            ],
+            [
+              1062,
+              188
+            ],
+            [
+              1060,
+              187
+            ],
+            [
+              1059,
+              185
+            ]
+          ],
+          "highlights": [
+            [
+              1057,
+              182,
+              1060,
+              185
+            ]
+          ],
+          "palette": "calista_blue"
+        },
+        {
+          "character": "Calista",
+          "ring": [
+            [
+              1116,
+              183
+            ],
+            [
+              1118,
+              185
+            ],
+            [
+              1121,
+              185
+            ],
+            [
+              1123,
+              182
+            ],
+            [
+              1124,
+              182
+            ],
+            [
+              1124,
+              186
+            ],
+            [
+              1122,
+              188
+            ],
+            [
+              1119,
+              188
+            ],
+            [
+              1117,
+              187
+            ],
+            [
+              1116,
+              185
+            ]
+          ],
+          "pupil": [
+            [
+              1117,
+              176
+            ],
+            [
+              1122,
+              176
+            ],
+            [
+              1123,
+              181
+            ],
+            [
+              1122,
+              183
+            ],
+            [
+              1120,
+              184
+            ],
+            [
+              1118,
+              184
+            ],
+            [
+              1117,
+              181
+            ]
+          ],
+          "highlights": [
+            [
+              1113,
+              177,
+              1118,
+              182
+            ]
+          ],
+          "palette": "calista_blue"
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "palettes": {
+          "calista_blue": {
+            "target_chromaticity_rgb": [
+              0.36,
+              0.52,
+              0.72
+            ],
+            "luminance_multiplier": 0.8,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "offset": -1.0,
+              "ramp": 1.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          }
+        },
+        "blend": "Fixed chromaticity retains source luminance variation at the stated multiplier; dark shadows, protected pupils and catchlights remain unchanged.",
+        "authorization": "Author explicitly approved tightly masked deterministic iris correction."
+      },
+      "output_sha256": "61382b336aeb7c7989e7339855dbf89337e0f9c29ab5a90cbd04bb25b147834f",
+      "verification": {
+        "changed_pixels": 64,
+        "change_bbox": [
+          1056,
+          182,
+          1125,
+          192
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "eyes": [
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 30
+          },
+          {
+            "character": "Calista",
+            "palette": "calista_blue",
+            "allowed_pixels": 35
+          }
+        ]
+      },
+      "source_generation": "alpha-theme-morning-quality",
+      "review": "Root and independent art reviewer inspected full composition and native iris/face details. Original lids, pupils, catchlights and sclera are preserved. Only bounded pigment changes; prior quality comparison is recorded separately in the release matrix."
+    },
+    {
+      "id": "alpha-theme-treehouse-arrival-masked-irises",
+      "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
+      "source_sha256": "89a62789ffce10142e47e21a932865d5158a3ee838fd47e5ef66db784dbcc499",
+      "script_file": "scripts/retouch_cg_irises.py",
+      "script_sha256": "4b1c00e8947891f4dc651c8546a9aa2b4636d506655b6ad41c1e3deae13240e0",
+      "mask_geometry": [
+        {
+          "character": "Cassia",
+          "ring": [
+            [
+              792,
+              239
+            ],
+            [
+              795,
+              237
+            ],
+            [
+              799,
+              237
+            ],
+            [
+              802,
+              239
+            ],
+            [
+              803,
+              242
+            ],
+            [
+              803,
+              245
+            ],
+            [
+              801,
+              248
+            ],
+            [
+              797,
+              249
+            ],
+            [
+              794,
+              247
+            ],
+            [
+              792,
+              244
+            ]
+          ],
+          "pupil": [
+            [
+              795,
+              235
+            ],
+            [
+              800,
+              235
+            ],
+            [
+              800,
+              239
+            ],
+            [
+              799,
+              243
+            ],
+            [
+              797,
+              244
+            ],
+            [
+              795,
+              241
+            ]
+          ],
+          "highlights": [
+            [
+              792,
+              238,
+              796,
+              242
+            ]
+          ],
+          "palette": "cassia_green"
+        },
+        {
+          "character": "Cassia",
+          "ring": [
+            [
+              847,
+              238
+            ],
+            [
+              849,
+              239
+            ],
+            [
+              852,
+              240
+            ],
+            [
+              854,
+              238
+            ],
+            [
+              854,
+              235
+            ],
+            [
+              856,
+              235
+            ],
+            [
+              857,
+              237
+            ],
+            [
+              857,
+              240
+            ],
+            [
+              855,
+              243
+            ],
+            [
+              851,
+              244
+            ],
+            [
+              848,
+              242
+            ]
+          ],
+          "pupil": [
+            [
+              848,
+              231
+            ],
+            [
+              853,
+              231
+            ],
+            [
+              854,
+              235
+            ],
+            [
+              853,
+              237
+            ],
+            [
+              852,
+              239
+            ],
+            [
+              849,
+              238
+            ]
+          ],
+          "highlights": [
+            [
+              845,
+              233,
+              849,
+              237
+            ]
+          ],
+          "palette": "cassia_green"
+        },
+        {
+          "character": "Joren",
+          "ring": [
+            [
+              1115,
+              208
+            ],
+            [
+              1117,
+              208
+            ],
+            [
+              1118,
+              210
+            ],
+            [
+              1118,
+              212
+            ],
+            [
+              1116,
+              213
+            ],
+            [
+              1114,
+              212
+            ]
+          ],
+          "pupil": [
+            [
+              1114,
+              204
+            ],
+            [
+              1118,
+              204
+            ],
+            [
+              1118,
+              208
+            ],
+            [
+              1116,
+              210
+            ],
+            [
+              1114,
+              208
+            ]
+          ],
+          "highlights": [
+            [
+              1118,
+              207,
+              1120,
+              209
+            ]
+          ],
+          "palette": "joren_blue"
+        }
+      ],
+      "operation": {
+        "method": "deterministic masked RGB recolor",
+        "luminance_coefficients": [
+          0.2126,
+          0.7152,
+          0.0722
+        ],
+        "palettes": {
+          "cassia_green": {
+            "target_chromaticity_rgb": [
+              0.3,
+              0.5,
+              0.25
+            ],
+            "luminance_multiplier": 0.8,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "offset": -1.0,
+              "ramp": 1.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          },
+          "joren_blue": {
+            "target_chromaticity_rgb": [
+              0.37,
+              0.56,
+              0.78
+            ],
+            "luminance_multiplier": 0.9,
+            "source_chroma_gate": {
+              "rgb_coefficients": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "offset": -1.0,
+              "ramp": 1.0
+            },
+            "shadow_gate": {
+              "floor": 18.0,
+              "ramp": 12.0
+            },
+            "maximum_source_luminance": 170.0
+          }
+        },
+        "blend": "Fixed chromaticity retains source luminance variation at the stated multiplier; dark shadows, protected pupils and catchlights remain unchanged.",
+        "authorization": "Author explicitly approved tightly masked deterministic iris correction."
+      },
+      "output_sha256": "7525e3f19fab329fb96b0ed6d1ac6c1aa06db608b8197ad8d7b83fbd3c5554a6",
+      "verification": {
+        "changed_pixels": 123,
+        "change_bbox": [
+          792,
+          210,
+          1119,
+          250
+        ],
+        "outside_mask_pixels_changed": 0,
+        "protected_pupil_and_highlight_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "eyes": [
+          {
+            "character": "Cassia",
+            "palette": "cassia_green",
+            "allowed_pixels": 61
+          },
+          {
+            "character": "Cassia",
+            "palette": "cassia_green",
+            "allowed_pixels": 50
+          },
+          {
+            "character": "Joren",
+            "palette": "joren_blue",
+            "allowed_pixels": 12
+          }
+        ]
+      },
+      "source_generation": "alpha-theme-arrival-quality",
+      "review": "Root and independent art reviewer inspected full composition and native iris/face details. Original lids, pupils, catchlights and sclera are preserved. Only bounded pigment changes; prior quality comparison is recorded separately in the release matrix."
+    }
+  ]
+}
