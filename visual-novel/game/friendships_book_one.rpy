@@ -275,7 +275,7 @@ label chapter_treehouse_dispute:
     show nibble at familiar_at(675, 850, 90)
     with mood_transition()
     n "Barkley sat down and whined softly, looking between Joren and me with concerned eyes. And Nibble ran circles around us, trying to lighten the mood with her antics."
-    n "Her words, along with the pets' actions, were a reminder of the importance of cooperation, and we reluctantly agreed to put aside our differences and find a compromise."
+    n "Her words, along with the familiars' actions, were a reminder of the importance of cooperation, and we reluctantly agreed to put aside our differences and find a compromise."
     show calista older at at_left
     show joren older at at_right
     with mood_transition()
@@ -286,7 +286,7 @@ label chapter_treehouse_dispute:
     # Their days are still happy here. The loss begins only in the next chapter.
     play music "audio/friendship_warm.ogg" fadein 2.0 if_changed
     n "Through our projects and adventures, we bonded and grew, learning from each experience."
-    n "The lessons from our parents, each other, and our insightful pets shaped us, making us more resilient, creative, and empathetic."
+    n "The lessons from our parents, each other, and our insightful familiars shaped us, making us more resilient, creative, and empathetic."
     n "Our days were filled with discovery and the warmth of friendship, building a foundation for the challenges ahead."
 
 label chapter_loss:

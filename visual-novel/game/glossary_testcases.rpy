@@ -19,8 +19,18 @@ testcase glossary_review:
     click "Return"
     run Rollback(force=True)
     assert eval (not glossary_entries()) timeout 4.0
+    advance until eval (_history_list[-1].what.startswith("Shadow watched from the sofa."))
+    assert eval ("familiar" not in glossary_entries())
+    advance until eval (_history_list[-1].what == "Our familiars were part of the family, each with their own place in our daily lives.")
+    assert eval ("familiar" in glossary_entries() and "constellation" not in glossary_entries())
+    click "Glossary"
+    click "Familiar"
+    assert eval (all(name in _test_screen_text("glossary") for name in ("Shadow", "Barkley", "Nibble")) and all(term not in _test_screen_text("glossary").lower() for term in ("core integration", "longevity", "astraviin")))
+    click "Return"
+    run Rollback(force=True)
+    assert eval ("familiar" not in glossary_entries()) timeout 4.0
     advance until eval (_history_list[-1].what.startswith("With Lyra's arrival,"))
-    assert eval (set(glossary_entries()) == {"first_breath", "sanctuary", "lumen", "constellation"})
+    assert eval (set(glossary_entries()) == {"first_breath", "sanctuary", "lumen", "familiar", "constellation"})
     click "Glossary"
     click "Constellation"
     assert eval ("romantic partnership among adults" in _test_screen_text("glossary"))
@@ -51,17 +61,17 @@ testcase glossary_review:
     click "25 · The news"
     assert eval ("transcendence" not in glossary_entries() and "astraviin" not in glossary_entries()) timeout 4.0
     advance until eval (_history_list[-1].what.startswith("In our world, where transcendence"))
-    assert eval (len(glossary_entries()) == 8)
+    assert eval (len(glossary_entries()) == 9)
     click "Glossary"
     click "Transcendence"
     assert eval ("Joining with one's Astravus" in _test_screen_text("glossary") and "Core" not in _test_screen_text("glossary"))
     screenshot "glossary-later-knowledge"
     click "Return"
     run FileLoad(12, confirm=False, page="1")
-    assert eval (scene_key == "first_memory" and len(glossary_entries()) == 4 and glossary_entries()["lumen"]["level"] == 0) timeout 4.0
+    assert eval (scene_key == "first_memory" and len(glossary_entries()) == 5 and "familiar" in glossary_entries() and glossary_entries()["lumen"]["level"] == 0) timeout 4.0
     click "Chapters"
     click "07 · Three ways forward"
-    assert eval ("astravus" not in glossary_entries() and len(glossary_entries()) == 4) timeout 4.0
+    assert eval ("astravus" not in glossary_entries() and len(glossary_entries()) == 5) timeout 4.0
     advance until eval (_history_list[-1].what.startswith("They lived aboard an Astravus,"))
     assert eval ("astravus" in glossary_entries() and glossary_entries()["lumen"]["level"] == 0)
     click "Glossary"

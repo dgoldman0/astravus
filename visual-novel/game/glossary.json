@@ -77,6 +77,27 @@
       ]
     },
     {
+      "id": "familiar",
+      "title": "Familiar",
+      "stages": [
+        {
+          "scene": "first_memory",
+          "cue": "Our familiars were part of the family, each with their own place in our daily lives.",
+          "description": "An animal companion who shares a family's daily life and is treated as a member of the family. Shadow, Barkley, and Nibble are Cali's household familiars.",
+          "sources": [
+            {
+              "path": "../revision/latest.md",
+              "anchor": "Our familiars were just as important to my childhood."
+            },
+            {
+              "path": "../wiki/worldbuilding/Familiars.md",
+              "anchor": "**Familiars** are the non-human animal companions who share life with Astraviin families."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "constellation",
       "title": "Constellation",
       "stages": [

@@ -40,6 +40,7 @@ label chapter_one:
     show nibble at nibble_home
     with mood_transition()
     n "Shadow watched from the sofa. Barkley came to meet us at the door. Nibble's tiny feet tickled when she ran across my hand." id opening_home_002
+    n "Our familiars were part of the family, each with their own place in our daily lives." id opening_familiars_001
     n "With Lyra's arrival, my parents' constellation had three children to raise together." id opening_010
     n "Arin's workshop hummed. Selene's music found its way under every door. Dorian could turn a question about breakfast into the history of an entire world." id opening_011
     n "Sage made sure everyone had their say. My older brother Kael usually had a plan; my younger sister Lyra usually had questions about it." id opening_012

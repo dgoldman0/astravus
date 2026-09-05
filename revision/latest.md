@@ -48,9 +48,9 @@ _Oh. Always the daring one. Never afraid to leap into the unknown. Sure got us i
 
 Lyra was curious and full of questions, with golden curls and wide, green eyes that seemed to see everything. She was small and sprightly, always moving, always exploring.
 
-Our non-human family was of course just as important to my childhood. Shadow, the cat, with her striking green eyes; Barkley, the loyal golden retriever with his boundless energy; and Nibble, the small but curious rat.
+Our familiars were just as important to my childhood. Shadow, the cat, with her striking green eyes; Barkley, the loyal golden retriever with his boundless energy; and Nibble, the small but curious rat.
 
-_What did I do to deserve such loyal companions? Each of them brought something unique to my life, from Shadow's quiet wisdom to Barkley's boundless enthusiasm and Nibble's curious explorations. They were more than just pets; they were part of our family, each adding their own special charm to our daily lives._
+_What did I do to deserve such loyal companions? Each of them brought something unique to my life, from Shadow's quiet wisdom to Barkley's boundless enthusiasm and Nibble's curious explorations. They were part of our family, each adding their own special charm to our daily lives._
 
 _Hmm. Ah. Yes. I suppose you're right Shadow._
 
@@ -468,9 +468,9 @@ Even Shadow, who usually stayed out of our arguments, jumped onto the table betw
 
 Barkley sat down and whined softly, looking between Joren and me with concerned eyes. And Nibble ran circles around us, trying to lighten the mood with her antics.
 
-Her words, along with the pets' actions, were a reminder of the importance of cooperation, and we reluctantly agreed to put aside our differences and find a compromise. It wasn't always easy, but through these disagreements, we learned valuable lessons about communication, empathy, and the strength of our friendship.
+Her words, along with the familiars' actions, were a reminder of the importance of cooperation, and we reluctantly agreed to put aside our differences and find a compromise. It wasn't always easy, but through these disagreements, we learned valuable lessons about communication, empathy, and the strength of our friendship.
 
-Through our projects and adventures, we bonded and grew, learning from each experience. The lessons from our parents, each other, and our insightful pets shaped us, making us more resilient, creative, and empathetic. Our days were filled with discovery and the warmth of friendship, building a foundation for the challenges ahead.
+Through our projects and adventures, we bonded and grew, learning from each experience. The lessons from our parents, each other, and our insightful familiars shaped us, making us more resilient, creative, and empathetic. Our days were filled with discovery and the warmth of friendship, building a foundation for the challenges ahead.
 
 However, life has a way of introducing unforeseen tragedies. One fateful day, Joren and his family embarked on a routine research expedition to a nearby moon. An unexpected malfunction caused a catastrophic accident, and despite the rescue teams' best efforts, Joren did not survive.
 

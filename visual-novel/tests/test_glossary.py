@@ -22,7 +22,7 @@ def knowledge(scene="first_memory", visited=(), history=()):
 
 class GlossaryTests(unittest.TestCase):
     def test_source_and_exact_script_cues(self):
-        self.assertEqual(validate_glossary(), {"entries": 8, "reveal_stages": 10, "status": "pass"})
+        self.assertEqual(validate_glossary(), {"entries": 9, "reveal_stages": 11, "status": "pass"})
 
     def test_fresh_beginning_has_no_titles(self):
         self.assertEqual(knowledge(visited=["first_memory"]), {})
@@ -56,7 +56,7 @@ class GlossaryTests(unittest.TestCase):
         late = knowledge("annual_remembrance", SCENES[:-1])
         self.assertEqual(set(late), set(BY_ID))
         early = knowledge("music_first", SCENES[:4])
-        self.assertEqual(set(early), {"first_breath", "sanctuary", "lumen", "constellation"})
+        self.assertEqual(set(early), {"first_breath", "sanctuary", "lumen", "familiar", "constellation"})
         self.assertEqual(early["lumen"]["level"], 0)
         self.assertEqual(knowledge(), {})
 
@@ -71,9 +71,9 @@ class GlossaryTests(unittest.TestCase):
         self.assertEqual(knowledge(history=future), {})
 
     def test_early_definitions_do_not_explain_future_mechanics(self):
-        for key in ("first_breath", "sanctuary", "constellation", "lumen"):
+        for key in ("first_breath", "sanctuary", "familiar", "constellation", "lumen"):
             text = BY_ID[key]["stages"][0]["description"].lower()
-            for future in ("transcenden", "core", "living ship", "astraviin", "joren", "death"):
+            for future in ("transcenden", "core", "living ship", "astraviin", "joren", "death", "longevity"):
                 self.assertNotIn(future, text)
         self.assertIn("romantic partnership among adults", BY_ID["constellation"]["stages"][0]["description"])
 
