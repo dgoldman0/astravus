@@ -54,6 +54,7 @@ def read_cues():
         assert image.resolve().is_relative_to(PROJECT / "game/images") and image.is_file(), image
         assert all(1 <= z <= 1.12 for z in shot["zoom"])
         assert all(0 <= v <= 1 for v in shot["focus"])
+        assert all(0 <= v <= 1 for v in shot.get("focus_to", shot["focus"]))
     return data
 
 
@@ -66,6 +67,14 @@ def encode_audio(ffmpeg, source, data):
         source_info = {"file": source.name, "sha256": digest(source), "sample_rate": wav.getframerate(),
                        "channels": wav.getnchannels(), "bits": wav.getsampwidth() * 8,
                        "frames": wav.getnframes(), "duration_seconds": duration}
+    provenance = PROJECT / "docs/closing-theme-audio.json"
+    if target.is_file() and provenance.is_file():
+        previous = json.loads(provenance.read_text())
+        output = previous.get("output", {})
+        if (previous.get("source") == source_info and output.get("sha256") == digest(target)
+                and output.get("codec") == "Vorbis" and output.get("quality") == 6):
+            print("Using the unchanged runtime audio encode.", flush=True)
+            return
     run(ffmpeg, "-i", source, "-map", "0:a:0", "-c:a", "libvorbis", "-q:a", "6", target)
     record = {
         "source": source_info,
@@ -76,11 +85,11 @@ def encode_audio(ffmpeg, source, data):
         "renderer": "scripts/render_closing_theme.py",
         "ffmpeg": subprocess.check_output([ffmpeg, "-version"], text=True).splitlines()[0],
     }
-    (PROJECT / "docs/closing-theme-audio.json").write_text(json.dumps(record, indent=2) + "\n")
+    provenance.write_text(json.dumps(record, indent=2) + "\n")
     print(f"Encoded {target.relative_to(PROJECT)}", flush=True)
 
 
-def title_overlay(path, width, height):
+def title_overlay(path, width, height, data):
     # A typographic overlay only. FFmpeg reads all scene artwork unchanged.
     overlay = Image.new("RGBA", (width, height), (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
@@ -90,9 +99,28 @@ def title_overlay(path, width, height):
         ("S E E D S   O F   Y O U T H", "Lato-Regular.ttf", 25, 560, "#e2cba2"),
     ):
         face = ImageFont.truetype(str(PROJECT / "game/fonts" / font), round(size * scale))
-        draw.text((width / 2, y * scale), text, font=face, anchor="mt", fill=color,
+        draw.text((width * data.get("title_x", .5), y * scale), text, font=face, anchor="mt", fill=color,
                   stroke_width=max(1, round(scale)), stroke_fill=(0, 0, 0, 150))
     overlay.save(path)
+
+
+def camera_filter(shot, width, height, frames):
+    """Sample a floating-point camera transform, avoiding zoompan's rounded crop."""
+    z0, z1 = shot["zoom"]
+    fx0, fy0 = shot["focus"]
+    fx1, fy1 = shot.get("focus_to", shot["focus"])
+    progress = f"(on/{frames-1})"
+    ease = f"({progress}*{progress}*(3-2*{progress}))"
+    zoom = f"({z0}+({z1}-{z0})*{ease})"
+    fx = f"({fx0}+({fx1}-{fx0})*{ease})"
+    fy = f"({fy0}+({fy1}-{fy0})*{ease})"
+    left, top = f"(W-W*{zoom})*{fx}", f"(H-H*{zoom})*{fy}"
+    right, bottom = f"({left})+W*{zoom}", f"({top})+H*{zoom}"
+    # Transform all color planes at full resolution, before delivery subsampling.
+    # Perspective's cubic sampler preserves fractional positions at every frame.
+    return (f"perspective=x0='{left}':y0='{top}':x1='{right}':y1='{top}':"
+            f"x2='{left}':y2='{bottom}':x3='{right}':y3='{bottom}':"
+            "sense=destination:eval=frame:interpolation=cubic")
 
 
 def render(ffmpeg, source, output, data, width):
@@ -107,23 +135,25 @@ def render(ffmpeg, source, output, data, width):
         for index, shot in enumerate(data["shots"]):
             end = data["shots"][index + 1]["at"] + dissolve if index + 1 < len(data["shots"]) else total
             frames = round((end - shot["at"]) * fps)
-            z0, z1 = shot["zoom"]
-            fx, fy = shot["focus"]
-            zoom = f"{z0}+({z1}-{z0})*on/{frames-1}"
-            # Upscaling before the shallow move limits whole-pixel crop stepping.
-            filters = (f"scale={width*2}:{height*2}:force_original_aspect_ratio=increase,"
-                       f"crop={width*2}:{height*2},"
-                       f"zoompan=z='{zoom}':x='(iw-iw/zoom)*{fx}':y='(ih-ih/zoom)*{fy}':"
-                       f"d={frames}:s={width}x{height}:fps={fps},setsar=1,format=yuv420p")
+            # Size the still once, cache it, then sample each camera frame.
+            base = (f"scale={width}:{height}:force_original_aspect_ratio=increase:flags=lanczos,"
+                    f"crop={width}:{height},format=yuv444p")
+            loop = f"loop=loop=-1:size=1:start=0,setpts=N/({fps}*TB)"
+            camera = camera_filter(shot, width, height, frames)
+            held = (shot["zoom"][0] == shot["zoom"][1]
+                    and shot.get("focus_to", shot["focus"]) == shot["focus"])
+            # A held composition only needs sampling once, before it is looped.
+            filters = f"{base},{camera},{loop}" if held else f"{base},{loop},{camera}"
+            filters += ",setsar=1,format=yuv420p"
             clip = scratch / f"shot-{index:02}.mp4"
             print(f"Shot {index+1:02}/{len(data['shots'])}: {shot['label']}", flush=True)
-            run(ffmpeg, "-filter_threads", "1", "-i", PROJECT / "game" / shot["image"],
+            run(ffmpeg, "-filter_threads", "4", "-framerate", fps, "-i", PROJECT / "game" / shot["image"],
                 "-vf", filters, "-frames:v", frames, "-an", "-c:v", "libx264", "-preset", "fast",
                 "-crf", "18", "-threads", "4", clip)
             clips.append(clip)
 
         overlay = scratch / "title.png"
-        title_overlay(overlay, width, height)
+        title_overlay(overlay, width, height, data)
         inputs = []
         graph = []
         for index, clip in enumerate(clips):

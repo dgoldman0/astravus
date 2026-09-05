@@ -4,7 +4,7 @@ Version **0.2.7 alpha** is a kinetic adaptation of **Book I: Seeds of Youth**, b
 
 This is the full-book alpha under development. Updates and feedback: [Astravus on itch.io](https://arcadiumgames.itch.io/astravus-calista). An afterword looks ahead to Calista's wider life and the hope of adapting later books. The first rough playable draft, version 0.1.3, is preserved at commit `3dfcf6c` and documented in [Draft One](docs/DRAFT_ONE.md).
 
-The expanded afterword offers an optional **2:58 closing theme**, using the author's *Curiosity and Discovery*. It can be paused, skipped or replayed; reduced motion keeps the pictures still. The [closing-theme notes](docs/CLOSING_THEME_DRAFT.md) describe the first timing pass and standalone MP4 renderer. It adds about three minutes to the reading estimate if watched. This development work has not yet been packaged as a 0.2.7 release.
+The expanded afterword offers an optional **2:58 closing theme**, using the author's *Curiosity and Discovery*. It can be paused, skipped or replayed; reduced motion keeps the pictures still. The revised film opens with Cali and Kael, features characters in fourteen of fifteen distinct shots, and uses smooth camera movement. The [closing-theme notes](docs/CLOSING_THEME_DRAFT.md) describe the editable sequence and standalone MP4 renderer. It adds about three minutes to the reading estimate if watched. This development work has not yet been packaged as a 0.2.7 release.
 
 ## Play
 

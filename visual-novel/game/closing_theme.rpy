@@ -40,13 +40,18 @@ init -5 python:
             end = (THEME_STARTS[index + 1] + CLOSING_THEME["dissolve"]
                    if index + 1 < len(THEME_STARTS) else CLOSING_THEME["duration"])
             progress = min(1.0, max(0.0, (position - shot["at"]) / (end - shot["at"])))
+            progress = progress * progress * (3.0 - 2.0 * progress)
             first, last = shot["zoom"]
             zoom = 1.0 if self.reduced_motion else first + (last - first) * progress
-            child = Transform(self.children[index], zoom=zoom, alpha=alpha)
+            child = Transform(self.children[index], zoom=zoom, alpha=alpha, subpixel=True)
             picture = renpy.render(child, 1920, 1080, st, at)
-            width, height = picture.get_size()
             fx, fy = shot["focus"]
-            result.blit(picture, ((1920 - width) * fx, (1080 - height) * fy))
+            tx, ty = shot.get("focus_to", shot["focus"])
+            fx, fy = fx + (tx - fx) * progress, fy + (ty - fy) * progress
+            # Render bounds are integers; deriving the offset from those bounds
+            # makes a slow camera jump. Keep scale and position fractional.
+            result.subpixel_blit(picture, (1920 * (1.0 - zoom) * fx,
+                                          1080 * (1.0 - zoom) * fy))
 
         def render(self, width, height, st, at):
             position = self.position(st)
@@ -67,7 +72,7 @@ init -5 python:
                     1.0, (position - CLOSING_THEME["title_at"]) / CLOSING_THEME["title_fade"])
                 for child, y in ((self.title, 465), (self.subtitle, 560)):
                     text_render = renpy.render(Transform(child, alpha=title_alpha * fade), 1920, 1080, st, at)
-                    result.blit(text_render, ((1920 - text_render.width) / 2, y))
+                    result.blit(text_render, (1920 * CLOSING_THEME.get("title_x", .5) - text_render.width / 2, y))
             renpy.redraw(self, .1 if self.reduced_motion else 1.0 / CLOSING_THEME["fps"])
             return result.subsurface((0, 0, 1920, 1080))
 

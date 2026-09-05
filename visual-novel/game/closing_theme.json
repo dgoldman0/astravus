@@ -2,28 +2,284 @@
   "title": "Curiosity and Discovery",
   "audio": "audio/curiosity_and_discovery.ogg",
   "duration": 177.76,
-  "fps": 25,
-  "dissolve": 1.2,
+  "fps": 50,
+  "dissolve": 0.8,
   "fade_in": 1.2,
   "fade_out": 1.76,
   "title_at": 167.2,
   "title_fade": 2.0,
   "timing_note": "First editorial timing pass from musical changes; not verified word-level lyric alignment.",
   "shots": [
-    {"at": 0.0, "image": "images/backgrounds/garden-close.png", "label": "The garden's call", "zoom": [1.0, 1.04], "focus": [0.5, 0.45]},
-    {"at": 10.4, "image": "images/backgrounds/book-one/garden-wonders.png", "label": "Small beginnings", "zoom": [1.02, 1.02], "focus": [0.5, 0.5]},
-    {"at": 22.52, "image": "images/cg/book-one/garden-compromise.png", "label": "Gentle guidance", "zoom": [1.03, 1.0], "focus": [0.48, 0.4]},
-    {"at": 33.0, "image": "images/cg/book-one/flute-rest.png", "label": "Room to discover", "zoom": [1.0, 1.0], "focus": [0.5, 0.4]},
-    {"at": 43.76, "image": "images/backgrounds/construction-path.png", "label": "Paths beyond home", "zoom": [1.0, 1.04], "focus": [0.5, 0.4]},
-    {"at": 54.8, "image": "images/backgrounds/book-one/garden-wonders.png", "label": "Insects and flowers", "zoom": [1.08, 1.04], "focus": [0.6, 0.5]},
-    {"at": 65.36, "image": "images/backgrounds/book-one/garden-pond.png", "label": "A world in the water", "zoom": [1.0, 1.0], "focus": [0.5, 0.5]},
-    {"at": 75.44, "image": "images/backgrounds/garden.png", "label": "Our treehouse", "zoom": [1.0, 1.04], "focus": [0.6, 0.35]},
-    {"at": 89.88, "image": "images/cg/book-one/cassia-storytelling.png", "label": "Stories shared", "zoom": [1.0, 1.0], "focus": [0.5, 0.4]},
-    {"at": 104.32, "image": "images/cg/book-one/treehouse-friends.png", "label": "Friends by my side", "zoom": [1.04, 1.0], "focus": [0.5, 0.4]},
-    {"at": 114.64, "image": "images/backgrounds/book-one/waterwheel.png", "label": "An idea comes to life", "zoom": [1.0, 1.035], "focus": [0.5, 0.45]},
-    {"at": 127.16, "image": "images/backgrounds/book-one/dome.png", "label": "The world grows wider", "zoom": [1.04, 1.0], "focus": [0.5, 0.35]},
-    {"at": 136.24, "image": "images/cg/book-one/treehouse-friends.png", "label": "The warmth we carry", "zoom": [1.0, 1.0], "focus": [0.5, 0.4]},
-    {"at": 153.76, "image": "images/backgrounds/garden.png", "label": "Evening among the leaves", "zoom": [1.03, 1.0], "focus": [0.6, 0.4]},
-    {"at": 164.08, "image": "images/backgrounds/garden-close.png", "label": "Another beginning", "zoom": [1.03, 1.0], "focus": [0.5, 0.4]}
-  ]
+    {
+      "at": 0.0,
+      "image": "images/cg/book-one/theme-garden-opening.png",
+      "label": "Cali and Kael in the sunflowers",
+      "zoom": [
+        1.0,
+        1.025
+      ],
+      "focus": [
+        0.45,
+        0.42
+      ],
+      "cast": [
+        "Calista",
+        "Kael"
+      ]
+    },
+    {
+      "at": 10.4,
+      "image": "images/backgrounds/book-one/garden-wonders.png",
+      "label": "A closer look at the garden",
+      "zoom": [
+        1.0,
+        1.0
+      ],
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "cast": []
+    },
+    {
+      "at": 22.52,
+      "image": "images/cg/book-one/garden-compromise.png",
+      "label": "Gentle guidance",
+      "zoom": [
+        1.0,
+        1.0
+      ],
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "cast": [
+        "Calista",
+        "Maia",
+        "Kael"
+      ]
+    },
+    {
+      "at": 33.0,
+      "image": "images/cg/book-one/flute-rest.png",
+      "label": "Learning with Selene",
+      "zoom": [
+        1.025,
+        1.025
+      ],
+      "focus": [
+        0.4,
+        0.4
+      ],
+      "cast": [
+        "Calista",
+        "Selene"
+      ],
+      "focus_to": [
+        0.6,
+        0.4
+      ]
+    },
+    {
+      "at": 43.76,
+      "image": "images/cg/book-one/theme-path-friends.png",
+      "label": "Following a new path together",
+      "zoom": [
+        1.0,
+        1.03
+      ],
+      "focus": [
+        0.5,
+        0.4
+      ],
+      "cast": [
+        "Calista",
+        "Cassia",
+        "Joren"
+      ]
+    },
+    {
+      "at": 54.8,
+      "image": "images/cg/book-one/theme-insect-discovery.png",
+      "label": "A tiny shared discovery",
+      "zoom": [
+        1.0,
+        1.0
+      ],
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "cast": [
+        "Calista",
+        "Lyra"
+      ]
+    },
+    {
+      "at": 65.36,
+      "image": "images/cg/book-one/theme-nibble-moment.png",
+      "label": "Nibble investigates",
+      "zoom": [
+        1.03,
+        1.03
+      ],
+      "focus": [
+        0.4,
+        0.5
+      ],
+      "cast": [
+        "Calista",
+        "Nibble"
+      ],
+      "focus_to": [
+        0.62,
+        0.5
+      ]
+    },
+    {
+      "at": 75.44,
+      "image": "images/cg/book-one/theme-treehouse-arrival.png",
+      "label": "Come inside",
+      "zoom": [
+        1.04,
+        1.0
+      ],
+      "focus": [
+        0.5,
+        0.4
+      ],
+      "cast": [
+        "Calista",
+        "Cassia",
+        "Joren"
+      ]
+    },
+    {
+      "at": 89.88,
+      "image": "images/cg/book-one/cassia-storytelling.png",
+      "label": "Stories shared",
+      "zoom": [
+        1.0,
+        1.0
+      ],
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "cast": [
+        "Calista",
+        "Cassia"
+      ]
+    },
+    {
+      "at": 104.32,
+      "image": "images/cg/book-one/treehouse-friends.png",
+      "label": "Friends by my side",
+      "zoom": [
+        1.01,
+        1.035
+      ],
+      "focus": [
+        0.5,
+        0.4
+      ],
+      "cast": [
+        "Calista",
+        "Cassia",
+        "Joren"
+      ]
+    },
+    {
+      "at": 114.64,
+      "image": "images/cg/book-one/theme-waterwheel-team.png",
+      "label": "We made it work",
+      "zoom": [
+        1.04,
+        1.0
+      ],
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "cast": [
+        "Calista",
+        "Cassia",
+        "Joren"
+      ]
+    },
+    {
+      "at": 127.16,
+      "image": "images/cg/book-one/theme-dome-friends.png",
+      "label": "The world grows wider",
+      "zoom": [
+        1.035,
+        1.035
+      ],
+      "focus": [
+        0.4,
+        0.4
+      ],
+      "cast": [
+        "Calista",
+        "Cassia",
+        "Joren"
+      ],
+      "focus_to": [
+        0.7,
+        0.4
+      ]
+    },
+    {
+      "at": 136.24,
+      "image": "images/cg/book-one/theme-sketch-laughter.png",
+      "label": "A sketch and a laugh",
+      "zoom": [
+        1.0,
+        1.0
+      ],
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "cast": [
+        "Calista",
+        "Cassia",
+        "Joren"
+      ]
+    },
+    {
+      "at": 153.76,
+      "image": "images/cg/book-one/theme-evening-reading.png",
+      "label": "One more page before night",
+      "zoom": [
+        1.0,
+        1.025
+      ],
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "cast": [
+        "Calista"
+      ]
+    },
+    {
+      "at": 164.08,
+      "image": "images/cg/book-one/theme-morning-outlook.png",
+      "label": "Another day to discover",
+      "zoom": [
+        1.03,
+        1.0
+      ],
+      "focus": [
+        0.68,
+        0.4
+      ],
+      "cast": [
+        "Calista"
+      ]
+    }
+  ],
+  "camera_note": "Eased subpixel camera movement with several locked shots; no repeated images.",
+  "title_x": 0.34
 }

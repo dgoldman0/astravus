@@ -185,6 +185,106 @@
         941
       ],
       "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-garden-opening.png",
+      "generation": "theme-recut-garden-opening",
+      "sha256": "221ab812750eb151a2951c580f6d3cf83ada29b185a4f444c2a917ed5981716f",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-path-friends.png",
+      "generation": "theme-recut-path-friends",
+      "sha256": "701b570bdcbb3017500aeac49a4f2496a806a0c519a7f9bc444f0172ba314701",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-insect-discovery.png",
+      "generation": "theme-recut-insects",
+      "sha256": "55c996f0201bac1ebe68e80c54fc3290a60fb2d5985e9f795192a53fb39d9fa6",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-nibble-moment.png",
+      "generation": "theme-recut-nibble",
+      "sha256": "b8c14b4b8bb0e9c1a5963695ee6553f00e2598a0f060962cc9cb4af6c36f1eb3",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
+      "generation": "theme-recut-treehouse-arrival",
+      "sha256": "98c951189682002a37f383c882a484336ae0ffafb77fd63da0f729af157aa85a",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-waterwheel-team.png",
+      "generation": "theme-recut-waterwheel",
+      "sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-dome-friends.png",
+      "generation": "theme-recut-dome",
+      "sha256": "6326a3caffc664b67e718d7fdcc22b5e18dbb488810c081ab6fa9a561ecc1fce",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-sketch-laughter.png",
+      "generation": "theme-recut-sketch",
+      "sha256": "b626013012f9ad310b02ebb951f475f3eadd58479b90dcd5a7ba2e5968b841f8",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-evening-reading.png",
+      "generation": "theme-recut-evening",
+      "sha256": "6901aac172f7744449c32f787be668859c6345a86120c917b2fb6323562569f9",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-morning-outlook.png",
+      "generation": "theme-recut-morning",
+      "sha256": "45698baaf81a6583cd0c7fa03d06c5e8d2c39d55c9bbed752b086e8c73bfab5f",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
     }
   ],
   "generations": [
@@ -482,6 +582,106 @@
         "generation:joren-young-key-v1"
       ],
       "output_id": "exec-0e896cbf-d9e2-4700-9c02-ff644b1c2342",
+      "selected": true
+    },
+    {
+      "id": "theme-recut-garden-opening",
+      "prompt": "Use case: illustration-story. Create one finished cinematic still for the closing music film of Astravus, 16:9 landscape. Match the attached approved painterly illustrations: fine natural detail, expressive child faces, dimensional soft midtones across cheeks/nose/forehead, gentle lip edges, warm wood and foliage. Keep character identity, age and skin tones consistent with the specified references. Characters are the visual subject, clearly readable at normal video size, candidly engaged in an activity rather than posing at the viewer. This illustrates ordinary childhood memories already supported by the story. No captions, lettering, logos, borders, glowing eyes, apparitions, magic auras or new supernatural events. Fill the whole frame with the setting; never reproduce green reference backdrops. Reference 1 supplies young Calista (freckled girl in blue-teal, brown curls/braid) and her older brother Kael (brown skin, short dark hair, rust shirt), their garden and palette. New intimate medium two-shot at the children's eye level: Cali and Kael side by side among tall sunflowers, delighted by what Kael is pointing out just below a blossom. Both faces clearly visible in three-quarter view, bright curiosity and a small spontaneous smile; sunlit petals softly frame the foreground. Maia is not in this shot. Make this an inviting opening image with children prominent, not an empty garden vista. Morning light, believable everyday plants.",
+      "references": [
+        "generation:review-027-garden-compromise"
+      ],
+      "output_id": "exec-9d726561-d6fb-4950-9c1a-7149b61c99e5",
+      "selected": true
+    },
+    {
+      "id": "theme-recut-path-friends",
+      "prompt": "Use case: illustration-story. Create one finished cinematic still for the closing music film of Astravus, 16:9 landscape. Match the attached approved painterly illustrations: fine natural detail, expressive child faces, dimensional soft midtones across cheeks/nose/forehead, gentle lip edges, warm wood and foliage. Keep character identity, age and skin tones consistent with the specified references. Characters are the visual subject, clearly readable at normal video size, candidly engaged in an activity rather than posing at the viewer. This illustrates ordinary childhood memories already supported by the story. No captions, lettering, logos, borders, glowing eyes, apparitions, magic auras or new supernatural events. Fill the whole frame with the setting; never reproduce green reference backdrops. Reference 1 supplies young Calista on the left (cream shirt/olive overalls, brown curls), Cassia in the center (brown skin, dark curls, plum tunic/ochre scarf), and Joren on the right (blond boy, rust shirt). Show these same three children walking together along a leafy wooden path within Lumen's organic garden settlement, mature trunks and modest inhabited timber walkways beyond. Calista unfolds their sketch map, Joren looks ahead and points toward the path's turning, Cassia leans in to look at the map. Medium-wide knee-up framing, faces visible and grouped across the frame, lively weight shifts, warm dappled daylight. No open-space flight, spacecraft or new landmark.",
+      "references": [
+        "generation:theme-027-treehouse-friends"
+      ],
+      "output_id": "exec-aad4bdc5-ecd2-4038-aba9-855acdea5e7a",
+      "selected": true
+    },
+    {
+      "id": "theme-recut-insects",
+      "prompt": "Use case: illustration-story. Create one finished cinematic still for the closing music film of Astravus, 16:9 landscape. Match the attached approved painterly illustrations: fine natural detail, expressive child faces, dimensional soft midtones across cheeks/nose/forehead, gentle lip edges, warm wood and foliage. Keep character identity, age and skin tones consistent with the specified references. Characters are the visual subject, clearly readable at normal video size, candidly engaged in an activity rather than posing at the viewer. This illustrates ordinary childhood memories already supported by the story. No captions, lettering, logos, borders, glowing eyes, apparitions, magic auras or new supernatural events. Fill the whole frame with the setting; never reproduce green reference backdrops. Reference 1 supplies Calista, the freckled girl on the left in blue-teal and ochre; reference 2 supplies her younger sister Lyra, golden-tan skin, smaller stature, unruly golden-blonde curls, green eyes, rust shirt and olive overalls. Close two-shot: the sisters crouch at a flower bed and peer in shared fascination at a small ladybug on a leaf that Cali holds gently at their eye level. Their faces and the leaf make a clear triangle of attention, Lyra's amused wonder contrasts Cali's concentration. Natural tiny insect, normal proportions, daylight reflected softly from foliage. No other people. Background softly recedes but facial midtone detail remains.",
+      "references": [
+        "generation:review-027-garden-compromise",
+        "generation:lyra-young-key-v1"
+      ],
+      "output_id": "exec-027365a8-24e6-421b-9770-d70cf75f3502",
+      "selected": true
+    },
+    {
+      "id": "theme-recut-nibble",
+      "prompt": "Use case: illustration-story. Create one finished cinematic still for the closing music film of Astravus, 16:9 landscape. Match the attached approved painterly illustrations: fine natural detail, expressive child faces, dimensional soft midtones across cheeks/nose/forehead, gentle lip edges, warm wood and foliage. Keep character identity, age and skin tones consistent with the specified references. Characters are the visual subject, clearly readable at normal video size, candidly engaged in an activity rather than posing at the viewer. This illustrates ordinary childhood memories already supported by the story. No captions, lettering, logos, borders, glowing eyes, apparitions, magic auras or new supernatural events. Fill the whole frame with the setting; never reproduce green reference backdrops. Reference 1 supplies young Calista (girl left, teal tunic, ochre sash, warm freckled skin and brown curls). Reference 2 supplies Nibble, the author's fluffy black-and-white rat with a tousled white blaze, big pink ears, violet/coral mismatched eyes and ONE pink tail. Medium close-up of Cali seated on a low garden bench, laughing gently as Nibble investigates the cuff of her sleeve; one hand is cupped beneath the small rat for support, the rat's own paws rest on her sleeve. Nibble is a real small pet, hand-sized, much smaller than a cat; keep rat anatomy and single tail. Include Cali's face prominently and enough of both arms to show a natural safe pose. Warm leaves and bench behind, no other animals or people.",
+      "references": [
+        "generation:review-027-garden-compromise",
+        "generation:familiar-nibble-author-reference-v4"
+      ],
+      "output_id": "exec-eafd4367-ba0b-42e5-9a9a-f39b1602d7ca",
+      "selected": true
+    },
+    {
+      "id": "theme-recut-treehouse-arrival",
+      "prompt": "Use case: illustration-story. Create one finished cinematic still for the closing music film of Astravus, 16:9 landscape. Match the attached approved painterly illustrations: fine natural detail, expressive child faces, dimensional soft midtones across cheeks/nose/forehead, gentle lip edges, warm wood and foliage. Keep character identity, age and skin tones consistent with the specified references. Characters are the visual subject, clearly readable at normal video size, candidly engaged in an activity rather than posing at the viewer. This illustrates ordinary childhood memories already supported by the story. No captions, lettering, logos, borders, glowing eyes, apparitions, magic auras or new supernatural events. Fill the whole frame with the setting; never reproduce green reference backdrops. Reference 1 supplies young Calista (left cream/olive), Cassia (middle plum/ochre scarf) and blond Joren (right rust), and interior style. Reference 2 supplies the existing treehouse exterior: weathered wood, single elevated porch around massive trunk, dark beams, railing and round-top wooden door. Show a closer eye-level view ALREADY ON THE SAFE PORCH: Joren holds the door open, Cassia steps inside looking back with an inviting grin, Calista arrives carrying her sketchbook. Clear child faces and their interaction; the framing reveals the same doorway and railing, foliage beyond. No dangerous ledge balancing or climbing pose, no redesign into a castle. Warm afternoon.",
+      "references": [
+        "generation:theme-027-treehouse-friends",
+        "generation:garden-v3"
+      ],
+      "output_id": "exec-1b04ccd6-32a7-4e28-bed9-473bb7ee05f2",
+      "selected": true
+    },
+    {
+      "id": "theme-recut-waterwheel",
+      "prompt": "Use case: illustration-story. Create one finished cinematic still for the closing music film of Astravus, 16:9 landscape. Match the attached approved painterly illustrations: fine natural detail, expressive child faces, dimensional soft midtones across cheeks/nose/forehead, gentle lip edges, warm wood and foliage. Keep character identity, age and skin tones consistent with the specified references. Characters are the visual subject, clearly readable at normal video size, candidly engaged in an activity rather than posing at the viewer. This illustrates ordinary childhood memories already supported by the story. No captions, lettering, logos, borders, glowing eyes, apparitions, magic auras or new supernatural events. Fill the whole frame with the setting; never reproduce green reference backdrops. Reference 1 supplies the exact garden pond and SMALL HANDMADE waterwheel fed by a bamboo spout. References 2/3/4 supply later-childhood Calista (cream shirt, olive vest, blue trousers), Cassia (brown skin, plum shirt, dark vest, russet trousers), Joren (blond, blue overshirt, rust shirt). All three children kneel or sit on the broad DRY garden work area BESIDE the pond, feet and knees clearly supported by earth or stone paving, with the little working wheel in view beside them. Calista steadies a spare wooden part, Cassia studies their simple plan, Joren turns toward them with a pleased grin as the finished wheel turns. Medium-wide people-first composition, show their teamwork and successful small project. No standing in water, giant wheel, modern industrial machinery or tools in hands that look unsafe.",
+      "references": [
+        "generation:review-025-waterwheel",
+        "generation:calista-older-key-v1",
+        "generation:review-025-cassia_older",
+        "generation:joren-older-key-v1"
+      ],
+      "output_id": "exec-a60a25e5-c8c7-4ea3-84b7-3b63ad88ee51",
+      "selected": true
+    },
+    {
+      "id": "theme-recut-dome",
+      "prompt": "Use case: illustration-story. Create one finished cinematic still for the closing music film of Astravus, 16:9 landscape. Match the attached approved painterly illustrations: fine natural detail, expressive child faces, dimensional soft midtones across cheeks/nose/forehead, gentle lip edges, warm wood and foliage. Keep character identity, age and skin tones consistent with the specified references. Characters are the visual subject, clearly readable at normal video size, candidly engaged in an activity rather than posing at the viewer. This illustrates ordinary childhood memories already supported by the story. No captions, lettering, logos, borders, glowing eyes, apparitions, magic auras or new supernatural events. Fill the whole frame with the setting; never reproduce green reference backdrops. Reference 1 establishes the dome's organic timber-ribbed roof, inhabited garden terraces, warm diffuse light, and curved stone parapet. References 2/3/4 are later-childhood Calista, Cassia and blond Joren in their exact practical outfits. Show the three on the safe terrace behind this waist-high parapet, looking out in wonder and pointing out things to one another. Film-style medium-wide three-quarter side view, their faces visible across the foreground, all feet on the paved terrace rather than the parapet. Calista and Cassia exchange a delighted look while Joren points into the distance. Keep the magnificent settled view as context behind readable people. No spacewalk, flying children, new moons or mystical lights.",
+      "references": [
+        "generation:book-one-dome-v1",
+        "generation:calista-older-key-v1",
+        "generation:review-025-cassia_older",
+        "generation:joren-older-key-v1"
+      ],
+      "output_id": "exec-a2988573-4d0b-4a95-9fb0-b2fa64e1062f",
+      "selected": true
+    },
+    {
+      "id": "theme-recut-sketch",
+      "prompt": "Use case: illustration-story. Create one finished cinematic still for the closing music film of Astravus, 16:9 landscape. Match the attached approved painterly illustrations: fine natural detail, expressive child faces, dimensional soft midtones across cheeks/nose/forehead, gentle lip edges, warm wood and foliage. Keep character identity, age and skin tones consistent with the specified references. Characters are the visual subject, clearly readable at normal video size, candidly engaged in an activity rather than posing at the viewer. This illustrates ordinary childhood memories already supported by the story. No captions, lettering, logos, borders, glowing eyes, apparitions, magic auras or new supernatural events. Fill the whole frame with the setting; never reproduce green reference backdrops. Reference 1 supplies young Calista (left cream/olive), Cassia (middle brown skin plum/ochre), blond Joren (right rust), and their treehouse. A DIFFERENT cinematic composition: intimate close-up from the far edge of their low sketch table, with Calista's and Cassia's faces large in the frame and Joren leaning into view between them. Cassia is laughing at a deliberately silly creature sketch Calista is holding upright toward her friends; Joren has an amused open grin. The drawing is only pencil lines on paper, never a creature in the real room. Natural hands, distinct faces and affectionate childhood friendship. Soft reflected daylight, a glimpse of warm beams behind; no large empty room.",
+      "references": [
+        "generation:theme-027-treehouse-friends"
+      ],
+      "output_id": "exec-b3a6a959-c6de-40b3-8b1b-33c85ee56d7a",
+      "selected": true
+    },
+    {
+      "id": "theme-recut-evening",
+      "prompt": "Use case: illustration-story. Create one finished cinematic still for the closing music film of Astravus, 16:9 landscape. Match the attached approved painterly illustrations: fine natural detail, expressive child faces, dimensional soft midtones across cheeks/nose/forehead, gentle lip edges, warm wood and foliage. Keep character identity, age and skin tones consistent with the specified references. Characters are the visual subject, clearly readable at normal video size, candidly engaged in an activity rather than posing at the viewer. This illustrates ordinary childhood memories already supported by the story. No captions, lettering, logos, borders, glowing eyes, apparitions, magic auras or new supernatural events. Fill the whole frame with the setting; never reproduce green reference backdrops. Reference 1 supplies young Calista's face, brown curls, cream shirt and olive overalls and the warm timber treehouse. Quiet evening medium portrait: Cali is tucked comfortably on the treehouse's patterned cushions beside the open window, looking down at the sketchbook across her knees with a contented half-smile, pencil resting naturally in her fingers. A small amber lantern on the low table lights her face dimensionally; cool evening foliage is visible outside. Everyday warm, hopeful curiosity after a good day. Clearly awake and interested, no tears, mourning, ghosts, floating lights, sleep scene or other people. Show her face, sketchbook and cozy posture, not a largely empty setting.",
+      "references": [
+        "generation:theme-027-treehouse-friends"
+      ],
+      "output_id": "exec-cd5722a8-3da3-4520-8f5b-17781464c569",
+      "selected": true
+    },
+    {
+      "id": "theme-recut-morning",
+      "prompt": "Use case: illustration-story. Create one finished cinematic still for the closing music film of Astravus, 16:9 landscape. Match the attached approved painterly illustrations: fine natural detail, expressive child faces, dimensional soft midtones across cheeks/nose/forehead, gentle lip edges, warm wood and foliage. Keep character identity, age and skin tones consistent with the specified references. Characters are the visual subject, clearly readable at normal video size, candidly engaged in an activity rather than posing at the viewer. This illustrates ordinary childhood memories already supported by the story. No captions, lettering, logos, borders, glowing eyes, apparitions, magic auras or new supernatural events. Fill the whole frame with the setting; never reproduce green reference backdrops. Reference 1 supplies later-childhood Calista: warm light freckled skin, blue-green eyes, long brown curls, cream shirt, olive vest, blue practical trousers and boots. Reference 2 supplies Lumen's inhabited garden paths and massive timber treehouse. Closing cinematic medium-wide shot in bright gentle morning light: Calista stands on a garden path with sketchbook tucked under her arm, turned three-quarter toward the next turning, looking ahead with a hopeful small smile. Keep her face distinctly visible, on the RIGHT THIRD of the frame. The left/center has softly receding sunlit leaves and garden path with quiet uncluttered contrast for a title added later; do not draw text. The treehouse is recognizable behind her. Human curiosity and a new day, no heavenly glow, literal beacon, apparition or new story event.",
+      "references": [
+        "generation:calista-older-key-v1",
+        "generation:garden-v3"
+      ],
+      "output_id": "exec-16b76d90-9c1a-4701-b042-635a4a8aef70",
       "selected": true
     }
   ]

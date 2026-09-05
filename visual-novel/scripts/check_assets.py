@@ -26,6 +26,8 @@ def check():
             generations[item["id"]] = item
 
     source = "\n".join(p.read_text() for p in (PROJECT / "game").glob("*.rpy"))
+    theme_images = {shot["image"] for shot in
+                    json.loads((PROJECT / "game/closing_theme.json").read_text())["shots"]}
     selected = set()
     for name, item in assets.items():
         path = PROJECT / name
@@ -37,7 +39,8 @@ def check():
             assert picture.mode == item["mode"], f"Color mode: {name}"
             picture.verify()
         assert item["generation"] in generations, f"Missing generation: {name}"
-        assert name.removeprefix("game/") in source, f"No runtime definition: {name}"
+        runtime_name = name.removeprefix("game/")
+        assert runtime_name in source or runtime_name in theme_images, f"No runtime definition: {name}"
         selected.add(item["generation"])
 
     image_files = {
@@ -46,6 +49,7 @@ def check():
         if p.is_file() and p.suffix.lower() in (".png", ".webp", ".jpg", ".jpeg")
     }
     assert image_files == set(assets), f"Uncatalogued or missing images: {image_files ^ set(assets)}"
+    assert theme_images <= {name.removeprefix("game/") for name in assets}, "Uncatalogued theme image"
     declared_selected = {name for name, item in generations.items() if item["selected"]}
     assert selected == declared_selected, f"Selection mismatch: {selected ^ declared_selected}"
 
