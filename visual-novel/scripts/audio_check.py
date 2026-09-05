@@ -19,7 +19,7 @@ PROJECT = Path(__file__).resolve().parents[1]
 MUSIC = {"first_light", "home_theme", "discovery_theme", "wonder_theme", "festival_theme",
          "rain_refuge", "grief_theme", "remembrance_theme"}
 AMBIENCE = {"garden_air", "rain", "room_air", "workshop_air", "plaza_air"}
-EFFECTS = {"wood", "flute_first", "flute_practice", "tree_creak", "water_splash"}
+EFFECTS = {"wood", "flute_attempt", "flute_first", "flute_practice", "tree_creak", "water_splash"}
 
 
 def db(value):
@@ -34,8 +34,13 @@ def analyze(path):
     expected_subtype = "VORBIS" if path.suffix == ".ogg" else "PCM_16"
     if info.subtype != expected_subtype:
         errors.append(f"Expected {expected_subtype}, got {info.subtype}")
-    if rate != 24000 or channels != 2:
-        errors.append("Expected 24 kHz stereo")
+    expected_rate = 24000 if path.stem in ("flute_first", "flute_attempt") else 48000
+    if rate != expected_rate or channels != 2:
+        errors.append(f"Expected {expected_rate} Hz stereo")
+    if path.stem == "flute_first":
+        preserved = json.loads((PROJECT / "docs/audio-sources.json").read_text())["preserved_first_flute_sha256"]
+        if hashlib.sha256(path.read_bytes()).hexdigest() != preserved:
+            errors.append("The deliberately rough first flute performance was changed")
     peak = np.max(np.abs(signal))
     rms = np.sqrt(np.mean(signal ** 2))
     dc = np.max(np.abs(signal.mean(axis=0)))
@@ -50,6 +55,8 @@ def analyze(path):
     if np.array_equal(signal[:, 0], signal[:, 1]):
         errors.append("Identical left/right channels")
     seconds = frames / rate
+    if path.stem == "flute_attempt" and not .9 <= seconds <= 2:
+        errors.append("The first broken breath must be a short single attempt")
     if path.stem in MUSIC and not 45 <= seconds <= 90:
         errors.append("Music duration outside 45–90 seconds")
     oversampled = resample_poly(signal, 4, 1, axis=0)
@@ -63,14 +70,15 @@ def analyze(path):
     loop = path.stem in MUSIC | AMBIENCE
     if loop and np.any(seam > np.maximum(5e-4, typical_step * 4)):
         errors.append("Loop boundary is anomalous relative to ordinary sample steps")
-    window = round(rate * .5)
+    window = min(frames, round(rate * .5))
     windows = signal[:len(signal) // window * window].reshape(-1, window, channels)
     rms_windows = np.sqrt(np.mean(windows ** 2, axis=(1, 2)))
     frequency, density = welch(signal.mean(axis=1), fs=rate, nperseg=8192)
     total = np.sum(density)
     bands = {}
     for name, low, high in (("20–180 Hz", 20, 180), ("180–2000 Hz", 180, 2000),
-                            ("2000–6000 Hz", 2000, 6000), ("6000–12000 Hz", 6000, 12001)):
+                            ("2000–6000 Hz", 2000, 6000), ("6000–12000 Hz", 6000, 12000),
+                            ("12000–24000 Hz", 12000, 24001)):
         bands[name] = round(float(100 * np.sum(density[(frequency >= low) & (frequency < high)]) / total), 2)
     master_comparison = None
     master_path = MASTER_OUT / (path.stem + ".wav")
@@ -129,7 +137,8 @@ def main():
             print(f"     {error}")
     report = {"method": "Decoded runtime audio, 4x reconstruction, periodic seam comparison, Welch spectrum; no subjective listening claim",
               "encoder": {"soundfile": sf.__version__, "libsndfile": sf.__libsndfile_version__,
-                          "vorbis_compression_level": VORBIS_COMPRESSION, "sample_rate": 24000},
+                          "vorbis_compression_level": VORBIS_COMPRESSION, "sample_rate": 48000,
+                          "preserved_first_flute_sample_rate": 24000},
               "renderer": "scripts/make_audio.py", "missing": missing, "assets": rows}
     args.json.parent.mkdir(parents=True, exist_ok=True)
     args.json.write_text(json.dumps(report, indent=2) + "\n")

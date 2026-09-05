@@ -50,6 +50,8 @@ The detailed stage map is [CHARACTER_CONTINUITY.md](CHARACTER_CONTINUITY.md). Ea
 
 Preserve recognizable facial structure, hair, skin, and eye color across variants. Wardrobe colors and patterns are production choices unless the manuscript specifies them. Subdued grief clothing is personal dress, not an invented Astraviin mourning uniform. Annual gatherings can be recalled without placing the same child sprite in every future year.
 
+Where the story leaves appearance open, develop an expressive, appealing design that fits the established style, then preserve it across appearances. The author's supplied Nibble reference establishes her fluffy black-and-white coat, white blaze, large pink ears, and violet/coral eyes. Use that design for both her scene sprite and People portrait.
+
 New everyday parent sprites follow the First Memory identities, with modest later childhood-era changes. Maia's seed-holding pose belongs to the planting lesson; use empty hands elsewhere. A festival lantern or painting palette must not appear before it is held or remain after it is set down.
 
 Standing portraits do not illustrate every action. Hide conflicting sprites for the flute performance, close listening at the tree, pond rescue, lap-and-blanket story, embracing, or lantern release. Narration can carry an action over the environment. The preview includes expanded expressions and wardrobe, but still has limited poses and no separate portrait for every person who speaks. Those are presentation limits, not evidence that an offscreen character is absent from the story.
@@ -63,6 +65,7 @@ Full prompts, source relationships, output identifiers, sizes, modes, and hashes
 - [assets.json](assets.json): the selected opening family, garden, treehouse, and encounter references.
 - [character-assets.json](character-assets.json): Book I character stages, wardrobe, emotion, and compositing variants.
 - [environment-assets.json](environment-assets.json): the added family spaces, festival, projects, later views, and remembrance art.
+- [familiar-assets.json](familiar-assets.json): Shadow, Barkley, and Nibble, including the author's Nibble reference and matte variants. Shadow uses a blue key to preserve her green eyes; the other two use the existing green key. The same files supply scene companions and guide illustrations.
 
 Selected runtime files belong in Git. Downloaded tools, superseded generations, and unused candidates remain in ignored cache or staging directories and are excluded from packages. The manifests preserve provenance; they are not proof that every new image has received final author approval.
 

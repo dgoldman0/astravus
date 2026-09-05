@@ -23,7 +23,7 @@ testsuite global:
 # Keep this identifier: scripts/project.py invokes it explicitly.
 testcase chapter_playthrough:
     assert screen "main_menu"
-    assert eval (config.version == "0.2.0" and config.save_directory == "Astravus-Book-I")
+    assert eval (config.version == "0.2.3" and config.save_directory == "Astravus-Book-I")
     screenshot "title"
     click "Begin Book I"
     assert screen "chapter_card" timeout 4.0
@@ -33,6 +33,8 @@ testcase chapter_playthrough:
     screenshot "first-memory"
     click "People"
     assert screen "people"
+    assert eval (people_names() == ["Cali"] and familiar_names() == [])
+    click "Lumen"
     assert eval ("living Astravus" not in _test_screen_text("people") and "Joren" not in _test_screen_text("people"))
     screenshot "people-before-reveal"
     click "Return"
@@ -40,9 +42,39 @@ testcase chapter_playthrough:
     assert eval (not renpy.showing("cg"))
     advance until eval (_history_list[-1].what.startswith("The home I grew"))
     screenshot "family-home"
+    assert eval (familiar_names() == [] and not renpy.showing("shadow"))
+    run FileSave(8, confirm=False, page="1")
+    advance until eval (_history_list[-1].what == FAMILIAR_INTRODUCTION)
+    assert eval (familiar_names() == ["Shadow", "Barkley", "Nibble"])
+    assert eval (all(renpy.showing(tag) for tag in ("shadow", "barkley", "nibble")))
+    screenshot "familiars-home"
+    click "People"
+    assert eval (renpy.get_widget("people", "familiar_portrait") is not None and "green eyes" in _test_screen_text("people"))
+    screenshot "people-shadow"
+    click "Barkley"
+    assert eval ("golden retriever" in _test_screen_text("people") and renpy.get_widget("people", "familiar_portrait") is not None)
+    screenshot "people-barkley"
+    click "Nibble"
+    assert eval ("little rat" in _test_screen_text("people") and renpy.get_widget("people", "familiar_portrait") is not None)
+    screenshot "people-nibble"
+    click "Return"
+    run FileSave(9, confirm=False, page="1")
+    run Rollback(force=True)
+    assert eval (familiar_names() == [] and not renpy.showing("shadow")) timeout 4.0
+    run FileLoad(9, confirm=False, page="1")
+    assert eval (len(familiar_names()) == 3 and renpy.showing("nibble")) timeout 4.0
+    run FileLoad(8, confirm=False, page="1")
+    assert eval (familiar_names() == [] and not renpy.showing("barkley")) timeout 4.0
+    run FileLoad(9, confirm=False, page="1")
+    assert eval (len(familiar_names()) == 3) timeout 4.0
     advance until eval (_history_list[-1].what == "Here, Cali.")
     assert eval (scene_key == "garden" and renpy.showing("bg garden_close") and renpy.showing("calista young"))
+    assert eval (len(familiar_names()) == 3 and not any(renpy.showing(tag) for tag in ("shadow", "barkley", "nibble")))
     screenshot "garden"
+    click "People"
+    assert eval (people_names() == ["Cali", "Maia"] and "patient, practical care" in _test_screen_text("people"))
+    screenshot "people-maia"
+    click "Return"
     run FileSave(1, confirm=False, page="1")
     assert eval (renpy.slot_json("1-1").get("book_id") == BOOK_SAVE_ID)
     advance
@@ -73,21 +105,41 @@ testcase chapter_playthrough:
     advance until eval (scene_key == "workshop_first" and renpy.showing("arin everyday"))
     assert eval (renpy.showing("bg workshop") and renpy.showing("calista home"))
     screenshot "workshop"
-    advance until eval (renpy.music.get_playing(channel="sound") == "audio/flute_first.wav")
+    advance until eval (renpy.music.get_playing(channel="sound") == "audio/flute_attempt.wav")
     assert eval (scene_key == "music_first" and renpy.showing("bg music_room") and not renpy.showing("calista"))
     screenshot "first-melody"
+    advance until eval (_history_list[-1].what == "That wasn't it.")
+    assert eval (dialogue_portrait("Cali") == "calista home" and renpy.get_widget("say", "speaker_portrait") is not None)
+    assert eval (renpy.music.get_playing(channel="sound") != "audio/flute_first.wav")
+    screenshot "flute-dialogue-portrait"
+    run FileSave(2, confirm=False, page="1")
+    advance
+    run FileLoad(2, confirm=False, page="1")
+    assert eval (_history_list[-1].what == "That wasn't it." and renpy.get_widget("say", "speaker_portrait") is not None) timeout 4.0
+    click "People"
+    assert eval (people_names() == ["Cali", "Maia", "Kael", "Arin", "Selene"])
+    screenshot "people-selene"
+    click "Return"
+    advance until eval (renpy.music.get_playing(channel="sound") == "audio/flute_first.wav")
+    assert eval (_history_list[-1].what.startswith("We went a few notes at a time."))
+    screenshot "first-flute-phrase"
     advance until eval (scene_key == "dorian_stories" and renpy.showing("dorian everyday"))
     assert eval (renpy.showing("bg library"))
     screenshot "library"
     advance until eval (scene_key == "sage_story")
     assert eval (renpy.showing("bg sage_room") and not lumen_known)
     screenshot "sage-story"
+    advance until eval (_history_list[-1].what == "I'll choose this time. There are three siblings in it.")
+    assert eval (not renpy.showing("sage") and renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "sage-speaking"
     advance until eval (renpy.music.get_playing(channel="sound") == "audio/flute_practice.wav")
     assert eval (scene_key == "family_rhythm" and renpy.showing("bg music_room"))
     advance until eval (scene_key == "tree_echoes")
     assert eval (not lumen_known and renpy.showing("bg echoes"))
     advance until eval (lumen_known)
     click "People"
+    assert eval (len(people_names()) == 8 and "Sage" in people_names() and "Lyra" in people_names())
+    click "Lumen"
     assert eval ("living Astravus" in _test_screen_text("people"))
     screenshot "people-after-reveal"
     click "Return"
@@ -95,16 +147,42 @@ testcase chapter_playthrough:
     advance until eval (scene_key == "pond_scare")
     assert eval (not renpy.showing("calista") and not renpy.showing("lyra"))
     screenshot "pond"
+    advance until eval (_history_list[-1].what == "I can't swim!")
+    assert eval (dialogue_portrait("Lyra") == "lyra young" and renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "pond-speaking"
     advance until eval (scene_key == "soup_experiment")
     assert eval (renpy.showing("bg family_home"))
+    advance until eval (_history_list[-1].what == "Did someone add something?")
+    assert eval (renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "soup-speaking"
     advance until eval (renpy.showing("calista festival"))
     assert eval (scene_key == "festival_lights" and renpy.showing("bg festival"))
     screenshot "festival"
+    advance until eval (_history_list[-1].who == "Cassia")
+    click "People"
+    assert eval (not met_cassia and "Cassia" in people_names() and "Thalia" not in people_names())
+    screenshot "people-first-cassia-line"
+    click "Return"
+    run FileSave(3, confirm=False, page="1")
+    run Rollback(force=True)
+    assert eval ("Cassia" not in people_names()) timeout 4.0
+    run FileLoad(1, confirm=False, page="1")
+    assert eval (people_names() == ["Cali", "Maia"]) timeout 4.0
+    run FileLoad(3, confirm=False, page="1")
+    assert eval ("Cassia" in people_names() and not met_cassia) timeout 4.0
     advance until eval (met_cassia)
     assert eval (scene_key == "meeting_cassia" and renpy.showing("bg community_courtyard") and renpy.showing("cassia young"))
+    advance until eval (_history_list[-1].who == "Thalia")
+    assert eval ("Thalia" in people_names() and "Lyron" not in people_names())
+    advance until eval (_history_list[-1].who == "Lyron")
+    click "People"
+    assert eval ("Lyron" in people_names() and "agricultural systems" in _test_screen_text("people"))
+    screenshot "people-lyron"
+    click "Return"
     advance until eval (met_joren)
     assert eval (scene_key == "meeting_joren" and renpy.showing("bg construction_path") and renpy.showing("joren young"))
     click "People"
+    click "Joren"
     assert eval ("Joren" in _test_screen_text("people") and "His death" not in _test_screen_text("people"))
     screenshot "people-friends"
     click "Return"
@@ -120,6 +198,9 @@ testcase chapter_playthrough:
     assert eval (renpy.music.get_playing(channel="ambience") == "audio/garden_air.ogg") timeout 4.0
     advance until eval (scene_key == "rain_refuge" and renpy.showing("bg treehouse_rain"))
     assert eval (renpy.music.get_playing(channel="ambience") == "audio/rain.ogg") timeout 4.0
+    advance until eval (_history_list[-1].what == "Imagine a world where the trees could talk.")
+    assert eval (dialogue_portrait("Cassia") == "cassia young" and renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "rain-speaking"
     advance until eval (scene_key == "waterwheel" and renpy.showing("calista older"))
     assert eval (childhood_stage == "later" and renpy.showing("joren older"))
     screenshot "older-children"
@@ -130,27 +211,40 @@ testcase chapter_playthrough:
     assert eval (scene_key == "waterwheel")
     screenshot "waterwheel"
     advance until eval (scene_key == "outer_exploration" and renpy.showing("bg construction_room"))
-    assert eval (not joren_lost)
+    assert eval (not joren_lost and all(renpy.showing(tag) for tag in ("shadow", "barkley", "nibble")))
     screenshot "construction-room"
     advance until eval (scene_key == "dome_ascent" and renpy.showing("bg dome"))
     assert eval (not joren_lost)
     screenshot "dome"
+    advance until eval (_history_list[-1].what == "It's like we're on top of the world.")
+    assert eval (dialogue_portrait("Cassia") == "cassia older" and renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "dome-speaking"
     advance until eval (scene_key == "treehouse_dispute" and renpy.showing("calista frustrated"))
     assert eval (renpy.showing("joren frustrated"))
     screenshot "disagreement"
+    advance until eval (_history_list[-1].what.startswith("I moved the map away from Shadow's paws."))
+    assert eval (all(renpy.showing(tag) for tag in ("shadow", "barkley", "nibble")))
+    screenshot "familiars-disagreement"
     advance until eval (joren_lost)
     assert eval (scene_key == "loss" and not renpy.showing("joren"))
+    assert eval (not any(renpy.showing(tag) for tag in ("shadow", "barkley", "nibble")))
+    assert eval (dialogue_portrait("Joren") is None and dialogue_portrait("Calista · remembering") is None)
     screenshot "the-news"
     advance until eval (scene_key == "family_grief" and renpy.showing("calista mourning"))
     assert eval (not renpy.showing("joren") and renpy.music.get_playing() == "audio/grief_theme.ogg") timeout 4.0
     screenshot "family-grief"
     click "People"
+    click "Joren"
     assert eval ("His death" in _test_screen_text("people"))
     screenshot "people-remembrance"
     click "Return"
     advance until eval (scene_key == "painting_grief" and renpy.showing("calista painting"))
     assert eval (not renpy.showing("joren"))
     screenshot "painting"
+    advance until eval (_history_list[-1].what == "That's his side of the map. He wanted the path to go there.")
+    assert eval (all(renpy.showing(tag) for tag in ("shadow", "barkley", "nibble")) and not renpy.showing("calista"))
+    assert eval (renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "familiars-painting"
     advance until eval (scene_key == "cassia_grief" and renpy.showing("cassia mourning"))
     assert eval (not renpy.showing("joren"))
     screenshot "cassia-grief"
@@ -188,5 +282,7 @@ testcase chapter_playthrough:
     click "Enter the memory"
     assert eval (visited_scenes == ["first_memory"] and not lumen_known and not joren_lost and childhood_stage == "early") timeout 4.0
     click "People"
+    assert eval (people_names() == ["Cali"] and familiar_names() == [])
+    click "Lumen"
     assert eval ("living Astravus" not in _test_screen_text("people") and "Joren" not in _test_screen_text("people"))
     exit

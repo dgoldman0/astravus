@@ -84,7 +84,7 @@ screen main_menu():
         ypos 932
         spacing 12
         text "BOOK I   /   SEEDS OF YOUTH" style "eyebrow_text"
-        text "The complete first book · A kinetic novel · About an hour" style "small_text" size 20
+        text "The complete first book · A kinetic novel · About an hour · Preview [config.version]" style "small_text" size 20
     text "01" xpos 1780 ypos 936 font "fonts/Story-Serif.ttf" size 64 color "#e6cf9b"
 
 style title_button:
@@ -104,6 +104,14 @@ screen say(who, what):
     add "ui/dialogue-shade.svg" yalign 1.0
     if persistent.high_contrast:
         add Solid("#061719", xsize=1920, ysize=300) pos (0, 780) anchor (0, 0)
+    $ portrait_name = dialogue_portrait(who)
+    if portrait_name:
+        frame:
+            pos (27, 795)
+            xysize (184, 194)
+            padding (3, 8)
+            background Solid("#173332e8")
+            add SPEAKER_PORTRAITS[portrait_name] id "speaker_portrait"
     window:
         id "window"
         background None
@@ -322,38 +330,66 @@ screen history():
 
 screen people():
     tag menu
-    use book_menu("A constellation of people"):
-        viewport:
-            scrollbars "vertical"
-            mousewheel True
-            draggable True
-            vbox:
-                spacing 25
-                text "The people you have met" style "eyebrow_text"
-                text "Cali / Calista" color "#d9bf8e" size 31
-                text "A curious child who sees the world through color and drawing. Her older self is remembering these scenes." xmaximum 1220
-                text "Her five parents" color "#d9bf8e" size 31
-                text "Maia tends living ecosystems. Arin designs biomechanical interfaces. Selene works with sound. Dorian keeps oral histories. Sage helps people through transitions. Together they raise Cali, her older brother Kael, and her younger sister Lyra." xmaximum 1220 line_spacing 6
-                if met_cassia:
-                    text "Cassia" color "#d9bf8e" size 31
-                    if joren_lost:
-                        text "Cali's closest friend, a storyteller. They are learning how to remember Joren together." xmaximum 1220
+    default selected_person = None
+    $ known_people = people_names()
+    $ known_familiars = familiar_names()
+    $ people_label = "person" if len(known_people) == 1 else "people"
+    $ default_person = "Shadow" if known_familiars and _history_list and _history_list[-1].what == FAMILIAR_INTRODUCTION else known_people[-1]
+    $ person = selected_person if selected_person in known_people + known_familiars + ["Lumen"] else default_person
+    use book_menu("People, familiars and places"):
+        vbox:
+            spacing 24
+            text "[len(known_people)] [people_label] · [len(known_familiars)] familiars · Entries appear as you meet them" style "small_text"
+            hbox:
+                spacing 55
+                viewport:
+                    xsize 340
+                    ysize 710
+                    scrollbars "vertical"
+                    mousewheel True
+                    draggable True
+                    vbox:
+                        spacing 4
+                        for name in known_people + ["Lumen"]:
+                            textbutton name:
+                                action SetScreenVariable("selected_person", name)
+                                selected name == person
+                                xsize 310
+                                ysize 43
+                                padding (15, 5)
+                                text_size 26
+                                background Solid("#c2ae850b")
+                                hover_background Solid("#c2ae8530")
+                                selected_background Solid("#c2ae8538")
+                vbox:
+                    xsize 910
+                    spacing 25
+                    if known_familiars:
+                        vbox:
+                            spacing 8
+                            text "FAMILIARS" style "eyebrow_text"
+                            hbox:
+                                spacing 14
+                                for name in known_familiars:
+                                    textbutton name:
+                                        action SetScreenVariable("selected_person", name)
+                                        selected name == person
+                                        xsize 230
+                                        background Solid("#c2ae8512")
+                                        hover_background Solid("#c2ae8530")
+                                        selected_background Solid("#c2ae8538")
+                    text ("Cali / Calista" if person == "Cali" else person) color "#d9bf8e" size 43
+                    if person in known_familiars:
+                        hbox:
+                            spacing 30
+                            add person.lower() id "familiar_portrait" xysize (320, 320) fit "contain"
+                            vbox:
+                                spacing 20
+                                xsize 550
+                                text FAMILIAR_PROFILES[person][0] style "small_text" color "#d9bf8e"
+                                text people_description(person) id "people_description" size 31 line_spacing 10 xmaximum 550
                     else:
-                        text "Cali's friend: a storyteller who always has room for one more idea." xmaximum 1220
-                if "cassia_home" in visited_scenes:
-                    text "Thalia and Lyron" color "#d9bf8e" size 31
-                    text "Cassia's parents. Thalia helps people resolve disagreements; Lyron tends agricultural systems and shares a friendship with Dorian." xmaximum 1220 line_spacing 6
-                if met_joren:
-                    text "Joren" color "#d9bf8e" size 31
-                    text people_joren_description() xmaximum 1220
-                if "joren_home" in visited_scenes:
-                    text "Soren" color "#d9bf8e" size 31
-                    text "Joren's mother, a systems designer whose workshop is full of tools, plans and unfinished inventions." xmaximum 1220
-                if "kaleb_walk" in visited_scenes:
-                    text "Kaleb" color "#d9bf8e" size 31
-                    text "Joren's father, an explorer who shares his discoveries and the stories of his journeys." xmaximum 1220
-                text "Lumen" color "#d9bf8e" size 31
-                text people_lumen_description() xmaximum 1220 line_spacing 6
+                        text people_description(person) id "people_description" size 31 line_spacing 10 xmaximum 900
 
 screen help():
     tag menu
@@ -381,7 +417,8 @@ screen about():
                 text "Story, world, and original visual references\nThe Astravus Collection" line_spacing 7
                 text "Adaptation, interface, and implementation\nDeveloped with Codex" line_spacing 7
                 text "Illustrations\nGenerated with OpenAI image generation using the collection's visual references, with editorial review." xmaximum 1200 line_spacing 7
-                text "Sound\nOriginal synthesized score, environmental sound and musical lesson cues created for this adaptation. No downloaded recordings or sample libraries." xmaximum 1200 line_spacing 7
+                text "Sound\nOriginal music, performed with CC0 instrument recordings from Versilian Studios' VSCO 2 Community Edition. Cali's first flute lesson retains its deliberately hesitant performance." xmaximum 1200 line_spacing 7
+                text "Environmental recordings · CC0\nRain: Ylmir · Water: Independent.nu and ezwa\nWood: Department64, edited by AntumDeluge\nSource links and details are included in the audio credits." xmaximum 1200 line_spacing 7
                 text "Typography\nLato by Łukasz Dziedzic · DejaVu Serif by the DejaVu project\nFont licenses are included with the game." line_spacing 7
                 text "Built with Ren'Py [renpy.version_only]. Engine license information is included in the distribution." xmaximum 1200
                 textbutton "Ren'Py licenses" action OpenURL("https://www.renpy.org/doc/html/license.html")

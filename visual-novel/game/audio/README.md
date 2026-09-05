@@ -1,11 +1,34 @@
 # Audio sources and delivery
 
-All music and effects are original procedural synthesis created for Astravus's Book I preview with `scripts/make_audio.py`. There are no downloaded recordings, commercial samples, sampled voices, Suno tracks, or borrowed melodies.
+Astravus's melodies and arrangements are original to this adaptation. The music
+is rendered with recorded harp, soft upright piano, cello/viola ensembles, and
+flute from **VSCO 2 Community Edition**, published under **CC0 1.0** by Versilian
+Studios and its contributors: https://versilian-studios.com/vsco-community/
 
-The runtime contains eight music cues and five environmental loops as **24 kHz stereo Ogg Vorbis**, plus five short **24 kHz, 16-bit stereo WAV** effects. First Light's original motif is retained; distinct arrangements support family life, discovery, wonder, celebration, refuge, grief, and remembrance. Separate tentative and practiced flute phrases support the music lessons. There is no voice acting.
+The environmental sound uses these **CC0** recordings, edited and mixed locally:
 
-The reproducible renderer uses NumPy, SciPy, and SoundFile. Gameplay requires none of those Python packages. Long WAV masters, the encoder, and the original draft First Light are retained only in the ignored `.cache/` directory; selected runtime files and the renderer belong in version control. The compressed runtime set is approximately 11 MiB.
+| Source | Author / editor | Use |
+| --- | --- | --- |
+| [Rain (loopable)](https://opengameart.org/content/rain-loopable) | Ylmir | Treehouse rain |
+| [Dripping water loop](https://opengameart.org/content/dripping-water-loop) | Independent.nu; submitted by qubodup | Garden water and quiet indoor fountain |
+| [Tree Creaking](https://opengameart.org/content/tree-creaking) | Department64; edited by AntumDeluge | Tree of Echoes, wooden contacts, subdued workshop/gathering textures |
+| [6 Short water splashes](https://opengameart.org/content/6-short-water-splashes) | ezwa; submitted by qubodup | Pond splash |
 
-Rendering used SoundFile 0.13.1, libsndfile 1.2.2, and Vorbis `compression_level=0.15` (quality 0.85). Ogg serial numbers and page checksums are normalized for reproducible files without altering the compressed audio packets.
+CC0 public-domain dedication: https://creativecommons.org/publicdomain/zero/1.0/
+These source credits are retained voluntarily. This notice does not relicense
+the author's story or the original musical compositions.
 
-See `docs/AUDIO_DIRECTION.md` in the source repository for the full cue sheet, dependencies, regeneration commands, and measurements. `scripts/audio_check.py` checks decoded Ogg/WAV content, clipping, DC, stereo, duration, loop boundaries, and master comparisons. These are numerical checks; in-game listening remains necessary to assess musical quality and scene balance. No subjective listening review is claimed by this provenance notice.
+Music and ambience are 48 kHz stereo Ogg Vorbis. Short effects are 16-bit stereo
+WAV: 48 kHz except the two tentative flute cues at 24 kHz. **flute_attempt.wav**
+is one short breath that briefly catches a note, then breaks. The original
+**flute_first.wav** remains byte-for-byte intact and plays later in that lesson,
+when Cali tries several notes. The later practiced phrase uses sampled flute
+while retaining its original notes and timing. The festival's quiet rhythmic pulse and underlying room air remain
+original synthesis. No voice acting or generated speech is included.
+
+The game requires no sample player or additional software. Source recordings
+and 24-bit music masters remain in the developer's cache.
+The repository's `docs/audio-sources.json` pins all downloaded source files by
+SHA-256, including the VSCO commit and license. `scripts/make_audio.py` and
+`scripts/sample_audio.py` reproduce the mix; `scripts/audio_check.py` checks the
+decoded delivery files. Numerical checks do not replace listening in context.

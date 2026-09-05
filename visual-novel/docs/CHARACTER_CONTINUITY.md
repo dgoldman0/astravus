@@ -37,7 +37,56 @@ New parent sprites use the approved First Memory composition as the identity ref
 
 - Keep faces, skin tone, eye color, and recognizable hair identity stable across wardrobe and emotion variants.
 - Distinguish an age change from a wardrobe change. Scaling a young sprite taller alone does not establish aging.
-- A standing sprite cannot depict a character sitting in someone's lap, playing an absent instrument, climbing, or embracing another character. Hide it or use a scene illustration for those actions.
+- A standing sprite cannot depict a character sitting in someone's lap, playing an absent instrument, climbing, or embracing another character. During those actions, the dialogue UI shows a cropped face/shoulder portrait when the speaker's standing sprite is hidden. The crop excludes hands, props, and the lower-body pose. It uses existing character artwork and follows the current childhood stage, outfit, and grief state. Narration and First Memory keep their existing presentation.
 - Use restrained grief expressions; a brighter memory may briefly recall Joren, but never imply he is physically present after his death.
 - Validate edges against both dark treehouse and brighter garden backgrounds. The generator returned RGB art with a baked transparency preview despite alpha requests. Selected new actors therefore use generated saturated-green backgrounds, removed once by the runtime `astravus.chroma_green` shader. This preserves Selene's white hair and pale highlights that the older light-matte shader could remove. The manifest records actual file modes; runtime compositing must not be described as authored alpha. Call sites apply positioning only, without the legacy `clean_sprite` transform.
 - Full prompts, input relationships, output identifiers, dimensions, and hashes live in [`character-assets.json`](character-assets.json). Selected PNGs remain unmodified generated artwork; discarded candidates belong in ignored staging.
+
+## Dialogue visibility in 0.2.1
+
+`speaker_portraits.rpy` supplies portraits for the ten main speakers whenever their
+standing image is absent. This covers the workshop accident, music lessons,
+Sage's story, tree listening, pond rescue, soup, rain, dome, embraces, and later
+remembrance. It also identifies an offscreen main speaker during group scenes.
+No live Joren portrait is shown after his death. Lookup reads current save state
+without mutating it, so rollback and load select the appropriate age again.
+
+Thalia, Lyron, Soren, and Kaleb still have no dedicated character artwork. Their
+conversations retain the children they address; Kaleb's memorial speech now shows
+Cali and Cassia listening. The browser playthrough checks every spoken line for
+at least one visible actor or dialogue portrait. Portraits reuse the existing
+expressions; a scene-specific performance illustration is a separate art pass.
+
+## Familiars in 0.2.3
+
+Shadow, Barkley, and Nibble have individual artwork, guide profiles, and scene
+appearances during the home introduction, daily routine, Tree of Echoes,
+waterwheel, construction exploration, treehouse disagreement, and painting.
+Their non-speaking introductions come from narration. The guide reads the
+current history and completed scenes, including compatible earlier saves;
+rollback and a fresh reading remove entries before that introduction.
+
+The manuscript and [familiar notes](../../wiki/worldbuilding/Familiars.md)
+establish Shadow as a black, green-eyed cat, Barkley as a golden retriever, and
+Nibble as a rat. Shadow's ear notch and crooked tail tip follow her biography;
+no new origin story is attached to them. Nibble follows the author's supplied
+visual reference: fluffy black-and-white fur, a tousled white blaze, large pink
+ears, and expressive mismatched eyes (violet on the viewer's left, coral on the
+right). Her fuller coat and curious tilted face are intentional. Keep her
+visibly smaller than the cat, and the cat smaller than the dog. No later-life
+integrations or eventual bonds are introduced in these childhood profiles. Familiars belong
+to the family/household; the adults' partnership is the constellation.
+
+The seated poses show quiet presence between actions. They do not animate
+running, climbing, or the pond rescue. Background changes clear their sprites,
+so a companion is never carried automatically into a different scene. The
+painting scene switches to Cali's dialogue portrait after the description of
+Barkley settling against her, instead of leaving her standing with a palette.
+
+The same three selected PNGs supply scene sprites and larger guide images.
+Earlier transparency attempts returned baked checkerboard backgrounds.
+Barkley and Nibble use the existing green-matte shader;
+Shadow uses its blue-matte counterpart to preserve her green eyes. Her tail was
+also corrected to a single slender tail with a crooked tip. Full prompts, output
+identifiers, selection history, and hashes are in
+[familiar-assets.json](familiar-assets.json).

@@ -34,6 +34,13 @@ STATE = '''dict(
     music=renpy.music.get_playing(), ambience=renpy.music.get_playing(channel="ambience"),
     sound=renpy.music.get_playing(channel="sound"),
     text=(_history_list[-1].what if _history_list else ""),
+    speaker=(_history_list[-1].who if _history_list else None),
+    portrait=(dialogue_portrait(_history_list[-1].who) if _history_list else None),
+    portrait_visible=bool(renpy.get_widget("say", "speaker_portrait")),
+    visible_actors=[tag for tag in set(SPEAKER_TAGS.values()) if renpy.showing(tag)],
+    people=people_names(),
+    familiars=familiar_names(),
+    visible_familiars=[name for name in FAMILIAR_PROFILES if renpy.showing(name.lower())],
     complete=persistent.book_one_complete)'''
 
 
@@ -83,10 +90,14 @@ async def check(url):
         await page.wait_for_function('typeof window.renpy_get === "function"', timeout=90000)
 
         async def value(expression):
-            return await asyncio.wait_for(page.evaluate("expression => window.renpy_get(expression)", expression), 45)
+            # The SDK bridge uses btoa, then decodes as UTF-8. Send ASCII Python
+            # source so dialogue and date labels with Unicode survive the trip.
+            wrapped = f"eval({ascii(expression)})"
+            return await asyncio.wait_for(page.evaluate("expression => window.renpy_get(expression)", wrapped), 45)
 
         async def execute(code):
-            return await asyncio.wait_for(page.evaluate("code => window.renpy_exec(code)", code), 45)
+            wrapped = f"exec({ascii(code)})"
+            return await asyncio.wait_for(page.evaluate("code => window.renpy_exec(code)", wrapped), 45)
 
         async def until(expression, seconds=30):
             async with asyncio.timeout(seconds):
@@ -101,7 +112,7 @@ async def check(url):
             assert await value(f'bool(renpy.get_screen({screen!r}))')
             code = f'''result = []
 for focus in renpy.display.focus.focus_list:
-    if focus.widget is None or focus.x is None:
+    if not isinstance(focus.widget, renpy.display.behavior.Button) or focus.x is None:
         continue
     texts = []
     focus.widget.visit_all(lambda item, out=texts: out.append(item.get_all_text()) if isinstance(item, renpy.text.text.Text) else None)
@@ -126,6 +137,8 @@ for focus in renpy.display.focus.focus_list:
         assert initial["cg"] == "first_memory" and initial["calista"] is None, initial
         assert not initial["known"] and not initial["lost"]
         assert initial["visited"] == ["first_memory"]
+        assert initial["people"] == ["Cali"]
+        assert initial["familiars"] == [] and initial["visible_familiars"] == []
         await page.screenshot(path=str(OUT / "browser-first-memory.png"))
         await execute("preferences.text_cps = 0\npersistent.reduced_motion = True")
         captured = {"first_memory"}
@@ -137,6 +150,19 @@ for focus in renpy.display.focus.focus_list:
         after_echo_reveal = False
         loss_seen = False
         manual_save_checked = False
+        portrait_scenes = set()
+        people_checked = {"Cali"}
+        familiars_checked = False
+        familiar_scenes = set()
+        flute_events = []
+        people_fragments = {
+            "Maia": "patient, practical care", "Kael": "older brother",
+            "Arin": "biomechanical interfaces", "Selene": "listen, breathe",
+            "Dorian": "oral histories", "Lyra": "younger sister",
+            "Sage": "through transitions", "Cassia": "storyteller",
+            "Thalia": "resolve disagreements", "Lyron": "agricultural systems",
+            "Joren": "eager explorer", "Soren": "systems designer", "Kaleb": "explorer",
+        }
         expected_backgrounds = {
             "garden": "garden_close", "plant_disagreement": "garden_close",
             "workshop_first": "workshop", "music_first": "music_room",
@@ -182,8 +208,52 @@ for focus in renpy.display.focus.focus_list:
             if state["lost"]:
                 loss_seen = True
                 assert state["joren"] is None, state
+                assert not (state["portrait"] or "").startswith("joren "), state
+            if state["say"] and state["portrait"]:
+                assert state["portrait_visible"], state
+                if key not in portrait_scenes:
+                    await page.screenshot(path=str(OUT / f"browser-portrait-{key}.png"))
+                portrait_scenes.add(key)
+            if state["say"] and state["speaker"] not in (None, "Calista · remembering"):
+                assert state["visible_actors"] or state["portrait_visible"], ("Dialogue with no visible character", state)
             if state["number"] >= 20:
                 assert state["stage"] == "later", state
+            if state["say"] and state["speaker"] in people_fragments and state["speaker"] not in people_checked:
+                speaker = state["speaker"]
+                assert speaker in state["people"], ("Current speaker missing from People", state)
+                await click_button("quick_menu", "People")
+                await until('bool(renpy.get_screen("people"))')
+                await click_button("people", speaker)
+                displayed = await value('renpy.get_widget("people", "people_description").get_all_text()')
+                assert people_fragments[speaker] in displayed, (speaker, displayed)
+                await page.screenshot(path=str(OUT / f"browser-people-{speaker.lower()}.png"))
+                await click_button("people", "Return")
+                await until('bool(renpy.get_screen("say")) and not renpy.context()._menu')
+                people_checked.add(speaker)
+            assert set(state["people"]) == people_checked, ("People unlocked out of encounter order", state, people_checked)
+            if state["visible_familiars"]:
+                if key not in familiar_scenes:
+                    await page.screenshot(path=str(OUT / f"browser-familiars-{key}.png"))
+                familiar_scenes.add(key)
+            if state["text"].startswith("Shadow watched from the sofa.") and not familiars_checked:
+                assert state["familiars"] == ["Shadow", "Barkley", "Nibble"], state
+                assert state["visible_familiars"] == state["familiars"], state
+                await click_button("quick_menu", "People")
+                await until('bool(renpy.get_screen("people"))')
+                for name, fragment in (("Shadow", "green eyes"), ("Barkley", "golden retriever"), ("Nibble", "little rat")):
+                    await click_button("people", name)
+                    displayed = await value('renpy.get_widget("people", "people_description").get_all_text()')
+                    assert fragment in displayed and await value('bool(renpy.get_widget("people", "familiar_portrait"))'), (name, displayed)
+                    await page.screenshot(path=str(OUT / f"browser-people-{name.lower()}.png"))
+                await click_button("people", "Return")
+                await until('bool(renpy.get_screen("say")) and not renpy.context()._menu')
+                familiars_checked = True
+            assert state["familiars"] == (["Shadow", "Barkley", "Nibble"] if familiars_checked else []), state
+            if state["sound"] in ("audio/flute_attempt.wav", "audio/flute_first.wav", "audio/flute_practice.wav"):
+                if not flute_events or flute_events[-1] != state["sound"]:
+                    flute_events.append(state["sound"])
+            if state["text"] == "There was a note in there. I heard it.":
+                assert flute_events == ["audio/flute_attempt.wav"], flute_events
             first_flute |= state["sound"] == "audio/flute_first.wav"
             practiced_flute |= state["sound"] == "audio/flute_practice.wav"
             if key == "waterwheel" and state["cassia"] == "older":
@@ -220,6 +290,11 @@ for focus in renpy.display.focus.focus_list:
                 actor = actor_requirements.get(key)
                 if (desired_bg is None or state["bg"] == desired_bg) and (actor is None or state[actor[0]] == actor[1]):
                     if key in ("rain_refuge", "treehouse_remembrance"):
+                        # The previous ambience keeps playing during its fadeout.
+                        # Let the scheduled rain begin before judging the scene.
+                        if state["ambience"] != "audio/rain.ogg":
+                            await until('renpy.music.get_playing(channel="ambience") == "audio/rain.ogg"', seconds=10)
+                            state = await value(STATE)
                         assert state["ambience"] == "audio/rain.ogg", state
                     if key == "rain_refuge":
                         assert state["joren"] is None and state["cassia"] is None, state
@@ -240,6 +315,10 @@ for focus in renpy.display.focus.focus_list:
         assert observed == list(SCENES), observed
         assert set(SCENES) <= captured, set(SCENES) - captured
         assert all((first_flute, practiced_flute, cassia_aged, before_echo_reveal, after_echo_reveal, loss_seen, manual_save_checked))
+        assert {"music_first", "sage_story", "pond_scare", "soup_experiment", "rain_refuge", "dome_ascent", "treehouse_remembrance"} <= portrait_scenes, portrait_scenes
+        assert people_checked == {"Cali", *people_fragments}, people_checked
+        assert familiars_checked and {"first_memory", "family_rhythm", "tree_echoes", "waterwheel", "outer_exploration", "treehouse_dispute", "painting_grief"} <= familiar_scenes, familiar_scenes
+        assert flute_events == ["audio/flute_attempt.wav", "audio/flute_first.wav", "audio/flute_practice.wav"], flute_events
         await page.screenshot(path=str(OUT / "browser-end.png"))
         # End menus, persistence and Continue must remain usable after reload.
         await click_button("chapter_end", "Credits")
@@ -256,7 +335,9 @@ for focus in renpy.display.focus.focus_list:
         resumed = await value(STATE)
         assert resumed["scene"] == "annual_remembrance" and resumed["visited"] == list(SCENES)
         assert not errors, errors
-        print(f"Browser {expected_version} passed all 32 scenes: save/load, ordered reveals, age/clothing, rain, grief, complete ending, Credits, reload and Continue; no engine/page errors.", flush=True)
+        assert set(resumed["people"]) == people_checked, resumed
+        assert resumed["familiars"] == ["Shadow", "Barkley", "Nibble"], resumed
+        print(f"Browser {expected_version} passed all 32 scenes: all 14 People entries and 3 illustrated familiars, familiar staging in 7 scenes, three flute cues in story order, save/load, ordered reveals, age/clothing, rain, grief, complete ending, Credits, reload and Continue; no engine/page errors.", flush=True)
         await browser.close()
 
         # Match the original embedded-preview failure: no WebGL and no input.

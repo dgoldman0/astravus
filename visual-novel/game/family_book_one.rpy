@@ -135,8 +135,9 @@ label family_music_first:
     with mood_transition()
     n "She made room beside her at the piano and laid a small flute across my hands. Its surface caught the light when I turned it."
     n "She showed me where to put my fingers. I took a breath large enough for a whole song."
-    play sound "audio/flute_first.wav"
+    play sound "audio/flute_attempt.wav"
     n "The first sound trembled, thinned, and broke. I lowered the flute."
+    stop sound fadeout 0.08
     c "That wasn't it."
     selene "There was a note in there. I heard it."
     c "Only at the start."
@@ -147,6 +148,7 @@ label family_music_first:
     n "Her hand moved gently with the rhythm of my breathing. When I stopped, she waited for me to be ready."
     c "How do I know which one comes next?"
     selene "I'll sing it first. Then you can answer."
+    play sound "audio/flute_first.wav"
     n "We went a few notes at a time. Sometimes I lost one and had to begin again; sometimes her voice met mine in the middle."
     selene "Do you hear that color?"
     c "A color?"
@@ -266,6 +268,9 @@ label family_daily_rhythm:
     play ambience "audio/room_air.ogg" fadeout 1.0 fadein 1.0
     n "There were mornings with nothing particular to remember. Bread cooling. Fruit from Maia's garden. Shadow stretching at the foot of my bed."
     n "Barkley waited outside my door. Nibble was already stirring in her cage. Before I reached the table, I could hear Kael explaining his dream."
+    show shadow at shadow_home
+    show barkley at barkley_home
+    show nibble at nibble_home
     show kael young at at_left
     show lyra young at at_right
     with mood_transition()
@@ -311,6 +316,9 @@ label family_daily_rhythm:
     c "You're too fast."
     lyra "You're too slow."
     selene "Together, this time. Listen for each other."
+    show shadow at familiar_at(1260, 770, 220)
+    show nibble at familiar_at(910, 735, 90)
+    with mood_transition()
     n "Shadow's ears twitched from her place in the corner. Nibble scurried past, indifferent to our attempts to keep time."
     stop sound fadeout 1.0
     play music "audio/home_theme.ogg" fadein 2.0
@@ -351,6 +359,9 @@ label family_tree_echoes:
     n "One clear afternoon, we followed a path we hadn't taken before. Kael pushed ahead through the thicket; Lyra and I tried to keep sight of him."
     kael "Come on! There's something here."
     n "Barkley bounded into the clearing first. Shadow slipped between the roots behind us. At the center stood a tree much older than the paths around it."
+    show shadow at shadow_path
+    show barkley at barkley_path
+    with mood_transition()
     lyra "Look at the trunk."
     n "It was hollow, the wood folded into deep ridges. I ran my fingers along one without going inside."
     show calista home at at_left

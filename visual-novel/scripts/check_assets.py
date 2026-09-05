@@ -10,7 +10,7 @@ from PIL import Image
 
 PROJECT = Path(__file__).resolve().parents[1]
 REPOSITORY = PROJECT.parent
-MANIFESTS = ("assets.json", "character-assets.json", "environment-assets.json")
+MANIFESTS = ("assets.json", "character-assets.json", "environment-assets.json", "familiar-assets.json")
 
 
 def check():

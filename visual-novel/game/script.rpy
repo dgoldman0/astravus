@@ -33,8 +33,12 @@ label chapter_one:
     scene bg family_home
     with mood_transition()
     n "The home I grew to know gathered around a round wooden table. There were books on the seats, drawings on the walls, and always something left unfinished." id opening_home_001
+    show shadow at shadow_home
+    show barkley at barkley_home
+    show nibble at nibble_home
+    with mood_transition()
     n "Shadow watched from the sofa. Barkley came to meet us at the door. Nibble's tiny feet tickled when she ran across my hand." id opening_home_002
-    n "We called a family like ours a constellation. With Lyra's arrival, ours became five adults raising three children." id opening_010
+    n "My parents' partnership was called a constellation. With Lyra's arrival, the five of them were raising three children." id opening_010
     n "Arin's workshop hummed. Selene's music found its way under every door. Dorian could turn a question about breakfast into the history of an entire world." id opening_011
     n "Sage made sure everyone had their say. My older brother Kael usually had a plan; my younger sister Lyra usually had questions about it." id opening_012
     scene bg garden_close

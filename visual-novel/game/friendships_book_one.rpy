@@ -138,6 +138,10 @@ label book_one_later:
     j "It's working. Cali, look."
     c "I am looking."
     n "Shadow watched from the stones. Barkley's bark startled Nibble off her perch, and Cassia caught the box of spare pieces before it tipped."
+    show shadow at shadow_path
+    show barkley at barkley_path
+    show nibble at nibble_path
+    with mood_transition()
     a "Let's leave it alone for a minute."
     n "For a while we did. We watched something we'd made answer the moving water."
 
@@ -153,10 +157,17 @@ label book_one_later:
     lyra "Do you think there's something special? Is it far? Can we get back this way?"
     c "We'll remember the turnings. Stay with me."
     n "Machinery hummed beyond the passage. Shadow slipped ahead between the supports; Barkley and Nibble kept close."
+    show shadow at shadow_path
+    show barkley at barkley_path
+    show nibble at nibble_path
+    with mood_transition()
     j "In here. Look at all of this."
     hide calista
     hide joren
     scene bg construction_room
+    show shadow at shadow_path
+    show barkley at barkley_path
+    show nibble at nibble_path
     with mood_transition()
     n "In a room of tools and machines, Cassia found a small device. A touch brought a blueprint into the air. We gathered around its pale lines."
     a "That's the passage we came through."
@@ -247,6 +258,10 @@ label book_one_later:
     c "I was trying to."
     a "Then let him finish afterward."
     n "Shadow jumped onto the table between us. Barkley whined from the cushions; Nibble hurried around the edge of a box."
+    show shadow at familiar_at(1130, 795, 240)
+    show barkley at familiar_at(190, 795, 330)
+    show nibble at familiar_at(735, 805, 95)
+    with mood_transition()
     n "I moved the map away from Shadow's paws. Joren stopped pacing."
     j "You go first."
     c "I want to check the place by the roots. We left before I could see behind them."
@@ -313,6 +328,11 @@ label book_one_later:
     n "I painted the paths we had taken and the places we had invented. His hair never seemed to be the right color at first. I kept trying."
     r "There was something to do with my hands. A color to mix. A line to find again."
     n "Shadow sat nearby. Barkley rested his head against my lap, and I held the brush still until he'd settled. Nibble interrupted me often enough that sometimes I looked up."
+    hide calista
+    show shadow at shadow_home
+    show barkley at barkley_home
+    show nibble at nibble_home
+    with mood_transition()
     c "That's his side of the map. He wanted the path to go there."
     n "I said it to whoever was listening. Sometimes that was only Shadow."
     hide calista
@@ -351,6 +371,10 @@ label book_one_later:
     n "The central plaza filled with flowers and messages. I knew it as a place of lanterns and music. Now people stood together and spoke quietly."
     n "Soren's inventions were still around us, part of the workings of Lumen. I couldn't see them without thinking of the workshop, and Joren showing me what each thing was for."
     n "Kaleb spoke at one of the gatherings. I had heard him tell so many stories about going away and coming home."
+    # Kaleb has no authored portrait yet; keep the children he addresses visible.
+    show calista mourning at at_left
+    show cassia mourning at at_right
+    with mood_transition()
     kaleb "Joren wanted to see what was beyond the next turning. Most of you know that. Some of you had to go and fetch him."
     n "A few people smiled through their tears. Kaleb waited before going on."
     kaleb "He brought such life into a room. Such curiosity."

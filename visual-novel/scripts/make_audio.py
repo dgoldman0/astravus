@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Render Astravus's original Book I audio with NumPy, SciPy, and SoundFile.
+"""Render the original Book I score with CC0 instruments and field recordings.
 
-No recordings, samples, downloaded impulse responses, or audio-generation models.
-Each asset has its own seed. Looping mixes wrap notes and room tails across the
-boundary; use playback fades, rather than adding silence to every repetition.
+The deliberately hesitant flute cues use 24 kHz synthesis.
+Other assets use 48 kHz rendering. See docs/AUDIO_DIRECTION.md for provenance.
 """
 from __future__ import annotations
 import argparse
@@ -13,9 +12,10 @@ from pathlib import Path
 import sys
 import wave
 import numpy as np
+from scipy.ndimage import gaussian_filter1d, minimum_filter1d
 from scipy.signal import butter, sosfilt
 
-RATE = 24000
+RATE = 48000
 OUT = Path(__file__).resolve().parents[1] / "game" / "audio"
 MASTER_OUT = OUT.parents[1] / ".cache" / "audio-masters"
 # An optional project-local dependency install never enters the game package.
@@ -26,6 +26,9 @@ except ImportError as error:
     raise SystemExit("Audio rendering/checking requires SoundFile 0.13.1. See docs/AUDIO_DIRECTION.md.") from error
 VORBIS_COMPRESSION = .15  # libsndfile quality = .85; favour timbre over minimum size.
 TAU = 2 * np.pi
+from sample_audio import SampleBank, check_sources, fetch_sources, field_ambience, field_effect, studio_room
+
+BANK = SampleBank()
 
 
 def canonicalize_ogg(path):
@@ -64,9 +67,16 @@ def canonicalize_ogg(path):
 def encode_master(master):
     data, rate = sf.read(master, dtype="float64", always_2d=True)
     target = OUT / (master.stem + ".ogg")
-    sf.write(target, data, rate, format="OGG", subtype="VORBIS",
-             compression_level=VORBIS_COMPRESSION)
-    canonicalize_ogg(target)
+    temporary = target.with_suffix(".tmp.ogg")
+    # libsndfile's Vorbis writer can crash on a single large 48 kHz write.
+    # Bounded blocks also keep codec memory predictable. Publish only on success.
+    with sf.SoundFile(temporary, "w", samplerate=rate, channels=2,
+                      format="OGG", subtype="VORBIS",
+                      compression_level=VORBIS_COMPRESSION) as output:
+        for start in range(0, len(data), 8192):
+            output.write(data[start:start + 8192])
+    canonicalize_ogg(temporary)
+    temporary.replace(target)
     print(f"{target.name:25} {len(data) / rate:6.2f}s  Ogg Vorbis  {target.stat().st_size / 1024:7.1f} KiB", flush=True)
 
 
@@ -96,44 +106,6 @@ def band_noise(n, rng, low=150, high=4000):
                           output="sos"), rng.normal(size=n))
 
 
-def pluck(midi, seconds, rng, velocity=.7):
-    """Damped modes, faster upper-partial decay, and a quiet pick transient."""
-    t = np.arange(round(seconds * RATE)) / RATE
-    signal = np.zeros(len(t))
-    for k in range(1, 12):
-        frequency = hz(midi) * k * np.sqrt(1 + .000035 * k ** 2)
-        if frequency >= RATE * .44:
-            break
-        amplitude = (1 - .26 * np.cos(k * 1.73)) / k ** 1.5
-        signal += amplitude * np.sin(TAU * frequency * t) * np.exp(-t * (1 + .21 * k) / 1.6)
-    signal += .021 * band_noise(len(t), rng, 280, 3000) * np.exp(-t * 35)
-    return smooth_edges(signal * velocity, .014, .15)
-
-
-def felt(midi, seconds, rng, velocity=.7):
-    t = np.arange(round(seconds * RATE)) / RATE
-    signal = np.zeros(len(t))
-    for k, amplitude in enumerate((1, .32, .13, .065, .02), start=1):
-        frequency = hz(midi) * k * np.sqrt(1 + .00006 * k ** 2)
-        voice = sum(np.sin(TAU * frequency * (1 + d) * t) for d in (-.0009, .0009)) / 2
-        signal += amplitude * voice * np.exp(-t * (1 + .32 * k) / 2.8)
-    signal += .008 * band_noise(len(t), rng, 100, 1800) * np.exp(-t * 55)
-    return smooth_edges(signal * velocity, .025, .2)
-
-
-def bowed(midi, seconds, rng):
-    t = np.arange(round(seconds * RATE)) / RATE
-    phase = rng.uniform(0, TAU)
-    vibrato = .0014 * np.sin(TAU * 4.6 * t + phase) * (1 - np.exp(-t))
-    signal = np.zeros(len(t))
-    for harmonic, amount in ((1, 1), (2, .22), (3, .14), (4, .045), (5, .024)):
-        for detune in (-.0018, .0018):
-            frequency = hz(midi) * harmonic * (1 + detune + vibrato)
-            signal += amount * .5 * np.sin(TAU * np.cumsum(frequency) / RATE + phase)
-    signal *= .92 + .08 * np.sin(TAU * .41 * t + phase)
-    return smooth_edges(signal, min(1.1, seconds * .25), min(1.8, seconds * .35))
-
-
 def flute(midi, seconds, rng, tentative=False):
     t = np.arange(round(seconds * RATE)) / RATE
     wander = .0028 * np.sin(TAU * 1.1 * t + .2) if tentative else .0007 * np.sin(TAU * .8 * t)
@@ -158,7 +130,11 @@ def percussion(seconds, rng, pitch=130):
 def add(mix, voice, seconds, gain=1, pan=0, circular=True):
     start = round(seconds * RATE)
     angle = (np.clip(pan, -1, 1) + 1) * np.pi / 4
-    stereo = voice[:, None] * np.array([np.cos(angle), np.sin(angle)]) * gain
+    if voice.ndim == 1:
+        stereo = voice[:, None] * np.array([np.cos(angle), np.sin(angle)]) * gain
+    else:
+        # Preserve the original recording's stereo field while positioning it.
+        stereo = voice * np.array([np.cos(angle), np.sin(angle)]) * gain
     if not circular:
         end = min(len(mix), start + len(voice))
         if end > start:
@@ -196,27 +172,43 @@ def room(mix, rng, wet=.16, circular=True):
 
 
 def save(name, signal, rng, rms, peak=.40, loop=True):
-    signal = circular_filter(signal, high=6500, low=35)
+    legacy_flute = name in ("flute_first.wav", "flute_attempt.wav")
+    signal = circular_filter(signal, high=6500 if legacy_flute else 18000, low=35)
     signal -= signal.mean(axis=0)
-    signal *= min(rms / max(np.sqrt(np.mean(signal ** 2)), 1e-9),
-                  peak / max(np.max(np.abs(signal)), 1e-9))
+    if legacy_flute:
+        signal *= min(rms / max(np.sqrt(np.mean(signal ** 2)), 1e-9),
+                      peak / max(np.max(np.abs(signal)), 1e-9))
+    else:
+        signal *= rms / max(np.sqrt(np.mean(signal ** 2)), 1e-9)
+        # A few recorded attacks should not force the whole cue to be inaudible.
+        # Linked stereo gain, short lookahead, and smooth recovery tame peaks;
+        # cap reduction at 6 dB to retain the acoustic instruments' dynamics.
+        envelope = np.max(np.abs(signal), axis=1)
+        gain = np.clip(peak / np.maximum(envelope, peak), .5, 1)
+        gain = minimum_filter1d(gain, size=round(.035 * RATE) | 1)
+        gain = gaussian_filter1d(gain, sigma=.004 * RATE)
+        signal *= gain[:, None]
+        signal *= min(1, peak / max(np.max(np.abs(signal)), 1e-9))
+        signal -= signal.mean(axis=0)
     if not loop:
         signal = smooth_edges(signal, .01, .12)
+    target = (MASTER_OUT if loop else OUT) / name
+    target.parent.mkdir(parents=True, exist_ok=True)
+    if loop:
+        # Keep high-resolution masters; delivery remains compact Ogg Vorbis.
+        sf.write(target, signal, RATE, subtype="PCM_24")
+        encode_master(target)
+        return
     # Triangular dither prevents correlated low-level quantization distortion.
     dither = (rng.uniform(-.5, .5, signal.shape) + rng.uniform(-.5, .5, signal.shape)) / 32768
     pcm = np.rint((signal + dither) * 32767).astype("<i2")
     OUT.mkdir(parents=True, exist_ok=True)
-    target = (MASTER_OUT if loop else OUT) / name
-    target.parent.mkdir(parents=True, exist_ok=True)
     with wave.open(str(target), "wb") as output:
         output.setnchannels(2)
         output.setsampwidth(2)
         output.setframerate(RATE)
         output.writeframes(pcm.tobytes())
-    if loop:
-        encode_master(target)
-    else:
-        print(f"{name:25} {len(signal) / RATE:6.2f}s  stereo PCM", flush=True)
+    print(f"{name:25} {len(signal) / RATE:6.2f}s  stereo PCM", flush=True)
 
 
 C = (48, 55, 62, 64)
@@ -275,87 +267,61 @@ def score(cue):
     rng = np.random.default_rng(cue.seed)
     beat = 60 / cue.bpm
     mix = np.zeros((round(64 * beat * RATE), 2))
-    instrument = felt if cue.instrument == "felt" else pluck
+    instrument = "piano" if cue.instrument == "felt" else "harp"
     for phrase, chord in enumerate(cue.chords):
         start = phrase * 8 * beat
         arc = (.86, .92, .98, .90, 1.0, 1.06, .97, .83)[phrase]
         for i, midi in enumerate(chord):
-            add(mix, bowed(midi, 9.2 * beat, rng), start - .6 * beat,
+            add(mix, BANK.note("cello" if midi < 60 else "viola", midi, 9.2 * beat), start - .6 * beat,
                 cue.pad * arc / (1 + .22 * i), (-.55, .30, -.22, .54)[i])
-        add(mix, felt(chord[0] - 12, 6.5 * beat, rng, .6), start + .04, .10 * arc, -.12)
+        add(mix, BANK.note("piano", chord[0] - 12, 6.5 * beat, .6), start + .04, .10 * arc, -.12)
         if cue.arpeggio:
             pattern = (0, 2, 1, 3, 2, 1) if cue.pulse else (0, 2, 1, 3)
             for j, index in enumerate(pattern):
                 offset = (j * 7 / len(pattern) + .65) * beat
-                add(mix, pluck(chord[index] + 12, 3.8 * beat, rng),
+                add(mix, BANK.note("harp", chord[index] + 12, 3.8 * beat),
                     start + offset + rng.uniform(-.018, .018),
                     cue.arpeggio * arc * rng.uniform(.84, 1.04), -.4 + .8 * j / len(pattern))
         notes = cue.melody[phrase]
         for i, midi in enumerate(notes):
             timing = .9 + i * (5.7 / max(1, len(notes)))
             length = min(4.3, 8 - timing) * beat
-            add(mix, instrument(midi, length, rng, rng.uniform(.58, .77)),
+            add(mix, BANK.note(instrument, midi, length, rng.uniform(.58, .77)),
                 start + timing * beat + rng.uniform(-.023, .025), .19 * arc, .16)
         if cue.reed and phrase in (2, 4, 6):
-            add(mix, flute(chord[2] + 12, 2.7 * beat, rng), start + 4.5 * beat, .038 * arc, -.30)
+            add(mix, BANK.note("flute", chord[2] + 12, 2.7 * beat), start + 4.5 * beat, .038 * arc, -.30)
         if cue.pulse:
             for step in (0, 3, 4, 7):
                 add(mix, percussion(.4, rng, 116 if step % 4 == 0 else 170),
-                    start + step * beat, .021 if step % 4 == 0 else .012, -.1)
-    mix = room(mix, rng, .30 if cue.name == "wonder_theme" else .19)
+                    start + step * beat, .0036 if step % 4 == 0 else .0020, -.1)
+    mix = studio_room(mix, .18 if cue.name == "wonder_theme" else .12)
     save(cue.name + ".wav", mix, rng, cue.rms)
 
 
 def environment(name, seconds, seed):
     rng = np.random.default_rng(seed)
-    n = round(seconds * RATE)
-    t = np.arange(n) / RATE
-    noise = rng.normal(size=(n, 2))
-    noise = .7 * noise[:, :1] + .3 * noise
-    low = circular_filter(noise, high=900, low=130)
-    high = circular_filter(noise, high=4200, low=700)
-    swell = .85 + .10 * np.sin(TAU * t / seconds) + .05 * np.sin(TAU * 3 * t / seconds + 1.2)
-    if name == "garden_air":
-        mix = (low * .65 + high * .045) * swell[:, None]
-        # Small water trickles; no recognizable Earth bird calls.
-        for _ in range(38):
-            tt = np.arange(round(rng.uniform(.06, .20) * RATE)) / RATE
-            drop = np.sin(TAU * (rng.uniform(650, 1250) * tt + 50 * tt ** 2)) * np.exp(-tt * 34)
-            add(mix, smooth_edges(drop, .003, .015), rng.uniform(0, seconds), .028, rng.uniform(-.7, .7))
-        rms = .011
-    elif name == "rain":
-        mix = (.26 * low + .28 * high) * swell[:, None]
-        for _ in range(round(seconds * 24)):
-            tt = np.arange(round(rng.uniform(.018, .09) * RATE)) / RATE
-            drop = band_noise(len(tt), rng, 650, 6500) * np.exp(-tt * rng.uniform(55, 120))
-            add(mix, smooth_edges(drop, .002, .006), rng.uniform(0, seconds), rng.uniform(.025, .11), rng.uniform(-.85, .85))
-        rms = .020
-    elif name == "room_air":
-        mix = low * swell[:, None]
-        for _ in range(26):
-            tt = np.arange(round(.15 * RATE)) / RATE
-            drop = np.sin(TAU * rng.uniform(800, 1200) * tt) * np.exp(-tt * 42)
-            add(mix, smooth_edges(drop, .008, .02), rng.uniform(0, seconds), .028, -.35)
-        rms = .007
-    elif name == "workshop_air":
-        mix = .7 * low * swell[:, None]
-        for i in range(13):
-            add(mix, percussion(.35, rng, rng.uniform(140, 260)),
-                (i + .4) * seconds / 13, .11 if i % 4 else .19, rng.uniform(-.55, .55))
-        rms = .010
-    else:
-        mix = (.7 * low + .03 * high) * swell[:, None]
-        # Cloth, movement, and vessels; no fabricated spoken voices.
-        for _ in range(45):
-            tt = np.arange(round(.28 * RATE)) / RATE
-            movement = band_noise(len(tt), rng, 160, 1600) * np.sin(np.pi * tt / .28) ** 2
-            add(mix, movement, rng.uniform(0, seconds), .055, rng.uniform(-.8, .8))
-        rms = .012
-    save(name + ".wav", room(mix, rng, .08), rng, rms, peak=.22)
+    mix = field_ambience(name, seconds)
+    levels = {"garden_air": .011, "rain": .027, "room_air": .007,
+              "workshop_air": .010, "plaza_air": .008}
+    save(name + ".wav", mix, rng, levels[name], peak=.22)
 
 
 def effect(name, seed):
     rng = np.random.default_rng(seed)
+    if name == "flute_attempt":
+        mix = np.zeros((round(1.6 * RATE), 2))
+        # One breath briefly catches a C, then thins into air and gives out.
+        voice = flute(72, .75, rng, tentative=True)
+        t = np.arange(len(voice)) / RATE
+        voice *= .08 + .92 * np.exp(-((t - .20) / .13) ** 2)
+        voice += .18 * smooth_edges(band_noise(len(t), rng, 700, 4200), .05, .22)
+        add(mix, voice, .15, .6, .08, circular=False)
+        save(name + ".wav", room(mix, rng, .10, circular=False), rng, .055, peak=.25, loop=False)
+        return
+    if name not in ("flute_first", "flute_practice"):
+        save(name + ".wav", field_effect(name), rng,
+             {"wood": .042, "tree_creak": .032, "water_splash": .047}[name], peak=.30, loop=False)
+        return
     if name in ("flute_first", "flute_practice"):
         tentative = name == "flute_first"
         seconds = 8 if tentative else 12
@@ -364,43 +330,26 @@ def effect(name, seed):
             (.4, 72, 1.05), (1.6, 74, 1.05), (2.8, 76, 1.9), (4.9, 67, 1.0),
             (6.1, 72, 1.1), (7.4, 69, .7), (8.3, 67, .7), (9.2, 72, 1.5))
         for start, midi, length in notes:
-            add(mix, flute(midi, length, rng, tentative), start, .6, .08, circular=False)
-        mix = room(mix, rng, .12, circular=False)
+            voice = flute(midi, length, rng, True) if tentative else BANK.note("flute", midi, length, .65)
+            add(mix, voice, start, .6, .08, circular=False)
+        mix = room(mix, rng, .12, circular=False) if tentative else studio_room(mix, .10, circular=False)
         rms = .075
-    elif name == "tree_creak":
-        seconds = 3.4
-        tt = np.arange(round(seconds * RATE)) / RATE
-        phase = TAU * np.cumsum(74 + 7 * np.sin(TAU * .35 * tt)) / RATE
-        voice = sum(np.sin(k * phase) / k ** 1.3 for k in range(1, 7))
-        voice *= np.sin(np.pi * tt / seconds) ** 2 * (.65 + .35 * np.sin(TAU * 14 * tt) ** 2)
-        voice += .12 * band_noise(len(tt), rng, 70, 1200) * np.sin(np.pi * tt / seconds) ** 2
-        mix = np.column_stack((voice, voice * .82))
-        rms = .032
-    elif name == "water_splash":
-        seconds = 2.2
-        tt = np.arange(round(seconds * RATE)) / RATE
-        voice = band_noise(len(tt), rng, 120, 4500) * (1 - np.exp(-tt * 30)) * np.exp(-tt * 3.5)
-        mix = np.column_stack((voice, np.roll(voice, 240)))
-        for _ in range(15):
-            dt = np.arange(round(.14 * RATE)) / RATE
-            drop = np.sin(TAU * rng.uniform(550, 1400) * dt) * np.exp(-dt * 32)
-            add(mix, smooth_edges(drop, .005, .02), rng.uniform(.25, 1.4), .05, rng.uniform(-.7, .7), circular=False)
-        rms = .047
-    else:
-        voice = percussion(.65, rng, 170)
-        mix = np.column_stack((voice, voice * .92))
-        rms = .042
     save(name + ".wav", mix, rng, rms, peak=.30, loop=False)
 
 
 def main():
+    global RATE
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("assets", nargs="*", help="Optional stems to rebuild; otherwise all assets.")
     parser.add_argument("--encode-existing", action="store_true", help="Encode cached WAV masters without resynthesizing.")
+    parser.add_argument("--fetch-sources", action="store_true", help="Download and verify pinned CC0 source recordings, then exit.")
     args = parser.parse_args()
+    if args.fetch_sources:
+        fetch_sources()
+        return
     ambience = [("garden_air", 32, 1103), ("rain", 32, 1109), ("room_air", 32, 1117),
                 ("workshop_air", 32, 1123), ("plaza_air", 32, 1129)]
-    effects = [("wood", 1151), ("flute_first", 1153), ("flute_practice", 1163),
+    effects = [("wood", 1151), ("flute_attempt", 1187), ("flute_first", 1153), ("flute_practice", 1163),
                ("tree_creak", 1171), ("water_splash", 1181)]
     known = {cue.name for cue in CUES} | {row[0] for row in ambience + effects}
     requested = set(args.assets) or known
@@ -412,6 +361,8 @@ def main():
         for name in sorted(requested & loops):
             encode_master(MASTER_OUT / (name + ".wav"))
         return
+    if requested - {"flute_first", "flute_attempt"}:
+        check_sources()
     for cue in CUES:
         if cue.name in requested:
             score(cue)
@@ -420,7 +371,11 @@ def main():
             environment(name, seconds, seed)
     for name, seed in effects:
         if name in requested:
-            effect(name, seed)
+            RATE = 24000 if name in ("flute_first", "flute_attempt") else 48000
+            try:
+                effect(name, seed)
+            finally:
+                RATE = 48000
 
 
 if __name__ == "__main__":

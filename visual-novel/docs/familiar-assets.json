@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-04",
+  "generator": "OpenAI built-in image_gen",
+  "notes": [
+    "Selected PNGs are unmodified generator outputs. No external animal photographs were downloaded.",
+    "Earlier transparency attempts returned baked checkerboards. Selected sprites use generated matte backgrounds, removed at runtime; blue for Shadow to preserve green eyes, green for Barkley and Nibble.",
+    "Nibble follows the author's supplied visual reference: fluffy black-and-white fur, a tousled white blaze, large pink ears, and violet/coral heterochromia. It replaces the earlier plain agouti design. The reference arrived as a conversation attachment without a local file path."
+  ],
+  "assets": [
+    {
+      "file": "game/images/familiars/shadow.png",
+      "image": "shadow",
+      "generation": "familiar-shadow-key-v3",
+      "sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "background": "saturated blue, composited by astravus.chroma_blue to preserve green eyes"
+    },
+    {
+      "file": "game/images/familiars/barkley.png",
+      "image": "barkley",
+      "generation": "familiar-barkley-key-v3",
+      "sha256": "49084a021567be20c336956201f5ed6bfdb4ac6a9c8a8198b7e2040e7d88ad37",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green"
+    },
+    {
+      "file": "game/images/familiars/nibble.png",
+      "image": "nibble",
+      "generation": "familiar-nibble-author-reference-v4",
+      "sha256": "a3eb23fe22427f87b6fdf12c7c6c2fdf7dcbc87d50579ba288726f2bd7f1bb95",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green"
+    }
+  ],
+  "generations": [
+    {
+      "id": "familiar-shadow-v1",
+      "output_id": "exec-4e3c6444-0347-4b3d-8648-b73610903c77",
+      "prompt": "Use case: illustration-story. Create ONE production-ready animal character sprite for the Astravus visual novel. The attached child sprite is a STYLE reference only (softly painterly storybook realism, expressive but anatomically believable, delicate warm light); the home is a lighting and palette reference only. Do not include the child or the room. Isolated single full-body animal, natural proportions, three-quarter view facing slightly left, all paws, ears, whiskers and complete tail inside frame, generous small clear margin, horizontal ground plane, soft diffuse warm upper-left light with enough fill to read dark details. Transparent background with genuine alpha: no checkerboard, no paper, no colored backdrop, no scenery, no cast-shadow plate. No text, labels, border, clothing, collar, magical accessories, glowing markings or human characteristics. Square composition, clean silhouette usable at small game sizes. Subject: Shadow, a sleek adult female BLACK domestic shorthair cat with striking green eyes, one small old notch on the outer ear edge and a slightly crooked tail tip. She sits calmly upright, front paws together, tail laid in a gentle curl to the side, quietly attentive. Black fur must stay black with subtle warm charcoal highlights; green eyes bright but not emitting neon beams. Graceful ordinary cat anatomy and intelligent, gentle gaze.",
+      "references": [
+        "visual-novel/game/images/characters/book-one/calista-home.png",
+        "visual-novel/game/images/backgrounds/family-home.png"
+      ],
+      "selected": false
+    },
+    {
+      "id": "familiar-barkley-v1",
+      "output_id": "exec-d9765375-2738-4a80-9154-83602cc73d7a",
+      "prompt": "Use case: illustration-story. Create ONE production-ready animal character sprite for the Astravus visual novel. The attached child sprite is a STYLE reference only (softly painterly storybook realism, expressive but anatomically believable, delicate warm light); the home is a lighting and palette reference only. Do not include the child or the room. Isolated single full-body animal, natural proportions, three-quarter view facing slightly left, all paws, ears, whiskers and complete tail inside frame, generous small clear margin, horizontal ground plane, soft diffuse warm upper-left light with enough fill to read dark details. Transparent background with genuine alpha: no checkerboard, no paper, no colored backdrop, no scenery, no cast-shadow plate. No text, labels, border, clothing, collar, magical accessories, glowing markings or human characteristics. Square composition, clean silhouette usable at small game sizes. Subject: Barkley, an adult male GOLDEN RETRIEVER, a beloved family companion. Warm honey-gold feathered fur, broad retriever muzzle, floppy ears, dark brown eyes. He sits with relaxed upright posture, head slightly turned toward the viewer, mouth closed and calm, gently alert; tail laid naturally beside his haunch. Kind, loyal presence with lively attentive eyes, suitable for both home and quiet companionship. Believable retriever proportions, not a puppy, not a cartoon grin.",
+      "references": [
+        "visual-novel/game/images/characters/book-one/calista-home.png",
+        "visual-novel/game/images/backgrounds/family-home.png"
+      ],
+      "selected": false
+    },
+    {
+      "id": "familiar-nibble-v1",
+      "output_id": "exec-9248ded4-e019-41e8-8cfb-5401f43d506d",
+      "prompt": "Use case: illustration-story. Create ONE production-ready animal character sprite for the Astravus visual novel. The attached child sprite is a STYLE reference only (softly painterly storybook realism, expressive but anatomically believable, delicate warm light); the home is a lighting and palette reference only. Do not include the child or the room. Isolated single full-body animal, natural proportions, three-quarter view facing slightly left, all paws, ears, whiskers and complete tail inside frame, generous small clear margin, horizontal ground plane, soft diffuse warm upper-left light with enough fill to read dark details. Transparent background with genuine alpha: no checkerboard, no paper, no colored backdrop, no scenery, no cast-shadow plate. No text, labels, border, clothing, collar, magical accessories, glowing markings or human characteristics. Square composition, clean silhouette usable at small game sizes. Subject: Nibble, an inquisitive small adult female pet RAT (not a mouse). Soft warm brown-gray agouti coat with a lighter cream-gray belly, small rounded pink ears, dark bead-like eyes, fine long whiskers, delicate pink forepaws and hind feet, and a long tapering mostly hairless pink-brown tail. Natural elongated rat snout and modest ear size, anatomically clearly a rat. She rests on her haunches with forepaws lightly together and nose raised in curiosity. Complete curved tail comfortably inside frame. Charming but natural, no food or props.",
+      "references": [
+        "visual-novel/game/images/characters/book-one/calista-home.png",
+        "visual-novel/game/images/backgrounds/family-home.png"
+      ],
+      "selected": false
+    },
+    {
+      "id": "familiar-barkley-v2",
+      "output_id": "exec-ee8785e9-10f3-40cc-af81-cffdbc857e4b",
+      "prompt": "Edit this exact golden retriever sprite. Preserve the dog, his face, pose, complete tail, all four paws, honey-gold fur, proportions, painterly detail and framing. The gray-and-white checkerboard is mistakenly painted into this RGB image. Remove all of that backdrop and deliver a genuinely transparent RGBA background, including the space between the front legs and below the tail. Keep delicate fur edges natural with no white halo. No changes to the dog; no added objects, shadows, checkerboard, text or border.",
+      "references": [
+        "generation:familiar-barkley-v1"
+      ],
+      "selected": false
+    },
+    {
+      "id": "familiar-barkley-key-v3",
+      "output_id": "exec-ee4495c9-8c3d-4810-b200-6b9656821c10",
+      "prompt": "Edit the supplied animal sprite for game chroma-key compositing. Preserve the exact animal identity, face, species anatomy, proportions, pose, full tail, all feet, coat color, delicate fur detail, warm painterly light and square framing. Change ONLY the entire checkerboard backdrop to ONE absolutely flat, fully opaque, vivid pure green RGB #00ff00 background. Also fill every background gap between limbs, tail and body in that same green. No checkerboard, no white, no gradients, no scenery, no contact shadow, no green light or spill on the animal. No text or border. The green is a technical backing and must never alter the animal's natural colors.",
+      "references": [
+        "generation:familiar-barkley-v2"
+      ],
+      "selected": true
+    },
+    {
+      "id": "familiar-nibble-v2",
+      "output_id": "exec-a51c74ab-4837-4adb-9334-e0ccaf3dafe7",
+      "prompt": "Edit this animal sprite to correct the species anatomy: Nibble is an adult domestic RAT, not a mouse. Give her the longer wedge-shaped muzzle of a brown rat, a slightly smaller eye, and distinctly smaller round ears relative to her head; lengthen the body slightly. Preserve the inquisitive sitting pose, warm brown-gray coat with cream-gray belly, pink hands and feet, single long hairless tail, warm painterly storybook style and square full-body composition. Keep every part including whiskers and tail inside the frame. Remove any red/yellow edge artifacts. Genuine transparent RGBA background, no checkerboard, backdrop or ground shadow. No clothing, props, collar or text.",
+      "references": [
+        "generation:familiar-nibble-v1"
+      ],
+      "selected": false
+    },
+    {
+      "id": "familiar-nibble-key-v3",
+      "output_id": "exec-f98f6dc7-1e7a-4a0b-bc7c-e92a279a2645",
+      "prompt": "Edit the supplied animal sprite for game chroma-key compositing. Preserve the exact animal identity, face, species anatomy, proportions, pose, full tail, all feet, coat color, delicate fur detail, warm painterly light and square framing. Change ONLY the entire checkerboard backdrop to ONE absolutely flat, fully opaque, vivid pure green RGB #00ff00 background. Also fill every background gap between limbs, tail and body in that same green. No checkerboard, no white, no gradients, no scenery, no contact shadow, no green light or spill on the animal. No text or border. The green is a technical backing and must never alter the animal's natural colors.",
+      "references": [
+        "generation:familiar-nibble-v2"
+      ],
+      "selected": false
+    },
+    {
+      "id": "familiar-shadow-tail-v2",
+      "output_id": "exec-4b10640a-966a-4ef3-b6b5-18fd86e6a796",
+      "prompt": "Correct only the tail of this exact black cat sprite. The current curl resembles two tails. Draw ONE slender black cat tail attached naturally at the rump on the viewer's right, resting on the ground to that side, ending in one small crooked upturned tip. No loop, no overlap, no second tail, no bushy fur, no tail extending across the foreground. Preserve the entire rest of Shadow exactly: sleek black coat with warm charcoal highlights, bright green eyes, ear notch, face, seated pose, paws and warm painterly style. Preserve genuine transparent alpha, including between the tail and body. No checkerboard or colored backdrop. Keep the entire animal inside a square frame.",
+      "references": [
+        "generation:familiar-shadow-v1"
+      ],
+      "selected": false
+    },
+    {
+      "id": "familiar-shadow-key-v3",
+      "output_id": "exec-546c6ec1-d5ea-4647-bd26-1f9534d22b2a",
+      "prompt": "Edit this exact black cat sprite for game compositing. Change ONLY the checkerboard backdrop to one completely flat opaque vivid BLUE background, RGB #0000ff. Fill every gap outside the cat, including under the single tail, with that same saturated blue. Preserve Shadow's exact face, GREEN eyes, BLACK fur, warm charcoal highlights, ear notch, seated pose, all paws, and the ONE slender tail extending right and ending in a small crooked upward tip. No second tail, loop, or foreground tail. Preserve all warm painterly fur detail and the complete square composition. No blue light or spill on the cat. No checkerboard, white, gradients, scenery, shadow plate, text or border. The blue is a technical backing only; the green eyes must stay green.",
+      "references": [
+        "generation:familiar-shadow-tail-v2"
+      ],
+      "selected": true
+    },
+    {
+      "id": "familiar-nibble-author-reference-v4",
+      "output_id": "exec-eba2eb2b-df81-4ee3-a3c3-d712855f103b",
+      "prompt": "Use case: identity-preserve\nAsset type: Nibble's full-body character sprite for a painterly visual novel and its People guide.\nInput image 1: the user's supplied Nibble design is the authoritative character reference and edit target.\nPrimary request: faithfully preserve this exact charming fancy-rat design, expression, soft painterly rendering, seated pose, and proportions, while replacing only the gray background with a uniform opaque saturated green (#00ff00) chroma-key background.\nKeep the fluffy black/brown-and-white coat, broad tousled white forehead blaze and white muzzle/chest, large pink ears, little pink paws, long bare pink tail curling to the right, long delicate whiskers, inquisitive tilted face, and large luminous mismatched eyes: violet on the viewer's left, coral-red on the viewer's right. Preserve the appealing fluffy silhouette and visible fur texture. These expressive features are intentional character design.\nComposition: one complete rat only, entire body, paws, ears, whiskers, and tail inside a square canvas with modest clear margin. Keep the pose and orientation from the reference.\nBackground constraints: perfectly flat #00ff00 everywhere outside the rat, no gray floor, no cast shadow, no checkerboard, no background texture or gradients. No green lighting or green tint in the rat's white fur. No props, clothes, words, border, or watermark.",
+      "references": [],
+      "input_reference": {
+        "source": "User-provided conversation image, September 4, 2026",
+        "role": "Authoritative Nibble character design and edit target",
+        "input_method": "num_last_images_to_include: 1",
+        "description": "Fluffy black/brown-and-white rat with a broad white blaze, large pink ears, violet eye on the viewer's left and coral-red on the right, seated with a pink tail curling to the right, on a gray background. No local attachment path was supplied."
+      },
+      "selected": true
+    }
+  ]
+}
