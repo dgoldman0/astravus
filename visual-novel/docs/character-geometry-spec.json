@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "purpose": "Coordinated eye aperture and deep green pigment corrections; measured local regions, no body scaling.",
+  "assets": [
+    {
+      "id": "production-calista-young",
+      "file": "game/images/characters/book-one/calista-young.png",
+      "source_git_blob": "0f0ee6048c74844e6d11a1a39a4bd337ea0ec10f",
+      "source_sha256": "75649a7bc527427ab83e01d4b65749e9207562dadc9e36e0d9d4ce6cc1c541aa",
+      "eye_geometry": [
+        {
+          "center": [
+            500,
+            271
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.9,
+            0.88
+          ]
+        },
+        {
+          "center": [
+            573,
+            264
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.9,
+            0.88
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-calista-home",
+      "file": "game/images/characters/book-one/calista-home.png",
+      "source_git_blob": "bdad6bfe1e7d2492ddf936015f035f428c10e18c",
+      "source_sha256": "c89f5aa739a14a19b687842c9dc00c54cc2cae3fba101d6869c19a5134494d36",
+      "eye_geometry": [
+        {
+          "center": [
+            495,
+            249
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.9,
+            0.88
+          ]
+        },
+        {
+          "center": [
+            569,
+            245
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.9,
+            0.88
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-calista-festival",
+      "file": "game/images/characters/book-one/calista-festival.png",
+      "source_git_blob": "d5f56ca2541dae1ae6a37ce627fa1ec737db5eda",
+      "source_sha256": "3a796e998447303d3006871047579793e47db85bebceef1ec0dca323601e29c7",
+      "eye_geometry": [
+        {
+          "center": [
+            483,
+            246
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.9,
+            0.88
+          ]
+        },
+        {
+          "center": [
+            556,
+            237
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.9,
+            0.88
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-calista-festive",
+      "file": "game/images/characters/book-one/calista-festive.png",
+      "source_git_blob": "9ad7f360d0cde004b0f50d51c79e265d0d1758c8",
+      "source_sha256": "ae6808ba84ca5d16f87353f5ecac1aca111fd1531d9933b1a794f4e3f15e350c",
+      "eye_geometry": [
+        {
+          "center": [
+            483,
+            267
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.9,
+            0.88
+          ]
+        },
+        {
+          "center": [
+            554,
+            259
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.9,
+            0.88
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-lyra-young",
+      "file": "game/images/characters/book-one/lyra-young.png",
+      "source_git_blob": "f14ca9cede21a3a1fae2e84e8c6ed22798d5bae3",
+      "source_sha256": "7671dd825364831392dad574e2eccad9f73bf538360f75f3fd26b8da6af7cd92",
+      "eye_geometry": [
+        {
+          "center": [
+            493,
+            290
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.91,
+            0.89
+          ]
+        },
+        {
+          "center": [
+            572,
+            274
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.91,
+            0.89
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-cassia-young",
+      "file": "game/images/characters/book-one/cassia-young.png",
+      "source_git_blob": "68b3641020e16e097a0023d4be0a257fdd7be974",
+      "source_sha256": "362378277efed564dcc97d3902fd3262bd3cd7ce5c0a7e1c979f3b240ce81283",
+      "eye_geometry": [
+        {
+          "center": [
+            495,
+            168
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.95,
+            0.94
+          ]
+        },
+        {
+          "center": [
+            557,
+            192
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.95,
+            0.94
+          ]
+        }
+      ],
+      "iris_color": [
+        {
+          "center": [
+            495,
+            173
+          ],
+          "radius": [
+            11,
+            11
+          ],
+          "pupil": [
+            496,
+            164,
+            5,
+            5
+          ]
+        },
+        {
+          "center": [
+            558,
+            190
+          ],
+          "radius": [
+            11,
+            11
+          ],
+          "pupil": [
+            556,
+            183,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-cassia-older",
+      "file": "game/images/characters/book-one/cassia-older.png",
+      "source_git_blob": "a08e92305cc7c1ab5d102fad7ed852e239fabadc",
+      "source_sha256": "70b224c4bdc84af7bd09a0e36c44f79294469d1d08a7535a08284b6716f2186c",
+      "iris_color": [
+        {
+          "center": [
+            536,
+            144
+          ],
+          "radius": [
+            11,
+            11
+          ],
+          "pupil": [
+            534,
+            135,
+            4,
+            5
+          ]
+        },
+        {
+          "center": [
+            592,
+            163
+          ],
+          "radius": [
+            10,
+            10
+          ],
+          "pupil": [
+            591,
+            154,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-cassia-mourning",
+      "file": "game/images/characters/book-one/cassia-mourning.png",
+      "source_git_blob": "824669a28e5c4f878313094f76b06bf10d0ece8a",
+      "source_sha256": "9495dfb45c7f45f62bc746b3f655477279e2ab13d39cd31aa2cd45fd16f2caa2",
+      "iris_color": [
+        {
+          "center": [
+            534,
+            156
+          ],
+          "radius": [
+            11,
+            10
+          ],
+          "pupil": [
+            532,
+            148,
+            4,
+            5
+          ]
+        },
+        {
+          "center": [
+            591,
+            172
+          ],
+          "radius": [
+            10,
+            10
+          ],
+          "pupil": [
+            590,
+            164,
+            4,
+            5
+          ]
+        }
+      ]
+    }
+  ]
+}

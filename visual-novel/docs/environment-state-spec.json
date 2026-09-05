@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "workshop-waterwheel",
+      "file": "game/images/backgrounds/book-one/workshop-waterwheel.png",
+      "base_file": "game/images/backgrounds/book-one/workshop.png",
+      "source_git_blob": "aca0d8ef4466e4df83088252d08e791638a9dce7",
+      "source_sha256": "603d67750be055357d53693ea315aa201473db6a746ab02f8a5f968c9b9b2934",
+      "material_file": "docs/graphics-sources/workshop-waterwheel-material.png",
+      "material_sha256": "a4140044119fd9d90e0f762020513aa8ee2247ef7394febed05a104b7b28faf2",
+      "material_target_box": [
+        625,
+        330,
+        1075,
+        500
+      ],
+      "polygon": [
+        [
+          714,
+          359
+        ],
+        [
+          745,
+          351
+        ],
+        [
+          806,
+          361
+        ],
+        [
+          842,
+          400
+        ],
+        [
+          858,
+          421
+        ],
+        [
+          895,
+          417
+        ],
+        [
+          924,
+          418
+        ],
+        [
+          958,
+          444
+        ],
+        [
+          1008,
+          467
+        ],
+        [
+          1008,
+          481
+        ],
+        [
+          676,
+          481
+        ],
+        [
+          676,
+          456
+        ],
+        [
+          707,
+          452
+        ],
+        [
+          708,
+          397
+        ]
+      ],
+      "feather_pixels": 3,
+      "scope": "Only project/art materials on the existing work surface; original architecture, furniture silhouettes and all outside pixels preserved."
+    },
+    {
+      "id": "family-home-painting",
+      "file": "game/images/backgrounds/book-one/family-home-painting.png",
+      "base_file": "game/images/backgrounds/family-home.png",
+      "source_git_blob": "e2721eb958af40e9ca17624df2fea62e78032643",
+      "source_sha256": "dbf252a7502305a15c685bcbc6bfc7973f5bf2db277401dbdd6e6fda87d15a6a",
+      "material_file": "docs/graphics-sources/family-home-painting-material.png",
+      "material_sha256": "525a4fd0f9eec90ae3d42a7614c63280e72542bc0d91f846ecd74ddb1c401389",
+      "material_target_box": [
+        560,
+        422,
+        1036,
+        596
+      ],
+      "polygon": [
+        [
+          575,
+          478
+        ],
+        [
+          690,
+          472
+        ],
+        [
+          858,
+          482
+        ],
+        [
+          869,
+          464
+        ],
+        [
+          867,
+          431
+        ],
+        [
+          905,
+          430
+        ],
+        [
+          922,
+          472
+        ],
+        [
+          931,
+          495
+        ],
+        [
+          991,
+          491
+        ],
+        [
+          1020,
+          507
+        ],
+        [
+          1007,
+          537
+        ],
+        [
+          965,
+          542
+        ],
+        [
+          956,
+          578
+        ],
+        [
+          901,
+          590
+        ],
+        [
+          819,
+          584
+        ],
+        [
+          738,
+          574
+        ],
+        [
+          650,
+          577
+        ],
+        [
+          594,
+          560
+        ]
+      ],
+      "feather_pixels": 2,
+      "scope": "Only project/art materials on the existing work surface; original architecture, furniture silhouettes and all outside pixels preserved."
+    }
+  ]
+}

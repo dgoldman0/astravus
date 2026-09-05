@@ -454,12 +454,12 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f",
-      "reviewed_reference_signature": "03add504eab3dcd254406e9024685e9aa5bd737659156aca9d75e4cf8d720625",
+      "reviewed_reference_signature": "dbf553fa512d89ff9dc5423271f9dc742e4a602aa1056a8de4f6d7d1957a67ee",
       "findings": [],
-      "review_notes": "Adult/newborn scale is distinct. Everyday parent sprites reference identity only here, not an exact birth-era age or injury timeline. Final root review confirms the unchanged full painting and native facial details; the shared contract retains the same stature values and silhouettes after four local sprite iris corrections. Those pigment-only source changes do not alter the depicted stage, pose, supported body proportions or parent identities.",
+      "review_notes": "Five distinct adults gather around one supported newborn. Adult hands/forearms, wrapped baby's scale, lowered gazes and shared attention are coherent. Hair/skin silhouettes distinguish the five parents; most iris pigment is hidden, so do not open/recolor eyes to prove a palette. Source: Book I opening, parents' account of First Breath and homecoming; `opening_001\u2013009`. The baby is not an independently remembered scene or a depiction of a different birth. No character edit justified. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Native-resolution face crops beside the selected adult/newborn or mourning-stage reference sprites, followed by full-frame lighting and identity comparison.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
@@ -522,7 +522,12 @@
             ]
           }
         ],
-        "notes": "All five parents have coherent adult facial structure matching their hair/skin/feature identities in an earlier-life context. Newborn Cali has normal infant features. Eyes are lowered or closed; no reliably exposed iris requires a hue correction. Lighting is soft and natural rather than luminous."
+        "notes": "Five distinct adults gather around one supported newborn. Adult hands/forearms, wrapped baby's scale, lowered gazes and shared attention are coherent. Hair/skin silhouettes distinguish the five parents; most iris pigment is hidden, so do not open/recolor eyes to prove a palette. Source: Book I opening, parents' account of First Breath and homecoming; `opening_001\u2013009`. The baby is not an independently remembered scene or a depiction of a different birth. No character edit justified.",
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md"
+        ]
       }
     },
     {
@@ -538,13 +543,13 @@
         }
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "0083b1675573b96c77f905f3daea75e48f8a02d151715ef02418ef080122acd0",
-      "reviewed_reference_signature": "4d183cc549da1ccf3a99d1eafb31cf7201c8d4ed03b6a73b57f7653e39731d84",
+      "reviewed_sha256": "e656c47c19a9c9ef5f273c041d149db9078e58d99dc63a755f759d2c0a9c825e",
+      "reviewed_reference_signature": "b3d49ad23f1ac0b96e756c4467cae76d0ee6ddd936a7c04f2b1b31f38ab9a5a4",
       "findings": [],
-      "review_notes": "Comparable peer torso/hand scale in the seated embrace; retain the shared bench support. Final root review confirms the unchanged full painting and native facial details; the shared contract retains the same stature values and silhouettes after four local sprite iris corrections. Those pigment-only source changes do not alter the depicted stage, pose, supported body proportions or parent identities.",
+      "review_notes": "Comparable later/mourning peers, credible supported hand contact, restrained expressions and dimensional dark skin. Warm olive-green shadow in Cassia's eyes is not a blue-eye contradiction. Source: Book I after Joren's loss; `chapter_cassia_grief`, reaching for her hand and sitting together. Preserve the face midtones and hand cluster; architecture remains separately reviewed. The final bounded nearby-branch layer leaves the previously inspected faces, hands and seated bodies unchanged; root and independent full-frame/native review found no character regression. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate. Final daylight and later-furniture correction preserves the reviewed faces and joined hands pixel-for-pixel. Root and independent full/native review, followed by the actual final scene-28 capture, retained expressive identity, seated peer relationship and supported hand contact. See docs/graphics-environments.md and the final refresh in docs/graphics-runtime-review.md; this supersedes the older night-environment version.",
       "face_review": {
         "status": "accepted",
-        "method": "Native-resolution face crops beside the selected adult/newborn or mourning-stage reference sprites, followed by full-frame lighting and identity comparison.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
@@ -571,7 +576,16 @@
             ]
           }
         ],
-        "notes": "Both mourning faces retain the selected eye shape, nose, mouth, cheeks and age. Cali's irises are subdued blue-gray and Cassia's are olive-green under warm room light, with dark pupils and upper-lid shadow. These naturally shaded pigments do not show the conspicuous cyan/lime glow found in the rejected theme frames."
+        "notes": "Comparable later/mourning peers, credible supported hand contact, restrained expressions and dimensional dark skin. Warm olive-green shadow in Cassia's eyes is not a blue-eye contradiction. Source: Book I after Joren's loss; `chapter_cassia_grief`, reaching for her hand and sitting together. Preserve the face midtones and hand cluster; architecture remains separately reviewed. The final bounded nearby-branch layer leaves the previously inspected faces, hands and seated bodies unchanged; root and independent full-frame/native review found no character regression. Final daylight and later-furniture correction preserves the reviewed faces and joined hands pixel-for-pixel. Root and independent full/native review, followed by the actual final scene-28 capture, retained expressive identity, seated peer relationship and supported hand contact. See docs/graphics-environments.md and the final refresh in docs/graphics-runtime-review.md; this supersedes the older night-environment version.",
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md",
+          "docs/graphics-cg-repair-review.md",
+          "docs/graphics-environments.md",
+          "docs/graphics-runtime-review.md",
+          "docs/graphics-runtime-environment-inputs.json"
+        ]
       }
     },
     {
@@ -587,22 +601,22 @@
         }
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "74608e12c38015c5129b3c08db5af53d267d4e35b473857acf2d398d85ac3503",
-      "reviewed_reference_signature": "3d78db05bfa1701204f1fa6a4d2c89d6afcc56f0db39d7b0aee05e625d9d1038",
+      "reviewed_sha256": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c",
+      "reviewed_reference_signature": "1275a3309067270529ef282a149670c66b83ac78238584833d548337bf7da1b6",
       "findings": [
         "CG-10"
       ],
-      "review_notes": "Comparable early peers in the shared seated circle; unnamed child listeners remain background participants.",
+      "review_notes": "Calista\u2019s apertures are slightly calmer while her gaze toward Cassia, blue irises, freckles, hair and drawing action remain. No lid kink or local smear is visible in the native pair. Her lower-face construction remains the original stylized construction; this edit does not claim a wholesale face redesign. Same independently reviewed RGB pixels; only volatile PNG metadata stripped. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The close seated circle, open sketchbook and engaged listeners retain the earlier composition. Warm cheek midtones, curls, woven clothing and stone detail remain clear at native size. Calista and Cassia have comparable supported torsos; Cassia keeps her natural profile and shaded dark green iris. Calista now has subdued blue pigment; face shape, expression and all other painted detail survive the narrow correction.",
+        "notes": "Calista\u2019s apertures are slightly calmer while her gaze toward Cassia, blue irises, freckles, hair and drawing action remain. No lid kink or local smear is visible in the native pair. Her lower-face construction remains the original stylized construction; this edit does not claim a wholesale face redesign. Same independently reviewed RGB pixels; only volatile PNG metadata stripped.",
         "regions": [
           {
             "character": "Calista",
@@ -626,6 +640,13 @@
         "reference_files": [
           "game/images/characters/book-one/calista-festival.png",
           "game/images/characters/book-one/cassia-young.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md",
+          "docs/graphics-cg-repair-review.md",
+          "docs/graphics-cg-final-receipt.json"
         ]
       },
       "quality_review": {
@@ -649,12 +670,12 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "1113867923621e201436dcf19c2f03df6dd37927dba837ae523a39cbda436b90",
-      "reviewed_reference_signature": "74dfb4ceac17521cfce6a2dfb3821e220884092ae7d31035206e5758a3dfc9c5",
+      "reviewed_reference_signature": "b04adc0ccb0cacdbc036cc3c34b5c2730306f3b427de1eb9d7c7225cb1a5b829",
       "findings": [],
-      "review_notes": "Adult torso/arms are distinct from later-childhood Cali. Final root review confirms the unchanged full painting and native facial details; the shared contract retains the same stature values and silhouettes after four local sprite iris corrections. Those pigment-only source changes do not alter the depicted stage, pose, supported body proportions or parent identities.",
+      "review_notes": "Maia's adult scale, Cali's folded posture, believable arm contacts and subdued faces support the grief beat. Source: Maia hugs Cali after her question about Joren; `chapter_family_grief`. This is a useful target for skin dimensionality without harsh lip outlining. Preserve closed/lowered eyes and the embrace rather than substituting a neutral portrait. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Native-resolution face crops beside the selected adult/newborn or mourning-stage reference sprites, followed by full-frame lighting and identity comparison.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
@@ -681,7 +702,12 @@
             ]
           }
         ],
-        "notes": "Maia retains her adult face, braids and warm skin; Cali retains her freckled child face and mourning expression. Lowered or closed lids expose little iris, with no blue/green identity swap or luminous eye read. Their anatomy agrees with the current mourning/adult references."
+        "notes": "Maia's adult scale, Cali's folded posture, believable arm contacts and subdued faces support the grief beat. Source: Maia hugs Cali after her question about Joren; `chapter_family_grief`. This is a useful target for skin dimensionality without harsh lip outlining. Preserve closed/lowered eyes and the embrace rather than substituting a neutral portrait.",
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md"
+        ]
       }
     },
     {
@@ -698,21 +724,21 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "8f44a837334af47ec5081cd04a4ab65087faca327fb278127ea3062214d109c1",
-      "reviewed_reference_signature": "8e3228613e827d68f1c19b3f8864b7e8b4262fda1fc2237b60ee9b980ba6fa68",
+      "reviewed_reference_signature": "0bb457e626a5b6f43b08ef7b2a07aaab299ea85c81c3daf7a8ae8e08fc87859f",
       "findings": [
         "CG-11"
       ],
-      "review_notes": "Calista and petite adult Selene retain the companion still's seated scale and age distinction.",
+      "review_notes": "Cali holds the small transverse flute at her mouth; the visible hands, instrument support and Selene's patient adult gesture are coherent. Source: first hesitant attempts, then short phrases in `family_music_first`. An awkward beginner posture is appropriate. Do not turn it into a polished adult recital or add more notes to the first attempt. Keep together with 06; any future Cali face-control change must be applied consistently to both. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The intimate lesson, supported bench pose and hand/flute relationship retain the earlier framing. Candle warmth and soft dimensional skin remain; hair strands, clothing folds and room instruments retain native detail. Calista has a natural young face with blue pigment beneath the original lids; Selene remains a petite adult with lowered lids. The iris correction leaves the complete composition and texture unchanged outside the mask.",
+        "notes": "Cali holds the small transverse flute at her mouth; the visible hands, instrument support and Selene's patient adult gesture are coherent. Source: first hesitant attempts, then short phrases in `family_music_first`. An awkward beginner posture is appropriate. Do not turn it into a polished adult recital or add more notes to the first attempt. Keep together with 06; any future Cali face-control change must be applied consistently to both.",
         "regions": [
           {
             "character": "Calista",
@@ -736,6 +762,11 @@
         "reference_files": [
           "game/images/characters/book-one/calista-home.png",
           "game/images/characters/book-one/selene-everyday.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md"
         ]
       },
       "quality_review": {
@@ -759,21 +790,21 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "7554e2418496049f96c44d83b65460e9cc79a038f902ff2639ab6648215ae521",
-      "reviewed_reference_signature": "8e3228613e827d68f1c19b3f8864b7e8b4262fda1fc2237b60ee9b980ba6fa68",
+      "reviewed_reference_signature": "0bb457e626a5b6f43b08ef7b2a07aaab299ea85c81c3daf7a8ae8e08fc87859f",
       "findings": [
         "CG-12"
       ],
-      "review_notes": "Matched seated scale, costume and support with flute-playing; Calista remains a child beside petite adult Selene.",
+      "review_notes": "Same people, seating, clothing and room; Cali has actually lowered the flute and looks toward Selene. Hands on the lap and resting instrument are readable. The pose supports the dialogue breaks between attempts. White-haired Selene retains adult rather than elderly anatomy. No independent hand/face correction found. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The pause in the same lesson retains the lowered flute, Calista's upward glance and Selene's reassuring pose. Warm midtones, lips, cheeks, delicate white hair and cloth retain the earlier detail and sharpness. Calista's blue pigment is subdued with the original pupil and catchlight; Selene's lowered eyes remain untouched. The companion scene's bodies and room have not drifted.",
+        "notes": "Same people, seating, clothing and room; Cali has actually lowered the flute and looks toward Selene. Hands on the lap and resting instrument are readable. The pose supports the dialogue breaks between attempts. White-haired Selene retains adult rather than elderly anatomy. No independent hand/face correction found.",
         "regions": [
           {
             "character": "Calista",
@@ -797,6 +828,11 @@
         "reference_files": [
           "game/images/characters/book-one/calista-home.png",
           "game/images/characters/book-one/selene-everyday.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md"
         ]
       },
       "quality_review": {
@@ -824,19 +860,19 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
-      "reviewed_reference_signature": "38c24a6270a97102ac4863283c77aacf1a8959a3fadb81b98191b91d80f93cd1",
+      "reviewed_reference_signature": "d3092df8488ba91b5422ff022cb25968fb974b1b5dc34cdf4b6111d84a21691a",
       "findings": [],
-      "review_notes": "Maia is adult; Kael's larger sibling frame and longer reach remain apparent while the children kneel on the dry bank.",
+      "review_notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The shared row of pots and three-way conversation remain the focus. The blue flowers make Calista's handled pot readable without changing the shot's depth or character presence. Warm dimensional faces, individual braids/curls, soil, pottery and leaves retain native detail. Maia reads as an adult and Kael has longer reach/larger torso than Calista despite their kneels; blue, hazel/gold and amber-dark eye readings are coherent.",
+        "notes": "Three supported figures arrange a visible curve of pots beside the water. Kael's larger arms/body and Maia's adult proportions are clear; Cali is not standing on the pond ledge. The still represents the shared arranging phase, not every earlier pointing line literally. Source: plant-placement disagreement/compromise; `family_plant_disagreement`. Preserve the pots and working-body poses.",
         "regions": [
           {
             "character": "Calista",
@@ -870,6 +906,11 @@
           "game/images/characters/book-one/calista-young.png",
           "game/images/characters/book-one/kael-young.png",
           "game/images/characters/book-one/maia-home.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md"
         ]
       },
       "quality_review": {
@@ -904,22 +945,22 @@
         }
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "0de515348590fbc8aff39736ad072e1c1c07d7ccb967fdd847dd5e4a75f009fb",
-      "reviewed_reference_signature": "28b284d7cb0b7ad2f78fac0c6ccf00951656f857e9d4e1153ae519dde8f7266e",
+      "reviewed_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
+      "reviewed_reference_signature": "940452a2ca54b51f0b6eddd6a91dd4451201d450779aa47adbdda6834c7c5092",
       "findings": [
         "CG-13"
       ],
-      "review_notes": "Kael has a larger frame and reach; Lyra's shorter torso/arms make the younger-sibling relationship readable on the bank.",
+      "review_notes": "Final small Shadow ear notch matches her anatomical-left reference ear. Original human/familiar bodies, gestures, eyes and lighting are otherwise unchanged. The original full composition and native character review remains applicable; independent final notch inspection found no unrelated regression. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The reaching diagonal from the dry bank to Lyra remains clear, with Barkley and the black cat framing the rescue. Native face, fur, water and cloth detail retain the earlier texture and warm depth. Calista's pigment is corrected to blue without changing expression. Kael's tiny dark olive/gold iris is preserved: the blue-grey patch beside it is shaded sclera, not iris. Lyra has green eyes and a much smaller frame.",
+        "notes": "Final small Shadow ear notch matches her anatomical-left reference ear. Original human/familiar bodies, gestures, eyes and lighting are otherwise unchanged. The original full composition and native character review remains applicable; independent final notch inspection found no unrelated regression.",
         "regions": [
           {
             "character": "Calista",
@@ -953,6 +994,12 @@
           "game/images/characters/book-one/calista-young.png",
           "game/images/characters/book-one/kael-young.png",
           "game/images/characters/book-one/lyra-young.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md",
+          "docs/graphics-cg-repair-review.md"
         ]
       },
       "quality_review": {
@@ -987,23 +1034,23 @@
         }
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "56074675442f5eee3db5506e1a0816d2fc52e385bdbc175518612d9a34fc6f43",
-      "reviewed_reference_signature": "28b284d7cb0b7ad2f78fac0c6ccf00951656f857e9d4e1153ae519dde8f7266e",
+      "reviewed_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
+      "reviewed_reference_signature": "940452a2ca54b51f0b6eddd6a91dd4451201d450779aa47adbdda6834c7c5092",
       "findings": [
         "CG-05",
         "CG-14"
       ],
-      "review_notes": "HEAD restored plus Calista iris only. Kael's lower crown follows the deep supported squat and depth; older-sibling limb/hand/torso proportions are already present. Lyra is distinctly smaller.",
+      "review_notes": "Final small Shadow ear notch matches her anatomical-left reference ear. Original human/familiar bodies, gestures, eyes and lighting are otherwise unchanged. The original full composition and native character review remains applicable; independent final notch inspection found no unrelated regression. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The stronger HEAD painting is restored, with only 97 Calista iris pixels changed. The close protective embrace, delicate Barkley fur, softer foliage/ground strokes and natural narrower Kael eyelids all survive. The rejected scale/face variants hardened fur and facial detail. Kael squats deeply on his boots farther back while Calista kneels upright nearer the camera; his longer arms, larger hands and torso establish the older brother without forcing a higher crown. Calista blue, Kael hazel and Lyra green remain naturally shaded.",
+        "notes": "Final small Shadow ear notch matches her anatomical-left reference ear. Original human/familiar bodies, gestures, eyes and lighting are otherwise unchanged. The original full composition and native character review remains applicable; independent final notch inspection found no unrelated regression.",
         "regions": [
           {
             "character": "Calista",
@@ -1037,6 +1084,12 @@
           "game/images/characters/book-one/calista-young.png",
           "game/images/characters/book-one/kael-young.png",
           "game/images/characters/book-one/lyra-young.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md",
+          "docs/graphics-cg-repair-review.md"
         ]
       },
       "proportion_review": {
@@ -1068,23 +1121,23 @@
         }
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "9ee19cb65c68b41d5e03f3c6cf40d6fe617c6d0db3abe7ce6774a7e0da3611c1",
-      "reviewed_reference_signature": "8c6d9e98aa306587432d40af2b083dae0ae97fb630efca67318f508300dcc6ba",
+      "reviewed_sha256": "d7577ed4ebc21cb87cc0107b6c86583e324812697efc0a2d95c17619ba895dff",
+      "reviewed_reference_signature": "84897cec8e5b9bfb164ab8dce21528fe58293edbd330f1627b5c5ad78ab65055",
       "findings": [
         "CG-03",
         "CG-15"
       ],
-      "review_notes": "Later-childhood peers share a readable floor plane; Joren's modest height lead comes from torso/leg length, not an enlarged head.",
+      "review_notes": "The revised Cassia material has fuller cheek/jaw/nose construction and quieter, smaller green eyes. At native size she reads more convincingly as the later child alongside the unchanged body and peers. Warm umber identity and expression remain. No clear mask edge, doubled feature, hair or body regression was found. The small original Calista/Joren eye edits remain restrained. Same independently reviewed RGB pixels; only volatile PNG metadata stripped. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The trio, pointing gesture and broad warm dome vista retain the earlier focal relationship. Corrected supported feet and longer Joren torso/legs give him a modest height lead while Calista/Cassia stay comparable later-childhood peers. Faces retain coherent cheek/nose/mouth shape, and vest/jacket textures, masonry and foliage remain detailed rather than blurred. Blue/forest-green/blue pigment is subdued; occluded iris areas and shaded scleral whites remain unchanged.",
+        "notes": "The revised Cassia material has fuller cheek/jaw/nose construction and quieter, smaller green eyes. At native size she reads more convincingly as the later child alongside the unchanged body and peers. Warm umber identity and expression remain. No clear mask edge, doubled feature, hair or body regression was found. The small original Calista/Joren eye edits remain restrained. Same independently reviewed RGB pixels; only volatile PNG metadata stripped.",
         "regions": [
           {
             "character": "Calista",
@@ -1118,6 +1171,13 @@
           "game/images/characters/book-one/calista-older.png",
           "game/images/characters/book-one/cassia-older.png",
           "game/images/characters/book-one/joren-older.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md",
+          "docs/graphics-cg-repair-review.md",
+          "docs/graphics-cg-final-receipt.json"
         ]
       },
       "proportion_review": {
@@ -1142,19 +1202,19 @@
       ],
       "review_status": "consistent_crop",
       "reviewed_sha256": "3600e695c1bddaf867faa04d5f157faf323012e269626fcce8fa5aab247627fc",
-      "reviewed_reference_signature": "8d8b17ec94f3673213747aaee5c5c4238cdd2e9040f4bae87c22238326da89ca",
+      "reviewed_reference_signature": "3acad85e0d2f158006f6476ddfe7ced2ed3feded54b64529e01e86948128e9a4",
       "findings": [],
-      "review_notes": "Single-human crop with early-friendship proportions and a supported seated notebook pose.",
+      "review_notes": "The painting actually shows drawing in a book. That is consistent with Cali's source-established creative life and the cue's \u201cone more page\u201d; the filename is not a story assertion that she must be reading text. Lowered lids, hand/pencil/book contact and supported seated legs are coherent. The large near-camera head alone is not an anatomical error. No future event or literal time jump is established by this incidental montage moment. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The intimate seated drawing pose, notebook and lamplight retain the earlier focal presence. Warm face midtones, fine curls, embroidered sleeves, cushion and table grain retain detail and sharpness. Calista's lowered blue eyes and small quiet smile remain naturally modeled; no whole-face repaint was needed. The one-human crop supports stage/pose review, not standing-height measurement.",
+        "notes": "The painting actually shows drawing in a book. That is consistent with Cali's source-established creative life and the cue's \u201cone more page\u201d; the filename is not a story assertion that she must be reading text. Lowered lids, hand/pencil/book contact and supported seated legs are coherent. The large near-camera head alone is not an anatomical error. No future event or literal time jump is established by this incidental montage moment.",
         "regions": [
           {
             "character": "Calista",
@@ -1168,6 +1228,11 @@
         ],
         "reference_files": [
           "game/images/characters/book-one/calista-young.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md"
         ]
       },
       "quality_review": {
@@ -1190,20 +1255,20 @@
         }
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "cc409a5fd4996cf8839252c402efda8ef611da9670e82426e2611b07ba531c51",
-      "reviewed_reference_signature": "50072851232b4589947e6dd2802395003f0c68c92e22a78bf8131f6e50c39d30",
+      "reviewed_sha256": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b",
+      "reviewed_reference_signature": "c0da7db5ddfe5fda4c2124925019139e380d00866364dfb37f07225ed574e7d0",
       "findings": [],
-      "review_notes": "Kael's larger shoulder/torso/hand frame establishes the older sibling beside early Calista in this close crop.",
+      "review_notes": "The new Calista material has less circular exposed eyes and lower-lash prominence, with stronger nose/cheek construction. Freckle density changes and the cheek texture is softer than the original isolated crop, but it remains resolved at native size and does not look like a flat blur in the whole scene. Irises read muted steel/deep blue under warm light, not green. The smaller girl/older Kael relationship, sunflower action, hands, hair silhouette and illumination remain. No visible hard patch boundary or doubled feature was found. Same independently reviewed RGB pixels; only volatile PNG metadata stripped. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The opening retains both children close among the sunflowers and Kael's explanatory pointing gesture. Calista's eyes are less round and exaggerated than the earlier opening, with restrained slate-blue pigment and dimensional freckled cheeks. Kael remains recognizably older with hazel/gold eyes and a larger shoulder/arm frame. Warm light, fabric, hair and flower detail remain clear without introducing a flat dark face or losing the story's welcome.",
+        "notes": "The new Calista material has less circular exposed eyes and lower-lash prominence, with stronger nose/cheek construction. Freckle density changes and the cheek texture is softer than the original isolated crop, but it remains resolved at native size and does not look like a flat blur in the whole scene. Irises read muted steel/deep blue under warm light, not green. The smaller girl/older Kael relationship, sunflower action, hands, hair silhouette and illumination remain. No visible hard patch boundary or doubled feature was found. Same independently reviewed RGB pixels; only volatile PNG metadata stripped.",
         "regions": [
           {
             "character": "Calista",
@@ -1227,6 +1292,13 @@
         "reference_files": [
           "game/images/characters/book-one/calista-young.png",
           "game/images/characters/book-one/kael-young.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md",
+          "docs/graphics-cg-repair-review.md",
+          "docs/graphics-cg-final-receipt.json"
         ]
       },
       "quality_review": {
@@ -1250,19 +1322,19 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8",
-      "reviewed_reference_signature": "b6efc8287df8b7176073ecc9464feb634576f75ba1ab23daeb647f453d66fa21",
+      "reviewed_reference_signature": "53ed8abaca0c7e01e1d1f8843e94a8f3821f3931e6455a4862d768e8c96f224c",
       "findings": [],
-      "review_notes": "Lyra has the distinctly smaller frame and shorter arms; the close viewpoint preserves their different stages.",
+      "review_notes": "Cali holds a leaf with a small visible insect while the younger Lyra watches. Larger near-camera faces are proportional to the close framing, not a new growth spurt. Downcast blue/green irises, chestnut/golden curls and the age relationship fit. Source: childhood garden/insect discovery; compatible incidental montage action. Preserve this grounded eye/lid/cheek treatment rather than reopening the eyes to match the rounder CGs. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The leaf/insect and shared close curiosity retain their earlier focus. Calista's subdued blue eyes and Lyra's green eyes have preserved dark pupils and naturally shaded lids. The younger sister's rounder face and shorter arms remain distinct; both retain coherent noses, mouths and fingers. Soft warm cheek light, detailed curls, sleeves and leaf textures survive without a wider or emptier recrop.",
+        "notes": "Cali holds a leaf with a small visible insect while the younger Lyra watches. Larger near-camera faces are proportional to the close framing, not a new growth spurt. Downcast blue/green irises, chestnut/golden curls and the age relationship fit. Source: childhood garden/insect discovery; compatible incidental montage action. Preserve this grounded eye/lid/cheek treatment rather than reopening the eyes to match the rounder CGs.",
         "regions": [
           {
             "character": "Calista",
@@ -1286,6 +1358,11 @@
         "reference_files": [
           "game/images/characters/book-one/calista-young.png",
           "game/images/characters/book-one/lyra-young.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md"
         ]
       },
       "quality_review": {
@@ -1304,23 +1381,23 @@
         }
       ],
       "review_status": "consistent_crop",
-      "reviewed_sha256": "61382b336aeb7c7989e7339855dbf89337e0f9c29ab5a90cbd04bb25b147834f",
-      "reviewed_reference_signature": "2196f25a64cf66565f25bedb8ac4b6446daec7415957e9e98f5028d18b987055",
+      "reviewed_sha256": "1a0edf4cbbf8ff03ff42dce399c02f7e0780232a654f82662759faeece2ddc45",
+      "reviewed_reference_signature": "7e2c22378257a5719dd188f46da5852e6d91629584f183b9a82f599977ea5b01",
       "findings": [
         "CG-06",
         "CG-16"
       ],
-      "review_notes": "Calista is a nearer foreground later-childhood figure; the treehouse is farther behind. Depth and occlusion account for the apparent doorway/body size; no same-plane deck-height claim.",
+      "review_notes": "The revised Calista face has calmer eyes and more grounded cheek/lower-face modeling while retaining deep-blue irises, freckles, olive warmth and the hopeful sideward gaze. No obvious mask seam or hair/body regression appears in the native pair. The large foreground figure against a farther doorway remains appropriate. Same independently reviewed RGB pixels; only volatile PNG metadata stripped. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The final shot restores the earlier close hopeful Calista, warm dawn shafts and clear freckled face, instead of the rejected distant dark figure. Fine curls, clothing, notebook and luminous foliage retain tactile detail and native sharpness. The broad upper room and lower refuge sit farther behind her, with the ladder partly occluded by her foreground body; this is not a miniature room scaled against a child on its deck. Blue iris pigment alone changes in the selected raw painting. The crop does not expose her feet, so no metric standing-height claim is made.",
+        "notes": "The revised Calista face has calmer eyes and more grounded cheek/lower-face modeling while retaining deep-blue irises, freckles, olive warmth and the hopeful sideward gaze. No obvious mask seam or hair/body regression appears in the native pair. The large foreground figure against a farther doorway remains appropriate. Same independently reviewed RGB pixels; only volatile PNG metadata stripped.",
         "regions": [
           {
             "character": "Calista",
@@ -1334,6 +1411,13 @@
         ],
         "reference_files": [
           "game/images/characters/book-one/calista-older.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md",
+          "docs/graphics-cg-repair-review.md",
+          "docs/graphics-cg-final-receipt.json"
         ]
       },
       "proportion_review": {
@@ -1362,19 +1446,19 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "c20617d52737079f8d91da956b3b0aa7c958cf87577696f32bb691c4576b1fb5",
-      "reviewed_reference_signature": "d4d6c6b12d9514d549d2af7f5af67de654be439cec1ca05d99a7e10e33132d36",
+      "reviewed_reference_signature": "261ad612186f36e09d7c840e5ebb233c44394f64eb10f2d53552005b340f9258",
       "findings": [],
-      "review_notes": "Single human with a small rat supported in cupped hands; the exact Nibble marking and eye-side contract is visible.",
+      "review_notes": "Nibble has the fluffy black/white body, broad white blaze, pink extremities, violet viewer-left/coral viewer-right eyes and credible small-animal scale on Cali's supported hands. Warm light does not erase the dark/white coat separation. Cali's lowered gaze and smile are coherent in the close shot. This is a stronger familiar identity match than the older brown/indistinct rat complaint. Do not regenerate the rat or enlarge both irises again. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The close held-rat composition retains Calista's tender downward gaze, hand support and warm facial depth. Nibble now faces us with a clear black hood, broad white blaze, fluffy white body, pink ears and violet viewer-left/coral viewer-right irises. Native fur, whiskers, fingers, curls and cloth remain detailed; the stronger markings do not erase the painterly softness. Calista's mostly lowered eyes do not need invented exposed color.",
+        "notes": "Nibble has the fluffy black/white body, broad white blaze, pink extremities, violet viewer-left/coral viewer-right eyes and credible small-animal scale on Cali's supported hands. Warm light does not erase the dark/white coat separation. Cali's lowered gaze and smile are coherent in the close shot. This is a stronger familiar identity match than the older brown/indistinct rat complaint. Do not regenerate the rat or enlarge both irises again.",
         "regions": [
           {
             "character": "Calista",
@@ -1398,6 +1482,11 @@
         "reference_files": [
           "game/images/characters/book-one/calista-young.png",
           "game/images/familiars/nibble.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md"
         ]
       },
       "quality_review": {
@@ -1425,15 +1514,15 @@
       ],
       "review_status": "consistent_crop",
       "reviewed_sha256": "1fbaeeac453d40ad6761894b68b6955a332942fa29b02ae2be93934fbabde2f5",
-      "reviewed_reference_signature": "faac5d4e46aa31db95a0ca06ed6bc1b6c209a0e5f5bc4b1f71e91b99fa1386c9",
+      "reviewed_reference_signature": "48b7b435bc4f2dec246c07bd40b4e4637f2046f02e7e33538263abee60b1262c",
       "findings": [
         "CG-01",
         "CG-07"
       ],
-      "review_notes": "Close trio on the same planted walkway: comparable peer bodies, Cassia leaning forward, Joren modestly larger. Feet are cropped, so this supports relative anatomy rather than an exact standing-height measurement.",
+      "review_notes": "All three are recognizable early peers: Cali carries the map, Joren points ahead, Cassia leans toward their shared attention. Available torso/arm evidence is compatible with peer scale; cropped feet prevent a precise stature claim. Cassia's currently shaded lids, nose, cheek and smile are more grounded than 18/20; preserve them. The map/exploration fits source childhood play rather than implying a newly named destination. Any global approved face-control transfer should preserve this scene's expressions and complete figures. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
@@ -1469,12 +1558,17 @@
             ]
           }
         ],
-        "notes": "The strongest earlier warm close trio/map composition is retained, replacing the rejected dark distant full-body redraw. Calista's complete figure is locally larger so her torso/arms read as Cassia's peer; Cassia's forward lean and Joren's modest larger frame remain plausible. Faces, hair strands, textile pattern, map linework and nearby rail detail retain their close narrative presence and sharpness. Cassia has a natural smile and forest-green pigment; Calista/Joren have subdued blue with original pupils and lids. This is a planted Lumen walkway, not a newly invented Maia-garden layout.",
+        "notes": "All three are recognizable early peers: Cali carries the map, Joren points ahead, Cassia leans toward their shared attention. Available torso/arm evidence is compatible with peer scale; cropped feet prevent a precise stature claim. Cassia's currently shaded lids, nose, cheek and smile are more grounded than 18/20; preserve them. The map/exploration fits source childhood play rather than implying a newly named destination. Any global approved face-control transfer should preserve this scene's expressions and complete figures.",
         "reference_files": [
           "game/images/characters/book-one/calista-young.png",
           "game/images/characters/book-one/cassia-mourning.png",
           "game/images/characters/book-one/cassia-young.png",
           "game/images/characters/book-one/joren-young.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md"
         ]
       },
       "proportion_review": {
@@ -1507,21 +1601,21 @@
       ],
       "review_status": "consistent_crop",
       "reviewed_sha256": "834fd2c8430fe29da8d504b36170d417e3a7bfff710d014b4a2e6229ae7d73d8",
-      "reviewed_reference_signature": "b07d0606630ad2a393d38f4b0421e69c6a0400d628a51c53c79436f9b0fdd68c",
+      "reviewed_reference_signature": "703c3c1670dc4852d389091adbc8b5eeb2d5c51072bfe75afc816490060e0306",
       "findings": [
         "CG-09"
       ],
-      "review_notes": "Comparable close-up peer face/hand scale; the seated drawing crop cannot certify standing height.",
+      "review_notes": "Shared humorous drawing, believable paper grips and forward attention fit the trio's creative play. Joren's open laugh and Cassia's amused mouth are supported by cheek/jaw movement; a longer smiling lower face is not by itself an identity contradiction. Native comparison does not justify another broad jaw reconstruction here. Preserve the visible drawing, teeth/pupils/highlights and natural skin detail. The very close crop cannot certify standing height. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The shared comical drawing and three close faces retain the earlier warm lively framing. Cassia's stretched open mouth/pinched chin is replaced by a natural smiling mouth and coherent cheek/jaw structure while preserving amusement. Calista and Joren retain their expressions; all three have subdued blue/green/blue iris pigment. Fine curls, fabric, fingers, drawing lines and table objects retain native clarity and modeled light. The face crop cannot certify standing height.",
+        "notes": "Shared humorous drawing, believable paper grips and forward attention fit the trio's creative play. Joren's open laugh and Cassia's amused mouth are supported by cheek/jaw movement; a longer smiling lower face is not by itself an identity contradiction. Native comparison does not justify another broad jaw reconstruction here. Preserve the visible drawing, teeth/pupils/highlights and natural skin detail. The very close crop cannot certify standing height.",
         "regions": [
           {
             "character": "Calista",
@@ -1555,6 +1649,11 @@
           "game/images/characters/book-one/calista-young.png",
           "game/images/characters/book-one/cassia-young.png",
           "game/images/characters/book-one/joren-young.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md"
         ]
       },
       "quality_review": {
@@ -1581,23 +1680,23 @@
         }
       ],
       "review_status": "consistent_crop",
-      "reviewed_sha256": "7525e3f19fab329fb96b0ed6d1ac6c1aa06db608b8197ad8d7b83fbd3c5554a6",
-      "reviewed_reference_signature": "b07d0606630ad2a393d38f4b0421e69c6a0400d628a51c53c79436f9b0fdd68c",
+      "reviewed_sha256": "9358565397facaa82363d8960e0df9fe6b3352c87f8e40ee6025957d10e04b72",
+      "reviewed_reference_signature": "703c3c1670dc4852d389091adbc8b5eeb2d5c51072bfe75afc816490060e0306",
       "findings": [
         "CG-02",
         "CG-17"
       ],
-      "review_notes": "The close trio occupies the broad upper room. Nearer Calista's head tilt, supported arms and full-body proportion remain coherent; comparable peer torsos and Joren's modest size lead do not require equal crown positions.",
+      "review_notes": "Cassia has a fuller, less pinched lower face and calmer eye apertures, with warm umber skin, the existing welcoming smile and green irises retained. Calista\u2019s eye reduction is modest, retaining the book-holding pose and blue gaze. Native boundary inspection finds no doubled nose/mouth, abrupt hairline replacement or clear feather seam. The new Cassia material remains painterly; it is not photographic. Bodies, Joren, hands and room are preserved. Root inspected final combined full frame after merging only the independently reviewed branch overlay into the independently reviewed face repair. Face and branch review observations are separately recorded in the cited report. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The final composition retains the earlier close welcoming trio and rich warm material detail, while replacing the trunk-cupboard room with the broad canonical upper interior. The real left entrance, right open bays and map table fit the established room. Calista's complete figure was scaled coherently; her nearby folded arms/notebook and tilted face remain natural, with Cassia a comparable peer and Joren modestly larger. Native freckle/cheek/lip modeling, curls, cloth and timber retain detail. Calista's existing blue eyes stay untouched; only Cassia forest-green and Joren blue pigment are masked. Feet are outside the crop, preventing a metric height assertion.",
+        "notes": "Cassia has a fuller, less pinched lower face and calmer eye apertures, with warm umber skin, the existing welcoming smile and green irises retained. Calista\u2019s eye reduction is modest, retaining the book-holding pose and blue gaze. Native boundary inspection finds no doubled nose/mouth, abrupt hairline replacement or clear feather seam. The new Cassia material remains painterly; it is not photographic. Bodies, Joren, hands and room are preserved. Root inspected final combined full frame after merging only the independently reviewed branch overlay into the independently reviewed face repair. Face and branch review observations are separately recorded in the cited report.",
         "regions": [
           {
             "character": "Calista",
@@ -1631,6 +1730,13 @@
           "game/images/characters/book-one/calista-young.png",
           "game/images/characters/book-one/cassia-young.png",
           "game/images/characters/book-one/joren-young.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md",
+          "docs/graphics-cg-repair-review.md",
+          "docs/graphics-cg-final-receipt.json"
         ]
       },
       "proportion_review": {
@@ -1663,21 +1769,21 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
-      "reviewed_reference_signature": "8c6d9e98aa306587432d40af2b083dae0ae97fb630efca67318f508300dcc6ba",
+      "reviewed_reference_signature": "84897cec8e5b9bfb164ab8dce21528fe58293edbd330f1627b5c5ad78ab65055",
       "findings": [
         "CG-08"
       ],
-      "review_notes": "HEAD restored. Later-childhood limbs, torsos and clothes are coherent; Cassia's supported forward lean and the other kneels explain crown differences. Crown-only scale inference is superseded.",
+      "review_notes": "The three later-childhood figures, hands and kneels are coherent. Cassia rests her chin on a hand; her lower crown does not mean she has become a smaller child. Their shaded eyes should remain shaded. The wheel stands on dry planks under a spout, whereas the completed source wheel is placed in a pond (source near lines 417\u2013423; `book_one_later`). Before using this as the completion image, correct wheel/support/water around `(450,375,855,855)` in coordination with the environment owner. Alternatively label its production role as an earlier test and keep it exclusively in the montage. Do not manufacture a new explanation for the water source in dialogue. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "HEAD is restored byte for byte because it is the stronger painting. The children's attention stays on the wheel; soft dimensional faces, fine clothing/wood texture and warm bank detail avoid the rejected variant's hard synthetic strokes and redirected gaze. Cassia leans forward with chin on palm, accounting for a lower crown without changing peer maturity; supported hips, bent limbs and shared wheel establish depth. Original narrow lowered lids expose mostly dark pupils, catchlights and shaded sclera, with no conspicuous contradictory pigment. No eyes were opened or recolored to force visibility.",
+        "notes": "The three later-childhood figures, hands and kneels are coherent. Cassia rests her chin on a hand; her lower crown does not mean she has become a smaller child. Their shaded eyes should remain shaded. The wheel stands on dry planks under a spout, whereas the completed source wheel is placed in a pond (source near lines 417\u2013423; `book_one_later`). Before using this as the completion image, correct wheel/support/water around `(450,375,855,855)` in coordination with the environment owner. Alternatively label its production role as an earlier test and keep it exclusively in the montage. Do not manufacture a new explanation for the water source in dialogue.",
         "regions": [
           {
             "character": "Calista",
@@ -1711,6 +1817,11 @@
           "game/images/characters/book-one/calista-older.png",
           "game/images/characters/book-one/cassia-older.png",
           "game/images/characters/book-one/joren-older.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md"
         ]
       },
       "quality_review": {
@@ -1737,23 +1848,23 @@
         }
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "5bf094774526bf79a5ffd6bdd7b9e1cf2b07c74a8dd0c42778b3b43a2892f318",
-      "reviewed_reference_signature": "b07d0606630ad2a393d38f4b0421e69c6a0400d628a51c53c79436f9b0fdd68c",
+      "reviewed_sha256": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4",
+      "reviewed_reference_signature": "703c3c1670dc4852d389091adbc8b5eeb2d5c51072bfe75afc816490060e0306",
       "findings": [
         "CG-04",
         "CG-18"
       ],
-      "review_notes": "Supported cushion/hip positions and seated torso/limb scale establish comparable Calista/Cassia peers; Joren remains modestly larger.",
+      "review_notes": "Cassia\u2019s short pointed lower face and round apertures are less exaggerated. Her mouth/head slant changes slightly within the same listening/talking pose; the result still reads as Cassia facing Joren. Warm cheek/forehead shading integrates with the scene at native crop scale, without an obvious patch outline. Calista remains recognizable after the small eye edit. Seated support, map, hands and Joren remain intact; a seated crown alignment is not a stature ruler. Root inspected final combined full frame after merging only the independently reviewed branch overlay into the independently reviewed face repair. Face and branch review observations are separately recorded in the cited report. Fresh production source-art character/stage review only; runtime contacts and environment weather/time approval are separate.",
       "face_review": {
         "status": "accepted",
-        "method": "Final installed full frame and native face crops compared with selected stage sprites and the deliberately chosen earlier composition; source-to-output mask proof separately protects surrounding anatomy and texture.",
+        "method": "Fresh full-composition and native facial comparison documented in the production audits; changed face details were independently inspected, with final combined CG layers reviewed by root.",
         "checks": [
           "facial_anatomy",
           "iris_pigment_and_light",
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "The intimate tabletop conversation, map and bright open room retain their earlier framing and material detail. Calista's fuller peer-scale seated torso/limbs avoid the former much-smaller near-seat child, accounting for cushion/hip support. Cassia remains her peer and Joren modestly larger; expressions and gestures stay engaging. Warm face midtones, curls, patterned clothing, cushions and timber remain crisp at native size. Calista blue and Cassia forest-green pigment are bounded corrections; Joren's subdued profile blue remains untouched.",
+        "notes": "Cassia\u2019s short pointed lower face and round apertures are less exaggerated. Her mouth/head slant changes slightly within the same listening/talking pose; the result still reads as Cassia facing Joren. Warm cheek/forehead shading integrates with the scene at native crop scale, without an obvious patch outline. Calista remains recognizable after the small eye edit. Seated support, map, hands and Joren remain intact; a seated crown alignment is not a stature ruler. Root inspected final combined full frame after merging only the independently reviewed branch overlay into the independently reviewed face repair. Face and branch review observations are separately recorded in the cited report.",
         "regions": [
           {
             "character": "Calista",
@@ -1787,6 +1898,13 @@
           "game/images/characters/book-one/calista-young.png",
           "game/images/characters/book-one/cassia-young.png",
           "game/images/characters/book-one/joren-young.png"
+        ],
+        "production_evidence": [
+          "docs/graphics-cg-audit.md",
+          "docs/graphics-background-sprite-audit.md",
+          "docs/graphics-human-sprite-audit.md",
+          "docs/graphics-cg-repair-review.md",
+          "docs/graphics-cg-final-receipt.json"
         ]
       },
       "proportion_review": {

@@ -107,12 +107,17 @@
     {
       "file": "game/images/backgrounds/book-one/treehouse-memory.png",
       "generation": "book-one-treehouse-memory-v1",
-      "sha256": "f90215045bf2a4c2262f9f18cda26b3cd98a4e5ad02ee2c668975e19c4802913",
+      "sha256": "6333e29fb28cdd941de01093e0acd8918d7c18dcf5f33898ff0f25efd5016543",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "production_edit": {
+        "recipe_file": "docs/environment-edits.json",
+        "id": "treehouse-memory-rain-afternoon",
+        "recipe_sha256": "b8fdfb7c696a0aed2d9ad72d8c2304ac0277de807c279801f1d01af597dae225"
+      }
     },
     {
       "file": "game/images/backgrounds/book-one/waterwheel.png",
@@ -193,6 +198,51 @@
         941
       ],
       "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/workshop-waterwheel.png",
+      "generation": "book-one-workshop-v1",
+      "sha256": "614611fed18af319562a457e65417a74176a772b58eabf386f7ab44e7cf298ec",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-workshop-waterwheel",
+        "recipe_sha256": "99b633ffd7850c264af6b071db8337d97224523f536400a6982b6447f9bf28bc"
+      }
+    },
+    {
+      "file": "game/images/backgrounds/book-one/family-home-painting.png",
+      "generation": "family-home-v1",
+      "sha256": "c84cdbbf9c5f425445fad16ade67fbc18550697622a71378950147112ed8bd16",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-family-home-painting",
+        "recipe_sha256": "1677e926721133a0ca73cea43f0439a7eb65185a118162f8ad91ec929242b64d"
+      }
+    },
+    {
+      "file": "game/images/backgrounds/book-one/treehouse-later.png",
+      "generation": "treehouse-shaded-v1",
+      "sha256": "25bfec7ea7a1366a0e62c51f044eee3d6c066efef2dfff16c619cb80eb5e718a",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "production_edit": {
+        "recipe_file": "docs/environment-edits.json",
+        "id": "treehouse-later-daylight",
+        "recipe_sha256": "4008f130178a6592f046a91d4eb823cb0c7f4464cfcc036bb9b95dcc96ef1b61"
+      }
     }
   ],
   "generations": [
@@ -342,7 +392,7 @@
         "visual-novel/game/images/backgrounds/book-one/soren-workshop.png",
         "revision/latest.md"
       ],
-      "source_passage": "Book I: Early Friendships — outer construction exploration, tools and holographic architectural blueprint",
+      "source_passage": "Book I: Early Friendships \u2014 outer construction exploration, tools and holographic architectural blueprint",
       "output_id": "exec-a53541dd-5d3c-4f98-907b-267a315710c5.png"
     },
     {

@@ -47,11 +47,11 @@
         },
         {
           "file": "game/images/backgrounds/treehouse-shaded.png",
-          "role": "Approved production interior: governing room layout."
+          "role": "Governing production interior: governing room layout."
         },
         {
           "file": "game/images/backgrounds/garden.png",
-          "role": "Approved production exterior derived from the interior."
+          "role": "Governing production exterior derived from the interior."
         }
       ],
       "invariants": [
@@ -88,12 +88,12 @@
         {
           "id": "tree-interior-landmarks",
           "authority": "production",
-          "text": "In the canonical interior camera, the massive diagonal trunk is left, the arched door behind it near the center-left, and repeated open viewing bays/branch rails/rust curtains extend across the right. The low round map table is near right foreground."
+          "text": "In the canonical interior camera, the massive diagonal trunk is left, the arched door behind it near center-left, and open viewing bays/branch rails/curtains extend across the right. The initial low round map table sits near the right foreground; later furniture and dressing may change while retaining coherent access and support."
         },
         {
           "id": "tree-weather-only",
           "authority": "production",
-          "text": "Dry, rainy and remembrance background variants retain camera, trunk, door, beams, rails, table and cushion positions. Rain is outside the sheltered room; no glazing is added. Drawings/messages may be added in remembrance."
+          "text": "Weather and later-time variants preserve the room's structural shell and connected access: trunk, door, beams, open viewing bays and rails stay coherent. Weather and light must be visibly distinct where the scene requires it; no glazing is added. Furniture, cushions, papers and other lived-in dressing may move or accumulate across years and must not be frozen in identical positions solely for pixel consistency."
         },
         {
           "id": "tree-human-scale",
@@ -104,6 +104,11 @@
           "id": "tree-no-extra-buildings",
           "authority": "production",
           "text": "An image assigned to the canonical garden approach cannot add a new cluster of cottage-like tree buildings or a bridge route in place of the established ground path."
+        },
+        {
+          "id": "tree-lived-in-time",
+          "authority": "author",
+          "text": "The early shaded room, rainy refuge and later remembrance state must show readable outdoor/light/weather differences and appropriate lived-in changes across the intervening years. Reusing an architectural shell is not a requirement to repeat all furniture and exterior appearance."
         }
       ],
       "views": [
@@ -433,6 +438,33 @@
       "finding": "The untracked approach adds cottage-like structures and a raised rail/bridge route, so it does not read as the established garden ground path and one oak refuge.",
       "correction": "Use garden-close.png as the environmental base for the trio walking/reading a map. Keep a ground-level stone path and planting beds. Avoid extra cabin entrances or a new bridge complex. If the oak is visible, use garden.png for its fixed layout; otherwise leave it outside the frame.",
       "resolution": "Corrected an unsupported location assignment rather than rewriting the source. This theme exploration shot is a distinct Lumen neighborhood path, consistent with Book I interconnected pathways. It does not depict Maia's garden oak or establish a second version of that building. Art quality and final pixel review remain separate."
+    },
+    {
+      "id": "TH-TIME-1",
+      "status": "resolved",
+      "file": "game/images/backgrounds/treehouse-shaded.png",
+      "severity": "blocking",
+      "finding": "Author rejected insufficient weather/outdoor/time variation and effectively frozen furnishings across early, rainy and later remembrance states.",
+      "correction": "Retain recognizable architectural structure and connected access; make required weather/light changes readable and give later furniture/dressing appropriate evidence of intervening life. Review current source chronology and the new full compositions before renewing approval.",
+      "resolution": "Superseded the rejected near-identical states with four source-timed daylight/rain and early/later furniture paintings. Root and independent full/native source reviews accepted the exact new states; fifteen actual native state captures verified visible weather, furniture chronology, familiar supports and final daylight comfort transition. See docs/graphics-environments.md and final refresh in docs/graphics-runtime-review.md. This is scoped reviewer acceptance, not author signoff."
+    },
+    {
+      "id": "TH-TIME-2",
+      "status": "resolved",
+      "file": "game/images/backgrounds/treehouse-rain.png",
+      "severity": "blocking",
+      "finding": "Author rejected insufficient weather/outdoor/time variation and effectively frozen furnishings across early, rainy and later remembrance states.",
+      "correction": "Retain recognizable architectural structure and connected access; make required weather/light changes readable and give later furniture/dressing appropriate evidence of intervening life. Review current source chronology and the new full compositions before renewing approval.",
+      "resolution": "Superseded the rejected near-identical states with four source-timed daylight/rain and early/later furniture paintings. Root and independent full/native source reviews accepted the exact new states; fifteen actual native state captures verified visible weather, furniture chronology, familiar supports and final daylight comfort transition. See docs/graphics-environments.md and final refresh in docs/graphics-runtime-review.md. This is scoped reviewer acceptance, not author signoff."
+    },
+    {
+      "id": "TH-TIME-3",
+      "status": "resolved",
+      "file": "game/images/backgrounds/book-one/treehouse-memory.png",
+      "severity": "blocking",
+      "finding": "Author rejected insufficient weather/outdoor/time variation and effectively frozen furnishings across early, rainy and later remembrance states.",
+      "correction": "Retain recognizable architectural structure and connected access; make required weather/light changes readable and give later furniture/dressing appropriate evidence of intervening life. Review current source chronology and the new full compositions before renewing approval.",
+      "resolution": "Superseded the rejected near-identical states with four source-timed daylight/rain and early/later furniture paintings. Root and independent full/native source reviews accepted the exact new states; fifteen actual native state captures verified visible weather, furniture chronology, familiar supports and final daylight comfort transition. See docs/graphics-environments.md and final refresh in docs/graphics-runtime-review.md. This is scoped reviewer acceptance, not author signoff."
     }
   ],
   "assets": [
@@ -457,8 +489,13 @@
       "review_status": "consistent",
       "reviewed_sha256": "e32d470defeda7faccd5e6fa1c08125faf9e60f818506e6cb15aae364725d243",
       "findings": [],
-      "review_notes": "Governing exterior shows both levels and the full lower refuge; do not replace its floor with beds.",
-      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+      "review_notes": "Governing exterior shows both levels and the full lower refuge; do not replace its floor with beds. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-support-art-review.md",
+        "docs/graphics-background-sprite-audit.md"
+      ]
     },
     {
       "file": "game/images/backgrounds/treehouse-shaded.png",
@@ -474,13 +511,22 @@
         "tree-room-materials",
         "tree-interior-landmarks",
         "tree-weather-only",
-        "tree-human-scale"
+        "tree-human-scale",
+        "tree-lived-in-time"
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "9dcbc10785238d2c964cbc32b24451e63f8228173270c052394d8fe8bc74dda9",
-      "findings": [],
-      "review_notes": "Governing dry interior.",
-      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+      "reviewed_sha256": "ed727c67e4e6628eef1e2ba9820b70a1d98cd32b4d71e4c04100f4508e9d16d3",
+      "findings": [
+        "TH-TIME-1"
+      ],
+      "review_notes": "Early green daylight, five generic childhood drawings and original lower table are distinct from the rainy/later states. Fixed open bays, trunk and connected door remain. Actual source chronology/full/native review is in docs/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
+      "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-environment-state-audit.md",
+        "docs/graphics-runtime-review.md",
+        "docs/graphics-runtime-environment-inputs.json"
+      ]
     },
     {
       "file": "game/images/backgrounds/treehouse-rain.png",
@@ -494,13 +540,22 @@
         "tree-room-materials",
         "tree-interior-landmarks",
         "tree-weather-only",
-        "tree-human-scale"
+        "tree-human-scale",
+        "tree-lived-in-time"
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "99e7ba8ea62daa5a42ad490a71dd33fa23204f958152f8d9fa9ae0491d3459f6",
-      "findings": [],
-      "review_notes": "Same camera and furniture with visible rain outside.",
-      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+      "reviewed_sha256": "9a21aab8edb8f0424464e4106cf5e8700b62d35de806ab90c38b1d14624ea456",
+      "findings": [
+        "TH-TIME-2"
+      ],
+      "review_notes": "Early rainy afternoon has cooler mist/wet canopy and restrained outdoor rain, retaining early furniture and a dry sheltered room. Actual source chronology/full/native review is in docs/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
+      "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-environment-state-audit.md",
+        "docs/graphics-runtime-review.md",
+        "docs/graphics-runtime-environment-inputs.json"
+      ]
     },
     {
       "file": "game/images/backgrounds/book-one/treehouse-memory.png",
@@ -514,13 +569,22 @@
         "tree-room-materials",
         "tree-interior-landmarks",
         "tree-weather-only",
-        "tree-human-scale"
+        "tree-human-scale",
+        "tree-lived-in-time"
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "f90215045bf2a4c2262f9f18cda26b3cd98a4e5ad02ee2c668975e19c4802913",
-      "findings": [],
-      "review_notes": "Same rainy refuge; added drawings/messages do not relocate the room.",
-      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+      "reviewed_sha256": "6333e29fb28cdd941de01093e0acd8918d7c18dcf5f33898ff0f25efd5016543",
+      "findings": [
+        "TH-TIME-3"
+      ],
+      "review_notes": "Later rainy remembrance retains the evolved furniture and accumulated wall drawings/messages. It does not reuse the obsolete foreground-table overlay. Actual source chronology/full/native review is in docs/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
+      "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-environment-state-audit.md",
+        "docs/graphics-runtime-review.md",
+        "docs/graphics-runtime-environment-inputs.json"
+      ]
     },
     {
       "file": "game/images/cg/book-one/treehouse-friends.png",
@@ -535,10 +599,15 @@
         "tree-human-scale"
       ],
       "review_status": "consistent_crop",
-      "reviewed_sha256": "5bf094774526bf79a5ffd6bdd7b9e1cf2b07c74a8dd0c42778b3b43a2892f318",
+      "reviewed_sha256": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4",
       "findings": [],
-      "review_notes": "Final close table group retains the large left trunk, arched entry behind and open right viewing bays. Shared map table and cushions support the seated bodies; Cali has comparable peer torso/limbs. Final local iris retouches leave those room/body pixels identical to the inspected composition.",
-      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+      "review_notes": "Final close table group retains the large left trunk, arched entry behind and open right viewing bays. Shared map table and cushions support the seated bodies; Cali has comparable peer torso/limbs. Final local iris retouches leave those room/body pixels identical to the inspected composition. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-support-art-review.md",
+        "docs/graphics-background-sprite-audit.md"
+      ]
     },
     {
       "file": "game/images/cg/book-one/cassia-comfort.png",
@@ -553,10 +622,16 @@
         "tree-human-scale"
       ],
       "review_status": "consistent_crop",
-      "reviewed_sha256": "0083b1675573b96c77f905f3daea75e48f8a02d151715ef02418ef080122acd0",
+      "reviewed_sha256": "e656c47c19a9c9ef5f273c041d149db9078e58d99dc63a755f759d2c0a9c825e",
       "findings": [],
-      "review_notes": "Seated girls beside the trunk; original door, right bays and near table remain visible.",
-      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+      "review_notes": "Final later daylight and furniture match the preceding room; complete green window bays retain structural rails and support. Figures, faces and joined hands remain outside environment masks. Actual source chronology/full/native review is in docs/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
+      "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-environment-state-audit.md",
+        "docs/graphics-runtime-review.md",
+        "docs/graphics-runtime-environment-inputs.json"
+      ]
     },
     {
       "file": "game/images/cg/book-one/theme-sketch-laughter.png",
@@ -573,8 +648,13 @@
       "review_status": "consistent_crop",
       "reviewed_sha256": "834fd2c8430fe29da8d504b36170d417e3a7bfff710d014b4a2e6229ae7d73d8",
       "findings": [],
-      "review_notes": "Final close laughter/table crop retains compatible timber room, open bay and supported hands around the shared drawing. Anatomy correction restores a natural Cassia smile; local iris correction changes no room/table/hand pixels. Tight crop cannot certify offscreen floor geometry, and does not invent a second plan.",
-      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+      "review_notes": "Final close laughter/table crop retains compatible timber room, open bay and supported hands around the shared drawing. Anatomy correction restores a natural Cassia smile; local iris correction changes no room/table/hand pixels. Tight crop cannot certify offscreen floor geometry, and does not invent a second plan. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-support-art-review.md",
+        "docs/graphics-background-sprite-audit.md"
+      ]
     },
     {
       "file": "game/images/cg/book-one/theme-evening-reading.png",
@@ -591,8 +671,13 @@
       "review_status": "consistent_crop",
       "reviewed_sha256": "3600e695c1bddaf867faa04d5f157faf323012e269626fcce8fa5aab247627fc",
       "findings": [],
-      "review_notes": "Cali sits with a sketchbook on her lap beside cushions, shelf and open rail; no added desk or glazed window is established.",
-      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+      "review_notes": "Cali sits with a sketchbook on her lap beside cushions, shelf and open rail; no added desk or glazed window is established. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-support-art-review.md",
+        "docs/graphics-background-sprite-audit.md"
+      ]
     },
     {
       "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
@@ -608,12 +693,17 @@
         "tree-interior-landmarks"
       ],
       "review_status": "consistent_crop",
-      "reviewed_sha256": "7525e3f19fab329fb96b0ed6d1ac6c1aa06db608b8197ad8d7b83fbd3c5554a6",
+      "reviewed_sha256": "9358565397facaa82363d8960e0df9fe6b3352c87f8e40ee6025957d10e04b72",
       "findings": [
         "TH-01"
       ],
-      "review_notes": "Final warm close camera is inside the broad upper room: enormous diagonal oak at left, single real arched exterior entry behind the girls, continuous timber floor, open bays and branch rails on the right, map table at right foreground. The erroneous second door is absent; Joren touches the real bay post. Figures are cropped below thighs rather than shrunk to fit the whole room. Local iris proof preserves this geometry exactly.",
-      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+      "review_notes": "Final warm close camera is inside the broad upper room: enormous diagonal oak at left, single real arched exterior entry behind the girls, continuous timber floor, open bays and branch rails on the right, map table at right foreground. The erroneous second door is absent; Joren touches the real bay post. Figures are cropped below thighs rather than shrunk to fit the whole room. Local iris proof preserves this geometry exactly. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-support-art-review.md",
+        "docs/graphics-background-sprite-audit.md"
+      ]
     },
     {
       "file": "game/images/cg/book-one/theme-morning-outlook.png",
@@ -631,12 +721,17 @@
         "tree-human-scale"
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "61382b336aeb7c7989e7339855dbf89337e0f9c29ab5a90cbd04bb25b147834f",
+      "reviewed_sha256": "1a0edf4cbbf8ff03ff42dce399c02f7e0780232a654f82662759faeece2ddc45",
       "findings": [
         "TH-02"
       ],
-      "review_notes": "Final foreground Calista stands nearer the camera on the garden route, with the building behind her: massive oak at right, broad raised room extending left, real upper entry beside trunk, connected ladder, separate lower hollow and lower sitting refuge with cushions/table/chests. Her closer portrait scale does not put a giant figure on the distant deck. Bright sunrise and detailed character presence are restored. Only64iris pixels changed after this geometry inspection.",
-      "reviewed_reference_signature": "12736c0323295c8dee7377c88ca8b3d73a6232031c5e1ffec3d33e64eab7c899"
+      "review_notes": "Final foreground Calista stands nearer the camera on the garden route, with the building behind her: massive oak at right, broad raised room extending left, real upper entry beside trunk, connected ladder, separate lower hollow and lower sitting refuge with cushions/table/chests. Her closer portrait scale does not put a giant figure on the distant deck. Bright sunrise and detailed character presence are restored. Only64iris pixels changed after this geometry inspection. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-support-art-review.md",
+        "docs/graphics-background-sprite-audit.md"
+      ]
     },
     {
       "file": "game/images/cg/book-one/theme-path-friends.png",
@@ -709,10 +804,15 @@
         "garden-palette"
       ],
       "review_status": "consistent_crop",
-      "reviewed_sha256": "cc409a5fd4996cf8839252c402efda8ef611da9670e82426e2611b07ba531c51",
+      "reviewed_sha256": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b",
       "findings": [],
-      "review_notes": "Close sunflower exploration; no contradictory building footprint visible.",
-      "reviewed_reference_signature": "5c370d8e211fde8e5c97895a9a706802af6a55060ad15d3098e8516f5a41d404"
+      "review_notes": "Close sunflower exploration; no contradictory building footprint visible. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "reviewed_reference_signature": "5c370d8e211fde8e5c97895a9a706802af6a55060ad15d3098e8516f5a41d404",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-support-art-review.md",
+        "docs/graphics-background-sprite-audit.md"
+      ]
     },
     {
       "file": "game/images/cg/book-one/theme-insect-discovery.png",
@@ -820,10 +920,15 @@
         "pond-working-bank"
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "56074675442f5eee3db5506e1a0816d2fc52e385bdbc175518612d9a34fc6f43",
+      "reviewed_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
       "findings": [],
-      "review_notes": "Restored strongest HEAD painting preserves the same stone-edged shallow basin and dry foreground. Cali kneels upright holding smaller Lyra; Kael squats farther back with boots on the paving and long arms resting on his knees. Barkley and Shadow have supporting paws on the dry bank. The lower Kael crown follows pose/depth; body enlargement was unnecessary and degraded fur/ground detail. Final97pixel iris correction leaves every supporting surface/body pixel identical.",
-      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+      "review_notes": "Restored strongest HEAD painting preserves the same stone-edged shallow basin and dry foreground. Cali kneels upright holding smaller Lyra; Kael squats farther back with boots on the paving and long arms resting on his knees. Barkley and Shadow have supporting paws on the dry bank. The lower Kael crown follows pose/depth; body enlargement was unnecessary and degraded fur/ground detail. Final97pixel iris correction leaves every supporting surface/body pixel identical. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-support-art-review.md",
+        "docs/graphics-background-sprite-audit.md"
+      ]
     },
     {
       "file": "game/images/cg/book-one/theme-waterwheel-team.png",
@@ -857,10 +962,15 @@
         "pond-rescue-physics"
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "0de515348590fbc8aff39736ad072e1c1c07d7ccb967fdd847dd5e4a75f009fb",
+      "reviewed_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
       "findings": [],
-      "review_notes": "Final rescue retains supported knees/hands on the shallow stone edge, smaller Lyra in the water and accessible dry bank for the dog and cat. Only Calista iris pigment changes; Kael shaded sclera is preserved. Existing basin, timber boundary and planting landmarks are pixel-identical outside those63pixels.",
-      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce"
+      "review_notes": "Final rescue retains supported knees/hands on the shallow stone edge, smaller Lyra in the water and accessible dry bank for the dog and cat. Only Calista iris pigment changes; Kael shaded sclera is preserved. Existing basin, timber boundary and planting landmarks are pixel-identical outside those63pixels. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "reviewed_reference_signature": "116a887fb1fc091510cfe5517b84af582e332929fc1ed1074da3edab3545c5ce",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-support-art-review.md",
+        "docs/graphics-background-sprite-audit.md"
+      ]
     },
     {
       "file": "game/images/backgrounds/book-one/waterwheel.png",
@@ -971,10 +1081,15 @@
         "courtyard-small-circle"
       ],
       "review_status": "consistent_crop",
-      "reviewed_sha256": "74608e12c38015c5129b3c08db5af53d267d4e35b473857acf2d398d85ac3503",
+      "reviewed_sha256": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c",
       "findings": [],
-      "review_notes": "Final courtyard storytelling circle retains its intimate audience, steps and rounded background openings. It is a separate smaller venue from the festival/memorial plaza. Calista31pixel iris correction leaves courtyard, listeners and props exactly unchanged.",
-      "reviewed_reference_signature": "93fc6183dd603c2de212f2ff3be2af1de247b3e4d68cb0090d47ca3b111171ad"
+      "review_notes": "Final courtyard storytelling circle retains its intimate audience, steps and rounded background openings. It is a separate smaller venue from the festival/memorial plaza. Calista31pixel iris correction leaves courtyard, listeners and props exactly unchanged. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "reviewed_reference_signature": "93fc6183dd603c2de212f2ff3be2af1de247b3e4d68cb0090d47ca3b111171ad",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-support-art-review.md",
+        "docs/graphics-background-sprite-audit.md"
+      ]
     },
     {
       "file": "game/images/backgrounds/book-one/memory-mural-v2.png",
@@ -992,6 +1107,34 @@
       "findings": [],
       "review_notes": "Painted treehouse/adventure images are stylized memories, not replacement architecture.",
       "reviewed_reference_signature": "e0de6e044f33d471586fa47c454a337d1b9f480f33c0dfa761175a7f4d381a79"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/treehouse-later.png",
+      "location_id": "maia_treehouse",
+      "view_id": "upper_interior_wide",
+      "story_scene_keys": [
+        "treehouse_dispute",
+        "cassia_grief"
+      ],
+      "closing_theme_starts": [],
+      "required_invariants": [
+        "tree-room-materials",
+        "tree-interior-landmarks",
+        "tree-weather-only",
+        "tree-human-scale",
+        "tree-lived-in-time"
+      ],
+      "review_status": "consistent",
+      "reviewed_sha256": "25bfec7ea7a1366a0e62c51f044eee3d6c066efef2dfff16c619cb80eb5e718a",
+      "findings": [],
+      "review_notes": "Later daytime room visibly moves the worktable to the window, adds low stools/drawing storage and rearranges textiles; no memorial papers are introduced before loss. Actual source chronology/full/native review is in docs/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
+      "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
+      "production_evidence": [
+        "docs/graphics-environments.md",
+        "docs/graphics-environment-state-audit.md",
+        "docs/graphics-runtime-review.md",
+        "docs/graphics-runtime-environment-inputs.json"
+      ]
     }
   ]
 }

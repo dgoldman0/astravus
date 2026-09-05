@@ -1,10 +1,23 @@
 # Release acceptance matrix — 0.1-alpha
 
-The [machine-readable matrix](release-matrix.json) is the final-pass checklist. It covers **32 story scenes, 75 selected images and 22 shared release checks**. The [evidence register](release-evidence.json) holds one current receipt per check. No earlier development log is automatically a pass for the new build.
+The [machine-readable matrix](release-matrix.json) is the final-pass checklist. It covers **32 story scenes, 75 selected images and 23 shared release checks**. The [evidence register](release-evidence.json) holds one current receipt per check. No earlier development log is automatically a pass for the new build.
 
 Run `python3 scripts/project.py review` from `visual-novel/` to see current results. This also writes a full table to `test-results/release-matrix-status.md` and structured status to the adjacent JSON file. Each receipt identifies its reviewer, method, UTC date, exact input signature, evidence files and their hashes. A missing or changed source, new file in the reviewed scope, altered acceptance criterion, changed reference or modified evidence makes an earlier result **STALE**.
 
 **A technical check does not approve artistic quality.** A file hash records which picture was inspected; it cannot tell whether Cassia's face is natural, whether the children look the right age, whether a composition has become dull, or whether the story flows. Manual rows require an explicit comparison and observations. Required checks cannot be waived as platform limitations.
+
+The author's September 5 review reopened creative approval. The bounded design
+demonstration is now archived; the authorized production graphics pass is
+recorded separately in [GRAPHICS_POLISH.md](GRAPHICS_POLISH.md) and its 78-image
+ledger. Its current source/native findings replace the old graphics checkpoint
+for that scope. The release matrix still describes the earlier 75-image export
+set and must be reconciled before full release signoff. Its prior passing rows
+are not automatically renewed for changed production assets.
+
+The separate required `score-editorial` row continues to cover musical variety
+and emotional fit through contextual listening. No graphics-only review grants
+story/audio approval, validates another platform, or certifies an old archive as
+a newly polished build.
 
 ## Governing references
 
@@ -16,7 +29,7 @@ Run `python3 scripts/project.py review` from `visual-novel/` to see current resu
 | Relative stature | [Shared layout contract](../game/character_layout.json). Calista and Cassia are near-equal peers; Joren is modestly taller; Kael reads older/larger and Lyra distinctly smaller. These are production proportions, not invented canonical centimeters. Seated and kneeling CGs must use actual torso/limb/support-plane evidence. |
 | Places and physical action | [Location register](location-continuity.json). The treehouse keeps its upper room, connected ladder/door and separate lower hollow; plaza variants keep landmarks and believable attendance; garden pots and pond action have plausible support surfaces. |
 | Artistic quality | A separate `quality-*` row for **every selected image** requires a deliberately chosen prior Git/generation/reference image. Compare focal presence, lighting and tonal depth, material detail, anatomy/expression, identity/stage, sharpness and accumulated edit degradation. The candidate from commit `7b1c760` is a comparison starting point, not an automatic assertion that it is the best version. Author rejection blocks approval even when iris, height and geometry checks pass. |
-| Sound | [Audio direction](AUDIO_DIRECTION.md), source audio provenance and actual cue placements/gains. Preserve the broken first breath, later hesitant phrase and practiced melody in order. Check all delivered audio technically and distinguish cue review from unperformed subjective listening. |
+| Sound | [Audio direction](AUDIO_DIRECTION.md), source audio provenance and actual cue placements/gains. Preserve the broken first breath, later hesitant phrase and practiced melody in order. Check all delivered audio technically; a separate required listening review establishes musical variety, phrasing, instrumentation, emotional fit and purposeful silence. Cue order or loudness cannot pass that review. |
 | Theme | [Cue sheet](../game/closing_theme.json), [motion review](POLISH_MOTION.md) and [song provenance](closing-theme-audio.json). Character presence, varied framing, stable camera motion and blended fades must coexist with approved art. The closing song recalls earlier happiness; it is not a new adventure after Joren's death. |
 | Reader usability | Separate manual `reader-usability` review checks discoverable labels, text/contrast/spacing, keyboard focus and pointer targets, predictable Back/Cancel/Escape, safe warnings, save/load and empty states, knowledge-page navigation and theme feedback. Functional assertions do not replace this review. |
 | Reader controls | Normal-play and jump/save/rollback state, People/familiars, growing glossary, chapter warnings and opt-out, menus, navigation, text layout, reduced motion, theme pause/skip/replay and channel cleanup. |
@@ -57,7 +70,7 @@ The register stores one latest result for each row and writes atomically so simu
 
 The phases separate checks by the artifacts they need:
 
-1. **Content:** all scene/source reviews, per-image quality approvals, character/location comparisons, terminology, credits, asset guards, audio measurements, regressions and lint.
+1. **Content:** all scene/source reviews, per-image quality approvals, character/location comparisons, terminology, credits, asset guards, audio measurements, musical editorial/listening review, regressions and lint.
 2. **Runtime:** final native playthrough, framing, glossary/theme tests, actual scene/UI review and audio cue review.
 3. **Exports:** final browser behavior and presentation, ZIP integrity/source equality, final movie decode/editorial review and target-platform limitations.
 

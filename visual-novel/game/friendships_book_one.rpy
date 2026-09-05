@@ -108,7 +108,7 @@ label chapter_kaleb_walk:
 label book_one_later:
     $ enter_scene("waterwheel")
     $ childhood_stage = "later"
-    scene bg workshop
+    scene bg workshop_waterwheel
     with mood_transition()
     play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/workshop_air.ogg" fadeout 1.0 fadein 1.0 if_changed
@@ -242,7 +242,7 @@ label chapter_dome_ascent:
 
 label chapter_treehouse_dispute:
     $ enter_scene("treehouse_dispute")
-    scene bg treehouse
+    scene bg treehouse_later
     with mood_transition()
     play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0 if_changed
@@ -263,9 +263,10 @@ label chapter_treehouse_dispute:
     a "Hey, hey. Let's take a breath."
     a "We're a team, remember? Even the heroes in stories disagree sometimes—but they find a way."
     n "Even Shadow, who usually stayed out of our arguments, jumped onto the table between us, meowing loudly as if to say, 'Listen to Cassia!'"
-    show shadow at familiar_at(1130, 795, 240)
-    show barkley at familiar_at(190, 795, 330)
-    show nibble at familiar_at(735, 805, 95)
+    # The friends have moved the table toward the window as they grew.
+    show shadow at familiar_at(1300, 667, 220)
+    show barkley at familiar_at(1000, 930, 330)
+    show nibble at familiar_at(675, 850, 90)
     with mood_transition()
     n "Barkley sat down and whined softly, looking between Joren and me with concerned eyes. And Nibble ran circles around us, trying to lighten the mood with her antics."
     n "Her words, along with the pets' actions, were a reminder of the importance of cooperation, and we reluctantly agreed to put aside our differences and find a compromise."
@@ -326,7 +327,7 @@ label chapter_family_grief:
 
 label chapter_painting_grief:
     $ enter_scene("painting_grief")
-    scene bg family_home
+    scene bg family_home_painting
     with mood_transition()
     show calista painting at at_left
     with mood_transition()
@@ -347,7 +348,7 @@ label chapter_painting_grief:
 
 label chapter_cassia_grief:
     $ enter_scene("cassia_grief")
-    scene bg treehouse
+    scene bg treehouse_later
     with mood_transition()
     play ambience "audio/garden_air.ogg" fadeout 2.0 fadein 2.0 if_changed
     show calista mourning at at_left

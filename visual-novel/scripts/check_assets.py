@@ -2,15 +2,107 @@
 """Verify selected images, provenance, and current location continuity reviews."""
 from __future__ import annotations
 
+import argparse
 import hashlib
+import io
 import json
 from pathlib import Path
+import re
+import subprocess
 
-from PIL import Image
+from PIL import Image, ImageChops
 
 PROJECT = Path(__file__).resolve().parents[1]
 REPOSITORY = PROJECT.parent
 MANIFESTS = ("assets.json", "character-assets.json", "environment-assets.json", "familiar-assets.json")
+PRODUCTION_REGISTERS = ("docs/graphics-edits.json", "docs/environment-edits.json")
+
+
+def check_production_edit(item, picture_path=None):
+    """Check edit lineage and technical receipts, without approving appearance.
+
+The producer owns its operation-specific mask/geometry verification. This guard
+binds that receipt to the exact recipe, source bytes, script and installed result;
+it independently checks canvas/mode and the total changed-pixel count. Geometry
+may deliberately move lids/pupils, so iris-only protection is not imposed here.
+"""
+    name = item["file"]
+    post = item["production_edit"]
+    assert "postprocess" not in item, f"Ambiguous active iris and production edits: {name}"
+    assert post["recipe_file"] in PRODUCTION_REGISTERS, f"Unknown production edit register: {name}"
+    data = json.loads((PROJECT / post["recipe_file"]).read_text())
+    assert data["schema_version"] == 1, f"Unknown production edit schema: {name}"
+    edits = {entry["id"]: entry for entry in data["edits"]}
+    assert len(edits) == len(data["edits"]), "Duplicate production edit IDs"
+    assert post["id"] in edits, f"Missing production edit: {name}"
+    recipe = edits[post["id"]]
+    signature = hashlib.sha256(json.dumps(recipe, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+    assert signature == post["recipe_sha256"], f"Production recipe changed: {name}"
+    assert recipe["file"] == name and recipe["source_generation"] == item["generation"], f"Production lineage mismatch: {name}"
+    assert recipe["output_sha256"] == item["sha256"], f"Production output mismatch: {name}"
+    size = recipe.get("dimensions", recipe.get("size"))
+    assert size == item["size"] and recipe["mode"] == item["mode"], f"Production canvas/mode mismatch: {name}"
+    if "dimensions" in recipe and "size" in recipe:
+        assert recipe["dimensions"] == recipe["size"], f"Conflicting production dimensions: {name}"
+    assert recipe["operations"] and recipe["mask_geometry"], f"Missing explicit operation/mask geometry: {name}"
+    script = (PROJECT / recipe["script_file"]).resolve()
+    assert script.is_relative_to(PROJECT / "scripts") and script.is_file(), f"Missing/outside production script: {name}"
+    assert hashlib.sha256(script.read_bytes()).hexdigest() == recipe["script_sha256"], f"Production script changed: {name}"
+    for dependency in recipe.get("dependencies", []):
+        path = (PROJECT / dependency["file"]).resolve()
+        assert path.is_relative_to(PROJECT / "scripts") and path.is_file(), f"Missing/outside production dependency: {name}"
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == dependency["sha256"], f"Production dependency changed: {name}"
+    assert recipe["sources"], f"Missing immutable production sources: {name}"
+    baseline = None
+    for source in recipe["sources"]:
+        path = (PROJECT / source["file"]).resolve()
+        assert path.is_relative_to(REPOSITORY), f"Production source path outside repository: {name}"
+        assert re.fullmatch(r"[0-9a-f]{64}", source["sha256"]), f"Invalid production source SHA256: {name}"
+        if source.get("git_blob"):
+            assert re.fullmatch(r"(?:[0-9a-f]{40}|[0-9a-f]{64})", source["git_blob"]), f"Invalid immutable Git blob: {name}"
+            raw = subprocess.check_output(["git", "cat-file", "blob", source["git_blob"]], cwd=REPOSITORY)
+        else:
+            assert path.is_file(), f"Missing retained production source: {path}"
+            raw = path.read_bytes()
+        assert hashlib.sha256(raw).hexdigest() == source["sha256"], f"Production source bytes changed: {name}"
+        if baseline is None:
+            with Image.open(io.BytesIO(raw)) as picture:
+                baseline = picture.copy()
+    for pointer in recipe.get("material_provenance", []):
+        assert pointer["registry_file"] == "docs/graphics-sources/materials.json", f"Unknown generated-material register: {name}"
+        materials = json.loads((PROJECT / pointer["registry_file"]).read_text())["materials"]
+        selected = [material for material in materials if material["id"] == pointer["id"]]
+        assert len(selected) == 1, f"Missing/ambiguous generated material: {name}"
+        material = selected[0]
+        signature = hashlib.sha256(json.dumps(material, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+        assert signature == pointer["record_sha256"], f"Generated-material provenance changed: {name}"
+        assert any(source["file"] == material["generated_material"] and source["sha256"] == material["sha256"] for source in recipe["sources"]), f"Material absent from real edit inputs: {name}"
+        prompt = (PROJECT / material["prompt_file"]).resolve()
+        assert prompt.is_relative_to(PROJECT / "docs/graphics-sources") and prompt.is_file(), f"Missing material prompt: {name}"
+        assert hashlib.sha256(prompt.read_bytes()).hexdigest() == material["prompt_sha256"], f"Material prompt changed: {name}"
+    proof = recipe["verification"]
+    assert proof["canvas_and_mode_unchanged"] is True, f"Production canvas change needs another contract: {name}"
+    assert list(baseline.size) == size and baseline.mode == item["mode"], f"Primary source canvas/mode differs: {name}"
+    changed = proof["changed_pixels"]
+    assert isinstance(changed, int) and 0 < changed <= size[0] * size[1], f"Invalid production change count: {name}"
+    if "outside_mask_pixels_changed" in proof:
+        assert proof["outside_mask_pixels_changed"] == 0 and proof.get("outside_mask_identical") is True, f"Production changed outside its asserted mask: {name}"
+    if proof.get("outside_mask_identical") is True:
+        assert proof.get("outside_mask_pixels_changed") == 0, f"Missing outside-mask count: {name}"
+    for protected_count in ("protected_pupil_and_catchlight_pixels_changed", "protected_pupil_and_highlight_pixels_changed"):
+        if protected_count in proof:
+            assert proof[protected_count] == 0, f"Production changed an explicitly protected region: {name}"
+    output_path = picture_path or PROJECT / name
+    assert hashlib.sha256(output_path.read_bytes()).hexdigest() == recipe["output_sha256"], f"Selected production PNG changed: {name}"
+    with Image.open(output_path) as picture:
+        assert list(picture.size) == size and picture.mode == item["mode"], f"Production file canvas/mode differs: {name}"
+        channels = ImageChops.difference(baseline, picture).split()
+        changed_mask = channels[0]
+        for channel in channels[1:]:
+            changed_mask = ImageChops.lighter(changed_mask, channel)
+        actual_changed = size[0] * size[1] - changed_mask.histogram()[0]
+    assert actual_changed == changed, f"Production changed-pixel receipt differs from real output: {name}"
+    return post["recipe_file"], post["id"]
 
 
 def location_reference_signature(location):
@@ -145,12 +237,13 @@ def check_location_continuity(assets):
     print(f"Location continuity passed: {len(registered)} reviewed images across {len(locations)} locations.")
 
 
-def check():
+def check(*, provenance_only=False):
     assets = {}
     generations = {}
     retouch_file = PROJECT / "docs/iris-retouches.json"
     retouches = {r["id"]: r for r in json.loads(retouch_file.read_text())["retouches"]} if retouch_file.exists() else {}
     selected_retouches = set()
+    selected_production_edits = set()
     for name in MANIFESTS:
         data = json.loads((PROJECT / "docs" / name).read_text())
         for item in data["assets"]:
@@ -174,6 +267,8 @@ def check():
             assert picture.mode == item["mode"], f"Color mode: {name}"
             picture.verify()
         assert item["generation"] in generations, f"Missing generation: {name}"
+        if "production_edit" in item:
+            selected_production_edits.add(check_production_edit(item))
         if "postprocess" in item:
             post = item["postprocess"]
             assert post["recipe_file"] == "docs/iris-retouches.json", f"Unknown retouch register: {name}"
@@ -226,12 +321,17 @@ def check():
 
     for name in generations:
         visit(name)
+    if provenance_only:
+        print(f"Technical provenance passed: {len(assets)} selected images, {len(selected_production_edits)} production edits. Visual acceptance and runtime framing were not checked.")
+        return
     check_location_continuity(assets)
     check_cg_characters(assets)
     from character_layout import check as check_character_layout
     check_character_layout()
-    print(f"Image audit passed: {len(assets)} selected files; {len(generations)} complete generation records.")
+    print(f"Image audit passed: {len(assets)} selected files; {len(generations)} complete generation records; {len(selected_production_edits)} production edits.")
 
 
 if __name__ == "__main__":
-    check()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--provenance-only", action="store_true", help="Check selected bytes and edit lineage without claiming visual acceptance or runtime framing")
+    check(provenance_only=parser.parse_args().provenance_only)

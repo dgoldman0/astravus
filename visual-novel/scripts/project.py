@@ -201,7 +201,7 @@ def main():
                            help="Build temporary test artifacts before content approval; excluded from final release signoff")
     test = commands.add_parser("test")
     test.add_argument("--headless", action="store_true")
-    test.add_argument("--suite", choices=("chapter_playthrough", "closing_theme_review", "character_framing_review", "glossary_review", "environment_grounding_review"),
+    test.add_argument("--suite", choices=("chapter_playthrough", "closing_theme_review", "character_framing_review", "glossary_review", "environment_grounding_review", "environment_state_review"),
                       default="chapter_playthrough")
     review = commands.add_parser("review", help="Show the current release acceptance matrix")
     review.add_argument("--phase", choices=("content", "runtime", "exports"), default="exports")

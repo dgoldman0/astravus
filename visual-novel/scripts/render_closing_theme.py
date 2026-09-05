@@ -41,6 +41,22 @@ def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def delivery_video_args(total_frames):
+    """Avoid encoder texture refresh during a deliberately motionless hold.
+
+    CRF18 changed fine painted detail despite identical held input frames in the
+    bounded production investigation. This matches its stable QP14 profile.
+    A full-film GOP deliberately trades quick arbitrary seeking for no periodic
+    intra refresh; assess final size/player seeking after the complete render.
+    """
+    assert total_frames > 0
+    return ["-c:v", "libx264", "-preset", "medium", "-qp", "14",
+            "-tune", "stillimage", "-bf", "0", "-g", str(total_frames),
+            "-keyint_min", str(total_frames), "-sc_threshold", "0",
+            "-x264-params", "aq-mode=0:ipratio=1:pbratio=1:mbtree=0:rc-lookahead=0",
+            "-pix_fmt", "yuv420p", "-threads", "4"]
+
+
 def run(ffmpeg, *args):
     subprocess.run([ffmpeg, "-hide_banner", "-loglevel", "error", "-y", *map(str, args)], check=True)
 
@@ -190,12 +206,12 @@ def render(ffmpeg, source, output, data, width):
         filters.write_text(";\n".join(graph))
         print("Joining shots and attaching the supplied song…", flush=True)
         completed = scratch / "completed.mp4"
-        # Lossless temporary clips prevent repeated compression from making
-        # fine painted detail pulse at intermediate keyframes. Only this final
-        # delivery encode is lossy, and all temporary clips are removed.
+        # Lossless intermediates avoid cumulative compression. The final encode
+        # also needs a stable profile: CRF18 can refresh fine texture even when
+        # the held input pixels are identical. Temporary clips are removed.
         run(ffmpeg, "-filter_complex_threads", "4", *inputs, "-filter_complex_script", filters,
             "-map", "[film]", "-map", f"{audio_index}:a:0", "-t", total,
-            "-r", fps, "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-threads", "4",
+            "-r", fps, *delivery_video_args(total_frames),
             "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", completed)
         print("Checking the complete video and audio streams…", flush=True)
         check = subprocess.run([ffmpeg, "-hide_banner", "-loglevel", "error", "-i", str(completed),

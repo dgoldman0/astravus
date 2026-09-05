@@ -1698,40 +1698,36 @@
       "comparison_signature": "824669a28e5c4f878313094f76b06bf10d0ece8a"
     },
     "quality-characters-book-one-cassia-older": {
-      "outcome": "pass",
+      "outcome": "fail",
       "method": "manual",
-      "reviewer": "Codex root; independent sprite comparison by art reviewer",
-      "checked_at_utc": "2026-09-05T14:57:03+00:00",
+      "reviewer": "Codex-direct-source-inspection",
+      "checked_at_utc": "2026-09-05T17:27:20+00:00",
       "input_sha256": "be735d674c3ca647904080244f29510b591840ff1b1d5069f7d678c609888652",
       "input_file_count": 2,
       "input_files": {
         "docs/ART_DIRECTION.md": "0178a3b87ea02bed1fe79a7858c3fc6c30f7441f0f31b4068928c9f9633db0d9",
         "game/images/characters/book-one/cassia-older.png": "70b224c4bdc84af7bd09a0e36c44f79294469d1d08a7535a08284b6716f2186c"
       },
-      "notes": "Recognizable nose/cheeks/lips and textured chestnut hair are coherent with mourning Cassia. Open palm and slight smile fit storytelling; green irises catch warm olive light naturally. No flattened skin or lost fabric detail.",
+      "notes": "Current Cassia source sprite irises read yellow/olive rather than the source deep green. Reopened during design demonstration; runtime image remains unchanged and candidate reference sheet does not approve it.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
-      },
-      "comparison_reference": "git:a08e92305cc7c1ab5d102fad7ed852e239fabadc",
-      "comparison_signature": "a08e92305cc7c1ab5d102fad7ed852e239fabadc"
+        "docs/design-proof/CHARACTERS.md": "ef0b2b405aec18f927856604fc435420d41449ee28025abb2ed976171399d66e"
+      }
     },
     "quality-characters-book-one-cassia-young": {
-      "outcome": "pass",
+      "outcome": "fail",
       "method": "manual",
-      "reviewer": "Codex root; independent sprite comparison by art reviewer",
-      "checked_at_utc": "2026-09-05T14:57:03+00:00",
+      "reviewer": "Codex-direct-source-inspection",
+      "checked_at_utc": "2026-09-05T17:27:20+00:00",
       "input_sha256": "fbddb3f84065b005ebc016876462ea72042d1e36789441ebea24e05cb4f3f010",
       "input_file_count": 2,
       "input_files": {
         "docs/ART_DIRECTION.md": "0178a3b87ea02bed1fe79a7858c3fc6c30f7441f0f31b4068928c9f9633db0d9",
         "game/images/characters/book-one/cassia-young.png": "362378277efed564dcc97d3902fd3262bd3cd7ce5c0a7e1c979f3b240ce81283"
       },
-      "notes": "Early clothes and rounder child cheeks remain distinct from older Cassia while preserving umber skin and recognizable features. Warm olive-green iris pigment, soft lips, scarf/book/gesture and dimensional hair remain legible.",
+      "notes": "Current Cassia source sprite irises read yellow/olive rather than the source deep green. Reopened during design demonstration; runtime image remains unchanged and candidate reference sheet does not approve it.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
-      },
-      "comparison_reference": "git:68b3641020e16e097a0023d4be0a257fdd7be974",
-      "comparison_signature": "68b3641020e16e097a0023d4be0a257fdd7be974"
+        "docs/design-proof/CHARACTERS.md": "ef0b2b405aec18f927856604fc435420d41449ee28025abb2ed976171399d66e"
+      }
     },
     "quality-characters-book-one-dorian-everyday": {
       "outcome": "pass",
@@ -2271,11 +2267,11 @@
       }
     },
     "location-comparison": {
-      "outcome": "pass",
+      "outcome": "fail",
       "method": "manual",
-      "reviewer": "Codex root and independent environment reviewer",
-      "checked_at_utc": "2026-09-05T15:48:05+00:00",
-      "input_sha256": "6d0a59b61108a7abea36105027d2059868d5cc1c8ba605ae0101a3da239e42bc",
+      "reviewer": "author-review-and-design-demonstration",
+      "checked_at_utc": "2026-09-05T17:27:20+00:00",
+      "input_sha256": "816eb02cabd9a11c3d8a772cbec69056fe91f56987037e43fbb2d34585ad1af1",
       "input_file_count": 132,
       "input_files": {
         "../revision/latest.md": "f42fbc68f9469a91f27cfe07903a7dfb9046dffbfb54e59d0ab1462ea83d59b3",
@@ -2411,11 +2407,9 @@
         "game/script.rpy": "28e20b7d091628ae2ada9c1acebf80ecde01d5042fe26241d778875a9f5945fe",
         "game/visuals.rpy": "5c89611c5e1cc6a5a24222502448c583e7762833da14fe654ab1e8363e963d26"
       },
-      "notes": "Inspected canonical exterior/interior/rain/memory, final close arrival/morning, distinct neighborhood path, pond action and shared crowded plaza variants. Fixed treehouse landmarks/access and supported banks retain their references; local iris proofs preserve geometry. Verified the subsequent CG register update preserves those exact image bytes and agrees with the reviewed pose/depth/location findings. Native support-plane staging has separate runtime evidence.",
+      "notes": "Author rejected recurring-setting spatial inconsistencies. Two shared geometry models now demonstrate fixed cameras/landmarks, but the first scaffold-to-paint test changed table scale/framing and obscured the upper doorway/landing. Whole-image reference prompting failed to enforce the model; runtime views remain unapproved.",
       "evidence": {
-        "docs/LOCATION_CONTINUITY.md": "9f4931122dbeb1d4abeb1402e43f83d2544d695a0e515ddad0a82c73352a1792",
-        "docs/location-continuity.json": "98de1703d589d4f1ad9096b45f07b6df60754528cbdcbf3e2b25feaa50cc379d",
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876"
+        "docs/design-proof/SETTING.md": "8baf04b4961c3268c0a6ba99398f6a4d642348e64382e314eec56a1af6ccb096"
       }
     },
     "native-playthrough": {
@@ -3136,11 +3130,11 @@
       "returncode": 0
     },
     "character-comparison": {
-      "outcome": "pass",
+      "outcome": "fail",
       "method": "manual",
-      "reviewer": "Codex root and independent art reviewers; root UI-delta review",
-      "checked_at_utc": "2026-09-05T16:07:51+00:00",
-      "input_sha256": "63600f63aedfdf05621fc242c2afbf6b33780d04bee4f0094c2e4314029eb8dd",
+      "reviewer": "author-review-and-design-demonstration",
+      "checked_at_utc": "2026-09-05T17:27:19+00:00",
+      "input_sha256": "53f6f0d2bc4a03e3b43a1b105b4608db575cbcda9ffa7fdefb63fdeaf62a933f",
       "input_file_count": 151,
       "input_files": {
         "../revision/latest.md": "f42fbc68f9469a91f27cfe07903a7dfb9046dffbfb54e59d0ab1462ea83d59b3",
@@ -3295,13 +3289,9 @@
         "game/ui/dialogue-shade.svg": "1bb40faef7db67369737fb2fed316dbf2fcb03bdee3f23c575c1f4519188213a",
         "game/ui/menu-shade.svg": "f169b60de1fef8274e79ed8bc08eea379e7dd12dd80d309f8fc2ce7361d9300f"
       },
-      "notes": "Reviewed all26 human sprites,20 CGs and3familiars against stage/source references and selected prior paintings. Final face/iris/anatomy reviews distinguish pigment from pupil/sclera and supported pose from stature. Fifteen bounded retouches reproduce exactly with zero outside-mask changes. Rejected wide/dark/path and hard-texture pond/waterwheel variants are superseded by stronger reviewed compositions. Rechecked after the final Help-column and quick-bar font adjustment: exact reconstruction matches the previously reviewed screens file, with no other changes to artwork/character state, credit links or afterword. New runtime/UI captures are separate required checks.",
+      "notes": "Author rejected remaining cross-game face, iris, stature, shading and style inconsistencies. Candidate neutral studies, lineup and first acting test now demonstrate unresolved eye/face-style and actual body-height differences; they are not approved and have not replaced runtime assets.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a",
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7",
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
-        "docs/cg-character-review.json": "f7f51ec53dffa55b7e768f8e0f150b077662a4b836fd088d604af03c60b33cd3",
-        "docs/iris-retouches.json": "4540e455cb0bceb23fee9c1d45b97041ed9cb013a4ad88389c4a39ec6298c0e1"
+        "docs/design-proof/CHARACTERS.md": "ef0b2b405aec18f927856604fc435420d41449ee28025abb2ed976171399d66e"
       }
     },
     "native-glossary": {
@@ -3603,11 +3593,11 @@
       "returncode": 0
     },
     "theme-editorial": {
-      "outcome": "pass",
+      "outcome": "fail",
       "method": "manual",
-      "reviewer": "glossary_story",
-      "checked_at_utc": "2026-09-05T16:23:26+00:00",
-      "input_sha256": "a858d3ee59a0e1705e8d4b4496f438c4a44bc1cdfea5bef980c0c64b061790db",
+      "reviewer": "author-review-and-design-demonstration",
+      "checked_at_utc": "2026-09-05T17:27:20+00:00",
+      "input_sha256": "a1791d2cafcfbf9d1318709c5ecec35feb909fdf67831870fbd4985164453cd9",
       "input_file_count": 127,
       "input_files": {
         "build/closing-theme.mp4": "fbec95c4272c568691950814b0f402add8d7f5fd12a991489dfbadea57404675",
@@ -3738,12 +3728,9 @@
         "game/ui/menu-shade.svg": "f169b60de1fef8274e79ed8bc08eea379e7dd12dd80d309f8fc2ce7361d9300f",
         "scripts/render_closing_theme.py": "26eb13576242481b6813af625f2f47b7855d0c2099933b90c5376bf15808f45d"
       },
-      "notes": "Final montage review retained after exact source-delta check: only Help column layout and reading-bar text size changed. Reversing those two edits reproduces the previous screens hash; closing player, cue sheet, source artwork and MP4 remain identical. The reading bar is disabled before film playback. Original complete frame/transition review and its stated limits remain applicable.",
+      "notes": "Author reports jitter in the unchanged full film. A 24-second held-shot/encoding alternative and controlled static-input diagnostic now expose/reduce encoder texture refresh. This bounded excerpt does not approve the existing full movie or supply subjective real-time playback approval.",
       "evidence": {
-        "docs/FINAL_FILM_REVIEW.md": "bc0ffd648bed2aba1de58ec20ff8d09499e52bc42ea25afc47e64d45e27fcaf3",
-        "test-results/final-film/verification.json": "cf22e951ff66180d87748862f50822e345bc1392e03cc082ebffaec2f141c40d",
-        "test-results/final-film/keyframe-outliers.json": "691d6843f1f0c957ceccaec333a591eba9b544e4f01d597b896f752e26a61d5c",
-        "test-results/final-film/ui-delta-review.json": "bf5fe905865ac70cbd06d9c7afd3aba282c3cba5c1500b84b909dee13dd12bed"
+        "docs/design-proof/VIDEO.md": "7c2eea17f18750f8b804d14c58dc11dd1837407aabc55745682d8074214c7413"
       }
     },
     "film-decode": {
@@ -4701,6 +4688,91 @@
         "test-results/screenshots/browser-glossary-constellation-0.png": "16aaf856560b41ed98afe3eb59a0e6c68d2dada6e93c2a8702128958d9f6c74a",
         "test-results/screenshots/browser-glossary-lumen-1.png": "9d7cd96b48ff94b39030ae7b59a70e48ce61255f861ed448e3989cf1473e964b",
         "test-results/screenshots/browser-song-credit.png": "fe017530474f5494616f1f7c73e725f8e28b38dc214b426d275784e7a74ae13c"
+      }
+    },
+    "score-editorial": {
+      "outcome": "fail",
+      "method": "manual",
+      "reviewer": "author-review-and-design-demonstration",
+      "checked_at_utc": "2026-09-05T17:27:20+00:00",
+      "input_sha256": "6a5e0741e0f11b2dc74112d2eee2b1e6bb039f4df78959277789048407017a4f",
+      "input_file_count": 71,
+      "input_files": {
+        "../revision/latest.md": "f42fbc68f9469a91f27cfe07903a7dfb9046dffbfb54e59d0ab1462ea83d59b3",
+        "../wiki/bios/Arin.md": "69121e2faf57639b32161ca9f92266a13765371a78c87d13a34f8ee3cb899297",
+        "../wiki/bios/Aris.md": "5feac8a393d329d5436efe855c22b75670735c28548d0c3952a79b0797d0ecfe",
+        "../wiki/bios/Calista.md": "17401dc00065ff905dffbd05183b615286050a3ed3388a0dbecc6585637b3f71",
+        "../wiki/bios/Cassia.md": "14b91af626827bed27b03ff68667729c24d98c8d90680e0af9ebd297edb5dd12",
+        "../wiki/bios/Dorian.md": "f6c6ce22b27387c216fc3241679ca37ce246717905035270ea8533cde3342151",
+        "../wiki/bios/Elara.md": "18dce48b1f4da3b7f8168e65d2ee6d6d626e1be9549f034b8bcab3fde1ecd46e",
+        "../wiki/bios/INDEX.md": "5c8907dae6cfb88b089d6a6d7f125a15b6757d094e17cc62698d7e084fc2f6b3",
+        "../wiki/bios/Joren.md": "0021cae3214db356d8cf05a4f7629f6c02868fd7f1889020833a55899d689fe7",
+        "../wiki/bios/Kael.md": "0fbc133d718bae7c22c41f54642b45c590ccd1cec00d9269694cb8ed626d031c",
+        "../wiki/bios/Lumen.md": "faa7b9da9f4ec42629bc5e714bd95728ce4009c959f1f7c5f48dbf4e469cd4e2",
+        "../wiki/bios/Lyra.md": "81077f0f77a49d6d415f506e5f7e7fe98426df87980955a5dded6f4c67414ec6",
+        "../wiki/bios/Lysandra.md": "443bb99a4d55564fb17b3b6b2d6b1e4d976950b1cc86dd7aa62a4f62359b0845",
+        "../wiki/bios/Maia.md": "989cfb6d7c8498d390c3053c42887ee42d21675e7ef559ca3a6730eaa831a7b3",
+        "../wiki/bios/Sage.md": "b2c0f3dfafead3c7cc5a25d1babe9d5f9f662fb3070d77b06f2653572f2b0976",
+        "../wiki/bios/Selene.md": "d4e9ed29d27e33e6fa256f9a101684f65f259fbf1ca417ba8e6b831275f259b6",
+        "../wiki/bios/Shadow.md": "fd787e71e179e7ef38d28886f7790b73789130dd233cc2e64b0efae837671376",
+        "../wiki/bios/Sol.md": "f3872e702c7e128fecc46eddcd11c8b06d8716cdb017d5ae48546b6637aeb5a6",
+        "../wiki/bios/Theron.md": "f8d4ffe731c01de1da18392f8c0bc25580ec652ff77b1df31a4941ec3371a926",
+        "../wiki/worldbuilding/Art-and-Expression.md": "35767f29df5cf553a09e81c55f454153fcd67fa21cf824383ad1e5e4e61d8ccc",
+        "../wiki/worldbuilding/Artificial-gravitiy.md": "704fd4aedf4c6d312b65173d986e7409f0d67f1f90bbed317dd99c95c8744a48",
+        "../wiki/worldbuilding/Aurora.md": "39861ea1fb89b293df5599afb13f19617ba52721ca43e5e5babd115a8dd96cba",
+        "../wiki/worldbuilding/Constellations.md": "9819193a5b72cefd638b1b59ea22b9576f39e9c68697a45b3b5395d8bbf33cb7",
+        "../wiki/worldbuilding/Core-Integration.md": "51e23f2af12b14ead0ad5a2447f2550f5c236451cd525fe863501892f502d306",
+        "../wiki/worldbuilding/Death-and-Loss.md": "5c84def7276e2a574524480cefb5839fcf1125fbc4204eeb7ed502d6681ce5b3",
+        "../wiki/worldbuilding/Distant-Past.md": "ac0789acaaf83c8572f40dcfdf31e5dd1f111b56bb859b39f5e60f190ee6516f",
+        "../wiki/worldbuilding/Familiars.md": "599fe1742b7d558f4cc173b66a441bc777d5664378d508f88c789afdd6dade32",
+        "../wiki/worldbuilding/INDEX.md": "fb7ba7bc5ebb86982ebb208118e0eccc12a8ce3b86474dada32396ea85a639a4",
+        "../wiki/worldbuilding/Lumen.md": "648dfaff59e07083a88405abc3cac8cc46ed1df6975176769b7f5ab66aa0e1b7",
+        "../wiki/worldbuilding/Nyx.md": "ca60d3965c194a7a18b5cc5116b0638e8e1c8fe7a637d4d7173e35479536fb5c",
+        "../wiki/worldbuilding/Socioeconomics.md": "0e700b53c3d64b6dfd46e39fc4d38604bb7b4dbaade44fa75b28146e1436b40c",
+        "../wiki/worldbuilding/Technology.md": "d58a5d94f5e1386bfde67ec3a4d7c56fbee4fc4290081a6b151c36e07262b25f",
+        "../wiki/worldbuilding/The-Astravii.md": "f6407d7721c6b1b15c83a51e1e35e16ebf89aa118bf414363ca1fe62ef82ecbf",
+        "../wiki/worldbuilding/The-Astraviin.md": "f794730293178c9d00126abb4ff5c54183968702114ece419f4dffef5af1071a",
+        "../wiki/worldbuilding/The-Sanctuary.md": "47d883ad775a506dbaac2ebadb8c941986172920730d715820123fca5a74e5b4",
+        "../wiki/worldbuilding/Transcendence.md": "b3e3e45fba7dc909faa0b792ed3f57240757e2c4c453f2df1176aa661fb36e73",
+        "docs/AUDIO_DIRECTION.md": "0b2263fdb1cbe32e186bdd0b7ee02cc85dd84e3b7c97887d7071b6d82813dc6e",
+        "docs/BOOK_ONE_COVERAGE.md": "3954317e81ab9047c8c5e454019b49760e9b24d2b382d820d83c3c81f33c0d59",
+        "docs/WRITING_NOTES.md": "8e531ba1e7d4f518740a8f22283dd3d8dd8f68621add25bd53be9aeb174e40ef",
+        "docs/audio-sources.json": "0a14e3dab17c4e6f493b9ecb081fb011d67f16c03ef250c4e190a996165be201",
+        "docs/closing-theme-audio.json": "7ffaa21310fb7c0a8bdda02a1d57e2205e27a3135148befd4becf495dd832fd9",
+        "game/audio/curiosity_and_discovery.ogg": "460ad7c6fdc1c2a6b058b3e8d610bc7f9cc355655b96e9081fe6d1c27f8baa05",
+        "game/audio/discovery_theme.ogg": "63ada0bdfdacc3d8ecddc00b2182efd16e352a99d257845832679fe73314216e",
+        "game/audio/festival_theme.ogg": "07f5956066f25e597707b60e182b4fc84faeab130ee54859aecdb22d30471e65",
+        "game/audio/first_light.ogg": "c3b3c71c7b1734f61c97561ba5f640f170c8ec8ab3ca7f5c607b1bd88b72c329",
+        "game/audio/garden_air.ogg": "6aeba82d0dad827836e122c9a09e7e1767d598e7c1a808420bcfe34bbf2434ca",
+        "game/audio/grief_theme.ogg": "a62de1d2e5b5d2fd6d58b95d9d12cc735e2020c90c4b4382448bd2d6f9d7ebd3",
+        "game/audio/home_theme.ogg": "0121ccfc18a091b974fbe1f64f727a88b34f076cc805021a313d5f7b1acf1be9",
+        "game/audio/plaza_air.ogg": "ba488454161a6edf95ef09aae68e9625f7cc0642d7146385699071b3cc5097ec",
+        "game/audio/rain.ogg": "e3c82d4bf2a63b0958a5b3a954f05a52f5addad1ab12bddb955da65d6afc28d4",
+        "game/audio/rain_refuge.ogg": "24aefb95ca6dd11dcc3aa953845fddcc127bc6df542db62ed523a03d7702acf3",
+        "game/audio/remembrance_theme.ogg": "508fb987cf293a7306fc5b63f6940c4069d080b9249d9ab3b989bf73b52b18fe",
+        "game/audio/room_air.ogg": "27153cf8d9b41f42c9ac644d29bfa55fc571f5c232c4c23742c028314f38eaf6",
+        "game/audio/wonder_theme.ogg": "ac558d22d2152f7f0126d1a7f22214831e08c958fcf9c46c5c3c9baad801c458",
+        "game/audio/workshop_air.ogg": "1a1413c37885beabee2a2ed67f7c01935c4cf66d633a8ce848c729b16c17899c",
+        "game/audio/flute_attempt.wav": "1d0ce9e8565d11971cf43767d209cf0838a24ea143ef5fddd261620e5208474d",
+        "game/audio/flute_first.wav": "5acd574f35ad79eb1d94fc94950d20969d432b6170e4724388b8d3d3d779a295",
+        "game/audio/flute_practice.wav": "04232706551790ed5a3e22bb1b2fd5695523368cc2ca6c1b5c1f926f7b8571db",
+        "game/audio/tree_creak.wav": "b959c5106f51dedcd2f4c1d17dc03b6f96a58574778714f06ec91785b2d252e5",
+        "game/audio/water_splash.wav": "b869f5c50ecca81a1dd1f2e3465ca31b3a440ddd5215eb5a9e049710543ad048",
+        "game/audio/wood.wav": "f2112b6bfadee73848239610dfe08df1d19025c96821d00b87526b95b47835eb",
+        "game/book_structure.rpy": "9a3b7b60a3a49fd5436365639c2a26fa7734c1a3bccf070a8656b5c73bfc4d46",
+        "game/closing_theme.json": "6b5adf7e937d99d5a54d3870f380ce1d4f19e36eab923d3ce5c793f36cea1619",
+        "game/closing_theme.rpy": "ff957f3599c93ed354b516c01047de6663ba37fdb7f22cdad1c2afc6a3e0f624",
+        "game/family_book_one.rpy": "236741cddb927cfee503326f2c3549b8be8fa1d37b9e29bf904d6a7fa852a722",
+        "game/friendships_book_one.rpy": "92a061d5ba9ecf9706434c3817c2c08fdec2fbfa916f182f9e1fb4c8530cef0b",
+        "game/glossary.json": "424685677ba718c2aff6ee18f11646b6ffd5bd0ee7c5957af716f7e9a5851ebd",
+        "game/glossary.rpy": "6fd53b992af76a983ba6eab1a35661bdcef7a69407118dd6e1a44822e11c4fe4",
+        "game/glossary_rules.py": "fb0835ffe5ec3e01f2c1a99cddb6e7271d65276594e1ca2da92d817199b2dac2",
+        "game/options.rpy": "6418f04c4e41bebc9b15c08b1c0fdf36c7081afad0d34a7e0b15db23f233cfb4",
+        "game/script.rpy": "28e20b7d091628ae2ada9c1acebf80ecde01d5042fe26241d778875a9f5945fe"
+      },
+      "notes": "Author reports insufficient musical variety and mood fit in the unchanged game. Three new independent contextual studies are playable and measured, but listening acceptance remains open; they are not runtime replacements.",
+      "evidence": {
+        "docs/design-proof/MUSIC.md": "70ca6772af5c42c315af7e66e3ed17be5e0a8dcab24939a5155ddf2d6b9f9da3"
       }
     }
   }

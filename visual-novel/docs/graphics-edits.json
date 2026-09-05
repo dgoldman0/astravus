@@ -1,0 +1,3220 @@
+{
+  "schema_version": 1,
+  "scope": "Selected production character geometry and pigment edits; technical provenance is separate from visual acceptance.",
+  "edits": [
+    {
+      "id": "production-calista-young",
+      "file": "game/images/characters/book-one/calista-young.png",
+      "source_generation": "alpha-calista-young-natural-proportions",
+      "sources": [
+        {
+          "file": "game/images/characters/book-one/calista-young.png",
+          "git_blob": "0f0ee6048c74844e6d11a1a39a4bd337ea0ec10f",
+          "sha256": "75649a7bc527427ab83e01d4b65749e9207562dadc9e36e0d9d4ce6cc1c541aa"
+        }
+      ],
+      "operations": [
+        {
+          "type": "joint_eye_region_inverse_warp",
+          "moves": [
+            "lid",
+            "sclera",
+            "iris",
+            "surrounding skin"
+          ],
+          "interpolation": "Lanczos4",
+          "support": "ellipses; full interior through normalized radius 0.62, smoothstep falloff to zero at 1.0",
+          "full_frame_resampling": false
+        }
+      ],
+      "mask_geometry": {
+        "eye_geometry": [
+          {
+            "center": [
+              500,
+              271
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.9,
+              0.88
+            ]
+          },
+          {
+            "center": [
+              573,
+              264
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.9,
+              0.88
+            ]
+          }
+        ]
+      },
+      "output_sha256": "7e37d6dd316296f9f89f3ce495cf999b0a3ace235c91be6661d129640e64d8ee",
+      "dimensions": [
+        1022,
+        1538
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_character_geometry.py",
+      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "verification": {
+        "changed_pixels": 8313,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          458,
+          232,
+          616,
+          305
+        ],
+        "operation_scope": "Lid, iris and surrounding skin move together inside eye geometry regions; pigment masks do not move pixels."
+      },
+      "superseded_postprocess": {
+        "id": "alpha-calista-young-masked-deep-blue-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "aa8525e9cb554dfae794da7579c801303760e5e2443e0b55961f7abd01b4fa59",
+        "registry_git_blob": "20b6150feea75dd4530badc474063459efa0e37e",
+        "note": "The primary source Git blob is the complete previously selected iris-retouched image; this record replaces only its active pointer."
+      }
+    },
+    {
+      "id": "production-calista-home",
+      "file": "game/images/characters/book-one/calista-home.png",
+      "source_generation": "alpha-calista-home-natural-proportions",
+      "sources": [
+        {
+          "file": "game/images/characters/book-one/calista-home.png",
+          "git_blob": "bdad6bfe1e7d2492ddf936015f035f428c10e18c",
+          "sha256": "c89f5aa739a14a19b687842c9dc00c54cc2cae3fba101d6869c19a5134494d36"
+        }
+      ],
+      "operations": [
+        {
+          "type": "joint_eye_region_inverse_warp",
+          "moves": [
+            "lid",
+            "sclera",
+            "iris",
+            "surrounding skin"
+          ],
+          "interpolation": "Lanczos4",
+          "support": "ellipses; full interior through normalized radius 0.62, smoothstep falloff to zero at 1.0",
+          "full_frame_resampling": false
+        }
+      ],
+      "mask_geometry": {
+        "eye_geometry": [
+          {
+            "center": [
+              495,
+              249
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.9,
+              0.88
+            ]
+          },
+          {
+            "center": [
+              569,
+              245
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.9,
+              0.88
+            ]
+          }
+        ]
+      },
+      "output_sha256": "407e2ac4a120d2346fd1599c1a9002914e9cd70385f9ef605ac430200b68ab1f",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_character_geometry.py",
+      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "verification": {
+        "changed_pixels": 8326,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          453,
+          213,
+          612,
+          283
+        ],
+        "operation_scope": "Lid, iris and surrounding skin move together inside eye geometry regions; pigment masks do not move pixels."
+      },
+      "superseded_postprocess": {
+        "id": "alpha-calista-home-masked-deep-blue-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "dc4054c1811f2656d3e0f81945e60600fa4d434ddbf60590a5552539b26f94b7",
+        "registry_git_blob": "20b6150feea75dd4530badc474063459efa0e37e",
+        "note": "The primary source Git blob is the complete previously selected iris-retouched image; this record replaces only its active pointer."
+      }
+    },
+    {
+      "id": "production-calista-festival",
+      "file": "game/images/characters/book-one/calista-festival.png",
+      "source_generation": "alpha-calista-festival-natural-proportions",
+      "sources": [
+        {
+          "file": "game/images/characters/book-one/calista-festival.png",
+          "git_blob": "d5f56ca2541dae1ae6a37ce627fa1ec737db5eda",
+          "sha256": "3a796e998447303d3006871047579793e47db85bebceef1ec0dca323601e29c7"
+        }
+      ],
+      "operations": [
+        {
+          "type": "joint_eye_region_inverse_warp",
+          "moves": [
+            "lid",
+            "sclera",
+            "iris",
+            "surrounding skin"
+          ],
+          "interpolation": "Lanczos4",
+          "support": "ellipses; full interior through normalized radius 0.62, smoothstep falloff to zero at 1.0",
+          "full_frame_resampling": false
+        }
+      ],
+      "mask_geometry": {
+        "eye_geometry": [
+          {
+            "center": [
+              483,
+              246
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.9,
+              0.88
+            ]
+          },
+          {
+            "center": [
+              556,
+              237
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.9,
+              0.88
+            ]
+          }
+        ]
+      },
+      "output_sha256": "cc63e75baf92ad6fa2b1cfff17611f7cd1a7213d65671f6d149f6429fe13ec7f",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_character_geometry.py",
+      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "verification": {
+        "changed_pixels": 8371,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          441,
+          204,
+          599,
+          280
+        ],
+        "operation_scope": "Lid, iris and surrounding skin move together inside eye geometry regions; pigment masks do not move pixels."
+      },
+      "superseded_postprocess": {
+        "id": "alpha-calista-festival-masked-deep-blue-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "afd7e643203bb6d64b79a731cbfe7a599eb132db285cea3e462291a0069135f0",
+        "registry_git_blob": "20b6150feea75dd4530badc474063459efa0e37e",
+        "note": "The primary source Git blob is the complete previously selected iris-retouched image; this record replaces only its active pointer."
+      }
+    },
+    {
+      "id": "production-calista-festive",
+      "file": "game/images/characters/book-one/calista-festive.png",
+      "source_generation": "alpha-calista-festive-natural-proportions",
+      "sources": [
+        {
+          "file": "game/images/characters/book-one/calista-festive.png",
+          "git_blob": "9ad7f360d0cde004b0f50d51c79e265d0d1758c8",
+          "sha256": "ae6808ba84ca5d16f87353f5ecac1aca111fd1531d9933b1a794f4e3f15e350c"
+        }
+      ],
+      "operations": [
+        {
+          "type": "joint_eye_region_inverse_warp",
+          "moves": [
+            "lid",
+            "sclera",
+            "iris",
+            "surrounding skin"
+          ],
+          "interpolation": "Lanczos4",
+          "support": "ellipses; full interior through normalized radius 0.62, smoothstep falloff to zero at 1.0",
+          "full_frame_resampling": false
+        }
+      ],
+      "mask_geometry": {
+        "eye_geometry": [
+          {
+            "center": [
+              483,
+              267
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.9,
+              0.88
+            ]
+          },
+          {
+            "center": [
+              554,
+              259
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.9,
+              0.88
+            ]
+          }
+        ]
+      },
+      "output_sha256": "edff3baed0a6fb3387f7c40c49c3b18c01f830b1ba786c7137572918774bc04a",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_character_geometry.py",
+      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "verification": {
+        "changed_pixels": 8292,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          441,
+          226,
+          597,
+          301
+        ],
+        "operation_scope": "Lid, iris and surrounding skin move together inside eye geometry regions; pigment masks do not move pixels."
+      },
+      "superseded_postprocess": {
+        "id": "alpha-calista-festive-masked-deep-blue-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "545ccdc3e15f760e6a295782e65fc28c45d2c3e23bf27398631b72b5c2e9ce77",
+        "registry_git_blob": "20b6150feea75dd4530badc474063459efa0e37e",
+        "note": "The primary source Git blob is the complete previously selected iris-retouched image; this record replaces only its active pointer."
+      }
+    },
+    {
+      "id": "production-lyra-young",
+      "file": "game/images/characters/book-one/lyra-young.png",
+      "source_generation": "lyra-young-key-v1",
+      "sources": [
+        {
+          "file": "game/images/characters/book-one/lyra-young.png",
+          "git_blob": "f14ca9cede21a3a1fae2e84e8c6ed22798d5bae3",
+          "sha256": "7671dd825364831392dad574e2eccad9f73bf538360f75f3fd26b8da6af7cd92"
+        }
+      ],
+      "operations": [
+        {
+          "type": "joint_eye_region_inverse_warp",
+          "moves": [
+            "lid",
+            "sclera",
+            "iris",
+            "surrounding skin"
+          ],
+          "interpolation": "Lanczos4",
+          "support": "ellipses; full interior through normalized radius 0.62, smoothstep falloff to zero at 1.0",
+          "full_frame_resampling": false
+        }
+      ],
+      "mask_geometry": {
+        "eye_geometry": [
+          {
+            "center": [
+              493,
+              290
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.91,
+              0.89
+            ]
+          },
+          {
+            "center": [
+              572,
+              274
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.91,
+              0.89
+            ]
+          }
+        ]
+      },
+      "output_sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_character_geometry.py",
+      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "verification": {
+        "changed_pixels": 8370,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          452,
+          241,
+          615,
+          324
+        ],
+        "operation_scope": "Lid, iris and surrounding skin move together inside eye geometry regions; pigment masks do not move pixels."
+      }
+    },
+    {
+      "id": "production-cassia-young",
+      "file": "game/images/characters/book-one/cassia-young.png",
+      "source_generation": "review-025-cassia_young",
+      "sources": [
+        {
+          "file": "game/images/characters/book-one/cassia-young.png",
+          "git_blob": "68b3641020e16e097a0023d4be0a257fdd7be974",
+          "sha256": "362378277efed564dcc97d3902fd3262bd3cd7ce5c0a7e1c979f3b240ce81283"
+        }
+      ],
+      "operations": [
+        {
+          "type": "masked_iris_pigment",
+          "target_chroma": [
+            0.32,
+            0.57,
+            0.24
+          ],
+          "luminance_factor": 0.79,
+          "mask": "iris ellipses with source pigment, luminance and pupil exclusions; exact weighting in frozen script"
+        },
+        {
+          "type": "joint_eye_region_inverse_warp",
+          "moves": [
+            "lid",
+            "sclera",
+            "iris",
+            "surrounding skin"
+          ],
+          "interpolation": "Lanczos4",
+          "support": "ellipses; full interior through normalized radius 0.62, smoothstep falloff to zero at 1.0",
+          "full_frame_resampling": false
+        }
+      ],
+      "mask_geometry": {
+        "iris_color": [
+          {
+            "center": [
+              495,
+              173
+            ],
+            "radius": [
+              11,
+              11
+            ],
+            "pupil": [
+              496,
+              164,
+              5,
+              5
+            ]
+          },
+          {
+            "center": [
+              558,
+              190
+            ],
+            "radius": [
+              11,
+              11
+            ],
+            "pupil": [
+              556,
+              183,
+              4,
+              4
+            ]
+          }
+        ],
+        "eye_geometry": [
+          {
+            "center": [
+              495,
+              168
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.95,
+              0.94
+            ]
+          },
+          {
+            "center": [
+              557,
+              192
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.95,
+              0.94
+            ]
+          }
+        ]
+      },
+      "output_sha256": "353258e8c289f3eb3f95a0329fb1ae44b48fdab90d8604dcc64547cb5581f363",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_character_geometry.py",
+      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "verification": {
+        "changed_pixels": 7844,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          453,
+          135,
+          600,
+          224
+        ],
+        "operation_scope": "Lid, iris and surrounding skin move together inside eye geometry regions; pigment masks do not move pixels."
+      }
+    },
+    {
+      "id": "production-cassia-older",
+      "file": "game/images/characters/book-one/cassia-older.png",
+      "source_generation": "review-025-cassia_older",
+      "sources": [
+        {
+          "file": "game/images/characters/book-one/cassia-older.png",
+          "git_blob": "a08e92305cc7c1ab5d102fad7ed852e239fabadc",
+          "sha256": "70b224c4bdc84af7bd09a0e36c44f79294469d1d08a7535a08284b6716f2186c"
+        }
+      ],
+      "operations": [
+        {
+          "type": "masked_iris_pigment",
+          "target_chroma": [
+            0.32,
+            0.57,
+            0.24
+          ],
+          "luminance_factor": 0.79,
+          "mask": "iris ellipses with source pigment, luminance and pupil exclusions; exact weighting in frozen script"
+        }
+      ],
+      "mask_geometry": {
+        "iris_color": [
+          {
+            "center": [
+              536,
+              144
+            ],
+            "radius": [
+              11,
+              11
+            ],
+            "pupil": [
+              534,
+              135,
+              4,
+              5
+            ]
+          },
+          {
+            "center": [
+              592,
+              163
+            ],
+            "radius": [
+              10,
+              10
+            ],
+            "pupil": [
+              591,
+              154,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      "output_sha256": "f65d350cb1d99f692c0de61ee2f160f21795aefafd7d263e88e29f27939865d6",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_character_geometry.py",
+      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "verification": {
+        "changed_pixels": 228,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          528,
+          135,
+          603,
+          170
+        ],
+        "operation_scope": "Lid, iris and surrounding skin move together inside eye geometry regions; pigment masks do not move pixels."
+      }
+    },
+    {
+      "id": "production-cassia-mourning",
+      "file": "game/images/characters/book-one/cassia-mourning.png",
+      "source_generation": "review-025-cassia_mourning",
+      "sources": [
+        {
+          "file": "game/images/characters/book-one/cassia-mourning.png",
+          "git_blob": "824669a28e5c4f878313094f76b06bf10d0ece8a",
+          "sha256": "9495dfb45c7f45f62bc746b3f655477279e2ab13d39cd31aa2cd45fd16f2caa2"
+        }
+      ],
+      "operations": [
+        {
+          "type": "masked_iris_pigment",
+          "target_chroma": [
+            0.32,
+            0.57,
+            0.24
+          ],
+          "luminance_factor": 0.79,
+          "mask": "iris ellipses with source pigment, luminance and pupil exclusions; exact weighting in frozen script"
+        }
+      ],
+      "mask_geometry": {
+        "iris_color": [
+          {
+            "center": [
+              534,
+              156
+            ],
+            "radius": [
+              11,
+              10
+            ],
+            "pupil": [
+              532,
+              148,
+              4,
+              5
+            ]
+          },
+          {
+            "center": [
+              591,
+              172
+            ],
+            "radius": [
+              10,
+              10
+            ],
+            "pupil": [
+              590,
+              164,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      "output_sha256": "8fe0c0a2c74c0199a05cba55115c494f6188c36064d3144bcec2dd3586bcc9b1",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_character_geometry.py",
+      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "verification": {
+        "changed_pixels": 272,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          525,
+          151,
+          602,
+          179
+        ],
+        "operation_scope": "Lid, iris and surrounding skin move together inside eye geometry regions; pigment masks do not move pixels."
+      }
+    },
+    {
+      "id": "pond-rescue-shadow-ear-notch",
+      "file": "game/images/cg/book-one/pond-rescue.png",
+      "source_sha256": "0de515348590fbc8aff39736ad072e1c1c07d7ccb967fdd847dd5e4a75f009fb",
+      "anatomical_side": "Shadow left ear, viewer-right in frontal reference and these two three-quarter views",
+      "polygon": [
+        [
+          320,
+          603
+        ],
+        [
+          313.5,
+          607
+        ],
+        [
+          317.5,
+          610
+        ],
+        [
+          321.5,
+          607
+        ]
+      ],
+      "donor_offset": [
+        9,
+        0
+      ],
+      "supersample": 8,
+      "feather_pixels": 0.2,
+      "source_git_blob": "2a0fd84ddf57990e45da4136941f3b475a613a23",
+      "reference_file": "game/images/familiars/shadow.png",
+      "reference_sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59",
+      "script_file": "scripts/polish_shadow_notches.py",
+      "script_sha256": "aa79afb9827994af3fc2eedae7abb2fd7299c8d641f9cb305d3c1b1cd1a6fe71",
+      "output_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
+      "mask_file": "build/graphics-polish/shadow/pond-rescue-mask.png",
+      "mask_sha256": "a8f9aaacf5d1f876807cd410fb02281f5dc1251e0728a0a8eb19d93bb834326a",
+      "mode": "RGB",
+      "verification": {
+        "changed_pixels": 45,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          313,
+          603,
+          322,
+          611
+        ],
+        "donor_box": [
+          320,
+          601,
+          334,
+          613
+        ],
+        "operation_scope": "Adjacent source background sampled through a small antialiased ear-notch mask; all other pixels preserved exactly."
+      },
+      "source_generation": "alpha-pond-rescue",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        {
+          "file": "game/images/cg/book-one/pond-rescue.png",
+          "git_blob": "2a0fd84ddf57990e45da4136941f3b475a613a23",
+          "sha256": "0de515348590fbc8aff39736ad072e1c1c07d7ccb967fdd847dd5e4a75f009fb"
+        },
+        {
+          "file": "game/images/familiars/shadow.png",
+          "git_blob": "68a76f56174178bb7b0409f5215a7aa7ea6e86fb",
+          "sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59"
+        }
+      ],
+      "operations": [
+        {
+          "type": "antialiased_ear_notch",
+          "anatomical_side": "Shadow left ear, viewer-right in frontal reference and these two three-quarter views",
+          "donor": "Adjacent original background at recorded donor offset; no full-frame filtering"
+        }
+      ],
+      "mask_geometry": {
+        "polygon": [
+          [
+            320,
+            603
+          ],
+          [
+            313.5,
+            607
+          ],
+          [
+            317.5,
+            610
+          ],
+          [
+            321.5,
+            607
+          ]
+        ],
+        "donor_offset": [
+          9,
+          0
+        ],
+        "supersample": 8,
+        "feather_pixels": 0.2
+      },
+      "superseded_postprocess": {
+        "id": "alpha-pond-rescue-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "0f03cf6a30bd3d24bc7744a475eb4cd06eefdbef94ba0521e7beb375900abd5e",
+        "registry_git_blob": "20b6150feea75dd4530badc474063459efa0e37e",
+        "note": "Complete prior selected image is preserved by the primary input Git blob."
+      }
+    },
+    {
+      "id": "pond-comfort-shadow-ear-notch",
+      "file": "game/images/cg/book-one/pond-comfort.png",
+      "source_sha256": "56074675442f5eee3db5506e1a0816d2fc52e385bdbc175518612d9a34fc6f43",
+      "anatomical_side": "Shadow left ear, viewer-right in frontal reference and these two three-quarter views",
+      "polygon": [
+        [
+          1437,
+          499.5
+        ],
+        [
+          1431.5,
+          502.5
+        ],
+        [
+          1435.5,
+          505.5
+        ],
+        [
+          1438,
+          503
+        ]
+      ],
+      "donor_offset": [
+        8,
+        0
+      ],
+      "supersample": 8,
+      "feather_pixels": 0.2,
+      "source_git_blob": "55786245c98655eece2b18ddc56a1e6d9eac7cf4",
+      "reference_file": "game/images/familiars/shadow.png",
+      "reference_sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59",
+      "script_file": "scripts/polish_shadow_notches.py",
+      "script_sha256": "aa79afb9827994af3fc2eedae7abb2fd7299c8d641f9cb305d3c1b1cd1a6fe71",
+      "output_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
+      "mask_file": "build/graphics-polish/shadow/pond-comfort-mask.png",
+      "mask_sha256": "ec687f3c4fe713f3f70675dcb83b2fcf70ccffe6150a62918362ca34fe5930e2",
+      "mode": "RGB",
+      "verification": {
+        "changed_pixels": 35,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          1431,
+          499,
+          1439,
+          506
+        ],
+        "donor_box": [
+          1437,
+          497,
+          1449,
+          509
+        ],
+        "operation_scope": "Adjacent source background sampled through a small antialiased ear-notch mask; all other pixels preserved exactly."
+      },
+      "source_generation": "review-027-pond-comfort",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sources": [
+        {
+          "file": "game/images/cg/book-one/pond-comfort.png",
+          "git_blob": "55786245c98655eece2b18ddc56a1e6d9eac7cf4",
+          "sha256": "56074675442f5eee3db5506e1a0816d2fc52e385bdbc175518612d9a34fc6f43"
+        },
+        {
+          "file": "game/images/familiars/shadow.png",
+          "git_blob": "68a76f56174178bb7b0409f5215a7aa7ea6e86fb",
+          "sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59"
+        }
+      ],
+      "operations": [
+        {
+          "type": "antialiased_ear_notch",
+          "anatomical_side": "Shadow left ear, viewer-right in frontal reference and these two three-quarter views",
+          "donor": "Adjacent original background at recorded donor offset; no full-frame filtering"
+        }
+      ],
+      "mask_geometry": {
+        "polygon": [
+          [
+            1437,
+            499.5
+          ],
+          [
+            1431.5,
+            502.5
+          ],
+          [
+            1435.5,
+            505.5
+          ],
+          [
+            1438,
+            503
+          ]
+        ],
+        "donor_offset": [
+          8,
+          0
+        ],
+        "supersample": 8,
+        "feather_pixels": 0.2
+      },
+      "superseded_postprocess": {
+        "id": "alpha-pond-comfort-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "7ab054ec35e0f5b1198366d17492b649d69cba3c523dd26f160d44250147d7c9",
+        "registry_git_blob": "20b6150feea75dd4530badc474063459efa0e37e",
+        "note": "Complete prior selected image is preserved by the primary input Git blob."
+      }
+    },
+    {
+      "id": "production-theme-garden-opening",
+      "file": "game/images/cg/book-one/theme-garden-opening.png",
+      "source_git_blob": "40f2420984b810dc166add5b01ff7d761221e3a4",
+      "source_sha256": "cc409a5fd4996cf8839252c402efda8ef611da9670e82426e2611b07ba531c51",
+      "eye_geometry": [],
+      "face_material": {
+        "character": "Calista",
+        "file": "docs/graphics-sources/calista-opening-face.png",
+        "resize": [
+          350,
+          350
+        ],
+        "eye_geometry": [
+          {
+            "center": [
+              141,
+              205
+            ],
+            "radius": [
+              35,
+              28
+            ],
+            "scale": [
+              0.94,
+              0.91
+            ]
+          },
+          {
+            "center": [
+              214,
+              185
+            ],
+            "radius": [
+              31,
+              27
+            ],
+            "scale": [
+              0.94,
+              0.91
+            ]
+          }
+        ],
+        "polygon": [
+          [
+            99,
+            183
+          ],
+          [
+            114,
+            151
+          ],
+          [
+            139,
+            132
+          ],
+          [
+            151,
+            100
+          ],
+          [
+            172,
+            92
+          ],
+          [
+            200,
+            126
+          ],
+          [
+            219,
+            135
+          ],
+          [
+            234,
+            164
+          ],
+          [
+            242,
+            202
+          ],
+          [
+            240,
+            238
+          ],
+          [
+            229,
+            272
+          ],
+          [
+            214,
+            301
+          ],
+          [
+            196,
+            318
+          ],
+          [
+            172,
+            320
+          ],
+          [
+            140,
+            308
+          ],
+          [
+            113,
+            291
+          ],
+          [
+            98,
+            265
+          ],
+          [
+            91,
+            231
+          ]
+        ],
+        "feather": 4,
+        "source_landmarks": [
+          [
+            141,
+            205
+          ],
+          [
+            214,
+            185
+          ],
+          [
+            195,
+            271
+          ]
+        ],
+        "target_landmarks": [
+          [
+            580,
+            346
+          ],
+          [
+            655,
+            325
+          ],
+          [
+            634,
+            410
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "file": "game/images/cg/book-one/theme-garden-opening.png",
+          "git_blob": "40f2420984b810dc166add5b01ff7d761221e3a4",
+          "sha256": "cc409a5fd4996cf8839252c402efda8ef611da9670e82426e2611b07ba531c51"
+        },
+        {
+          "file": "docs/graphics-sources/calista-opening-face.png",
+          "sha256": "c0b609298d1a10257c422b0878aeaee5ca4c75d438437464dacd6c70b8a4b971"
+        }
+      ],
+      "operations": [
+        "bounded eye-aperture inverse warp",
+        "GIMP editable-layer composition"
+      ],
+      "mask_geometry": {
+        "eye_geometry": [],
+        "face_material": {
+          "character": "Calista",
+          "file": "docs/graphics-sources/calista-opening-face.png",
+          "resize": [
+            350,
+            350
+          ],
+          "eye_geometry": [
+            {
+              "center": [
+                141,
+                205
+              ],
+              "radius": [
+                35,
+                28
+              ],
+              "scale": [
+                0.94,
+                0.91
+              ]
+            },
+            {
+              "center": [
+                214,
+                185
+              ],
+              "radius": [
+                31,
+                27
+              ],
+              "scale": [
+                0.94,
+                0.91
+              ]
+            }
+          ],
+          "polygon": [
+            [
+              99,
+              183
+            ],
+            [
+              114,
+              151
+            ],
+            [
+              139,
+              132
+            ],
+            [
+              151,
+              100
+            ],
+            [
+              172,
+              92
+            ],
+            [
+              200,
+              126
+            ],
+            [
+              219,
+              135
+            ],
+            [
+              234,
+              164
+            ],
+            [
+              242,
+              202
+            ],
+            [
+              240,
+              238
+            ],
+            [
+              229,
+              272
+            ],
+            [
+              214,
+              301
+            ],
+            [
+              196,
+              318
+            ],
+            [
+              172,
+              320
+            ],
+            [
+              140,
+              308
+            ],
+            [
+              113,
+              291
+            ],
+            [
+              98,
+              265
+            ],
+            [
+              91,
+              231
+            ]
+          ],
+          "feather": 4,
+          "source_landmarks": [
+            [
+              141,
+              205
+            ],
+            [
+              214,
+              185
+            ],
+            [
+              195,
+              271
+            ]
+          ],
+          "target_landmarks": [
+            [
+              580,
+              346
+            ],
+            [
+              655,
+              325
+            ],
+            [
+              634,
+              410
+            ]
+          ]
+        },
+        "scene_overlay": null
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_cg_faces.py",
+      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "dependencies": [
+        {
+          "file": "scripts/polish_character_geometry.py",
+          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+        }
+      ],
+      "output_sha256": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b",
+      "verification": {
+        "changed_pixels": 29371,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          521,
+          227,
+          695,
+          467
+        ]
+      },
+      "editable_xcf": "build/graphics-polish/cg/theme-garden-opening/theme-garden-opening.xcf",
+      "xcf_sha256": "b698969277bb37dff3378b73256d17eac0fcdadb8b7fa4bb5555a01e1fdb58de",
+      "source_generation": "alpha-opening-consistency",
+      "material_provenance": [
+        {
+          "registry_file": "docs/graphics-sources/materials.json",
+          "id": "calista-opening-face-material",
+          "record_sha256": "f0a34dff1642a2e32a0ea3c4c8689635cd159bfac5fb11dfe84ede59ab79df76"
+        }
+      ]
+    },
+    {
+      "id": "production-cassia-storytelling",
+      "file": "game/images/cg/book-one/cassia-storytelling.png",
+      "source_git_blob": "d6b845c1924164469820cba5078fdcb2cb325dd9",
+      "source_sha256": "74608e12c38015c5129b3c08db5af53d267d4e35b473857acf2d398d85ac3503",
+      "eye_geometry": [
+        {
+          "center": [
+            681,
+            310
+          ],
+          "radius": [
+            29,
+            24
+          ],
+          "scale": [
+            0.91,
+            0.88
+          ]
+        },
+        {
+          "center": [
+            727,
+            299
+          ],
+          "radius": [
+            27,
+            23
+          ],
+          "scale": [
+            0.91,
+            0.88
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "file": "game/images/cg/book-one/cassia-storytelling.png",
+          "git_blob": "d6b845c1924164469820cba5078fdcb2cb325dd9",
+          "sha256": "74608e12c38015c5129b3c08db5af53d267d4e35b473857acf2d398d85ac3503"
+        }
+      ],
+      "operations": [
+        "bounded eye-aperture inverse warp",
+        "GIMP editable-layer composition"
+      ],
+      "mask_geometry": {
+        "eye_geometry": [
+          {
+            "center": [
+              681,
+              310
+            ],
+            "radius": [
+              29,
+              24
+            ],
+            "scale": [
+              0.91,
+              0.88
+            ]
+          },
+          {
+            "center": [
+              727,
+              299
+            ],
+            "radius": [
+              27,
+              23
+            ],
+            "scale": [
+              0.91,
+              0.88
+            ]
+          }
+        ],
+        "face_material": null,
+        "scene_overlay": null
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_cg_faces.py",
+      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "dependencies": [
+        {
+          "file": "scripts/polish_character_geometry.py",
+          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+        }
+      ],
+      "output_sha256": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c",
+      "verification": {
+        "changed_pixels": 3687,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          653,
+          277,
+          754,
+          334
+        ]
+      },
+      "editable_xcf": "build/graphics-polish/cg/cassia-storytelling/cassia-storytelling.xcf",
+      "xcf_sha256": "ab25c062be07276319cf94fee80764793e3360fd7f8aae5b58dd11bbf0925e3a",
+      "source_generation": "alpha-cassia-storytelling",
+      "superseded_postprocess": {
+        "id": "alpha-cassia-storytelling-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "f38fa65197542ee7784d837b4b78a6d80c388e5121490a67063d54d97367d464",
+        "registry_git_blob": "20b6150feea75dd4530badc474063459efa0e37e",
+        "note": "Primary source is the complete previously selected iris-retouched image."
+      },
+      "material_provenance": []
+    },
+    {
+      "id": "production-theme-dome-friends",
+      "file": "game/images/cg/book-one/theme-dome-friends.png",
+      "source_git_blob": "824ea278610297167079aba0bddbf76f7a0738df",
+      "source_sha256": "9ee19cb65c68b41d5e03f3c6cf40d6fe617c6d0db3abe7ce6774a7e0da3611c1",
+      "eye_geometry": [
+        {
+          "center": [
+            526,
+            169
+          ],
+          "radius": [
+            21,
+            18
+          ],
+          "scale": [
+            0.93,
+            0.9
+          ]
+        }
+      ],
+      "face_material": {
+        "character": "Cassia",
+        "file": "docs/graphics-sources/cassia-dome-face.png",
+        "resize": [
+          190,
+          190
+        ],
+        "eye_geometry": [
+          {
+            "center": [
+              42,
+              90
+            ],
+            "radius": [
+              19,
+              17
+            ],
+            "scale": [
+              0.92,
+              0.9
+            ]
+          },
+          {
+            "center": [
+              78,
+              91
+            ],
+            "radius": [
+              20,
+              17
+            ],
+            "scale": [
+              0.92,
+              0.9
+            ]
+          }
+        ],
+        "polygon": [
+          [
+            34,
+            70
+          ],
+          [
+            47,
+            62
+          ],
+          [
+            59,
+            51
+          ],
+          [
+            72,
+            51
+          ],
+          [
+            88,
+            65
+          ],
+          [
+            103,
+            72
+          ],
+          [
+            108,
+            91
+          ],
+          [
+            103,
+            118
+          ],
+          [
+            87,
+            137
+          ],
+          [
+            68,
+            147
+          ],
+          [
+            53,
+            145
+          ],
+          [
+            37,
+            136
+          ],
+          [
+            30,
+            114
+          ],
+          [
+            29,
+            90
+          ]
+        ],
+        "feather": 2.3,
+        "source_landmarks": [
+          [
+            42,
+            90
+          ],
+          [
+            78,
+            91
+          ],
+          [
+            59,
+            125
+          ]
+        ],
+        "target_landmarks": [
+          [
+            638,
+            173
+          ],
+          [
+            674,
+            173
+          ],
+          [
+            654,
+            210
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "file": "game/images/cg/book-one/theme-dome-friends.png",
+          "git_blob": "824ea278610297167079aba0bddbf76f7a0738df",
+          "sha256": "9ee19cb65c68b41d5e03f3c6cf40d6fe617c6d0db3abe7ce6774a7e0da3611c1"
+        },
+        {
+          "file": "docs/graphics-sources/cassia-dome-face.png",
+          "sha256": "2b2f56099c6b17080da480821352f6d7dedc36870ef76801c2ed3792fd15d66e"
+        }
+      ],
+      "operations": [
+        "bounded eye-aperture inverse warp",
+        "GIMP editable-layer composition"
+      ],
+      "mask_geometry": {
+        "eye_geometry": [
+          {
+            "center": [
+              526,
+              169
+            ],
+            "radius": [
+              21,
+              18
+            ],
+            "scale": [
+              0.93,
+              0.9
+            ]
+          }
+        ],
+        "face_material": {
+          "character": "Cassia",
+          "file": "docs/graphics-sources/cassia-dome-face.png",
+          "resize": [
+            190,
+            190
+          ],
+          "eye_geometry": [
+            {
+              "center": [
+                42,
+                90
+              ],
+              "radius": [
+                19,
+                17
+              ],
+              "scale": [
+                0.92,
+                0.9
+              ]
+            },
+            {
+              "center": [
+                78,
+                91
+              ],
+              "radius": [
+                20,
+                17
+              ],
+              "scale": [
+                0.92,
+                0.9
+              ]
+            }
+          ],
+          "polygon": [
+            [
+              34,
+              70
+            ],
+            [
+              47,
+              62
+            ],
+            [
+              59,
+              51
+            ],
+            [
+              72,
+              51
+            ],
+            [
+              88,
+              65
+            ],
+            [
+              103,
+              72
+            ],
+            [
+              108,
+              91
+            ],
+            [
+              103,
+              118
+            ],
+            [
+              87,
+              137
+            ],
+            [
+              68,
+              147
+            ],
+            [
+              53,
+              145
+            ],
+            [
+              37,
+              136
+            ],
+            [
+              30,
+              114
+            ],
+            [
+              29,
+              90
+            ]
+          ],
+          "feather": 2.3,
+          "source_landmarks": [
+            [
+              42,
+              90
+            ],
+            [
+              78,
+              91
+            ],
+            [
+              59,
+              125
+            ]
+          ],
+          "target_landmarks": [
+            [
+              638,
+              173
+            ],
+            [
+              674,
+              173
+            ],
+            [
+              654,
+              210
+            ]
+          ]
+        },
+        "scene_overlay": null
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_cg_faces.py",
+      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "dependencies": [
+        {
+          "file": "scripts/polish_character_geometry.py",
+          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+        }
+      ],
+      "output_sha256": "d7577ed4ebc21cb87cc0107b6c86583e324812697efc0a2d95c17619ba895dff",
+      "verification": {
+        "changed_pixels": 8550,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          506,
+          125,
+          709,
+          238
+        ]
+      },
+      "editable_xcf": "build/graphics-polish/cg/theme-dome-friends/theme-dome-friends.xcf",
+      "xcf_sha256": "eab492cec1ee1ba18d622538bffd3bbc37e87068d0c2c3e7145d8d3b0a55a998",
+      "source_generation": "alpha-scale-theme-dome-friends",
+      "superseded_postprocess": {
+        "id": "alpha-theme-dome-friends-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "5d7eaac1819f2fa2914a283cab3081e3fa6e228411f53ada531fda6fb9ef42ea",
+        "registry_git_blob": "20b6150feea75dd4530badc474063459efa0e37e",
+        "note": "Primary immutable source is the complete previously selected iris-retouched PNG."
+      },
+      "material_provenance": [
+        {
+          "registry_file": "docs/graphics-sources/materials.json",
+          "id": "cassia-dome-face-material",
+          "record_sha256": "f8ea33c5bec13ae13fedf6ecd0474f92f354ef72e7098f438120965941a9468d"
+        }
+      ]
+    },
+    {
+      "id": "production-theme-morning-outlook",
+      "file": "game/images/cg/book-one/theme-morning-outlook.png",
+      "source_git_blob": "95b64d48327a322752284c657bfcc04bce556c34",
+      "source_sha256": "61382b336aeb7c7989e7339855dbf89337e0f9c29ab5a90cbd04bb25b147834f",
+      "eye_geometry": [],
+      "face_material": {
+        "character": "Calista",
+        "file": "docs/graphics-sources/calista-morning-face.png",
+        "resize": [
+          250,
+          250
+        ],
+        "eye_geometry": [
+          {
+            "center": [
+              115,
+              125
+            ],
+            "radius": [
+              29,
+              23
+            ],
+            "scale": [
+              0.92,
+              0.89
+            ]
+          },
+          {
+            "center": [
+              173,
+              122
+            ],
+            "radius": [
+              27,
+              23
+            ],
+            "scale": [
+              0.92,
+              0.89
+            ]
+          }
+        ],
+        "polygon": [
+          [
+            79,
+            114
+          ],
+          [
+            92,
+            98
+          ],
+          [
+            99,
+            88
+          ],
+          [
+            114,
+            72
+          ],
+          [
+            121,
+            67
+          ],
+          [
+            145,
+            65
+          ],
+          [
+            163,
+            87
+          ],
+          [
+            181,
+            93
+          ],
+          [
+            188,
+            113
+          ],
+          [
+            191,
+            137
+          ],
+          [
+            188,
+            164
+          ],
+          [
+            177,
+            187
+          ],
+          [
+            162,
+            202
+          ],
+          [
+            147,
+            210
+          ],
+          [
+            128,
+            209
+          ],
+          [
+            105,
+            202
+          ],
+          [
+            89,
+            190
+          ],
+          [
+            77,
+            172
+          ],
+          [
+            72,
+            150
+          ],
+          [
+            73,
+            130
+          ]
+        ],
+        "feather": 3,
+        "source_landmarks": [
+          [
+            115,
+            125
+          ],
+          [
+            173,
+            122
+          ],
+          [
+            147,
+            176
+          ]
+        ],
+        "target_landmarks": [
+          [
+            1060,
+            185
+          ],
+          [
+            1119,
+            179
+          ],
+          [
+            1092,
+            240
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "file": "game/images/cg/book-one/theme-morning-outlook.png",
+          "git_blob": "95b64d48327a322752284c657bfcc04bce556c34",
+          "sha256": "61382b336aeb7c7989e7339855dbf89337e0f9c29ab5a90cbd04bb25b147834f"
+        },
+        {
+          "file": "docs/graphics-sources/calista-morning-face.png",
+          "sha256": "2f3258a90a6fa2061504219448392db6640f93e50577c987dc60b4d4aaf86d1a"
+        }
+      ],
+      "operations": [
+        "bounded eye-aperture inverse warp",
+        "GIMP editable-layer composition"
+      ],
+      "mask_geometry": {
+        "eye_geometry": [],
+        "face_material": {
+          "character": "Calista",
+          "file": "docs/graphics-sources/calista-morning-face.png",
+          "resize": [
+            250,
+            250
+          ],
+          "eye_geometry": [
+            {
+              "center": [
+                115,
+                125
+              ],
+              "radius": [
+                29,
+                23
+              ],
+              "scale": [
+                0.92,
+                0.89
+              ]
+            },
+            {
+              "center": [
+                173,
+                122
+              ],
+              "radius": [
+                27,
+                23
+              ],
+              "scale": [
+                0.92,
+                0.89
+              ]
+            }
+          ],
+          "polygon": [
+            [
+              79,
+              114
+            ],
+            [
+              92,
+              98
+            ],
+            [
+              99,
+              88
+            ],
+            [
+              114,
+              72
+            ],
+            [
+              121,
+              67
+            ],
+            [
+              145,
+              65
+            ],
+            [
+              163,
+              87
+            ],
+            [
+              181,
+              93
+            ],
+            [
+              188,
+              113
+            ],
+            [
+              191,
+              137
+            ],
+            [
+              188,
+              164
+            ],
+            [
+              177,
+              187
+            ],
+            [
+              162,
+              202
+            ],
+            [
+              147,
+              210
+            ],
+            [
+              128,
+              209
+            ],
+            [
+              105,
+              202
+            ],
+            [
+              89,
+              190
+            ],
+            [
+              77,
+              172
+            ],
+            [
+              72,
+              150
+            ],
+            [
+              73,
+              130
+            ]
+          ],
+          "feather": 3,
+          "source_landmarks": [
+            [
+              115,
+              125
+            ],
+            [
+              173,
+              122
+            ],
+            [
+              147,
+              176
+            ]
+          ],
+          "target_landmarks": [
+            [
+              1060,
+              185
+            ],
+            [
+              1119,
+              179
+            ],
+            [
+              1092,
+              240
+            ]
+          ]
+        },
+        "scene_overlay": null
+      },
+      "dimensions": [
+        1680,
+        936
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_cg_faces.py",
+      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "dependencies": [
+        {
+          "file": "scripts/polish_character_geometry.py",
+          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+        }
+      ],
+      "output_sha256": "1a0edf4cbbf8ff03ff42dce399c02f7e0780232a654f82662759faeece2ddc45",
+      "verification": {
+        "changed_pixels": 17140,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          1010,
+          109,
+          1145,
+          284
+        ]
+      },
+      "editable_xcf": "build/graphics-polish/cg/theme-morning-outlook/theme-morning-outlook.xcf",
+      "xcf_sha256": "0470929a99177da884a323656f35d4571940ede35bad1790ce78cb8038b586b3",
+      "source_generation": "alpha-theme-morning-quality",
+      "superseded_postprocess": {
+        "id": "alpha-theme-morning-outlook-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "3f0c5627a739fa2cc5188e4d8b22b002b7af99306b4683838070326ec5761be9",
+        "registry_git_blob": "20b6150feea75dd4530badc474063459efa0e37e",
+        "note": "Primary immutable source is the complete previously selected iris-retouched PNG."
+      },
+      "material_provenance": [
+        {
+          "registry_file": "docs/graphics-sources/materials.json",
+          "id": "calista-morning-face-material",
+          "record_sha256": "e5a40aa275b8434ace358ae6c1ae97e8cb401bf4a0a85173599c829729c95cde"
+        }
+      ]
+    },
+    {
+      "id": "production-theme-treehouse-arrival",
+      "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
+      "source_git_blob": "da135e66da1ce588a1ca2ed93f9614dde54851a3",
+      "source_sha256": "7525e3f19fab329fb96b0ed6d1ac6c1aa06db608b8197ad8d7b83fbd3c5554a6",
+      "eye_geometry": [
+        {
+          "center": [
+            397,
+            259
+          ],
+          "radius": [
+            43,
+            34
+          ],
+          "scale": [
+            0.9,
+            0.88
+          ]
+        },
+        {
+          "center": [
+            470,
+            244
+          ],
+          "radius": [
+            40,
+            34
+          ],
+          "scale": [
+            0.9,
+            0.88
+          ]
+        }
+      ],
+      "face_material": {
+        "file": "docs/graphics-sources/cassia-arrival-face.png",
+        "resize": [
+          350,
+          350
+        ],
+        "eye_geometry": [
+          {
+            "center": [
+              158,
+              175
+            ],
+            "radius": [
+              28,
+              24
+            ],
+            "scale": [
+              0.88,
+              0.85
+            ]
+          },
+          {
+            "center": [
+              211,
+              171
+            ],
+            "radius": [
+              25,
+              23
+            ],
+            "scale": [
+              0.88,
+              0.85
+            ]
+          }
+        ],
+        "polygon": [
+          [
+            121,
+            150
+          ],
+          [
+            143,
+            139
+          ],
+          [
+            164,
+            127
+          ],
+          [
+            179,
+            125
+          ],
+          [
+            192,
+            140
+          ],
+          [
+            211,
+            141
+          ],
+          [
+            220,
+            156
+          ],
+          [
+            226,
+            180
+          ],
+          [
+            227,
+            201
+          ],
+          [
+            220,
+            227
+          ],
+          [
+            207,
+            244
+          ],
+          [
+            194,
+            256
+          ],
+          [
+            181,
+            260
+          ],
+          [
+            160,
+            251
+          ],
+          [
+            139,
+            236
+          ],
+          [
+            126,
+            217
+          ],
+          [
+            116,
+            196
+          ],
+          [
+            117,
+            172
+          ]
+        ],
+        "feather": 3,
+        "source_landmarks": [
+          [
+            158,
+            175
+          ],
+          [
+            211,
+            171
+          ],
+          [
+            190,
+            226
+          ]
+        ],
+        "target_landmarks": [
+          [
+            798,
+            240
+          ],
+          [
+            851,
+            236
+          ],
+          [
+            830,
+            291
+          ]
+        ]
+      },
+      "scene_overlay": {
+        "file": "art/production/theme-treehouse-arrival-near-exterior.png",
+        "sha256": "6b07d3ccc7150f8e097a8c3e624465fbdce4ed057b7ab12f6fa2f467c6dec649",
+        "production_rig": "docs/treehouse-exterior-rig.json",
+        "scope": "Shared nearby fork clusters, hand-masked window openings; original distant foliage retained."
+      },
+      "sources": [
+        {
+          "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
+          "git_blob": "da135e66da1ce588a1ca2ed93f9614dde54851a3",
+          "sha256": "7525e3f19fab329fb96b0ed6d1ac6c1aa06db608b8197ad8d7b83fbd3c5554a6"
+        },
+        {
+          "file": "docs/graphics-sources/cassia-arrival-face.png",
+          "sha256": "f414163a2c39bd0c0bd82ea3dd8e201a610dbf2687a9877a2291372b70edaee9"
+        },
+        {
+          "file": "art/production/theme-treehouse-arrival-near-exterior.png",
+          "sha256": "6b07d3ccc7150f8e097a8c3e624465fbdce4ed057b7ab12f6fa2f467c6dec649"
+        }
+      ],
+      "operations": [
+        "bounded eye-aperture inverse warp",
+        "GIMP editable-layer composition"
+      ],
+      "mask_geometry": {
+        "eye_geometry": [
+          {
+            "center": [
+              397,
+              259
+            ],
+            "radius": [
+              43,
+              34
+            ],
+            "scale": [
+              0.9,
+              0.88
+            ]
+          },
+          {
+            "center": [
+              470,
+              244
+            ],
+            "radius": [
+              40,
+              34
+            ],
+            "scale": [
+              0.9,
+              0.88
+            ]
+          }
+        ],
+        "face_material": {
+          "file": "docs/graphics-sources/cassia-arrival-face.png",
+          "resize": [
+            350,
+            350
+          ],
+          "eye_geometry": [
+            {
+              "center": [
+                158,
+                175
+              ],
+              "radius": [
+                28,
+                24
+              ],
+              "scale": [
+                0.88,
+                0.85
+              ]
+            },
+            {
+              "center": [
+                211,
+                171
+              ],
+              "radius": [
+                25,
+                23
+              ],
+              "scale": [
+                0.88,
+                0.85
+              ]
+            }
+          ],
+          "polygon": [
+            [
+              121,
+              150
+            ],
+            [
+              143,
+              139
+            ],
+            [
+              164,
+              127
+            ],
+            [
+              179,
+              125
+            ],
+            [
+              192,
+              140
+            ],
+            [
+              211,
+              141
+            ],
+            [
+              220,
+              156
+            ],
+            [
+              226,
+              180
+            ],
+            [
+              227,
+              201
+            ],
+            [
+              220,
+              227
+            ],
+            [
+              207,
+              244
+            ],
+            [
+              194,
+              256
+            ],
+            [
+              181,
+              260
+            ],
+            [
+              160,
+              251
+            ],
+            [
+              139,
+              236
+            ],
+            [
+              126,
+              217
+            ],
+            [
+              116,
+              196
+            ],
+            [
+              117,
+              172
+            ]
+          ],
+          "feather": 3,
+          "source_landmarks": [
+            [
+              158,
+              175
+            ],
+            [
+              211,
+              171
+            ],
+            [
+              190,
+              226
+            ]
+          ],
+          "target_landmarks": [
+            [
+              798,
+              240
+            ],
+            [
+              851,
+              236
+            ],
+            [
+              830,
+              291
+            ]
+          ]
+        },
+        "scene_overlay": {
+          "file": "art/production/theme-treehouse-arrival-near-exterior.png",
+          "sha256": "6b07d3ccc7150f8e097a8c3e624465fbdce4ed057b7ab12f6fa2f467c6dec649",
+          "production_rig": "docs/treehouse-exterior-rig.json",
+          "scope": "Shared nearby fork clusters, hand-masked window openings; original distant foliage retained."
+        }
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_cg_faces.py",
+      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "dependencies": [
+        {
+          "file": "scripts/polish_character_geometry.py",
+          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+        }
+      ],
+      "output_sha256": "9358565397facaa82363d8960e0df9fe6b3352c87f8e40ee6025957d10e04b72",
+      "verification": {
+        "changed_pixels": 58497,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          355,
+          96,
+          1672,
+          378
+        ]
+      },
+      "editable_xcf": "build/graphics-polish/cg/theme-treehouse-arrival/theme-treehouse-arrival.xcf",
+      "xcf_sha256": "536b5ae85cf555c6e35c0e7cd1e7a0c9270032187c4956c403391862cbf1c316",
+      "source_generation": "alpha-theme-arrival-quality",
+      "superseded_postprocess": {
+        "id": "alpha-theme-treehouse-arrival-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "7f065fc0f13a4c59658ac0592e61931b93140cb9606130e0caac7096406442bf",
+        "registry_git_blob": "20b6150feea75dd4530badc474063459efa0e37e",
+        "note": "Primary immutable source is the complete previously selected iris-retouched PNG."
+      },
+      "material_provenance": [
+        {
+          "registry_file": "docs/graphics-sources/materials.json",
+          "id": "cassia-arrival-face-material",
+          "record_sha256": "dddc9e42c08123d66114d591c1da6b24990887d483f114012bd6e5bdcb025c7b"
+        }
+      ]
+    },
+    {
+      "id": "production-treehouse-friends",
+      "file": "game/images/cg/book-one/treehouse-friends.png",
+      "source_git_blob": "a04d30ffc71701da7db81ec35a41c50bf2045eea",
+      "source_sha256": "5bf094774526bf79a5ffd6bdd7b9e1cf2b07c74a8dd0c42778b3b43a2892f318",
+      "eye_geometry": [
+        {
+          "center": [
+            446,
+            291
+          ],
+          "radius": [
+            28,
+            24
+          ],
+          "scale": [
+            0.9,
+            0.87
+          ]
+        },
+        {
+          "center": [
+            488,
+            285
+          ],
+          "radius": [
+            27,
+            23
+          ],
+          "scale": [
+            0.9,
+            0.87
+          ]
+        }
+      ],
+      "face_material": {
+        "file": "docs/graphics-sources/cassia-arrival-face.png",
+        "resize": [
+          350,
+          350
+        ],
+        "eye_geometry": [
+          {
+            "center": [
+              158,
+              175
+            ],
+            "radius": [
+              28,
+              24
+            ],
+            "scale": [
+              0.88,
+              0.85
+            ]
+          },
+          {
+            "center": [
+              211,
+              171
+            ],
+            "radius": [
+              25,
+              23
+            ],
+            "scale": [
+              0.88,
+              0.85
+            ]
+          }
+        ],
+        "polygon": [
+          [
+            121,
+            150
+          ],
+          [
+            143,
+            139
+          ],
+          [
+            164,
+            127
+          ],
+          [
+            179,
+            125
+          ],
+          [
+            192,
+            140
+          ],
+          [
+            211,
+            141
+          ],
+          [
+            220,
+            156
+          ],
+          [
+            226,
+            180
+          ],
+          [
+            227,
+            201
+          ],
+          [
+            220,
+            227
+          ],
+          [
+            207,
+            244
+          ],
+          [
+            194,
+            256
+          ],
+          [
+            181,
+            260
+          ],
+          [
+            160,
+            251
+          ],
+          [
+            139,
+            236
+          ],
+          [
+            126,
+            217
+          ],
+          [
+            116,
+            196
+          ],
+          [
+            117,
+            172
+          ]
+        ],
+        "feather": 3,
+        "source_landmarks": [
+          [
+            158,
+            175
+          ],
+          [
+            211,
+            171
+          ],
+          [
+            190,
+            226
+          ]
+        ],
+        "target_landmarks": [
+          [
+            844,
+            246
+          ],
+          [
+            888,
+            242
+          ],
+          [
+            864,
+            296
+          ]
+        ]
+      },
+      "scene_overlay": {
+        "file": "art/production/treehouse-friends-near-exterior.png",
+        "sha256": "d76bab79377f6014d1e17cecf563a5be670063bfb90adbafb25a113f7f72882c",
+        "production_rig": "docs/treehouse-exterior-rig.json",
+        "scope": "Shared nearby fork clusters, hand-masked window openings; original distant foliage retained."
+      },
+      "sources": [
+        {
+          "file": "game/images/cg/book-one/treehouse-friends.png",
+          "git_blob": "a04d30ffc71701da7db81ec35a41c50bf2045eea",
+          "sha256": "5bf094774526bf79a5ffd6bdd7b9e1cf2b07c74a8dd0c42778b3b43a2892f318"
+        },
+        {
+          "file": "docs/graphics-sources/cassia-arrival-face.png",
+          "sha256": "f414163a2c39bd0c0bd82ea3dd8e201a610dbf2687a9877a2291372b70edaee9"
+        },
+        {
+          "file": "art/production/treehouse-friends-near-exterior.png",
+          "sha256": "d76bab79377f6014d1e17cecf563a5be670063bfb90adbafb25a113f7f72882c"
+        }
+      ],
+      "operations": [
+        "bounded eye-aperture inverse warp",
+        "GIMP editable-layer composition"
+      ],
+      "mask_geometry": {
+        "eye_geometry": [
+          {
+            "center": [
+              446,
+              291
+            ],
+            "radius": [
+              28,
+              24
+            ],
+            "scale": [
+              0.9,
+              0.87
+            ]
+          },
+          {
+            "center": [
+              488,
+              285
+            ],
+            "radius": [
+              27,
+              23
+            ],
+            "scale": [
+              0.9,
+              0.87
+            ]
+          }
+        ],
+        "face_material": {
+          "file": "docs/graphics-sources/cassia-arrival-face.png",
+          "resize": [
+            350,
+            350
+          ],
+          "eye_geometry": [
+            {
+              "center": [
+                158,
+                175
+              ],
+              "radius": [
+                28,
+                24
+              ],
+              "scale": [
+                0.88,
+                0.85
+              ]
+            },
+            {
+              "center": [
+                211,
+                171
+              ],
+              "radius": [
+                25,
+                23
+              ],
+              "scale": [
+                0.88,
+                0.85
+              ]
+            }
+          ],
+          "polygon": [
+            [
+              121,
+              150
+            ],
+            [
+              143,
+              139
+            ],
+            [
+              164,
+              127
+            ],
+            [
+              179,
+              125
+            ],
+            [
+              192,
+              140
+            ],
+            [
+              211,
+              141
+            ],
+            [
+              220,
+              156
+            ],
+            [
+              226,
+              180
+            ],
+            [
+              227,
+              201
+            ],
+            [
+              220,
+              227
+            ],
+            [
+              207,
+              244
+            ],
+            [
+              194,
+              256
+            ],
+            [
+              181,
+              260
+            ],
+            [
+              160,
+              251
+            ],
+            [
+              139,
+              236
+            ],
+            [
+              126,
+              217
+            ],
+            [
+              116,
+              196
+            ],
+            [
+              117,
+              172
+            ]
+          ],
+          "feather": 3,
+          "source_landmarks": [
+            [
+              158,
+              175
+            ],
+            [
+              211,
+              171
+            ],
+            [
+              190,
+              226
+            ]
+          ],
+          "target_landmarks": [
+            [
+              844,
+              246
+            ],
+            [
+              888,
+              242
+            ],
+            [
+              864,
+              296
+            ]
+          ]
+        },
+        "scene_overlay": {
+          "file": "art/production/treehouse-friends-near-exterior.png",
+          "sha256": "d76bab79377f6014d1e17cecf563a5be670063bfb90adbafb25a113f7f72882c",
+          "production_rig": "docs/treehouse-exterior-rig.json",
+          "scope": "Shared nearby fork clusters, hand-masked window openings; original distant foliage retained."
+        }
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/polish_cg_faces.py",
+      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "dependencies": [
+        {
+          "file": "scripts/polish_character_geometry.py",
+          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+        }
+      ],
+      "output_sha256": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4",
+      "verification": {
+        "changed_pixels": 54134,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          419,
+          87,
+          1672,
+          368
+        ]
+      },
+      "editable_xcf": "build/graphics-polish/cg/treehouse-friends/treehouse-friends.xcf",
+      "xcf_sha256": "0adbbf8d2e657c0a0c786b9a6eb768ee3033c90855091294030f5116567c59e8",
+      "source_generation": "alpha-scale-treehouse-friends",
+      "superseded_postprocess": {
+        "id": "alpha-treehouse-friends-masked-irises",
+        "recipe_file": "docs/iris-retouches.json",
+        "recipe_sha256": "9bc21bc48da67b380930c079c7e7fa9b6d1a86724aa136910e18d6ef6e9ea109",
+        "registry_git_blob": "20b6150feea75dd4530badc474063459efa0e37e",
+        "note": "Primary immutable source is the complete previously selected iris-retouched PNG."
+      },
+      "material_provenance": [
+        {
+          "registry_file": "docs/graphics-sources/materials.json",
+          "id": "cassia-arrival-face-material",
+          "record_sha256": "dddc9e42c08123d66114d591c1da6b24990887d483f114012bd6e5bdcb025c7b"
+        }
+      ]
+    },
+    {
+      "id": "production-workshop-waterwheel",
+      "file": "game/images/backgrounds/book-one/workshop-waterwheel.png",
+      "source_generation": "book-one-workshop-v1",
+      "sources": [
+        {
+          "file": "game/images/backgrounds/book-one/workshop.png",
+          "git_blob": "aca0d8ef4466e4df83088252d08e791638a9dce7",
+          "sha256": "603d67750be055357d53693ea315aa201473db6a746ab02f8a5f968c9b9b2934"
+        },
+        {
+          "file": "docs/graphics-sources/workshop-waterwheel-material.png",
+          "sha256": "a4140044119fd9d90e0f762020513aa8ee2247ef7394febed05a104b7b28faf2"
+        },
+        {
+          "file": "docs/environment-state-spec.json",
+          "sha256": "6bbde77ec374de039a352606611a30ea3c52cb78ce688b064ce96b7478d7c81a"
+        }
+      ],
+      "operations": [
+        "Resize retained generated prop material with Lanczos to the declared work-surface target box",
+        "Composite only through the feathered polygon clipped to that box; retain original room outside it"
+      ],
+      "mask_geometry": {
+        "material_target_box": [
+          625,
+          330,
+          1075,
+          500
+        ],
+        "polygon": [
+          [
+            714,
+            359
+          ],
+          [
+            745,
+            351
+          ],
+          [
+            806,
+            361
+          ],
+          [
+            842,
+            400
+          ],
+          [
+            858,
+            421
+          ],
+          [
+            895,
+            417
+          ],
+          [
+            924,
+            418
+          ],
+          [
+            958,
+            444
+          ],
+          [
+            1008,
+            467
+          ],
+          [
+            1008,
+            481
+          ],
+          [
+            676,
+            481
+          ],
+          [
+            676,
+            456
+          ],
+          [
+            707,
+            452
+          ],
+          [
+            708,
+            397
+          ]
+        ],
+        "feather_pixels": 3,
+        "mask_sha256": "dc9d6bf1e0152f57de345bb23f695ef45a5f7a962bb1a0f76a5d1580c7ef3144"
+      },
+      "output_sha256": "614611fed18af319562a457e65417a74176a772b58eabf386f7ab44e7cf298ec",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/render_environment_states.py",
+      "script_sha256": "7e4f72b7d3f9de6be1788d4191ee6783066f0d32848e75bb59a92e35b002e247",
+      "verification": {
+        "changed_pixels": 29798,
+        "outside_mask_pixels_changed": 0,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          668,
+          346,
+          1016,
+          489
+        ],
+        "outside_mask_identical": true
+      },
+      "material_provenance": [
+        {
+          "registry_file": "docs/graphics-sources/materials.json",
+          "id": "workshop-waterwheel-material",
+          "record_sha256": "7b2ab20016cc5d05ba206f6faf3ac6416de38e70f0e3967061e614940bcfdb36"
+        }
+      ]
+    },
+    {
+      "id": "production-family-home-painting",
+      "file": "game/images/backgrounds/book-one/family-home-painting.png",
+      "source_generation": "family-home-v1",
+      "sources": [
+        {
+          "file": "game/images/backgrounds/family-home.png",
+          "git_blob": "e2721eb958af40e9ca17624df2fea62e78032643",
+          "sha256": "dbf252a7502305a15c685bcbc6bfc7973f5bf2db277401dbdd6e6fda87d15a6a"
+        },
+        {
+          "file": "docs/graphics-sources/family-home-painting-material.png",
+          "sha256": "525a4fd0f9eec90ae3d42a7614c63280e72542bc0d91f846ecd74ddb1c401389"
+        },
+        {
+          "file": "docs/environment-state-spec.json",
+          "sha256": "6bbde77ec374de039a352606611a30ea3c52cb78ce688b064ce96b7478d7c81a"
+        }
+      ],
+      "operations": [
+        "Resize retained generated prop material with Lanczos to the declared work-surface target box",
+        "Composite only through the feathered polygon clipped to that box; retain original room outside it"
+      ],
+      "mask_geometry": {
+        "material_target_box": [
+          560,
+          422,
+          1036,
+          596
+        ],
+        "polygon": [
+          [
+            575,
+            478
+          ],
+          [
+            690,
+            472
+          ],
+          [
+            858,
+            482
+          ],
+          [
+            869,
+            464
+          ],
+          [
+            867,
+            431
+          ],
+          [
+            905,
+            430
+          ],
+          [
+            922,
+            472
+          ],
+          [
+            931,
+            495
+          ],
+          [
+            991,
+            491
+          ],
+          [
+            1020,
+            507
+          ],
+          [
+            1007,
+            537
+          ],
+          [
+            965,
+            542
+          ],
+          [
+            956,
+            578
+          ],
+          [
+            901,
+            590
+          ],
+          [
+            819,
+            584
+          ],
+          [
+            738,
+            574
+          ],
+          [
+            650,
+            577
+          ],
+          [
+            594,
+            560
+          ]
+        ],
+        "feather_pixels": 2,
+        "mask_sha256": "af839dc4f13a4a369c43ac8335c48e3d9e331e1c3f5aa338332405b39eefe336"
+      },
+      "output_sha256": "c84cdbbf9c5f425445fad16ade67fbc18550697622a71378950147112ed8bd16",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/render_environment_states.py",
+      "script_sha256": "7e4f72b7d3f9de6be1788d4191ee6783066f0d32848e75bb59a92e35b002e247",
+      "verification": {
+        "changed_pixels": 47482,
+        "outside_mask_pixels_changed": 0,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          571,
+          426,
+          1025,
+          593
+        ],
+        "outside_mask_identical": true
+      },
+      "material_provenance": [
+        {
+          "registry_file": "docs/graphics-sources/materials.json",
+          "id": "family-home-painting-material",
+          "record_sha256": "96d672ef114f662f64eee1e0b214b3c460cd529f212f8ce8ed17db1382430d24"
+        }
+      ]
+    }
+  ]
+}

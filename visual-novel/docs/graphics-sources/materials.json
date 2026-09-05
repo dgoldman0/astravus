@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "materials": [
+    {
+      "id": "cassia-arrival-face-material",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "docs/graphics-sources/cassia-arrival-face.png",
+      "sha256": "f414163a2c39bd0c0bd82ea3dd8e201a610dbf2687a9877a2291372b70edaee9",
+      "prompt_file": "docs/graphics-sources/cassia-arrival-prompt.txt",
+      "prompt_sha256": "8ae46c66ac76b1f55d80d92d0c1304a620313c1cf74c54df727c609b338192ab",
+      "references": [
+        {
+          "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
+          "git_blob": "da135e66da1ce588a1ca2ed93f9614dde54851a3",
+          "sha256": "7525e3f19fab329fb96b0ed6d1ac6c1aa06db608b8197ad8d7b83fbd3c5554a6",
+          "crop": [
+            640,
+            65,
+            990,
+            415
+          ]
+        },
+        {
+          "file": "game/images/cg/book-one/cassia-storytelling.png",
+          "git_blob": "d6b845c1924164469820cba5078fdcb2cb325dd9",
+          "sha256": "74608e12c38015c5129b3c08db5af53d267d4e35b473857acf2d398d85ac3503",
+          "crop": [
+            840,
+            155,
+            1120,
+            435
+          ]
+        }
+      ],
+      "selection_scope": "Facial paint material only, further geometric aperture correction and hand-masked GIMP compositing into original painting. Generated hair/environment are not selected."
+    },
+    {
+      "id": "calista-opening-face-material",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "docs/graphics-sources/calista-opening-face.png",
+      "sha256": "c0b609298d1a10257c422b0878aeaee5ca4c75d438437464dacd6c70b8a4b971",
+      "prompt_file": "docs/graphics-sources/calista-opening-prompt.txt",
+      "prompt_sha256": "ab07b1579adbedbcd5b233771f49c633bdbde0adefd80d6b2068af8c17c2df3a",
+      "references": [
+        {
+          "file": "game/images/cg/book-one/theme-garden-opening.png",
+          "git_blob": "40f2420984b810dc166add5b01ff7d761221e3a4",
+          "sha256": "cc409a5fd4996cf8839252c402efda8ef611da9670e82426e2611b07ba531c51",
+          "crop": [
+            435,
+            130,
+            785,
+            480
+          ]
+        },
+        {
+          "file": "game/images/cg/book-one/theme-insect-discovery.png",
+          "git_blob": "142fd669dc6e4438f57af305c48cb51c1253b0b4",
+          "sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8",
+          "crop": [
+            300,
+            50,
+            900,
+            650
+          ]
+        }
+      ],
+      "selection_scope": "Facial paint material only, further geometric aperture correction and hand-masked GIMP compositing into original painting. Generated hair/environment are not selected."
+    },
+    {
+      "id": "cassia-dome-face-material",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "docs/graphics-sources/cassia-dome-face.png",
+      "sha256": "2b2f56099c6b17080da480821352f6d7dedc36870ef76801c2ed3792fd15d66e",
+      "prompt_file": "docs/graphics-sources/cassia-dome-prompt.txt",
+      "prompt_sha256": "118712ffa8baa3ace0430a3fdf8e3497e959836bbf998c4da2c282c4e8f82ee0",
+      "references": [
+        {
+          "file": "game/images/cg/book-one/theme-dome-friends.png",
+          "sha256": "9ee19cb65c68b41d5e03f3c6cf40d6fe617c6d0db3abe7ce6774a7e0da3611c1",
+          "crop": [
+            595,
+            85,
+            785,
+            275
+          ],
+          "git_blob": "824ea278610297167079aba0bddbf76f7a0738df"
+        },
+        {
+          "file": "game/images/characters/book-one/cassia-older.png",
+          "sha256": "f65d350cb1d99f692c0de61ee2f160f21795aefafd7d263e88e29f27939865d6",
+          "crop": [
+            480,
+            100,
+            660,
+            280
+          ],
+          "source_note": "Current accepted production sprite; source receipt in docs/graphics-edits.json."
+        }
+      ],
+      "selection_scope": "Facial paint material only; aperture geometry and registered skin mask applied by GIMP production pipeline."
+    },
+    {
+      "id": "calista-morning-face-material",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "docs/graphics-sources/calista-morning-face.png",
+      "sha256": "2f3258a90a6fa2061504219448392db6640f93e50577c987dc60b4d4aaf86d1a",
+      "prompt_file": "docs/graphics-sources/calista-morning-prompt.txt",
+      "prompt_sha256": "ef4378373e0dcf545dc21af0cedf4b57c978e41f5ba20b227dcd7044951ae88b",
+      "references": [
+        {
+          "file": "game/images/cg/book-one/theme-morning-outlook.png",
+          "sha256": "61382b336aeb7c7989e7339855dbf89337e0f9c29ab5a90cbd04bb25b147834f",
+          "crop": [
+            945,
+            60,
+            1195,
+            310
+          ],
+          "git_blob": "95b64d48327a322752284c657bfcc04bce556c34"
+        },
+        {
+          "file": "game/images/characters/book-one/calista-older.png",
+          "sha256": "d36489fd12db1fd3f2d360afa83d675e2af5bcb563e942775ad196f5f11f70b3",
+          "crop": [
+            395,
+            135,
+            650,
+            390
+          ],
+          "git_blob": "8d2039f301e4372b74d8d13e85fb003c76d7bb5b"
+        }
+      ],
+      "selection_scope": "Facial paint material only; aperture geometry and registered skin mask applied by GIMP production pipeline."
+    },
+    {
+      "id": "treehouse-later-furnishings",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "art/production/treehouse-later-furnishings.png",
+      "sha256": "0dd73bf82a2818ef58d0d09d0d04d153a46aabc2e5ecc131b0b7562f9a925d20",
+      "generation_output_sha256": "3f623f4531f76645da3664938e53d8ba5d74cd614a1cff0831ea57226216bf3c",
+      "prompt_file": "docs/graphics-sources/treehouse-furnishings-prompt.txt",
+      "prompt_sha256": "d89bc738705790008ca5d1b8b8534c177daaebf3892ea150577f6fb5834c56e0",
+      "references": [
+        {
+          "file": "game/images/backgrounds/book-one/treehouse-memory.png",
+          "sha256": "4530b7d44ea6ecd5ff21c4dc12d7c371ac85a6c5ad870277f9b608099146e4d4",
+          "source_note": "Supplied pre-relight shared-room remembrance composition; reproducible using original repair_treehouse_environments recipe and Git sources."
+        }
+      ],
+      "mask_receipt": "docs/treehouse-furnishings.json",
+      "selection_scope": "Only bounded furniture, textiles, project materials and vacated floor/contact shadows retained as RGBA. Existing architecture and character paintings remain the base; full generated scene is not selected."
+    },
+    {
+      "id": "cassia-comfort-later-furnishings",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "art/production/cassia-comfort-later-furnishings.png",
+      "sha256": "b33f0db5e95253e72828b579573d292295969b3ad995771e9e427ae69ab550e1",
+      "generation_output_sha256": "554b391bebdaab1acd03563601392b82190107822ba63cc0173165543792dabe",
+      "prompt_file": "docs/graphics-sources/comfort-furnishings-prompt.txt",
+      "prompt_sha256": "489870d051be5e752a17528b7e2df022601d3bf6a704321c08c61d478cede618",
+      "references": [
+        {
+          "file": "game/images/cg/book-one/cassia-comfort.png",
+          "sha256": "4148066089369387844affb7be75c8e9c2a05d5d434af8a070a668419ff8d08e",
+          "source_note": "Accepted character painting with near exterior branch overlay, before furniture and daylight changes."
+        },
+        {
+          "file": "build/graphics/environments/states/later-furnished-base.png",
+          "sha256": "d03af98bf4bf877fdacea519107e83ed5d838fc56b1585ed9bef2f1751729fef",
+          "source_note": "Derived reference frame: original Git room plus EARLY_PAPERS and retained art/production/treehouse-later-furnishings.png. Reconstructible from scripts/prepare_treehouse_furnishings.py and docs/treehouse-furnishings.json."
+        }
+      ],
+      "mask_receipt": "docs/comfort-furnishings.json",
+      "selection_scope": "Only bounded furniture, textiles, project materials and vacated floor/contact shadows retained as RGBA. Existing architecture and character paintings remain the base; full generated scene is not selected."
+    },
+    {
+      "id": "workshop-waterwheel-material",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "docs/graphics-sources/workshop-waterwheel-material.png",
+      "sha256": "a4140044119fd9d90e0f762020513aa8ee2247ef7394febed05a104b7b28faf2",
+      "generation_output_sha256": "5ea36ce3dd0b82df66ca7c7516c48fa96357230a9c5e48415b732459c5d57c8a",
+      "generation_output_size": [
+        1672,
+        941
+      ],
+      "selected_crop": [
+        625,
+        330,
+        1075,
+        500
+      ],
+      "prompt_file": "docs/graphics-sources/workshop-waterwheel-material-prompt.txt",
+      "prompt_sha256": "d8b428fc1042474926af0dc1e05158b851c80d343f1ced102cff0411b40746eb",
+      "references": [
+        {
+          "file": "game/images/backgrounds/book-one/workshop.png",
+          "git_blob": "aca0d8ef4466e4df83088252d08e791638a9dce7",
+          "sha256": "603d67750be055357d53693ea315aa201473db6a746ab02f8a5f968c9b9b2934"
+        }
+      ],
+      "selection_scope": "Only cropped work-surface props are retained. The exact retained material is resized to its declared target box and feathered through a bounded polygon; the generated full room is not selected."
+    },
+    {
+      "id": "family-home-painting-material",
+      "tool": "builtin image_gen.imagegen",
+      "generated_material": "docs/graphics-sources/family-home-painting-material.png",
+      "sha256": "525a4fd0f9eec90ae3d42a7614c63280e72542bc0d91f846ecd74ddb1c401389",
+      "generation_output_sha256": "54d9bdfaf9ee4b72c8c885412bc2fd30a884ee68c2ed3f3f70e40f9734ab17fa",
+      "generation_output_size": [
+        1672,
+        941
+      ],
+      "selected_crop": [
+        525,
+        435,
+        1120,
+        652
+      ],
+      "prompt_file": "docs/graphics-sources/family-home-painting-material-prompt.txt",
+      "prompt_sha256": "4c27f0078adbc33912ba5a9f4b2b4d3160f83a3f4fd806f2723cec460eeb9432",
+      "references": [
+        {
+          "file": "game/images/backgrounds/family-home.png",
+          "git_blob": "e2721eb958af40e9ca17624df2fea62e78032643",
+          "sha256": "dbf252a7502305a15c685bcbc6bfc7973f5bf2db277401dbdd6e6fda87d15a6a"
+        }
+      ],
+      "selection_scope": "Only cropped work-surface props are retained. The exact retained material is resized to its declared target box and feathered through a bounded polygon; the generated full room is not selected."
+    }
+  ]
+}

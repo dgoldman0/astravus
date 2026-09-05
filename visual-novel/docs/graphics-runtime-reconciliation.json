@@ -1,0 +1,145 @@
+{
+  "method": "Exact reversal of only the named deltas reconstructs all twelve code hashes from the 73-view review. This preserves its unchanged scope, while new states and Barkley use actual final captures. Hashes identify inspected bytes, not quality.",
+  "runtime_files": [
+    {
+      "file": "game/script.rpy",
+      "reviewed_sha256": "28e20b7d091628ae2ada9c1acebf80ecde01d5042fe26241d778875a9f5945fe",
+      "current_sha256": "28e20b7d091628ae2ada9c1acebf80ecde01d5042fe26241d778875a9f5945fe",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Byte-identical."
+      ]
+    },
+    {
+      "file": "game/family_book_one.rpy",
+      "reviewed_sha256": "236741cddb927cfee503326f2c3549b8be8fa1d37b9e29bf904d6a7fa852a722",
+      "current_sha256": "236741cddb927cfee503326f2c3549b8be8fa1d37b9e29bf904d6a7fa852a722",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Byte-identical."
+      ]
+    },
+    {
+      "file": "game/friendships_book_one.rpy",
+      "reviewed_sha256": "92a061d5ba9ecf9706434c3817c2c08fdec2fbfa916f182f9e1fb4c8530cef0b",
+      "current_sha256": "da658e3c530bb444d4d070903c7d57da528d7d71b85b9109efe670dcc21d2802",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Only the three new source-timed background aliases and dispute familiar coordinates/comment change; all dialogue is unchanged."
+      ]
+    },
+    {
+      "file": "game/screens.rpy",
+      "reviewed_sha256": "1b2aa2999eec2aee1a296cd8aec98528b7ed0b9418959dd8d8e61f9f46317635",
+      "current_sha256": "1b2aa2999eec2aee1a296cd8aec98528b7ed0b9418959dd8d8e61f9f46317635",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Byte-identical."
+      ]
+    },
+    {
+      "file": "game/visuals.rpy",
+      "reviewed_sha256": "8edf5bbff16dbe5637de29bca7010f24a538cb4fe85d8420a2150a3b7f2b7549",
+      "current_sha256": "314b20e8880e94fbfcc26593890f22c5abba23f4da0ec668bb01221f16414a30",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Add the later treehouse alias to the same scene-depth rule; no human shader change."
+      ]
+    },
+    {
+      "file": "game/speaker_portraits.rpy",
+      "reviewed_sha256": "735f5632c9b6222779e90bdc17b066deb04c9d09a20e7a9c89fe89e374e01283",
+      "current_sha256": "735f5632c9b6222779e90bdc17b066deb04c9d09a20e7a9c89fe89e374e01283",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Byte-identical."
+      ]
+    },
+    {
+      "file": "game/familiars.rpy",
+      "reviewed_sha256": "923568869264cf6e31c52e5c9f4dc1378a6e90df8ca00305c7f6575a3bb0ab5b",
+      "current_sha256": "da70dd1da9e1fd15fb044ddbebb7109d0b90cddd69e0ed154dfef6a4f652cce2",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Only Barkley gains the separately reviewed supplemental shader; all other familiar definitions and positions stay identical."
+      ]
+    },
+    {
+      "file": "game/characters_book_one.rpy",
+      "reviewed_sha256": "69e72f593760c4f44439a3041e732b7194989102baeb3347fffa698b13990bb5",
+      "current_sha256": "69e72f593760c4f44439a3041e732b7194989102baeb3347fffa698b13990bb5",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Byte-identical."
+      ]
+    },
+    {
+      "file": "game/environments_book_one.rpy",
+      "reviewed_sha256": "395ae7516a514cc2d49cda7daa68efbea7fe4ae1bb0f0f21a94966c444d46893",
+      "current_sha256": "2838f9e8da7b5043a5910ecae21c19f857b63d773b569a41ccef6447564e1aa7",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Append the three new image aliases; no existing image declaration changed."
+      ]
+    },
+    {
+      "file": "game/book_structure.rpy",
+      "reviewed_sha256": "9a3b7b60a3a49fd5436365639c2a26fa7734c1a3bccf070a8656b5c73bfc4d46",
+      "current_sha256": "9a3b7b60a3a49fd5436365639c2a26fa7734c1a3bccf070a8656b5c73bfc4d46",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Byte-identical."
+      ]
+    },
+    {
+      "file": "game/people.rpy",
+      "reviewed_sha256": "e1d505cf2b25e3e0056da70248d53080b4721fe9dafca5719168da843d4c7dd0",
+      "current_sha256": "e1d505cf2b25e3e0056da70248d53080b4721fe9dafca5719168da843d4c7dd0",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Byte-identical."
+      ]
+    },
+    {
+      "file": "game/testcases.rpy",
+      "reviewed_sha256": "8c87c40e366355d8ac721bc050565fa317e49321acbc95ae6d3a176bd3a9f0e0",
+      "current_sha256": "8c87c40e366355d8ac721bc050565fa317e49321acbc95ae6d3a176bd3a9f0e0",
+      "exact_prior_bytes_reconstructed": true,
+      "bounded_delta": [
+        "Byte-identical."
+      ]
+    }
+  ],
+  "testcase_delta": {
+    "file": "game/environment_state_testcases.rpy",
+    "prior_sha256": "9d21ce43a366e157655a8c5a69a73afb1b787857b540cd951981bbf7e8cbfe41",
+    "current_sha256": "c1793268ad1fa82d9e50d83af580035e14a0c62dd4858bd2b309f04bb9bb8b41",
+    "change": "Append the separate two-view Barkley testcase; fifteen-state testcase unchanged."
+  },
+  "supplemental_captures": {
+    "test-results/barkley-edge/dispute-support.png": "530331ae7f449640671691c32cb8963c437ffd484a81ee80d12b95c9d997980e",
+    "test-results/barkley-edge/people-barkley.png": "88dafee0d0e80dc0e65b5c4398c00a9c5cd9ce78bf17dc00211726898ac654d0",
+    "test-results/environment-states/24-later-dispute-support.png": "267c7843270d763371ed5337eb08a7b40ec43ac0e550f7faa965aee5cbf89ef4",
+    "test-results/screenshots/title.png": "10008b5941fe2f5a6c6b33bcc0e25de9433f8e20edcf65a770870372ebe36a78",
+    "test-results/screenshots/afterword.png": "4a22bd437a61aa68d69053174c6550495faff6362357743a4d7373907bb2a979",
+    "test-results/screenshots/dev-chapters.png": "9603156af3f956ab98019a4584721c645b75910320b6396a803aedefadcda9e0",
+    "test-results/character-layout/bright-scene.png": "8d7c5241898926f0d07201093e34b29a34b32458d488ce06dd86680aae86ab5a",
+    "test-results/character-layout/dark-scene.png": "076d3bc4f35a592c8f8db89e525042cd3e3e2ddc332bdb8021a29eabae345646"
+  },
+  "barkley_native_comparison": {
+    "changed_pixels": 36,
+    "bounds_xyxy": [
+      799,
+      566,
+      1038,
+      822
+    ],
+    "outside_barkley_edge_changed": 0,
+    "source_sha256": "49084a021567be20c336956201f5ed6bfdb4ac6a9c8a8198b7e2040e7d88ad37"
+  },
+  "limits": [
+    "Representative native static scenes/portraits/theme fitting, not every line or every possible viewport.",
+    "No renewed browser/platform, animation, audio or release approval.",
+    "Known painted gold/pale hair rims remain; no perfect-matte claim."
+  ]
+}

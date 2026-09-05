@@ -50,7 +50,7 @@
         690,
         1394
       ],
-      "sha256": "3a796e998447303d3006871047579793e47db85bebceef1ec0dca323601e29c7",
+      "sha256": "cc63e75baf92ad6fa2b1cfff17611f7cd1a7213d65671f6d149f6429fe13ec7f",
       "key": "green",
       "sampling_scale": 1.004464
     },
@@ -66,7 +66,7 @@
         688,
         1412
       ],
-      "sha256": "ae6808ba84ca5d16f87353f5ecac1aca111fd1531d9933b1a794f4e3f15e350c",
+      "sha256": "edff3baed0a6fb3387f7c40c49c3b18c01f830b1ba786c7137572918774bc04a",
       "key": "green",
       "sampling_scale": 1.001484
     },
@@ -98,7 +98,7 @@
         712,
         1490
       ],
-      "sha256": "c89f5aa739a14a19b687842c9dc00c54cc2cae3fba101d6869c19a5134494d36",
+      "sha256": "407e2ac4a120d2346fd1599c1a9002914e9cd70385f9ef605ac430200b68ab1f",
       "key": "green",
       "sampling_scale": 1.001484
     },
@@ -162,7 +162,7 @@
         711,
         1471
       ],
-      "sha256": "75649a7bc527427ab83e01d4b65749e9207562dadc9e36e0d9d4ce6cc1c541aa",
+      "sha256": "7e37d6dd316296f9f89f3ce495cf999b0a3ace235c91be6661d129640e64d8ee",
       "key": "green",
       "sampling_scale": 1.002972
     },
@@ -178,7 +178,7 @@
         696,
         1502
       ],
-      "sha256": "9495dfb45c7f45f62bc746b3f655477279e2ab13d39cd31aa2cd45fd16f2caa2",
+      "sha256": "8fe0c0a2c74c0199a05cba55115c494f6188c36064d3144bcec2dd3586bcc9b1",
       "key": "green",
       "sampling_scale": 1.001326
     },
@@ -194,7 +194,7 @@
         871,
         1518
       ],
-      "sha256": "70b224c4bdc84af7bd09a0e36c44f79294469d1d08a7535a08284b6716f2186c",
+      "sha256": "f65d350cb1d99f692c0de61ee2f160f21795aefafd7d263e88e29f27939865d6",
       "key": "green",
       "sampling_scale": 1.002656
     },
@@ -210,7 +210,7 @@
         881,
         1520
       ],
-      "sha256": "362378277efed564dcc97d3902fd3262bd3cd7ce5c0a7e1c979f3b240ce81283",
+      "sha256": "353258e8c289f3eb3f95a0329fb1ae44b48fdab90d8604dcc64547cb5581f363",
       "key": "green",
       "sampling_scale": 1.004431
     },
@@ -322,7 +322,7 @@
         732,
         1472
       ],
-      "sha256": "7671dd825364831392dad574e2eccad9f73bf538360f75f3fd26b8da6af7cd92",
+      "sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d",
       "key": "green",
       "sampling_scale": 1.008147
     },

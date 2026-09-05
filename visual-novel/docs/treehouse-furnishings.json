@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "purpose": "Later childhood: worktable moved back, two low stools, drawing board, rolled-map holder and rearranged textiles.",
+  "material": "art/production/treehouse-later-furnishings.png",
+  "material_sha256": "0dd73bf82a2818ef58d0d09d0d04d153a46aabc2e5ecc131b0b7562f9a925d20",
+  "generation_output_sha256": "3f623f4531f76645da3664938e53d8ba5d74cd614a1cff0831ea57226216bf3c",
+  "generation_method": "builtin imagegen referenced material edit; bounded furniture and old footprint retained",
+  "prompt_file": "docs/graphics-sources/treehouse-furnishings-prompt.txt",
+  "sources": [
+    {
+      "file": "game/images/backgrounds/treehouse-shaded.png",
+      "git_blob": "2f20bf3619bbc3c7548a118b0f6399ede8207edd",
+      "sha256": "9dcbc10785238d2c964cbc32b24451e63f8228173270c052394d8fe8bc74dda9"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/treehouse-memory.png",
+      "git_blob": "6a25df91b9207d27b863976baf0313c2152f9289",
+      "sha256": "f90215045bf2a4c2262f9f18cda26b3cd98a4e5ad02ee2c668975e19c4802913"
+    }
+  ],
+  "early_wall_drawings": [
+    [
+      [
+        9,
+        73
+      ],
+      [
+        96,
+        84
+      ],
+      [
+        109,
+        187
+      ],
+      [
+        24,
+        194
+      ]
+    ],
+    [
+      [
+        18,
+        211
+      ],
+      [
+        151,
+        210
+      ],
+      [
+        155,
+        298
+      ],
+      [
+        30,
+        306
+      ]
+    ],
+    [
+      [
+        187,
+        148
+      ],
+      [
+        276,
+        169
+      ],
+      [
+        278,
+        245
+      ],
+      [
+        179,
+        225
+      ]
+    ],
+    [
+      [
+        311,
+        141
+      ],
+      [
+        377,
+        141
+      ],
+      [
+        379,
+        223
+      ],
+      [
+        314,
+        224
+      ]
+    ],
+    [
+      [
+        458,
+        196
+      ],
+      [
+        518,
+        189
+      ],
+      [
+        527,
+        246
+      ],
+      [
+        448,
+        251
+      ]
+    ]
+  ],
+  "furniture_polygons": [
+    [
+      [
+        0,
+        562
+      ],
+      [
+        126,
+        540
+      ],
+      [
+        226,
+        555
+      ],
+      [
+        315,
+        573
+      ],
+      [
+        376,
+        563
+      ],
+      [
+        433,
+        562
+      ],
+      [
+        483,
+        600
+      ],
+      [
+        524,
+        667
+      ],
+      [
+        551,
+        732
+      ],
+      [
+        627,
+        761
+      ],
+      [
+        682,
+        798
+      ],
+      [
+        890,
+        941
+      ],
+      [
+        0,
+        941
+      ]
+    ],
+    [
+      [
+        612,
+        941
+      ],
+      [
+        1672,
+        941
+      ],
+      [
+        1672,
+        592
+      ],
+      [
+        1580,
+        563
+      ],
+      [
+        1465,
+        550
+      ],
+      [
+        1416,
+        542
+      ],
+      [
+        1370,
+        520
+      ],
+      [
+        1321,
+        511
+      ],
+      [
+        1310,
+        478
+      ],
+      [
+        1290,
+        468
+      ],
+      [
+        1279,
+        445
+      ],
+      [
+        1257,
+        445
+      ],
+      [
+        1248,
+        471
+      ],
+      [
+        1138,
+        466
+      ],
+      [
+        1088,
+        475
+      ],
+      [
+        1035,
+        478
+      ],
+      [
+        987,
+        490
+      ],
+      [
+        958,
+        513
+      ],
+      [
+        944,
+        556
+      ],
+      [
+        935,
+        596
+      ],
+      [
+        888,
+        630
+      ],
+      [
+        832,
+        650
+      ],
+      [
+        816,
+        680
+      ],
+      [
+        760,
+        719
+      ],
+      [
+        724,
+        762
+      ]
+    ]
+  ],
+  "feather_px": 2.0,
+  "script_file": "scripts/prepare_treehouse_furnishings.py",
+  "script_sha256": "c6ce4fe7aec5968805588ebc8c178662f4b9379903e89ae75324a17f3c23bf10",
+  "base_output_sha256": "d03af98bf4bf877fdacea519107e83ed5d838fc56b1585ed9bef2f1751729fef",
+  "verification": {
+    "changed_pixels": 612137,
+    "outside_furniture_mask_changes": 0,
+    "canvas_size": [
+      1672,
+      941
+    ],
+    "fixed_architecture_resampled": false
+  }
+}

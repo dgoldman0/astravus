@@ -10,9 +10,10 @@ import zipfile
 import zlib
 
 PROJECT = Path(__file__).resolve().parents[1]
-EXCLUDED = ("scripts/", "tests/", "docs/", "web/", "build/", "dist/", "test-results/",
+EXCLUDED = ("scripts/", "tests/", "docs/", "art/", "web/", "build/", "dist/", "test-results/",
             "marketing/", ".cache/", ".git/", "game/cache/", "game/saves/",
-            "game/testcases.rpy", "game/glossary_testcases.rpy")
+            "game/testcases.rpy", "game/glossary_testcases.rpy",
+            "game/environment_state_testcases.rpy")
 EXTENSIONS = {".rpy", ".py", ".json", ".png", ".jpg", ".svg", ".ttf", ".otf",
               ".ogg", ".wav", ".mp3", ".md", ".txt"}
 # Ren'Py 8.5.3 explicitly includes its Python 3.12 bytecode in 00build.rpy
@@ -58,13 +59,13 @@ def check_generated_runtime(archive, prefix, version):
     return sorted(GENERATED_RUNTIME)
 
 
-def check_candidate_builds(version):
+def check_recorded_builds(version, expected_kind="candidate"):
     stamp = PROJECT / "build/release-builds.json"
     assert stamp.is_file(), "Missing build provenance; rebuild through scripts/project.py"
     builds = json.loads(stamp.read_text())["builds"]
     for kind in ("desktop", "web"):
         build = builds.get(kind, {})
-        assert build.get("kind") == "candidate", f"{kind}: review-only or unrecorded build cannot pass final package signoff"
+        assert build.get("kind") == expected_kind, f"{kind}: expected a recorded {expected_kind} build; found {build.get('kind', 'unrecorded')}"
         assert build.get("version") == version, f"{kind}: wrong recorded version"
         assert build.get("files"), f"{kind}: missing artifact identities"
         for name, expected in build["files"].items():
@@ -72,17 +73,18 @@ def check_candidate_builds(version):
             assert path.is_file() and archive_digest(path) == expected, f"Changed candidate artifact: {name}"
 
 
-def check():
+def check(review_build=False):
     options = (PROJECT / "game/options.rpy").read_text()
     version = re.search(r'^define config.version = "([^"]+)"$', options, re.M).group(1)
-    check_candidate_builds(version)
+    check_recorded_builds(version, "review" if review_build else "candidate")
     base = re.search(r'^define build.name = "([^"]+)"$', options, re.M).group(1)
     files = [path for path in (PROJECT / "game").rglob("*") if path.is_file()
              and path.suffix in EXTENSIONS
              and not any(path.relative_to(PROJECT).as_posix().startswith(prefix) for prefix in EXCLUDED)]
     files.append(PROJECT / "README.md")
     source = {path.relative_to(PROJECT).as_posix(): digest(path.read_bytes()) for path in sorted(files)}
-    report = {"version": version, "runtime_files": len(source), "exports": {},
+    report = {"version": version, "build_kind": "review" if review_build else "candidate",
+              "runtime_files": len(source), "exports": {},
               "limit": "Archive construction and byte integrity only; not Windows/macOS launch verification."}
     for platform in ("pc", "mac"):
         path = PROJECT / "dist" / f"{base}-{version}-{platform}.zip"
@@ -124,12 +126,15 @@ def check():
                 "bytes": path.stat().st_size, "sha256": archive_digest(path),
                 "entries": len(archive.namelist()), "game_entries": len(game.namelist()),
                 "matching_runtime_files": len(source), "generated_engine_files": generated}
-    output = PROJECT / "test-results/release-exports.json"
+    output = PROJECT / "test-results" / ("review-exports.json" if review_build else "release-exports.json")
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))
 
 
 if __name__ == "__main__":
-    argparse.ArgumentParser(description=__doc__).parse_args()
-    check()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--review-build", action="store_true",
+                        help="Check recorded review archives against source bytes; writes review evidence, not release signoff")
+    args = parser.parse_args()
+    check(review_build=args.review_build)

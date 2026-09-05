@@ -1,8 +1,27 @@
 # Book I validation — 0.1-alpha
 
-The final strict release gate passes: **128 PASS, one explicitly LIMITED platform row, and no pending, stale or failed checks**. This includes the 116-check content gate, current native and browser runs, separate artistic and usability reviews, package integrity, bundled Linux startup and the complete film review. The limited row records unverified platforms/devices; it does not waive a required failure.
+**Current status: graphics production review complete; full release signoff remains open.**
+The author-authorized production graphics pass has replaced the bounded design
+demonstration, which is preserved in a recoverable path-scoped stash and
+`build/archive/design-proof/`. The current runtime differs from commit `c721791`;
+old archives and technical receipts must not be described as a fresh polished
+release or as proof for these assets.
 
-Ren’Py is pinned to **8.5.3.26051504**. The public version is **0.1-alpha**; the existing save namespace remains `Astravus-Book-I`. The [release matrix](RELEASE_MATRIX.md) tracks **129 checks: 32 scenes, 75 images and 22 shared checks**. Its [evidence register](release-evidence.json) binds each result to the exact reviewed inputs and evidence. Changes invalidate affected results; earlier preview runs do not approve this release.
+[Graphics production review](GRAPHICS_POLISH.md) records 78 selected images and
+546 scoped dimension findings (434 accepted, 112 not applicable), with actual
+source/native evidence. The new four-state treehouse, three added project/time
+backgrounds, character repairs, familiar contacts and bounded matte cleanup have
+been inspected. This renews graphics scope only. Story/wording, score listening,
+whole-film delivery, browser/platform checks and exported archives require their
+own current evidence; graphics hashes do not approve them.
+
+The [release matrix](RELEASE_MATRIX.md) retains the previous 75-image release
+checklist plus its shared checks. It has not yet been expanded/promoted for this
+78-image production state. Ren'Py remains pinned to 8.5.3.26051504 and the save
+namespace remains `Astravus-Book-I`. A current graphics review build may be made
+for inspection without calling the whole release verified.
+
+## Previous checkpoint evidence (superseded creative signoff)
 
 ## Story and reader knowledge
 
@@ -16,7 +35,7 @@ The **40–50 minute** reading estimate comes from the text and reading beats, n
 
 Every one of the **75 selected images** has a separate artistic-quality review against a deliberately chosen earlier image or reference, covering composition, light, detail, anatomy, expression, identity and sharpness. A correct iris or file hash is not an artistic approval. The three reports are [CG artwork](ART_REVIEW_CG.md), [standing characters and stable CGs](ART_REVIEW_STABLE.md), and [backgrounds and familiars](BACKGROUND_FAMILIAR_QUALITY_REVIEW.md).
 
-Compared with the previous committed build, **16 CGs and four Calista sprites** change. The stronger close path, arrival and morning compositions replace the rejected distant versions. Pond comfort returns to its original painting with only a small Calista iris correction; the waterwheel painting is restored byte for byte. Supported crouching and leaning explain their crown heights, so neither needed a body enlargement. The accepted pictures retain natural faces, dimensional shading and painterly material detail.
+Compared with the previous committed build, **16 CGs and four Calista sprites** change. The stronger close path, arrival and morning compositions replace the rejected distant versions. Pond comfort returns to its original painting with only a small Calista iris correction; the waterwheel painting is restored byte for byte. Supported crouching and leaning explain their crown heights, so neither needed a body enlargement. The previous review called these pictures acceptable; the author subsequently rejected the remaining facial, shading and style inconsistencies. That judgment is reopened.
 
 All **20 CGs** have explicit identity, face, age, iris and supported-proportion findings in [the character register](cg-character-review.json). Four sprite and eleven CG iris corrections have deterministic recipes, source/output hashes and exact reproducibility checks in [iris-retouches.json](iris-retouches.json). Independent checks confirm no changes outside their masks or to protected pupils and catchlights. That proof is separate from approval of the source painting.
 
@@ -52,7 +71,7 @@ The song now enters at approximately **0.4 LU** above the preceding home music, 
 
 The final [standalone movie](../build/closing-theme.mp4) is **1920×1080 at 60 fps, 126.5 MiB**, using H.264 video and stereo AAC audio. All **10,666 frames** decode; their timestamps are unique and exactly 1/60 second apart. The complete **177.76-second** source song remains present, with measured encoded level change of −0.0556 dB and no applied mastering change.
 
-All 15 settled compositions and all 14 dissolves were inspected. The overlapping pictures hold their camera positions and blend smoothly; movement resumes between overlaps. The review also investigated keyframe difference peaks, finding small fine-detail compression refresh without a discernible spatial jump or gross whole-frame flash. The [final film report](FINAL_FILM_REVIEW.md) records those observations, measurements and limits. Runtime and export use the same final cue sheet and approved images; reduced motion intentionally holds images and uses cuts.
+All 15 settled compositions and all 14 dissolves were inspected. The overlapping pictures hold their camera positions and blend smoothly; movement resumes between overlaps. The review also investigated keyframe difference peaks, previously classifying the peaks as fine-detail compression refresh. The author still reports jitter; those measurements did not justify editorial approval. The [final film report](FINAL_FILM_REVIEW.md) records those observations, measurements and limits. Runtime and export use the same final cue sheet and selected images; reduced motion intentionally holds images and uses cuts.
 
 ## Reproduce
 

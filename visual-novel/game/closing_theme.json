@@ -254,7 +254,7 @@
       "label": "One more page before night",
       "zoom": [
         1.0,
-        1.025
+        1.0
       ],
       "focus": [
         0.5,
@@ -269,7 +269,7 @@
       "image": "images/cg/book-one/theme-morning-outlook.png",
       "label": "Another day to discover",
       "zoom": [
-        1.03,
+        1.0,
         1.0
       ],
       "focus": [
@@ -281,6 +281,6 @@
       ]
     }
   ],
-  "camera_note": "Eased subpixel camera movement, held during 1.2-second smooth dissolves; display-synchronous native playback and 60fps export. Several locked shots; no repeated images.",
+  "camera_note": "Earlier gentle eased movement holds during 1.2-second smooth dissolves; the final three compositions are stationary to preserve face, hair and foliage detail. Native playback shares these holds; 60fps standalone delivery uses the separately checked stable encoder profile.",
   "title_x": 0.34
 }

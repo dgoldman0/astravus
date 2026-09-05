@@ -23,7 +23,7 @@ init python:
         # Positions describe the visible floor, not character height. The
         # treehouse's clear floor is farther back than its foreground furniture;
         # both children receive the same camera-distance multiplier there.
-        if any(renpy.showing(name) for name in ("bg treehouse", "bg treehouse_rain", "bg treehouse_memory")):
+        if any(renpy.showing(name) for name in ("bg treehouse", "bg treehouse_rain", "bg treehouse_later", "bg treehouse_memory")):
             return ({"left": .335, "near_left": .365, "center": .395,
                      "near_right": .425, "right": .455}[side], 825, 0.76)
         if renpy.showing("bg construction_path"):
@@ -103,7 +103,19 @@ init python:
         }
         float key = max(backing, edge * max(smoothstep(0.06, 0.32, dominance),
                                            smoothstep(0.0, 0.14, green_spill)));
-        float spill = edge * smoothstep(0.02, 0.12, green_spill);
+        // Color spill reaches slightly farther into fine blonde curls than
+        // the alpha matte. Broaden only the color cleanup, preserving the
+        // established silhouette and isolated green irises/interior colors.
+        float spill_edge = edge;
+        if (green_spill > 0.0 && backing < 1.0) {
+            for (int y = -1; y <= 1; y++) {
+                for (int x = -1; x <= 1; x++) {
+                    vec2 offset = vec2(float(x), float(y)) * 5.0 / res0;
+                    spill_edge = max(spill_edge, astravus_green_backing(texture2D(tex0, v_tex_coord + offset, -10.0).rgb));
+                }
+            }
+        }
+        float spill = spill_edge * smoothstep(0.01, 0.08, green_spill);
         gl_FragColor.g = mix(gl_FragColor.g,
             min(gl_FragColor.g, natural_green), spill);
         gl_FragColor *= 1.0 - key;

@@ -25,7 +25,7 @@
       "file": "game/images/characters/book-one/calista-festival.png",
       "generation": "alpha-calista-festival-natural-proportions",
       "image": "calista festival",
-      "sha256": "3a796e998447303d3006871047579793e47db85bebceef1ec0dca323601e29c7",
+      "sha256": "cc63e75baf92ad6fa2b1cfff17611f7cd1a7213d65671f6d149f6429fe13ec7f",
       "size": [
         1023,
         1537
@@ -38,10 +38,10 @@
         20
       ],
       "draw_height": 730,
-      "postprocess": {
-        "id": "alpha-calista-festival-masked-deep-blue-irises",
-        "recipe_file": "docs/iris-retouches.json",
-        "recipe_sha256": "afd7e643203bb6d64b79a731cbfe7a599eb132db285cea3e462291a0069135f0"
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-calista-festival",
+        "recipe_sha256": "06c8a5ad79860c6b016663c6854e027c981d99eac899a9d5dbf90c09e8b43278"
       }
     },
     {
@@ -66,7 +66,7 @@
       "file": "game/images/characters/book-one/calista-home.png",
       "generation": "alpha-calista-home-natural-proportions",
       "image": "calista home",
-      "sha256": "c89f5aa739a14a19b687842c9dc00c54cc2cae3fba101d6869c19a5134494d36",
+      "sha256": "407e2ac4a120d2346fd1599c1a9002914e9cd70385f9ef605ac430200b68ab1f",
       "size": [
         1023,
         1537
@@ -79,10 +79,10 @@
         22
       ],
       "draw_height": 730,
-      "postprocess": {
-        "id": "alpha-calista-home-masked-deep-blue-irises",
-        "recipe_file": "docs/iris-retouches.json",
-        "recipe_sha256": "dc4054c1811f2656d3e0f81945e60600fa4d434ddbf60590a5552539b26f94b7"
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-calista-home",
+        "recipe_sha256": "d2ef40032d98cc641ae8474a2364db7f61f83c84b32f14b750fa8daff3e2a524"
       }
     },
     {
@@ -143,7 +143,7 @@
       "file": "game/images/characters/book-one/calista-young.png",
       "generation": "alpha-calista-young-natural-proportions",
       "image": "calista young",
-      "sha256": "75649a7bc527427ab83e01d4b65749e9207562dadc9e36e0d9d4ce6cc1c541aa",
+      "sha256": "7e37d6dd316296f9f89f3ce495cf999b0a3ace235c91be6661d129640e64d8ee",
       "size": [
         1022,
         1538
@@ -156,17 +156,17 @@
         21
       ],
       "draw_height": 730,
-      "postprocess": {
-        "id": "alpha-calista-young-masked-deep-blue-irises",
-        "recipe_file": "docs/iris-retouches.json",
-        "recipe_sha256": "aa8525e9cb554dfae794da7579c801303760e5e2443e0b55961f7abd01b4fa59"
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-calista-young",
+        "recipe_sha256": "d8203b7f220356583e179b9929f2f88bc420fd8ac206f566af929dace9b3dfdd"
       }
     },
     {
       "file": "game/images/characters/book-one/cassia-mourning.png",
       "generation": "review-025-cassia_mourning",
       "image": "cassia mourning",
-      "sha256": "9495dfb45c7f45f62bc746b3f655477279e2ab13d39cd31aa2cd45fd16f2caa2",
+      "sha256": "8fe0c0a2c74c0199a05cba55115c494f6188c36064d3144bcec2dd3586bcc9b1",
       "size": [
         1024,
         1536
@@ -178,13 +178,18 @@
         231,
         21
       ],
-      "draw_height": 820
+      "draw_height": 820,
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-cassia-mourning",
+        "recipe_sha256": "5a4c2fc0239d19246a2acb6ceb6ae58a650c4bc17a21d48e805245131384bf2f"
+      }
     },
     {
       "file": "game/images/characters/book-one/cassia-older.png",
       "generation": "review-025-cassia_older",
       "image": "cassia older",
-      "sha256": "70b224c4bdc84af7bd09a0e36c44f79294469d1d08a7535a08284b6716f2186c",
+      "sha256": "f65d350cb1d99f692c0de61ee2f160f21795aefafd7d263e88e29f27939865d6",
       "size": [
         1024,
         1536
@@ -196,13 +201,18 @@
         238,
         29
       ],
-      "draw_height": 820
+      "draw_height": 820,
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-cassia-older",
+        "recipe_sha256": "370213b1d6cad9a76861180457f6731b025de16f35c85ba39f678602bfe712f9"
+      }
     },
     {
       "file": "game/images/characters/book-one/cassia-young.png",
       "generation": "review-025-cassia_young",
       "image": "cassia young",
-      "sha256": "362378277efed564dcc97d3902fd3262bd3cd7ce5c0a7e1c979f3b240ce81283",
+      "sha256": "353258e8c289f3eb3f95a0329fb1ae44b48fdab90d8604dcc64547cb5581f363",
       "size": [
         1024,
         1536
@@ -214,7 +224,12 @@
         227,
         23
       ],
-      "draw_height": 740
+      "draw_height": 740,
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-cassia-young",
+        "recipe_sha256": "72b91cf2345199359dcecad80e85c09df3a6123435d6632462d0b3d969ccb828"
+      }
     },
     {
       "file": "game/images/characters/book-one/dorian-everyday.png",
@@ -310,7 +325,7 @@
       "file": "game/images/characters/book-one/lyra-young.png",
       "generation": "lyra-young-key-v1",
       "image": "lyra young",
-      "sha256": "7671dd825364831392dad574e2eccad9f73bf538360f75f3fd26b8da6af7cd92",
+      "sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d",
       "size": [
         1023,
         1537
@@ -322,7 +337,12 @@
         232,
         20
       ],
-      "draw_height": 655
+      "draw_height": 655,
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-lyra-young",
+        "recipe_sha256": "287b2260ec06ed719ef51e6d6ab3d3850e8f4c0eeafbd2b941f1ed38c0d0c1ec"
+      }
     },
     {
       "file": "game/images/characters/book-one/maia-home.png",
@@ -421,16 +441,16 @@
     {
       "file": "game/images/characters/book-one/calista-festive.png",
       "generation": "alpha-calista-festive-natural-proportions",
-      "sha256": "ae6808ba84ca5d16f87353f5ecac1aca111fd1531d9933b1a794f4e3f15e350c",
+      "sha256": "edff3baed0a6fb3387f7c40c49c3b18c01f830b1ba786c7137572918774bc04a",
       "size": [
         1023,
         1537
       ],
       "mode": "RGB",
-      "postprocess": {
-        "id": "alpha-calista-festive-masked-deep-blue-irises",
-        "recipe_file": "docs/iris-retouches.json",
-        "recipe_sha256": "545ccdc3e15f760e6a295782e65fc28c45d2c3e23bf27398631b72b5c2e9ce77"
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-calista-festive",
+        "recipe_sha256": "bcc635a740f6ec58ce6c851835796cb13331a4614caab165b819401893b8f3d9"
       }
     }
   ],

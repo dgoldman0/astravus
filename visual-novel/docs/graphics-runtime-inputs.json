@@ -1,0 +1,1015 @@
+{
+  "review_started_utc": "2026-09-05T19:30:51.349596+00:00",
+  "note": "Source files snapshotted at review start; screenshots are fresh native captures supplied by root, with capture file timestamps recorded. The pending treehouse weather/furniture redesign is not approved by this review.",
+  "screenshots": [
+    {
+      "file": "test-results/screenshots/first-memory.png",
+      "sha256": "90a8859fdd4c7319c28c51e5ca39a84a1749e2ecbf6f16e9e54e892518f07e3b",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:05.865621+00:00"
+    },
+    {
+      "file": "test-results/screenshots/family-home.png",
+      "sha256": "9194b78be8e19d18bee6f5caad5cb65278a426a852c746efaa80644c21eb3ba1",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:07.710589+00:00"
+    },
+    {
+      "file": "test-results/screenshots/familiars-home.png",
+      "sha256": "578545f9c9248dd0d7d2e06b0b69b62167e105cf504c350ff3fabf33322a2d0f",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:08.749571+00:00"
+    },
+    {
+      "file": "test-results/screenshots/garden.png",
+      "sha256": "24426a810d8dd9280b2f8cfc84c038a41357f2e3a80abac4d2aca63d3e859c0e",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:11.607522+00:00"
+    },
+    {
+      "file": "test-results/screenshots/siblings-garden.png",
+      "sha256": "60b7977d05240ea0fc5a808cdd255331826d27db7d87d72a944913afa381130a",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:17.486420+00:00"
+    },
+    {
+      "file": "test-results/screenshots/garden-compromise.png",
+      "sha256": "232ff92f8cceead4903e8f496a9c7fa5c699c11d5432622a0051f308a394719c",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:19.174391+00:00"
+    },
+    {
+      "file": "test-results/screenshots/workshop.png",
+      "sha256": "30528d02e14288eeb00bfb87cd90aee83ca17adbb1d4b87660809d16edd3d971",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:21.559350+00:00"
+    },
+    {
+      "file": "test-results/screenshots/first-melody.png",
+      "sha256": "5db9b93e63de3b82b0a1acea57757708d19dd799b4b99058e5135fc397adc5c2",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:23.348319+00:00"
+    },
+    {
+      "file": "test-results/screenshots/flute-rest.png",
+      "sha256": "a741855b7a082e551870fb551542e1e96d3ee86e3d59cf45a37967379b77d489",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:24.283303+00:00"
+    },
+    {
+      "file": "test-results/screenshots/first-flute-phrase.png",
+      "sha256": "09118f8c60fd5a25bbe33bb58f291e557e9c7bb5699cda163647df5c5825649a",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:26.068272+00:00"
+    },
+    {
+      "file": "test-results/screenshots/library.png",
+      "sha256": "53fe17570aa99f267bd87c45e040a603a7a0dcf15cf493a57350cabf2811addd",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:27.420249+00:00"
+    },
+    {
+      "file": "test-results/screenshots/sage-story.png",
+      "sha256": "3d9aacc23fd16fb2a8cb71c71eab4db692d8393ef4ce4e672fb7a1ceb50a1614",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:29.713209+00:00"
+    },
+    {
+      "file": "test-results/screenshots/sage-speaking.png",
+      "sha256": "3b668344a3ebe26a1f6502df87326eaf806fa314e4826c53b606152f2d2b3675",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:30.702192+00:00"
+    },
+    {
+      "file": "test-results/screenshots/flute-practice.png",
+      "sha256": "e723ac649d4474e88442580bac75e8048909e3034be658d0e9ad7db9281459e4",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:33.842138+00:00"
+    },
+    {
+      "file": "test-results/screenshots/flute-listener.png",
+      "sha256": "26b3bdcd9f820df060bad8895410f30184c0d46b523600c084a3aaacbcdf257b",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:34.766122+00:00"
+    },
+    {
+      "file": "test-results/screenshots/tree-of-echoes.png",
+      "sha256": "0b555868bb628b17f3d85f54b2455a683bd950695f4d112e004280d95af4510c",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:37.988067+00:00"
+    },
+    {
+      "file": "test-results/screenshots/pond.png",
+      "sha256": "49dbe058829784357ad6c5d8891223bda442a8118f9f00907d270807adb68cc9",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:39.132047+00:00"
+    },
+    {
+      "file": "test-results/screenshots/pond-rescue.png",
+      "sha256": "44036cc1e31e4c6cfa00375c5509512598d9e6e0c4bcee6c25e5e6ca3dd89033",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:40.188029+00:00"
+    },
+    {
+      "file": "test-results/screenshots/pond-comfort.png",
+      "sha256": "c35159f0a8a7ba587e8446bcef90d535f7710b0aa829ebeb8d6969ec7b15f3eb",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:41.342009+00:00"
+    },
+    {
+      "file": "test-results/screenshots/soup-speaking.png",
+      "sha256": "e82268cd61b156bf11fb566e7193c28722c0f09f288dde5b430f387282639ec8",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:42.578988+00:00"
+    },
+    {
+      "file": "test-results/screenshots/festival-arrival.png",
+      "sha256": "0a09dc6d142afbf74da9f39673f942d31245a20e7ecfeb7a2c00bea7e15c9ee2",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:44.432956+00:00"
+    },
+    {
+      "file": "test-results/screenshots/festival.png",
+      "sha256": "2f33138736f31c0f19345ee72976c913dbff7a6256e1b2004ff0b8f0a17797dc",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:45.842932+00:00"
+    },
+    {
+      "file": "test-results/screenshots/cassia-storytelling.png",
+      "sha256": "5f4703ede7cba6562cdd46efadb90d0beecfb379320ecf5e414b9ef8ef747418",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:48.249891+00:00"
+    },
+    {
+      "file": "test-results/screenshots/thalia-speaking.png",
+      "sha256": "020143caffd44b2eae579841b268e8f054d59883b1cfaea22f4d41b38ee9387c",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:49.840863+00:00"
+    },
+    {
+      "file": "test-results/screenshots/lyron-speaking.png",
+      "sha256": "ba06706db79dcc5450c219239baed46e45f649df64044e595048035d5e34e700",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:51.542834+00:00"
+    },
+    {
+      "file": "test-results/screenshots/soren-speaking.png",
+      "sha256": "9ed88c70b5407adb49acf17572027a595545c3a56f9b035d40b2b95617d7c396",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:54.578782+00:00"
+    },
+    {
+      "file": "test-results/screenshots/kaleb-speaking.png",
+      "sha256": "d236b4e8d15d05032445d4e57adb793255bac6e354994bbfe31480522cb988b6",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:56.082757+00:00"
+    },
+    {
+      "file": "test-results/screenshots/treehouse.png",
+      "sha256": "0b42c7fea862fb460fe9d54637b47d1e02ae355ed7017aa85c97458f2d399719",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:57.711729+00:00"
+    },
+    {
+      "file": "test-results/screenshots/treehouse-rain.png",
+      "sha256": "48ee1fd0b5ca01786a8ea5766ae9b7af2dfd26a9bfdddde48f7e13010e0fe645",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:59.806693+00:00"
+    },
+    {
+      "file": "test-results/screenshots/rain-speaking.png",
+      "sha256": "4b4d483e11c1a0338c67af47d7a89ef45a0675caf14b858e90e97de793ff4417",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:00.769676+00:00"
+    },
+    {
+      "file": "test-results/screenshots/older-children.png",
+      "sha256": "7f80b318f6f51fa1cf07430da361b531976ec30aab519a41f7dcb7754b612e82",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:02.189652+00:00"
+    },
+    {
+      "file": "test-results/screenshots/cassia-older.png",
+      "sha256": "d9a8effec0d5a8ddf750060e88ac5e01a3eec284d73a3f168973d17edcd90b59",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:03.628627+00:00"
+    },
+    {
+      "file": "test-results/screenshots/waterwheel.png",
+      "sha256": "aefd728c89488ac0e70cf83a995d1032ad4ba7cdb0ebe76bef113939d626e76d",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:04.593611+00:00"
+    },
+    {
+      "file": "test-results/screenshots/construction-room.png",
+      "sha256": "d60328c67441d2bb6b4e385d5d9e031666e25398c0cac89597935f00bd6fde06",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:05.762591+00:00"
+    },
+    {
+      "file": "test-results/screenshots/dome.png",
+      "sha256": "0027472779e49fa5de0876721f1745858de82ce7546c798eea47cd3e17a59488",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:07.718557+00:00"
+    },
+    {
+      "file": "test-results/screenshots/dome-speaking.png",
+      "sha256": "ab5b4834369d3af437b91cd188a5e9e19392f86e26fe5427a23e1c5491b51a2d",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:08.543543+00:00"
+    },
+    {
+      "file": "test-results/screenshots/disagreement.png",
+      "sha256": "e373c397ae76983ad6679a91ea10a001e9d948fca52455b0f6563a2e01b1bebb",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:09.712523+00:00"
+    },
+    {
+      "file": "test-results/screenshots/familiars-disagreement.png",
+      "sha256": "5a0d58f3c5902724abfcd790d707a8a5dbdfd55e6e13496764971f9032757d09",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:11.155499+00:00"
+    },
+    {
+      "file": "test-results/screenshots/the-news.png",
+      "sha256": "15efb5fc4a550bb863da6317184eb7abcff87c70697f162cae35f31a4b368ab3",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:12.403477+00:00"
+    },
+    {
+      "file": "test-results/screenshots/family-grief.png",
+      "sha256": "2de448a5b87898d8cd49a5b10252496de08b3ef89111193e87775e0cfd79018c",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:13.412460+00:00"
+    },
+    {
+      "file": "test-results/screenshots/family-embrace.png",
+      "sha256": "8c44cebb775e40fdbea91738f384f9d270541e0890ae105be0e2d3afd818ff30",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:15.044432+00:00"
+    },
+    {
+      "file": "test-results/screenshots/painting.png",
+      "sha256": "3959b046a88d9cb07c6e7ca37b35d955802075972432e74b0c6d060b789e7325",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:15.982416+00:00"
+    },
+    {
+      "file": "test-results/screenshots/familiars-painting.png",
+      "sha256": "d8b43f29cccbec4409d9037fa0fb1607bdc594a70f66b23bcf412cd1e64327aa",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:16.918400+00:00"
+    },
+    {
+      "file": "test-results/screenshots/cassia-grief.png",
+      "sha256": "f8336b4395e629633779ff39147b4bbec834cccef7353e26d491ded425874f5b",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:17.789386+00:00"
+    },
+    {
+      "file": "test-results/screenshots/cassia-comfort.png",
+      "sha256": "3cc2f1c2ff03154d0ea80cfd21be8df12bc049ac4d16534453bc25819fd7ec04",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:18.956366+00:00"
+    },
+    {
+      "file": "test-results/screenshots/memorial.png",
+      "sha256": "1bcf510ff8018adbacb8a98cfdb01e48a4bd2321fafd7389f0bf0cdb206621fe",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:20.159345+00:00"
+    },
+    {
+      "file": "test-results/screenshots/mural.png",
+      "sha256": "6b8bb246b746cea9524a2828be110b86f5aaf0918310284da55fd5a4505695e7",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:21.442323+00:00"
+    },
+    {
+      "file": "test-results/screenshots/remembering-in-rain.png",
+      "sha256": "500d718805ff9529e656d18ca39bcf2856d963653c5ed0c00d555bd14d149faa",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:22.548304+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grief-maia-response.png",
+      "sha256": "4e02418db2107cd2c844e8c7b9bcdc6bb5433aca678db40b45b1c5bfc7732cb7",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:28.131209+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grief-embrace.png",
+      "sha256": "2dd507be85e96bb95a98e74a4d896033d59f64ef1fae52126a04647468c76c82",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:29.166192+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-garden-default.png",
+      "sha256": "86f142cb8b9e515aeba968f02154fb5d1eb94f82083eeb092ee54b18036aa51f",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:25:16.233386+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-first-joren.png",
+      "sha256": "0b3c13ac5a51c99d849093a1753dde0783145cb9ea9a72d7e5ec6cf592f731b3",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:24:51.123806+00:00"
+    },
+    {
+      "file": "test-results/screenshots/people-before-reveal.png",
+      "sha256": "7f479e6ea391df18e742004ac1cbfad43ba11be8b0bf624e7b4ac7d0630f1f9d",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:06.630608+00:00"
+    },
+    {
+      "file": "test-results/screenshots/people-shadow.png",
+      "sha256": "2413ff51e8c4ecd8662cd70c8af4bae86731dc302123aaa9981aa8a00dcc3251",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:09.155564+00:00"
+    },
+    {
+      "file": "test-results/screenshots/people-barkley.png",
+      "sha256": "9e1f078985213c535e981f807835e24d6fac719f54d62753f0eeded6e1245e81",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:09.524558+00:00"
+    },
+    {
+      "file": "test-results/screenshots/people-nibble.png",
+      "sha256": "359e4ddc45d6e9e704f1ae85978719931ec6e6da47cd3da87626484a94e75857",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:09.897551+00:00"
+    },
+    {
+      "file": "test-results/screenshots/people-maia.png",
+      "sha256": "0aed23221a284a07efb1d35baf4176745847e200cf0bbb338cd38442d80b4fee",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:12.094513+00:00"
+    },
+    {
+      "file": "test-results/screenshots/people-selene.png",
+      "sha256": "2a1ea7565f8d0fa1444a0dc4c842d6383cb5cdb805296acb811edebe4e50e4e8",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:24.897292+00:00"
+    },
+    {
+      "file": "test-results/screenshots/people-after-reveal.png",
+      "sha256": "bcc8369e70b4d86b7b0f431ae765889c5570e1bffe6554b517a11e8be5dbc716",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:37.228080+00:00"
+    },
+    {
+      "file": "test-results/screenshots/people-first-cassia-line.png",
+      "sha256": "adae6905e2e4addd27ad787df294d1ca6cad0b0bb2ba468788d53eddbaf19d8d",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:46.795916+00:00"
+    },
+    {
+      "file": "test-results/screenshots/people-lyron.png",
+      "sha256": "6a62c0e941a82bdd6f2d355a1aabab5b0019f3fc0e6e2a8fcd50114ed0a70934",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:51.976827+00:00"
+    },
+    {
+      "file": "test-results/screenshots/people-friends.png",
+      "sha256": "4ee2642c97836f91b78e4b967140997019a26290b033fd776d80117d7361865e",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:22:53.120807+00:00"
+    },
+    {
+      "file": "test-results/screenshots/people-remembrance.png",
+      "sha256": "acafc7d535c02abcf954f7f0e88642eb989d73fa8d318b6c4724b453c75b6fbb",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:23:13.967451+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-kaleb-path.png",
+      "sha256": "de14423ffb3ea2ba204fe9502f07a5bdb5afba1230573144d77a0c0e57cb8ac3",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:24:53.214772+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-expedition-path.png",
+      "sha256": "e32cc642832d6b4308433559ea615da363a852355fd907b172d1afb03d876f57",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:24:55.638731+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-construction-room.png",
+      "sha256": "b2ce556d1cae5ef2e26672d216140433401047171f7df831e6dc0d7894dc2548",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:24:57.334702+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-dome-path.png",
+      "sha256": "4d7f95465930cbc01960434fc03a928eb71d48e0fb14e4ba434bae4301e57190",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:24:59.051674+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-music-familiars.png",
+      "sha256": "d25430c15e7ad38a8fe1edcfed7bc16f923fea8d0d65f88c9f078ca29ea0595c",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:25:02.885609+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-echoes-familiars.png",
+      "sha256": "3bc3f0d81c944548613a570b5d7d323d947352a8ce5923c0590ce83cd9723dc5",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:25:04.766578+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-waterwheel-familiars.png",
+      "sha256": "4b34327f25a428cc6b379315e73d2f9669bf4c66251d93cfe69fff213975b110",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:25:07.994524+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-dispute-familiars.png",
+      "sha256": "221f913fdd841deb0d8e8c15985503dcbcc66d2b1eda12714f000e86b6f099d5",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:25:10.562481+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-home-familiars.png",
+      "sha256": "02fa54a12723e923f81dbc02fe2974816c79f96b9998752804be7d2343006bd2",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:25:12.788444+00:00"
+    },
+    {
+      "file": "test-results/screenshots/grounding-treehouse-grief.png",
+      "sha256": "75c2bdec817ed74641fbdbd0fe56c17e8ac4099b3869e4e4441512f20700b6ad",
+      "size": [
+        1738,
+        977
+      ],
+      "mtime_utc": "2026-09-05T19:25:14.578413+00:00"
+    }
+  ],
+  "assets": [
+    {
+      "file": "game/images/backgrounds/book-one/cassia-home.png",
+      "sha256": "8e536261e4b647371e346cfc34bd818dad026026eb209d5d4c458f0b2e6c0e0b"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/construction-room.png",
+      "sha256": "c5e93b257206702921c19f923b5ee9bcc14676f5ee08765ab37a88d4e0ae18b3"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/dome.png",
+      "sha256": "dc168e36c3f1a5a9851dbad7d0ba2e30e6dfd71116d77f4447dbc5d4f6ddcaa8"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/echoes.png",
+      "sha256": "cb84874fe2ab57c98c382ca9da15e7f10ac9d9160be780122a0abd69b119c814"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/festival.png",
+      "sha256": "0d1ddc42de15e46e839290310074c2db15d0ab5a25f000f2fb4882f236ffb141"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/garden-pond.png",
+      "sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/garden-wonders.png",
+      "sha256": "7da2fab31aef36de1a6bde4bbd347193bffe79bd395d3fd6d26ff75c8b0b4aef"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/garden-work-area.png",
+      "sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/home-dusk.png",
+      "sha256": "22af8146417df1fac47983901df8ddd7a3adc12737b4bbcdb33372d9ca85d45b"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/library.png",
+      "sha256": "9d2380db731f2576fadba93d4aa7be7460873a701efd973559981b41c5b9cddf"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/memorial-plaza.png",
+      "sha256": "242f9f11339c27d0f479a5280b58ed37e9df754030c490feca59c121c455167c"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/memory-mural-v2.png",
+      "sha256": "38cb3dd1cfad04400f6fec8d971a4171a4eff513c26f9c1e507aefd9fceaba47"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/music-room.png",
+      "sha256": "f3f9eae745ab6e93e0dfe100a9207977901e874624315f5c139eff500706c464"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/remembrance-plaza.png",
+      "sha256": "ad1667be4328b4763e5d9282528e40b042c4eb489de7633663169e551bb54495"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/sage-room.png",
+      "sha256": "b51b309492a5d8026571ff3938d5aae102515653250df054c1dd3d461751d581"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/soren-workshop.png",
+      "sha256": "d451bcedd70e8c80546a8147a33877dce0454a92004b017002aa45050460ae0b"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/treehouse-memory.png",
+      "sha256": "4530b7d44ea6ecd5ff21c4dc12d7c371ac85a6c5ad870277f9b608099146e4d4"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/waterwheel.png",
+      "sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/workshop.png",
+      "sha256": "603d67750be055357d53693ea315aa201473db6a746ab02f8a5f968c9b9b2934"
+    },
+    {
+      "file": "game/images/backgrounds/community-courtyard.png",
+      "sha256": "a02f53750be493a139f06a3811e3911736f9846aa6eb06de6e53342974f9f048"
+    },
+    {
+      "file": "game/images/backgrounds/construction-path.png",
+      "sha256": "9d36f01f1f51194bc99e0d79ce8811397c0b90a23f2df71de18d7a39e90dd0b8"
+    },
+    {
+      "file": "game/images/backgrounds/family-home.png",
+      "sha256": "dbf252a7502305a15c685bcbc6bfc7973f5bf2db277401dbdd6e6fda87d15a6a"
+    },
+    {
+      "file": "game/images/backgrounds/garden-close.png",
+      "sha256": "4d6729bc69f1ca19f13bfc50015d2efc9ecdcb63ab269e889cf79ddd73f05c0a"
+    },
+    {
+      "file": "game/images/backgrounds/garden.png",
+      "sha256": "e32d470defeda7faccd5e6fa1c08125faf9e60f818506e6cb15aae364725d243"
+    },
+    {
+      "file": "game/images/backgrounds/treehouse-rain.png",
+      "sha256": "6b11bbcadd640d8e8764ce76e05f342bf4974ba11fbb6d711ea7ce9842e5fad2"
+    },
+    {
+      "file": "game/images/backgrounds/treehouse-shaded.png",
+      "sha256": "06def5e42ba994e9fe848de83b4fce133741040bfd7edb8562f81fabf8d77228"
+    },
+    {
+      "file": "game/images/cg/book-one/cassia-comfort.png",
+      "sha256": "4148066089369387844affb7be75c8e9c2a05d5d434af8a070a668419ff8d08e"
+    },
+    {
+      "file": "game/images/cg/book-one/cassia-storytelling.png",
+      "sha256": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c"
+    },
+    {
+      "file": "game/images/cg/book-one/family-embrace.png",
+      "sha256": "1113867923621e201436dcf19c2f03df6dd37927dba837ae523a39cbda436b90"
+    },
+    {
+      "file": "game/images/cg/book-one/flute-playing.png",
+      "sha256": "8f44a837334af47ec5081cd04a4ab65087faca327fb278127ea3062214d109c1"
+    },
+    {
+      "file": "game/images/cg/book-one/flute-rest.png",
+      "sha256": "7554e2418496049f96c44d83b65460e9cc79a038f902ff2639ab6648215ae521"
+    },
+    {
+      "file": "game/images/cg/book-one/garden-compromise.png",
+      "sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc"
+    },
+    {
+      "file": "game/images/cg/book-one/pond-comfort.png",
+      "sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0"
+    },
+    {
+      "file": "game/images/cg/book-one/pond-rescue.png",
+      "sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-dome-friends.png",
+      "sha256": "d7577ed4ebc21cb87cc0107b6c86583e324812697efc0a2d95c17619ba895dff"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-evening-reading.png",
+      "sha256": "3600e695c1bddaf867faa04d5f157faf323012e269626fcce8fa5aab247627fc"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-garden-opening.png",
+      "sha256": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-insect-discovery.png",
+      "sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-morning-outlook.png",
+      "sha256": "1a0edf4cbbf8ff03ff42dce399c02f7e0780232a654f82662759faeece2ddc45"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-nibble-moment.png",
+      "sha256": "c20617d52737079f8d91da956b3b0aa7c958cf87577696f32bb691c4576b1fb5"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-path-friends.png",
+      "sha256": "1fbaeeac453d40ad6761894b68b6955a332942fa29b02ae2be93934fbabde2f5"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-sketch-laughter.png",
+      "sha256": "834fd2c8430fe29da8d504b36170d417e3a7bfff710d014b4a2e6229ae7d73d8"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
+      "sha256": "9358565397facaa82363d8960e0df9fe6b3352c87f8e40ee6025957d10e04b72"
+    },
+    {
+      "file": "game/images/cg/book-one/theme-waterwheel-team.png",
+      "sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60"
+    },
+    {
+      "file": "game/images/cg/book-one/treehouse-friends.png",
+      "sha256": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4"
+    },
+    {
+      "file": "game/images/cg/first-memory-young.png",
+      "sha256": "796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f"
+    },
+    {
+      "file": "game/images/characters/book-one/arin-everyday.png",
+      "sha256": "5f0e5a1c6a31cd742ebd615284a3d4860217a30d576f6edc79ca00c26b286b7e"
+    },
+    {
+      "file": "game/images/characters/book-one/calista-festival.png",
+      "sha256": "cc63e75baf92ad6fa2b1cfff17611f7cd1a7213d65671f6d149f6429fe13ec7f"
+    },
+    {
+      "file": "game/images/characters/book-one/calista-festive.png",
+      "sha256": "edff3baed0a6fb3387f7c40c49c3b18c01f830b1ba786c7137572918774bc04a"
+    },
+    {
+      "file": "game/images/characters/book-one/calista-frustrated.png",
+      "sha256": "c294370e2f4fa63e22d772cd68c60f99c3c61477077e58029a88ca1f6c7c420d"
+    },
+    {
+      "file": "game/images/characters/book-one/calista-home.png",
+      "sha256": "407e2ac4a120d2346fd1599c1a9002914e9cd70385f9ef605ac430200b68ab1f"
+    },
+    {
+      "file": "game/images/characters/book-one/calista-mourning.png",
+      "sha256": "0075c2688598b716a97d7f720e61452a8a6a0ebe3198c2b1cb8a45f3d3da0df8"
+    },
+    {
+      "file": "game/images/characters/book-one/calista-older.png",
+      "sha256": "d36489fd12db1fd3f2d360afa83d675e2af5bcb563e942775ad196f5f11f70b3"
+    },
+    {
+      "file": "game/images/characters/book-one/calista-painting.png",
+      "sha256": "ca499733b762cd9a2cc9e66f8ec82ddf67a3c1f639db93ab7465fc858f8aaf0e"
+    },
+    {
+      "file": "game/images/characters/book-one/calista-young.png",
+      "sha256": "7e37d6dd316296f9f89f3ce495cf999b0a3ace235c91be6661d129640e64d8ee"
+    },
+    {
+      "file": "game/images/characters/book-one/cassia-mourning.png",
+      "sha256": "8fe0c0a2c74c0199a05cba55115c494f6188c36064d3144bcec2dd3586bcc9b1"
+    },
+    {
+      "file": "game/images/characters/book-one/cassia-older.png",
+      "sha256": "f65d350cb1d99f692c0de61ee2f160f21795aefafd7d263e88e29f27939865d6"
+    },
+    {
+      "file": "game/images/characters/book-one/cassia-young.png",
+      "sha256": "353258e8c289f3eb3f95a0329fb1ae44b48fdab90d8604dcc64547cb5581f363"
+    },
+    {
+      "file": "game/images/characters/book-one/dorian-everyday.png",
+      "sha256": "100a3c36ae18a31572741a6ab66beee190dc19c58054dd5af557b3eee553664a"
+    },
+    {
+      "file": "game/images/characters/book-one/joren-frustrated.png",
+      "sha256": "1ef2db5eb4b132947fb39ac4757ca54b37bd3faefa24be71d785faf24117f004"
+    },
+    {
+      "file": "game/images/characters/book-one/joren-older.png",
+      "sha256": "853411333d8c9cc40fae87b3a4089ae551eaae7250319195b1f5e14dc048a8b0"
+    },
+    {
+      "file": "game/images/characters/book-one/joren-young.png",
+      "sha256": "e7fdfcb40ec82c98d46f6343ea458ba83b54cea2c7cb37bcc34c21d009286ce2"
+    },
+    {
+      "file": "game/images/characters/book-one/kael-young.png",
+      "sha256": "86f1acb57974e793a366ad693f0be9fd8b9d55e454794eaab401b04c7bc13651"
+    },
+    {
+      "file": "game/images/characters/book-one/kaleb-everyday.png",
+      "sha256": "dbd65a8637da9692dda912025d87da0d3419d1acedb20cc3b0bf96a57be1184b"
+    },
+    {
+      "file": "game/images/characters/book-one/lyra-young.png",
+      "sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d"
+    },
+    {
+      "file": "game/images/characters/book-one/lyron-everyday.png",
+      "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f"
+    },
+    {
+      "file": "game/images/characters/book-one/maia-home.png",
+      "sha256": "5af5fc0864752f96d60c8eb8f0fafaf05124edfa2205f7da8c72c70b49d681b2"
+    },
+    {
+      "file": "game/images/characters/book-one/sage-everyday.png",
+      "sha256": "c2065df8ea3d578ac691392c7e3ecdae34ec2344fac05cc31cc5ce9739180f32"
+    },
+    {
+      "file": "game/images/characters/book-one/selene-everyday.png",
+      "sha256": "4b18d24c659a09bcbd83f1b9e01b2fbc6bfe40578e14ee16c69a5cc455e8beb2"
+    },
+    {
+      "file": "game/images/characters/book-one/soren-everyday.png",
+      "sha256": "aa9cefcc28cff081cf23ee1f6a56bfbe44731318b1ef3f7ec1946dd57cd516cf"
+    },
+    {
+      "file": "game/images/characters/book-one/thalia-everyday.png",
+      "sha256": "654c9f3316c1c78d023efb8b4d22afd1b68003d7f47a6435c2a6b1984f637132"
+    },
+    {
+      "file": "game/images/characters/maia.png",
+      "sha256": "2d7d24a32ea57345cd91090c9b7fbfa051e3fdf7ebd65160421117dee2c8eb0b"
+    },
+    {
+      "file": "game/images/familiars/barkley.png",
+      "sha256": "49084a021567be20c336956201f5ed6bfdb4ac6a9c8a8198b7e2040e7d88ad37"
+    },
+    {
+      "file": "game/images/familiars/nibble.png",
+      "sha256": "a3eb23fe22427f87b6fdf12c7c6c2fdf7dcbc87d50579ba288726f2bd7f1bb95"
+    },
+    {
+      "file": "game/images/familiars/shadow.png",
+      "sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59"
+    }
+  ],
+  "scripts": [
+    {
+      "file": "game/script.rpy",
+      "sha256": "28e20b7d091628ae2ada9c1acebf80ecde01d5042fe26241d778875a9f5945fe"
+    },
+    {
+      "file": "game/family_book_one.rpy",
+      "sha256": "236741cddb927cfee503326f2c3549b8be8fa1d37b9e29bf904d6a7fa852a722"
+    },
+    {
+      "file": "game/friendships_book_one.rpy",
+      "sha256": "92a061d5ba9ecf9706434c3817c2c08fdec2fbfa916f182f9e1fb4c8530cef0b"
+    },
+    {
+      "file": "game/screens.rpy",
+      "sha256": "1b2aa2999eec2aee1a296cd8aec98528b7ed0b9418959dd8d8e61f9f46317635"
+    },
+    {
+      "file": "game/visuals.rpy",
+      "sha256": "8edf5bbff16dbe5637de29bca7010f24a538cb4fe85d8420a2150a3b7f2b7549"
+    },
+    {
+      "file": "game/speaker_portraits.rpy",
+      "sha256": "735f5632c9b6222779e90bdc17b066deb04c9d09a20e7a9c89fe89e374e01283"
+    },
+    {
+      "file": "game/familiars.rpy",
+      "sha256": "923568869264cf6e31c52e5c9f4dc1378a6e90df8ca00305c7f6575a3bb0ab5b"
+    },
+    {
+      "file": "game/characters_book_one.rpy",
+      "sha256": "69e72f593760c4f44439a3041e732b7194989102baeb3347fffa698b13990bb5"
+    },
+    {
+      "file": "game/environments_book_one.rpy",
+      "sha256": "395ae7516a514cc2d49cda7daa68efbea7fe4ae1bb0f0f21a94966c444d46893"
+    },
+    {
+      "file": "game/book_structure.rpy",
+      "sha256": "9a3b7b60a3a49fd5436365639c2a26fa7734c1a3bccf070a8656b5c73bfc4d46"
+    },
+    {
+      "file": "game/people.rpy",
+      "sha256": "e1d505cf2b25e3e0056da70248d53080b4721fe9dafca5719168da843d4c7dd0"
+    },
+    {
+      "file": "game/testcases.rpy",
+      "sha256": "8c87c40e366355d8ac721bc050565fa317e49321acbc95ae6d3a176bd3a9f0e0"
+    }
+  ]
+}

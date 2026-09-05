@@ -39,12 +39,17 @@
     {
       "file": "game/images/backgrounds/treehouse-shaded.png",
       "generation": "treehouse-shaded-v1",
-      "sha256": "9dcbc10785238d2c964cbc32b24451e63f8228173270c052394d8fe8bc74dda9",
+      "sha256": "ed727c67e4e6628eef1e2ba9820b70a1d98cd32b4d71e4c04100f4508e9d16d3",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "production_edit": {
+        "recipe_file": "docs/environment-edits.json",
+        "id": "treehouse-early-daylight",
+        "recipe_sha256": "1a2c0f39faa9b5d8c351a609aff02652a9662d553874dffa1ba7e4e53e80c8ff"
+      }
     },
     {
       "file": "game/images/cg/first-memory-young.png",
@@ -59,12 +64,17 @@
     {
       "file": "game/images/backgrounds/treehouse-rain.png",
       "generation": "treehouse-rain-v1",
-      "sha256": "99e7ba8ea62daa5a42ad490a71dd33fa23204f958152f8d9fa9ae0491d3459f6",
+      "sha256": "9a21aab8edb8f0424464e4106cf5e8700b62d35de806ab90c38b1d14624ea456",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "production_edit": {
+        "recipe_file": "docs/environment-edits.json",
+        "id": "treehouse-early-rain-afternoon",
+        "recipe_sha256": "e467540aff9d2b9388009c27019632659abc331a196c1faf4407bd5cb2152609"
+      }
     },
     {
       "file": "game/images/backgrounds/family-home.png",
@@ -114,16 +124,16 @@
     {
       "file": "game/images/cg/book-one/cassia-storytelling.png",
       "generation": "alpha-cassia-storytelling",
-      "sha256": "74608e12c38015c5129b3c08db5af53d267d4e35b473857acf2d398d85ac3503",
+      "sha256": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c",
       "size": [
         1672,
         941
       ],
       "mode": "RGB",
-      "postprocess": {
-        "id": "alpha-cassia-storytelling-masked-irises",
-        "recipe_file": "docs/iris-retouches.json",
-        "recipe_sha256": "f38fa65197542ee7784d837b4b78a6d80c388e5121490a67063d54d97367d464"
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-cassia-storytelling",
+        "recipe_sha256": "6bbbcb66f34313eff0b2969df3c8d9fa20a7db1f421f4989655bf5ebac150854"
       }
     },
     {
@@ -139,12 +149,17 @@
     {
       "file": "game/images/cg/book-one/cassia-comfort.png",
       "generation": "review-027-cassia-comfort",
-      "sha256": "0083b1675573b96c77f905f3daea75e48f8a02d151715ef02418ef080122acd0",
+      "sha256": "e656c47c19a9c9ef5f273c041d149db9078e58d99dc63a755f759d2c0a9c825e",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "production_edit": {
+        "recipe_file": "docs/environment-edits.json",
+        "id": "treehouse-comfort-later-daylight",
+        "recipe_sha256": "8e9c50e3ad536872715812acf698a669e7bced334642089532a8c4cb34f24726"
+      }
     },
     {
       "file": "game/images/cg/book-one/garden-compromise.png",
@@ -174,57 +189,62 @@
     {
       "file": "game/images/cg/book-one/pond-rescue.png",
       "generation": "alpha-pond-rescue",
-      "sha256": "0de515348590fbc8aff39736ad072e1c1c07d7ccb967fdd847dd5e4a75f009fb",
+      "sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
       "size": [
         1672,
         941
       ],
       "mode": "RGB",
-      "postprocess": {
-        "id": "alpha-pond-rescue-masked-irises",
-        "recipe_file": "docs/iris-retouches.json",
-        "recipe_sha256": "0f03cf6a30bd3d24bc7744a475eb4cd06eefdbef94ba0521e7beb375900abd5e"
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "pond-rescue-shadow-ear-notch",
+        "recipe_sha256": "d9c827d2f1b9f81768778310ea9081aaaf2315a92b2e42258bb1ff317c53b914"
       }
     },
     {
       "file": "game/images/cg/book-one/pond-comfort.png",
       "generation": "review-027-pond-comfort",
-      "sha256": "56074675442f5eee3db5506e1a0816d2fc52e385bdbc175518612d9a34fc6f43",
+      "sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
       "size": [
         1672,
         941
       ],
       "mode": "RGB",
-      "postprocess": {
-        "id": "alpha-pond-comfort-masked-irises",
-        "recipe_file": "docs/iris-retouches.json",
-        "recipe_sha256": "7ab054ec35e0f5b1198366d17492b649d69cba3c523dd26f160d44250147d7c9"
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "pond-comfort-shadow-ear-notch",
+        "recipe_sha256": "67eee2e858978ad4a78e031f52ece4aeed554469c063c8d0b2307036e66c4686"
       }
     },
     {
       "file": "game/images/cg/book-one/treehouse-friends.png",
       "generation": "alpha-scale-treehouse-friends",
-      "sha256": "5bf094774526bf79a5ffd6bdd7b9e1cf2b07c74a8dd0c42778b3b43a2892f318",
+      "sha256": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4",
       "size": [
         1672,
         941
       ],
       "mode": "RGB",
-      "postprocess": {
-        "id": "alpha-treehouse-friends-masked-irises",
-        "recipe_file": "docs/iris-retouches.json",
-        "recipe_sha256": "9bc21bc48da67b380930c079c7e7fa9b6d1a86724aa136910e18d6ef6e9ea109"
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-treehouse-friends",
+        "recipe_sha256": "9713da53d5dbdfd85e49b879e41be81243a841fb312581c3e5b7980e94e328db"
       }
     },
     {
       "file": "game/images/cg/book-one/theme-garden-opening.png",
       "generation": "alpha-opening-consistency",
-      "sha256": "cc409a5fd4996cf8839252c402efda8ef611da9670e82426e2611b07ba531c51",
+      "sha256": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b",
       "size": [
         1672,
         941
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-theme-garden-opening",
+        "recipe_sha256": "95928ecedfec388558306f991f7d72590a2398f8c5073e00bee7dc2ecae399db"
+      }
     },
     {
       "file": "game/images/cg/book-one/theme-path-friends.png",
@@ -264,16 +284,16 @@
     {
       "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
       "generation": "alpha-theme-arrival-quality",
-      "sha256": "7525e3f19fab329fb96b0ed6d1ac6c1aa06db608b8197ad8d7b83fbd3c5554a6",
+      "sha256": "9358565397facaa82363d8960e0df9fe6b3352c87f8e40ee6025957d10e04b72",
       "size": [
         1672,
         941
       ],
       "mode": "RGB",
-      "postprocess": {
-        "id": "alpha-theme-treehouse-arrival-masked-irises",
-        "recipe_file": "docs/iris-retouches.json",
-        "recipe_sha256": "7f065fc0f13a4c59658ac0592e61931b93140cb9606130e0caac7096406442bf"
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-theme-treehouse-arrival",
+        "recipe_sha256": "5ff1608af20fab881b2014b1b5b3304bf45294b2033e58c1aacc1ae6dbe757a6"
       }
     },
     {
@@ -289,16 +309,16 @@
     {
       "file": "game/images/cg/book-one/theme-dome-friends.png",
       "generation": "alpha-scale-theme-dome-friends",
-      "sha256": "9ee19cb65c68b41d5e03f3c6cf40d6fe617c6d0db3abe7ce6774a7e0da3611c1",
+      "sha256": "d7577ed4ebc21cb87cc0107b6c86583e324812697efc0a2d95c17619ba895dff",
       "size": [
         1672,
         941
       ],
       "mode": "RGB",
-      "postprocess": {
-        "id": "alpha-theme-dome-friends-masked-irises",
-        "recipe_file": "docs/iris-retouches.json",
-        "recipe_sha256": "5d7eaac1819f2fa2914a283cab3081e3fa6e228411f53ada531fda6fb9ef42ea"
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-theme-dome-friends",
+        "recipe_sha256": "115170483bf23fe6d515d5918fbeaf6efc7d7ef14ef63cadf7cadea23e64c6be"
       }
     },
     {
@@ -329,16 +349,16 @@
     {
       "file": "game/images/cg/book-one/theme-morning-outlook.png",
       "generation": "alpha-theme-morning-quality",
-      "sha256": "61382b336aeb7c7989e7339855dbf89337e0f9c29ab5a90cbd04bb25b147834f",
+      "sha256": "1a0edf4cbbf8ff03ff42dce399c02f7e0780232a654f82662759faeece2ddc45",
       "size": [
         1680,
         936
       ],
       "mode": "RGB",
-      "postprocess": {
-        "id": "alpha-theme-morning-outlook-masked-irises",
-        "recipe_file": "docs/iris-retouches.json",
-        "recipe_sha256": "3f0c5627a739fa2cc5188e4d8b22b002b7af99306b4683838070326ec5761be9"
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-theme-morning-outlook",
+        "recipe_sha256": "c2b122137e12416489550df32a8914974975172e0627886d37a69224d7ccdd32"
       }
     }
   ],
@@ -1011,7 +1031,7 @@
     },
     {
       "id": "alpha-scale-treehouse-friends",
-      "prompt": "Use case: identity-preserve. This is a character PROPORTION AND BLOCKING correction to the existing illustration, not a new scene. Correct Calista LEFT's body scale in this seated early-childhood trio. She and Cassia CENTER are same-age peers of approximately equal standing height, while Joren RIGHT is only modestly taller (~5%). Calista sits on the nearer cushion yet reads undersized: increase her full seated figure proportionally about8–10%, including torso, arms, legs and head, fit naturally to the SAME cushion and support plane. Do not enlarge just her eyes/head or make her older. Retain notebook in lap and attentive gaze. Cassia retains storytelling gesture; Joren retains happy listening pose. BLUE irises for Calista and blond Joren, deep GREEN for dark umber Cassia. Retain distinct skin tones, hair, early outfits, natural child facial proportions. Preserve room geometry, real door, trunk, window bays, table, cushions and all objects. Keep detailed naturalistic painterly style, gentle dimensional face midtones, small natural child eye proportions, exact character identities, and restrained clear iris colors without glow. Maintain story actions and expression. Preserve camera framing and all environment pixels as closely as possible except the explicit change, no new buildings/doors/props/characters. One finished landscape frame same aspect, no text or comparison panels.",
+      "prompt": "Use case: identity-preserve. This is a character PROPORTION AND BLOCKING correction to the existing illustration, not a new scene. Correct Calista LEFT's body scale in this seated early-childhood trio. She and Cassia CENTER are same-age peers of approximately equal standing height, while Joren RIGHT is only modestly taller (~5%). Calista sits on the nearer cushion yet reads undersized: increase her full seated figure proportionally about8\u201310%, including torso, arms, legs and head, fit naturally to the SAME cushion and support plane. Do not enlarge just her eyes/head or make her older. Retain notebook in lap and attentive gaze. Cassia retains storytelling gesture; Joren retains happy listening pose. BLUE irises for Calista and blond Joren, deep GREEN for dark umber Cassia. Retain distinct skin tones, hair, early outfits, natural child facial proportions. Preserve room geometry, real door, trunk, window bays, table, cushions and all objects. Keep detailed naturalistic painterly style, gentle dimensional face midtones, small natural child eye proportions, exact character identities, and restrained clear iris colors without glow. Maintain story actions and expression. Preserve camera framing and all environment pixels as closely as possible except the explicit change, no new buildings/doors/props/characters. One finished landscape frame same aspect, no text or comparison panels.",
       "references": [
         "generation:alpha-treehouse-friends"
       ],
@@ -1112,7 +1132,7 @@
     },
     {
       "id": "alpha-theme-arrival-quality",
-      "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE localized scale correction to this existing finished painting. Enlarge only Calista, the girl on the LEFT in cream blouse and brown overalls hugging a brown book, as one entire coherent figure by about 9 percent, anchored at the bottom of the frame. Include her hair, naturally tilted head, shoulders, torso, book, folded arms, hands and trousers together at the same proportional scale. This should bring her shoulder line roughly 65–75 pixels higher in this image: she is Cassia's same-age peer, standing slightly nearer camera, not a younger child. Do not stretch her neck or separately move her head. Keep the existing tilt, exact facial anatomy, expression, freckles, softly modeled cheek/nose light, iris colors, natural eye shape, detailed curls, cloth patterns and book.\nLeave Cassia in the MIDDLE and Joren on the RIGHT entirely unchanged in size, position, face, clothing and gesture. Leave the camera, warm golden painterly finish, fine textures, oak trunk, single arched outside doorway, real room floor, right post, open bays, curtains and map table unchanged. Do not align hair crowns artificially; her larger hair may rise close to Cassia's crown while the actual body proportions remain natural. Fill only the tiny background edges exposed by the local figure adjustment using their existing adjoining textures. No other edits, no new objects, no iris correction, no style change, no zoom or crop.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE localized scale correction to this existing finished painting. Enlarge only Calista, the girl on the LEFT in cream blouse and brown overalls hugging a brown book, as one entire coherent figure by about 9 percent, anchored at the bottom of the frame. Include her hair, naturally tilted head, shoulders, torso, book, folded arms, hands and trousers together at the same proportional scale. This should bring her shoulder line roughly 65\u201375 pixels higher in this image: she is Cassia's same-age peer, standing slightly nearer camera, not a younger child. Do not stretch her neck or separately move her head. Keep the existing tilt, exact facial anatomy, expression, freckles, softly modeled cheek/nose light, iris colors, natural eye shape, detailed curls, cloth patterns and book.\nLeave Cassia in the MIDDLE and Joren on the RIGHT entirely unchanged in size, position, face, clothing and gesture. Leave the camera, warm golden painterly finish, fine textures, oak trunk, single arched outside doorway, real room floor, right post, open bays, curtains and map table unchanged. Do not align hair crowns artificially; her larger hair may rise close to Cassia's crown while the actual body proportions remain natural. Fill only the tiny background edges exposed by the local figure adjustment using their existing adjoining textures. No other edits, no new objects, no iris correction, no style change, no zoom or crop.",
       "references": [
         "generation:alpha-theme-arrival-door-post"
       ],

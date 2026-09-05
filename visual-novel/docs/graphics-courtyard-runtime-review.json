@@ -1,0 +1,10 @@
+{
+  "reviewed_at": "2026-09-05",
+  "scope": "Root inspected actual native chapter13 opening screenshot at fullsize after dedicated testcase passed2assertions.",
+  "finding": "Community gathering is visible with populated seating and a clear foreground path. Opening narration fits without clipping; title/navigation remain legible. This background appears before the closer Cassia storytelling illustration. No duplicated portrait or unintended character obstruction.",
+  "files": {
+    "game/images/backgrounds/community-courtyard.png": "a02f53750be493a139f06a3811e3911736f9846aa6eb06de6e53342974f9f048",
+    "game/script.rpy": "28e20b7d091628ae2ada9c1acebf80ecde01d5042fe26241d778875a9f5945fe",
+    "test-results/screenshots/graphics-courtyard-opening.png": "35883d4c9d0de70894b0790fb3e7d0635a7aeba1fcc58922b1bf166e6b1628ae"
+  }
+}

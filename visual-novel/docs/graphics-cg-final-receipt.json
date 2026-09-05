@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-09-05",
+  "evidence": {
+    "independent_review": "docs/graphics-cg-repair-review.md",
+    "independent_review_sha256": "a52a0830cca649b28e04bdd410c884a2b08c4653eff81356bd072c3f74bf6087",
+    "normalization_rgb_comparison": {
+      "statement": "Four independently reviewed CG pixel arrays unchanged after removing volatile PNG metadata and adding unused overlay support.",
+      "rgb_sha256": {
+        "theme-garden-opening": "d3e02b853b99d93b7491bd1d060a8b784260c31cd9e437278e0ce559212c3cbb",
+        "cassia-storytelling": "73826758ff4bbf26ebf1bceb28633071c91a12aee5acf710376f805d72128759",
+        "theme-dome-friends": "3a078e0e6aac422d2bd12d594c77c6ed57179d0e5e14607da39f3af5ba988a3d",
+        "theme-morning-outlook": "44c033c0dda9766f77151bb3a7052290c5108a22e5b887ec1a13994a2f8451e4"
+      }
+    }
+  },
+  "assets": [
+    {
+      "file": "game/images/cg/book-one/theme-garden-opening.png",
+      "installed_sha256": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b",
+      "installed_rgb_sha256": "d3e02b853b99d93b7491bd1d060a8b784260c31cd9e437278e0ce559212c3cbb",
+      "independently_reviewed_face_candidate_sha256": "01dac4af7615514eaa3f08c4caab3e03571972b02d71e3db2625cd2c4c52d350",
+      "review_basis": "Same independently reviewed RGB pixels; only volatile PNG metadata stripped.",
+      "scope": "Identity, face anatomy/stage, composition, lighting and local edit integration. Exact inferred treehouse geometry and actual runtime compositing remain separate."
+    },
+    {
+      "file": "game/images/cg/book-one/cassia-storytelling.png",
+      "installed_sha256": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c",
+      "installed_rgb_sha256": "73826758ff4bbf26ebf1bceb28633071c91a12aee5acf710376f805d72128759",
+      "independently_reviewed_face_candidate_sha256": "430f4d3d4bb88b6034b7272f9b530fe01af8209fd716c7182edc4e145e226563",
+      "review_basis": "Same independently reviewed RGB pixels; only volatile PNG metadata stripped.",
+      "scope": "Identity, face anatomy/stage, composition, lighting and local edit integration. Exact inferred treehouse geometry and actual runtime compositing remain separate."
+    },
+    {
+      "file": "game/images/cg/book-one/theme-dome-friends.png",
+      "installed_sha256": "d7577ed4ebc21cb87cc0107b6c86583e324812697efc0a2d95c17619ba895dff",
+      "installed_rgb_sha256": "3a078e0e6aac422d2bd12d594c77c6ed57179d0e5e14607da39f3af5ba988a3d",
+      "independently_reviewed_face_candidate_sha256": "2ef5e062beb591c59fb5d50673164a9d579650b7567ba4289313d1c886d8e62d",
+      "review_basis": "Same independently reviewed RGB pixels; only volatile PNG metadata stripped.",
+      "scope": "Identity, face anatomy/stage, composition, lighting and local edit integration. Exact inferred treehouse geometry and actual runtime compositing remain separate."
+    },
+    {
+      "file": "game/images/cg/book-one/theme-morning-outlook.png",
+      "installed_sha256": "1a0edf4cbbf8ff03ff42dce399c02f7e0780232a654f82662759faeece2ddc45",
+      "installed_rgb_sha256": "44c033c0dda9766f77151bb3a7052290c5108a22e5b887ec1a13994a2f8451e4",
+      "independently_reviewed_face_candidate_sha256": "b7905063e91564ddf35edee6d7ade57477e64beee16d70db90efc26cb38017bd",
+      "review_basis": "Same independently reviewed RGB pixels; only volatile PNG metadata stripped.",
+      "scope": "Identity, face anatomy/stage, composition, lighting and local edit integration. Exact inferred treehouse geometry and actual runtime compositing remain separate."
+    },
+    {
+      "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
+      "installed_sha256": "9358565397facaa82363d8960e0df9fe6b3352c87f8e40ee6025957d10e04b72",
+      "installed_rgb_sha256": "f712b11cd3ae6dd54bcbeb003363e5c66db36bf762fcffc899c992961d6d20a9",
+      "independently_reviewed_face_candidate_sha256": "80eed0b8a917fc6fe75cb4e21e270f31a7e25c8f093b102f38009a370860fbbe",
+      "review_basis": "Root inspected final combined full frame after merging only the independently reviewed branch overlay into the independently reviewed face repair. Face and branch review observations are separately recorded in the cited report.",
+      "scope": "Identity, face anatomy/stage, composition, lighting and local edit integration. Exact inferred treehouse geometry and actual runtime compositing remain separate."
+    },
+    {
+      "file": "game/images/cg/book-one/treehouse-friends.png",
+      "installed_sha256": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4",
+      "installed_rgb_sha256": "2c7bba9211db5889d532e65f25e12affca7776f99475b1004e5654bc8a11d7b3",
+      "independently_reviewed_face_candidate_sha256": "b8d68644118b9b2eae9af8f8dc56b3490065d7aa540621e230b8aa630f3d96fa",
+      "review_basis": "Root inspected final combined full frame after merging only the independently reviewed branch overlay into the independently reviewed face repair. Face and branch review observations are separately recorded in the cited report.",
+      "scope": "Identity, face anatomy/stage, composition, lighting and local edit integration. Exact inferred treehouse geometry and actual runtime compositing remain separate."
+    }
+  ]
+}

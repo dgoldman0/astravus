@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "material": "art/production/cassia-comfort-later-furnishings.png",
+  "material_sha256": "b33f0db5e95253e72828b579573d292295969b3ad995771e9e427ae69ab550e1",
+  "generation_output_sha256": "554b391bebdaab1acd03563601392b82190107822ba63cc0173165543792dabe",
+  "prompt_file": "docs/graphics-sources/comfort-furnishings-prompt.txt",
+  "reference_cg_sha256": "4148066089369387844affb7be75c8e9c2a05d5d434af8a070a668419ff8d08e",
+  "reference_furniture_file": "art/production/treehouse-later-furnishings.png",
+  "reference_furniture_sha256": "0dd73bf82a2818ef58d0d09d0d04d153a46aabc2e5ecc131b0b7562f9a925d20",
+  "polygon": [
+    [
+      1012,
+      941
+    ],
+    [
+      1672,
+      941
+    ],
+    [
+      1672,
+      516
+    ],
+    [
+      1550,
+      505
+    ],
+    [
+      1470,
+      503
+    ],
+    [
+      1410,
+      503
+    ],
+    [
+      1387,
+      479
+    ],
+    [
+      1398,
+      421
+    ],
+    [
+      1365,
+      388
+    ],
+    [
+      1280,
+      364
+    ],
+    [
+      1275,
+      330
+    ],
+    [
+      1234,
+      325
+    ],
+    [
+      1224,
+      300
+    ],
+    [
+      1204,
+      300
+    ],
+    [
+      1194,
+      346
+    ],
+    [
+      1090,
+      344
+    ],
+    [
+      1040,
+      349
+    ],
+    [
+      990,
+      347
+    ],
+    [
+      971,
+      366
+    ],
+    [
+      965,
+      433
+    ],
+    [
+      905,
+      449
+    ],
+    [
+      901,
+      476
+    ],
+    [
+      924,
+      502
+    ],
+    [
+      926,
+      553
+    ],
+    [
+      963,
+      580
+    ],
+    [
+      1000,
+      601
+    ],
+    [
+      1032,
+      626
+    ],
+    [
+      1027,
+      680
+    ],
+    [
+      1018,
+      739
+    ],
+    [
+      1005,
+      783
+    ],
+    [
+      1008,
+      846
+    ]
+  ],
+  "feather_px": 1.25,
+  "script_file": "scripts/prepare_comfort_furnishings.py",
+  "script_sha256": "8bd847c24017d405808af0ffaeee172ddc4a2821be125d525b46eb54a5e84e0c",
+  "verification": {
+    "changed_pixels": 364819,
+    "outside_furniture_mask_changes": 0,
+    "character_faces_hands_outfits_admitted_to_mask": false,
+    "canvas_size": [
+      1672,
+      941
+    ]
+  }
+}

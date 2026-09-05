@@ -1,0 +1,1130 @@
+{
+  "schema_version": 1,
+  "coordinate_status": "Candidate production coordinates, not lore or reconstructed measurements.",
+  "scope": "Nearby painted fork clusters only; retain each original CG's distant foliage and lighting structure. No full exterior-continuity claim.",
+  "source": {
+    "file": "game/images/backgrounds/treehouse-shaded.png",
+    "git_blob": "2f20bf3619bbc3c7548a118b0f6399ede8207edd",
+    "sha256": "9dcbc10785238d2c964cbc32b24451e63f8228173270c052394d8fe8bc74dda9"
+  },
+  "intrinsics": [
+    [
+      1400.0,
+      0.0,
+      836.0
+    ],
+    [
+      0.0,
+      1400.0,
+      470.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "planes": [
+    {
+      "id": "central-fork-cluster",
+      "depth": 7.0,
+      "texture_sha256": "3adf031ccd7a951b757d04c62fced00777d1313e9c039b0fa0ce7159382af1f2",
+      "texture": "build/graphics/environments/exterior-rig/central-fork-cluster.png",
+      "mask_geometry": {
+        "polygon": [
+          [
+            980,
+            216
+          ],
+          [
+            1041,
+            187
+          ],
+          [
+            1100,
+            163
+          ],
+          [
+            1256,
+            149
+          ],
+          [
+            1311,
+            218
+          ],
+          [
+            1300,
+            328
+          ],
+          [
+            1190,
+            370
+          ],
+          [
+            1042,
+            352
+          ],
+          [
+            972,
+            287
+          ]
+        ],
+        "foliage_edge_feather_pixels": 14,
+        "distance_inside_source_opening_for_full_opacity": 18
+      }
+    },
+    {
+      "id": "right-fork-cluster",
+      "depth": 8.5,
+      "texture_sha256": "79379ebcb83cc972eadbe76b1c7162cbbacbfad17d3a14d12c83cbde85be6ee0",
+      "texture": "build/graphics/environments/exterior-rig/right-fork-cluster.png",
+      "mask_geometry": {
+        "polygon": [
+          [
+            1441,
+            216
+          ],
+          [
+            1492,
+            177
+          ],
+          [
+            1572,
+            133
+          ],
+          [
+            1671,
+            107
+          ],
+          [
+            1671,
+            360
+          ],
+          [
+            1541,
+            367
+          ],
+          [
+            1430,
+            326
+          ]
+        ],
+        "foliage_edge_feather_pixels": 14,
+        "distance_inside_source_opening_for_full_opacity": 18
+      }
+    }
+  ],
+  "views": {
+    "treehouse-friends": {
+      "file": "game/images/cg/book-one/treehouse-friends.png",
+      "source_sha256": "5bf094774526bf79a5ffd6bdd7b9e1cf2b07c74a8dd0c42778b3b43a2892f318",
+      "lighting_source": {
+        "file": "game/images/cg/book-one/treehouse-friends.png",
+        "git_blob": "a04d30ffc71701da7db81ec35a41c50bf2045eea",
+        "sha256": "5bf094774526bf79a5ffd6bdd7b9e1cf2b07c74a8dd0c42778b3b43a2892f318"
+      },
+      "camera": {
+        "position": [
+          -0.4423698224722742,
+          0.05749191486013303,
+          0.603102910125768
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "focal_pixels": 1400.0,
+        "anchor_plane_depth": 3.2,
+        "assumption": "Explicit production camera for the accepted nearby fork layer. Guide reprojection is approximate; it does not establish the original room's geometry.",
+        "guide_reprojection_error_pixels": [
+          19.98,
+          20.13,
+          7.05
+        ],
+        "scale_at_opening_plane": 1.2322398190045245
+      },
+      "anchors": [
+        {
+          "name": "main-bay inner upper edge",
+          "master": [
+            935,
+            215
+          ],
+          "view": [
+            1200,
+            105
+          ]
+        },
+        {
+          "name": "main-bay rail start",
+          "master": [
+            935,
+            355
+          ],
+          "view": [
+            1200,
+            317
+          ]
+        },
+        {
+          "name": "main-bay rail far end",
+          "master": [
+            1325,
+            385
+          ],
+          "view": [
+            1670,
+            334
+          ]
+        }
+      ],
+      "openings": [
+        [
+          [
+            909,
+            99
+          ],
+          [
+            992,
+            78
+          ],
+          [
+            1007,
+            128
+          ],
+          [
+            1024,
+            182
+          ],
+          [
+            1048,
+            229
+          ],
+          [
+            1070,
+            266
+          ],
+          [
+            1065,
+            299
+          ],
+          [
+            961,
+            299
+          ],
+          [
+            951,
+            226
+          ],
+          [
+            933,
+            186
+          ],
+          [
+            910,
+            170
+          ]
+        ],
+        [
+          [
+            1211,
+            99
+          ],
+          [
+            1261,
+            71
+          ],
+          [
+            1396,
+            24
+          ],
+          [
+            1461,
+            3
+          ],
+          [
+            1671,
+            3
+          ],
+          [
+            1671,
+            315
+          ],
+          [
+            1410,
+            314
+          ],
+          [
+            1403,
+            262
+          ],
+          [
+            1407,
+            211
+          ],
+          [
+            1382,
+            177
+          ],
+          [
+            1336,
+            145
+          ],
+          [
+            1274,
+            134
+          ],
+          [
+            1230,
+            141
+          ],
+          [
+            1200,
+            159
+          ]
+        ],
+        [
+          [
+            1451,
+            350
+          ],
+          [
+            1506,
+            350
+          ],
+          [
+            1504,
+            438
+          ],
+          [
+            1475,
+            405
+          ]
+        ],
+        [
+          [
+            1531,
+            350
+          ],
+          [
+            1579,
+            350
+          ],
+          [
+            1576,
+            491
+          ],
+          [
+            1538,
+            485
+          ]
+        ],
+        [
+          [
+            1605,
+            351
+          ],
+          [
+            1671,
+            353
+          ],
+          [
+            1671,
+            500
+          ],
+          [
+            1600,
+            496
+          ]
+        ],
+        [
+          [
+            1000,
+            330
+          ],
+          [
+            1048,
+            331
+          ],
+          [
+            1043,
+            366
+          ],
+          [
+            1020,
+            384
+          ],
+          [
+            1000,
+            359
+          ]
+        ]
+      ],
+      "lighting": "day",
+      "tone_curves": [],
+      "daylight_matte_and_focus": {
+        "blue_green_ratio_start": 0.6,
+        "ratio_width": 0.36,
+        "minimum_fringe_fraction": 0.08,
+        "material_blur_pixels": 0.65,
+        "opacity": 0.78
+      },
+      "light_envelope": {
+        "blur_sigma_pixels": 32,
+        "ratio_limits": [
+          0.65,
+          1.6
+        ],
+        "blend_power": 0.45
+      },
+      "projections": [
+        {
+          "plane": "central-fork-cluster",
+          "homography": [
+            [
+              1.0,
+              0.0,
+              16.4462455137201
+            ],
+            [
+              0.0,
+              1.0,
+              -52.03551428833714
+            ],
+            [
+              0.0,
+              0.0,
+              0.9138424414106046
+            ]
+          ]
+        },
+        {
+          "plane": "right-fork-cluster",
+          "homography": [
+            [
+              1.0,
+              0.0,
+              13.543966893651827
+            ],
+            [
+              0.0,
+              1.0,
+              -42.852776472748246
+            ],
+            [
+              0.0,
+              0.0,
+              0.929046716455792
+            ]
+          ]
+        }
+      ],
+      "overlay_file": "art/production/treehouse-friends-near-exterior.png",
+      "overlay_sha256": "d76bab79377f6014d1e17cecf563a5be670063bfb90adbafb25a113f7f72882c",
+      "candidate_sha256": "718248b88febdd95c237cc478e5386a749bd8bed6cde1ed6e72fb515e5ec520d",
+      "verification": {
+        "outside_window_mask_pixels_changed": 0,
+        "changed_pixels": 40529,
+        "foreground_pixel_protection": "Explicit conservative opening polygons; appearance review still required for hair and architecture edges."
+      }
+    },
+    "theme-treehouse-arrival": {
+      "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
+      "source_sha256": "7525e3f19fab329fb96b0ed6d1ac6c1aa06db608b8197ad8d7b83fbd3c5554a6",
+      "lighting_source": {
+        "file": "game/images/cg/book-one/theme-treehouse-arrival.png",
+        "git_blob": "da135e66da1ce588a1ca2ed93f9614dde54851a3",
+        "sha256": "7525e3f19fab329fb96b0ed6d1ac6c1aa06db608b8197ad8d7b83fbd3c5554a6"
+      },
+      "camera": {
+        "position": [
+          0.11311052538852173,
+          0.04214963014225322,
+          0.42430362207904226
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "focal_pixels": 1400.0,
+        "anchor_plane_depth": 3.2,
+        "assumption": "Explicit production camera for the accepted nearby fork layer. Guide reprojection is approximate; it does not establish the original room's geometry.",
+        "guide_reprojection_error_pixels": [
+          58.44,
+          110.85
+        ],
+        "scale_at_opening_plane": 1.152863845431413
+      },
+      "anchors": [
+        {
+          "name": "rear doorway crown (partly occluded)",
+          "master": [
+            602,
+            234
+          ],
+          "view": [
+            557,
+            143
+          ]
+        },
+        {
+          "name": "right post rail junction",
+          "master": [
+            1370,
+            392
+          ],
+          "view": [
+            1500,
+            393
+          ]
+        }
+      ],
+      "openings": [
+        [
+          [
+            900,
+            119
+          ],
+          [
+            970,
+            113
+          ],
+          [
+            980,
+            163
+          ],
+          [
+            1001,
+            226
+          ],
+          [
+            1026,
+            272
+          ],
+          [
+            1049,
+            294
+          ],
+          [
+            1046,
+            338
+          ],
+          [
+            951,
+            336
+          ],
+          [
+            932,
+            283
+          ],
+          [
+            925,
+            230
+          ],
+          [
+            908,
+            188
+          ]
+        ],
+        [
+          [
+            1356,
+            149
+          ],
+          [
+            1390,
+            119
+          ],
+          [
+            1480,
+            93
+          ],
+          [
+            1480,
+            387
+          ],
+          [
+            1395,
+            379
+          ],
+          [
+            1374,
+            329
+          ],
+          [
+            1346,
+            304
+          ],
+          [
+            1321,
+            280
+          ],
+          [
+            1311,
+            260
+          ],
+          [
+            1329,
+            213
+          ]
+        ],
+        [
+          [
+            1605,
+            98
+          ],
+          [
+            1671,
+            95
+          ],
+          [
+            1671,
+            428
+          ],
+          [
+            1607,
+            409
+          ]
+        ],
+        [
+          [
+            1620,
+            447
+          ],
+          [
+            1671,
+            460
+          ],
+          [
+            1671,
+            589
+          ],
+          [
+            1620,
+            579
+          ]
+        ],
+        [
+          [
+            1432,
+            414
+          ],
+          [
+            1475,
+            417
+          ],
+          [
+            1475,
+            508
+          ],
+          [
+            1461,
+            505
+          ],
+          [
+            1446,
+            471
+          ]
+        ],
+        [
+          [
+            983,
+            365
+          ],
+          [
+            1020,
+            366
+          ],
+          [
+            1018,
+            456
+          ],
+          [
+            983,
+            450
+          ]
+        ],
+        [
+          [
+            548,
+            187
+          ],
+          [
+            568,
+            178
+          ],
+          [
+            587,
+            221
+          ],
+          [
+            590,
+            310
+          ],
+          [
+            558,
+            338
+          ],
+          [
+            548,
+            293
+          ]
+        ]
+      ],
+      "lighting": "day",
+      "tone_curves": [],
+      "daylight_matte_and_focus": {
+        "blue_green_ratio_start": 0.6,
+        "ratio_width": 0.36,
+        "minimum_fringe_fraction": 0.08,
+        "material_blur_pixels": 0.65,
+        "opacity": 0.78
+      },
+      "light_envelope": {
+        "blur_sigma_pixels": 32,
+        "ratio_limits": [
+          0.65,
+          1.6
+        ],
+        "blend_power": 0.45
+      },
+      "projections": [
+        {
+          "plane": "central-fork-cluster",
+          "homography": [
+            [
+              1.0,
+              0.0,
+              -73.29608051457296
+            ],
+            [
+              0.0,
+              1.0,
+              -36.94919091247772
+            ],
+            [
+              0.0,
+              0.0,
+              0.9393851968458511
+            ]
+          ]
+        },
+        {
+          "plane": "right-fork-cluster",
+          "homography": [
+            [
+              1.0,
+              0.0,
+              -60.361478070824774
+            ],
+            [
+              0.0,
+              1.0,
+              -30.42874545733457
+            ],
+            [
+              0.0,
+              0.0,
+              0.9500819268142303
+            ]
+          ]
+        }
+      ],
+      "overlay_file": "art/production/theme-treehouse-arrival-near-exterior.png",
+      "overlay_sha256": "6b07d3ccc7150f8e097a8c3e624465fbdce4ed057b7ab12f6fa2f467c6dec649",
+      "candidate_sha256": "03c8ca774e85f84e8c2419b876849c06e312e480fa19d5e8791e612947942fce",
+      "verification": {
+        "outside_window_mask_pixels_changed": 0,
+        "changed_pixels": 38117,
+        "foreground_pixel_protection": "Explicit conservative opening polygons; appearance review still required for hair and architecture edges."
+      }
+    },
+    "cassia-comfort": {
+      "file": "game/images/cg/book-one/cassia-comfort.png",
+      "source_sha256": "0083b1675573b96c77f905f3daea75e48f8a02d151715ef02418ef080122acd0",
+      "lighting_source": {
+        "file": "game/images/cg/book-one/cassia-comfort.png",
+        "git_blob": "a159574b0f1082369a9a447ef2dbd7b8db0c1349",
+        "sha256": "0083b1675573b96c77f905f3daea75e48f8a02d151715ef02418ef080122acd0"
+      },
+      "camera": {
+        "position": [
+          -0.780953050133706,
+          0.1916158690077558,
+          0.09432947247076875
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "focal_pixels": 1400.0,
+        "anchor_plane_depth": 3.2,
+        "assumption": "Explicit production camera for the accepted nearby fork layer. Guide reprojection is approximate; it does not establish the original room's geometry.",
+        "guide_reprojection_error_pixels": [
+          56.74,
+          34.05,
+          32.47
+        ],
+        "scale_at_opening_plane": 1.0303733031674207
+      },
+      "anchors": [
+        {
+          "name": "main-bay inner upper edge",
+          "master": [
+            935,
+            215
+          ],
+          "view": [
+            1300,
+            65
+          ]
+        },
+        {
+          "name": "main-bay rail start",
+          "master": [
+            935,
+            355
+          ],
+          "view": [
+            1302,
+            297
+          ]
+        },
+        {
+          "name": "main-bay rail far end (crop)",
+          "master": [
+            1325,
+            385
+          ],
+          "view": [
+            1670,
+            320
+          ]
+        }
+      ],
+      "openings": [
+        [
+          [
+            1012,
+            143
+          ],
+          [
+            1067,
+            131
+          ],
+          [
+            1083,
+            178
+          ],
+          [
+            1104,
+            218
+          ],
+          [
+            1141,
+            249
+          ],
+          [
+            1140,
+            275
+          ],
+          [
+            988,
+            273
+          ],
+          [
+            999,
+            199
+          ]
+        ],
+        [
+          [
+            1307,
+            56
+          ],
+          [
+            1358,
+            22
+          ],
+          [
+            1404,
+            3
+          ],
+          [
+            1671,
+            3
+          ],
+          [
+            1671,
+            304
+          ],
+          [
+            1303,
+            286
+          ]
+        ],
+        [
+          [
+            999,
+            301
+          ],
+          [
+            1026,
+            302
+          ],
+          [
+            1025,
+            398
+          ],
+          [
+            1000,
+            396
+          ]
+        ],
+        [
+          [
+            1044,
+            303
+          ],
+          [
+            1076,
+            304
+          ],
+          [
+            1077,
+            405
+          ],
+          [
+            1048,
+            402
+          ]
+        ],
+        [
+          [
+            1100,
+            305
+          ],
+          [
+            1132,
+            306
+          ],
+          [
+            1143,
+            413
+          ],
+          [
+            1120,
+            413
+          ]
+        ],
+        [
+          [
+            1319,
+            318
+          ],
+          [
+            1365,
+            320
+          ],
+          [
+            1362,
+            437
+          ],
+          [
+            1320,
+            429
+          ]
+        ],
+        [
+          [
+            1410,
+            323
+          ],
+          [
+            1451,
+            325
+          ],
+          [
+            1474,
+            458
+          ],
+          [
+            1406,
+            449
+          ]
+        ],
+        [
+          [
+            1475,
+            327
+          ],
+          [
+            1497,
+            328
+          ],
+          [
+            1493,
+            441
+          ]
+        ],
+        [
+          [
+            1540,
+            330
+          ],
+          [
+            1601,
+            334
+          ],
+          [
+            1621,
+            479
+          ],
+          [
+            1531,
+            468
+          ]
+        ],
+        [
+          [
+            1628,
+            337
+          ],
+          [
+            1671,
+            340
+          ],
+          [
+            1671,
+            484
+          ],
+          [
+            1650,
+            481
+          ]
+        ]
+      ],
+      "lighting": "shade",
+      "tone_curves": [
+        {
+          "input": [
+            0.0,
+            6.0,
+            13.0,
+            25.0,
+            255.0
+          ],
+          "output": [
+            0.0,
+            0.0,
+            3.0,
+            12.0,
+            255.0
+          ]
+        },
+        {
+          "input": [
+            0.0,
+            18.0,
+            33.0,
+            54.0,
+            255.0
+          ],
+          "output": [
+            0.0,
+            15.0,
+            27.0,
+            51.0,
+            255.0
+          ]
+        },
+        {
+          "input": [
+            0.0,
+            19.0,
+            35.0,
+            59.0,
+            255.0
+          ],
+          "output": [
+            0.0,
+            15.0,
+            30.0,
+            64.0,
+            255.0
+          ]
+        }
+      ],
+      "daylight_matte_and_focus": null,
+      "light_envelope": {
+        "blur_sigma_pixels": 32,
+        "ratio_limits": [
+          0.65,
+          1.6
+        ],
+        "blend_power": 0.45
+      },
+      "projections": [
+        {
+          "plane": "central-fork-cluster",
+          "homography": [
+            [
+              1.0,
+              0.0,
+              144.92497588594642
+            ],
+            [
+              0.0,
+              1.0,
+              -44.663461915479274
+            ],
+            [
+              0.0,
+              0.0,
+              0.9865243610756045
+            ]
+          ]
+        },
+        {
+          "plane": "right-fork-cluster",
+          "homography": [
+            [
+              1.0,
+              0.0,
+              119.34998014136761
+            ],
+            [
+              0.0,
+              1.0,
+              -36.781674518629984
+            ],
+            [
+              0.0,
+              0.0,
+              0.988902415003439
+            ]
+          ]
+        }
+      ],
+      "overlay_file": "art/production/cassia-comfort-near-exterior.png",
+      "overlay_sha256": "bce4385cbcfb39846f8fcdf37fb6fac84a90bbb0f421264926426472c0ed8bce",
+      "candidate_sha256": "4148066089369387844affb7be75c8e9c2a05d5d434af8a070a668419ff8d08e",
+      "verification": {
+        "outside_window_mask_pixels_changed": 0,
+        "changed_pixels": 57019,
+        "foreground_pixel_protection": "Explicit conservative opening polygons; appearance review still required for hair and architecture edges."
+      }
+    }
+  },
+  "script_file": "scripts/project_treehouse_exterior.py",
+  "script_sha256": "2f654639ea0d70762e5aadafe59eaa58c8cd3e0b4dd5967cc89b30774b8622b2",
+  "dependencies": [
+    {
+      "file": "scripts/repair_treehouse_environments.py",
+      "sha256": "64c8cb0c9311b5ef28fe21d443d2a5dc5e158f7d97bfb3c75cd43a1023c4523d"
+    }
+  ]
+}

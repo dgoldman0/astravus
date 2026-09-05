@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "purpose": "Restore the small permanent notch visible in the canonical Shadow familiar sprite; adjacent background sampling removes only the small ear silhouette triangle.",
+  "reference_file": "game/images/familiars/shadow.png",
+  "reference_sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59",
+  "assets": [
+    {
+      "id": "pond-rescue-shadow-ear-notch",
+      "file": "game/images/cg/book-one/pond-rescue.png",
+      "source_sha256": "0de515348590fbc8aff39736ad072e1c1c07d7ccb967fdd847dd5e4a75f009fb",
+      "anatomical_side": "Shadow left ear, viewer-right in frontal reference and these two three-quarter views",
+      "polygon": [
+        [
+          320,
+          603
+        ],
+        [
+          313.5,
+          607
+        ],
+        [
+          317.5,
+          610
+        ],
+        [
+          321.5,
+          607
+        ]
+      ],
+      "donor_offset": [
+        9,
+        0
+      ],
+      "supersample": 8,
+      "feather_pixels": 0.2,
+      "source_git_blob": "2a0fd84ddf57990e45da4136941f3b475a613a23"
+    },
+    {
+      "id": "pond-comfort-shadow-ear-notch",
+      "file": "game/images/cg/book-one/pond-comfort.png",
+      "source_sha256": "56074675442f5eee3db5506e1a0816d2fc52e385bdbc175518612d9a34fc6f43",
+      "anatomical_side": "Shadow left ear, viewer-right in frontal reference and these two three-quarter views",
+      "polygon": [
+        [
+          1437,
+          499.5
+        ],
+        [
+          1431.5,
+          502.5
+        ],
+        [
+          1435.5,
+          505.5
+        ],
+        [
+          1438,
+          503
+        ]
+      ],
+      "donor_offset": [
+        8,
+        0
+      ],
+      "supersample": 8,
+      "feather_pixels": 0.2,
+      "source_git_blob": "55786245c98655eece2b18ddc56a1e6d9eac7cf4"
+    }
+  ]
+}
