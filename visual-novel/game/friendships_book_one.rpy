@@ -9,7 +9,7 @@ label cassia_family_visit:
     $ enter_scene("cassia_home")
     scene bg cassia_home
     with mood_transition()
-    play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/friendship_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/room_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "Cassia's home had paper in places I hadn't thought of keeping paper. Between books. Under cups. Drying from a line above the table."
     show calista home at at_left
@@ -37,6 +37,7 @@ label cassia_family_visit:
     a "There's room on this side. If you want it."
     scene bg cassia_home
     with time_transition()
+    play music "audio/garden_growth.ogg" fadeout 2.0 fadein 2.0 if_changed
     n "On another evening, her father showed us how the gardens shared water. Lyron managed agricultural systems; a question about a plant could lead him all through Lumen."
     show calista home at at_left
     show cassia young at at_right
@@ -60,7 +61,7 @@ label joren_family_visit:
     $ enter_scene("joren_home")
     scene bg soren_workshop
     with mood_transition()
-    play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/workshop_play.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/workshop_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "Joren's mother, Soren, had a workshop full of unfinished inventions. He could tell me what nearly all of them were meant to do."
     show joren young at at_right
@@ -87,6 +88,7 @@ label chapter_kaleb_walk:
     $ enter_scene("kaleb_walk")
     scene bg construction_path
     with mood_transition()
+    play music "audio/outward_paths.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "Joren's father, Kaleb, sometimes took us down passages we hadn't followed before. He brought stories back from expeditions; we wanted every walk with him to become one."
     show calista home at at_left
@@ -110,7 +112,7 @@ label book_one_later:
     $ childhood_stage = "later"
     scene bg workshop_waterwheel
     with mood_transition()
-    play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/workshop_play.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/workshop_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "As we grew, our plans spread beyond paper. In Arin's workshop, we began making things we'd only imagined before."
     show calista older at at_left
@@ -139,6 +141,7 @@ label book_one_later:
     with mood_transition()
     play ambience "audio/garden_air.ogg" fadeout 1.5 fadein 1.5 if_changed
     n "When we carried it to the pond, Lyra was waiting. Arin helped us settle the supports; water pressed against the little wooden paddles."
+    play music "audio/workshop_success.ogg" fadeout 1.5 fadein 2.0 if_changed
     lyra "Look at it go!"
     j "It's working. Cali, look."
     c "We did it!"
@@ -154,6 +157,7 @@ label chapter_outer_exploration:
     $ enter_scene("outer_exploration")
     scene bg construction_path
     with mood_transition()
+    play music "audio/outward_paths.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/workshop_air.ogg" fadeout 1.5 fadein 1.5 if_changed
     n "Between projects, we explored farther into Lumen's outer construction areas. For one trip, we packed a small bag, Arin's multi-tool, and a portable scanner."
     show joren older at at_right
@@ -176,6 +180,7 @@ label chapter_outer_exploration:
     show nibble at nibble_path
     with mood_transition()
     n "In a room of tools and machines, Cassia found a small device. A touch brought a blueprint into the air. We gathered around its pale lines."
+    play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
     a "That's the passage we came through."
     c "And that bend. So where does this go?"
     j "We could build a hideout here. If we knew how these worked."
@@ -190,7 +195,7 @@ label chapter_lyra_included:
     $ enter_scene("lyra_included")
     scene bg garden
     with mood_transition()
-    play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/home_tender.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "Lyra came with us sometimes. To me, that seemed like often. To her, it wasn't nearly enough."
     show calista older at at_left
@@ -206,6 +211,7 @@ label chapter_lyra_included:
     hide calista
     hide lyra
     with mood_transition()
+    play music "audio/friendship_warm.ogg" fadeout 2.0 fadein 2.0 if_changed
     n "Cassia made room for her in the plan. Joren waited at the turnings. When we forgot and got ahead, I went back."
     n "Shadow rubbed against Lyra's cheek; Nibble climbed onto her shoulder. Her questions followed us down every path."
     n "The next time we planned a hunt, we asked her first."
@@ -214,7 +220,7 @@ label chapter_dome_ascent:
     $ enter_scene("dome_ascent")
     scene bg construction_path
     with mood_transition()
-    play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/discovery_careful.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/workshop_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "One day we found the unfinished dome. No one was working on it just then. Its scaffolding rose above us, full of places to put a hand or a foot."
     show joren older at at_right
@@ -244,7 +250,7 @@ label chapter_treehouse_dispute:
     $ enter_scene("treehouse_dispute")
     scene bg treehouse_later
     with mood_transition()
-    play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/friendship_play.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "We did not always agree. One afternoon, an argument over the next stage of an artifact hunt filled the treehouse."
     show calista frustrated at at_left
@@ -255,11 +261,11 @@ label chapter_treehouse_dispute:
     j "I have. It takes us back round the same place."
     c "Because we haven't finished looking there."
     j "We've been there twice."
+    stop music fadeout 1.0
     c "You always want to be in charge."
     n "His face reddened. He paced beside the table, making the loose boards answer every turn."
     j "And you always think your idea's better."
     n "I opened my mouth before I knew what I would say."
-    stop music fadeout 1.5
     a "Hey, hey. Let's take a breath."
     a "We're a team, remember? Even the heroes in stories disagree sometimes—but they find a way."
     n "Even Shadow, who usually stayed out of our arguments, jumped onto the table between us, meowing loudly as if to say, 'Listen to Cassia!'"
@@ -277,7 +283,8 @@ label chapter_treehouse_dispute:
     hide calista
     hide joren
     with mood_transition()
-    play music "audio/rain_refuge.ogg" fadein 2.0 if_changed
+    # Their days are still happy here. The loss begins only in the next chapter.
+    play music "audio/friendship_warm.ogg" fadein 2.0 if_changed
     n "Through our projects and adventures, we bonded and grew, learning from each experience."
     n "The lessons from our parents, each other, and our insightful pets shaped us, making us more resilient, creative, and empathetic."
     n "Our days were filled with discovery and the warmth of friendship, building a foundation for the challenges ahead."
@@ -290,6 +297,10 @@ label chapter_loss:
     stop ambience fadeout 2.0
     n "However, life has a way of introducing unforeseen tragedies."
     n "One fateful day, Joren and his family embarked on a routine research expedition to a nearby moon."
+    # Even skipping through the setup cannot carry the previous warm cue over
+    # the news itself. This whole chapter remains unscored.
+    stop music
+    stop ambience
     n "An unexpected malfunction caused a catastrophic accident, and despite the rescue teams' best efforts, Joren did not survive."
     $ joren_lost = True
     pause 1.0
@@ -305,7 +316,7 @@ label chapter_loss:
 label chapter_family_grief:
     $ enter_scene("family_grief")
     scene bg home_dusk
-    play music "audio/grief_theme.ogg" fadein 4.0 if_changed
+    play music "audio/grief_theme.ogg" fadeout 3.0 fadein 4.0 if_changed
     play ambience "audio/room_air.ogg" fadein 3.0 if_changed
     show calista mourning at at_left
     show maia home at at_right
@@ -329,6 +340,8 @@ label chapter_painting_grief:
     $ enter_scene("painting_grief")
     scene bg family_home_painting
     with mood_transition()
+    play music "audio/painting_theme.ogg" fadeout 3.0 fadein 3.0 if_changed
+    play ambience "audio/room_air.ogg" fadeout 2.0 fadein 2.0 if_changed
     show calista painting at at_left
     with mood_transition()
     n "Eventually, I began painting. Some days I could do that when I couldn't talk."
@@ -350,6 +363,7 @@ label chapter_cassia_grief:
     $ enter_scene("cassia_grief")
     scene bg treehouse_later
     with mood_transition()
+    play music "audio/shared_grief.ogg" fadeout 3.0 fadein 3.0 if_changed
     play ambience "audio/garden_air.ogg" fadeout 2.0 fadein 2.0 if_changed
     show calista mourning at at_left
     show cassia mourning at at_right
@@ -388,6 +402,7 @@ label chapter_community_memorial:
     show calista mourning at at_left
     show kaleb everyday at at_right
     with mood_transition()
+    stop music
     kaleb "Joren was a light in our lives. He had a boundless spirit and an insatiable curiosity."
     n "His voice was steady, but I could hear the effort it took. Around us, people listened with tears on their faces."
     kaleb "He taught us all the value of adventure and the importance of living each day to the fullest."
@@ -400,6 +415,7 @@ label chapter_mural_remembrance:
     $ enter_scene("mural_remembrance")
     scene bg memory_mural
     with mood_transition()
+    play music "audio/painting_theme.ogg" fadeout 3.0 fadein 3.0 if_changed
     play ambience "audio/garden_air.ogg" fadeout 2.0 fadein 2.0 if_changed
     show calista painting at at_left
     with mood_transition()
@@ -416,6 +432,7 @@ label chapter_treehouse_remembrance:
     $ enter_scene("treehouse_remembrance")
     scene bg treehouse_memory
     with mood_transition()
+    play music "audio/remembrance_rain.ogg" fadeout 3.0 fadein 3.0 if_changed
     play ambience "audio/rain.ogg" fadeout 2.0 fadein 3.0 if_changed
     n "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both."
     a "He would have liked this one."
@@ -432,6 +449,7 @@ label chapter_annual_remembrance:
     $ enter_scene("annual_remembrance")
     scene bg remembrance_plaza
     with mood_transition()
+    play music "audio/remembrance_theme.ogg" fadeout 3.0 fadein 3.0 if_changed
     play ambience "audio/plaza_air.ogg" fadeout 2.0 fadein 2.0 if_changed
     r "Each year, the community gathered to remember him. We told stories, shared our grief, and celebrated the life he had lived."
     r "There were days when remembering brought warmth before it brought pain. There were others when I was back at the beginning."

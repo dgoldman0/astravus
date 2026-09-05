@@ -13,7 +13,7 @@ PROJECT = Path(__file__).resolve().parents[1]
 EXCLUDED = ("scripts/", "tests/", "docs/", "art/", "web/", "build/", "dist/", "test-results/",
             "marketing/", ".cache/", ".git/", "game/cache/", "game/saves/",
             "game/testcases.rpy", "game/glossary_testcases.rpy",
-            "game/environment_state_testcases.rpy")
+            "game/environment_state_testcases.rpy", "game/score_testcases.rpy")
 EXTENSIONS = {".rpy", ".py", ".json", ".png", ".jpg", ".svg", ".ttf", ".otf",
               ".ogg", ".wav", ".mp3", ".md", ".txt"}
 # Ren'Py 8.5.3 explicitly includes its Python 3.12 bytecode in 00build.rpy

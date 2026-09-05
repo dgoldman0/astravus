@@ -76,6 +76,7 @@ init python:
     build.classify("game/testcases.rpy*", None)
     build.classify("game/glossary_testcases.rpy*", None)
     build.classify("game/environment_state_testcases.rpy*", None)
+    build.classify("game/score_testcases.rpy*", None)
     build.classify("test-results/**", None)
     build.classify("tests/**", None)
     build.classify("scripts/**", None)

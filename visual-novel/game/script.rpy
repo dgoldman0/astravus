@@ -1,6 +1,7 @@
 # Adapted from revision/latest.md, Book I. See docs/ADAPTATION.md.
 # Say IDs are retained where possible; start fresh to review revised scene pacing.
-# Keep a cue running across adjacent scenes that share it; new cues still fade.
+# Reader-reached scene beats select the score; each chapter also initializes it
+# for direct chapter entry. See docs/score-cue-sheet.md for musical intent.
 label start:
     stop music fadeout 1.0
     $ met_cassia = False
@@ -17,7 +18,7 @@ label chapter_one:
     $ enter_scene("first_memory")
     scene cg first_memory
     with mood_transition()
-    play music "audio/first_light.ogg" fadein 2.0 if_changed
+    play music "audio/first_light.ogg" fadeout 2.0 fadein 2.0 if_changed
     call screen chapter_card("BOOK I", "Seeds of Youth", "Calista's childhood · A life remembered")
     $ remember_scene("first_memory")
 
@@ -32,6 +33,7 @@ label chapter_one:
     $ scene_title = "The shape of home"
     scene bg family_home
     with mood_transition()
+    play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
     n "The home I grew to know gathered around a round wooden table. There were books on the seats, drawings on the walls, and always something left unfinished." id opening_home_001
     show shadow at shadow_home
     show barkley at barkley_home
@@ -54,7 +56,7 @@ label chapter_one:
 label garden_lesson:
     $ enter_scene("garden")
     scene bg garden_close
-    play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/garden_growth.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     show maia at at_right
     show calista young at at_left
@@ -98,7 +100,7 @@ label meeting_cassia:
     $ enter_scene("meeting_cassia")
     scene bg community_courtyard
     with mood_transition()
-    play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/friendship_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/plaza_air.ogg" fadeout 1.5 fadein 1.5 if_changed
     n "As I grew, I went farther from the garden. At one community gathering, I stopped to listen to a girl telling a story." id cassia_001
     n "A few children sat around her. I stayed at the edge, with my sketchbook held against my chest." id cassia_003
@@ -160,6 +162,7 @@ label meeting_joren:
     call joren_family_visit
 
 label after_joren_family:
+    play music "audio/friendship_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
     n "When I introduced Joren to Cassia, he wanted to know where the creature in my sketchbook lived. Cassia said she could show him." id joren_018
     scene bg family_home
     with mood_transition()
@@ -172,7 +175,7 @@ label the_treehouse:
     $ enter_scene("treehouse")
     scene bg garden
     with mood_transition()
-    play music "audio/discovery_theme.ogg" fadeout 1.5 fadein 1.5 if_changed
+    play music "audio/friendship_theme.ogg" fadeout 1.5 fadein 1.5 if_changed
     play ambience "audio/garden_air.ogg" fadein 2.0 if_changed
     play sound "audio/wood.wav"
     n "One afternoon I climbed up ahead of the others. Joren stopped on the landing to help Cassia with the last rung." id tree_001
@@ -194,6 +197,7 @@ label the_treehouse:
     j "I will. We'll always meet here, no matter how old we get." id tree_promise
     a "Promise?" id tree_promise_question
     c "I'll come too." id tree_009
+    play music "audio/friendship_play.ogg" fadeout 2.0 fadein 2.0 if_changed
     n "Joren had unrolled the map on the little table. One end curled back up as soon as he let go." id tree_013
     j "Can someone hold this?" id tree_015
     n "Cassia put her book on one corner. I found a smooth stone for the other." id tree_014

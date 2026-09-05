@@ -1,23 +1,43 @@
 # Book I audio direction
 
-Version 0.1-alpha keeps the original instrumental compositions and renders them with CC0 recorded instruments. Rain, water, and wood use selected CC0 recordings; soft room air and the quiet festival pulse remain original synthesis. The flute lesson begins with one broken breath, then uses the original hesitant phrase when the narration reaches several notes. The optional vocal closing theme is the author's **Curiosity and Discovery**, created by Daniel Goldman with assistance from ChatGPT and SUNO. Story dialogue is not voiced. NumPy, SciPy, and SoundFile are build dependencies, not runtime dependencies. Music and ambience ship as Ogg Vorbis; six short effects remain PCM WAV. Ren'Py plays these files directly.
+Version **0.1-alpha** expands the instrumental score to **15 core compositions and nine variations**: 24 cues with approximately 38 minutes of musical material. The scope covers all 32 chapters and their documented subscenes. Established themes receive longer forms, contrasting passages, and new arrangements; additional themes distinguish observing, making, storytelling, friendship, exploration, painting, and shared grief. The music is rendered with CC0 recorded instruments.
+
+Rain, water, and wood use selected CC0 recordings; soft room air and the quiet festival pulse remain original synthesis. The flute lesson begins with one broken breath, then uses the original hesitant phrase when the narration reaches several notes. The optional vocal closing theme is the author's **Curiosity and Discovery**, created by Daniel Goldman with assistance from ChatGPT and SUNO. Story dialogue is not voiced. NumPy, SciPy, SoundFile, and FFmpeg are build/checking dependencies. Music and ambience ship as Ogg Vorbis; six short effects remain PCM WAV. Ren'Py plays these files directly.
 
 The original **First Light** motif remains recognizable: C–D–E–G–C–A–G–C. Its arrangement uses answering phrases, overlapping harmony, a low register, and a small stereo room. The score shares this musical vocabulary across the book, but each cue changes its density, register, rhythm, and harmonic emphasis. This is intended to give scenes continuity without putting the same unchanging loop underneath every emotion.
 
-## Cue sheet
+## Score structure and cue sheet
 
-| File in `game/audio/` | Length | Dramatic use and arrangement |
-| --- | ---: | --- |
-| `first_light.ogg` | 64 s | Welcome, First Breath, and the opening act of remembering. Gentle plucked motif, slowly changing bowed harmonies, and room for the prose. |
-| `home_theme.ogg` | 66 s | The family home, meals, and ordinary affection. Soft upright-piano melody, soft broken chords, and modest answering variations. |
-| `discovery_theme.ogg` | 49 s | Workshop discoveries, friends' projects, and collaborative play. More movement in the plucked figures, with a lighter sustained layer. |
-| `wonder_theme.ogg` | 77 s | Sage's story and the Tree of Echoes. Spacious suspended harmony and occasional quiet flute answers; no sudden orchestral reveal. |
-| `festival_theme.ogg` | 46 s | Festival of Lights. A livelier plucked arrangement, answering flute, and restrained wooden pulse. The pulse supplies movement without turning the gathering into a march. |
-| `rain_refuge.ogg` | 70 s | The shelter of the treehouse and quieter conversations. Sparse upright-piano phrases with soft minor-coloured harmonies; rain remains a separate environmental layer. |
-| `grief_theme.ogg` | 80 s | The aftermath of Joren's death. Long gaps in the melody, low soft support, and no swell or emphatic cadence. Let the news arrive in silence before using it. |
-| `remembrance_theme.ogg` | 71 s | Shared remembering and the closing movement of Book I. Returns to First Light's contour with changed harmony and a quieter register. Affection and loss coexist; the arrangement avoids a victory finish. |
+[score-cue-sheet.md](score-cue-sheet.md) records every cue's musical purpose and
+the exact entrances, changes, and exits across all 32 chapters.
+[score-catalog.json](score-catalog.json) records titles, duration, tempo, meter,
+sections, instrumentation, variation relationships, and loudness targets. Those
+values come from the editable notation in `scripts/score_material.py`,
+`scripts/score_new_material.py`, and `scripts/score_catalog.py`.
 
-All music cues loop. The lengths above are rounded; the renderer places eight two-bar phrases on each cue's tempo grid. Phrases change across the loop rather than repeating one bar for a minute. Notes and reverb tails wrap into the start of the file. The loop therefore has no baked-in fade to silence; Ren'Py should fade music at entrances, exits, and scene changes.
+Most core compositions have 32 bars: an eight-bar statement, an instrumental
+answer, a contrasting middle, and a varied return. The festival has a 48-bar
+dance form with an interlude. Variations have three eight-bar sections and change
+the lead, texture, tempo, articulation, or ordering of melodic material. The
+palette includes 3/4, 4/4, and 6/8, notated rests, offbeat phrases, harmonic
+inversions, and answering instrumental lines. Different scenes therefore have
+different kinds of musical motion, not only different levels of sustained sound.
+
+| Musical role | Core compositions | Related variations |
+| --- | --- | --- |
+| Beginning and curiosity | `first_light`, `discovery_theme`, `wonder_theme` | `discovery_careful` |
+| Home and shelter | `home_theme`, `rain_refuge` | `home_tender`, `home_evening` |
+| Observing, making, and exploring | `garden_growth`, `workshop_play`, `outward_paths` | `workshop_success` |
+| Stories and friendship | `storytelling`, `friendship_theme` | `storytelling_lullaby`, `friendship_play`, `friendship_warm` |
+| Festival | `festival_theme` | `festival_lanterns` |
+| Grief, activity, and remembrance | `grief_theme`, `painting_theme`, `shared_grief`, `remembrance_theme` | `remembrance_rain` |
+
+All instrumental cues loop. Notes and reverb tails wrap into the start of the
+file; there is no baked-in fade to silence. The script changes music at
+reader-reached beats and uses sequential fade-outs and fade-ins on the music
+channel. It does not guess reading speed or promise simultaneous crossfades.
+A loop's entire form must remain emotionally appropriate to its current
+subscene. Musical development does not authorize announcing the next story beat.
 
 ## Sound and scene consistency
 
@@ -35,13 +55,32 @@ All music cues loop. The lengths above are rounded; the renderer places eight tw
 | `flute_first.wav` | 8 s | The original hesitant C–D–E and returning C, unchanged. Plays later in the first lesson at “We went a few notes at a time.” |
 | `flute_practice.wav` | 12 s | A connected C–D–E–G–C–A–G–C phrase, showing musical progress through audible phrasing rather than narration alone. |
 
-The flute sounds are story events. Fade out the background music before them; let each phrase continue across text where possible, then return to the score. Avoid a mandatory long wait that punishes a quick reader. Sound settings still govern these cues.
+The flute sounds are story events. The background score fades out before them;
+an immediate stop before each actual performance finishes any pending fade if
+the reader advances rapidly. The existing effect stops follow Calista lowering
+the flute or ending the phrase. There is no mandatory full-performance wait.
+Sound settings still govern these cues. The Tree of Echoes and pond splash have
+the same protection from a remaining score fade.
 
 Music, ambience, and effects stay on their existing Ren'Py channels so the reader can adjust them. At the current default music volume of 0.32 and sound volume of 0.4, the environmental layers are deliberately quiet, with rain more present than room tone. Keep silence available, especially at the death notification and the first stunned responses. Narrative cue starts use `if_changed`: adjacent scenes sharing a cue continue it without a restart or fade dip. A new cue still uses its stated fade.
 
-The final level check measures all twenty files with FFmpeg's EBU R128 meter and applies the gains actually specified by the game. The ordinary score spans −22.8 to −20.4 LUFS; grief (−25.2) and rain refuge (−23.7) remain intentionally quieter. These cues are not normalized to one loudness. The original hesitant flute phrase plays at `volume 0.75` (−2.5 dB), putting it at −19.3 LUFS before the reader's sound setting, close to the later practice phrase at −19.0. The short broken first breath remains quieter at −21.5 LUFS. Their notes, timing, timbre, and WAV files are unchanged.
+The delivery inventory is 36 audio files: 24 instrumental cues, five ambience
+loops, six effects, and the supplied closing song. FFmpeg's EBU R128 meter
+measures actual program loudness, and the audit applies the gains specified by
+the game. Ordinary score targets range from −22.5 to −21.5 LUFS; reflective cues
+target −24 LUFS, and the two grief cues target −26 LUFS. The renderer meters each
+cue, applies its declared target, controls peaks with linked stereo gain, and
+meters the encoded result. These are composition-specific dynamic groups, not a
+single normalization target. Actual delivered measurements belong in
+`test-results/audio-report.json`.
 
-The closing song is mastered at −14.7 LUFS. Its dedicated music channel applies a −6 dB track gain from `closing_theme.json`, placing it at −20.7 LUFS, close to the preceding home theme at −21.1. The source WAV, runtime Ogg, and standalone MP4 retain the supplied mastering; the gain is specific to playback within the game's quieter mix. Music settings still apply. [Listen on SUNO](https://suno.com/s/IoZ3kzpqJBFXAgJJ).
+The original hesitant flute phrase plays at `volume 0.75` (−2.5 dB). Its unchanged
+file measures approximately −19.3 LUFS at that gain before the reader's sound
+setting, close to the later practice phrase at −19.0. The short broken first
+breath remains quieter at −21.5 LUFS. Their notes, timing, timbre, and WAV files
+are unchanged by the score expansion.
+
+The closing song is mastered at −14.7 LUFS. Its dedicated music channel applies a −6 dB track gain from `closing_theme.json`, placing it at −20.7 LUFS, close to the preceding home theme's −21.5 LUFS target. The source WAV, runtime Ogg, and standalone MP4 retain the supplied mastering; the gain is specific to playback within the game's quieter mix. Music settings still apply. [Listen on SUNO](https://suno.com/s/IoZ3kzpqJBFXAgJJ).
 
 ## Sources and rendering
 
@@ -54,16 +93,17 @@ The instrument set uses 73 source samples from [VSCO 2 Community Edition](https:
 harp, the soft layer of Upright Nr1, sustained cello/viola ensembles, and flute.
 The local sampler selects a nearby recorded note, resamples with an antialiasing
 filter, preserves stereo information, shapes releases, and crossfades sustained
-bowing. The existing compositions, phrase lengths, harmony, and scene assignments
-are retained. VSCO uses different octave naming conventions for harp/piano and
+bowing. Short bowed gestures preserve the recorded attack and release within
+their notated length; longer notes use the sampler's sustained bowing. VSCO uses different octave naming conventions for harp/piano and
 strings/woodwinds; the mapping is explicit in the sampler and was checked against
 recorded pitches.
 
-The final mixes use 48 kHz processing and 24-bit WAV masters. Brief, linked stereo
-gain reduction controls recorded attacks, capped at 6 dB before the final peak
-ceiling, to preserve dynamics without making an entire cue too quiet. A dense, damped
-stereo room response replaces the sparse reflection taps in the music. Its
-impulse is synthesized locally; no external reverb recording is required.
+The final mixes use 48 kHz processing and 24-bit WAV masters. Instrument positions
+remain fixed. Small deterministic timing and velocity differences phrase the
+notated parts while bass downbeats stay anchored. Brief, linked stereo gain
+reduction controls recorded attacks; the per-cue render record reports the
+maximum reduction. A dense, damped stereo room response adds depth. Its impulse
+is synthesized locally; no external reverb recording is required.
 The old blanket 6.5 kHz rolloff is removed from the upgraded assets. These
 changes preserve the recordings' detail; resampling does not create detail that
 was absent from a source. Rain's original published source is already Vorbis.
@@ -89,19 +129,31 @@ locally; `7z` or `7zz` is needed once to unpack the water-splash source archive:
 ```sh
 python3 -m pip install --target .cache/audio-tools soundfile==0.13.1
 python3 scripts/make_audio.py --fetch-sources
-python3 scripts/make_audio.py
+python3 scripts/compose_score.py
 python3 scripts/audio_check.py
 ```
 
 The fetch step downloads only the manifest's pinned CC0 files, checks their
 SHA-256 hashes, and extracts known audio members. Originals live in
 `.cache/audio-sources/`; masters live in `.cache/audio-masters/`. Neither goes
-into the game package. To render selected assets:
+into the game package. The score renderer uses cached, verified samples offline;
+it does not write environmental effects, the flute lesson, or the closing song.
+It uses the cached FFmpeg from the theme-video tools by default; supply
+`--ffmpeg /path/to/ffmpeg` to select another binary. To render selected cues or
+refresh the notation catalog without audio rendering:
 
 ```sh
-python3 scripts/make_audio.py first_light rain
+python3 scripts/compose_score.py garden_growth friendship_warm
+python3 scripts/compose_score.py --catalog-only
 python3 scripts/make_audio.py --encode-existing first_light
 ```
+
+`make_audio.py` delegates score rendering to `compose_score.py` and retains the
+existing ambience/effect renderer. For example, `python3 scripts/make_audio.py
+first_light rain` rebuilds one score cue and one ambience loop. A full invocation
+also regenerates the legacy effects; use the score-only command above for this
+polish. Editable MIDI review files go to `.cache/score-midi/`, and per-cue render
+measurements go to `.cache/score-render/`. Neither is a runtime dependency.
 
 The encoder remains SoundFile 0.13.1 / libsndfile 1.2.2, with Vorbis
 `compression_level=0.15`. Writes use 8,192-frame blocks because a single large
@@ -111,13 +163,31 @@ page checksums are made deterministic without altering compressed audio packets.
 
 ## Validation and listening
 
-`audio_check.py` decodes all twenty delivered assets and checks sample rate,
+`audio_check.py` decodes all 36 delivered assets and checks sample rate,
 codec/PCM subtype, stereo content, duration, DC, sample and reconstructed peaks,
 loop seams, and frame/level agreement with cached masters. It also checks the
 first flute against its preserved hash. The closing song is checked against its provenance and full source duration. FFmpeg EBU R128 measurements, script gains, estimates at the default mixer settings, and related-cue balance checks are included in `test-results/audio-report.json`. The cached FFmpeg installed for the theme renderer is supported; `--ffmpeg /path/to/ffmpeg` selects another installation.
 
-The renderer and checks do not provide a human listening verdict. Audition the
-music, rain, water, and scene balance in the rebuilt game. Git preserves earlier
-audio versions; do not retain separate historical copies or comparison exports.
-Runtime audio totals about 28 MiB; raw sample libraries are excluded from
-exported games.
+The renderer and checks do not provide a human listening verdict. Source checks
+verify chapter entry, actual cue use, and protected narrative timing; native
+playback checks exercise those states in Ren'Py. These supplement the decoded
+audio measurements. They cannot establish that a melody feels right beside the
+prose.
+
+This score pass has a fixed scope: the 24 cues and triggers in the catalog and
+cue sheet. After rendering and targeted verification, use the existing Chapters
+screen for a short review route:
+
+1. **04:** the workshop spill, silence, and shared cleanup.
+2. **12:** public celebration changing into personal lantern wishes.
+3. **18–20:** imaginative maps, rain shelter, constructing the wheel, and its
+   actual first turn.
+4. **24–29:** disagreement and restored warmth, the silent news, distinct family
+   grief, painting, shared grief, and the quiet memorial speech.
+5. **31–32:** rain and another drawing, annual remembrance, then the hopeful
+   afterword and optional vocal song.
+
+Read normally and linger on a few early and late lines to hear the loop remain
+appropriate. Git preserves earlier audio versions; do not retain separate
+historical copies or comparison exports. Raw sample libraries, masters, and MIDI
+files are excluded from exported games. Public versioning remains **0.1-alpha**.

@@ -1,7 +1,10 @@
 # Audio sources and delivery
 
-Astravus's underscore melodies and arrangements are original to this adaptation. The score
-is rendered with recorded harp, soft upright piano, cello/viola ensembles, and
+Astravus's underscore melodies and arrangements are original to this adaptation.
+The 0.1-alpha score contains **15 core compositions and nine variations**: 24
+instrumental cues with approximately 38 minutes of musical material. Authored
+melodies, contrasting passages, and arrangements follow the story's scenes and
+subscenes. The score is rendered with recorded harp, soft upright piano, cello/viola ensembles, and
 flute from **VSCO 2 Community Edition**, published under **CC0 1.0** by Versilian
 Studios and its contributors: https://versilian-studios.com/vsco-community/
 
@@ -39,9 +42,23 @@ comfortably beside the quieter score. The hesitant multi-note flute plays at
 playback gains; the supplied song and original flute files are unchanged.
 
 The game requires no sample player or additional software. Source recordings
-and 24-bit music masters remain in the developer's cache.
+and 24-bit music masters remain in the developer's cache. The score catalog and
+scene cue sheet are in `docs/score-catalog.json` and `docs/score-cue-sheet.md`.
+Most core cues use developed 32-bar forms, the festival has 48 bars, and the
+variations have 24 bars. Music changes when the reader reaches a documented story
+beat, using sequential fades; it can loop while the reader lingers.
+
 The repository's `docs/audio-sources.json` pins all downloaded source files by
-SHA-256, including the VSCO commit and license. `scripts/make_audio.py` and
-`scripts/sample_audio.py` reproduce the mix; `scripts/audio_check.py` checks the
-twenty delivered files, including the closing theme, with decoded-audio and
-relative loudness checks. Numerical checks do not replace listening in context.
+SHA-256, including the VSCO commit and license. `scripts/compose_score.py`
+reproduces the instrumental score offline from editable notation in
+`scripts/score_material.py`, `scripts/score_new_material.py`, and
+`scripts/score_catalog.py`. `scripts/make_audio.py` delegates score rendering to
+it and retains the existing environment/effect renderer; `scripts/sample_audio.py`
+supplies the recorded instruments. `scripts/audio_check.py` checks all 36 audio
+files: the 24 score cues, five ambience loops, six effects, and the closing song.
+
+Each score cue is metered to its intended loudness group: ordinary music targets
+−22.5 to −21.5 LUFS, reflective music −24 LUFS, and grief −26 LUFS, before the
+reader's music setting. The audit measures actual encoded loudness and peaks,
+loop continuity, and playback gains. Numerical and runtime checks do not replace
+listening in context.

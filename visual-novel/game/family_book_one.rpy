@@ -24,7 +24,7 @@ label family_plant_disagreement:
     $ enter_scene("plant_disagreement")
     scene bg garden_work_area
     with mood_transition()
-    play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/garden_growth.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "Maia let us help arrange the new plants. Kael carried the pots; I stood back on the path to decide where they should go."
     show calista home at at_left
@@ -71,10 +71,11 @@ label family_workshop_first:
     $ enter_scene("workshop_first")
     scene bg workshop
     with mood_transition()
-    play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/workshop_play.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/workshop_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "In Arin's workshop, every surface seemed to be waiting for something to be finished. I liked standing close enough to watch their hands."
     n "They hummed as they worked. The tune stopped when my elbow caught the jar."
+    stop music fadeout 0.4
     c "Oh—"
     n "Screws scattered over the bench and dropped to the floor. One kept rolling long after the others had stopped."
     c "I'm sorry. I didn't see it."
@@ -89,6 +90,7 @@ label family_workshop_first:
     arin "I was. Now we have another job first."
     c "I can pick them up."
     arin "I'll take this side. You start by your feet."
+    play music "audio/home_tender.ogg" fadein 2.0 if_changed
     n "I gathered the screws into my palm. There were more than I'd expected, some so small they hid between the boards."
     c "Do they all go back together?"
     arin "They did. It wasn't a very good system."
@@ -134,6 +136,8 @@ label family_music_first:
     n "She showed me where to put my fingers. I took a breath large enough for a whole song."
     show cg flute_playing
     with mood_transition()
+    # Finish any remaining score fade even when the reader advances rapidly.
+    stop music
     play sound "audio/flute_attempt.wav"
     n "The first sound trembled, thinned, and broke."
     stop sound fadeout 0.08
@@ -158,6 +162,7 @@ label family_music_first:
     with mood_transition()
     # Match the later sampled flute's perceived level without changing this
     # deliberately hesitant performance or the quieter single-note attempt.
+    stop music
     play sound "audio/flute_first.wav" volume 0.75
     n "We went a few notes at a time. Sometimes I lost one and had to begin again; sometimes her voice met mine in the middle."
     stop sound fadeout 0.3
@@ -175,7 +180,7 @@ label family_music_first:
     with mood_transition()
     n "I raised the flute again. This time I wanted to hear what it would do."
     stop sound fadeout 1.0
-    play music "audio/home_theme.ogg" fadein 2.0 if_changed
+    play music "audio/home_tender.ogg" fadein 2.0 if_changed
     r "I still missed plenty of notes. Her encouraging smile made it easier to try again."
     return
 
@@ -183,7 +188,7 @@ label family_dorian_stories:
     $ enter_scene("dorian_stories")
     scene bg library
     with mood_transition()
-    play music "audio/wonder_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/home_evening.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/room_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "Dorian gathered us in the library every evening. He opened a book beside an old map, moved the lamp closer, and settled his glasses on his nose."
     show dorian everyday at at_right
@@ -205,6 +210,7 @@ label family_dorian_stories:
     c "Is it a long story?"
     dorian "Do you need to be somewhere?"
     c "No."
+    play music "audio/storytelling.ogg" fadeout 2.0 fadein 2.0 if_changed
     n "I tucked my feet beneath me. He began to tell us about the explorers who had traveled those routes, the distant places they reached, and the courage their journeys had taken."
     lyra "Did they get home?"
     dorian "Stay with them a little longer."
@@ -222,7 +228,7 @@ label family_sage_story:
     $ enter_scene("sage_story")
     scene bg sage_room
     with mood_transition()
-    play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/home_tender.ogg" fadeout 2.0 fadein 2.0 if_changed
     play ambience "audio/room_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "That evening, Lyra was still upset about the last piece of dessert. Kael had eaten it. Telling her that it was gone hadn't helped."
     show sage everyday at at_right
@@ -236,7 +242,7 @@ label family_sage_story:
     kael "Are they us?"
     sage "Their names are Aria, Bram, and Cora. You can decide who they remind you of."
     n "Lyra leaned against Sage. The candlelight moved over the folds of the blanket."
-    play music "audio/wonder_theme.ogg" fadeout 2.0 fadein 2.0 if_changed
+    play music "audio/storytelling_lullaby.ogg" fadeout 2.0 fadein 2.0 if_changed
     # This is the draft's first explicit living, traveling Astravus: a story
     # within the story. Direct identification of Lumen waits for Tree of Echoes.
     sage "They lived aboard an Astravus, a great living ship traveling through the cosmos. Its passages were as familiar to them as these halls are to you."
@@ -298,6 +304,7 @@ label family_daily_rhythm:
     r "A day couldn't hold all the things I remember doing. They belong to many mornings, many evenings. In memory, I keep walking from one room to the next."
     scene bg garden_close
     with mood_transition()
+    play music "audio/garden_growth.ogg" fadeout 1.5 fadein 2.0 if_changed
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "In the garden, Maia showed me a seedling leaning toward the light. I crouched beside its pot to follow the bend of the stem."
     c "Why doesn't it grow straight?"
@@ -309,6 +316,7 @@ label family_daily_rhythm:
     n "She smoothed the soil around it. We had learned to look for changes smaller than a flower opening."
     scene bg workshop
     with mood_transition()
+    play music "audio/workshop_play.ogg" fadeout 1.5 fadein 2.0 if_changed
     play ambience "audio/workshop_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "At Arin's bench, I was allowed to help with more than the sorting."
     show arin everyday at at_right
@@ -329,6 +337,7 @@ label family_daily_rhythm:
     n "There came an evening when I could play Selene's melody without stopping to find each note."
     show cg flute_playing
     with mood_transition()
+    stop music
     play sound "audio/flute_practice.wav"
     n "Lyra clapped along, getting a little faster with every phrase."
     stop sound fadeout 0.3
@@ -344,9 +353,9 @@ label family_daily_rhythm:
     with mood_transition()
     n "Shadow's ears twitched from her place in the corner. Nibble scurried past, indifferent to our attempts to keep time."
     stop sound fadeout 1.0
-    play music "audio/home_theme.ogg" fadein 2.0 if_changed
     scene bg library
     with mood_transition()
+    play music "audio/storytelling.ogg" fadein 2.0 if_changed
     n "In the library, Kael began spreading out the maps himself. I searched for places whose names I remembered."
     c "Here. This was in the story."
     kael "And if you follow that line—"
@@ -354,6 +363,7 @@ label family_daily_rhythm:
     n "He waited while I traced the route. Dorian sat nearby, answering when we asked."
     scene bg family_home
     with mood_transition()
+    play music "audio/home_evening.ogg" fadeout 1.5 fadein 2.0 if_changed
     n "At dinner, there was always something to show. Lyra's latest stone. A sketch. A part that hadn't fitted until the third attempt."
     show lyra young at at_right
     with mood_transition()
@@ -398,11 +408,12 @@ label family_tree_echoes:
     lyra "So it's older than home."
     n "I hadn't thought of it that way. I looked up into the branches, trying to imagine them somewhere else."
     kael "Let's listen."
+    stop music fadeout 1.0
     hide calista
     hide lyra
     with mood_transition()
     n "He leaned against the trunk and pressed his ear to the wood. Lyra held her breath."
-    stop music fadeout 2.0
+    stop music
     play sound "audio/tree_creak.wav"
     n "At first, I heard leaves and Barkley shifting on the path. Then a low creak moved through the tree."
     lyra "Did you hear it?"
@@ -431,6 +442,7 @@ label family_pond_scare:
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0 if_changed
     n "Another day, we were playing beside a small pond. Lyra stepped too close to the edge."
     show cg pond_rescue
+    stop music
     play sound "audio/water_splash.wav"
     with mood_transition()
     n "Her foot slipped. Water broke around her, and for a moment I couldn't understand why she wasn't beside me anymore."
@@ -449,6 +461,7 @@ label family_pond_scare:
     c "I know."
     lyra "I didn't mean to go in."
     c "I know. You're here."
+    play music "audio/home_tender.ogg" fadein 3.0 if_changed
     n "Kael crouched on her other side. For once, he wasn't looking toward the next place to go."
     kael "Shall we go home?"
     n "Lyra nodded without letting go of me. I waited until she was ready to stand."
@@ -457,7 +470,6 @@ label family_pond_scare:
     hide cg
     with mood_transition()
     n "We took the wider part of the path. Barkley stayed close, and Lyra kept her wet fingers locked around mine."
-    play music "audio/home_theme.ogg" fadein 3.0 if_changed
     r "Afterward, it was a story with a safe ending. In the moment, all I wanted was to get her back beside me."
     return
 
@@ -479,9 +491,11 @@ label family_soup_experiment:
     arin "A little of that goes a long way."
     lyra "I thought it would be better."
     n "Her eyes filled. I set my spoon down quietly."
+    stop music fadeout 1.0
     lyra "I'm sorry. I wanted to help."
     n "Maia drew her close. For a moment, nobody asked her to explain again."
     m "You can help me make another batch. We'll try the spice together."
+    play music "audio/home_tender.ogg" fadein 2.0 if_changed
     lyra "You're still going to use it?"
     m "A much smaller amount. Then we'll taste before we add any more."
     n "Lyra stayed beside her while the rest of us cleared the bowls. The new pot took time; we passed the bread around again."
@@ -529,6 +543,7 @@ label family_festival_lights:
     hide calista
     hide kael
     with mood_transition()
+    play music "audio/festival_lanterns.ogg" fadeout 2.0 fadein 3.0 if_changed
     n "Later, each of us took a lantern and made a wish."
     show calista festival at at_left
     show kael young at at_right

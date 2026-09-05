@@ -65,7 +65,15 @@
       "game/closing_theme.json",
       "docs/AUDIO_DIRECTION.md",
       "docs/audio-sources.json",
-      "docs/closing-theme-audio.json"
+      "docs/closing-theme-audio.json",
+      "scripts/score_catalog.py",
+      "scripts/score_material.py",
+      "scripts/score_new_material.py",
+      "scripts/compose_score.py",
+      "scripts/make_audio.py",
+      "scripts/sample_audio.py",
+      "docs/score-catalog.json",
+      "docs/score-cue-sheet.md"
     ],
     "glossary": [
       "game/script.rpy",
@@ -171,9 +179,10 @@
         "audio"
       ],
       "acceptance": [
-        "All 20 delivered score/ambience/effect/song files decode, retain intended duration/sample rate and avoid clipping/DC/loop anomalies.",
+        "All 36 delivered score/ambience/effect/song files decode, retain their declared duration/sample rate and avoid clipping/DC/loop anomalies.",
         "Quiet ambience and transient effects are not normalized to song loudness.",
-        "Home-to-song difference and hesitant-to-practice difference stay within checker bounds; original single broken flute remains intentionally weak."
+        "Home-to-song difference and hesitant-to-practice difference stay within checker bounds; original single broken flute remains intentionally weak.",
+        "Each of the 24 instrumental cues meets its declared LUFS target; ordinary, reflective and grief arrangements preserve intentional dynamic differences."
       ],
       "authority": [
         "docs/AUDIO_DIRECTION.md",
@@ -190,6 +199,40 @@
       "inputs": [
         "scripts/audio_check.py",
         "scripts/make_audio.py"
+      ]
+    },
+    {
+      "id": "score-runtime",
+      "title": "Music follows the reader across chapters and subscenes",
+      "method": "automated",
+      "phase": "runtime",
+      "required": true,
+      "input_groups": [
+        "audio",
+        "runtime"
+      ],
+      "acceptance": [
+        "All 32 direct chapter starts select the intended music or silence.",
+        "Reader pauses do not advance to future music; the waterwheel transition restores correctly through rollback and save/load.",
+        "Flute performances, the loss notification and the memorial speech retain their protected silence; the hopeful afterword and return to title clean up music correctly."
+      ],
+      "authority": [
+        "docs/score-cue-sheet.md"
+      ],
+      "command": [
+        "{python}",
+        "scripts/project.py",
+        "test",
+        "--headless",
+        "--suite",
+        "score_review"
+      ],
+      "generated_evidence": [
+        "test-results/score-runtime.json"
+      ],
+      "inputs": [
+        "game/score_testcases.rpy",
+        "scripts/project.py"
       ]
     },
     {
@@ -650,8 +693,9 @@
       ],
       "authority": [
         "docs/AUDIO_DIRECTION.md",
-        "../revision/latest.md",
-        "docs/design-proof/README.md"
+        "docs/score-cue-sheet.md",
+        "docs/score-catalog.json",
+        "../revision/latest.md"
       ]
     },
     {

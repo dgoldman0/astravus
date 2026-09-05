@@ -453,7 +453,7 @@ testcase chapter_playthrough:
     click "Chapters"
     click "17 · Beyond the familiar paths"
     assert eval (scene_key == "kaleb_walk" and met_joren and met_cassia and not joren_lost) timeout 4.0
-    assert eval (renpy.music.get_playing() == "audio/discovery_theme.ogg") timeout 4.0
+    assert eval (renpy.music.get_playing() == "audio/outward_paths.ogg") timeout 4.0
     advance until eval (scene_key == "treehouse")
     assert eval (visited_scenes == list(BOOK_SCENE_KEYS[:18]))
     run FileLoad(10, confirm=False, page="1")

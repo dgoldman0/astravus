@@ -18,13 +18,36 @@ import sys
 import numpy as np
 from scipy.signal import resample_poly, welch
 from make_audio import MASTER_OUT, VORBIS_COMPRESSION, sf
+from score_catalog import SCORES
 
 PROJECT = Path(__file__).resolve().parents[1]
-MUSIC = {"first_light", "home_theme", "discovery_theme", "wonder_theme", "festival_theme",
-         "rain_refuge", "grief_theme", "remembrance_theme"}
+MUSIC = set(SCORES)
 AMBIENCE = {"garden_air", "rain", "room_air", "workshop_air", "plaza_air"}
 EFFECTS = {"wood", "flute_attempt", "flute_first", "flute_practice", "tree_creak", "water_splash"}
 SONGS = {"curiosity_and_discovery"}
+BALANCE_TOLERANCE_LU = 1.5
+
+
+def expected_audio():
+    return {name: "audio/" + name + (".wav" if name in EFFECTS else ".ogg")
+            for name in MUSIC | AMBIENCE | EFFECTS | SONGS}
+
+
+def inventory_errors(uses, audio_directory=None):
+    """Catch a missed registry entry as well as a missing expected file."""
+    audio_directory = audio_directory or PROJECT / "game/audio"
+    expected = expected_audio()
+    delivered = {"audio/" + path.name for path in audio_directory.iterdir()
+                 if path.suffix.lower() in (".ogg", ".wav")}
+    errors = ["Unregistered delivered audio: " + name for name in sorted(delivered - set(expected.values()))]
+    for name, rows in sorted(uses.items()):
+        if name not in expected:
+            errors.append("Playback references unregistered audio: " + name)
+        else:
+            for row in rows:
+                if row["file"] != expected[name]:
+                    errors.append(f"Playback references {row['file']}; expected {expected[name]}")
+    return errors
 
 
 def playback_uses():
@@ -35,9 +58,22 @@ def playback_uses():
         for channel, setting in (("music", "music"), ("sound", "sfx"), ("ambience", "sfx"))
     }
     uses = {}
+    menu_music = re.search(r'^define config.main_menu_music = "(audio/[^"]+)"$', options, re.M)
+    if menu_music:
+        filename = menu_music[1]
+        uses.setdefault(Path(filename).stem, []).append({
+            "file": filename, "source": "game/options.rpy:config.main_menu_music", "scene": "main_menu",
+            "channel": "music", "relative_amplitude": 1.0, "default_mixer_amplitude": defaults["music"],
+        })
     for path in sorted((PROJECT / "game").glob("*.rpy")):
+        if path.name == "testcases.rpy" or path.name.endswith("_testcases.rpy"):
+            continue
         scene = None
         for number, line in enumerate(path.read_text().splitlines(), 1):
+            # This return label lives in script.rpy, but chapter 17 was entered
+            # in friendships_book_one.rpy before execution returns here.
+            if line.strip() == "label after_joren_family:":
+                scene = "kaleb_walk"
             entered = re.search(r'enter_scene\("([^"]+)"\)', line)
             if entered:
                 scene = entered.group(1)
@@ -48,12 +84,14 @@ def playback_uses():
             gain = re.search(r"\bvolume\s+([.\d]+)", clauses)
             relative = float(gain.group(1)) if gain else 1.0
             uses.setdefault(Path(filename).stem, []).append({
+                "file": filename,
                 "source": f"{path.relative_to(PROJECT)}:{number}", "scene": scene,
                 "channel": channel, "relative_amplitude": relative,
                 "default_mixer_amplitude": defaults[channel],
             })
     theme = json.loads((PROJECT / "game/closing_theme.json").read_text())
     uses.setdefault(Path(theme["audio"]).stem, []).append({
+        "file": theme["audio"],
         "source": "game/closing_theme.json", "scene": "closing_theme", "channel": "closing_theme",
         "relative_amplitude": 10 ** (theme["runtime_gain_db"] / 20),
         "default_mixer_amplitude": defaults["music"],
@@ -76,6 +114,19 @@ def loudness(path, ffmpeg):
 
 def db(value):
     return float(20 * np.log10(max(float(value), 1e-12)))
+
+
+def reconstructed_peak(signal, factor=4, block_frames=262144):
+    """Oversample with FIR context, without allocating a whole long cue at 4x."""
+    peak = 0.0
+    context = 32  # More than resample_poly's default ten input-frame filter radius.
+    for start in range(0, len(signal), block_frames):
+        end = min(start + block_frames, len(signal))
+        left, right = max(0, start - context), min(len(signal), end + context)
+        reconstructed = resample_poly(signal[left:right], factor, 1, axis=0)
+        active = reconstructed[(start - left) * factor:(end - left) * factor]
+        peak = max(peak, float(np.max(np.abs(active))))
+    return peak
 
 
 def analyze(path):
@@ -114,19 +165,19 @@ def analyze(path):
     seconds = frames / rate
     if path.stem == "flute_attempt" and not .9 <= seconds <= 2:
         errors.append("The first broken breath must be a short single attempt")
-    if path.stem in MUSIC and not 45 <= seconds <= 90:
-        errors.append("Music duration outside 45–90 seconds")
+    if path.stem in MUSIC:
+        expected_frames = round(SCORES[path.stem].duration_seconds * rate)
+        if frames != expected_frames:
+            errors.append(f"Music loop has {frames} frames; composition declares {expected_frames}")
     if supplied_song:
         metadata = json.loads((PROJECT / "docs/closing-theme-audio.json").read_text())
         if hashlib.sha256(path.read_bytes()).hexdigest() != metadata["output"]["sha256"]:
             errors.append("Supplied song encoding differs from its recorded provenance")
         if frames != metadata["source"]["frames"]:
             errors.append("Supplied song does not retain its complete source duration")
-    oversampled = resample_poly(signal, 4, 1, axis=0)
-    true_peak = np.max(np.abs(oversampled))
+    true_peak = reconstructed_peak(signal)
     if true_peak > ceiling:
         errors.append("Reconstructed peak exceeds available headroom")
-    del oversampled
     derivatives = np.abs(np.diff(signal, axis=0))
     typical_step = np.quantile(derivatives, .99, axis=0)
     seam = np.abs(signal[0] - signal[-1])
@@ -136,6 +187,8 @@ def analyze(path):
     window = min(frames, round(rate * .5))
     windows = signal[:len(signal) // window * window].reshape(-1, window, channels)
     rms_windows = np.sqrt(np.mean(windows ** 2, axis=(1, 2)))
+    edge_window = min(frames, round(rate * .1))
+    edge_rms = [np.sqrt(np.mean(part ** 2)) for part in (signal[:edge_window], signal[-edge_window:])]
     frequency, density = welch(signal.mean(axis=1), fs=rate, nperseg=8192)
     total = np.sum(density)
     bands = {}
@@ -178,6 +231,7 @@ def analyze(path):
         "half_second_rms_range_dbfs": [round(db(rms_windows.min()), 2), round(db(rms_windows.max()), 2)],
         "loop_step_dbfs": round(db(seam.max()), 2) if loop else None,
         "loop_step_vs_p99": round(float(np.max(seam / np.maximum(typical_step, 1e-9))), 3) if loop else None,
+        "loop_boundary_100ms_rms_difference_db": round(db(edge_rms[0] / max(edge_rms[1], 1e-12)), 2) if loop else None,
         "spectral_centroid_hz": round(float(np.sum(frequency * density) / total), 1),
         "spectral_energy_percent": bands,
         "master_comparison": master_comparison,
@@ -190,22 +244,35 @@ def balance_checks(rows):
     by_name = {Path(row["file"]).stem: row for row in rows if row["playback_uses"]}
     checks = []
 
-    def level(name):
-        return by_name[name]["playback_uses"][0]["lufs_before_user_mixer"]
+    def levels(name):
+        return [use["lufs_before_user_mixer"] for use in by_name[name]["playback_uses"]]
+
+    def greatest_difference(first, second):
+        return max(abs(a - b) for a in levels(first) for b in levels(second))
 
     if SONGS | {"home_theme"} <= by_name.keys():
-        difference = abs(level("curiosity_and_discovery") - level("home_theme"))
+        difference = greatest_difference("curiosity_and_discovery", "home_theme")
         checks.append({"check": "Closing song versus the preceding home theme", "difference_lu": round(difference, 2), "limit_lu": 1.5, "pass": difference <= 1.5})
     if {"flute_attempt", "flute_first", "flute_practice"} <= by_name.keys():
-        difference = abs(level("flute_first") - level("flute_practice"))
+        difference = greatest_difference("flute_first", "flute_practice")
         checks.append({"check": "Hesitant phrase versus later practice", "difference_lu": round(difference, 2), "limit_lu": 1.5, "pass": difference <= 1.5})
-        difference = level("flute_first") - level("flute_attempt")
+        difference = min(levels("flute_first")) - max(levels("flute_attempt"))
         checks.append({"check": "Single broken breath remains quieter than a phrase", "difference_lu": round(difference, 2), "minimum_lu": 1, "pass": difference >= 1})
-    ordinary_music = MUSIC - {"grief_theme", "rain_refuge"}
-    if ordinary_music <= by_name.keys():
-        levels = [level(name) for name in ordinary_music]
-        spread = max(levels) - min(levels)
-        checks.append({"check": "Ordinary score cue spread; quieter grief/rain cues retain their dynamics", "spread_lu": round(spread, 2), "limit_lu": 3, "pass": spread <= 3})
+    groups = {}
+    for name, score in sorted(SCORES.items()):
+        if name not in by_name:
+            continue
+        measured = levels(name)
+        difference = max(abs(value - score.target_lufs) for value in measured)
+        checks.append({"check": f"{name}: {score.balance_group} playback target",
+                       "target_lufs": score.target_lufs, "actual_range_lufs": [min(measured), max(measured)],
+                       "difference_lu": round(difference, 2), "limit_lu": BALANCE_TOLERANCE_LU,
+                       "pass": difference <= BALANCE_TOLERANCE_LU})
+        groups.setdefault(score.balance_group, []).extend(measured)
+    for group, measured in sorted(groups.items()):
+        spread = max(measured) - min(measured)
+        checks.append({"check": f"Comparable {group} score cue spread",
+                       "spread_lu": round(spread, 2), "limit_lu": 3, "pass": spread <= 3})
     return checks
 
 
@@ -220,12 +287,18 @@ def main():
     rows = []
     missing = []
     uses = playback_uses()
+    registry_errors = inventory_errors(uses)
     for name in sorted(MUSIC | AMBIENCE | EFFECTS | SONGS):
         path = PROJECT / "game" / "audio" / (name + (".ogg" if name in MUSIC | AMBIENCE | SONGS else ".wav"))
         if not path.exists():
             missing.append(str(path.relative_to(PROJECT)))
             continue
         row = analyze(path)
+        if name in SCORES:
+            score = SCORES[name]
+            row["composition"] = {"title": score.title, "family": score.family,
+                                  "balance_group": score.balance_group, "target_lufs": score.target_lufs,
+                                  "declared_duration_seconds": round(score.duration_seconds, 6)}
         row["loudness"] = loudness(path, args.ffmpeg)
         row["playback_uses"] = uses.get(name, [])
         if not row["playback_uses"]:
@@ -241,19 +314,22 @@ def main():
         for error in row["errors"]:
             print(f"     {error}")
     checks = balance_checks(rows)
+    for error in registry_errors:
+        print("FAIL " + error)
     for check in checks:
         print(("PASS " if check["pass"] else "FAIL ") + check["check"])
     report = {"method": "Decoded runtime audio, 4x reconstruction, periodic seam comparison, Welch spectrum and FFmpeg EBU R128. Playback estimates apply script gains and default mixers to file loudness; no human listening or live capture claim.",
               "encoder": {"soundfile": sf.__version__, "libsndfile": sf.__libsndfile_version__,
                           "vorbis_compression_level": VORBIS_COMPRESSION, "sample_rate": 48000,
                           "preserved_first_flute_sample_rate": 24000},
-              "renderers": ["scripts/make_audio.py", "scripts/render_closing_theme.py"],
+              "renderers": ["scripts/compose_score.py", "scripts/make_audio.py", "scripts/render_closing_theme.py"],
               "loudness_meter": str(args.ffmpeg), "balance_checks": checks,
-              "missing": missing, "assets": rows}
+              "registered_score_cues": len(SCORES), "registered_assets": len(expected_audio()),
+              "inventory_errors": registry_errors, "missing": missing, "assets": rows}
     args.json.parent.mkdir(parents=True, exist_ok=True)
     args.json.write_text(json.dumps(report, indent=2) + "\n")
     print(f"Report: {args.json}")
-    return 1 if missing or any(row["errors"] for row in rows) or any(not check["pass"] for check in checks) else 0
+    return 1 if registry_errors or missing or any(row["errors"] for row in rows) or any(not check["pass"] for check in checks) else 0
 
 
 if __name__ == "__main__":

@@ -6,7 +6,6 @@ Other assets use 48 kHz rendering. See docs/AUDIO_DIRECTION.md for provenance.
 """
 from __future__ import annotations
 import argparse
-from dataclasses import dataclass
 import hashlib
 from pathlib import Path
 import sys
@@ -211,91 +210,15 @@ def save(name, signal, rng, rms, peak=.40, loop=True):
     print(f"{name:25} {len(signal) / RATE:6.2f}s  stereo PCM", flush=True)
 
 
-C = (48, 55, 62, 64)
-A = (45, 52, 60, 67)
-F = (41, 53, 60, 64)
-G = (43, 55, 62, 69)
-D = (50, 57, 60, 65)
-E = (40, 52, 59, 67)
-
-
-@dataclass(frozen=True)
-class Cue:
-    name: str
-    seed: int
-    bpm: float
-    chords: tuple
-    melody: tuple
-    instrument: str = "harp"
-    rms: float = .067
-    pad: float = .060
-    arpeggio: float = .045
-    reed: bool = False
-    pulse: bool = False
-
-
-# Each item is an original two-bar phrase. First Light retains C-D-E-G-C-A-G-C
-# in its opening phrases, with answering variations rather than one exact repeat.
-CUES = (
-    Cue("first_light", 1047, 60, (C, A, F, G, C, A, F, G),
-        ((72, 74), (76,), (67, 72), (69, 67), (72, 76), (74, 72), (69, 67), (72,)), arpeggio=.032),
-    Cue("home_theme", 1051, 58, (C, F, A, G, C, E, F, G),
-        ((64, 67, 72), (69, 67), (64, 67), (62, 67), (64, 72, 74), (71, 67), (69, 65), (67, 62)),
-        instrument="felt", pad=.048, arpeggio=.040),
-    Cue("discovery_theme", 1057, 78, (C, G, A, F, C, D, F, G),
-        ((72, 74, 76, 79), (74, 71, 67), (72, 76, 74), (69, 72), (79, 76, 74), (77, 74), (76, 72, 69), (74, 71, 67)),
-        pad=.030, arpeggio=.054),
-    Cue("wonder_theme", 1061, 50, (A, F, C, G, A, D, F, G),
-        ((72,), (69, 76), (74,), (67, 74), (76, 72), (77,), (76, 69), (74, 67)),
-        rms=.061, pad=.066, arpeggio=.016, reed=True),
-    Cue("festival_theme", 1063, 84, (C, F, G, C, A, F, D, G),
-        ((72, 76, 79, 76), (77, 76, 72), (74, 71, 67, 71), (72, 76, 79), (81, 79, 76), (77, 76, 72), (74, 77, 76), (74, 71, 67)),
-        rms=.073, pad=.032, arpeggio=.060, reed=True, pulse=True),
-    Cue("rain_refuge", 1069, 55, (A, F, C, G, A, E, F, G),
-        ((64, 67), (65,), (64, 62), (67,), (72, 67), (64,), (65, 64), (62,)),
-        instrument="felt", rms=.050, pad=.039, arpeggio=.010),
-    Cue("grief_theme", 1087, 48, (A, E, F, D, A, E, F, A),
-        ((64,), (), (65, 64), (), (60, 64), (), (65,), (64, 60)),
-        instrument="felt", rms=.042, pad=.035, arpeggio=0),
-    Cue("remembrance_theme", 1091, 54, (C, A, F, G, A, F, D, G),
-        ((72, 74), (76,), (67, 72), (69, 67), (72, 76), (72, 69), (65, 69), (67,)),
-        instrument="felt", rms=.055, pad=.045, arpeggio=.022, reed=True),
-)
+# The full authored score has its own notation and arranger. Keep this entry
+# point for existing build instructions and environmental/effect generation.
+from score_catalog import SCORES
+CUES = tuple(SCORES.values())
 
 
 def score(cue):
-    rng = np.random.default_rng(cue.seed)
-    beat = 60 / cue.bpm
-    mix = np.zeros((round(64 * beat * RATE), 2))
-    instrument = "piano" if cue.instrument == "felt" else "harp"
-    for phrase, chord in enumerate(cue.chords):
-        start = phrase * 8 * beat
-        arc = (.86, .92, .98, .90, 1.0, 1.06, .97, .83)[phrase]
-        for i, midi in enumerate(chord):
-            add(mix, BANK.note("cello" if midi < 60 else "viola", midi, 9.2 * beat), start - .6 * beat,
-                cue.pad * arc / (1 + .22 * i), (-.55, .30, -.22, .54)[i])
-        add(mix, BANK.note("piano", chord[0] - 12, 6.5 * beat, .6), start + .04, .10 * arc, -.12)
-        if cue.arpeggio:
-            pattern = (0, 2, 1, 3, 2, 1) if cue.pulse else (0, 2, 1, 3)
-            for j, index in enumerate(pattern):
-                offset = (j * 7 / len(pattern) + .65) * beat
-                add(mix, BANK.note("harp", chord[index] + 12, 3.8 * beat),
-                    start + offset + rng.uniform(-.018, .018),
-                    cue.arpeggio * arc * rng.uniform(.84, 1.04), -.4 + .8 * j / len(pattern))
-        notes = cue.melody[phrase]
-        for i, midi in enumerate(notes):
-            timing = .9 + i * (5.7 / max(1, len(notes)))
-            length = min(4.3, 8 - timing) * beat
-            add(mix, BANK.note(instrument, midi, length, rng.uniform(.58, .77)),
-                start + timing * beat + rng.uniform(-.023, .025), .19 * arc, .16)
-        if cue.reed and phrase in (2, 4, 6):
-            add(mix, BANK.note("flute", chord[2] + 12, 2.7 * beat), start + 4.5 * beat, .038 * arc, -.30)
-        if cue.pulse:
-            for step in (0, 3, 4, 7):
-                add(mix, percussion(.4, rng, 116 if step % 4 == 0 else 170),
-                    start + step * beat, .0036 if step % 4 == 0 else .0020, -.1)
-    mix = studio_room(mix, .18 if cue.name == "wonder_theme" else .12)
-    save(cue.name + ".wav", mix, rng, cue.rms)
+    from compose_score import render
+    render(cue)
 
 
 def environment(name, seconds, seed):

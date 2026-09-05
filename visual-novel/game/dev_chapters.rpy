@@ -62,17 +62,6 @@ init python:
     def chapter_start_action(key):
         return [Hide("chapter_spoiler_warning"), SetVariable("dev_chapter_target", key), Start("dev_chapter_start")]
 
-    # These scenes normally inherit their score from the preceding scene.
-    DEV_INHERITED_MUSIC = {
-        "kaleb_walk": "audio/discovery_theme.ogg",
-        "outer_exploration": "audio/discovery_theme.ogg",
-        "painting_grief": "audio/grief_theme.ogg",
-        "cassia_grief": "audio/grief_theme.ogg",
-        "mural_remembrance": "audio/remembrance_theme.ogg",
-        "treehouse_remembrance": "audio/remembrance_theme.ogg",
-        "annual_remembrance": "audio/remembrance_theme.ogg",
-    }
-
     def prepare_chapter_start(key):
         index = BOOK_SCENE_KEYS.index(key)
         renpy.store.visited_scenes = list(BOOK_SCENE_KEYS[:index])
@@ -88,10 +77,8 @@ init python:
         renpy.block_rollback()
         for channel in ("music", "ambience", "sound"):
             renpy.music.stop(channel=channel)
-        if key in DEV_INHERITED_MUSIC:
-            renpy.music.play(DEV_INHERITED_MUSIC[key], fadein=1.0)
-        if key == "painting_grief":
-            renpy.music.play("audio/room_air.ogg", channel="ambience", fadein=1.0)
+        # Each chapter initializes its score and ambience at its story label.
+        # Keep direct entry on the same cue path as ordinary reading.
 
 screen dev_chapters():
     tag menu

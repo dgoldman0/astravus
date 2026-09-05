@@ -1,0 +1,1089 @@
+{
+  "method": "Authored phrases and instrumental arrangements; musical intent is subject to contextual listening.",
+  "core_compositions": 15,
+  "variations": 9,
+  "total_minutes": 38.09,
+  "cues": [
+    {
+      "name": "first_light",
+      "title": "First Light",
+      "bpm": 64,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "curiosity",
+      "balance_group": "ordinary",
+      "target_lufs": -22,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 120.0,
+      "file": "game/audio/first_light.ogg",
+      "notes": 211,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "light"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "light"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "light"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "light"
+        }
+      ]
+    },
+    {
+      "name": "home_theme",
+      "title": "The Days Between",
+      "bpm": 66,
+      "meter": 3,
+      "time_signature": "3/4",
+      "family": "home",
+      "balance_group": "ordinary",
+      "target_lufs": -21.5,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 87.273,
+      "file": "game/audio/home_theme.ogg",
+      "notes": 272,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "hearth"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "hearth"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "hearth"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "hearth"
+        }
+      ]
+    },
+    {
+      "name": "discovery_theme",
+      "title": "Something Worth Finding",
+      "bpm": 88,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "curiosity",
+      "balance_group": "ordinary",
+      "target_lufs": -22,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 87.273,
+      "file": "game/audio/discovery_theme.ogg",
+      "notes": 342,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "discovery"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "discovery"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "discovery"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "discovery"
+        }
+      ]
+    },
+    {
+      "name": "wonder_theme",
+      "title": "The Tree of Echoes",
+      "bpm": 56,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "wonder",
+      "balance_group": "reflective",
+      "target_lufs": -24,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 137.143,
+      "file": "game/audio/wonder_theme.ogg",
+      "notes": 156,
+      "instruments": [
+        "cello",
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "flute",
+          "texture": "open"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "open"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "flute",
+          "texture": "open"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "flute",
+          "texture": "open"
+        }
+      ]
+    },
+    {
+      "name": "festival_theme",
+      "title": "Wishes in the Light",
+      "bpm": 90,
+      "meter": 3,
+      "time_signature": "6/8",
+      "family": "festival",
+      "balance_group": "ordinary",
+      "target_lufs": -21.5,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 96.0,
+      "file": "game/audio/festival_theme.ogg",
+      "notes": 547,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano",
+        "pulse",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "dance"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "dance"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "dance"
+        },
+        {
+          "name": "interlude",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "garden"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "dance"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "dance"
+        }
+      ]
+    },
+    {
+      "name": "rain_refuge",
+      "title": "A Story Under the Rain",
+      "bpm": 60,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "shelter",
+      "balance_group": "reflective",
+      "target_lufs": -24,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 128.0,
+      "file": "game/audio/rain_refuge.ogg",
+      "notes": 194,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "shelter"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "shelter"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "shelter"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "shelter"
+        }
+      ]
+    },
+    {
+      "name": "grief_theme",
+      "title": "What Comfort Can Do",
+      "bpm": 52,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "grief",
+      "balance_group": "grief",
+      "target_lufs": -26,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 147.692,
+      "file": "game/audio/grief_theme.ogg",
+      "notes": 72,
+      "instruments": [
+        "cello",
+        "harp",
+        "piano"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "still"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "still"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "still"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "still"
+        }
+      ]
+    },
+    {
+      "name": "remembrance_theme",
+      "title": "The Names We Carry",
+      "bpm": 60,
+      "meter": 3,
+      "time_signature": "3/4",
+      "family": "remembrance",
+      "balance_group": "reflective",
+      "target_lufs": -24,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 96.0,
+      "file": "game/audio/remembrance_theme.ogg",
+      "notes": 153,
+      "instruments": [
+        "cello",
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "viola",
+          "texture": "remember"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "remember"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "viola",
+          "texture": "remember"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "viola",
+          "texture": "remember"
+        }
+      ]
+    },
+    {
+      "name": "garden_growth",
+      "title": "Room to Grow",
+      "bpm": 68,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "curiosity",
+      "balance_group": "ordinary",
+      "target_lufs": -22,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 112.941,
+      "file": "game/audio/garden_growth.ogg",
+      "notes": 275,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "garden"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "garden"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "garden"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "garden"
+        }
+      ]
+    },
+    {
+      "name": "workshop_play",
+      "title": "Pieces into Motion",
+      "bpm": 88,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "making",
+      "balance_group": "ordinary",
+      "target_lufs": -22,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 87.273,
+      "file": "game/audio/workshop_play.ogg",
+      "notes": 340,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "workshop"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "workshop"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "workshop"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "workshop"
+        }
+      ]
+    },
+    {
+      "name": "storytelling",
+      "title": "The Next Part of the Tale",
+      "bpm": 70,
+      "meter": 3,
+      "time_signature": "3/4",
+      "family": "stories",
+      "balance_group": "ordinary",
+      "target_lufs": -22,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 82.286,
+      "file": "game/audio/storytelling.ogg",
+      "notes": 210,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "flute",
+          "texture": "tale"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "tale"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "flute",
+          "texture": "tale"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "flute",
+          "texture": "tale"
+        }
+      ]
+    },
+    {
+      "name": "friendship_theme",
+      "title": "A Place Beside Us",
+      "bpm": 66,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "friendship",
+      "balance_group": "ordinary",
+      "target_lufs": -22,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 116.364,
+      "file": "game/audio/friendship_theme.ogg",
+      "notes": 313,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "duet"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "duet"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "duet"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "duet"
+        }
+      ]
+    },
+    {
+      "name": "outward_paths",
+      "title": "Beyond the Familiar Paths",
+      "bpm": 84,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "exploration",
+      "balance_group": "ordinary",
+      "target_lufs": -22,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 91.429,
+      "file": "game/audio/outward_paths.ogg",
+      "notes": 328,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "walking"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "walking"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "walking"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "walking"
+        }
+      ]
+    },
+    {
+      "name": "painting_theme",
+      "title": "What the Hand Remembers",
+      "bpm": 62,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "remembrance",
+      "balance_group": "reflective",
+      "target_lufs": -24,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 123.871,
+      "file": "game/audio/painting_theme.ogg",
+      "notes": 235,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "painting"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "painting"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "painting"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "painting"
+        }
+      ]
+    },
+    {
+      "name": "shared_grief",
+      "title": "Between the Two of Us",
+      "bpm": 56,
+      "meter": 3,
+      "time_signature": "3/4",
+      "family": "friendship",
+      "balance_group": "grief",
+      "target_lufs": -26,
+      "parent": null,
+      "direction": "",
+      "duration_seconds": 102.857,
+      "file": "game/audio/shared_grief.ogg",
+      "notes": 85,
+      "instruments": [
+        "cello",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "statement",
+          "bars": 8,
+          "lead": "viola",
+          "texture": "intimate"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "intimate"
+        },
+        {
+          "name": "middle",
+          "bars": 8,
+          "lead": "viola",
+          "texture": "intimate"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "viola",
+          "texture": "intimate"
+        }
+      ]
+    },
+    {
+      "name": "home_tender",
+      "title": "Gentle Hands",
+      "bpm": 56,
+      "meter": 3,
+      "time_signature": "3/4",
+      "family": "home",
+      "balance_group": "reflective",
+      "target_lufs": -24,
+      "parent": "home_theme",
+      "direction": "Reassurance: slower piano breathing, small answering harp phrases, no domestic dance bass.",
+      "duration_seconds": 77.143,
+      "file": "game/audio/home_tender.ogg",
+      "notes": 102,
+      "instruments": [
+        "cello",
+        "harp",
+        "piano"
+      ],
+      "sections": [
+        {
+          "name": "opening",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "intimate"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "intimate"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "intimate"
+        }
+      ]
+    },
+    {
+      "name": "home_evening",
+      "title": "Before the Lamps Go Out",
+      "bpm": 58,
+      "meter": 3,
+      "time_signature": "3/4",
+      "family": "home",
+      "balance_group": "reflective",
+      "target_lufs": -24,
+      "parent": "home_theme",
+      "direction": "Wind-down: begin with the answering melody, lower harp and a widely spaced piano bass.",
+      "duration_seconds": 74.483,
+      "file": "game/audio/home_evening.ogg",
+      "notes": 157,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "opening",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "shelter"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "shelter"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "shelter"
+        }
+      ]
+    },
+    {
+      "name": "storytelling_lullaby",
+      "title": "The Last Page",
+      "bpm": 58,
+      "meter": 3,
+      "time_signature": "3/4",
+      "family": "stories",
+      "balance_group": "reflective",
+      "target_lufs": -24,
+      "parent": "storytelling",
+      "direction": "Bedtime telling: shortened gestures, soft piano/harp exchange, no walking pulse.",
+      "duration_seconds": 74.483,
+      "file": "game/audio/storytelling_lullaby.ogg",
+      "notes": 161,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "opening",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "shelter"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "shelter"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "shelter"
+        }
+      ]
+    },
+    {
+      "name": "festival_lanterns",
+      "title": "A Wish of Our Own",
+      "bpm": 64,
+      "meter": 3,
+      "time_signature": "6/8",
+      "family": "festival",
+      "balance_group": "reflective",
+      "target_lufs": -24,
+      "parent": "festival_theme",
+      "direction": "Private wishes: the dance melody opens into a slower harp-led phrase with sustained support.",
+      "duration_seconds": 67.5,
+      "file": "game/audio/festival_lanterns.ogg",
+      "notes": 162,
+      "instruments": [
+        "cello",
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "opening",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "open"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "open"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "open"
+        }
+      ]
+    },
+    {
+      "name": "friendship_play",
+      "title": "Maps We Made",
+      "bpm": 84,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "friendship",
+      "balance_group": "ordinary",
+      "target_lufs": -22,
+      "parent": "friendship_theme",
+      "direction": "Shared imagination: shorter plucked articulation, running answers and a light rhythmic bass.",
+      "duration_seconds": 68.571,
+      "file": "game/audio/friendship_play.ogg",
+      "notes": 244,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano"
+      ],
+      "sections": [
+        {
+          "name": "opening",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "discovery"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "discovery"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "discovery"
+        }
+      ]
+    },
+    {
+      "name": "friendship_warm",
+      "title": "Room for All of Us",
+      "bpm": 64,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "friendship",
+      "balance_group": "ordinary",
+      "target_lufs": -22.5,
+      "parent": "friendship_theme",
+      "direction": "Belonging after compromise: settled chamber duet, warm major harmony, no farewell swell.",
+      "duration_seconds": 90.0,
+      "file": "game/audio/friendship_warm.ogg",
+      "notes": 232,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "opening",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "duet"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "duet"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "duet"
+        }
+      ]
+    },
+    {
+      "name": "workshop_success",
+      "title": "And It Turned",
+      "bpm": 92,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "making",
+      "balance_group": "ordinary",
+      "target_lufs": -22,
+      "parent": "workshop_play",
+      "direction": "The mechanism works: a flowing bass replaces the stop-start pattern; the tune passes to piano.",
+      "duration_seconds": 62.609,
+      "file": "game/audio/workshop_success.ogg",
+      "notes": 252,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano"
+      ],
+      "sections": [
+        {
+          "name": "opening",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "walking"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "walking"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "walking"
+        }
+      ]
+    },
+    {
+      "name": "discovery_careful",
+      "title": "One Rung at a Time",
+      "bpm": 72,
+      "meter": 4,
+      "time_signature": "4/4",
+      "family": "curiosity",
+      "balance_group": "reflective",
+      "target_lufs": -24,
+      "parent": "discovery_theme",
+      "direction": "Concentration on the ascent: separated piano steps and rests, without danger stings.",
+      "duration_seconds": 80.0,
+      "file": "game/audio/discovery_careful.ogg",
+      "notes": 188,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano"
+      ],
+      "sections": [
+        {
+          "name": "opening",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "measured"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "measured"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "measured"
+        }
+      ]
+    },
+    {
+      "name": "remembrance_rain",
+      "title": "The Drawing We Began",
+      "bpm": 58,
+      "meter": 3,
+      "time_signature": "3/4",
+      "family": "remembrance",
+      "balance_group": "reflective",
+      "target_lufs": -24,
+      "parent": "remembrance_theme",
+      "direction": "Remembering while doing: piano and harp gently regain movement; rainfall remains separate.",
+      "duration_seconds": 74.483,
+      "file": "game/audio/remembrance_rain.ogg",
+      "notes": 133,
+      "instruments": [
+        "flute",
+        "harp",
+        "piano",
+        "viola"
+      ],
+      "sections": [
+        {
+          "name": "opening",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "painting"
+        },
+        {
+          "name": "answer",
+          "bars": 8,
+          "lead": "harp",
+          "texture": "painting"
+        },
+        {
+          "name": "return",
+          "bars": 8,
+          "lead": "piano",
+          "texture": "painting"
+        }
+      ]
+    }
+  ]
+}
