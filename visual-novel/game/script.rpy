@@ -53,7 +53,9 @@ label chapter_one:
 
 label garden_lesson:
     $ enter_scene("garden")
+    scene bg garden_close
     play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0
+    play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0
     show maia at at_right
     show calista young at at_left
     with mood_transition()
@@ -179,6 +181,8 @@ label meeting_joren:
     hide joren
     with mood_transition()
     call joren_family_visit
+
+label after_joren_family:
     n "When I introduced him to Cassia, he wanted to know where the creature in my sketchbook lived. Cassia said she could show him." id joren_018
     scene bg family_home
     with mood_transition()
@@ -236,6 +240,7 @@ label the_treehouse:
     n "When we needed more supplies, someone went down to the hollow beneath the treehouse. We kept treasures there, too, behind its second entrance." id tree_026
     hide cassia
     hide joren
+label chapter_rain_refuge:
     $ enter_scene("rain_refuge")
     play music "audio/rain_refuge.ogg" fadeout 2.0 fadein 3.0
     stop ambience fadeout 2.0

@@ -76,6 +76,8 @@ screen main_menu():
             textbutton "Load" action ShowMenu("load")
             textbutton "Settings" action ShowMenu("preferences")
             textbutton "Credits" action ShowMenu("about")
+            if DEV_CHAPTER_SELECT:
+                textbutton "Chapters" action ShowMenu("dev_chapters")
         textbutton "How to read" action ShowMenu("help")
         if not renpy.variant("web"):
             textbutton "Quit" action Quit(confirm=False)
@@ -145,6 +147,8 @@ screen quick_menu():
             textbutton "Skip" action Skip() alternate Skip(fast=True, confirm=True)
             textbutton "People" action ShowMenu("people")
             textbutton "Settings" action ShowMenu("preferences")
+            if DEV_CHAPTER_SELECT:
+                textbutton "Chapters" action ShowMenu("dev_chapters")
 
 init python:
     config.overlay_screens.append("quick_menu")

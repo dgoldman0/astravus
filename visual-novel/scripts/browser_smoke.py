@@ -37,7 +37,7 @@ STATE = '''dict(
     speaker=(_history_list[-1].who if _history_list else None),
     portrait=(dialogue_portrait(_history_list[-1].who) if _history_list else None),
     portrait_visible=bool(renpy.get_widget("say", "speaker_portrait")),
-    visible_actors=[tag for tag in set(SPEAKER_TAGS.values()) if renpy.showing(tag)],
+    visible_actors=sorted(tag for tag in set(SPEAKER_TAGS.values()) if renpy.showing(tag)),
     people=people_names(),
     familiars=familiar_names(),
     visible_familiars=[name for name in FAMILIAR_PROFILES if renpy.showing(name.lower())],
@@ -111,14 +111,26 @@ async def check(url):
             # Read the engine's rendered focus rectangles, then send a real click.
             assert await value(f'bool(renpy.get_screen({screen!r}))')
             code = f'''result = []
+widgets = set()
+renpy.get_screen({screen!r}).visit_all(lambda item, out=widgets: out.add(id(item)))
 for focus in renpy.display.focus.focus_list:
-    if not isinstance(focus.widget, renpy.display.behavior.Button) or focus.x is None:
+    if renpy.display.interface.trans_pause or renpy.display.interface.get_ongoing_transition():
+        continue
+    if id(focus.widget) not in widgets or not isinstance(focus.widget, renpy.display.behavior.Button) or focus.x is None:
         continue
     texts = []
     focus.widget.visit_all(lambda item, out=texts: out.append(item.get_all_text()) if isinstance(item, renpy.text.text.Text) else None)
     if {label!r} in texts and focus.x is not None:
         result.append([focus.x, focus.y, focus.w, focus.h])'''
-            rectangles = await execute(code)
+            # A screen and its focus rectangles can exist during a transition
+            # before the engine accepts input (notably the return-to-title fade).
+            for _ in range(30):
+                rectangles = await execute(code)
+                if rectangles:
+                    break
+                if errors:
+                    raise AssertionError(errors)
+                await asyncio.sleep(.1)
             assert rectangles, f"No visible {label!r} button on {screen}"
             x, y, width, height = rectangles[0]
             await page.mouse.click((x + width / 2) * 2 / 3, (y + height / 2) * 2 / 3)
@@ -142,6 +154,7 @@ for focus in renpy.display.focus.focus_list:
         await page.screenshot(path=str(OUT / "browser-first-memory.png"))
         await execute("preferences.text_cps = 0\npersistent.reduced_motion = True")
         captured = {"first_memory"}
+        entry_states = {"first_memory": initial}
         observed = []
         first_flute = False
         practiced_flute = False
@@ -198,6 +211,7 @@ for focus in renpy.display.focus.focus_list:
             key = state["scene"]
             if not observed or observed[-1] != key:
                 observed.append(key)
+                entry_states.setdefault(key, state)
                 print(f"Browser scene {state['number']:02d}/32: {key}", flush=True)
             assert state["number"] == SCENES.index(key) + 1, state
             if state["number"] < 9:
@@ -337,7 +351,42 @@ for focus in renpy.display.focus.focus_list:
         assert not errors, errors
         assert set(resumed["people"]) == people_checked, resumed
         assert resumed["familiars"] == ["Shadow", "Barkley", "Nibble"], resumed
+        (PROJECT / "test-results/chapter-entrances.json").write_text(json.dumps({"version": expected_version, "entrances": entry_states}, indent=2) + "\n")
         print(f"Browser {expected_version} passed all 32 scenes: all 14 People entries and 3 illustrated familiars, familiar staging in 7 scenes, three flute cues in story order, save/load, ordered reveals, age/clothing, rain, grief, complete ending, Credits, reload and Continue; no engine/page errors.", flush=True)
+
+        # Compare every jump with the same entrance reached through normal play.
+        # Reverse order exercises removal of later encounters and revelations.
+        await click_button("chapter_end", "Return to title")
+        await until("main_menu")
+        await click_button("main_menu", "Chapters")
+        await until('bool(renpy.get_screen("dev_chapters"))')
+        await page.screenshot(path=str(OUT / "browser-dev-chapters.png"))
+        titles = dict(await value("BOOK_SCENES"))
+        compared_fields = (
+            "scene", "number", "visited", "known", "lost", "stage",
+            "met_cassia", "met_joren", "bg", "cg", "calista", "cassia", "joren",
+            "text", "speaker", "portrait", "people", "familiars",
+            "visible_actors", "visible_familiars",
+        )
+        for index, key in enumerate(reversed(SCENES)):
+            if index:
+                await click_button("quick_menu", "Chapters")
+                await until('bool(renpy.get_screen("dev_chapters"))')
+            label = f"{SCENES.index(key) + 1:02d} · {titles[key]}"
+            await click_button("dev_chapters", label)
+            if key == "first_memory":
+                await until('bool(renpy.get_screen("chapter_card"))')
+                await page.keyboard.press("Enter")
+            await until(f'scene_key == {key!r} and bool(_history_list) and bool(renpy.get_screen("say")) and not renpy.context()._menu')
+            jumped = await value(STATE)
+            expected = entry_states[key]
+            differences = {field: (expected[field], jumped[field]) for field in compared_fields if expected[field] != jumped[field]}
+            assert not differences, ("Chapter jump differs from normal play", key, differences)
+            if key in ("family_grief", "music_first", "kaleb_walk", "first_memory"):
+                await page.screenshot(path=str(OUT / f"browser-jump-{key}.png"))
+            print(f"Browser chapter jump {key}: matches normal entrance", flush=True)
+        assert not errors, errors
+        print("All 32 chapter jumps passed against normal-play entrances, including backwards story state and character visibility.", flush=True)
         await browser.close()
 
         # Match the original embedded-preview failure: no WebGL and no input.

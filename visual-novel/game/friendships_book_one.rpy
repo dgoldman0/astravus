@@ -76,6 +76,7 @@ label joren_family_visit:
     hide calista
     hide joren
     with mood_transition()
+label chapter_kaleb_walk:
     $ enter_scene("kaleb_walk")
     scene bg construction_path
     with mood_transition()
@@ -145,6 +146,7 @@ label book_one_later:
     a "Let's leave it alone for a minute."
     n "For a while we did. We watched something we'd made answer the moving water."
 
+label chapter_outer_exploration:
     $ enter_scene("outer_exploration")
     scene bg construction_path
     with mood_transition()
@@ -180,6 +182,7 @@ label book_one_later:
     play ambience "audio/room_air.ogg" fadeout 1.0 fadein 1.0
     n "At home, I tried to explain three discoveries at once. Arin found me some paper."
 
+label chapter_lyra_included:
     $ enter_scene("lyra_included")
     scene bg garden
     with mood_transition()
@@ -205,6 +208,7 @@ label book_one_later:
     n "Shadow rubbed against Lyra's cheek; Nibble climbed onto her shoulder. Her questions followed us down every path."
     n "The next time we packed a bag, Lyra brought hers too."
 
+label chapter_dome_ascent:
     $ enter_scene("dome_ascent")
     scene bg construction_path
     with mood_transition()
@@ -234,6 +238,7 @@ label book_one_later:
     c "I want to draw it next time."
     j "Then we'll bring more paper."
 
+label chapter_treehouse_dispute:
     $ enter_scene("treehouse_dispute")
     scene bg treehouse
     with mood_transition()
@@ -253,44 +258,47 @@ label book_one_later:
     j "And you always think your idea's better."
     n "I opened my mouth before I knew what I would say."
     stop music fadeout 1.5
-    a "Wait. Both of you."
-    a "We're still trying to find the same thing. Tell me the two ways. One at a time."
-    c "I was trying to."
-    a "Then let him finish afterward."
-    n "Shadow jumped onto the table between us. Barkley whined from the cushions; Nibble hurried around the edge of a box."
+    a "Hey, hey. Let's take a breath."
+    a "We're a team, remember? Even the heroes in stories disagree sometimes—but they find a way."
+    n "Even Shadow, who usually stayed out of our arguments, jumped onto the table between us, meowing loudly as if to say, 'Listen to Cassia!'"
     show shadow at familiar_at(1130, 795, 240)
     show barkley at familiar_at(190, 795, 330)
     show nibble at familiar_at(735, 805, 95)
     with mood_transition()
-    n "I moved the map away from Shadow's paws. Joren stopped pacing."
-    j "You go first."
-    c "I want to check the place by the roots. We left before I could see behind them."
-    j "And I want to see what's past the bridge."
-    a "Can we do both?"
-    n "Not as quickly as either of us wanted. We worked out a way, with pauses where the argument kept trying to begin again."
+    n "Barkley sat down and whined softly, looking between Joren and me with concerned eyes. And Nibble ran circles around us, trying to lighten the mood with her antics."
+    n "Her words, along with the pets' actions, were a reminder of the importance of cooperation, and we reluctantly agreed to put aside our differences and find a compromise."
+    n "It wasn't always easy, but through these disagreements, we learned valuable lessons about communication, empathy, and the strength of our friendship."
     hide calista
     hide joren
     with mood_transition()
     play music "audio/rain_refuge.ogg" fadein 2.0
-    n "Joren held the map flat while I marked the place by the roots. Then I passed him the pencil."
-    n "There were more projects, more quarrels, and more afternoons when none of us wanted to go home."
+    n "Through our projects and adventures, we bonded and grew, learning from each experience."
+    n "The lessons from our parents, each other, and our insightful pets shaped us, making us more resilient, creative, and empathetic."
+    n "Our days were filled with discovery and the warmth of friendship, building a foundation for the challenges ahead."
 
+label chapter_loss:
     $ enter_scene("loss")
     scene bg home_dusk
     with mood_transition()
     stop music fadeout 2.0
     stop ambience fadeout 2.0
-    n "Joren went with his family on a routine research expedition to a nearby moon. I expected him to come back with stories, like Kaleb always did."
-    n "A malfunction caused an accident on that expedition. The rescue teams did everything they could, but Joren didn't survive."
+    n "However, life has a way of introducing unforeseen tragedies."
+    n "One fateful day, Joren and his family embarked on a routine research expedition to a nearby moon."
+    n "An unexpected malfunction caused a catastrophic accident, and despite the rescue teams' best efforts, Joren did not survive."
     $ joren_lost = True
     pause 1.0
-    n "I heard the words. I kept waiting for someone to tell me when he was coming home."
-    r "I could still see him leaning over our map, his hand beside mine, holding the paper flat."
-    n "Cassia and I clung to each other. For a while, I could only hold on to her and cry."
-    n "Lyra was frightened by the crying. She stayed close to us, trying to understand why he wasn't coming back."
-    n "The treehouse was still there, with our drawings and our unfinished plans. I couldn't imagine what we were supposed to do in it now."
+    n "In our world, where transcendence and joining with one's Astravus was the norm, and death among the Astraviin was nearly unheard of, Joren's loss was profoundly shocking and unbearably painful."
+    n "It was as if a piece of Lumen itself had been torn away. The vibrant energy that once filled our days was replaced by a hollow emptiness."
+    n "I remember the moment I found out, the words not fully registering at first. My mind refused to accept the possibility."
+    r "Before the Astraviin, how did people cope when they lived for barely a century?"
+    r "The thought of losing loved ones so frequently, living with the constant presence of death, seemed unbearable. Were people just numb to the loss?"
+    n "Cassia and I clung to each other, our shared grief a heavy, suffocating presence."
+    n "Lyra, too young to fully comprehend the permanence of death, was confused and frightened by the sorrow that enveloped our home."
+    n "The places we had explored together now felt different, empty. The treehouse, once a place of joy and adventure, stood as a silent reminder of what we had lost."
 
+label chapter_family_grief:
     $ enter_scene("family_grief")
+    scene bg home_dusk
     play music "audio/grief_theme.ogg" fadein 4.0
     play ambience "audio/room_air.ogg" fadein 3.0
     show calista mourning at at_left
@@ -309,10 +317,9 @@ label book_one_later:
     m "I know, sweetheart. It's so hard to understand."
     m "We have each other to lean on. We'll get through this together."
     n "I stayed there for a long time. When I started crying again, she held me a little closer."
-    r "We were supposed to have centuries before joining our Astravus. There were so many things Joren and I hadn't done yet."
-    r "How had people coped when a century was all they had? Did they ever learn to bear it?"
-    n "I couldn't imagine it. That evening, I just wanted Maia to stay."
+    n "That evening, I just wanted Maia to stay."
 
+label chapter_painting_grief:
     $ enter_scene("painting_grief")
     scene bg family_home
     with mood_transition()
@@ -333,6 +340,7 @@ label book_one_later:
     with mood_transition()
     n "When the light faded, I washed the brush and left the picture where I could find it in the morning."
 
+label chapter_cassia_grief:
     $ enter_scene("cassia_grief")
     scene bg treehouse
     with mood_transition()
@@ -357,6 +365,7 @@ label book_one_later:
     hide cassia
     with mood_transition()
 
+label chapter_community_memorial:
     $ enter_scene("community_memorial")
     scene bg memorial_plaza
     with mood_transition()
@@ -379,6 +388,7 @@ label book_one_later:
     play music "audio/remembrance_theme.ogg" fadein 4.0
     r "Lumen grieved with us. That didn't divide the hurt into smaller pieces, but it meant we didn't have to explain why it mattered."
 
+label chapter_mural_remembrance:
     $ enter_scene("mural_remembrance")
     scene bg memory_mural
     with mood_transition()
@@ -394,6 +404,7 @@ label book_one_later:
     hide calista
     with mood_transition()
 
+label chapter_treehouse_remembrance:
     $ enter_scene("treehouse_remembrance")
     scene bg treehouse_memory
     with mood_transition()
@@ -409,6 +420,7 @@ label book_one_later:
     a "Yes."
     n "Rain moved through the leaves beyond the open windows. We listened to the familiar sound and began another drawing."
 
+label chapter_annual_remembrance:
     $ enter_scene("annual_remembrance")
     scene bg memorial_plaza
     with mood_transition()

@@ -222,7 +222,7 @@ testcase chapter_playthrough:
     advance until eval (scene_key == "treehouse_dispute" and renpy.showing("calista frustrated"))
     assert eval (renpy.showing("joren frustrated"))
     screenshot "disagreement"
-    advance until eval (_history_list[-1].what.startswith("I moved the map away from Shadow's paws."))
+    advance until eval (scene_key == "treehouse_dispute" and renpy.showing("nibble"))
     assert eval (all(renpy.showing(tag) for tag in ("shadow", "barkley", "nibble")))
     screenshot "familiars-disagreement"
     advance until eval (joren_lost)
@@ -285,4 +285,48 @@ testcase chapter_playthrough:
     assert eval (people_names() == ["Cali"] and familiar_names() == [])
     click "Lumen"
     assert eval ("living Astravus" not in _test_screen_text("people") and "Joren" not in _test_screen_text("people"))
+    click "Return"
+    click "Chapters"
+    assert screen "dev_chapters"
+    screenshot "dev-chapters"
+    click "Return"
+    assert eval (scene_key == "first_memory" and visited_scenes == ["first_memory"])
+    click "Chapters"
+    click "26 · What comfort can do"
+    assert eval (scene_key == "family_grief" and joren_lost and lumen_known and childhood_stage == "later") timeout 4.0
+    assert eval (renpy.showing("bg home_dusk") and len(people_names()) == 14 and len(familiar_names()) == 3)
+    assert eval (renpy.music.get_playing() == "audio/grief_theme.ogg") timeout 4.0
+    advance until eval (_history_list[-1].what == "But it hurts so much, Maia.")
+    screenshot "grief-maia-response"
+    advance until eval (_history_list[-1].what == "We have each other to lean on. We'll get through this together.")
+    assert eval (dialogue_portrait("Maia") == "maia home" and renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "grief-embrace"
+    click "Chapters"
+    click "05 · A color you can hear"
+    assert eval (scene_key == "music_first" and not joren_lost and not lumen_known and childhood_stage == "early") timeout 4.0
+    assert eval (people_names() == ["Cali", "Maia", "Kael", "Arin"] and len(_history_list) == 1)
+    assert eval (renpy.showing("bg music_room") and renpy.music.get_playing() is None) timeout 4.0
+    assert eval (not renpy.can_rollback() and scene_key == "music_first" and not joren_lost and "Joren" not in people_names())
+    run FileSave(10, confirm=False, page="1")
+    click "Chapters"
+    click "17 · Beyond the familiar paths"
+    assert eval (scene_key == "kaleb_walk" and met_joren and met_cassia and not joren_lost) timeout 4.0
+    assert eval (renpy.music.get_playing() == "audio/discovery_theme.ogg") timeout 4.0
+    advance until eval (scene_key == "treehouse")
+    assert eval (visited_scenes == list(BOOK_SCENE_KEYS[:18]))
+    run FileLoad(10, confirm=False, page="1")
+    assert eval (scene_key == "music_first" and not joren_lost and not met_joren) timeout 4.0
+    advance until eval (scene_key == "dorian_stories")
+    assert eval (visited_scenes == list(BOOK_SCENE_KEYS[:6]))
+    click "Chapters"
+    click "32 · What remains"
+    assert eval (scene_key == "annual_remembrance" and joren_lost and len(people_names()) == 14) timeout 4.0
+    assert eval (renpy.music.get_playing() == "audio/remembrance_theme.ogg") timeout 4.0
+    advance until screen "chapter_end"
+    click "Return to title"
+    click "Chapters"
+    click "01 · First memory"
+    assert screen "chapter_card" timeout 4.0
+    click "Enter the memory"
+    assert eval (visited_scenes == ["first_memory"] and not joren_lost and not lumen_known and people_names() == ["Cali"] and familiar_names() == []) timeout 4.0
     exit

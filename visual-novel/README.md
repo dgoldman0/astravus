@@ -16,6 +16,8 @@ For a fresh checkout, first run `python3 scripts/project.py install` with Python
 
 Choose **Begin Book I** for a fresh review of version 0.2.4. Click, Space, or Enter reveals and advances dialogue. The bottom bar provides history, save/load, automatic reading, skip, People, and settings. Mouse wheel up or Page Up rolls back; Escape opens the reading menu; H hides the interface. Settings offer larger dialogue, stronger contrast, reduced transitions, separate music/effects volume, and self-voicing where supported.
 
+This development build also includes **Chapters** on the title screen and reading bar. All 32 scenes are available immediately; start at **24 · Which way we go** to read the restored source transition into **25 · The news**, or choose **26 · What comfort can do** for the family response. A jump begins at that scene and continues through the book, with the appropriate earlier encounters, ages, revelations and audio. It replaces the current reading position and clears its history; existing manual save slots remain available. Set `DEV_CHAPTER_SELECT = False` in `game/dev_chapters.rpy` before a release that should hide this control.
+
 People entries follow the current reading's discoveries. Its Familiars section introduces Shadow the cat, Barkley the golden retriever, and Nibble the rat when they first appear in the home narration, with individual illustrated profiles. They also accompany the children visibly in seven scenes. Reading controls do not change events or unlock alternate outcomes. Scene checkpoints and manual saves retain progress. **Continue** and load slots accept this book's save format; older rough-draft saves are preserved but excluded from loading into the rewritten book. Development saves live in `.cache/state/`, with separate test state; packaged desktop games use Ren'Py's per-user save location, and browser saves stay in that browser.
 
 After rebuilding and serving the browser version, open `http://127.0.0.1:8000/?preview=0.2.4`. A game already running in a tab does not replace itself when files are rebuilt. The fresh address also bypasses an old cached index page without clearing saved progress.
@@ -34,6 +36,8 @@ python3 scripts/audio_check.py
 ```
 
 Desktop archives include the runtime. Extract the PC archive and launch `astravus-book-one.sh` on Linux or `astravus-book-one.exe` on Windows; the Mac archive contains an app bundle. Browser builds require HTTP and WebGL. Embedded editor previews may lack WebGL; the startup screen supplies an external-browser link when support is unavailable. Local exports are review artifacts, not published releases.
+
+After both desktop ZIPs build successfully and pass integrity checks, the build helper removes older Astravus desktop exports from `dist/`. Browser builds replace `build/web/` and `build/web.zip`. Git retains source history; local release ZIPs do not accumulate with each version.
 
 Build through `scripts/project.py web` to retain the startup and cache fixes. Game downloads have a build identifier, the service worker revalidates cached content online, and the local preview server sends `Cache-Control: no-store`. Saved progress is stored separately.
 

@@ -9,6 +9,7 @@ import http.server
 import json
 import os
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -118,6 +119,28 @@ def prepare_web():
                 archive.write(path, path.relative_to(web).as_posix())
 
 
+def prune_desktop_exports():
+    """Discard superseded local exports after both current ZIPs pass CRC checks."""
+    options = (PROJECT / "game/options.rpy").read_text()
+    version = re.search(r'^define config.version = "(\d+\.\d+\.\d+)"$', options, re.M).group(1)
+    name = re.search(r'^define build.name = "([\w-]+)"$', options, re.M).group(1)
+    dist = PROJECT / "dist"
+    for platform in ("pc", "mac"):
+        path = dist / f"{name}-{version}-{platform}.zip"
+        with zipfile.ZipFile(path) as archive:
+            bad_member = archive.testzip()
+            if bad_member:
+                raise SystemExit(f"Corrupt export: {path}: {bad_member}. Older exports retained.")
+    current = tuple(map(int, version.split(".")))
+    removed_bytes = 0
+    for path in dist.glob("*.zip"):
+        match = re.fullmatch(r"astravus-(?:book|chapter)-one-(\d+\.\d+\.\d+)-(?:pc|mac)\.zip", path.name)
+        if match and tuple(map(int, match.group(1).split("."))) < current:
+            removed_bytes += path.stat().st_size
+            path.unlink()
+    print(f"Desktop exports checked; removed {removed_bytes / 1024**2:.1f} MiB of superseded builds.")
+
+
 class PreviewRequestHandler(http.server.SimpleHTTPRequestHandler):
     """Local previews must re-read rebuilt files instead of caching them."""
 
@@ -149,6 +172,7 @@ def main():
     elif args.command == "build":
         engine(SDK / "launcher", "distribute", PROJECT, "--destination", PROJECT / "dist",
                "--package", "pc", "--package", "mac")
+        prune_desktop_exports()
     elif args.command == "web":
         if not (SDK / "web").is_dir():
             raise SystemExit("Web support missing. Run: python3 scripts/project.py install")
