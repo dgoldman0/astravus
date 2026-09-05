@@ -1,5 +1,7 @@
 # Writing the kinetic adaptation
 
+**Historical craft notes:** the 0.1.3 examples below do not govern the current script. The 0.2.5 source review removed the invented blue-light/pencil interaction and extra-feet exchange. Their earlier justification was insufficient: natural-sounding stage business still needs to preserve the source encounter’s purpose. Current decisions are in [REVIEW_0_2_5.md](REVIEW_0_2_5.md).
+
 Research reviewed September 4, 2026. These are craft suggestions applied to this story, not rules that override its voice or the author's request to preserve the opening's breathing room.
 
 ## Guidance consulted

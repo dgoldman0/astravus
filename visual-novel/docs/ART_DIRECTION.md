@@ -1,6 +1,6 @@
 # Book I visual direction
 
-Version 0.2.0 follows Calista through the whole of **Book I: Seeds of Youth**. The visual language remains painterly, tactile, and lived in: wood, warm plaster, fabric, used belongings, deep teal foliage, and small amber light sources. The author's repository images establish identity and atmosphere; the prose establishes events. Generated views interpret those references and do not become new architectural or biological canon by themselves.
+Version 0.2.5 follows Calista through the whole of **Book I: Seeds of Youth**. The visual language remains painterly, tactile, and lived in: wood, warm plaster, fabric, used belongings, deep teal foliage, and small amber light sources. The author's repository images establish identity and atmosphere; the prose establishes events. Generated views interpret those references and do not become new architectural or biological canon by themselves.
 
 ## Reference authority
 
@@ -34,9 +34,9 @@ Original selected views live in `game/images/backgrounds/`. Book I additions liv
 | The family home | `family-home.png`, then `book-one/home-dusk.png` for the quieter later interior. They describe the same domestic world at different emotional and lighting moments. |
 | Individual family spaces | `book-one/workshop.png`, `music-room.png`, `library.png`, and `sage-room.png` give the learning scenes and daily montage actual changes of room. |
 | Tree of Echoes | `book-one/echoes.png` gives the siblings' listening scene a separate ancient tree. Creaks suggest voices; the image must not establish literal talking faces or spirits. |
-| Community life | `community-courtyard.png` for the first encounter; `book-one/festival.png` for lanterns, performance, and living displays; `memorial-plaza.png` for shared grief and later remembrance. |
+| Community life | `community-courtyard.png` for Cassia’s small storytelling circle; `festival.png`, `memorial-plaza.png` and `remembrance-plaza.png` share the larger Central Plaza’s tree, curved staircase, central passage, residential terraces and performance dais, with substantial crowds throughout. The festival includes Selene at her harp; the other occasions replace the instrument and lanterns with flowers and messages or drawings. |
 | Friends' families | `book-one/cassia-home.png` carries books and craft; `soren-workshop.png` establishes systems, tools, and prototypes. |
-| Exploration and making | `construction-path.png` supports the unfinished passage and blue-edged light; `book-one/construction-room.png` shows machinery and the projected blueprint; `book-one/waterwheel.png` gives the finished pond project its own view; `dome.png` provides the high internal view over Lumen. |
+| Exploration and making | `construction-path.png` shows unfinished structural panels and walkways; the invented blue-edged light is removed; `book-one/construction-room.png` shows machinery and the projected blueprint; `book-one/waterwheel.png` gives the finished pond project its own view; `dome.png` provides the high internal view over Lumen. |
 | The treehouse | `treehouse-shaded.png` is the familiar dry room; `treehouse-rain.png` preserves its geometry with visible rain outside. `book-one/treehouse-memory.png` adds ordinary drawings and messages to that rainy refuge. |
 | The garden mural | `book-one/memory-mural-v2.png` depicts a hand-painted memory of the children's adventures. Painted Joren is part of an artwork, not a living return or supernatural presence. |
 
@@ -54,7 +54,7 @@ Where the story leaves appearance open, develop an expressive, appealing design 
 
 New everyday parent sprites follow the First Memory identities, with modest later childhood-era changes. Maia's seed-holding pose belongs to the planting lesson; use empty hands elsewhere. A festival lantern or painting palette must not appear before it is held or remain after it is set down.
 
-Standing portraits do not illustrate every action. Hide conflicting sprites for the flute performance, close listening at the tree, pond rescue, lap-and-blanket story, embracing, or lantern release. Narration can carry an action over the environment. The preview includes expanded expressions and wardrobe, but still has limited poses and no separate portrait for every person who speaks. Those are presentation limits, not evidence that an offscreen character is absent from the story.
+Standing portraits do not illustrate every action. Hide conflicting sprites for the flute performance, close listening at the tree, pond rescue, lap-and-blanket story, embracing, or lantern release. Narration can carry an action over the environment. The preview includes expanded expressions and wardrobe, with a portrait for every speaker, though poses remain limited. Those are presentation limits, not evidence that an offscreen character is absent from the story.
 
 ## Compositing, provenance, and review
 
@@ -70,3 +70,9 @@ Full prompts, source relationships, output identifiers, sizes, modes, and hashes
 Selected runtime files belong in Git. Downloaded tools, superseded generations, and unused candidates remain in ignored cache or staging directories and are excluded from packages. The manifests preserve provenance; they are not proof that every new image has received final author approval.
 
 The interface uses dark teal, restrained gold, large text, and separate vector shading layers. Text remains rendered by the game rather than baked into illustrations. Review compositing against both bright garden and dark interior views, check held objects and age changes in scene context, and verify that drawings remain recognizable as drawings after the loss. Actual runtime results belong in [VALIDATION.md](VALIDATION.md); this document records direction and continuity requirements rather than claiming those checks have passed.
+
+## Review corrections in 0.2.5
+
+The pond is clearly visible in `book-one/garden-pond.png`, with shallow pebbles and reachable stone banks. Its matching waterwheel view shows a small handmade project. Keep full standing children out of that view while inspecting the wheel; companion sprites belong on the banks, not in the water.
+
+Cassia’s young, older and mourning portraits have softer lip boundaries, richer facial midtones and dimensional illumination across the forehead, nose and cheeks. Preserve her underlying warm brown complexion and each expression. Supporting parent designs follow the source descriptions; their appearance does not establish new family history.

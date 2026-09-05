@@ -36,8 +36,8 @@
     },
     {
       "file": "game/images/backgrounds/book-one/festival.png",
-      "generation": "book-one-festival-v1",
-      "sha256": "69db8a73db7892bc05507b31a8b2be542a691fb826fc1f84d6f3eb45047bb68b",
+      "generation": "review-025-plaza_festival_matched",
+      "sha256": "0d1ddc42de15e46e839290310074c2db15d0ab5a25f000f2fb4882f236ffb141",
       "size": [
         1672,
         941
@@ -66,8 +66,8 @@
     },
     {
       "file": "game/images/backgrounds/book-one/memorial-plaza.png",
-      "generation": "book-one-memorial-plaza-v1",
-      "sha256": "d58456cedd7531a863864d191a095cf7f23215f64b985afbc0125fc353047049",
+      "generation": "review-025-plaza_memorial",
+      "sha256": "242f9f11339c27d0f479a5280b58ed37e9df754030c490feca59c121c455167c",
       "size": [
         1672,
         941
@@ -116,8 +116,8 @@
     },
     {
       "file": "game/images/backgrounds/book-one/waterwheel.png",
-      "generation": "book-one-waterwheel-v1",
-      "sha256": "e54cc1acde03f2c234d156134b03e57a56e09e4734bc1ee7fc7328db9dfa932c",
+      "generation": "review-025-waterwheel",
+      "sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
       "size": [
         1672,
         941
@@ -148,6 +148,26 @@
       "file": "game/images/backgrounds/book-one/construction-room.png",
       "generation": "book-one-construction-room-v1",
       "sha256": "c5e93b257206702921c19f923b5ee9bcc14676f5ee08765ab37a88d4e0ae18b3",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/garden-pond.png",
+      "generation": "review-025-pond",
+      "sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/remembrance-plaza.png",
+      "generation": "review-025-plaza_remembrance_final",
+      "sha256": "ad1667be4328b4763e5d9282528e40b042c4eb489de7633663169e551bb54495",
       "size": [
         1672,
         941
@@ -190,7 +210,7 @@
         "visual-novel/game/images/backgrounds/community-courtyard.png"
       ],
       "output_id": "exec-8146cbbc-5dae-4934-b7db-73627a4b9db1",
-      "selected": true
+      "selected": false
     },
     {
       "id": "book-one-home-dusk-v1",
@@ -217,7 +237,7 @@
         "visual-novel/game/images/backgrounds/community-courtyard.png"
       ],
       "output_id": "exec-9368b8d6-8354-4c3a-b8c2-a113d2137e9f",
-      "selected": true
+      "selected": false
     },
     {
       "id": "book-one-memory-mural-v1",
@@ -271,7 +291,7 @@
         "visual-novel/game/images/backgrounds/garden-close.png"
       ],
       "output_id": "exec-294764fb-741b-4a0e-bfd4-c9c55215aded",
-      "selected": true
+      "selected": false
     },
     {
       "id": "book-one-workshop-v1",
@@ -302,8 +322,81 @@
         "visual-novel/game/images/backgrounds/book-one/soren-workshop.png",
         "revision/latest.md"
       ],
-      "source_passage": "Book I: Early Friendships \u2014 outer construction exploration, tools and holographic architectural blueprint",
+      "source_passage": "Book I: Early Friendships — outer construction exploration, tools and holographic architectural blueprint",
       "output_id": "exec-a53541dd-5d3c-4f98-907b-267a315710c5.png"
+    },
+    {
+      "id": "review-025-pond",
+      "prompt": "Use case: illustration-story. New 16:9 painterly visual novel background of the shallow pond in Maia's garden. Reference 1 defines the exact garden style, materials and existing pond behind the planting beds. Move the camera closer to that same pond so the water is the unmistakable central subject. Eye-level view from a stone path immediately at the near water edge; a broad safe-to-kneel-on stone bank curves around clear shallow water with visible pebbles, small ripples and reflections of flowers. The pond fills the middle third, fully visible above the bottom quarter where dialogue UI goes. Reeds only at far corners, no thick plants hiding the water. The same vertical timber boundary fence, raised timber flowerbeds and dense teal greenery surround it. A short wooden irrigation spout trickles into the far-left corner. Soft filtered warm artificial daylight, subtle blue bioluminescent plants; physically ordinary water, no enchanted glow. Keep left and right near-bank standing positions usable for sprites. No characters, animals, waterwheel, giant river, bridge, waterfall, water spirits, text or UI. Output landscape 1920x1080 or larger.",
+      "references": [
+        "generation:garden-close-v1"
+      ],
+      "output_id": "exec-573651ce-76d4-4c67-84c4-d357cfa3c815",
+      "selected": true
+    },
+    {
+      "id": "review-025-waterwheel",
+      "prompt": "Use case: precise-object-edit. Edit the attached shallow garden pond background to depict the children's completed miniature waterwheel project. Preserve exact pond, fence, vegetation, stones, daylight, camera and 16:9 composition. Add only a small handmade wooden paddle wheel under the short irrigation spout on the left side of the pond. It is a simple school-age children's project about 25cm in diameter, roughly twice a nearby lily pad, NOT a giant mill wheel or a heavy professional mechanism. Two little wooden supports rest on the stones at the water edge; the spout's small stream turns its roughly cut wooden paddles. Place a small open box of spare pieces and an ordinary hand-sized screwdriver on the far-left bank for scale. Keep water and shallow pebbles legible and leave room at near bank for the children's sprites. No people or animals, no magic, no floating pieces, no electrical generator, no masonry watermill, no text or UI. Same warm painterly style.",
+      "references": [
+        "generation:review-025-pond"
+      ],
+      "output_id": "exec-a7c64ebd-dec5-4f84-8b6f-e1a8941bfca4",
+      "selected": true
+    },
+    {
+      "id": "review-025-plaza_festival",
+      "prompt": "Use case: illustration-story.\nAsset type: finished 16:9 landscape visual novel background, 1920x1080 or larger.\nInput image 1 is a style and architectural-material reference, not a layout to preserve. Replace its cramped nearly empty courtyard with the Central Plaza of Lumen, a thriving community inside a vast living space habitat. Same painterly anime background style, organic grown timber, warm plaster, greenery and subtle blue bioluminescent plants.\nPrimary request: a well attended Festival of Lights in a convincingly spacious public plaza. This will be the master layout for a later memorial at exactly the same viewpoint.\nCamera: human eye level from the near edge of the square, broad view, landscape. Stable physical landmarks: a great leafy tree rising at left beside a broad single curved staircase to an upper pedestrian terrace; behind, a continuous arc of three-story organically grown homes and community rooms with irregular rounded balconies and doors, open passage through the center leading to another inhabited street; a low oval public performance dais at middle-right with three shallow steps, a harp and stool, surrounded by a beautiful floral display; a long planted border and benches along the right. Warm lit rooms reveal more habitation; more homes and terraces recede in the distance. The plaza is broad but framed by the habitat's architecture and artificial evening sky, no horizon of planets or stars.\nThe square is full of life: many dozens of individually readable neighbors, adults and children with varied ages, skin tones and modest colorful everyday clothes, plus a larger dense crowd extending through terraces and the center passage. Friends conversing, children with parents, people watching the harp stage, some sitting on benches. Many people in the near and middle ground, no huge empty foreground or deserted center; leave only a natural narrow walking gap at bottom center for visual novel sprite overlays. People are normal humans with clean coherent anatomy; distant crowd can be painterly but must not become duplicated clones.\nFestival dressing only: paper lanterns strung overhead and gently rising toward the artificial sky, vibrant flowers, warm amber evening light. Subtle grounded biotechnology and plants, not wizard fantasy. No floating runes, magic portals, glowing spirits, religious shrine, stained-glass vortex, looming castle, text, UI, logos or watermarks. High quality warm painterly detail, calm joyful communal atmosphere.",
+      "references": [
+        "generation:book-one-festival-v1"
+      ],
+      "output_id": "exec-d7b32bee-8e8e-467a-8473-17bcea6fb879",
+      "selected": false
+    },
+    {
+      "id": "review-025-plaza_memorial",
+      "prompt": "Use case: precise-object-edit and lighting-weather. Edit the attached Festival plaza into the very same Central Plaza at a memorial gathering for a child named Joren. Absolute invariants: SAME exact camera, framing, physical layout, tree on left, curved staircase on left, three-story balconies, center arched passage and depth, oval stage on middle-right, planted borders, benches, every door and stone path. Do not redesign or move any architecture. Preserve the large inhabited scale and dense community crowd across foreground, square, balconies and passage. Change ONLY occasion, people poses, movable decorations and lighting. Overcast late-afternoon artificial daylight and a few warm practical lamps, soft subdued tones. Remove festive strings and airborne paper lanterns. Remove harp and stool from the oval stage. Put modest bunches of flowers and children's handwritten message cards at the stage edge and nearby rail, messages suggested with small illegible handwriting, no giant text. The gathering is full of ordinary families and neighbors grieving together, quiet conversation, lowered heads, held hands, parents close to children, some seated, most looking toward the stage. Varied muted everyday clothes and complexions, coherent anatomy. Avoid turning it into an empty plaza or a few isolated mourners. No casket, corpse, tomb, religious monument, cathedral, glowing portal, spirits or supernatural manifestations. Same painterly visual novel rendering and 16:9 dimensions. No UI or watermark.",
+      "references": [
+        "generation:review-025-plaza_festival"
+      ],
+      "output_id": "exec-4c8be881-5ee6-4827-a618-e6c456d53ecc",
+      "selected": true
+    },
+    {
+      "id": "review-025-plaza_remembrance",
+      "prompt": "Use case: precise-object-edit and lighting-weather. Edit the attached image into an annual celebration of a child's life in THE EXACT SAME Central Plaza of Lumen. Preserve camera and every physical structure: left tree and curved staircase, all arc-shaped residential buildings and balconies, center passage, oval stage with three steps at middle-right, paths, planted borders and benches. Same large community and many residents through all depths. Only change occasion, decorations, crowd poses and light. Gentle warm late-afternoon artificial daylight; no strings of festival lanterns, no floating lanterns. Remove the harp and stool. A modest informal display of handmade drawings and flowers along the stage edge, individual neighbors sharing stories in small seated and standing groups, quiet warm smiles mixed with thoughtful expressions, children and adults together. More warmth than a funeral, still reflective and communal. No coffin, tomb, shrine, statue, portrait magically alive, ghosts, halos, floating symbols, magical rays, text, UI or watermark. Same finished painterly detail, 16:9 landscape.",
+      "references": [
+        "generation:review-025-plaza_festival"
+      ],
+      "output_id": "exec-d48b81d1-007c-489b-bf6d-56dad2dce5b2",
+      "selected": false
+    },
+    {
+      "id": "review-025-plaza_festival_final",
+      "prompt": "Use case: precise-object-edit. Preserve this image exactly: camera, architecture, crowd, lights, stage, flowers, colors. Change only the harp on the stage: seat the harpist Selene on its existing stool, actually playing the strings. She is a small distant adult woman at the stage scale, with deep bronze skin, genetically white wavy hair, a flowing modest muted plum and slate-blue outfit. Her head and hands are clearly readable but appropriately small in this wide composition. Correct harp-playing pose, hands reaching strings, body aligned with harp, harp rests naturally against shoulder, seated at its right side as physically appropriate. Do not change the instrument's size or position or disturb any other part of the image. Same painterly visual novel style, no added close-up characters, no text or UI.",
+      "references": [
+        "generation:review-025-plaza_festival"
+      ],
+      "output_id": "exec-d6aafa1b-8115-46af-917c-87e66e4ad982",
+      "selected": false
+    },
+    {
+      "id": "review-025-plaza_festival_matched",
+      "prompt": "Edit reference image 1 (memorial plaza) to become its Festival of Lights variant. Reference image 2 is ONLY for festive lighting, paper lanterns and Selene at her harp. The ENTIRE physical layout MUST remain exactly reference 1: preserve the full three-story upper central facade, arched opening above the center passage, curved left staircase, tree silhouette, oval stage, stairs and benches, all edges in the same places. Do not replace upper floors with sky. Change only lighting to warm amber evening, add hanging and rising paper lanterns to open air, replace memorial message cards with a vibrant floral display, and put the harp and seated white-haired bronze-skinned Selene playing it on the existing stage like reference 2. Crowd remains full across all depths, change expressions and gestures to warm happy festival conversations with children carrying lanterns. Keep dark teal organic greenery and painterly style. Sky only where reference 1 already has sky; no stars or light portals cut into buildings. Same landscape canvas and viewpoint. No text, UI or watermark.",
+      "references": [
+        "generation:review-025-plaza_memorial",
+        "generation:review-025-plaza_festival_final"
+      ],
+      "output_id": "exec-70441b06-d78f-4117-a633-4f1ad84ae0f8",
+      "selected": true
+    },
+    {
+      "id": "review-025-plaza_remembrance_final",
+      "prompt": "Edit the reference memorial image for the anniversary gathering. Critical: preserve the ENTIRE architecture exactly, especially the full three-story upper central facade and its arched opening directly above the central passage. Do not replace any part of that building with sky or trees. Preserve exact camera, stair geometry, tree silhouette, benches, oval stage, stones and crowd scale. Change only lighting to gently warm late afternoon; replace the little memorial message cards with children's colorful drawings of adventures, keeping flowers. Neighbors share stories with quiet warm expressions; some sit in groups. No lantern festival decorations or instruments. The mood is a thoughtful annual celebration of Joren's life. Same painterly background, 16:9. No new buildings, no architectural redesign, no UI, no readable words.",
+      "references": [
+        "generation:review-025-plaza_memorial"
+      ],
+      "output_id": "exec-e85bf36b-5b3f-48f4-875c-0da5ccbe9fe4",
+      "selected": true
     }
   ],
   "reference_path_base": "Astravus repository root; generation references may also resolve in assets.json or character-assets.json"

@@ -8,6 +8,7 @@ image joren young = Transform("images/characters/book-one/joren-young.png", ysiz
 
 image calista home = Transform("images/characters/book-one/calista-home.png", ysize=730, fit="contain", mesh=True, shader="astravus.chroma_green")
 image calista festival = Transform("images/characters/book-one/calista-festival.png", ysize=730, fit="contain", mesh=True, shader="astravus.chroma_green")
+image calista festive = Transform("images/characters/book-one/calista-festive.png", ysize=730, fit="contain", mesh=True, shader="astravus.chroma_green")
 image calista older = Transform("images/characters/book-one/calista-older.png", ysize=810, fit="contain", mesh=True, shader="astravus.chroma_green")
 image calista frustrated = Transform("images/characters/book-one/calista-frustrated.png", ysize=810, fit="contain", mesh=True, shader="astravus.chroma_green")
 image calista mourning = Transform("images/characters/book-one/calista-mourning.png", ysize=810, fit="contain", mesh=True, shader="astravus.chroma_green")
@@ -26,3 +27,9 @@ image arin everyday = Transform("images/characters/book-one/arin-everyday.png", 
 image selene everyday = Transform("images/characters/book-one/selene-everyday.png", ysize=810, fit="contain", mesh=True, shader="astravus.chroma_green")
 image dorian everyday = Transform("images/characters/book-one/dorian-everyday.png", ysize=885, fit="contain", mesh=True, shader="astravus.chroma_green")
 image sage everyday = Transform("images/characters/book-one/sage-everyday.png", ysize=835, fit="contain", mesh=True, shader="astravus.chroma_green")
+
+# Supporting parents share the same portrait and compositing conventions.
+image thalia everyday = Transform("images/characters/book-one/thalia-everyday.png", ysize=845, fit="contain", mesh=True, shader="astravus.chroma_green")
+image lyron everyday = Transform("images/characters/book-one/lyron-everyday.png", ysize=880, fit="contain", mesh=True, shader="astravus.chroma_green")
+image soren everyday = Transform("images/characters/book-one/soren-everyday.png", ysize=830, fit="contain", mesh=True, shader="astravus.chroma_green")
+image kaleb everyday = Transform("images/characters/book-one/kaleb-everyday.png", ysize=880, fit="contain", mesh=True, shader="astravus.chroma_green")

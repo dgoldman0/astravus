@@ -11,7 +11,7 @@ The authority for events and their order is [`revision/latest.md`](../../revisio
 | First Breath | Existing `cg first_memory` | Five earlier-life parents and newborn Cali. No older-child sprite; Lyra has not yet been born. |
 | Early family memories | `calista home` | Teal tunic, ochre sash, russet trousers; empty hands for home and learning scenes. |
 | Sunflower lesson and first friends | `calista young`, `cassia young`, `joren young` | Their original faces, poses, and play clothes remain the earliest friendship designs, with new backgrounds for clean compositing. |
-| Festival of Lights | `calista festival` | Midnight-blue and gold tunic, plum leggings; holds a small amber lantern. It must not appear before she has the lantern or after she sets it down. |
+| Festival of Lights | `calista festive`, then `calista festival` | Same midnight-blue and gold tunic and plum leggings throughout. The first pose has empty hands; the second holds a lightweight amber paper sky lantern. It must not appear before she has the lantern or after she sets it down. |
 | Later childhood projects and exploration | `calista older`, `cassia older`, `joren older` | Longer limbs and less round faces, with new practical clothes. Introduce at the source's “As we grew older” transition; never regress to young sprites afterward within the continuous story. |
 | Treehouse disagreement | `calista frustrated`, `joren frustrated` | Same later-childhood outfits, visibly tense expressions. Change expressions back when the disagreement eases. |
 | Grief and remembrance | `calista mourning`, `cassia mourning` | Quiet faces and separate subdued everyday clothes. These are personal clothes, not an invented cultural mourning uniform. |
@@ -42,19 +42,22 @@ New parent sprites use the approved First Memory composition as the identity ref
 - Validate edges against both dark treehouse and brighter garden backgrounds. The generator returned RGB art with a baked transparency preview despite alpha requests. Selected new actors therefore use generated saturated-green backgrounds, removed once by the runtime `astravus.chroma_green` shader. This preserves Selene's white hair and pale highlights that the older light-matte shader could remove. The manifest records actual file modes; runtime compositing must not be described as authored alpha. Call sites apply positioning only, without the legacy `clean_sprite` transform.
 - Full prompts, input relationships, output identifiers, dimensions, and hashes live in [`character-assets.json`](character-assets.json). Selected PNGs remain unmodified generated artwork; discarded candidates belong in ignored staging.
 
-## Dialogue visibility in 0.2.1
+## Dialogue visibility in 0.2.5
 
-`speaker_portraits.rpy` supplies portraits for the ten main speakers whenever their
+`speaker_portraits.rpy` supplies portraits for all fourteen speakers whenever their
 standing image is absent. This covers the workshop accident, music lessons,
 Sage's story, tree listening, pond rescue, soup, rain, dome, embraces, and later
 remembrance. It also identifies an offscreen main speaker during group scenes.
 No live Joren portrait is shown after his death. Lookup reads current save state
 without mutating it, so rollback and load select the appropriate age again.
 
-Thalia, Lyron, Soren, and Kaleb still have no dedicated character artwork. Their
-conversations retain the children they address; Kaleb's memorial speech now shows
-Cali and Cassia listening. The browser playthrough checks every spoken line for
-at least one visible actor or dialogue portrait. Portraits reuse the existing
+Thalia, Lyron, Soren and Kaleb now have dedicated artwork based on the draft and
+Cassia/Joren biographies: Thalia’s green eyes and flowing practical clothes;
+Lyron’s salt-and-pepper hair and hazel eyes; Soren’s cropped hair, blue eyes and
+work clothes; Kaleb’s weathered face, graying brown hair and golden-brown eyes.
+Their dialogue portraits identify them during the family visits; Kaleb appears
+standing during his address. The browser playthrough checks that the actual
+speaker is depicted, rather than accepting any visible listener. Portraits reuse the existing
 expressions; a scene-specific performance illustration is a separate art pass.
 
 ## Familiars in 0.2.3
@@ -90,3 +93,7 @@ Shadow uses its blue-matte counterpart to preserve her green eyes. Her tail was
 also corrected to a single slender tail with a crooked tip. Full prompts, output
 identifiers, selection history, and hashes are in
 [familiar-assets.json](familiar-assets.json).
+
+## Cassia facial shading
+
+The author’s September 4 correction applies across young, older and mourning variants: more facial midtone detail, softer contrast at the lip boundary, and gentle dimensional illumination on cheeks, nose and forehead. The selected edits preserve her complexion, age, expression, hair, clothes and pose. They replace the prior PNGs in place; Git retains the history.

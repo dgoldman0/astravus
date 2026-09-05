@@ -28,7 +28,9 @@ label cassia_family_visit:
     a "You could say when you're ready for the next bit."
     thalia "That sounds like something you can try."
     c "Is that what you do? When people argue?"
-    thalia "I listen until I understand what they're trying to say. Sometimes that takes a while."
+    thalia "Understanding comes from listening first. What do you do when you disagree with someone, Cali?"
+    c "I try to understand their side before I say mine. I don't always remember."
+    thalia "It takes practice."
     c "What if they're still angry?"
     thalia "Then I try not to hurry them."
     n "Cassia pushed the drawing toward me, leaving her cup on its own patch of table."
@@ -133,18 +135,16 @@ label book_one_later:
     play ambience "audio/garden_air.ogg" fadeout 1.5 fadein 1.5
     n "When we carried it to the pond, Lyra was waiting. Arin helped us settle the supports; water pressed against the little wooden paddles."
     lyra "Look at it go!"
-    show calista older at at_left
-    show joren older at at_right
-    with mood_transition()
     j "It's working. Cali, look."
-    c "I am looking."
-    n "Shadow watched from the stones. Barkley's bark startled Nibble off her perch, and Cassia caught the box of spare pieces before it tipped."
-    show shadow at shadow_path
-    show barkley at barkley_path
-    show nibble at nibble_path
+    c "We did it!"
+    n "Shadow watched from the stones. Barkley barked excitedly, and Nibble ran along the bank to inspect our work."
+    # Keep the small project visible and the companions on the stone banks.
+    show shadow at familiar_at(90, 800, 205)
+    show barkley at familiar_at(1805, 810, 330)
+    show nibble at familiar_at(205, 765, 85)
     with mood_transition()
     a "Let's leave it alone for a minute."
-    n "For a while we did. We watched something we'd made answer the moving water."
+    n "For a while we did. After all that measuring and adjusting, our little wheel was finally turning in the pond."
 
 label chapter_outer_exploration:
     $ enter_scene("outer_exploration")
@@ -196,9 +196,7 @@ label chapter_lyra_included:
     c "Cassia's waiting. We're looking for something."
     lyra "You always go with them. Don't you want to play with me? Is it because I'm little?"
     n "I had one hand on my bag. I put it down."
-    c "I do want to. I didn't know you were waiting."
-    lyra "I was right here."
-    c "I'm sorry. Do you want to come today?"
+    c "I'm sorry, Lyra. I didn't mean to make you feel left out. Do you want to come with us today?"
     lyra "All the way?"
     c "With us. Yes."
     hide calista
@@ -351,16 +349,18 @@ label chapter_cassia_grief:
     n "Cassia and I kept finding each other. Some days we talked about him. Some days we sat with everything we couldn't say."
     a "I miss him."
     c "Me too."
-    a "Do you think he knew? How much we wanted him here?"
+    a "Do you think he knew how much he meant to us?"
     n "I looked at the drawings on the wall. At the corner of the map we'd held down together."
-    c "I think he did. We kept coming back, didn't we? All of us."
-    a "We said we always would."
+    c "I think he did, Cassia. He made every afternoon into an adventure. I loved being part of that."
+    a "We promised we'd always meet here."
     n "I reached for her hand."
     c "I remember."
-    n "There wasn't a way to finish that conversation. We stayed in it for a while."
-    a "Tell me about the light you found when you met him."
-    c "It went blue if you stood in the right place. He kept stepping away and coming back."
-    n "She listened. Then she told me something I hadn't been there to see. For a little while, I could imagine his laugh without losing the sound of her voice."
+    n "We sat quietly, still holding hands. Then Cassia looked toward the window."
+    a "Do you remember the dome? When he said we were on top of the world?"
+    c "He looked so pleased with himself. I was still trying to catch my breath."
+    a "We stayed up there all afternoon."
+    c "I didn't want to come down."
+    n "We talked about the view, and the journeys we'd imagined while we sat above Lumen. Remembering still hurt, but I was glad she remembered it with me."
     hide calista
     hide cassia
     with mood_transition()
@@ -374,16 +374,13 @@ label chapter_community_memorial:
     n "The central plaza filled with flowers and messages. I knew it as a place of lanterns and music. Now people stood together and spoke quietly."
     n "Soren's inventions were still around us, part of the workings of Lumen. I couldn't see them without thinking of the workshop, and Joren showing me what each thing was for."
     n "Kaleb spoke at one of the gatherings. I had heard him tell so many stories about going away and coming home."
-    # Kaleb has no authored portrait yet; keep the children he addresses visible.
     show calista mourning at at_left
-    show cassia mourning at at_right
+    show kaleb everyday at at_right
     with mood_transition()
-    kaleb "Joren wanted to see what was beyond the next turning. Most of you know that. Some of you had to go and fetch him."
-    n "A few people smiled through their tears. Kaleb waited before going on."
-    kaleb "He brought such life into a room. Such curiosity."
-    kaleb "I want us to remember that part of him. The things he found. The things he made us stop and look at."
-    kaleb "Keep finding things. Keep sharing them. That's something we can carry on for him."
-    kaleb "And look after one another."
+    kaleb "Joren was a light in our lives. He had a boundless spirit and an insatiable curiosity."
+    n "His voice was steady, but I could hear the effort it took. Around us, people listened with tears on their faces."
+    kaleb "He taught us all the value of adventure and the importance of living each day to the fullest."
+    kaleb "Let us honor his memory by continuing to explore, to learn, and to cherish the time we have together."
     n "He looked out across the people gathered there. No one hurried him away."
     play music "audio/remembrance_theme.ogg" fadein 4.0
     r "Lumen grieved with us. That didn't divide the hurt into smaller pieces, but it meant we didn't have to explain why it mattered."
@@ -422,7 +419,7 @@ label chapter_treehouse_remembrance:
 
 label chapter_annual_remembrance:
     $ enter_scene("annual_remembrance")
-    scene bg memorial_plaza
+    scene bg remembrance_plaza
     with mood_transition()
     play ambience "audio/plaza_air.ogg" fadeout 2.0 fadein 2.0
     r "Each year, the community gathered to remember him. We told stories, shared our grief, and celebrated the life he had lived."

@@ -6,6 +6,8 @@ image bg festival = Transform("images/backgrounds/book-one/festival.png", size=(
 image bg home_dusk = Transform("images/backgrounds/book-one/home-dusk.png", size=(1920, 1080), fit="cover")
 image bg library = Transform("images/backgrounds/book-one/library.png", size=(1920, 1080), fit="cover")
 image bg memorial_plaza = Transform("images/backgrounds/book-one/memorial-plaza.png", size=(1920, 1080), fit="cover")
+image bg remembrance_plaza = Transform("images/backgrounds/book-one/remembrance-plaza.png", size=(1920, 1080), fit="cover")
+image bg garden_pond = Transform("images/backgrounds/book-one/garden-pond.png", size=(1920, 1080), fit="cover")
 image bg memory_mural = Transform("images/backgrounds/book-one/memory-mural-v2.png", size=(1920, 1080), fit="cover")
 image bg music_room = Transform("images/backgrounds/book-one/music-room.png", size=(1920, 1080), fit="cover")
 image bg sage_room = Transform("images/backgrounds/book-one/sage-room.png", size=(1920, 1080), fit="cover")

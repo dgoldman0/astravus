@@ -1,4 +1,4 @@
-# Book I adaptation — version 0.2.4
+# Book I adaptation — version 0.2.5
 
 The preview now adapts **all of Book I: Seeds of Youth**, from First Breath to the closing acts of remembrance. It ends before **Book II: Growing Up**, which opens with Calista entering her late teens. The current script organizes that arc into **32 scenes**, defined in `game/book_structure.rpy`. These are production scene divisions, not newly invented source chapters.
 
@@ -35,7 +35,9 @@ The transition from scene 24 to 25 preserves the source's connected paragraphs. 
 
 The approach builds on [the writing research notes](WRITING_NOTES.md). [Arimia's visual-novel guide](https://arimiadev.com/how-to-make-visual-novels/) supports a fixed story carried by writing and presentation; [Nathan Bransford's dialogue guidance](https://nathanbransford.com/blog/2022/10/seven-keys-to-writing-good-dialogue) informs purposeful exchanges and selective conversational detail. The examples in `WRITING_NOTES.md` describe the earlier 0.1.3 pass, not the current book's coverage or validation status.
 
-Connective inventions include the seed marker, Cassia's winged creature and its extra feet, their evolving map, Cali's blue-edged-light drawing, screw sorting, and the particular negotiation over flower placement. These details belong to the adaptation. The imagined creature is not a new species in world lore, and Sage's three siblings remain characters in an embedded story. Remembered details must stay consistent with who originally said or did them.
+The 0.2.5 story pass removes the invented blue-light encounter and its grief callback. Joren's introduction follows the draft's challenge and Cali's eager participation; later remembrance recalls the already-played dome visit. Cassia's invitation again draws Cali into her mythical-creature story, with the aligned wiki's shared imagining of its eyes. Dorian's historical advice and Kaleb's memorial address retain the source's words. The source transition from cooperation to tragedy remains intact. See [the complete story and visual review](REVIEW_0_2_5.md).
+
+Small connective details remain: the seed marker, the evolving imaginary map, sorting the source's spilled screws into three trays, and the flower-placement negotiation. They support the existing action and are not new history or world mechanics. The creature and Sage's three siblings remain explicitly fictional; Kael's crystal cave is explicitly a dream. Selene's association of music with color is in the source. The Tree of Echoes makes creaking sounds that suggest speech. Affectionate references to Joren's spirit concern stories and memories, without a supernatural return.
 
 ## Revelation and chronology
 
@@ -54,12 +56,12 @@ The newborn illustration ends before later household life. Kael is already older
 
 ## Staging and atmosphere
 
-The setting must support the line currently being read. Family scenes use the family room, workshop, music room, library, Sage's room, and garden rather than one generic backdrop. Festival, water-wheel success, the dome view, mourning plaza, mural, and remembered treehouse have distinct views. The rain variant preserves the treehouse's open bays and furniture; rain sound begins with the weather change. The remembrance variant adds drawings while retaining that rainy room.
+The setting must support the line currently being read. Family scenes use the family room, workshop, music room, library, Sage's room, and garden rather than one generic backdrop. Festival, memorial and annual remembrance share one Central Plaza layout and a substantial community crowd. A close pond view supports the rescue and plant placement; the miniature waterwheel is added to that same pond. The dome, mural and remembered treehouse keep their own views. The rain variant preserves the treehouse's open bays and furniture; rain sound begins with the weather change. The remembrance variant adds drawings while retaining that rainy room.
 
-Standing portraits cannot depict playing a flute, climbing, sitting in someone's lap, an embrace, or a wet rescue. Hide the conflicting pose and let narration carry the action, or use an appropriate illustration. The preview has broader age, clothing, and expression coverage, but it does not animate every narrated movement or provide a portrait for every speaking person. See [art direction](ART_DIRECTION.md) and [character continuity](CHARACTER_CONTINUITY.md).
+Standing portraits cannot depict playing a flute, climbing, sitting in someone's lap, an embrace, or a wet rescue. Hide the conflicting pose and let narration carry the action, or use an appropriate illustration. The preview has broader age, clothing, and expression coverage, and all fourteen speaking people have portraits. It does not animate every narrated movement. See [art direction](ART_DIRECTION.md) and [character continuity](CHARACTER_CONTINUITY.md).
 
 The expanded score preserves First Light's motif while providing family, discovery, wonder, festival, shelter, grief, and remembrance cues. Separate flute attempts make practice audible; environmental sound follows the room and weather. Silence has a place at the loss and in listening scenes. The [audio direction](AUDIO_DIRECTION.md) distinguishes measured technical checks from the listening review still needed for timbre and emotional balance.
 
 ## Review boundaries
 
-This document describes the adaptation and its intended continuity; it does not certify the current integrated build. Actual playthrough results and platform limitations belong in [VALIDATION.md](VALIDATION.md). Review the full book from **Begin Book I** in version 0.2.4: an older save can skip revised material, and the rough draft's save format is intentionally excluded from this rewritten script.
+This document describes the adaptation and its intended continuity; it does not certify the current integrated build. Actual playthrough results and platform limitations belong in [VALIDATION.md](VALIDATION.md). Review the full book from **Begin Book I** in version 0.2.5: an older save can skip revised material, and the rough draft's save format is intentionally excluded from this rewritten script.

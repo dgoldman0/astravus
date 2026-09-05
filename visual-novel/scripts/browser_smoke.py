@@ -177,10 +177,10 @@ for focus in renpy.display.focus.focus_list:
             "Joren": "eager explorer", "Soren": "systems designer", "Kaleb": "explorer",
         }
         expected_backgrounds = {
-            "garden": "garden_close", "plant_disagreement": "garden_close",
+            "garden": "garden_close", "plant_disagreement": "garden_pond",
             "workshop_first": "workshop", "music_first": "music_room",
             "dorian_stories": "library", "sage_story": "sage_room",
-            "tree_echoes": "echoes", "pond_scare": "garden_close",
+            "tree_echoes": "echoes", "pond_scare": "garden_pond",
             "soup_experiment": "family_home", "festival_lights": "festival",
             "meeting_cassia": "community_courtyard", "meeting_joren": "construction_path",
             "treehouse": "treehouse", "rain_refuge": "treehouse_rain",
@@ -189,7 +189,7 @@ for focus in renpy.display.focus.focus_list:
             "family_grief": "home_dusk", "painting_grief": "family_home",
             "cassia_grief": "treehouse", "community_memorial": "memorial_plaza",
             "mural_remembrance": "memory_mural", "treehouse_remembrance": "treehouse_memory",
-            "annual_remembrance": "memorial_plaza",
+            "annual_remembrance": "remembrance_plaza",
         }
         actor_requirements = {
             "garden": ("calista", "young"), "meeting_cassia": ("cassia", "young"),
@@ -229,7 +229,8 @@ for focus in renpy.display.focus.focus_list:
                     await page.screenshot(path=str(OUT / f"browser-portrait-{key}.png"))
                 portrait_scenes.add(key)
             if state["say"] and state["speaker"] not in (None, "Calista · remembering"):
-                assert state["visible_actors"] or state["portrait_visible"], ("Dialogue with no visible character", state)
+                speaker_tag = state["speaker"].lower() if state["speaker"] != "Cali" else "calista"
+                assert speaker_tag in state["visible_actors"] or state["portrait_visible"] or state["cg"], ("Current speaker has no depiction", state)
             if state["number"] >= 20:
                 assert state["stage"] == "later", state
             if state["say"] and state["speaker"] in people_fragments and state["speaker"] not in people_checked:

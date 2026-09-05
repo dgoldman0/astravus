@@ -23,7 +23,7 @@ testsuite global:
 # Keep this identifier: scripts/project.py invokes it explicitly.
 testcase chapter_playthrough:
     assert screen "main_menu"
-    assert eval (config.version == "0.2.4" and config.save_directory == "Astravus-Book-I")
+    assert eval (config.version == "0.2.5" and config.save_directory == "Astravus-Book-I")
     screenshot "title"
     click "Begin Book I"
     assert screen "chapter_card" timeout 4.0
@@ -155,6 +155,9 @@ testcase chapter_playthrough:
     advance until eval (_history_list[-1].what == "Did someone add something?")
     assert eval (renpy.get_widget("say", "speaker_portrait") is not None)
     screenshot "soup-speaking"
+    advance until eval (renpy.showing("calista festive"))
+    assert eval (scene_key == "festival_lights" and not renpy.showing("calista festival"))
+    screenshot "festival-arrival"
     advance until eval (renpy.showing("calista festival"))
     assert eval (scene_key == "festival_lights" and renpy.showing("bg festival"))
     screenshot "festival"
@@ -174,7 +177,11 @@ testcase chapter_playthrough:
     assert eval (scene_key == "meeting_cassia" and renpy.showing("bg community_courtyard") and renpy.showing("cassia young"))
     advance until eval (_history_list[-1].who == "Thalia")
     assert eval ("Thalia" in people_names() and "Lyron" not in people_names())
+    assert eval (dialogue_portrait("Thalia") == "thalia everyday" and renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "thalia-speaking"
     advance until eval (_history_list[-1].who == "Lyron")
+    assert eval (dialogue_portrait("Lyron") == "lyron everyday" and renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "lyron-speaking"
     click "People"
     assert eval ("Lyron" in people_names() and "agricultural systems" in _test_screen_text("people"))
     screenshot "people-lyron"
@@ -186,6 +193,12 @@ testcase chapter_playthrough:
     assert eval ("Joren" in _test_screen_text("people") and "His death" not in _test_screen_text("people"))
     screenshot "people-friends"
     click "Return"
+    advance until eval (_history_list[-1].who == "Soren")
+    assert eval (dialogue_portrait("Soren") == "soren everyday" and renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "soren-speaking"
+    advance until eval (_history_list[-1].who == "Kaleb")
+    assert eval (dialogue_portrait("Kaleb") == "kaleb everyday" and renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "kaleb-speaking"
     advance until eval (scene_key == "treehouse" and renpy.showing("cassia"))
     assert eval (renpy.showing("bg treehouse") and childhood_stage == "early" and renpy.showing("cassia young") and renpy.showing("joren young"))
     screenshot "treehouse"

@@ -6,14 +6,17 @@ init python:
         "Cali": "calista", "Cassia": "cassia", "Joren": "joren",
         "Maia": "maia", "Arin": "arin", "Selene": "selene",
         "Dorian": "dorian", "Sage": "sage", "Kael": "kael", "Lyra": "lyra",
+        "Thalia": "thalia", "Lyron": "lyron", "Soren": "soren", "Kaleb": "kaleb",
     }
     PORTRAIT_VARIANTS = {
-        "calista": ("young", "home", "festival", "older", "frustrated", "mourning", "painting"),
+        "calista": ("young", "home", "festival", "festive", "older", "frustrated", "mourning", "painting"),
         "cassia": ("young", "older", "mourning"),
         "joren": ("young", "older", "frustrated"),
         "maia": ("home",), "arin": ("everyday",), "selene": ("everyday",),
         "dorian": ("everyday",), "sage": ("everyday",),
         "kael": ("young",), "lyra": ("young",),
+        "thalia": ("everyday",), "lyron": ("everyday",),
+        "soren": ("everyday",), "kaleb": ("everyday",),
     }
     SPEAKER_PORTRAITS = {}
     for actor, variants in PORTRAIT_VARIANTS.items():
@@ -38,7 +41,8 @@ init python:
             elif childhood_stage == "later":
                 variant = "frustrated" if scene_key == "treehouse_dispute" else "older"
             elif scene_key == "festival_lights":
-                variant = "festival"
+                # The lantern pose belongs only to the moment she holds one.
+                variant = "festive"
             elif scene_key in ("garden", "meeting_cassia", "meeting_joren", "treehouse", "rain_refuge"):
                 variant = "young"
             else:

@@ -108,27 +108,18 @@ label meeting_cassia:
     n "A few children sat around her. I stayed at the edge, with my sketchbook held against my chest." id cassia_003
     show cassia young at at_right
     with mood_transition()
-    a "Nobody's ever seen it. It only comes out in the dark." id cassia_004
+    a "Its wings shone like starlight. When it flew, even the clouds seemed to make room for it." id cassia_004
     show calista young at at_left
     with mood_transition()
-    c "Then how do you know it's got wings?" id cassia_005
-    a "You can hear them." id cassia_007
-    c "How big are they?" id cassia_008
-    a "Big enough to knock you over. It has to hold on with all four feet when it takes off." id cassia_009
-    n "I opened my book and tried to draw that. When she leaned over to look, I nearly covered the page." id cassia_010
-    a "No, wait. It needs two more feet." id cassia_011
-    c "You said four." id cassia_012
-    a "Those are for walking. It sleeps right up in the branches, and the wind's always trying to blow it out." id cassia_015
-    c "I haven't got room." id cassia_016
-    n "She moved closer and pointed to a gap under one wing. I squeezed in another pair of feet." id cassia_019
-    a "It hangs from those. So its wings don't get squashed." id cassia_017
-    c "Upside down?" id cassia_026
-    a "Yes!" id cassia_027
-    n "She tried to turn the book upside down to show me. I held on to it, laughing, and sat beside her." id cassia_013
+    n "I could picture the creature as she spoke. She noticed me listening and made a space on the blanket." id cassia_010
+    a "It just landed here. What color do you think its eyes are?" id cassia_007
+    c "Purple. With little bits of gold." id cassia_008
+    a "Yes! Like the first stars coming out." id cassia_009
+    n "I sat beside her and opened my sketchbook. The other children leaned closer as I began to draw the creature from her story." id cassia_013
     a "I'm Cassia. What's your name?" id cassia_018
     $ met_cassia = True
     c "Cali." id cassia_028
-    a "Do you want to join our adventure? We're going to find where it lives." id cassia_invitation
+    a "Do you want to join our adventure? We're about to find out what it's searching for." id cassia_invitation
     c "Can I draw the way there?" id cassia_acceptance
     a "Yes. We'll need that if we get lost." id cassia_map
     n "By the time our parents came to find us, the creature had crossed three rivers. We'd used another page for the last one." id cassia_020
@@ -149,34 +140,21 @@ label meeting_joren:
     with mood_transition()
     play music "audio/discovery_theme.ogg" fadeout 1.5 fadein 1.5
     play ambience "audio/workshop_air.ogg" fadeout 1.5 fadein 1.5
-    n "I met Joren near one of Lumen's construction zones. New passages were opening there, and he was collecting anyone who would follow him." id joren_002
+    n "I first met Joren in one of Lumen's construction zones. He came around the corner at the head of a group of children, laughing and calling for the others to catch up." id joren_002
     show joren young at at_right
     show calista young at at_left
     with mood_transition()
-    j "Come on! Let's see who can find the coolest thing." id joren_004
+    j "Come on, let's explore! Let's see who can find the coolest thing first!" id joren_004
     $ met_joren = True
-    c "You're on! I bet I find something first." id joren_007
+    c "You're on! But I bet I'll find something amazing before you do." id joren_007
     j "I'm Joren. What's your name?" id joren_006
     c "Cali." id joren_021
     j "Come on, Cali!" id joren_009
-    n "I hurried after him through the unfinished archway. Then something caught my eye." id joren_011
-    n "A pale line of light ran along the wall. From where I stood, its edge had turned blue." id joren_015
-    j "Cali, this way!" id joren_013
-    c "Wait. Come and look at this." id joren_014
-    j "Already? What did you find?" id joren_022
-    c "Just stand here a minute." id joren_023
-    n "He came back. I moved aside, and he stepped into my place." id joren_024
-    j "Oh! It went blue." id joren_016
-    c "Go back a little." id joren_025
-    n "He leaned away, then came back to find the blue again. I opened my sketchbook on the low ledge." id joren_017
-    j "Are you drawing it?" id joren_026
-    c "Just that bit." id joren_027
-    j "Can we go after?" id joren_029
-    c "Yes. Hold these a second." id joren_030
-    n "I passed him my pencils. He sat beside me, but one boot kept tapping against the ledge." id joren_028
-    c "Joren. You're shaking it." id joren_031
-    j "Oh. Sorry." id joren_032
-    n "He stopped. When I put out my hand for another pencil, he was ready with it." id joren_033
+    n "I tucked my sketchbook into my bag and ran after him. Half-built passages branched ahead of us; every turning looked worth trying." id joren_011
+    j "You're pretty fast for an artist!" id joren_013
+    c "You'll have to keep up, then." id joren_014
+    n "He laughed with his whole body and hurried alongside me. The other children followed us through the archway." id joren_017
+    n "I had gone there to look at what was being built. By the end of the afternoon, I had a new friend and wanted to go exploring with him again." id joren_033
     hide calista
     hide joren
     with mood_transition()

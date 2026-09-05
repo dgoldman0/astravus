@@ -23,9 +23,9 @@
     },
     {
       "file": "game/images/characters/book-one/calista-festival.png",
-      "generation": "calista-festival-key-v1",
+      "generation": "review-025-calista_paper_lantern",
       "image": "calista festival",
-      "sha256": "e423471d5d5cb6aa05781a611f4d31e372133f8d4b76a9456b59dfbe5e5deec5",
+      "sha256": "4641c420de1915ca78ecc4305429a78bc88a16977f01956773f422100303bab9",
       "size": [
         1023,
         1537
@@ -149,9 +149,9 @@
     },
     {
       "file": "game/images/characters/book-one/cassia-mourning.png",
-      "generation": "cassia-mourning-key-v1",
+      "generation": "review-025-cassia_mourning",
       "image": "cassia mourning",
-      "sha256": "36526f14cf88644d3e64d0a8739d96256f32ef7e69a2ed938ae11418b14984fc",
+      "sha256": "9495dfb45c7f45f62bc746b3f655477279e2ab13d39cd31aa2cd45fd16f2caa2",
       "size": [
         1024,
         1536
@@ -167,9 +167,9 @@
     },
     {
       "file": "game/images/characters/book-one/cassia-older.png",
-      "generation": "cassia-older-key-v1",
+      "generation": "review-025-cassia_older",
       "image": "cassia older",
-      "sha256": "f2f2312ee4d9c926493dd3c32437dc0ac09999b2e995472240703080ff9d8ec3",
+      "sha256": "70b224c4bdc84af7bd09a0e36c44f79294469d1d08a7535a08284b6716f2186c",
       "size": [
         1024,
         1536
@@ -185,9 +185,9 @@
     },
     {
       "file": "game/images/characters/book-one/cassia-young.png",
-      "generation": "cassia-young-key-v1",
+      "generation": "review-025-cassia_young",
       "image": "cassia young",
-      "sha256": "22b59f9f9f2376ac32e2e96e5606af9389f517b594de73ab8d1cad203cfcff00",
+      "sha256": "362378277efed564dcc97d3902fd3262bd3cd7ce5c0a7e1c979f3b240ce81283",
       "size": [
         1024,
         1536
@@ -362,6 +362,56 @@
         30
       ],
       "draw_height": 810
+    },
+    {
+      "file": "game/images/characters/book-one/thalia-everyday.png",
+      "generation": "review-025-thalia",
+      "sha256": "654c9f3316c1c78d023efb8b4d22afd1b68003d7f47a6435c2a6b1984f637132",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/characters/book-one/lyron-everyday.png",
+      "generation": "review-025-lyron",
+      "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/characters/book-one/soren-everyday.png",
+      "generation": "review-025-soren",
+      "sha256": "aa9cefcc28cff081cf23ee1f6a56bfbe44731318b1ef3f7ec1946dd57cd516cf",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/characters/book-one/kaleb-everyday.png",
+      "generation": "review-025-kaleb",
+      "sha256": "dbd65a8637da9692dda912025d87da0d3419d1acedb20cc3b0bf96a57be1184b",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/characters/book-one/calista-festive.png",
+      "generation": "review-025-calista_festive",
+      "sha256": "de762d14dda9368a3015b601e97a368b2e10a58302481ef08ec03f0bff9fd782",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGB"
     }
   ],
   "generations": [
@@ -515,7 +565,7 @@
     {
       "id": "calista-festival-key-v1",
       "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including white hair and eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
-      "selected": true,
+      "selected": false,
       "references": [
         "generation:calista-festival-v1"
       ],
@@ -524,7 +574,7 @@
     {
       "id": "cassia-older-key-v1",
       "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact person from this image: face identity, age, expression, pose, every strand of hair, warm skin color, outfit and folds, held objects, full-body proportions, light on the person, and full portrait framing. Replace ONLY the white/gray checkerboard around the subject and through the gaps around hands/hair/legs with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green must extend uniformly to all four edges, with no gradient, shadows, floor, pattern or backdrop texture. No green glow, spill or reflection on the person; keep their original natural colors including white hair and eye highlights. The background must be SOLID PURE GREEN, NOT transparency, NOT checkerboard. Render careful clean natural silhouette edges and retain all fine hair. Do not change the person's design, expression or lighting. No text, logo, extra props, or scenery.",
-      "selected": true,
+      "selected": false,
       "references": [
         "generation:cassia-older-v1"
       ],
@@ -623,7 +673,7 @@
     {
       "id": "cassia-mourning-key-v1",
       "prompt": "Use case: identity-preserve. Production full-body Ren'Py character sprite. Preserve reference face identity, age, skin tone, eye color, hair color, overall body proportions and finely painted storybook realism. Keep head and both boots fully in portrait frame, same gentle three-quarter angle, clean natural silhouette. BACKGROUND: perfectly uniform solid chroma GREEN #00FF00 RGB(0,255,0) everywhere outside figure, including gaps between limbs and fine hair. NO transparency/checkerboard/white backdrop, no gradient, no floor/shadow, no green light/spill/reflections on subject. Keep all original natural subject colors, soft restrained warm light with no rim glow. No words, watermark or scenery. Same visibly later-childhood Cassia, rich UMBER skin, deep GREEN eyes, long chestnut wavy hair, slim young figure and familiar face. Change clothes to muted dusty-plum long-sleeved tunic, soft charcoal-teal shawl resting around shoulders, simple dark brown trousers and familiar brown boots. Hair loose with a small plain low tie, no golden headband. No notebook or bag or objects held: hands rest gently together in front. Quiet grief, slightly lowered head and shoulders, tired moist eyes looking toward her friend, mouth closed and trembling slightly without ANY smile. Not exaggerated wailing, no dramatic pose. Do not lighten skin, age into adulthood or add black funeral symbolism.",
-      "selected": true,
+      "selected": false,
       "references": [
         "generation:cassia-older-v1"
       ],
@@ -668,7 +718,7 @@
     {
       "id": "cassia-young-key-v1",
       "prompt": "Use case: precise-object-edit. Production visual-novel sprite background correction ONLY. Preserve the exact young child from this image: identical recognizable face, age, expression, pose, body proportions, hairstyle and individual fine strands, natural skin and eye color, exact clothing, fabric folds, boots, held objects, warm painterly lighting, and FULL BODY portrait framing. Do not age this character or change their design. Replace ONLY the white/gray checkerboard around the child and through all gaps between limbs/hair/fingers with perfectly flat solid CHROMA GREEN RGB(0,255,0), hex #00FF00. Green extends uniformly to all four edges, no gradient, shadow, floor, pattern or backdrop texture. No green glow, spill, reflection or color cast on the person. Background must be SOLID PURE GREEN, not transparency, not checkerboard. Keep clean natural silhouette edges, don't crop any hair/boots. No text, logos, new props or scenery.",
-      "selected": true,
+      "selected": false,
       "references": [
         "generation:cassia-v2"
       ],
@@ -682,6 +732,87 @@
         "generation:joren-v2"
       ],
       "output_id": "exec-073711c5-959d-4da5-83d5-5701bbdb38a5.png"
+    },
+    {
+      "id": "review-025-thalia",
+      "prompt": "Use case: illustration-story. Asset type: one full-body visual novel character sprite. Reference image 1 is ONLY the painterly rendering style, full-body framing, grounded clothing, and green backing convention. Create a different individual: Thalia, Cassia's mother, a graceful adult community mediator with deep green eyes, warm brown skin, softly waved chestnut hair loosely gathered behind one shoulder, a thoughtful welcoming expression. Flowing practical dusty plum tunic over comfortable dark trousers, muted ochre sash, flat shoes. Upright relaxed posture, empty hands loosely resting together, no dramatic gesture. Her face must be distinct from Maia's. Setting is an advanced organic living space habitat, so clothing is comfortable and practical, no wizard or medieval costume. Match the reference's softly painted realistic anime proportions, warm tactile fabric, restrained shading and detailed natural face. Full head, both hands, both feet entirely visible; centered standing character filling 94 percent of portrait height, head centered near x=512 at y=170. Leave clean margin around silhouette. 1024x1536 portrait canvas. Pure flat saturated green #00ff00 background with no ground shadow, no backdrop texture, no checkerboard, no green rim lighting, no props, no text or watermark. One character only.",
+      "references": [
+        "generation:maia-home-key-v1"
+      ],
+      "output_id": "exec-ebca1393-a06d-467f-911c-5ac8399af41b",
+      "selected": true
+    },
+    {
+      "id": "review-025-lyron",
+      "prompt": "Use case: illustration-story. Asset type: one full-body visual novel character sprite. Reference image 1 is ONLY the painterly rendering style, full-body framing, grounded clothing, and green backing convention. Create a different individual: Lyron, Cassia's father, a tall adult agricultural systems manager with salt-and-pepper hair, kind hazel eyes, warm brown skin, gentle lined face and a short neatly trimmed salt-and-pepper beard. A practical muted slate-blue work shirt with sleeves rolled, brown trousers, comfortable shoes. Unhurried attentive posture, both hands relaxed and empty. Distinct face, no glasses. Setting is an advanced organic living space habitat, so clothing is comfortable and practical, no wizard or medieval costume. Match the reference's softly painted realistic anime proportions, warm tactile fabric, restrained shading and detailed natural face. Full head, both hands, both feet entirely visible; centered standing character filling 94 percent of portrait height, head centered near x=512 at y=170. Leave clean margin around silhouette. 1024x1536 portrait canvas. Pure flat saturated green #00ff00 background with no ground shadow, no backdrop texture, no checkerboard, no green rim lighting, no props, no text or watermark. One character only.",
+      "references": [
+        "generation:maia-home-key-v1"
+      ],
+      "output_id": "exec-d8431471-432d-49f2-82a5-618e05cdcebb",
+      "selected": true
+    },
+    {
+      "id": "review-025-soren",
+      "prompt": "Use case: illustration-story. Asset type: one full-body visual novel character sprite. Reference image 1 is ONLY the painterly rendering style, full-body framing, grounded clothing, and green backing convention. Create a different individual: Soren, Joren's mother, an inventive adult woman, sharp blue eyes, fair lightly freckled skin, very short cropped sandy blond hair, alert focused expression with a slight friendly smile. Practical slate-blue work overalls over an ochre shirt, some small believable grease smudges and a utility pocket, nimble empty hands relaxed at her sides, sturdy work shoes. No scanner, no weapon, no held tools. Setting is an advanced organic living space habitat, so clothing is comfortable and practical, no wizard or medieval costume. Match the reference's softly painted realistic anime proportions, warm tactile fabric, restrained shading and detailed natural face. Full head, both hands, both feet entirely visible; centered standing character filling 94 percent of portrait height, head centered near x=512 at y=170. Leave clean margin around silhouette. 1024x1536 portrait canvas. Pure flat saturated green #00ff00 background with no ground shadow, no backdrop texture, no checkerboard, no green rim lighting, no props, no text or watermark. One character only.",
+      "references": [
+        "generation:maia-home-key-v1"
+      ],
+      "output_id": "exec-8c184796-1382-4a48-8a7f-cba160238bdf",
+      "selected": true
+    },
+    {
+      "id": "review-025-kaleb",
+      "prompt": "Use case: illustration-story. Asset type: one full-body visual novel character sprite. Reference image 1 is ONLY the painterly rendering style, full-body framing, grounded clothing, and green backing convention. Create a different individual: Kaleb, Joren's father, a tall rugged adult explorer with a weathered face, brown hair streaked with gray, short brown and gray stubble, warm golden-brown eyes and sun-warmed fair skin. Practical layered earth-brown and muted slate-teal traveling clothes, a simple belt, worn boots. Relaxed upright stance, empty hands, quiet thoughtful closed-mouth expression suitable for both a gentle conversation and speaking at his son's memorial. Do not make him grin, cry, old and frail, or heroic in armor. Setting is an advanced organic living space habitat, so clothing is comfortable and practical, no wizard or medieval costume. Match the reference's softly painted realistic anime proportions, warm tactile fabric, restrained shading and detailed natural face. Full head, both hands, both feet entirely visible; centered standing character filling 94 percent of portrait height, head centered near x=512 at y=170. Leave clean margin around silhouette. 1024x1536 portrait canvas. Pure flat saturated green #00ff00 background with no ground shadow, no backdrop texture, no checkerboard, no green rim lighting, no props, no text or watermark. One character only.",
+      "references": [
+        "generation:maia-home-key-v1"
+      ],
+      "output_id": "exec-68ccb206-5b2f-4a90-a8d8-d1a2a629aa7d",
+      "selected": true
+    },
+    {
+      "id": "review-025-cassia_mourning",
+      "prompt": "Use case: identity-preserve and precise-object-edit. Edit ONLY facial illumination/shading in this Cassia visual novel sprite, following the author's art correction. Keep her exact identity, deep warm brown complexion, green eyes, age, face geometry, sad mourning expression and closed lips, hair, clothes, pose, hands, body, all edges, framing, dimensions and pure green background completely unchanged. Bring more visible midtone detail into her face. Reduce the heavy dark contrast and drawn outline around her lips slightly, blending the lip boundary into surrounding skin naturally while preserving her mouth shape. Add subtle dimensional illumination across cheeks, bridge and tip of nose, brow and forehead, with soft warm reflected fill on the shadow side. Make planes of the face readable through richer natural brown midtones rather than crushed nearly black patches, without lightening her underlying skin tone or washing it out. Keep gentle believable highlights, not greasy glossy skin. Preserve the painterly rendering; no airbrushed plastic face, makeup, new smile, redesign, stronger outlines, hard rim light, orange cast or green spill. This is a restrained shading correction, not a new character or new outfit. Full body 1024x1536, same transparent-compositing green backing.",
+      "references": [
+        "generation:cassia-mourning-key-v1"
+      ],
+      "output_id": "exec-891cb9a8-b071-44fc-ad33-d49ebd3136f1",
+      "selected": true
+    },
+    {
+      "id": "review-025-cassia_young",
+      "prompt": "Use case: identity-preserve and precise-object-edit. Edit ONLY facial illumination/shading in this Cassia visual novel sprite, following the author's art correction. Keep her exact identity, deep warm brown complexion, green eyes, age, face geometry, friendly expression, hair, clothes, pose, hands, body, all edges, framing, dimensions and pure green background completely unchanged. Bring more visible midtone detail into her face. Reduce the heavy dark contrast and drawn outline around her lips slightly, blending the lip boundary into surrounding skin naturally while preserving her mouth shape. Add subtle dimensional illumination across cheeks, bridge and tip of nose, brow and forehead, with soft warm reflected fill on the shadow side. Make planes of the face readable through richer natural brown midtones rather than crushed nearly black patches, without lightening her underlying skin tone or washing it out. Keep gentle believable highlights, not greasy glossy skin. Preserve the painterly rendering; no airbrushed plastic face, makeup, new smile, redesign, stronger outlines, hard rim light, orange cast or green spill. This is a restrained shading correction, not a new character or new outfit. Full body 1024x1536, same transparent-compositing green backing.",
+      "references": [
+        "generation:cassia-young-key-v1"
+      ],
+      "output_id": "exec-95e9bfec-b797-4c28-9607-d44e9858c2fe",
+      "selected": true
+    },
+    {
+      "id": "review-025-cassia_older",
+      "prompt": "Use case: identity-preserve and precise-object-edit. Edit ONLY facial illumination/shading in this Cassia visual novel sprite, following the author's art correction. Keep her exact identity, deep warm brown complexion, green eyes, age, face geometry, friendly expression, hair, clothes, pose, hands, body, all edges, framing, dimensions and pure green background completely unchanged. Bring more visible midtone detail into her face. Reduce the heavy dark contrast and drawn outline around her lips slightly, blending the lip boundary into surrounding skin naturally while preserving her mouth shape. Add subtle dimensional illumination across cheeks, bridge and tip of nose, brow and forehead, with soft warm reflected fill on the shadow side. Make planes of the face readable through richer natural brown midtones rather than crushed nearly black patches, without lightening her underlying skin tone or washing it out. Keep gentle believable highlights, not greasy glossy skin. Preserve the painterly rendering; no airbrushed plastic face, makeup, new smile, redesign, stronger outlines, hard rim light, orange cast or green spill. This is a restrained shading correction, not a new character or new outfit. Full body 1024x1536, same transparent-compositing green backing.",
+      "references": [
+        "generation:cassia-older-key-v1"
+      ],
+      "output_id": "exec-95cdbf83-101a-453a-b17e-c5512e07af97",
+      "selected": true
+    },
+    {
+      "id": "review-025-calista_festive",
+      "prompt": "Use case: precise-object-edit. Edit only the lantern and hands in the attached Calista sprite: remove the metal lantern entirely, and rest her empty hands naturally together at her waist. Keep her exact facial identity, expression, eye color, freckles, hair, hair clip, age, body proportions, navy-and-gold festival tunic, sash, leggings, boots, lighting, position, dimensions and flat green backdrop unchanged. This is the same girl in the same outfit immediately before she takes a festival lantern. No extra objects, no costume change, no added accessories or text. Painterly visual novel sprite, full body. Preserve sharp clean silhouette and original 1024x1536 framing.",
+      "references": [
+        "generation:calista-festival-key-v1"
+      ],
+      "output_id": "exec-c662b418-0d97-4eba-a835-109bdbdb6021",
+      "selected": true
+    },
+    {
+      "id": "review-025-calista_paper_lantern",
+      "prompt": "Use case: precise-object-edit. Edit ONLY the held lantern and hand contact in this Calista sprite. Replace the heavy metal/glass lantern with a lightweight rounded oval amber paper sky lantern, thin translucent paper panels and delicate bamboo ribs, warm diffuse light inside, open light frame at bottom, no heavy metal cap or carrying handle. It is about the same width but slightly taller, held carefully at its light lower rim with both hands. Do not cover her face or change her facial expression, eye color, freckles, hair, age, hairstyle, navy/gold tunic, sash, leggings, boots, body, pose or proportions. Preserve exactly the same full-body canvas, pure green backing and painterly rendering. No text, no new accessories. This lantern is the small paper lantern she will release with her siblings at a festival. No giant balloon and no sparks or burning paper.",
+      "references": [
+        "generation:calista-festival-key-v1"
+      ],
+      "output_id": "exec-f3c801f6-1d04-4196-b141-2e6ac97d217e",
+      "selected": true
     }
   ],
   "tool": "Built-in OpenAI image_gen (no CLI/API fallback)",

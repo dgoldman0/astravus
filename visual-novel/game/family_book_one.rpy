@@ -22,7 +22,7 @@ label family_book_one:
 
 label family_plant_disagreement:
     $ enter_scene("plant_disagreement")
-    scene bg garden_close
+    scene bg garden_pond
     with mood_transition()
     play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0
@@ -43,7 +43,7 @@ label family_plant_disagreement:
     hide kael
     show maia home at at_right
     with mood_transition()
-    n "Maia came over before I'd managed to lift the next pot. She rested a hand on each of our shoulders."
+    n "Maia came over before I'd managed to lift the next pot. We both started explaining."
     m "Show me. One at a time."
     c "If they're by the water, you can see the flowers twice."
     n "I pointed to the reflection of a low branch. Maia crouched beside me to follow its shape on the water."
@@ -142,7 +142,7 @@ label family_music_first:
     selene "There was a note in there. I heard it."
     c "Only at the start."
     selene "Then we'll start there again. You can take a smaller breath."
-    n "I tried. This time I listened for the moment the air became something I could hold."
+    n "I tried again with a gentler breath. The note lasted a little longer before it broke."
     c "Like that?"
     selene "Yes. Don't chase it."
     n "Her hand moved gently with the rhythm of my breathing. When I stopped, she waited for me to be ready."
@@ -152,7 +152,7 @@ label family_music_first:
     n "We went a few notes at a time. Sometimes I lost one and had to begin again; sometimes her voice met mine in the middle."
     selene "Do you hear that color?"
     c "A color?"
-    selene "Pale blue. Something quiet, just waking up."
+    selene "It makes me think of pale blue. Like the morning sky. A little shy, a little soft."
     n "I looked down at the flute. I had been thinking about holes and fingers, and whether I would get it wrong."
     c "Can a song be green?"
     selene "What would your green sound like?"
@@ -161,7 +161,7 @@ label family_music_first:
     n "I raised the flute again. This time I wanted to hear what it would do."
     stop sound fadeout 1.0
     play music "audio/home_theme.ogg" fadein 2.0
-    r "Selene never asked me to stop seeing pictures. She gave me another way to make them."
+    r "I still missed plenty of notes. Her encouraging smile made it easier to try again."
     return
 
 label family_dorian_stories:
@@ -170,7 +170,7 @@ label family_dorian_stories:
     with mood_transition()
     play music "audio/wonder_theme.ogg" fadeout 2.0 fadein 2.0
     play ambience "audio/room_air.ogg" fadeout 1.0 fadein 1.0
-    n "Dorian had a way of arranging an evening before he said a word. A lamp moved closer. A map unrolled. His glasses settled on his nose."
+    n "Dorian gathered us in the library every evening. He opened a book beside an old map, moved the lamp closer, and settled his glasses on his nose."
     show dorian everyday at at_right
     with mood_transition()
     dorian "And so the historian gathered his listeners."
@@ -179,7 +179,9 @@ label family_dorian_stories:
     n "Kael drew his knees up on the seat. Lyra leaned against me, watching Dorian's hands on the edges of the map."
     dorian "Tonight, the explorers."
     kael "Can we follow their routes one day?"
-    dorian "Perhaps. Which route were you thinking of?"
+    dorian "Perhaps. But first, we must learn their stories. A traveler who does not know the past is merely lost."
+    dorian "A traveler who carries history with them? They are never alone."
+    dorian "Which route would you like to hear about?"
     n "Kael pointed to a line that crossed nearly the whole map. Dorian let him follow it to the far edge."
     kael "That one."
     dorian "All the way?"
@@ -188,12 +190,11 @@ label family_dorian_stories:
     c "Is it a long story?"
     dorian "Do you need to be somewhere?"
     c "No."
-    n "I tucked my feet beneath me. He lowered his voice, and the little reading area seemed to grow around it."
-    n "The names were unfamiliar at first. By the time he returned to them, I could remember who had gone ahead and who was still waiting."
+    n "I tucked my feet beneath me. He began to tell us about the explorers who had traveled those routes, the distant places they reached, and the courage their journeys had taken."
     lyra "Did they get home?"
     dorian "Stay with them a little longer."
     n "He gave us the pauses as carefully as the words. Even Kael stopped trying to turn the page ahead of him."
-    r "I remember the lamp on the paper better than every place he described. But I remember wanting those strangers to find their way."
+    r "Those journeys made me want to see more of the world. Even before I could go anywhere, I could follow them across Dorian's map."
     n "When the story ended, Kael leaned over the map again."
     kael "I'd still go."
     dorian "Good. Now you know a little more about where you'd be going."
@@ -266,7 +267,7 @@ label family_daily_rhythm:
     with mood_transition()
     play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0
     play ambience "audio/room_air.ogg" fadeout 1.0 fadein 1.0
-    n "There were mornings with nothing particular to remember. Bread cooling. Fruit from Maia's garden. Shadow stretching at the foot of my bed."
+    n "Most mornings began with fresh bread, fruit from Maia's garden, and Shadow stretching at the foot of my bed."
     n "Barkley waited outside my door. Nibble was already stirring in her cage. Before I reached the table, I could hear Kael explaining his dream."
     show shadow at shadow_home
     show barkley at barkley_home
@@ -344,9 +345,7 @@ label family_daily_rhythm:
     with mood_transition()
     n "By bedtime, the board was put away and the arguments had usually worn themselves out. Sage drew us close for a story."
     sage "Once there was a brave little mouse named Nibble."
-    lyra "Nibble's a rat."
-    sage "Our Nibble is. Shall we see what this one does?"
-    n "Lyra nestled against them to listen. Later, Shadow found the foot of my bed, Barkley settled near Kael, and the rooms grew quiet."
+    n "Lyra giggled at the familiar name and nestled against them to listen. Later, Shadow found the foot of my bed, Barkley settled near Kael, and Nibble curled up in her cozy corner. The rooms grew quiet."
     r "I wouldn't have called those days important. I expected to have them again."
     return
 
@@ -399,12 +398,12 @@ label family_tree_echoes:
     kael "We know the way now."
     lyra "I want to hear it again."
     n "None of us moved for a while. We stood together, listening for the next almost-word."
-    r "The tree wasn't speaking. What I felt beside it was real enough without that."
+    r "Dorian's stories had brought us here. Now we had a memory of the tree to share with him."
     return
 
 label family_pond_scare:
     $ enter_scene("pond_scare")
-    scene bg garden_close
+    scene bg garden_pond
     with mood_transition()
     stop music fadeout 2.0
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0
@@ -478,9 +477,10 @@ label family_festival_lights:
     play music "audio/festival_theme.ogg" fadeout 2.0 fadein 3.0
     play ambience "audio/plaza_air.ogg" fadeout 1.0 fadein 2.0
     n "Every year, the Festival of Lights drew our home into the wider community. The central plaza filled with lanterns and living displays."
-    n "We celebrated what nature and technology could make together. I wanted to look at everything before any of it changed."
+    n "Families filled the paths between the displays. People called to friends across the square, and children tugged their parents toward the next thing they wanted to see."
+    n "We celebrated the harmony of nature and technology. Maia had helped prepare the floral centerpiece, and Selene was performing on the small stage."
     show lyra young at at_right
-    show calista festival at at_left
+    show calista festive at at_left
     with mood_transition()
     lyra "Look up there. And there!"
     kael "It's like the stars came down."
@@ -493,7 +493,7 @@ label family_festival_lights:
     hide lyra
     show kael young at at_right
     with mood_transition()
-    n "Maia's flowers glowed in the display. I moved closer to find the places where one color changed into another."
+    n "We found Maia's flowers beside the stage, surrounded by people admiring the display. She had been working on it for days; I was proud to see everyone enjoying it."
     kael "You're going to draw all this, aren't you?"
     c "I'm trying to remember it."
     kael "There's more over here."
@@ -501,17 +501,23 @@ label family_festival_lights:
     hide calista
     hide kael
     with mood_transition()
-    n "Later, we stood together to release our lanterns. Each carried a wish. Lyra watched hers as though looking away might make her lose it."
+    n "Later, each of us took a lantern and made a wish."
+    show calista festival at at_left
+    show kael young at at_right
+    with mood_transition()
+    n "I held mine carefully between my hands while we waited for the others. All across the plaza, families were getting ready."
+    hide calista
+    hide kael
+    with mood_transition()
+    n "Together, we released our lanterns toward the artificial sky. Lyra watched hers rise above the crowd."
     lyra "Which one's mine now?"
     c "That one. Just above the others."
     n "I followed it until I wasn't certain anymore. The separate lights were becoming a whole sky."
     c "What did you wish for, Kael?"
     kael "To explore new worlds."
-    c "Of course you did."
     kael "What was yours?"
     c "To capture all this. All the beautiful things we get to see."
     kael "You'll need a bigger book."
-    n "I smiled without taking my eyes off the lanterns. For once, a bigger book seemed like the only difficulty."
-    r "There was so much I expected the world to give us. I hadn't begun to count any of it."
+    n "I smiled without taking my eyes off the lanterns. Our wishes rose together until I could no longer tell which light was mine."
     n "Around us, other families watched their wishes rise. Soon, some of those faces would become as familiar as my own."
     return

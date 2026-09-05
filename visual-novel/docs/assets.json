@@ -78,8 +78,8 @@
     },
     {
       "file": "game/images/backgrounds/construction-path.png",
-      "generation": "construction-path-v1",
-      "sha256": "96e86bb7b2028a492d92db2ec9bd795ab9a423fe5fb38520b5c6e7cc84006473",
+      "generation": "review-025-construction",
+      "sha256": "9d36f01f1f51194bc99e0d79ce8811397c0b90a23f2df71de18d7a39e90dd0b8",
       "size": [
         1672,
         941
@@ -266,7 +266,7 @@
     {
       "id": "construction-path-v1",
       "prompt": "Use case: illustration-story. New 16:9 background for the Astravus visual novel. Reference image supplies the inhabited world's organically curved architecture and painterly rendering ONLY. Create a much closer, child-height view of a quiet passage on the edge of a construction area. Human-scale stone path through a half-finished curved arch, warm grown-plaster walls, slim branching supports, stacked unfinished wall panels, modest timber scaffold and a tool crate set to one side. A broad low stone ledge in the foreground beside the path can hold a sketchbook. One wall near the center catches a narrow shaft of soft pale light whose edge has a distinct blue fringe/refraction, something a child might stop to draw. The finished path continues through the arch and around a corner. A few small plants, warm amber light from a distant occupied doorway, cool teal shadows. Make the construction readable without turning it into a dangerous ruin, fantasy temple, factory or machinery hall. No giant panorama, exposed stars, outer-space view, broad glazed hull, crowds, people, vehicles, text, warning signs, UI or watermarks. The camera stays inside this local passage, preserving the story's gradual reveal. Fine painterly literary illustration; high detail but clear composition, room at left and right for separately placed character sprites. Ideally 1920x1080.",
-      "selected": true,
+      "selected": false,
       "references": [
         "visuals/lumen-life.png"
       ],
@@ -281,6 +281,15 @@
         "generation:garden-close-v1"
       ],
       "output_id": "exec-3ce3366a-b3ff-4ba2-ad44-33058fe6f6f8"
+    },
+    {
+      "id": "review-025-construction",
+      "prompt": "Use case: illustration-story. Finished 16:9 visual novel background. Edit reference 1, preserving its painterly style, grown timber ribs, warm plaster, path perspective and teal plants. Remove the blue-edged luminous patch entirely; all illumination is ordinary warm artificial daylight and small work lamps. Make this clearly an unfinished construction area of the inhabited living habitat Lumen, where children explore. The big left wall has partly installed pale panels, exposed organic structural supports and a view through to a branching unfinished walkway. Keep a low ledge, an arch ahead and stacked fitted panels on right; show convincing temporary scaffolding, a handrail, coiled cable and orderly tools. A few distant children run together farther down the broad passage, small enough not to be identifiable as main characters; no close-up people in the near path. The passage is a place that draws an adventurous child onward, not a shrine to a beam of light. Warm lively afternoon, legible details. No supernatural rays, chromatic prism patch, glowing cracks, spirits, runes, magic portals, medieval castle, signage or text. Camera at child height, ground intact, 1920x1080 landscape.",
+      "references": [
+        "generation:construction-path-v1"
+      ],
+      "output_id": "exec-18d43be5-7da2-48bb-8c13-7a9003fa0cbd",
+      "selected": true
     }
   ]
 }
