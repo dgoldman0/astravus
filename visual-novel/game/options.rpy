@@ -24,7 +24,7 @@ init -10 python:
         return None if persistent.reduced_motion else Dissolve(0.65)
 
 define config.name = "Astravus — Seeds of Youth"
-define config.version = "0.2.3"
+define config.version = "0.2.4"
 define build.name = "astravus-book-one"
 define config.save_directory = "Astravus-Book-I"
 define config.window_title = "Astravus · Seeds of Youth"

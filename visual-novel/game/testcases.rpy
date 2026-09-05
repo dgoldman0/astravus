@@ -23,7 +23,7 @@ testsuite global:
 # Keep this identifier: scripts/project.py invokes it explicitly.
 testcase chapter_playthrough:
     assert screen "main_menu"
-    assert eval (config.version == "0.2.3" and config.save_directory == "Astravus-Book-I")
+    assert eval (config.version == "0.2.4" and config.save_directory == "Astravus-Book-I")
     screenshot "title"
     click "Begin Book I"
     assert screen "chapter_card" timeout 4.0

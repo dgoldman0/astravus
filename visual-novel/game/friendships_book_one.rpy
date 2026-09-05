@@ -280,16 +280,15 @@ label book_one_later:
     with mood_transition()
     stop music fadeout 2.0
     stop ambience fadeout 2.0
-    n "Joren went with his family on a routine research expedition to a nearby moon."
-    n "There was a malfunction. An accident. Rescue teams went out."
-    n "Joren did not survive."
+    n "Joren went with his family on a routine research expedition to a nearby moon. I expected him to come back with stories, like Kaleb always did."
+    n "A malfunction caused an accident on that expedition. The rescue teams did everything they could, but Joren didn't survive."
     $ joren_lost = True
     pause 1.0
-    r "I remember hearing it and waiting for the rest of the sentence. For something that would change what it meant."
-    n "There wasn't anything."
-    n "Among the Astraviin, death before transcendence was almost unheard of. We expected centuries together. I had never thought to count them."
-    r "This was not Joren joining his Astravus. It was an accident that ended his life."
-    n "The words had reached me. I could repeat them. For a long time, they didn't seem able to belong to him."
+    n "I heard the words. I kept waiting for someone to tell me when he was coming home."
+    r "I could still see him leaning over our map, his hand beside mine, holding the paper flat."
+    n "Cassia and I clung to each other. For a while, I could only hold on to her and cry."
+    n "Lyra was frightened by the crying. She stayed close to us, trying to understand why he wasn't coming back."
+    n "The treehouse was still there, with our drawings and our unfinished plans. I couldn't imagine what we were supposed to do in it now."
 
     $ enter_scene("family_grief")
     play music "audio/grief_theme.ogg" fadein 4.0
@@ -297,27 +296,22 @@ label book_one_later:
     show calista mourning at at_left
     show maia home at at_right
     with mood_transition()
-    n "Maia stayed with me one evening. The house was familiar in every detail, and I couldn't find a familiar way to be in it."
+    n "My parents tried to comfort me. One evening, Maia stayed with me while the light faded from the room."
     m "Cali."
-    c "I keep thinking I should tell him something."
-    m "I know."
-    c "Then I remember. Every time."
-    n "She waited. I watched the light on her hands."
-    m "The things you did together still happened. The stories you tell, the things you remember—those are yours to keep."
-    c "I don't want only those."
+    m "Joren's spirit will always be with us. In the stories we tell, in the memories we cherish, he lives on."
+    c "But it hurts so much, Maia."
+    n "I tried to wipe my face. The tears had started again."
+    c "Why did this have to happen?"
     hide maia
     hide calista
     with mood_transition()
-    n "She put her arms around me."
-    m "No. Of course you don't."
-    c "Why did it happen?"
-    m "I don't have an answer that will make it hurt less. I'm so sorry, sweetheart."
-    c "It hurts all the time."
-    m "You don't have to hold it by yourself. We're here."
-    n "All my parents tried to reach me. Sometimes I could bear company; sometimes I couldn't answer even a small question."
-    n "Lyra was frightened by our sadness. She was too young to understand why we couldn't bring him back."
-    r "I wondered how people had lived when a century was almost all the time they had. Whether so much loss had ever become easier to understand."
-    n "I couldn't imagine it. I could barely imagine tomorrow."
+    n "She pulled me into her arms. I held on to her."
+    m "I know, sweetheart. It's so hard to understand."
+    m "We have each other to lean on. We'll get through this together."
+    n "I stayed there for a long time. When I started crying again, she held me a little closer."
+    r "We were supposed to have centuries before joining our Astravus. There were so many things Joren and I hadn't done yet."
+    r "How had people coped when a century was all they had? Did they ever learn to bear it?"
+    n "I couldn't imagine it. That evening, I just wanted Maia to stay."
 
     $ enter_scene("painting_grief")
     scene bg family_home

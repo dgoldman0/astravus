@@ -1,4 +1,4 @@
-# Book I adaptation — version 0.2.3
+# Book I adaptation — version 0.2.4
 
 The preview now adapts **all of Book I: Seeds of Youth**, from First Breath to the closing acts of remembrance. It ends before **Book II: Growing Up**, which opens with Calista entering her late teens. The current script organizes that arc into **32 scenes**, defined in `game/book_structure.rpy`. These are production scene divisions, not newly invented source chapters.
 
@@ -31,6 +31,8 @@ Cali's child dialogue is labeled **Cali**. The adult recollection uses **Calista
 
 The expanded scenes give speakers immediate interests: choosing where a plant belongs, finding spilled parts, producing a note, tracing a route, including a sibling, or deciding which way an adventure should go. Gesture and sound should carry part of the meaning before narration names a lesson. Quiet scenes and repeated acts of affection are intentional; brevity alone is not the standard for natural dialogue.
 
+The loss passage keeps the source's abrupt accident, then stays with Cali's disbelief, Cassia holding her, Lyra's confusion, and the changed meaning of their treehouse. Maia's comfort restores the source exchange about Joren living on in their stories, Cali's “But it hurts so much,” and the family leaning on one another. Her embrace continues beyond the reassuring words. The expectation of centuries and eventual joining appears as Cali's reflection on the time she thought they had; it is not an explanatory correction inserted into the death announcement. “Spirit” remains the source's language of affection and remembrance.
+
 The approach builds on [the writing research notes](WRITING_NOTES.md). [Arimia's visual-novel guide](https://arimiadev.com/how-to-make-visual-novels/) supports a fixed story carried by writing and presentation; [Nathan Bransford's dialogue guidance](https://nathanbransford.com/blog/2022/10/seven-keys-to-writing-good-dialogue) informs purposeful exchanges and selective conversational detail. The examples in `WRITING_NOTES.md` describe the earlier 0.1.3 pass, not the current book's coverage or validation status.
 
 Connective inventions include the seed marker, Cassia's winged creature and its extra feet, their evolving map, Cali's blue-edged-light drawing, screw sorting, and the particular negotiation over flower placement. These details belong to the adaptation. The imagined creature is not a new species in world lore, and Sage's three siblings remain characters in an embedded story. Remembered details must stay consistent with who originally said or did them.
@@ -42,7 +44,7 @@ The preview preserves the draft's gradual disclosure:
 1. The opening identifies Lumen as a young world and the child of Aurora and Nyx, without explaining a starship.
 2. Sage's embedded story introduces an Astravus as a living ship traveling through the cosmos. It does not yet directly identify Lumen that way.
 3. The Tree of Echoes passage directly identifies Lumen as a living ship. Only then does the current reading's `lumen_known` state expand the People description.
-4. The later loss establishes the difference between death and transcendence. Joren's death entry is shown only after that event in the current reading.
+4. The later loss breaks Cali's expectation of centuries together before eventually joining an Astravus. Joren's death entry is shown only after that event in the current reading.
 
 People has individual entries for all fourteen speakers, including each parent and sibling. Entries appear with their first spoken line, using the current dialogue history; completed scene progress restores earlier encounters in saves with shortened history. The compact name list makes additions visible. Shadow, Barkley, and Nibble have a separate Familiars section with illustrated profiles; their entries follow the narrated home introduction because they do not speak. These gates belong to the current save and rollback state; finishing the book once should not spoil a fresh beginning. Early backgrounds and menu text must not supply the explanation before the prose does.
 
@@ -58,4 +60,4 @@ The expanded score preserves First Light's motif while providing family, discove
 
 ## Review boundaries
 
-This document describes the adaptation and its intended continuity; it does not certify the current integrated build. Actual playthrough results and platform limitations belong in [VALIDATION.md](VALIDATION.md). Review the full book from **Begin Book I** in version 0.2.3: an older save can skip revised material, and the rough draft's save format is intentionally excluded from this rewritten script.
+This document describes the adaptation and its intended continuity; it does not certify the current integrated build. Actual playthrough results and platform limitations belong in [VALIDATION.md](VALIDATION.md). Review the full book from **Begin Book I** in version 0.2.4: an older save can skip revised material, and the rough draft's save format is intentionally excluded from this rewritten script.
