@@ -144,9 +144,16 @@ remembrance rooms, dispute familiars, Cassia before/after the comfort CG,
 the two project-specific work surfaces, Lyra's scene, annual remembrance and
 the actual loss dialogue after its one-second pause. It records 15 frames and
 their exact story/input state; these captures still require visual inspection.
-Updated closing-theme paintings also require a fresh film/render review
-when that integration stage is reached. These are future validation steps, not
-claims that a production build or those checks have already passed.
+The completed native runs and their observed findings are recorded above and in
+the linked runtime reports. The updated movie has also been rendered and checked;
+see [delivered film review](graphics-film-review.md) for its exact scope and limits.
+
+Current desktop and web archives were rebuilt as **graphics review builds** and
+checked with `python3 scripts/check_release.py --review-build`. All 128 packaged
+runtime source files match the reviewed working tree, including all selected
+images. `test-results/review-exports.json` identifies the actual ZIP hashes;
+this is separate from full release approval. Editing materials, tests and local
+review artifacts are excluded from these archives.
 
 ## Recovering the archived proof
 

@@ -11,15 +11,18 @@ release or as proof for these assets.
 546 scoped dimension findings (434 accepted, 112 not applicable), with actual
 source/native evidence. The new four-state treehouse, three added project/time
 backgrounds, character repairs, familiar contacts and bounded matte cleanup have
-been inspected. This renews graphics scope only. Story/wording, score listening,
-whole-film delivery, browser/platform checks and exported archives require their
-own current evidence; graphics hashes do not approve them.
+been inspected. This renews graphics scope only. The current MP4 also has its own
+[delivery check](graphics-film-review.md). Desktop and web **graphics review
+builds** have been rebuilt and checked against all 128 current runtime source
+files; their actual hashes are in `test-results/review-exports.json`. This archive
+check does not establish launch behavior on Windows/macOS or renew story/wording,
+score listening, browser/platform or full release approval.
 
 The [release matrix](RELEASE_MATRIX.md) retains the previous 75-image release
 checklist plus its shared checks. It has not yet been expanded/promoted for this
 78-image production state. Ren'Py remains pinned to 8.5.3.26051504 and the save
-namespace remains `Astravus-Book-I`. A current graphics review build may be made
-for inspection without calling the whole release verified.
+namespace remains `Astravus-Book-I`. The current graphics review builds are for
+inspection; they do not assert that the whole release has been freshly verified.
 
 ## Previous checkpoint evidence (superseded creative signoff)
 
