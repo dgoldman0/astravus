@@ -23,6 +23,7 @@ SCENES = (
 # One bridge request per story step: avoid dozens of IPC roundtrips per scene.
 STATE = '''dict(
     end=bool(renpy.get_screen("chapter_end")), say=bool(renpy.get_screen("say")),
+    afterword=bool(renpy.get_screen("book_afterword")),
     scene=scene_key, number=scene_number, visited=list(visited_scenes),
     known=lumen_known, lost=joren_lost, stage=childhood_stage,
     met_cassia=met_cassia, met_joren=met_joren,
@@ -139,7 +140,32 @@ for focus in renpy.display.focus.focus_list:
         expected_version = re.search(r'config.version = "([^"]+)"', (PROJECT / "game/options.rpy").read_text()).group(1)
         assert await value("config.version") == expected_version
         assert await value("config.save_directory") == "Astravus-Book-I"
+        assert await value("persistent.chapter_spoiler_warnings and not chapter_read_progress()[0]")
         await page.screenshot(path=str(OUT / "browser-title.png"))
+        await click_button("main_menu", "Chapters")
+        await until('bool(renpy.get_screen("dev_chapters"))')
+        await click_button("dev_chapters", "25 · The news")
+        await until('bool(renpy.get_screen("chapter_spoiler_warning"))')
+        await page.screenshot(path=str(OUT / "browser-chapter-spoiler-warning.png"))
+        assert await value('main_menu and visited_scenes == [] and dev_chapter_target == "first_memory"')
+        await page.keyboard.press("Escape")
+        await until('not renpy.get_screen("chapter_spoiler_warning")')
+        await click_button("dev_chapters", "Return")
+        await until("main_menu and bool(renpy.get_screen('main_menu'))")
+        await click_button("main_menu", "Settings")
+        await until('bool(renpy.get_screen("preferences"))')
+        await click_button("preferences", "Chapter spoiler warnings: On")
+        assert not await value("persistent.chapter_spoiler_warnings")
+        await page.reload()
+        await page.wait_for_function('typeof window.renpy_get === "function"', timeout=90000)
+        await until("main_menu")
+        assert not await value("persistent.chapter_spoiler_warnings")
+        await click_button("main_menu", "Settings")
+        await until('bool(renpy.get_screen("preferences"))')
+        await click_button("preferences", "Chapter spoiler warnings: Off")
+        await page.screenshot(path=str(OUT / "browser-settings.png"))
+        await click_button("preferences", "Return")
+        await until("main_menu and bool(renpy.get_screen('main_menu'))")
         # A fresh browser context has no compatible Book I Continue entry.
         await page.mouse.click(220, 373)
         await until('bool(renpy.get_screen("chapter_card"))')
@@ -168,6 +194,7 @@ for focus in renpy.display.focus.focus_list:
         familiars_checked = False
         familiar_scenes = set()
         flute_events = []
+        afterword_seen = False
         people_fragments = {
             "Maia": "patient, practical care", "Kael": "older brother",
             "Arin": "biomechanical interfaces", "Selene": "listen, breathe",
@@ -208,6 +235,14 @@ for focus in renpy.display.focus.focus_list:
                 raise AssertionError(errors)
             if state["end"]:
                 break
+            if state["afterword"]:
+                assert await value('renpy.get_widget("book_afterword", "itch_link").action.url == ITCH_URL')
+                assert await value('chapter_read_progress()[0] == set(BOOK_SCENE_KEYS)')
+                await page.screenshot(path=str(OUT / "browser-afterword.png"))
+                afterword_seen = True
+                await click_button("book_afterword", "Finish Book I")
+                await until('bool(renpy.get_screen("chapter_end"))')
+                continue
             key = state["scene"]
             if not observed or observed[-1] != key:
                 observed.append(key)
@@ -334,10 +369,13 @@ for focus in renpy.display.focus.focus_list:
         assert people_checked == {"Cali", *people_fragments}, people_checked
         assert familiars_checked and {"first_memory", "family_rhythm", "tree_echoes", "waterwheel", "outer_exploration", "treehouse_dispute", "painting_grief"} <= familiar_scenes, familiar_scenes
         assert flute_events == ["audio/flute_attempt.wav", "audio/flute_first.wav", "audio/flute_practice.wav"], flute_events
+        assert afterword_seen
         await page.screenshot(path=str(OUT / "browser-end.png"))
         # End menus, persistence and Continue must remain usable after reload.
         await click_button("chapter_end", "Credits")
         await until('bool(renpy.get_screen("about"))')
+        assert await value('renpy.get_widget("about", "itch_link").action.url == "https://arcadiumgames.itch.io/astravus-calista"')
+        await page.screenshot(path=str(OUT / "browser-credits.png"))
         await page.keyboard.press("Escape")
         await until('bool(renpy.get_screen("chapter_end")) and not renpy.context()._menu')
         await click_button("chapter_end", "Return to title")
@@ -388,6 +426,39 @@ for focus in renpy.display.focus.focus_list:
             print(f"Browser chapter jump {key}: matches normal entrance", flush=True)
         assert not errors, errors
         print("All 32 chapter jumps passed against normal-play entrances, including backwards story state and character visibility.", flush=True)
+        # Simulate unread chapters using the same per-line record as an older
+        # installation. A completed-book flag and fabricated visited_scenes must
+        # not suppress warnings for gaps in what has actually been read.
+        await execute("for identifiers in CHAPTER_DIALOGUE_IDS.values():\n    for identifier in identifiers:\n        renpy.mark_translation_unseen(identifier)")
+        await click_button("quick_menu", "Chapters")
+        await until('bool(renpy.get_screen("dev_chapters"))')
+        await click_button("dev_chapters", "25 · The news")
+        await until('bool(renpy.get_screen("chapter_spoiler_warning"))')
+        await click_button("chapter_spoiler_warning", "Jump anyway")
+        await until('scene_key == "loss" and bool(renpy.get_screen("say")) and not renpy.context()._menu')
+        assert await value('visited_scenes == list(BOOK_SCENE_KEYS[:25]) and chapter_warning_needed("family_grief") and chapter_warning_needed("garden")')
+        before_cancel = await value(STATE)
+        await click_button("quick_menu", "Chapters")
+        await until('bool(renpy.get_screen("dev_chapters"))')
+        await click_button("dev_chapters", "26 · What comfort can do")
+        await until('bool(renpy.get_screen("chapter_spoiler_warning"))')
+        await click_button("chapter_spoiler_warning", "Go back")
+        await click_button("dev_chapters", "Return")
+        await until('not renpy.context()._menu')
+        after_cancel = await value(STATE)
+        assert all(after_cancel[field] == before_cancel[field] for field in compared_fields), (before_cancel, after_cancel)
+        await click_button("quick_menu", "Settings")
+        await until('bool(renpy.get_screen("preferences"))')
+        await click_button("preferences", "Chapter spoiler warnings: On")
+        await click_button("preferences", "Return")
+        await until('not renpy.context()._menu')
+        await click_button("quick_menu", "Chapters")
+        await until('bool(renpy.get_screen("dev_chapters"))')
+        await click_button("dev_chapters", "26 · What comfort can do")
+        await until('scene_key == "family_grief" and bool(renpy.get_screen("say")) and not renpy.context()._menu')
+        assert not await value('bool(renpy.get_screen("chapter_spoiler_warning"))')
+        assert not errors, errors
+        print("Alpha polish passed: spoiler confirmation/cancellation, unread gaps after jumps, persistent setting, credits link and afterword.", flush=True)
         await browser.close()
 
         # Match the original embedded-preview failure: no WebGL and no input.

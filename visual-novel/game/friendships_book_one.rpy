@@ -432,6 +432,8 @@ label chapter_annual_remembrance:
     $ pending_scene_save = None
     window hide
     $ quick_menu = False
+    play music "audio/home_theme.ogg" fadeout 2.0 fadein 3.0
+    call screen book_afterword
     $ renpy.force_autosave(take_screenshot=True, block=True)
     call screen chapter_end
     stop music fadeout 2.0

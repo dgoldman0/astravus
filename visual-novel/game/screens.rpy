@@ -86,7 +86,7 @@ screen main_menu():
         ypos 932
         spacing 12
         text "BOOK I   /   SEEDS OF YOUTH" style "eyebrow_text"
-        text "The complete first book · A kinetic novel · About an hour · Preview [config.version]" style "small_text" size 20
+        text "The complete first book · A kinetic novel · About 40–50 minutes · Alpha [config.version]" style "small_text" size 20
     text "01" xpos 1780 ypos 936 font "fonts/Story-Serif.ttf" size 64 color "#e6cf9b"
 
 style title_button:
@@ -176,6 +176,27 @@ screen chapter_card(kicker, title, subtitle):
         null height 35
         textbutton "Enter the memory" action Return() xalign .5
     key "dismiss" action Return()
+
+screen book_afterword():
+    modal True
+    add "bg garden"
+    add Solid("#07191dde")
+    vbox:
+        xalign .5
+        yalign .46
+        xsize 1240
+        spacing 30
+        text "BEYOND BOOK I" style "eyebrow_text"
+        text "There is more to her story." style "title_text" size 57
+        text "Calista's life holds many more friendships, discoveries, and adventures. These memories are only the beginning." size 32 line_spacing 10
+        text "We hope to bring the later books to life as visual novels. If you'd like to follow Calista further, your interest and feedback on itch.io can help us take that next step." size 30 color "#c6ccbc" line_spacing 10
+        hbox:
+            spacing 35
+            button:
+                id "itch_link"
+                action OpenURL(ITCH_URL)
+                text "Visit Astravus on itch.io" style "button_text"
+            textbutton "Finish Book I" action Return()
 
 screen chapter_end():
     modal True
@@ -310,6 +331,8 @@ screen preferences():
             null height 10
             label "Skipping"
             textbutton "Allow skipping unread text" action Preference("skip", "toggle")
+            $ chapter_warning_label = "Chapter spoiler warnings: On" if persistent.chapter_spoiler_warnings else "Chapter spoiler warnings: Off"
+            textbutton chapter_warning_label action [ToggleField(persistent, "chapter_spoiler_warnings"), Function(renpy.save_persistent)]
             text "Click once to reveal a line, then again to advance.\nYou can read at your own pace; no response is timed." style "small_text" line_spacing 8
 
 screen history():
@@ -417,7 +440,11 @@ screen about():
             vbox:
                 spacing 25
                 text "Astravus · Seeds of Youth" size 35 color "#d9bf8e"
-                text "An adaptation of Book I of Calista's story from the Astravus Collection by dgoldman0." xmaximum 1200
+                text "An adaptation of Book I of Calista's story from the Astravus Collection." xmaximum 1200
+                button:
+                    id "itch_link"
+                    action OpenURL(ITCH_URL)
+                    text "arcadiumgames.itch.io/astravus-calista" style "button_text"
                 text "Story, world, and original visual references\nThe Astravus Collection" line_spacing 7
                 text "Adaptation, interface, and implementation\nDeveloped with Codex" line_spacing 7
                 text "Illustrations\nGenerated with OpenAI image generation using the collection's visual references, with editorial review." xmaximum 1200 line_spacing 7
@@ -426,7 +453,7 @@ screen about():
                 text "Typography\nLato by Łukasz Dziedzic · DejaVu Serif by the DejaVu project\nFont licenses are included with the game." line_spacing 7
                 text "Built with Ren'Py [renpy.version_only]. Engine license information is included in the distribution." xmaximum 1200
                 textbutton "Ren'Py licenses" action OpenURL("https://www.renpy.org/doc/html/license.html")
-                text "Book I preview · Version [config.version]" style "small_text"
+                text "Book I alpha · Version [config.version]" style "small_text"
 
 screen confirm(message, yes_action, no_action):
     modal True

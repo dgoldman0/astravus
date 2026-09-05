@@ -7,6 +7,11 @@ init python:
             screen.visit_all(lambda item: pieces.append(item.get_all_text()) if isinstance(item, renpy.text.text.Text) else None)
         return "\n".join(pieces)
 
+    def _test_clear_chapter_reading():
+        for identifiers in CHAPTER_DIALOGUE_IDS.values():
+            for identifier in identifiers:
+                renpy.mark_translation_unseen(identifier)
+
 testsuite global:
     setup:
         $ _test.transition_timeout = 0.05
@@ -17,19 +22,33 @@ testsuite global:
         $ persistent.high_contrast = False
         $ persistent.reduced_motion = True
         $ persistent.book_one_complete = False
+        $ persistent.chapter_spoiler_warnings = True
+        $ _test_clear_chapter_reading()
     teardown:
         exit
 
 # Keep this identifier: scripts/project.py invokes it explicitly.
 testcase chapter_playthrough:
     assert screen "main_menu"
-    assert eval (config.version == "0.2.5" and config.save_directory == "Astravus-Book-I")
+    assert eval (config.version == "0.2.6" and config.save_directory == "Astravus-Book-I")
+    assert eval (all(CHAPTER_DIALOGUE_IDS.values()) and sum(map(len, CHAPTER_DIALOGUE_IDS.values())) == 667)
+    assert eval (not chapter_warning_needed("first_memory") and chapter_warning_needed("garden"))
+    assert eval ("About 40–50 minutes" in _test_screen_text("main_menu") and "Alpha 0.2.6" in _test_screen_text("main_menu"))
     screenshot "title"
+    click "Chapters"
+    click "25 · The news"
+    assert screen "chapter_spoiler_warning"
+    assert eval (main_menu and visited_scenes == [] and dev_chapter_target == "first_memory")
+    screenshot "chapter-spoiler-warning"
+    click "Go back"
+    assert eval (not renpy.get_screen("chapter_spoiler_warning") and renpy.get_screen("dev_chapters"))
+    click "Return"
     click "Begin Book I"
     assert screen "chapter_card" timeout 4.0
     click "Enter the memory"
     assert eval (renpy.showing("cg first_memory") and not renpy.showing("calista")) timeout 4.0
     assert eval (visited_scenes == ["first_memory"] and not lumen_known and not joren_lost)
+    assert eval (chapter_warning_needed("garden") and not chapter_warning_needed("first_memory"))
     screenshot "first-memory"
     click "People"
     assert screen "people"
@@ -69,6 +88,7 @@ testcase chapter_playthrough:
     assert eval (len(familiar_names()) == 3) timeout 4.0
     advance until eval (_history_list[-1].what == "Here, Cali.")
     assert eval (scene_key == "garden" and renpy.showing("bg garden_close") and renpy.showing("calista young"))
+    assert eval ("first_memory" in chapter_read_progress()[0] and not chapter_warning_needed("garden") and chapter_warning_needed("plant_disagreement"))
     assert eval (len(familiar_names()) == 3 and not any(renpy.showing(tag) for tag in ("shadow", "barkley", "nibble")))
     screenshot "garden"
     click "People"
@@ -87,6 +107,10 @@ testcase chapter_playthrough:
     click "Return"
     click "Settings"
     assert screen "preferences"
+    click "Chapter spoiler warnings: On"
+    assert eval (not persistent.chapter_spoiler_warnings and not chapter_warning_needed("loss"))
+    click "Chapter spoiler warnings: Off"
+    assert eval (persistent.chapter_spoiler_warnings and chapter_warning_needed("loss"))
     click "Larger dialogue text"
     click "Solid dialogue background"
     click "Reduced motion"
@@ -270,13 +294,19 @@ testcase chapter_playthrough:
     advance until eval (scene_key == "treehouse_remembrance")
     assert eval (renpy.showing("bg treehouse_memory") and not renpy.showing("joren"))
     screenshot "remembering-in-rain"
-    advance until screen "chapter_end"
+    advance until screen "book_afterword"
+    assert eval ("friendships, discoveries, and adventures" in _test_screen_text("book_afterword") and renpy.get_widget("book_afterword", "itch_link").action.url == ITCH_URL)
+    screenshot "afterword"
+    click "Finish Book I"
+    assert screen "chapter_end"
+    assert eval (chapter_read_progress()[0] == set(BOOK_SCENE_KEYS) and not chapter_warning_needed("loss"))
     assert eval (persistent.book_one_complete and visited_scenes == list(BOOK_SCENE_KEYS))
     assert eval (scene_number == BOOK_SCENE_COUNT == 32 and scene_key == "annual_remembrance")
     assert eval (lumen_known and joren_lost and childhood_stage == "later")
     screenshot "end"
     click "Credits"
     assert screen "about"
+    assert eval ("dgoldman0" not in _test_screen_text("about") and renpy.get_widget("about", "itch_link").action.url == ITCH_URL)
     screenshot "credits"
     click "Return"
     assert screen "chapter_end"
@@ -335,11 +365,40 @@ testcase chapter_playthrough:
     click "32 · What remains"
     assert eval (scene_key == "annual_remembrance" and joren_lost and len(people_names()) == 14) timeout 4.0
     assert eval (renpy.music.get_playing() == "audio/remembrance_theme.ogg") timeout 4.0
-    advance until screen "chapter_end"
+    advance until screen "book_afterword"
+    click "Finish Book I"
+    assert screen "chapter_end"
     click "Return to title"
     click "Chapters"
     click "01 · First memory"
     assert screen "chapter_card" timeout 4.0
     click "Enter the memory"
     assert eval (visited_scenes == ["first_memory"] and not joren_lost and not lumen_known and people_names() == ["Cali"] and familiar_names() == []) timeout 4.0
+    # Jumping ahead must not convert reconstructed story state into read text.
+    $ _test_clear_chapter_reading()
+    click "Chapters"
+    click "25 · The news"
+    assert screen "chapter_spoiler_warning"
+    click "Jump anyway"
+    assert eval (scene_key == "loss" and visited_scenes == list(BOOK_SCENE_KEYS[:25])) timeout 4.0
+    assert eval (not chapter_read_progress()[0] and chapter_warning_needed("family_grief") and chapter_warning_needed("garden"))
+    run FileSave(11, confirm=False, page="1")
+    click "Chapters"
+    click "26 · What comfort can do"
+    assert screen "chapter_spoiler_warning"
+    click "Go back"
+    click "Return"
+    assert eval (scene_key == "loss")
+    click "Settings"
+    click "Chapter spoiler warnings: On"
+    click "Return"
+    click "Chapters"
+    click "26 · What comfort can do"
+    assert eval (scene_key == "family_grief" and not renpy.get_screen("chapter_spoiler_warning")) timeout 4.0
+    run FileLoad(11, confirm=False, page="1")
+    assert eval (scene_key == "loss" and not persistent.chapter_spoiler_warnings) timeout 4.0
+    click "Settings"
+    click "Chapter spoiler warnings: Off"
+    click "Return"
+    assert eval (persistent.chapter_spoiler_warnings and chapter_warning_needed("garden"))
     exit
