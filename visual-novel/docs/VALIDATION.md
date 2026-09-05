@@ -1,4 +1,14 @@
-# Book I alpha validation — 0.2.6
+# Book I alpha validation — 0.2.7 work in progress
+
+The current staging/pacing and closing-theme pass has **658 dialogue blocks, 7,863 words, 65 images and 22 screens**. Script lint passes with no script warnings or errors. The image audit passes for all **65 selected files and 107 generation records**. Artwork outputs have been inspected individually; the final in-game visual review and full native/browser playthroughs have **not** been rerun yet. Test definitions cover the new scene illustrations and cast-aware speaker portraits. See `REVIEW_0_2_7.md`.
+
+The user requested that release finalization wait while additional edits are considered. No 0.2.7 release archives have been built. The richer afterword and optional closing montage are implemented in the working copy. The focused `closing_theme_review` native check passes **18 assertions**: playback, pause/resume, skip, replay (including skipping while paused), motion preference, audio-position fallback, automatic completion, channel cleanup and Continue. Reviewed screenshots cover the richer afterword, both motion modes, the three friends and final title. The song's Ogg encode decodes to all **8,532,480 stereo frames at 48 kHz**, with **−0.030 dB** RMS change and **−3.76 dBFS** decoded peak. It is distinct from the previously measured CC0 score/effects assets.
+
+The standalone `build/closing-theme.mp4` is **1920 × 1080 at 25 fps**, lasts **177.76 seconds**, and occupies **84.8 MiB**. The complete H.264/AAC output decodes successfully, including all **4,444 video frames**. Extracted frames were inspected at a dissolve, the friends' treehouse scene and the final title. This verifies the exported file; the picture changes remain a first timing pass rather than verified lyric alignment.
+
+The results below describe the previously tested **0.2.6 baseline**, not new passes of those checks. `CLOSING_THEME_DRAFT.md` describes the editable film, supplied song and reproduction steps; musical/lyric alignment remains an editorial first pass.
+
+## Previous released baseline — 0.2.6
 
 Verified locally on September 4, 2026, using Ren'Py **8.5.3.26051504** on Linux. The rough 0.1.3 preview and its original validation remain in commit `3dfcf6c`; this document covers the expanded Book I build with illustrated familiars, individual People entries, corrected flute staging, sampled audio and dialogue portraits.
 

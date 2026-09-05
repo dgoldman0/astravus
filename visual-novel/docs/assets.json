@@ -95,6 +95,96 @@
         941
       ],
       "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/flute-playing.png",
+      "generation": "review-027-flute-playing",
+      "sha256": "5cda82349822762bfdae599b5f34af1b8e54df350ccdafd162e3ed107ddba1cb",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/cassia-storytelling.png",
+      "generation": "review-027-cassia-storytelling",
+      "sha256": "7306626a47d300eba4774c3e3edc8ea11659e677ace41e423a38a6db4ce8753f",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/family-embrace.png",
+      "generation": "review-027-family-embrace",
+      "sha256": "1113867923621e201436dcf19c2f03df6dd37927dba837ae523a39cbda436b90",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/cassia-comfort.png",
+      "generation": "review-027-cassia-comfort",
+      "sha256": "0083b1675573b96c77f905f3daea75e48f8a02d151715ef02418ef080122acd0",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/garden-compromise.png",
+      "generation": "review-027-garden-compromise",
+      "sha256": "234d315ea633c3f7b229cdf7fbf6dc45196b267f7c555c968ef566e5ccf2036d",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/flute-rest.png",
+      "generation": "review-027-flute-rest",
+      "sha256": "89174c2fd8bced16be2e70b2fa0908131ff226c64691fb2c7f4fe4522e11b717",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/pond-rescue.png",
+      "generation": "review-027-pond-rescue",
+      "sha256": "cf7ae473c623c5c9d42f7aa76d28c3022e30a3499f455fce4ed95ce2c4165f47",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/pond-comfort.png",
+      "generation": "review-027-pond-comfort",
+      "sha256": "55ee6da13f6da16add60ed3bb23488a937d334aba86bb55ec0caf9f4c899e88b",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/cg/book-one/treehouse-friends.png",
+      "generation": "theme-027-treehouse-friends",
+      "sha256": "8bc33126d7622c886f4192ce5164042dc1afb23f051cd80e4768ba6577e61bb4",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
     }
   ],
   "generations": [
@@ -289,6 +379,109 @@
         "generation:construction-path-v1"
       ],
       "output_id": "exec-18d43be5-7da2-48bb-8c13-7a9003fa0cbd",
+      "selected": true
+    },
+    {
+      "id": "review-027-flute-playing",
+      "prompt": "Use case: illustration-story. One 16:9 full-scene visual-novel illustration of a child's first flute lesson. Input1 is the EXACT music room and rendering style; input2 is Cali's exact identity and clothes; input3 is Selene's exact identity and clothes. Change their pose, preserve their faces, ages, skin tones, hair, outfits, eye colors. Cali is an eight-year-old girl with chestnut braid, blue eyes, freckled olive skin, blue-gray tunic and brown sash/trousers. Selene is an adult woman with brown skin, long white wavy hair, plum wrap robe and necklaces. They sit closely together on the piano bench in the referenced wooden ivy-filled music room, viewed at a gentle three-quarter angle. Cali is trying to blow into a SMALL SIMPLE WOODEN TRANSVERSE FLUTE held horizontally at her lips, awkward but plausible beginner fingers, concentrating slightly nervously. Selene watches her hands with a warm encouraging expression and one hand gently keeping time. Instrument is in child's hands, remove the spare flute on the piano. Retain piano, music pages, harp, lamplight and ivy. Medium-wide composition with faces and all relevant hands in the upper two-thirds, bottom quarter primarily floor/bench for dialogue overlay. Rich painterly facial midtones and soft dimensional lighting, no heavy lip outlines. No green backing, captions, UI, text, watermark or supernatural light.",
+      "references": [
+        "generation:book-one-music-room-v1",
+        "generation:calista-home-key-v1",
+        "generation:selene-everyday-key-v1"
+      ],
+      "output_id": "exec-8ec13d8b-977f-4873-b31e-17027c7c4c4f",
+      "selected": true
+    },
+    {
+      "id": "review-027-cassia-storytelling",
+      "prompt": "Use case: illustration-story. Generate one 16:9 visual-novel scene illustration. Input1 is the exact architectural location and painterly style, the ivy-filled community courtyard with curved stone arches and a gathering of families; inputs2 and3 are the exact young Cali and Cassia identities and clothing. Depict their first friendship: the two children seated side by side on a blanket in this courtyard, delighted and absorbed in inventing a creature for Cali's open sketchbook. Cali on left, chestnut curls and blue eyes, freckled olive skin, beige shirt and brown overalls, holding drawing pencil; Cassia on right, warm brown skin, hazel eyes, long dark curls, mustard ribbon and neckscarf, plum tunic and slate trousers, gently pointing at the drawing while telling her idea. Keep them the same age as the references, no aging into teens/adults. Match their exact faces without harsh lip outlines. Their expressions are natural and warm, looking at each other or the shared page, not the viewer. A few other children sit nearby listening, adults at the same round table farther behind, retain original arches and planted stone borders. Medium-wide seated group composition with lead faces, hands and sketchbook above the lower quarter; foreground blanket/stone in bottom quarter for dialogue overlay. Dimensional dappled light, detailed painterly natural materials. No green backing, UI, captions, extra limbs, magical light or watermark.",
+      "references": [
+        "generation:community-courtyard-v1",
+        "generation:calista-young-key-v1",
+        "generation:review-025-cassia_young"
+      ],
+      "output_id": "exec-e263021d-f507-4006-9e9f-3107dde6bcea",
+      "selected": true
+    },
+    {
+      "id": "review-027-family-embrace",
+      "prompt": "Use case: illustration-story. One landscape 16:9 visual-novel illustration. Input1 is the precise home interior at dusk, inputs2 and3 exact Calista and mother Maia designs. Depict Maia holding her grieving daughter Calista close, seated on the padded bench in this same home, after a friend's death. Calista in brown cardigan over blue-gray blouse, brown trousers, chestnut long wavy braid, blue eyes, olive freckled skin: same older-child age and facial identity as ref2. Maia adult mother with gray-streaked dark curls/braids, olive-tan skin, blue-gray blouse and ochre-brown wrap vest, same face/clothes as ref3. Daughter leans into her mother's shoulder, tears and quiet exhaustion, Maia's arms wrapped naturally around her, one hand at her back; no smile, no theatrics. Preserve wooden round family table with maps and sketches, curved wall alcoves, softly lit right doorway, actual architecture. Frame a medium-wide intimate view with the hug dominant in upper two-thirds, bench/floor along bottom quarter available for dialogue overlay. Warm restrained lamp illumination makes the faces/hands legible, nuanced skin midtones, gentle lip edges, no pallor or altered complexion. Painterly realism consistent with references. No text, green backing, border, extra people, spiritual apparition or watermark.",
+      "references": [
+        "generation:book-one-home-dusk-v1",
+        "generation:calista-mourning-key-v1",
+        "generation:maia-home-key-v1"
+      ],
+      "output_id": "exec-cc4abbe8-26f0-4d36-b740-aa5fe7b35af2",
+      "selected": true
+    },
+    {
+      "id": "review-027-cassia-comfort",
+      "prompt": "Use case: illustration-story. One 16:9 full scene visual-novel still of two friends grieving together in the EXACT treehouse from input1. Inputs2 and3 are exact identities and mourning clothes of older-child Calista and Cassia; preserve ages, facial structure, skin tones, eye colors, hairstyles, clothing. The girls are SEATED close together on the low padded wooden bench beside the large trunk, Calista left in brown cardigan and blue-gray tunic with blue eyes and olive freckled skin, Cassia right in plum blouse and charcoal shawl with warm brown skin and hazel eyes. Cassia gently holds Calista's hand between them. Both quietly sad and tired, looking toward each other, mouths naturally relaxed, not smiling or addressing the viewer. Depict the clasped hands clearly above the dialogue area; no exaggerated tears or melodrama. Keep same trunk on left, wooden door, open rail on right with blue-green leafy canopy, low map table and cushions: same physical room. Medium-wide framing, faces/hands in upper 65%, bottom quarter floor/bench. Soft warm illumination across cheeks, nose, forehead and nuanced skin midtones, gentle lip outlines, especially Cassia: preserve her deep warm skin, do not lighten it. Detailed painterly rendering consistent with refs, no green backing, text, UI, watermark, fantasy light effects or extra figures.",
+      "references": [
+        "generation:treehouse-shaded-v1",
+        "generation:calista-mourning-key-v1",
+        "generation:review-025-cassia_mourning"
+      ],
+      "output_id": "exec-396459ad-ac8d-473e-bc60-ac60eab89be7",
+      "selected": true
+    },
+    {
+      "id": "review-027-garden-compromise",
+      "prompt": "Use case: illustration-story. Create one full 16:9 visual-novel scene illustration showing children and their mother reaching a compromise about where to plant flowers. Input1 is the exact garden work area and pond to preserve; inputs2,3,4 are exact Cali, Kael and Maia faces/ages/outfits. All three are on DRY ground beside the pond, never standing in water. Young Cali blue-gray tunic, brown sash, chestnut braid, blue eyes and freckles kneels left beside a pot. Mother Maia in ochre wrap vest and gray-blue blouse, long dark hair with gray-streaked braids crouches beside her, listening and looking along a proposed curve of pots. Kael in orange-brown overshirt, short dark hair, brown trousers kneels opposite, both hands placing one manageable terracotta pot. A loose curve of small terracotta flowering pots follows a visible narrow earthen planting strip, connecting the sunny patch to the pond, with a partly shaded low branch nearby. Retain same oval low stone pond rim in upper right, little inlet left, lilies, woven fence and foliage. Lower camera moderately toward their working height, bring faces and planting hands into upper two-thirds; bottom quarter dry floor/soil for text overlay. Calm attentive expressions after an argument, natural body language, correct grasping hands and bent knees. Same painterly naturalistic style, warm dimensional daylight and rich facial midtones. No standing neutral sprites, no green backdrop, no UI, labels, watermark or supernatural light.",
+      "references": [
+        "generation:review-027-garden-work-area",
+        "generation:calista-home-key-v1",
+        "generation:kael-young-key-v1",
+        "generation:maia-home-key-v1"
+      ],
+      "output_id": "exec-8cbb8f65-582b-4bc5-8b57-1443419f63fb",
+      "selected": true
+    },
+    {
+      "id": "review-027-flute-rest",
+      "prompt": "Use case: identity-preserve. Edit this visual-novel flute lesson illustration to create the matching listening/resting pose. Preserve exactly the room layout, camera/framing, faces, ages, skin tones, clothes, piano, harp, lighting and painterly detail. Change ONLY the child's flute pose and subtle expressions: Cali has stopped blowing, now holds the SAME small wooden flute horizontally lowered across her lap in BOTH hands, mouth unobstructed and relaxed as she glances up at Selene, slightly uncertain but receptive to encouragement. Selene lowers her timekeeping hand toward her own knee, looking warmly at Cali as she speaks. Their seated bodies remain in exactly the same positions on the bench. No flute at lips, no duplicate flute, no new props, no UI/captions/watermark. Keep full landscape16:9 canvas and well-rendered hands.",
+      "references": [
+        "generation:review-027-flute-playing"
+      ],
+      "output_id": "exec-908e12db-adf1-45b0-8eeb-0761223073fa",
+      "selected": true
+    },
+    {
+      "id": "review-027-pond-rescue",
+      "prompt": "Use case: illustration-story. One 16:9 narrative illustration for a visual novel. This is a short frightening childhood accident in a SHALLOW small garden pond, with immediate help. Input1 exact pond/place/rendering; input2 older sister Cali, input3 older brother Kael, input4 youngest sister Lyra, input5 golden retriever Barkley; also include Shadow, a small sleek black green-eyed cat. Preserve identities, exact faces/ages/clothes: Cali chestnut braid blue eyes blue-gray tunic brown sash; Kael short dark hair hazel eyes orange-brown overshirt beige undershirt brown trousers/toolpouch; Lyra small child golden curly hair green eyes orange blouse gray-brown overalls (no feather in hands). Lyra has slipped and is half-seated in shallow water close to the near bank, wet and frightened but face and chest well above water, both arms reaching for her siblings. Kael kneels securely on dry bank to left of her and offers a firm hand, Cali kneels next to him leaning forward and reaching for her other hand. Show natural urgent concentration, anatomically clear reaching hands, NO smiles, no heroic epic or injury. Pond remains small and shallow with oval rough stone rim, inlet left, lilies right, woven fence and foliage back. Include concerned golden dog behind siblings and black cat pacing on dry bank. All helpers fully on land; only Lyra is wet. Medium-wide side view makes bank edge and all three faces/connecting hands readable in upper two-thirds, lower quarter ground/water for dialogue overlay. Painterly detail, soft daylight midtones, same visual style. No UI, words, borders, green/blue chroma backing, magical glow, giant lake or waterfall.",
+      "references": [
+        "generation:review-025-pond",
+        "generation:calista-home-key-v1",
+        "generation:kael-young-key-v1",
+        "generation:lyra-young-key-v1",
+        "generation:familiar-barkley-key-v3"
+      ],
+      "output_id": "exec-aef605aa-130c-40aa-8adf-b9f327b50cf3",
+      "selected": true
+    },
+    {
+      "id": "review-027-pond-comfort",
+      "prompt": "Use case: illustration-story. A warm, reassuring family moment in a painterly visual novel, landscape16:9. Reference1 is the established small pond garden; references2,3,4 are exact siblings Cali, Kael and Lyra; reference5 their dog Barkley. Preserve faces, ages, clothing, hair and eye colors. On the broad dry stone path next to the pond, Cali kneels and hugs her little sister Lyra, who sits beside her, leaning against her shoulder. Lyra has just had a fright and looks relieved to be with her sister; her orange blouse and gray-brown overalls are slightly damp from playing beside the water. Cali wears the same blue-gray tunic and brown sash, chestnut braid, freckles and blue eyes. Kael crouches close on their other side in his same orange-brown overshirt and brown trousers, attentive and reassuring. Barkley the golden retriever and Shadow the small black green-eyed cat stand nearby on the path. All children are on dry land, in their everyday clothes, with natural relaxed hands. Keep the same pond rim, wooden fence and lilies in the background. Medium-wide framing, faces and the embrace above the lower quarter, space for dialogue along the bottom. Soft daylight and detailed midtones, matching the supplied painterly references. No text, green backing, UI, watermark or magical effects.",
+      "references": [
+        "generation:review-027-garden-work-area",
+        "generation:calista-home-key-v1",
+        "generation:kael-young-key-v1",
+        "generation:lyra-young-key-v1",
+        "generation:familiar-barkley-key-v3"
+      ],
+      "output_id": "exec-9a918f98-7da2-4556-8459-60259faaa07f",
+      "selected": true
+    },
+    {
+      "id": "theme-027-treehouse-friends",
+      "prompt": "Use case: illustration-story. One landscape16:9 full scene illustration for a visual novel, a happy memory of three childhood friends making up adventures in their treehouse. Image1 is the EXACT established treehouse layout: large trunk left, handmade door and lantern, open wooden rails/windows to the right, low map table and floor cushions. Images2/3/4 are exact early-childhood identities and clothes of Cali/Cassia/Joren; preserve their faces, ages, hair, eyes, complexions, wardrobes. Cali chestnut curls blue eyes freckles beige shirt brown overalls sits left holding her sketchbook; Cassia warm brown skin hazel eyes long dark curls mustard ribbon/scarf plum tunic slate trousers sits center, telling an animated story with a small hand gesture; Joren tousled blond hair blue eyes orange short-sleeved overshirt cream shirt brown shorts and satchel sits right, leaning forward with an infectious natural grin. All three are seated comfortably around the low table with paper maps, looking toward each other, enjoying being together. No staring at the viewer. Maintain architectural layout and believable child anatomy/scale; expressive warm faces with rich midtones and soft lip edges. Sheltered leafy daylight and warm lamp illumination, detailed painterly style matching references. Keep faces/hands in upper two-thirds and bottom quarter chiefly table/cushions. This is a grounded childhood scene, no supernatural effects, flights, glowing people, extra cast, UI, words, border, green key background or watermark.",
+      "references": [
+        "generation:treehouse-shaded-v1",
+        "generation:calista-young-key-v1",
+        "generation:review-025-cassia_young",
+        "generation:joren-young-key-v1"
+      ],
+      "output_id": "exec-0e896cbf-d9e2-4700-9c02-ff644b1c2342",
       "selected": true
     }
   ]

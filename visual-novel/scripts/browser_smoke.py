@@ -20,6 +20,18 @@ SCENES = (
     "treehouse_dispute", "loss", "family_grief", "painting_grief", "cassia_grief",
     "community_memorial", "mural_remembrance", "treehouse_remembrance", "annual_remembrance",
 )
+# Each action still must depict the current speaker, not merely suppress their
+# portrait because some unrelated CG is on screen.
+ACTION_CGS = {
+    "garden_compromise": {"plant_disagreement"},
+    "flute_playing": {"music_first", "family_rhythm"},
+    "flute_rest": {"music_first", "family_rhythm"},
+    "pond_rescue": {"pond_scare"},
+    "pond_comfort": {"pond_scare"},
+    "cassia_storytelling": {"meeting_cassia"},
+    "family_embrace": {"family_grief"},
+    "cassia_comfort": {"cassia_grief"},
+}
 # One bridge request per story step: avoid dozens of IPC roundtrips per scene.
 STATE = '''dict(
     end=bool(renpy.get_screen("chapter_end")), say=bool(renpy.get_screen("say")),
@@ -140,6 +152,15 @@ for focus in renpy.display.focus.focus_list:
         expected_version = re.search(r'config.version = "([^"]+)"', (PROJECT / "game/options.rpy").read_text()).group(1)
         assert await value("config.version") == expected_version
         assert await value("config.save_directory") == "Astravus-Book-I"
+        cg_casts = await value("CG_CAST")
+        assert set(ACTION_CGS) <= set(cg_casts), cg_casts
+        assert await value('''(all(CHAPTER_DIALOGUE_IDS.values()) and
+            sum(map(len, CHAPTER_DIALOGUE_IDS.values())) == len(set().union(*map(set, CHAPTER_DIALOGUE_IDS.values()))) and
+            set().union(*map(set, CHAPTER_DIALOGUE_IDS.values())) == {
+                node.identifier
+                for filename, translations in renpy.game.script.translator.file_translates.items()
+                if filename.replace(chr(92), "/").rsplit("/", 1)[-1] in ("script.rpy", "family_book_one.rpy", "friendships_book_one.rpy")
+                for label, node in translations})''')
         assert await value("persistent.chapter_spoiler_warnings and not chapter_read_progress()[0]")
         await page.screenshot(path=str(OUT / "browser-title.png"))
         await click_button("main_menu", "Chapters")
@@ -194,6 +215,7 @@ for focus in renpy.display.focus.focus_list:
         familiars_checked = False
         familiar_scenes = set()
         flute_events = []
+        action_stills = set()
         afterword_seen = False
         people_fragments = {
             "Maia": "patient, practical care", "Kael": "older brother",
@@ -204,7 +226,7 @@ for focus in renpy.display.focus.focus_list:
             "Joren": "eager explorer", "Soren": "systems designer", "Kaleb": "explorer",
         }
         expected_backgrounds = {
-            "garden": "garden_close", "plant_disagreement": "garden_pond",
+            "garden": "garden_close", "plant_disagreement": "garden_work_area",
             "workshop_first": "workshop", "music_first": "music_room",
             "dorian_stories": "library", "sage_story": "sage_room",
             "tree_echoes": "echoes", "pond_scare": "garden_pond",
@@ -265,7 +287,18 @@ for focus in renpy.display.focus.focus_list:
                 portrait_scenes.add(key)
             if state["say"] and state["speaker"] not in (None, "Calista · remembering"):
                 speaker_tag = state["speaker"].lower() if state["speaker"] != "Cali" else "calista"
-                assert speaker_tag in state["visible_actors"] or state["portrait_visible"] or state["cg"], ("Current speaker has no depiction", state)
+                cg_cast = cg_casts.get(state["cg"], ())
+                assert speaker_tag in state["visible_actors"] or state["portrait_visible"] or state["speaker"] in cg_cast, ("Current speaker has no depiction", state)
+            if state["say"] and state["cg"] in ACTION_CGS:
+                allowed_scenes, cg_cast = ACTION_CGS[state["cg"]], cg_casts[state["cg"]]
+                assert key in allowed_scenes, ("Action still carried into the wrong scene", state)
+                assert not state["visible_actors"], ("Standing actors overlap an action still", state)
+                if state["speaker"] in cg_cast:
+                    assert state["portrait"] is None and not state["portrait_visible"], ("Duplicate portrait over depicted CG speaker", state)
+                action_key = (key, state["cg"])
+                if action_key not in action_stills:
+                    await page.screenshot(path=str(OUT / f"browser-action-{key}-{state['cg']}.png"))
+                    action_stills.add(action_key)
             if state["number"] >= 20:
                 assert state["stage"] == "later", state
             if state["say"] and state["speaker"] in people_fragments and state["speaker"] not in people_checked:
@@ -301,9 +334,21 @@ for focus in renpy.display.focus.focus_list:
             assert state["familiars"] == (["Shadow", "Barkley", "Nibble"] if familiars_checked else []), state
             if state["sound"] in ("audio/flute_attempt.wav", "audio/flute_first.wav", "audio/flute_practice.wav"):
                 if not flute_events or flute_events[-1] != state["sound"]:
+                    assert state["cg"] == "flute_playing", ("Flute cue has no playing pose", state)
                     flute_events.append(state["sound"])
+                    cue_name = Path(state["sound"]).stem
+                    await page.screenshot(path=str(OUT / f"browser-action-{cue_name}.png"))
             if state["text"] == "There was a note in there. I heard it.":
                 assert flute_events == ["audio/flute_attempt.wav"], flute_events
+                assert state["cg"] == "flute_rest", state
+            if key == "pond_scare" and state["text"] == "I can't swim!":
+                assert state["cg"] == "pond_rescue", state
+            if key == "pond_scare" and state["text"] == "I slipped.":
+                assert state["cg"] == "pond_comfort", state
+            if key == "cassia_grief" and state["text"].startswith("We sat quietly, still holding hands."):
+                assert state["cg"] == "cassia_comfort", state
+            if key == "family_grief" and state["text"] == "We have each other to lean on. We'll get through this together.":
+                assert state["cg"] == "family_embrace", state
             first_flute |= state["sound"] == "audio/flute_first.wav"
             practiced_flute |= state["sound"] == "audio/flute_practice.wav"
             if key == "waterwheel" and state["cassia"] == "older":
@@ -365,7 +410,9 @@ for focus in renpy.display.focus.focus_list:
         assert observed == list(SCENES), observed
         assert set(SCENES) <= captured, set(SCENES) - captured
         assert all((first_flute, practiced_flute, cassia_aged, before_echo_reveal, after_echo_reveal, loss_seen, manual_save_checked))
-        assert {"music_first", "sage_story", "pond_scare", "soup_experiment", "rain_refuge", "dome_ascent", "treehouse_remembrance"} <= portrait_scenes, portrait_scenes
+        assert {"sage_story", "soup_experiment", "rain_refuge", "dome_ascent", "treehouse_remembrance"} <= portrait_scenes, portrait_scenes
+        assert {cg for scene, cg in action_stills} == set(ACTION_CGS), action_stills
+        assert ("family_rhythm", "flute_playing") in action_stills, action_stills
         assert people_checked == {"Cali", *people_fragments}, people_checked
         assert familiars_checked and {"first_memory", "family_rhythm", "tree_echoes", "waterwheel", "outer_exploration", "treehouse_dispute", "painting_grief"} <= familiar_scenes, familiar_scenes
         assert flute_events == ["audio/flute_attempt.wav", "audio/flute_first.wav", "audio/flute_practice.wav"], flute_events
@@ -392,7 +439,7 @@ for focus in renpy.display.focus.focus_list:
         assert set(resumed["people"]) == people_checked, resumed
         assert resumed["familiars"] == ["Shadow", "Barkley", "Nibble"], resumed
         (PROJECT / "test-results/chapter-entrances.json").write_text(json.dumps({"version": expected_version, "entrances": entry_states}, indent=2) + "\n")
-        print(f"Browser {expected_version} passed all 32 scenes: all 14 People entries and 3 illustrated familiars, familiar staging in 7 scenes, three flute cues in story order, save/load, ordered reveals, age/clothing, rain, grief, complete ending, Credits, reload and Continue; no engine/page errors.", flush=True)
+        print(f"Browser {expected_version} passed all 32 scenes: all 14 People entries and 3 illustrated familiars, familiar staging in 7 scenes, all 8 action stills and flute reuse, three flute cues in story order with matching poses, save/load, ordered reveals, age/clothing, rain, grief, complete ending, Credits, reload and Continue; no engine/page errors.", flush=True)
 
         # Compare every jump with the same entrance reached through normal play.
         # Reverse order exercises removal of later encounters and revelations.

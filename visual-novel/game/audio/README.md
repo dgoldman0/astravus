@@ -1,6 +1,6 @@
 # Audio sources and delivery
 
-Astravus's melodies and arrangements are original to this adaptation. The music
+Astravus's underscore melodies and arrangements are original to this adaptation. The score
 is rendered with recorded harp, soft upright piano, cello/viola ensembles, and
 flute from **VSCO 2 Community Edition**, published under **CC0 1.0** by Versilian
 Studios and its contributors: https://versilian-studios.com/vsco-community/
@@ -24,11 +24,20 @@ is one short breath that briefly catches a note, then breaks. The original
 **flute_first.wav** remains byte-for-byte intact and plays later in that lesson,
 when Cali tries several notes. The later practiced phrase uses sampled flute
 while retaining its original notes and timing. The festival's quiet rhythmic pulse and underlying room air remain
-original synthesis. No voice acting or generated speech is included.
+original synthesis. The story dialogue is not voiced.
+
+The vocal closing theme, **Curiosity and Discovery**, is by **Daniel Goldman**,
+with assistance from **ChatGPT and SUNO**. [Listen on SUNO](https://suno.com/s/IoZ3kzpqJBFXAgJJ).
+It was supplied by the author as a 48 kHz stereo WAV. `curiosity_and_discovery.ogg` is an encoding of that song,
+with no gain, EQ, compression, cuts or additional fades. It is a separate source
+from the CC0 instrument and environmental libraries above. Its source hash and
+encoding details are recorded in `docs/closing-theme-audio.json`; the standalone
+video and game montage share `game/closing_theme.json` for their timing.
 
 The game requires no sample player or additional software. Source recordings
 and 24-bit music masters remain in the developer's cache.
 The repository's `docs/audio-sources.json` pins all downloaded source files by
 SHA-256, including the VSCO commit and license. `scripts/make_audio.py` and
 `scripts/sample_audio.py` reproduce the mix; `scripts/audio_check.py` checks the
-decoded delivery files. Numerical checks do not replace listening in context.
+19 score and effects files. The separately encoded closing theme is measured in
+`docs/VALIDATION.md`. Numerical checks do not replace listening in context.

@@ -1,8 +1,10 @@
 # Astravus — Seeds of Youth
 
-Version **0.2.6 alpha** is a kinetic adaptation of **Book I: Seeds of Youth**, built in Ren'Py 8.5.3. Its 32 scenes follow Calista from her borrowed memory of First Breath through family life, childhood friendships, and the book's lasting aftermath. It ends before Book II's late-teen period. The story has one fixed outcome; the reader controls the pace. Allow **about 40–50 minutes**. This is an estimate from 7,934 story words plus scene changes and pauses, not a measured human playthrough.
+Version **0.2.7 alpha** is a kinetic adaptation of **Book I: Seeds of Youth**, built in Ren'Py 8.5.3. Its 32 scenes follow Calista from her borrowed memory of First Breath through family life, childhood friendships, and the book's lasting aftermath. It ends before Book II's late-teen period. The story has one fixed outcome; the reader controls the pace. Allow **about 40–50 minutes**. This is an estimate from 7,863 story words plus scene changes and pauses, not a measured human playthrough.
 
 This is the full-book alpha under development. Updates and feedback: [Astravus on itch.io](https://arcadiumgames.itch.io/astravus-calista). An afterword looks ahead to Calista's wider life and the hope of adapting later books. The first rough playable draft, version 0.1.3, is preserved at commit `3dfcf6c` and documented in [Draft One](docs/DRAFT_ONE.md).
+
+The expanded afterword offers an optional **2:58 closing theme**, using the author's *Curiosity and Discovery*. It can be paused, skipped or replayed; reduced motion keeps the pictures still. The [closing-theme notes](docs/CLOSING_THEME_DRAFT.md) describe the first timing pass and standalone MP4 renderer. It adds about three minutes to the reading estimate if watched. This development work has not yet been packaged as a 0.2.7 release.
 
 ## Play
 
@@ -14,13 +16,13 @@ python3 scripts/project.py run
 
 For a fresh checkout, first run `python3 scripts/project.py install` with Python 3.12 or later. The helper downloads the pinned SDK and web support from renpy.org, verifies SHA-256 checksums, and stores them in `.cache/`. Alternatively, open this directory in the Ren'Py launcher or set `ASTRAVUS_RENPY_SDK` to an existing SDK.
 
-Choose **Begin Book I** for a fresh review of version 0.2.6. Click, Space, or Enter reveals and advances dialogue. The bottom bar provides history, save/load, automatic reading, skip, People, and settings. Mouse wheel up or Page Up rolls back; Escape opens the reading menu; H hides the interface. Settings offer larger dialogue, stronger contrast, reduced transitions, separate music/effects volume, and self-voicing where supported.
+Choose **Begin Book I** for a fresh review of version 0.2.7. Click, Space, or Enter reveals and advances dialogue. The bottom bar provides history, save/load, automatic reading, skip, People, and settings. Mouse wheel up or Page Up rolls back; Escape opens the reading menu; H hides the interface. Settings offer larger dialogue, stronger contrast, reduced transitions, separate music/effects volume, and self-voicing where supported.
 
 **Chapters** remains available on the title screen and reading bar in the alpha. All 32 scenes are accessible. Jumps beyond unread material show a spoiler warning with **Go back** and **Jump anyway**; disable it under **Settings → Chapter spoiler warnings**. Revisiting a reached chapter or starting the next chapter after completing the earlier ones needs no warning. Ren'Py's existing per-line reading history drives this check, independently of the destination's reconstructed story state. A jump restores the appropriate encounters, ages, revelations and audio, replaces the current reading position and clears its history; existing manual saves remain available.
 
-People entries follow the current reading's discoveries. Its Familiars section introduces Shadow the cat, Barkley the golden retriever, and Nibble the rat when they first appear in the home narration, with individual illustrated profiles. They also accompany the children visibly in seven scenes. Reading controls do not change events or unlock alternate outcomes. Scene checkpoints and manual saves retain progress. **Continue** and load slots accept this book's save format; older rough-draft saves are preserved but excluded from loading into the rewritten book. Development saves live in `.cache/state/`, with separate test state; packaged desktop games use Ren'Py's per-user save location, and browser saves stay in that browser.
+People entries follow the current reading's discoveries. Its Familiars section introduces Shadow the cat, Barkley the golden retriever, and Nibble the rat when they first appear in the home narration, with individual illustrated profiles. They also accompany the children visibly in the home, garden, exploration and remembrance scenes. Reading controls do not change events or unlock alternate outcomes. Scene checkpoints and manual saves retain progress. **Continue** and load slots accept this book's save format; older rough-draft saves are preserved but excluded from loading into the rewritten book. Development saves live in `.cache/state/`, with separate test state; packaged desktop games use Ren'Py's per-user save location, and browser saves stay in that browser.
 
-After rebuilding and serving the browser version, open `http://127.0.0.1:8000/?preview=0.2.6`. A game already running in a tab does not replace itself when files are rebuilt. The fresh address also bypasses an old cached index page without clearing saved progress.
+After rebuilding and serving the browser version, open `http://127.0.0.1:8000/?preview=0.2.7`. A game already running in a tab does not replace itself when files are rebuilt. The fresh address also bypasses an old cached index page without clearing saved progress.
 
 ## Build and review
 
@@ -30,7 +32,7 @@ python3 scripts/project.py test --headless   # Linux with Xvfb; omit --headless 
 python3 scripts/project.py build             # Desktop packages in dist/
 python3 scripts/project.py web               # Browser application and ZIP in build/
 python3 scripts/project.py serve             # http://127.0.0.1:8000
-python3 scripts/browser_smoke.py --url 'http://127.0.0.1:8000/?preview=0.2.6'
+python3 scripts/browser_smoke.py --url 'http://127.0.0.1:8000/?preview=0.2.7'
 python3 scripts/check_assets.py
 python3 scripts/audio_check.py
 ```
@@ -46,6 +48,8 @@ The automated review scripts exercise story progression and reading controls; br
 ## Story, art, and sound
 
 [Adaptation notes](docs/ADAPTATION.md) explain the source boundary, condensation, dialogue changes, and reveal order. The detailed [Book I coverage map](docs/BOOK_ONE_COVERAGE.md) includes the restored family episodes, friends' families, later projects and conflicts, loss, and remembrance. The source draft remains authoritative; the adaptation does not silently rewrite it or the wiki.
+
+The [0.2.7 pacing and action review](docs/REVIEW_0_2_7.md) adds a dry garden work area and eight illustrated moments for planting, flute lessons, the pond rescue, seated storytelling and comfort. Character-free backgrounds and separate sprites remain available; these fixed sub-scenes are used where their shared pose fits the action.
 
 The [0.2.5 story and visual review](docs/REVIEW_0_2_5.md) covers all 32 scenes. It removes the invented blue-light encounter and callback, restores the source's character intent and key dialogue, unifies the populated plaza across three occasions, improves Cassia's facial shading, adds the four supporting parents' portraits, and corrects pond and festival-prop continuity. The asset manifests linked there preserve the full generation prompts and reference chains.
 

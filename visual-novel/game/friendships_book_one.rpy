@@ -35,7 +35,12 @@ label cassia_family_visit:
     thalia "Then I try not to hurry them."
     n "Cassia pushed the drawing toward me, leaving her cup on its own patch of table."
     a "There's room on this side. If you want it."
+    scene bg cassia_home
+    with time_transition()
     n "On another evening, her father showed us how the gardens shared water. Lyron managed agricultural systems; a question about a plant could lead him all through Lumen."
+    show calista home at at_left
+    show cassia young at at_right
+    with mood_transition()
     lyron "If this bed uses the water, what happens farther along?"
     c "Does the next one get less?"
     lyron "It could. That's one of the things we watch. A garden doesn't stop at its own wall."
@@ -64,7 +69,7 @@ label joren_family_visit:
     j "That one used to turn the wrong way."
     soren "It still does, if you put the contacts back where you found them."
     j "I only did it once."
-    n "She looked up from the bench. Her short hair was pushed back with one grease-marked hand; the other kept a small assembly steady."
+    n "She looked up from the bench, keeping a small assembly steady with one grease-marked hand."
     soren "What would you make, Cali? Something you could take exploring?"
     c "A little rover. It could go ahead and show us what's there."
     j "It needs lights."
@@ -83,7 +88,7 @@ label chapter_kaleb_walk:
     scene bg construction_path
     with mood_transition()
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0
-    n "His father, Kaleb, sometimes took us down passages we hadn't followed before. He brought stories back from expeditions; we wanted every walk with him to become one."
+    n "Joren's father, Kaleb, sometimes took us down passages we hadn't followed before. He brought stories back from expeditions; we wanted every walk with him to become one."
     show calista home at at_left
     show joren young at at_right
     with mood_transition()
@@ -107,7 +112,7 @@ label book_one_later:
     with mood_transition()
     play music "audio/discovery_theme.ogg" fadeout 2.0 fadein 2.0
     play ambience "audio/workshop_air.ogg" fadeout 1.0 fadein 1.0
-    n "As we grew, the things we imagined began to turn into things we wanted to build. My old overalls no longer reached my ankles. Our plans took up more than paper."
+    n "As we grew, our plans spread beyond paper. In Arin's workshop, we began making things we'd only imagined before."
     show calista older at at_left
     show joren older at at_right
     with mood_transition()
@@ -143,15 +148,14 @@ label book_one_later:
     show barkley at familiar_at(1805, 810, 330)
     show nibble at familiar_at(205, 765, 85)
     with mood_transition()
-    a "Let's leave it alone for a minute."
-    n "For a while we did. After all that measuring and adjusting, our little wheel was finally turning in the pond."
+    n "For a while we simply watched it turn. Nothing needed measuring or adjusting anymore."
 
 label chapter_outer_exploration:
     $ enter_scene("outer_exploration")
     scene bg construction_path
     with mood_transition()
     play ambience "audio/workshop_air.ogg" fadeout 1.5 fadein 1.5
-    n "The outer construction areas became another place to explore. We packed a small bag, Arin's multi-tool, and a portable scanner."
+    n "Between projects, we explored farther into Lumen's outer construction areas. For one trip, we packed a small bag, Arin's multi-tool, and a portable scanner."
     show joren older at at_right
     show calista older at at_left
     with mood_transition()
@@ -204,7 +208,7 @@ label chapter_lyra_included:
     with mood_transition()
     n "Cassia made room for her in the plan. Joren waited at the turnings. When we forgot and got ahead, I went back."
     n "Shadow rubbed against Lyra's cheek; Nibble climbed onto her shoulder. Her questions followed us down every path."
-    n "The next time we packed a bag, Lyra brought hers too."
+    n "The next time we planned a hunt, we asked her first."
 
 label chapter_dome_ascent:
     $ enter_scene("dome_ascent")
@@ -265,6 +269,9 @@ label chapter_treehouse_dispute:
     with mood_transition()
     n "Barkley sat down and whined softly, looking between Joren and me with concerned eyes. And Nibble ran circles around us, trying to lighten the mood with her antics."
     n "Her words, along with the pets' actions, were a reminder of the importance of cooperation, and we reluctantly agreed to put aside our differences and find a compromise."
+    show calista older at at_left
+    show joren older at at_right
+    with mood_transition()
     n "It wasn't always easy, but through these disagreements, we learned valuable lessons about communication, empathy, and the strength of our friendship."
     hide calista
     hide joren
@@ -310,12 +317,12 @@ label chapter_family_grief:
     c "Why did this have to happen?"
     hide maia
     hide calista
+    show cg family_embrace
     with mood_transition()
     n "She pulled me into her arms. I held on to her."
     m "I know, sweetheart. It's so hard to understand."
     m "We have each other to lean on. We'll get through this together."
     n "I stayed there for a long time. When I started crying again, she held me a little closer."
-    n "That evening, I just wanted Maia to stay."
 
 label chapter_painting_grief:
     $ enter_scene("painting_grief")
@@ -346,13 +353,17 @@ label chapter_cassia_grief:
     show calista mourning at at_left
     show cassia mourning at at_right
     with mood_transition()
-    n "Cassia and I kept finding each other. Some days we talked about him. Some days we sat with everything we couldn't say."
+    n "Cassia and I kept returning to the treehouse. Some days we talked about him. Some days we just sat together."
     a "I miss him."
     c "Me too."
     a "Do you think he knew how much he meant to us?"
     n "I looked at the drawings on the wall. At the corner of the map we'd held down together."
     c "I think he did, Cassia. He made every afternoon into an adventure. I loved being part of that."
     a "We promised we'd always meet here."
+    hide calista
+    hide cassia
+    show cg cassia_comfort
+    with mood_transition()
     n "I reached for her hand."
     c "I remember."
     n "We sat quietly, still holding hands. Then Cassia looked toward the window."
@@ -361,8 +372,7 @@ label chapter_cassia_grief:
     a "We stayed up there all afternoon."
     c "I didn't want to come down."
     n "We talked about the view, and the journeys we'd imagined while we sat above Lumen. Remembering still hurt, but I was glad she remembered it with me."
-    hide calista
-    hide cassia
+    hide cg
     with mood_transition()
 
 label chapter_community_memorial:
@@ -381,9 +391,9 @@ label chapter_community_memorial:
     n "His voice was steady, but I could hear the effort it took. Around us, people listened with tears on their faces."
     kaleb "He taught us all the value of adventure and the importance of living each day to the fullest."
     kaleb "Let us honor his memory by continuing to explore, to learn, and to cherish the time we have together."
-    n "He looked out across the people gathered there. No one hurried him away."
+    n "He looked out across the people gathered there. For a while, we stood with him in silence."
     play music "audio/remembrance_theme.ogg" fadein 4.0
-    r "Lumen grieved with us. That didn't divide the hurt into smaller pieces, but it meant we didn't have to explain why it mattered."
+    r "Lumen grieved with us. We listened to one another's memories of Joren, and stayed together when there was nothing left to say."
 
 label chapter_mural_remembrance:
     $ enter_scene("mural_remembrance")
@@ -392,7 +402,7 @@ label chapter_mural_remembrance:
     play ambience "audio/garden_air.ogg" fadeout 2.0 fadein 2.0
     show calista painting at at_left
     with mood_transition()
-    n "In Maia's garden, I made a mural of our adventures. It held the places we'd known and the places we'd meant to find."
+    n "As time passed, I began a mural in Maia's garden. It held the places we'd known and the places we'd meant to find."
     n "I worked a little at a time. The wall was larger than any page I had used. Some days that helped."
     c "The tree needs to be wider here. We never left enough room for the creature to land."
     a "Then make it wider. It's your wall."
@@ -434,8 +444,15 @@ label chapter_annual_remembrance:
     $ quick_menu = False
     play music "audio/home_theme.ogg" fadeout 2.0 fadein 3.0
     call screen book_afterword
+    if _return == "theme":
+        call play_closing_theme
+
+label book_one_end_card:
     $ renpy.force_autosave(take_screenshot=True, block=True)
     call screen chapter_end
+    if _return == "theme":
+        call play_closing_theme
+        jump book_one_end_card
     stop music fadeout 2.0
     stop ambience fadeout 1.5
     return

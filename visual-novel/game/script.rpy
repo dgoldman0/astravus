@@ -23,8 +23,7 @@ label chapter_one:
     r "My earliest memory wasn't really mine." id opening_001
     r "It belonged to the people who brought me home." id opening_002
     n "They told me about the Sanctuary. About my First Breath, and the five pairs of hands waiting to hold me." id opening_003
-    n "In every telling, someone remembered a different thing." id opening_004
-    n "The sound I made. The way I gripped a finger and wouldn't let go." id opening_005
+    n "In every telling, someone remembered a different thing: the sound I made, or the way I gripped a finger and wouldn't let go." id opening_004
     r "I used to ask them to tell it again. They always began with the joy of it." id opening_006
     r "Only later did I wonder how nervous they'd been. They'd brought Kael home before me, but did that make it any easier?" id opening_007
     n "Lumen, the child of Aurora and Nyx, was still a young world when I was born." id opening_008
@@ -62,9 +61,7 @@ label garden_lesson:
     n "One morning Maia cleared a little patch beside the path and called me over." id seed_001
     m "Here, Cali." id seed_002
     n "She opened her hand. A single striped seed lay in her palm." id seed_003
-    c "Is that for me?" id seed_004
-    m "If you'd like to plant it." id seed_012
-    c "What is it?" id seed_005
+    c "What will it grow into?" id seed_004
     m "A sunflower. Tall and bright, just like you." id seed_006
     c "One of the big ones?" id seed_008
     m "Oh, taller than Kael." id seed_009
@@ -84,8 +81,6 @@ label garden_lesson:
     c "How will I know which one's mine?" id seed_028
     m "We could put a stone beside it." id seed_030
     n "I chose a flat stone from the edge of the path and pressed it into the wet earth." id seed_029
-    m "Ready to go in?" id seed_032
-    c "Hang on." id seed_031
     n "I stood back on the path to check that I could spot the stone. Maia waited with the watering can against her knee." id seed_033
     m "Come on, Cali. Let's wash our hands." id seed_034
     hide maia
@@ -115,6 +110,10 @@ label meeting_cassia:
     a "It just landed here. What color do you think its eyes are?" id cassia_007
     c "Purple. With little bits of gold." id cassia_008
     a "Yes! Like the first stars coming out." id cassia_009
+    hide calista
+    hide cassia
+    show cg cassia_storytelling
+    with mood_transition()
     n "I sat beside her and opened my sketchbook. The other children leaned closer as I began to draw the creature from her story." id cassia_013
     a "I'm Cassia. What's your name?" id cassia_018
     $ met_cassia = True
@@ -127,10 +126,9 @@ label meeting_cassia:
     a "You can bring it back. Will you be here next time?" id cassia_022
     c "I think so. Don't go on without me." id cassia_029
     a "I won't. You have to draw the next bit." id cassia_030
-    hide cassia
-    hide calista
+    hide cg
     with mood_transition()
-    n "At the next gathering, I went looking for her." id cassia_023
+    n "At the next gathering, I went looking for her. Soon we were visiting each other's homes, too." id cassia_023
     $ renpy.force_autosave(take_screenshot=True, block=True)
     call cassia_family_visit
 
@@ -154,14 +152,14 @@ label meeting_joren:
     j "You're pretty fast for an artist!" id joren_013
     c "You'll have to keep up, then." id joren_014
     n "He laughed with his whole body and hurried alongside me. The other children followed us through the archway." id joren_017
-    n "I had gone there to look at what was being built. By the end of the afternoon, I had a new friend and wanted to go exploring with him again." id joren_033
+    n "By the end of the afternoon, we were already planning where to explore next." id joren_033
     hide calista
     hide joren
     with mood_transition()
     call joren_family_visit
 
 label after_joren_family:
-    n "When I introduced him to Cassia, he wanted to know where the creature in my sketchbook lived. Cassia said she could show him." id joren_018
+    n "When I introduced Joren to Cassia, he wanted to know where the creature in my sketchbook lived. Cassia said she could show him." id joren_018
     scene bg family_home
     with mood_transition()
     stop ambience fadeout 2.0
@@ -225,8 +223,8 @@ label chapter_rain_refuge:
     play ambience "audio/rain.ogg" fadein 3.0
     scene bg treehouse_rain
     with mood_transition()
-    n "On rainy afternoons, we stayed under the blankets and listened to the drops pattering on the wooden roof." id rain_001
-    n "Cassia tucked her feet under a blanket. Joren leaned against the trunk, listening to a branch creak above the roof." id rain_003
+    n "On rainy afternoons, we huddled under blankets while the drops pattered on the wooden roof." id rain_001
+    n "One afternoon, a branch creaked overhead. Cassia looked up from our map." id rain_003
     a "Imagine a world where the trees could talk." id rain_004
     c "All of them?" id rain_005
     a "Even this one. What do you think it would say?" id rain_006

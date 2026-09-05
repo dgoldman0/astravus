@@ -173,6 +173,26 @@
         941
       ],
       "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/garden-work-area.png",
+      "generation": "review-027-garden-work-area",
+      "sha256": "b5e24f27f7d14e154c4e9cbc924827e1d85d2c7310ae623bd055211af1578aac",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "game/images/backgrounds/book-one/garden-wonders.png",
+      "generation": "theme-027-garden-wonders",
+      "sha256": "7da2fab31aef36de1a6bde4bbd347193bffe79bd395d3fd6d26ff75c8b0b4aef",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
     }
   ],
   "generations": [
@@ -396,6 +416,24 @@
         "generation:review-025-plaza_memorial"
       ],
       "output_id": "exec-e85bf36b-5b3f-48f4-875c-0da5ccbe9fe4",
+      "selected": true
+    },
+    {
+      "id": "review-027-garden-work-area",
+      "prompt": "Use case: illustration-story. Create one 16:9 visual-novel background, an additional wider camera view of the SAME small garden pond in reference image 1. Preserve its oval stone rim, small wooden water inlet at the left, lilies to the right, woven wooden fence, foliage and gentle dappled daylight; painterly detailed natural materials exactly matching the reference style. Pull the camera back and slightly lower so the pond occupies the upper right/middle distance, and a broad continuous DRY level earth-and-flagstone working area occupies the bottom 55% of the image. The left and right foreground positions must both be visibly dry level ground where full-body character sprites can stand. Show several loose terracotta pots with small colorful flowering plants in a planting bed near the pond, some in sun and some near a shaded low branch, arranged loosely before planting. Pond water should never extend into the bottom 45%. Keep the same intimate home garden, not a park or a new lake. No people, animals, letters, UI, borders or watermark. Full canvas landscape 16:9.",
+      "references": [
+        "generation:review-025-pond"
+      ],
+      "output_id": "exec-9b2982a2-92b4-46e1-a9a9-34e9ea6ee8bb",
+      "selected": true
+    },
+    {
+      "id": "theme-027-garden-wonders",
+      "prompt": "Use case: illustration-story. One landscape16:9 visual-novel background shot for a closing song about childhood curiosity. Use the supplied image as exact garden/style reference. A child's-eye intimate close view of the small flowering plants in Maia's garden, warm dappled daylight over leaves, one small bee visiting a modest flower, a second tiny insect on a nearby leaf. Natural believable scale and anatomy. Focus on these ordinary little discoveries, with the same rough wooden planting-bed border, path and wooden fence softly visible behind. Match the existing richly detailed painterly naturalism and muted gold/green palette. The plants themselves are naturally colored in this sunny closeup; keep any established faint blue foliage lights only far back and unobtrusive. No people, fairy creatures, magical insects, symbols, words, UI, borders or watermark. Full landscape composition with enough detail to support a very slow camera move.",
+      "references": [
+        "generation:garden-close-v1"
+      ],
+      "output_id": "exec-6194c614-3cc5-4e53-89c7-aec9629c64bd",
       "selected": true
     }
   ],

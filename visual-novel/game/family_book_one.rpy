@@ -22,7 +22,7 @@ label family_book_one:
 
 label family_plant_disagreement:
     $ enter_scene("plant_disagreement")
-    scene bg garden_pond
+    scene bg garden_work_area
     with mood_transition()
     play music "audio/home_theme.ogg" fadeout 2.0 fadein 2.0
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0
@@ -38,14 +38,16 @@ label family_plant_disagreement:
     kael "They're plants. They need light."
     c "There's light by the pond."
     n "There was some. Not as much as where he stood. I didn't want that to settle it."
-    kael "Then you carry them."
-    c "Fine."
     hide kael
     show maia home at at_right
     with mood_transition()
     n "Maia came over before I'd managed to lift the next pot. We both started explaining."
     m "Show me. One at a time."
     c "If they're by the water, you can see the flowers twice."
+    hide calista
+    hide maia
+    show cg garden_compromise
+    with mood_transition()
     n "I pointed to the reflection of a low branch. Maia crouched beside me to follow its shape on the water."
     m "And your place, Kael?"
     kael "It stays bright longer."
@@ -56,12 +58,7 @@ label family_plant_disagreement:
     c "What if we start there? And bring them round?"
     kael "Not right under that branch."
     c "No. Round this way."
-    n "I traced a curve in the soil with my shoe. Kael moved one pot onto it, then looked back at me."
-    hide maia
-    show kael young at at_right
-    with mood_transition()
-    kael "There?"
-    c "A bit closer. Yes."
+    n "I traced a curve in the soil with my finger. Kael moved one pot onto it, then looked back at me."
     m "Let's try it before we dig."
     n "We moved the pots until the curve held together. From across the pond, little pieces of color trembled in the water."
     c "You can still see them."
@@ -135,21 +132,35 @@ label family_music_first:
     with mood_transition()
     n "She made room beside her at the piano and laid a small flute across my hands. Its surface caught the light when I turned it."
     n "She showed me where to put my fingers. I took a breath large enough for a whole song."
+    show cg flute_playing
+    with mood_transition()
     play sound "audio/flute_attempt.wav"
-    n "The first sound trembled, thinned, and broke. I lowered the flute."
+    n "The first sound trembled, thinned, and broke."
     stop sound fadeout 0.08
+    show cg flute_rest
+    with mood_transition()
+    n "I lowered the flute."
     c "That wasn't it."
     selene "There was a note in there. I heard it."
     c "Only at the start."
     selene "Then we'll start there again. You can take a smaller breath."
+    show cg flute_playing
+    with mood_transition()
     n "I tried again with a gentler breath. The note lasted a little longer before it broke."
+    show cg flute_rest
+    with mood_transition()
     c "Like that?"
     selene "Yes. Don't chase it."
     n "Her hand moved gently with the rhythm of my breathing. When I stopped, she waited for me to be ready."
     c "How do I know which one comes next?"
     selene "I'll sing it first. Then you can answer."
+    show cg flute_playing
+    with mood_transition()
     play sound "audio/flute_first.wav"
     n "We went a few notes at a time. Sometimes I lost one and had to begin again; sometimes her voice met mine in the middle."
+    stop sound fadeout 0.3
+    show cg flute_rest
+    with mood_transition()
     selene "Do you hear that color?"
     c "A color?"
     selene "It makes me think of pale blue. Like the morning sky. A little shy, a little soft."
@@ -158,6 +169,8 @@ label family_music_first:
     selene "What would your green sound like?"
     c "I don't know yet."
     selene "Neither do I. You'll have to play it for me when you find it."
+    show cg flute_playing
+    with mood_transition()
     n "I raised the flute again. This time I wanted to hear what it would do."
     stop sound fadeout 1.0
     play music "audio/home_theme.ogg" fadein 2.0
@@ -312,11 +325,18 @@ label family_daily_rhythm:
     stop music fadeout 1.5
     play ambience "audio/room_air.ogg" fadeout 1.0 fadein 1.0
     n "There came an evening when I could play Selene's melody without stopping to find each note."
+    show cg flute_playing
+    with mood_transition()
     play sound "audio/flute_practice.wav"
-    n "Lyra clapped along. By the end she was racing ahead, and I had to stop because we were both laughing."
+    n "Lyra clapped along, getting a little faster with every phrase."
+    stop sound fadeout 0.3
+    show cg flute_rest
+    with mood_transition()
+    n "By the end she was racing ahead, and I had to stop because we were both laughing."
     c "You're too fast."
     lyra "You're too slow."
     selene "Together, this time. Listen for each other."
+    hide cg
     show shadow at familiar_at(1260, 770, 220)
     show nibble at familiar_at(910, 735, 90)
     with mood_transition()
@@ -408,7 +428,9 @@ label family_pond_scare:
     stop music fadeout 2.0
     play ambience "audio/garden_air.ogg" fadeout 1.0 fadein 1.0
     n "Another day, we were playing beside a small pond. Lyra stepped too close to the edge."
+    show cg pond_rescue
     play sound "audio/water_splash.wav"
+    with mood_transition()
     n "Her foot slipped. Water broke around her, and for a moment I couldn't understand why she wasn't beside me anymore."
     c "Lyra!"
     lyra "I can't swim!"
@@ -416,6 +438,8 @@ label family_pond_scare:
     kael "Here. Take my hand."
     n "I knelt beside him and reached for her. Barkley barked behind us; Shadow paced along the bank."
     c "I've got you. This way."
+    show cg pond_comfort
+    with mood_transition()
     n "Between us, we helped her to the edge. She held on hard, still trying to climb after her knees were on the ground."
     kael "You're out. You're out now."
     n "I put my arms around her. Her clothes soaked through mine, and I could feel her shaking."
@@ -428,6 +452,8 @@ label family_pond_scare:
     n "Lyra nodded without letting go of me. I waited until she was ready to stand."
     lyra "Will you hold my hand?"
     c "Yes."
+    hide cg
+    with mood_transition()
     n "We took the wider part of the path. Barkley stayed close, and Lyra kept her wet fingers locked around mine."
     play music "audio/home_theme.ogg" fadein 3.0
     r "Afterward, it was a story with a safe ending. In the moment, all I wanted was to get her back beside me."

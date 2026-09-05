@@ -8,6 +8,19 @@ init python:
         "Dorian": "dorian", "Sage": "sage", "Kael": "kael", "Lyra": "lyra",
         "Thalia": "thalia", "Lyron": "lyron", "Soren": "soren", "Kaleb": "kaleb",
     }
+    # A scene illustration replaces portraits only for people actually in it.
+    # Other speakers (for example Lyra during flute practice) retain a portrait.
+    CG_CAST = {
+        "first_memory": (),
+        "garden_compromise": ("Cali", "Kael", "Maia"),
+        "flute_playing": ("Cali", "Selene"),
+        "flute_rest": ("Cali", "Selene"),
+        "pond_rescue": ("Cali", "Kael", "Lyra"),
+        "pond_comfort": ("Cali", "Kael", "Lyra"),
+        "cassia_storytelling": ("Cali", "Cassia"),
+        "family_embrace": ("Cali", "Maia"),
+        "cassia_comfort": ("Cali", "Cassia"),
+    }
     PORTRAIT_VARIANTS = {
         "calista": ("young", "home", "festival", "festive", "older", "frustrated", "mourning", "painting"),
         "cassia": ("young", "older", "mourning"),
@@ -31,7 +44,10 @@ init python:
 
     def dialogue_portrait(who):
         actor = SPEAKER_TAGS.get(who)
-        if actor is None or renpy.showing(actor) or renpy.showing("cg"):
+        if actor is None or renpy.showing(actor):
+            return None
+        cg = renpy.get_attributes("cg") or ()
+        if cg and who in CG_CAST.get(cg[0], ()):
             return None
         if actor == "joren" and joren_lost:
             return None

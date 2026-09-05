@@ -193,15 +193,16 @@ screen book_afterword():
         spacing 30
         text "BEYOND BOOK I" style "eyebrow_text"
         text "There is more to her story." style "title_text" size 57
-        text "Calista's life holds many more friendships, discoveries, and adventures. These memories are only the beginning." size 32 line_spacing 10
-        text "We hope to bring the later books to life as visual novels. If you'd like to follow Calista further, your interest and feedback on itch.io can help us take that next step." size 30 color "#c6ccbc" line_spacing 10
+        text "Calista will carry these memories with her. Ahead lie new friendships, unfamiliar places, and adventures beyond anything she imagined in the treehouse. There will be laughter, love, and wonder, too." size 32 line_spacing 10
+        text "Seeds of Youth is the first book of a larger story. We hope to bring the rest of Calista's journey to life as visual novels. Follow Astravus on itch.io and share your thoughts—your interest can help bring the next book to life." size 30 color "#c6ccbc" line_spacing 10
         hbox:
             spacing 35
             button:
                 id "itch_link"
                 action OpenURL(ITCH_URL)
                 text "Visit Astravus on itch.io" style "button_text"
-            textbutton "Finish Book I" action Return()
+            textbutton "Play closing theme" action Return("theme")
+            textbutton "Finish Book I" action Return("finish")
 
 screen chapter_end():
     modal True
@@ -215,6 +216,7 @@ screen chapter_end():
         text "Thank you for sharing this part of Calista's life." size 29 color "#bfcabb" xalign .5
         null height 25
         textbutton "Return to title" action Return() xalign .5
+        textbutton "Replay closing theme" action Return("theme") xalign .5
         textbutton "Credits" action ShowMenu("about") xalign .5
 
 # Every menu shares one navigation system; Return restores the reading position.
@@ -454,6 +456,7 @@ screen about():
                 text "Adaptation, interface, and implementation\nDeveloped with Codex" line_spacing 7
                 text "Illustrations\nGenerated with OpenAI image generation using the collection's visual references, with editorial review." xmaximum 1200 line_spacing 7
                 text "Sound\nOriginal music, performed with CC0 instrument recordings from Versilian Studios' VSCO 2 Community Edition. Cali's first flute lesson retains its deliberately hesitant performance." xmaximum 1200 line_spacing 7
+                text "Closing theme\nCuriosity and Discovery\nBy Daniel Goldman, with assistance from ChatGPT and SUNO.\n{a=[CLOSING_THEME_URL]}Listen on SUNO{/a}" xmaximum 1200 line_spacing 7
                 text "Environmental recordings · CC0\nRain: Ylmir · Water: Independent.nu and ezwa\nWood: Department64, edited by AntumDeluge\nSource links and details are included in the audio credits." xmaximum 1200 line_spacing 7
                 text "Typography\nLato by Łukasz Dziedzic · DejaVu Serif by the DejaVu project\nFont licenses are included with the game." line_spacing 7
                 text "Built with Ren'Py [renpy.version_only]. Engine license information is included in the distribution." xmaximum 1200

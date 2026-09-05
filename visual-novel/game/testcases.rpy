@@ -12,6 +12,17 @@ init python:
             for identifier in identifiers:
                 renpy.mark_translation_unseen(identifier)
 
+    def _test_chapter_dialogue_coverage():
+        story_files = {"script.rpy", "family_book_one.rpy", "friendships_book_one.rpy"}
+        expected = {
+            node.identifier
+            for filename, translations in renpy.game.script.translator.file_translates.items()
+            if filename.replace("\\", "/").rsplit("/", 1)[-1] in story_files
+            for label, node in translations
+        }
+        assigned = [identifier for identifiers in CHAPTER_DIALOGUE_IDS.values() for identifier in identifiers]
+        return bool(expected) and all(CHAPTER_DIALOGUE_IDS.values()) and len(assigned) == len(set(assigned)) and set(assigned) == expected
+
 testsuite global:
     setup:
         $ _test.transition_timeout = 0.05
@@ -30,10 +41,10 @@ testsuite global:
 # Keep this identifier: scripts/project.py invokes it explicitly.
 testcase chapter_playthrough:
     assert screen "main_menu"
-    assert eval (config.version == "0.2.6" and config.save_directory == "Astravus-Book-I")
-    assert eval (all(CHAPTER_DIALOGUE_IDS.values()) and sum(map(len, CHAPTER_DIALOGUE_IDS.values())) == 667)
+    assert eval (config.version == "0.2.7" and config.save_directory == "Astravus-Book-I")
+    assert eval (_test_chapter_dialogue_coverage())
     assert eval (not chapter_warning_needed("first_memory") and chapter_warning_needed("garden"))
-    assert eval ("About 40–50 minutes" in _test_screen_text("main_menu") and "Alpha 0.2.6" in _test_screen_text("main_menu"))
+    assert eval ("About 40–50 minutes" in _test_screen_text("main_menu") and "Alpha 0.2.7" in _test_screen_text("main_menu"))
     screenshot "title"
     click "Chapters"
     click "25 · The news"
@@ -124,28 +135,32 @@ testcase chapter_playthrough:
     click "Larger dialogue text"
     click "Return"
     advance until eval (scene_key == "plant_disagreement" and renpy.showing("calista home"))
-    assert eval (renpy.showing("kael young") and childhood_stage == "early")
+    assert eval (renpy.showing("bg garden_work_area") and renpy.showing("kael young") and childhood_stage == "early")
     screenshot "siblings-garden"
+    advance until eval (renpy.showing("cg garden_compromise"))
+    assert eval (scene_key == "plant_disagreement" and not any(renpy.showing(tag) for tag in ("calista", "kael", "maia")))
+    screenshot "garden-compromise"
     advance until eval (scene_key == "workshop_first" and renpy.showing("arin everyday"))
     assert eval (renpy.showing("bg workshop") and renpy.showing("calista home"))
     screenshot "workshop"
     advance until eval (renpy.music.get_playing(channel="sound") == "audio/flute_attempt.wav")
-    assert eval (scene_key == "music_first" and renpy.showing("bg music_room") and not renpy.showing("calista"))
+    assert eval (scene_key == "music_first" and renpy.showing("cg flute_playing") and not renpy.showing("calista"))
     screenshot "first-melody"
     advance until eval (_history_list[-1].what == "That wasn't it.")
-    assert eval (dialogue_portrait("Cali") == "calista home" and renpy.get_widget("say", "speaker_portrait") is not None)
+    assert eval (renpy.showing("cg flute_rest") and dialogue_portrait("Cali") is None and renpy.get_widget("say", "speaker_portrait") is None)
     assert eval (renpy.music.get_playing(channel="sound") != "audio/flute_first.wav")
-    screenshot "flute-dialogue-portrait"
+    screenshot "flute-rest"
     run FileSave(2, confirm=False, page="1")
     advance
     run FileLoad(2, confirm=False, page="1")
-    assert eval (_history_list[-1].what == "That wasn't it." and renpy.get_widget("say", "speaker_portrait") is not None) timeout 4.0
+    assert eval (_history_list[-1].what == "That wasn't it." and renpy.showing("cg flute_rest") and renpy.get_widget("say", "speaker_portrait") is None) timeout 4.0
     click "People"
     assert eval (people_names() == ["Cali", "Maia", "Kael", "Arin", "Selene"])
     screenshot "people-selene"
     click "Return"
     advance until eval (renpy.music.get_playing(channel="sound") == "audio/flute_first.wav")
     assert eval (_history_list[-1].what.startswith("We went a few notes at a time."))
+    assert eval (renpy.showing("cg flute_playing") and not renpy.showing("selene"))
     screenshot "first-flute-phrase"
     advance until eval (scene_key == "dorian_stories" and renpy.showing("dorian everyday"))
     assert eval (renpy.showing("bg library"))
@@ -157,7 +172,11 @@ testcase chapter_playthrough:
     assert eval (not renpy.showing("sage") and renpy.get_widget("say", "speaker_portrait") is not None)
     screenshot "sage-speaking"
     advance until eval (renpy.music.get_playing(channel="sound") == "audio/flute_practice.wav")
-    assert eval (scene_key == "family_rhythm" and renpy.showing("bg music_room"))
+    assert eval (scene_key == "family_rhythm" and renpy.showing("cg flute_playing"))
+    screenshot "flute-practice"
+    advance until eval (_history_list[-1].what == "You're too slow.")
+    assert eval (renpy.showing("cg flute_rest") and dialogue_portrait("Lyra") == "lyra young" and renpy.get_widget("say", "speaker_portrait") is not None)
+    screenshot "flute-listener"
     advance until eval (scene_key == "tree_echoes")
     assert eval (not lumen_known and renpy.showing("bg echoes"))
     advance until eval (lumen_known)
@@ -172,8 +191,11 @@ testcase chapter_playthrough:
     assert eval (not renpy.showing("calista") and not renpy.showing("lyra"))
     screenshot "pond"
     advance until eval (_history_list[-1].what == "I can't swim!")
-    assert eval (dialogue_portrait("Lyra") == "lyra young" and renpy.get_widget("say", "speaker_portrait") is not None)
-    screenshot "pond-speaking"
+    assert eval (renpy.showing("cg pond_rescue") and dialogue_portrait("Lyra") is None and renpy.get_widget("say", "speaker_portrait") is None)
+    screenshot "pond-rescue"
+    advance until eval (_history_list[-1].what == "I slipped.")
+    assert eval (renpy.showing("cg pond_comfort") and not any(renpy.showing(tag) for tag in ("calista", "kael", "lyra")))
+    screenshot "pond-comfort"
     advance until eval (scene_key == "soup_experiment")
     assert eval (renpy.showing("bg family_home"))
     advance until eval (_history_list[-1].what == "Did someone add something?")
@@ -198,7 +220,8 @@ testcase chapter_playthrough:
     run FileLoad(3, confirm=False, page="1")
     assert eval ("Cassia" in people_names() and not met_cassia) timeout 4.0
     advance until eval (met_cassia)
-    assert eval (scene_key == "meeting_cassia" and renpy.showing("bg community_courtyard") and renpy.showing("cassia young"))
+    assert eval (scene_key == "meeting_cassia" and renpy.showing("cg cassia_storytelling") and not renpy.showing("cassia"))
+    screenshot "cassia-storytelling"
     advance until eval (_history_list[-1].who == "Thalia")
     assert eval ("Thalia" in people_names() and "Lyron" not in people_names())
     assert eval (dialogue_portrait("Thalia") == "thalia everyday" and renpy.get_widget("say", "speaker_portrait") is not None)
@@ -275,6 +298,9 @@ testcase chapter_playthrough:
     assert eval ("His death" in _test_screen_text("people"))
     screenshot "people-remembrance"
     click "Return"
+    advance until eval (renpy.showing("cg family_embrace"))
+    assert eval (scene_key == "family_grief" and not renpy.showing("maia") and not renpy.showing("calista"))
+    screenshot "family-embrace"
     advance until eval (scene_key == "painting_grief" and renpy.showing("calista painting"))
     assert eval (not renpy.showing("joren"))
     screenshot "painting"
@@ -285,6 +311,9 @@ testcase chapter_playthrough:
     advance until eval (scene_key == "cassia_grief" and renpy.showing("cassia mourning"))
     assert eval (not renpy.showing("joren"))
     screenshot "cassia-grief"
+    advance until eval (renpy.showing("cg cassia_comfort"))
+    assert eval (scene_key == "cassia_grief" and not renpy.showing("cassia") and not renpy.showing("calista"))
+    screenshot "cassia-comfort"
     advance until eval (scene_key == "community_memorial")
     assert eval (not renpy.showing("joren"))
     screenshot "memorial"
@@ -295,7 +324,7 @@ testcase chapter_playthrough:
     assert eval (renpy.showing("bg treehouse_memory") and not renpy.showing("joren"))
     screenshot "remembering-in-rain"
     advance until screen "book_afterword"
-    assert eval ("friendships, discoveries, and adventures" in _test_screen_text("book_afterword") and renpy.get_widget("book_afterword", "itch_link").action.url == ITCH_URL)
+    assert eval ("laughter, love, and wonder" in _test_screen_text("book_afterword") and renpy.get_widget("book_afterword", "itch_link").action.url == ITCH_URL)
     screenshot "afterword"
     click "Finish Book I"
     assert screen "chapter_end"
@@ -342,7 +371,7 @@ testcase chapter_playthrough:
     advance until eval (_history_list[-1].what == "But it hurts so much, Maia.")
     screenshot "grief-maia-response"
     advance until eval (_history_list[-1].what == "We have each other to lean on. We'll get through this together.")
-    assert eval (dialogue_portrait("Maia") == "maia home" and renpy.get_widget("say", "speaker_portrait") is not None)
+    assert eval (renpy.showing("cg family_embrace") and dialogue_portrait("Maia") is None and renpy.get_widget("say", "speaker_portrait") is None)
     screenshot "grief-embrace"
     click "Chapters"
     click "05 · A color you can hear"
@@ -402,3 +431,60 @@ testcase chapter_playthrough:
     click "Return"
     assert eval (persistent.chapter_spoiler_warnings and chapter_warning_needed("garden"))
     exit
+
+# Focused review for the closing-film addition; avoids a full-book release run.
+testcase closing_theme_review:
+    assert screen "main_menu"
+    $ persistent.chapter_spoiler_warnings = False
+    click "Chapters"
+    click "32 · What remains"
+    advance until screen "book_afterword"
+    assert eval ("laughter, love, and wonder" in _test_screen_text("book_afterword"))
+    screenshot "theme-afterword"
+    click "Play closing theme"
+    assert screen "closing_theme"
+    assert eval (renpy.music.is_playing(channel="closing_theme")) timeout 5.0
+    assert eval (renpy.get_widget("closing_theme", "montage").reduced_motion)
+    pause 1.0
+    screenshot "theme-reduced-motion"
+    click "Pause"
+    assert eval (renpy.music.get_pause(channel="closing_theme"))
+    $ _theme_paused_at = renpy.get_widget("closing_theme", "montage").position()
+    pause .6
+    assert eval (abs(renpy.get_widget("closing_theme", "montage").position() - _theme_paused_at) < .1)
+    click "Resume"
+    pause .6
+    assert eval (renpy.get_widget("closing_theme", "montage").position() > _theme_paused_at + .2)
+    click "Skip closing theme"
+    assert screen "chapter_end"
+    assert eval (not renpy.music.is_playing(channel="closing_theme"))
+    $ persistent.reduced_motion = False
+    click "Replay closing theme"
+    assert screen "closing_theme"
+    assert eval (not renpy.get_widget("closing_theme", "montage").reduced_motion)
+    pause 1.5
+    screenshot "theme-camera-motion"
+    # The clock keeps advancing even when an audio backend supplies no position.
+    run Stop("closing_theme")
+    $ _theme_silent_at = renpy.get_widget("closing_theme", "montage").position()
+    pause .6
+    assert eval (renpy.get_widget("closing_theme", "montage").position() > _theme_silent_at + .2)
+    $ renpy.get_widget("closing_theme", "montage").last_position = 106.0
+    pause .2
+    screenshot "theme-friends"
+    $ renpy.get_widget("closing_theme", "montage").last_position = 173.0
+    pause .2
+    screenshot "theme-final-title"
+    $ renpy.get_widget("closing_theme", "montage").last_position = CLOSING_THEME["duration"]
+    assert screen "chapter_end" timeout 3.0
+    click "Replay closing theme"
+    click "Pause"
+    click "Skip closing theme"
+    assert screen "chapter_end"
+    click "Replay closing theme"
+    assert eval (not renpy.music.get_pause(channel="closing_theme"))
+    click "Skip closing theme"
+    click "Return to title"
+    click "Continue"
+    assert screen "chapter_end" timeout 10.0
+    assert eval (not renpy.music.is_playing(channel="closing_theme"))

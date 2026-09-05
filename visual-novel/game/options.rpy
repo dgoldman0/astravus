@@ -23,10 +23,14 @@ init -10 python:
     def mood_transition():
         return None if persistent.reduced_motion else Dissolve(0.65)
 
+    def time_transition():
+        return None if persistent.reduced_motion else Fade(0.35, 0.15, 0.35)
+
 define config.name = "Astravus — Seeds of Youth"
-define config.version = "0.2.6"
+define config.version = "0.2.7"
 define ITCH_URL = "https://arcadiumgames.itch.io/astravus-calista"
 define ASTRAVUS_REPO_URL = "https://github.com/dgoldman0/Astravus"
+define CLOSING_THEME_URL = "https://suno.com/s/IoZ3kzpqJBFXAgJJ"
 define build.name = "astravus-book-one"
 define config.save_directory = "Astravus-Book-I"
 define config.window_title = "Astravus · Seeds of Youth"

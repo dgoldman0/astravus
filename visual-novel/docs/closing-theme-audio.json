@@ -1,0 +1,21 @@
+{
+  "source": {
+    "file": "Curiosity and Discovery.wav",
+    "sha256": "491ffdb74b0f6b2c02873eae485b6bfdb2506538236c007c7eec23bef2d314a4",
+    "sample_rate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "frames": 8532480,
+    "duration_seconds": 177.76
+  },
+  "source_kind": "Original WAV supplied by the user at the workspace root; distinct from the CC0 sample library.",
+  "output": {
+    "file": "game/audio/curiosity_and_discovery.ogg",
+    "sha256": "460ad7c6fdc1c2a6b058b3e8d610bc7f9cc355655b96e9081fe6d1c27f8baa05",
+    "codec": "Vorbis",
+    "quality": 6
+  },
+  "processing": "Encoding only; no gain, EQ, compression, edits or fades applied to the supplied song.",
+  "renderer": "scripts/render_closing_theme.py",
+  "ffmpeg": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers"
+}
