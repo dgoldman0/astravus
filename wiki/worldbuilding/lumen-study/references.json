@@ -50,10 +50,10 @@
       "title": "Home: an enclosed, personal place",
       "path": "visual-novel/game/images/backgrounds/family-home.png",
       "runtime": "bg family_home · visuals.rpy:14 · script.rpy:34",
-      "story": "revision/latest.md:61–77; branching halls and private rooms",
+      "story": "revision/latest.md:61–81; central room, branching halls and adjacent private rooms. script.rpy:51–52; garden folds around the home.",
       "observed": "A central table, books and drawings, close seating, a small fountain and several arched thresholds. The room feels occupied and sheltered.",
-      "proposal": "Embed domestic rooms in thick living structure, with nearby courts and private thresholds. Keep the furnished room at human scale.",
-      "unknown": "The number of homes beyond the doors, the pressure boundary and the ship-wide dwelling pattern are not visible.",
+      "proposal": "Treat this as the shared central room of one connected dwelling, with internal halls and individual private rooms continuing beyond the frame. Its household garden is ordinary outdoor domestic space, with a threshold to the local shared network.",
+      "unknown": "The frame does not show the whole dwelling or establish its area. Separate arches are not separate houses. The author identifies the household garden as ordinary, without an implication of unusual wealth.",
       "pins": [
         {
           "x": 49,
@@ -63,12 +63,12 @@
         {
           "x": 66,
           "y": 33,
-          "text": "Successive arches make enclosure and connections tangible."
+          "text": "Successive arches connect parts of a dwelling; private rooms continue beyond this shared room."
         },
         {
           "x": 90,
           "y": 37,
-          "text": "A planted view beyond a threshold; not proof of a planet-like exterior."
+          "text": "Household outdoor space can adjoin the room without making every planted space public."
         }
       ],
       "sha256": "dbf252a7502305a15c685bcbc6bfc7973f5bf2db277401dbdd6e6fda87d15a6a"
@@ -80,7 +80,7 @@
       "runtime": "bg community_courtyard · visuals.rpy:15 · script.rpy:102",
       "story": "revision/latest.md:57; connected paths, gardens and plazas",
       "observed": "A low shared table is surrounded by intimate seating, planted edges and curved adjoining passages. Light is filtered through canopy.",
-      "proposal": "Use many small neighborhood courts, with varied public/private edges, inside the larger connected anatomy.",
+      "proposal": "Distinguish courts used by nearby households from household interiors and gardens, and from larger community plazas. Connect them through shared paths and recognizable domestic thresholds.",
       "unknown": "This frame does not establish that every court has the same plan, or that all residents share this one court.",
       "pins": [
         {
@@ -108,7 +108,7 @@
       "runtime": "bg garden · visuals.rpy:12 · script.rpy:177; treehouse entrance sequence",
       "story": "revision/latest.md: treehouse chapters; oak, ladder and separate lower hollow",
       "observed": "The upper room sits among the oak branches. A ladder meets its right-hand entrance; a separate lower hollow and broad seating refuge occupy the bank below.",
-      "proposal": "Give the oak genuine rooting depth and canopy clearance within a garden terrace. Preserve the distinct upper entrance, ladder and lower refuge.",
+      "proposal": "Give the oak genuine rooting depth and canopy clearance in the broader shared wooded garden edge. Keep the nearby household garden distinct from the more shared treehouse surroundings; preserve the upper entrance, ladder and lower refuge.",
       "unknown": "This oak is not the Tree of Echoes. Its visible scale does not determine the material or size of Lumen’s main structural supports.",
       "pins": [
         {

@@ -14,23 +14,25 @@ Count children and embodied adults, including residents needing care during grad
 
 ## An area budget without a single floor
 
-These are **chosen design allowances**, not building standards or measured VN dimensions. Areas are usable surfaces distributed through the body, not the footprint under a dome. Keep categories separate: a productive bed within a public garden is counted once, and ordinary local circulation is included with its associated use. The dedicated transport allowance below is additional shared infrastructure.
+These are **chosen design allowances**, not building standards or measured VN dimensions. Areas are usable surfaces distributed through the body, not the footprint under a dome. Keep categories separate: a productive bed within any garden is counted once, and ordinary local circulation is included with its associated use. The dedicated transport allowance below is additional shared infrastructure.
 
 | Use | Initial allowance, m² per embodied resident | Reason for reserving it |
 |---|---:|---|
-| Homes and their internal circulation | 60 | Private rooms and comfortable shared domestic spaces; no assumed household or partnership size. |
+| Homes and their internal circulation | 60 | Aggregate connected interiors: private rooms, shared domestic rooms, washing/storage and internal halls counted once. This does not assign a separate house to each person or establish a floor area for Calista's home. |
 | Civic, learning, care, exchange and craft | 25 | Public gathering, schools, guild spaces, libraries, music and bodily care. Capacity of individual venues still needs a layout. |
-| Public gardens and their paths | 140 | Substantial everyday planted space, shaded courts, heritage groves and ecological variety. This is not all food production. |
+| Outdoor spaces and their paths | 140 | A combined allowance for household gardens, landscapes shared among nearby households, and wider community grounds. This is not all public space, private garden entitlement or food production. |
 | Productive growing surface | 75 | A crop-based comparison for food systems; see research limits below. Growing surfaces may occupy multiple local levels. |
 | Specialist services, processing and stores | 30 | Maintenance, recycling, food handling and reserves of material. Does not size propulsion or the whole pressure structure. |
 | Shared transport interfaces | 20 | Lifts, interdistrict routes and freight handling beyond local paths. |
 | Unallocated usable-space reserve | 40 | A visible allowance for omissions and future adaptation; not a prediction of later growth. |
 | **Total** | **390** | **A sensitivity input, not an adopted density.** |
 
-| Childhood probe | Total usable surfaces | Productive surface | Public gardens/paths | Net gathering area at 2 m²/person |
+| Childhood probe | Total usable surfaces | Productive surface | Combined outdoor spaces/paths | Net gathering area at 2 m²/person |
 |---|---:|---:|---:|---:|
 | 6,000 residents | 2.34 km² | 0.45 km² | 0.84 km² | 12,000 m² |
 | 18,000 residents | 7.02 km² | 1.35 km² | 2.52 km² | 36,000 m² |
+
+The outdoor allowance is now explicitly shared across **three scales of use**: household gardens; local courts, woods and open areas used by nearby households; and wider community landscapes. The author has established the distinction, not numerical shares. Allocate these surfaces separately in the local model before assigning a typical garden size. A household garden is ordinary in Lumen; neither this allowance nor Maia's gardening implies an unusually wealthy family. The existing 140 m² total remains a sensitivity placeholder, with no extra forest or estate added to Calista's household budget.
 
 The gathering allowance is a comparison, **not a safe crowd-capacity calculation**. It excludes stage, planting, route clearance and other unusable surface. The festival's visible galleries justify examining several connected occupied heights, but do not establish that thousands can fit. The actual court, approaches, visibility, acoustics and movement must be modeled before claiming the manuscript's gathering works at any of these populations. For scale, 36,000 m² is a 190 m square if flattened; that is an equivalence, not the proposed plaza shape. Reduce the census before enlarging the VN's intimate stage simply to accommodate an arbitrary target.
 

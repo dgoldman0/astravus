@@ -44,6 +44,21 @@ The layout includes:
 - Connected home structures
 - Art installations and living murals
 
+### Household and Shared Space
+
+A home is one connected dwelling within Lumen's living structure. Shared household rooms and branching halls connect individual private rooms; the central room shown in the VN is part of that home, not its entire extent or a collection of separate houses.
+
+Domestic life includes outdoor space. **Maia's garden is an ordinary household garden**, with a meaningful degree of privacy, not evidence that Calista's family is unusually wealthy. The broader woodland and treehouse area are more shared. These distinctions continue through the surrounding world:
+
+| Scale of use | Interior and outdoor spaces |
+|---|---|
+| Personal | Private rooms and personal retreats within a home. |
+| Household | Shared living, eating and activity spaces, together with household gardens and other semi-private outdoor areas. |
+| Nearby households | Local paths, courts, play spaces and shared woodland or open areas, including the broader treehouse surroundings. |
+| Wider community | Civic places, major gathering spaces and more extensive shared landscapes. |
+
+These spaces connect through meaningful thresholds. A garden beside a home does not become public merely because a shared path passes nearby; a household's use of the garden does not make the surrounding forest its private grounds.
+
 ### Living Structures
 
 Buildings in Lumen are:
@@ -78,13 +93,14 @@ Where new Astraviin are born:
 
 ### Maia's Garden
 
-Extensive botanical sanctuary:
+An ordinary household garden tended by Maia:
 
 - Vibrant colors and sweet fragrances
-- Contains the Tree of Echoes
-- Site of the treehouse sanctuary
+- Planting beds, a pond and semi-private space for household outdoor life
 - Living memorial (Calista's mural for Joren)
 - Outdoor classroom for lessons
+
+Its wooded edge connects to the more shared treehouse surroundings and the broader garden-and-woodland setting. The connected garden network also includes the distinct Tree of Echoes grove. Proximity and Maia's care do not make all of these surrounding places private household grounds.
 
 ### The Tree of Echoes
 
@@ -98,7 +114,7 @@ Ancient tree transplanted at Lumen's founding:
 
 ### The Treehouse
 
-Childhood sanctuary in Maia's garden:
+Childhood sanctuary at the wooded edge of Maia's garden, within the more shared surrounding landscape:
 
 - Patchwork design of different woods
 - Built high among sturdy oak branches

@@ -14,17 +14,17 @@ The numbered observations correspond to separate markers in the browser review. 
 
 **Runtime:** bg family_home · visuals.rpy:14 · script.rpy:34. [Original image](../../../visual-novel/game/images/backgrounds/family-home.png).
 
-**Story locator:** revision/latest.md:61–77; branching halls and private rooms.
+**Story locator:** revision/latest.md:61–81; central room, branching halls and adjacent private rooms. script.rpy:51–52; garden folds around the home..
 
 **Visible evidence:** A central table, books and drawings, close seating, a small fountain and several arched thresholds. The room feels occupied and sheltered.
 
 1. Table, books and work in progress establish everyday occupation.
-2. Successive arches make enclosure and connections tangible.
-3. A planted view beyond a threshold; not proof of a planet-like exterior.
+2. Successive arches connect parts of a dwelling; private rooms continue beyond this shared room.
+3. Household outdoor space can adjoin the room without making every planted space public.
 
-**Proposed interpretation:** Embed domestic rooms in thick living structure, with nearby courts and private thresholds. Keep the furnished room at human scale.
+**Proposed interpretation:** Treat this as the shared central room of one connected dwelling, with internal halls and individual private rooms continuing beyond the frame. Its household garden is ordinary outdoor domestic space, with a threshold to the local shared network.
 
-**Not established:** The number of homes beyond the doors, the pressure boundary and the ship-wide dwelling pattern are not visible.
+**Not established:** The frame does not show the whole dwelling or establish its area. Separate arches are not separate houses. The author identifies the household garden as ordinary, without an implication of unusual wealth.
 
 ## Courtyard: social life among cultivated structure
 
@@ -40,7 +40,7 @@ The numbered observations correspond to separate markers in the browser review. 
 2. A curved passage carries the scene beyond its immediate gathering space.
 3. Canopy and planted overhead connections create filtered enclosure.
 
-**Proposed interpretation:** Use many small neighborhood courts, with varied public/private edges, inside the larger connected anatomy.
+**Proposed interpretation:** Distinguish courts used by nearby households from household interiors and gardens, and from larger community plazas. Connect them through shared paths and recognizable domestic thresholds.
 
 **Not established:** This frame does not establish that every court has the same plan, or that all residents share this one court.
 
@@ -58,7 +58,7 @@ The numbered observations correspond to separate markers in the browser review. 
 2. The ladder connects to the upper entrance; the lower hollow is separate.
 3. A broad refuge sits at garden level. Root and drainage volume must fit beneath it.
 
-**Proposed interpretation:** Give the oak genuine rooting depth and canopy clearance within a garden terrace. Preserve the distinct upper entrance, ladder and lower refuge.
+**Proposed interpretation:** Give the oak genuine rooting depth and canopy clearance in the broader shared wooded garden edge. Keep the nearby household garden distinct from the more shared treehouse surroundings; preserve the upper entrance, ladder and lower refuge.
 
 **Not established:** This oak is not the Tree of Echoes. Its visible scale does not determine the material or size of Lumen’s main structural supports.
 

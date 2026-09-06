@@ -8,11 +8,11 @@
 <rect x="48" y="110" width="22" height="14" rx="3" fill="#58705a" />
 <text x="80" y="124" class="small">Cut living structure</text>
 <rect x="350" y="110" width="22" height="14" rx="3" fill="#ecc58c" />
-<text x="382" y="124" class="small">Occupied rooms</text>
+<text x="382" y="124" class="small">Inhabited interiors</text>
 <rect x="615" y="110" width="22" height="14" rx="3" fill="#85ae73" />
 <text x="647" y="124" class="small">Planted terrace</text>
 <rect x="860" y="110" width="22" height="14" rx="3" fill="#e9a35f" />
-<text x="892" y="124" class="small">Public route</text>
+<text x="892" y="124" class="small">Shared route</text>
 <rect x="1115" y="110" width="22" height="14" rx="3" fill="#83c9c6" />
 <text x="1147" y="124" class="small">Supply / return</text>
 <text x="1480" y="124" class="small">↓ shared down</text>
@@ -40,12 +40,10 @@
 <path d="M284 286C219 339 136 352 86 351" fill="none" stroke="#58705a" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M284 286C219 339 136 352 86 351" fill="none" stroke="#819474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
 <g transform="translate(83 135) scale(0.92)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M76 138Q115.0 132 154 138" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M95.5 136v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -55,12 +53,10 @@
 <path d="M134.5 136v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="134.5" cy="121" r="7" fill="#85ae73" />
 <g transform="translate(219 88) scale(0.92)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M212 91Q251.0 85 290 91" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M231.5 89v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -70,14 +66,11 @@
 <path d="M270.5 89v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="270.5" cy="74" r="7" fill="#85ae73" />
 <g transform="translate(251 280) scale(0.92)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
-<path d="M69 0V-12Q79-28 89-12V0Z" fill="#ecc58c"/>
-<path d="M77 0V-11Q80-17 83-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L76-20Q94-20 92-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M69-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H85" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M244 283Q294.0 277 344 283" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M269.0 281v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -87,12 +80,10 @@
 <path d="M319.0 281v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="319.0" cy="266" r="7" fill="#85ae73" />
 <g transform="translate(283 164) scale(0.92)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M276 167Q315.0 161 354 167" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M295.5 165v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -102,12 +93,10 @@
 <path d="M334.5 165v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="334.5" cy="150" r="7" fill="#85ae73" />
 <g transform="translate(446 247) scale(0.92)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M439 250Q478.0 244 517 250" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M458.5 248v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -117,12 +106,10 @@
 <path d="M497.5 248v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="497.5" cy="233" r="7" fill="#85ae73" />
 <g transform="translate(563 115) scale(0.92)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M556 118Q595.0 112 634 118" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M575.5 116v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -132,12 +119,10 @@
 <path d="M614.5 116v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="614.5" cy="101" r="7" fill="#85ae73" />
 <g transform="translate(706 140) scale(0.92)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M699 143Q738.0 137 777 143" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M718.5 141v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -147,14 +132,11 @@
 <path d="M757.5 141v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="757.5" cy="126" r="7" fill="#85ae73" />
 <g transform="translate(776 287) scale(0.92)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
-<path d="M69 0V-12Q79-28 89-12V0Z" fill="#ecc58c"/>
-<path d="M77 0V-11Q80-17 83-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L76-20Q94-20 92-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M69-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H85" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M769 290Q819.0 284 869 290" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M794.0 288v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -164,12 +146,10 @@
 <path d="M844.0 288v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="844.0" cy="273" r="7" fill="#85ae73" />
 <g transform="translate(623 347) scale(0.92)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M616 350Q655.0 344 694 350" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M635.5 348v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -179,12 +159,10 @@
 <path d="M674.5 348v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="674.5" cy="333" r="7" fill="#85ae73" />
 <g transform="translate(337 369) scale(0.92)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M330 372Q369.0 366 408 372" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M349.5 370v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -194,12 +172,10 @@
 <path d="M388.5 370v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="388.5" cy="355" r="7" fill="#85ae73" />
 <g transform="translate(872 221) scale(0.92)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M865 224Q904.0 218 943 224" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M884.5 222v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -233,10 +209,9 @@
 <path d="M26 275C148 256 240 265 362 311" fill="none" stroke="#58705a" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M163 182C203 218 239 235 273 268" fill="none" stroke="#58705a" stroke-width="39" stroke-linecap="round" stroke-linejoin="round"/>
 <g transform="translate(64 113) scale(0.9)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L30-20Q48-20 46-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H39" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M59 116Q79.0 110 99 116" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M69.0 114v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -246,12 +221,10 @@
 <path d="M89.0 114v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="89.0" cy="99" r="7" fill="#85ae73" />
 <g transform="translate(150 162) scale(0.9)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M145 165Q175.0 159 205 165" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M160.0 163v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -261,12 +234,10 @@
 <path d="M190.0 163v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="190.0" cy="148" r="7" fill="#85ae73" />
 <g transform="translate(277 161) scale(0.9)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M272 164Q302.0 158 332 164" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M287.0 162v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -276,12 +247,10 @@
 <path d="M317.0 162v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="317.0" cy="147" r="7" fill="#85ae73" />
 <g transform="translate(60 261) scale(0.9)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M55 264Q85.0 258 115 264" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M70.0 262v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -291,12 +260,10 @@
 <path d="M100.0 262v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="100.0" cy="247" r="7" fill="#85ae73" />
 <g transform="translate(230 257) scale(0.9)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M225 260Q255.0 254 285 260" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M240.0 258v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -306,10 +273,9 @@
 <path d="M270.0 258v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="270.0" cy="243" r="7" fill="#85ae73" />
 <g transform="translate(172 334) scale(0.9)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L30-20Q48-20 46-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H39" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M167 337Q187.0 331 207 337" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M177.0 335v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -345,20 +311,16 @@
 <path d="M171.125 173.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="171.125" cy="158.4" r="7" fill="#85ae73" />
 <g transform="translate(56 173.12) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g transform="translate(63 210.36) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <ellipse cx="294" cy="255" rx="110" ry="105" fill="#19342e"/>
 <path d="M193 299.1Q294 313.8 395 299.1" fill="none" stroke="#58705a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
@@ -370,20 +332,16 @@
 <path d="M335.25 295.0v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="335.25" cy="280.0" r="7" fill="#85ae73" />
 <g transform="translate(201 293.85) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g transform="translate(208 345.3) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <ellipse cx="466" cy="116" rx="105" ry="70" fill="#19342e"/>
 <path d="M370 145.4Q466 155.2 562 145.4" fill="none" stroke="#58705a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
@@ -395,20 +353,16 @@
 <path d="M505.875 142.0v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="505.875" cy="127.0" r="7" fill="#85ae73" />
 <g transform="translate(378 141.9) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g transform="translate(385 176.2) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <ellipse cx="601" cy="290" rx="95" ry="86" fill="#19342e"/>
 <path d="M515 326.12Q601 338.16 687 326.12" fill="none" stroke="#58705a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
@@ -420,20 +374,16 @@
 <path d="M638.125 322.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="638.125" cy="307.4" r="7" fill="#85ae73" />
 <g transform="translate(523 321.82) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g transform="translate(530 363.96) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <ellipse cx="799" cy="142" rx="101" ry="79" fill="#19342e"/>
 <path d="M707 175.18Q799 186.24 891 175.18" fill="none" stroke="#58705a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
@@ -445,20 +395,16 @@
 <path d="M837.775 171.6v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="837.775" cy="156.6" r="7" fill="#85ae73" />
 <g transform="translate(715 171.23) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g transform="translate(722 209.94) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <ellipse cx="896" cy="278" rx="66" ry="67" fill="#19342e"/>
 <path d="M839 306.14Q896 315.52 953 306.14" fill="none" stroke="#58705a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
@@ -470,20 +416,16 @@
 <path d="M925.15 302.8v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="925.15" cy="287.8" r="7" fill="#85ae73" />
 <g transform="translate(847 302.79) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g transform="translate(854 335.62) scale(0.82)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M89 180C189 159 222 215 273 296L367 292C391 245 424 165 477 160C527 165 544 279 567 327L655 327C697 298 722 220 774 177L841 174C863 186 862 254 892 303" fill="none" stroke="#e9a35f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M227 75C335 59 384 80 450 33M365 378C428 365 482 378 543 389M675 81C639 128 635 162 699 193" fill="none" stroke="#83c9c6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 7"/>
@@ -506,12 +448,10 @@
 <path d="M138 110L138 268" fill="none" stroke="#19342e" stroke-width="37" stroke-linecap="round" stroke-linejoin="round"/>
 <ellipse cx="102" cy="114" rx="66" ry="64" fill="#19342e"/>
 <g transform="translate(51 176) scale(0.85)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M41 136.4Q100.4 130.4 159.8 136.4" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M70.7 134.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -521,19 +461,16 @@
 <path d="M130.1 134.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="130.1" cy="119.4" r="7" fill="#85ae73" />
 <g transform="translate(54 133.2) scale(0.75)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L30-20Q48-20 46-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H39" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <ellipse cx="289" cy="179" rx="75" ry="82" fill="#19342e"/>
 <g transform="translate(229 259) scale(0.85)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M219 207.7Q286.5 201.7 354.0 207.7" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M252.75 205.7v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -543,19 +480,16 @@
 <path d="M320.25 205.7v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="320.25" cy="190.7" r="7" fill="#85ae73" />
 <g transform="translate(232 203.6) scale(0.75)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L30-20Q48-20 46-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H39" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <ellipse cx="158" cy="283" rx="75" ry="64" fill="#19342e"/>
 <g transform="translate(98 345) scale(0.85)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M88 305.4Q155.5 299.4 223.0 305.4" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M121.75 303.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -565,10 +499,9 @@
 <path d="M189.25 303.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="189.25" cy="288.4" r="7" fill="#85ae73" />
 <g transform="translate(101 302.2) scale(0.75)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L30-20Q48-20 46-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H39" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M72 141C138 160 228 189 292 210C286 259 212 274 163 309" fill="none" stroke="#e9a35f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="0" y="433" class="small">Connected, unequal chambers.</text>

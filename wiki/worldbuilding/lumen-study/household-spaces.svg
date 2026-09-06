@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1660 1220" role="img" aria-labelledby="title desc">
+<title id="title">Lumen: one home and the spaces it shares</title>
+<desc id="desc">A local horizontal relationship sketch shows a connected dwelling with shared household rooms, a continuous internal hall and adjacent private rooms for Kael, Calista and Lyra. A semi-private household garden adjoins the home. A local shared path runs outside its boundary, connecting nearby households to shared woodland and the treehouse, and onward to wider community spaces. Room geometry and boundary positions are proposals, not a measured plan or a floor plan of the vessel.</desc>
+<rect width="1660" height="1220" fill="#10221f"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#8bc9bf" stroke-width="1.4"/></marker></defs>
+<style>text{font-family:DejaVu Sans,Arial,sans-serif;fill:#f0e6d0;font-size:17px}.small{font-size:14px;fill:#bdcbb9}.title{font-size:30px;font-weight:700}.heading{font-size:23px;font-weight:600}</style>
+<text x="46" y="54" class="title">LUMEN / ONE HOME AND THE SPACES IT SHARES</text>
+<text x="46" y="88">Local horizontal relationships • one inhabited height • no measured scale • household gardens are ordinary</text>
+<rect x="46" y="112" width="18" height="16" rx="3" fill="#c4b1d3" />
+<text x="74" y="127" class="small">Personal rooms</text>
+<rect x="325" y="112" width="18" height="16" rx="3" fill="#efc486" />
+<text x="353" y="127" class="small">Household inside + outside</text>
+<rect x="735" y="112" width="18" height="16" rx="3" fill="#8bc9bf" />
+<text x="763" y="127" class="small">Shared by nearby households</text>
+<rect x="1200" y="112" width="18" height="16" rx="3" fill="#acd19a" />
+<text x="1228" y="127" class="small">Wider community</text>
+<rect x="30" y="160" width="1600" height="816" rx="14" fill="#152b25" />
+<text x="52" y="199" class="heading">CONNECTED INTERIORS WITHIN THE LIVING BODY</text>
+<text x="52" y="228" class="small">The frame in family-home.png shows the shared central room, not the complete dwelling.</text>
+<path d="M46 288C179 247 290 274 379 263C526 245 658 270 737 311L780 460C801 548 772 670 702 701C599 745 436 718 330 733C194 753 87 710 46 657Z" fill="#465e4d"/>
+<path d="M73 315Q131 286 218 295L653 295Q712 304 728 353L728 614Q710 672 655 678L166 678Q97 671 73 614Z" fill="#19352e" stroke="#efc486" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="106" y="314" width="148" height="99" rx="14" fill="#c4b1d3" fill-opacity=".18"/>
+<path d="M106 413V328Q106 314 121 314H239Q254 314 254 328V413M106 413H158M201 413H254" fill="none" stroke="#c4b1d3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="126" y="337" width="41" height="57" rx="5" fill="#c4b1d3" fill-opacity=".45"/>
+<rect x="128" y="340" width="37" height="13" rx="3" fill="#c4b1d3" />
+<text x="208" y="361" text-anchor="middle">Kael</text>
+<text x="208" y="384" class="small" text-anchor="middle">private</text>
+<rect x="286" y="314" width="148" height="99" rx="14" fill="#c4b1d3" fill-opacity=".18"/>
+<path d="M286 413V328Q286 314 301 314H419Q434 314 434 328V413M286 413H338M381 413H434" fill="none" stroke="#c4b1d3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="306" y="337" width="41" height="57" rx="5" fill="#c4b1d3" fill-opacity=".45"/>
+<rect x="308" y="340" width="37" height="13" rx="3" fill="#c4b1d3" />
+<text x="388" y="361" text-anchor="middle">Calista</text>
+<text x="388" y="384" class="small" text-anchor="middle">private</text>
+<rect x="466" y="314" width="148" height="99" rx="14" fill="#c4b1d3" fill-opacity=".18"/>
+<path d="M466 413V328Q466 314 481 314H599Q614 314 614 328V413M466 413H518M561 413H614" fill="none" stroke="#c4b1d3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="486" y="337" width="41" height="57" rx="5" fill="#c4b1d3" fill-opacity=".45"/>
+<rect x="488" y="340" width="37" height="13" rx="3" fill="#c4b1d3" />
+<text x="568" y="361" text-anchor="middle">Lyra</text>
+<text x="568" y="384" class="small" text-anchor="middle">private</text>
+<path d="M100 442H680" fill="none" stroke="#efc486" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="390" y="467" class="small" text-anchor="middle">One internal hall; private rooms open into it</text>
+<ellipse cx="480" cy="570" rx="155" ry="92" fill="#efc486" fill-opacity=".10"/>
+<ellipse cx="480" cy="576" rx="59" ry="34" fill="#efc486" fill-opacity=".75"/>
+<rect x="402" y="550" width="16" height="16" rx="4" fill="#efc486" />
+<rect x="402" y="594" width="16" height="16" rx="4" fill="#efc486" />
+<rect x="472" y="519" width="16" height="16" rx="4" fill="#efc486" />
+<rect x="472" y="616" width="16" height="16" rx="4" fill="#efc486" />
+<rect x="540" y="542" width="16" height="16" rx="4" fill="#efc486" />
+<rect x="544" y="592" width="16" height="16" rx="4" fill="#efc486" />
+<text x="483" y="503" text-anchor="middle">Shared central room</text>
+<text x="476" y="581" class="small" text-anchor="middle">table</text>
+<rect x="113" y="507" width="172" height="133" rx="15" fill="#efc486" fill-opacity=".10"/>
+<text x="198" y="540" text-anchor="middle">Household use</text>
+<text x="198" y="568" class="small" text-anchor="middle">cooking / washing</text>
+<text x="198" y="592" class="small" text-anchor="middle">storage / activities</text>
+<path d="M80 490H122" fill="none" stroke="#efc486" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<text x="82" y="761" class="small">Further household rooms continue beyond this selected view.</text>
+<text x="82" y="786" class="small">Room shapes and service locations are proposals; the sibling adjacency is from the text.</text>
+<path d="M791 303C887 296 945 362 970 449C1005 565 961 704 906 742C841 801 779 840 674 846L601 840L614 752C698 744 759 709 775 631C799 555 792 503 757 470L750 349Z" fill="#efc486" fill-opacity=".12"/>
+<path d="M791 303C887 296 945 362 970 449C1005 565 961 704 906 742C841 801 779 840 674 846L601 840" fill="none" stroke="#efc486" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<path d="M654 584H807Q850 596 862 649Q865 713 793 766L719 798" fill="none" stroke="#efc486" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M725 570V600" fill="none" stroke="#10221f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M715 568H738M715 602H738" fill="none" stroke="#efc486" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(828 402) rotate(-12)">
+<rect x="-35" y="-13" width="70" height="26" rx="8" fill="#77935e" />
+<path d="M-22 0H23" fill="none" stroke="#efc486" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(863 467) rotate(15)">
+<rect x="-35" y="-13" width="70" height="26" rx="8" fill="#77935e" />
+<path d="M-22 0H23" fill="none" stroke="#efc486" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(890 564) rotate(20)">
+<rect x="-35" y="-13" width="70" height="26" rx="8" fill="#77935e" />
+<path d="M-22 0H23" fill="none" stroke="#efc486" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(852 729) rotate(-20)">
+<rect x="-35" y="-13" width="70" height="26" rx="8" fill="#77935e" />
+<path d="M-22 0H23" fill="none" stroke="#efc486" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<ellipse cx="825" cy="525" rx="35" ry="20" fill="#568d88" />
+<ellipse cx="825" cy="525" rx="29" ry="15" fill="#83bdb5" />
+<text x="810" y="869" text-anchor="middle">Maia’s household garden</text>
+<text x="810" y="894" class="small" text-anchor="middle">Ordinary domestic outdoor space</text>
+<text x="810" y="916" class="small" text-anchor="middle">Semi-private; friends can be invited in</text>
+<path d="M1099 300C1027 361 1047 461 1037 528C1009 668 1045 745 1124 844" fill="none" stroke="#8bc9bf" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1136" y="290">Local shared path</text>
+<path d="M922 650L1030 650" fill="none" stroke="#efc486" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M965 633V650M965 663V680" fill="none" stroke="#efc486" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1125" y="685" class="small">Garden threshold</text>
+<path d="M1119 674L980 655" fill="none" stroke="#efc486" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1078 329L1139 348L1184 357" fill="none" stroke="#8bc9bf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1225 356H1604" fill="none" stroke="#465e4d" stroke-width="82" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1225 356H1604" fill="none" stroke="#19352e" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1184 357H1604" fill="none" stroke="#efc486" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<path d="M1240 326V346M1240 366V386" fill="none" stroke="#efc486" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1378" y="303" class="small" text-anchor="middle">Neighboring household entrance</text>
+<text x="1378" y="424" class="small" text-anchor="middle">Rooms and garden continue beyond this view.</text>
+<path d="M1143 494C1244 455 1398 494 1475 543C1538 578 1543 735 1489 787C1400 846 1249 818 1161 756C1128 695 1116 588 1143 494Z" fill="#8bc9bf" fill-opacity=".10"/>
+<ellipse cx="1191" cy="550" rx="31" ry="23.56" fill="#5d8762" fill-opacity=".6"/>
+<ellipse cx="1265" cy="545" rx="38" ry="28.88" fill="#5d8762" fill-opacity=".6"/>
+<ellipse cx="1439" cy="578" rx="40" ry="30.4" fill="#5d8762" fill-opacity=".6"/>
+<ellipse cx="1462" cy="715" rx="34" ry="25.84" fill="#5d8762" fill-opacity=".6"/>
+<ellipse cx="1172" cy="716" rx="32" ry="24.32" fill="#5d8762" fill-opacity=".6"/>
+<ellipse cx="1289" cy="753" rx="31" ry="23.56" fill="#5d8762" fill-opacity=".6"/>
+<ellipse cx="1336" cy="639" rx="69" ry="58" fill="#6b9766" fill-opacity=".45"/>
+<rect x="1307" y="617" width="58" height="42" rx="7" fill="#efc486" fill-opacity=".6"/>
+<path d="M1334 626V645M1317 655L1292 683" fill="none" stroke="#10221f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1324" y="850" text-anchor="middle">Shared woodland / treehouse</text>
+<text x="1324" y="877" class="small" text-anchor="middle">The garden’s wooded edge connects</text>
+<text x="1324" y="901" class="small" text-anchor="middle">to a landscape used by nearby homes.</text>
+<path d="M1040 574Q1100 568 1146 627L1290 646" fill="none" stroke="#8bc9bf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1056 766Q1034 844 1064 914Q1085 950 1190 950H1320" fill="none" stroke="#8bc9bf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1320 950H1590M1576 941L1590 950L1576 959" fill="none" stroke="#acd19a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1150" y="934" class="small">Wider community landscapes and civic places</text>
+<rect x="30" y="1000" width="1600" height="180" rx="14" fill="#19352e" />
+<text x="54" y="1038" class="heading">THESE DISTINCTIONS RECUR THROUGH LUMEN’S DEPTH</text>
+<text x="54" y="1075">Households above and below also have connected interiors and outdoor space. Local routes serve them without crossing private rooms.</text>
+<text x="54" y="1105">More extensive forests, open land, civic spaces and major gathering places are shared at the wider community scale.</text>
+<text x="54" y="1144" class="small">The diagram marks scales of use and privacy. It does not establish legal property boundaries, plot sizes or a complete household inventory.</text>
+</svg>

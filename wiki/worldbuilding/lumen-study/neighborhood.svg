@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1660 1190" role="img" aria-labelledby="title desc">
-<title id="title">Lumen: proposed continuous inhabited neighborhood section</title><desc id="desc">An unscaled local section places a sheltered home next to a garden with a distinct oak treehouse, a community court, workshops, lifts, upper homes and a higher overlook. Additional homes and service paths occupy the structure below. This is a proposed relationship test, not the canonical location of the dome.</desc>
+<title id="title">Lumen: proposed continuous inhabited neighborhood section</title><desc id="desc">An unscaled section distinguishes a connected household interior and its semi-private garden from a local shared wooded treehouse edge, court and paths. Other connected interiors recur above and below, with workshops, lifts and a higher overlook. The home symbol shows only its shared room; adjoining private rooms continue beyond the cut. This is not the canonical location of the dome.</desc>
 <rect width="1660" height="1190" fill="#10221f"/>
 <defs><pattern id="cut" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M-3 3L3-3M0 12L12 0M9 15L15 9" stroke="#bdd0a4" stroke-width="1" opacity=".14"/></pattern><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#e9a35f" stroke-width="1.3"/></marker></defs>
 <style>text{font-family:DejaVu Sans,Arial,sans-serif} .label{font-size:17px;fill:#f0e6d0}.small{font-size:14px;fill:#bbcab9}.title{font-size:30px;fill:#f0e6d0;font-weight:700}.heading{font-size:24px;fill:#f0e6d0;font-weight:600}</style>
@@ -8,11 +8,11 @@
 <rect x="48" y="111" width="22" height="14" rx="3" fill="#58705a" />
 <text x="80" y="125" class="small">Cut living structure</text>
 <rect x="350" y="111" width="22" height="14" rx="3" fill="#ecc58c" />
-<text x="382" y="125" class="small">Occupied rooms</text>
+<text x="382" y="125" class="small">Inhabited interiors</text>
 <rect x="615" y="111" width="22" height="14" rx="3" fill="#85ae73" />
 <text x="647" y="125" class="small">Planted terrace</text>
 <rect x="860" y="111" width="22" height="14" rx="3" fill="#e9a35f" />
-<text x="892" y="125" class="small">Public route</text>
+<text x="892" y="125" class="small">Shared route</text>
 <rect x="1115" y="111" width="22" height="14" rx="3" fill="#83c9c6" />
 <text x="1147" y="125" class="small">Supply / return</text>
 <text x="1480" y="125" class="small">↓ shared down</text>
@@ -25,23 +25,19 @@
 <path d="M381 295C505 288 586 284 690 317S861 369 982 366" fill="none" stroke="#58705a" stroke-width="51" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M386 272C506 265 586 261 690 294S861 346 982 343" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <g transform="translate(730 320) scale(1.1)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g transform="translate(850 336) scale(1.1)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L53-20Q71-20 69-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H62" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M65 447V350C66 296 121 269 182 282C236 289 275 325 276 366V444" fill="none" stroke="#58705a" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M57 452H292" fill="none" stroke="#e9a35f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M57 452H292" fill="none" stroke="#ecc58c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="106" y="404" width="93" height="9" rx="4" fill="#ecc58c" />
 <path d="M117 414V440M185 414V440" fill="none" stroke="#ecc58c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="81" y="392" width="16" height="45" rx="3" fill="#ecc58c" />
@@ -54,7 +50,7 @@
 <rect x="136" y="310" width="6" height="13" rx="1" fill="#ecc58c" />
 <rect x="146" y="310" width="6" height="13" rx="1" fill="#ecc58c" />
 <rect x="156" y="310" width="6" height="13" rx="1" fill="#ecc58c" />
-<text x="151" y="376" class="small" text-anchor="middle">HOME</text>
+<text x="151" y="376" class="small" text-anchor="middle">SHARED ROOM</text>
 <path d="M525 422C545 361 530 313 567 249M548 335C493 296 470 260 462 219M559 277C611 266 635 226 656 196" fill="none" stroke="#9a9c73" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
 <ellipse cx="487" cy="225" rx="58" ry="31" fill="#85ae73" opacity=".45"/>
 <ellipse cx="563" cy="219" rx="66" ry="32" fill="#85ae73" opacity=".45"/>
@@ -80,28 +76,20 @@
 <path d="M302 654V615Q341 575 406 592Q502 596 575 625L593 654Z" fill="#19342e"/>
 <path d="M615 797V753Q630 712 682 726Q730 737 765 770V797Z" fill="#19342e"/>
 <g transform="translate(322 654) scale(1.25)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
-<path d="M69 0V-12Q79-28 89-12V0Z" fill="#ecc58c"/>
-<path d="M77 0V-11Q80-17 83-11V0" fill="#19342e"/>
-<path d="M92 0V-12Q102-28 112-12V0Z" fill="#ecc58c"/>
-<path d="M100 0V-11Q103-17 106-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L99-20Q117-20 115-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M69-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M92-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H108" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g transform="translate(627 796) scale(1.2)">
-<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
-<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
-<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
-<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
-<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
-<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
-<path d="M69 0V-12Q79-28 89-12V0Z" fill="#ecc58c"/>
-<path d="M77 0V-11Q80-17 83-11V0" fill="#19342e"/>
-<path d="M92 0V-12Q102-28 112-12V0Z" fill="#ecc58c"/>
-<path d="M100 0V-11Q103-17 106-11V0" fill="#19342e"/>
+<path d="M0 0V-8Q-2-22 16-23L99-20Q117-20 115-7V0Z" fill="#ecc58c"/>
+<path d="M23-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M69-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M92-20v11" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7-5H108" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path d="M1101 443V368Q1112 344 1151 346Q1192 347 1207 370V443Z" fill="#19342e"/>
 <rect x="1115" y="411" width="71" height="8" rx="2" fill="#ecc58c" />
@@ -114,7 +102,8 @@
 <path d="M871 563V353M898 563V353" fill="none" stroke="#ecc58c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="872" y="417" width="25" height="31" rx="4" fill="#ecc58c" />
 <path d="M878 423V441M886 423V441" fill="none" stroke="#19342e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M276 444L396 432L562 433L640 486L714 552L866 552L960 494L1066 444L1208 443L1345 381L1447 357L1615 354" fill="none" stroke="#e9a35f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M276 444L374 433" fill="none" stroke="#ecc58c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M374 433L396 432L562 433L640 486L714 552L866 552L960 494L1066 444L1208 443L1345 381L1447 357L1615 354" fill="none" stroke="#e9a35f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M632 479h10v9" fill="none" stroke="#ecc58c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M642 488h10v9" fill="none" stroke="#ecc58c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M652 497h10v9" fill="none" stroke="#ecc58c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -148,10 +137,15 @@
 <circle cx="1022" cy="397" r="4" fill="#e9a35f" />
 <text x="989" y="302" class="small">Route through the width</text>
 <path d="M1022 312V377" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="53" y="231" class="small">1  Enclosed home / planted threshold</text>
+<text x="53" y="231" class="small">1  Shared room; private rooms beyond cut</text>
 <path d="M58 241L242 318" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="242" cy="318" r="3" fill="#bbcab9" />
-<text x="394" y="181" class="small">2  Oak + handmade treehouse</text>
+<text x="56" y="524" class="small">Household garden</text>
+<path d="M61 505L327 443" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="327" cy="443" r="3" fill="#bbcab9" />
+<path d="M293 409Q322 391 353 409" fill="none" stroke="#85ae73" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M374 402V439" fill="none" stroke="#ecc58c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 5"/>
+<text x="394" y="181" class="small">2  Shared wooded edge + treehouse</text>
 <path d="M399 191L588 245" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="588" cy="245" r="3" fill="#bbcab9" />
 <text x="693" y="227" class="small">3  Upper homes also belong here</text>
@@ -163,7 +157,7 @@
 <text x="78" y="749" class="small">5  Other homes below the garden</text>
 <path d="M83 730L379 633" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="379" cy="633" r="3" fill="#bbcab9" />
-<text x="678" y="611" class="small">6  Small shared court</text>
+<text x="678" y="611" class="small">6  Court shared by nearby households</text>
 <path d="M683 592L788 514" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="788" cy="514" r="3" fill="#bbcab9" />
 <text x="926" y="711" class="small">7  Lift + alternate walking route</text>
@@ -180,8 +174,8 @@
 <circle cx="593" cy="730" r="3" fill="#bbcab9" />
 <rect x="32" y="917" width="1596" height="231" rx="14" fill="#19352e" />
 <text x="54" y="954" class="heading">WHAT THIS SECTION SHOULD PROVE IN THE NEXT BLENDER STUDY</text>
-<text x="54" y="996" class="label">A person can move from a private room into a garden and encounter a larger inhabited world at several heights.</text>
-<text x="54" y="1028" class="label">Crossing through the width must reveal further occupied space. Supports, soil, water and access have real volume.</text>
-<text x="54" y="1060" class="label">The oak and its lower hollow stay distinct from the Tree of Echoes, which is elsewhere in the garden network.</text>
+<text x="54" y="996" class="label">One connected home opens to its household garden, then local shared paths, woodland and courts at several inhabited heights.</text>
+<text x="54" y="1028" class="label">The shared room is part of a dwelling; other rooms continue beyond the cut. Amber areas mark interiors, not separate houses.</text>
+<text x="54" y="1060" class="label">The oak and treehouse occupy the broader shared wooded edge. The Tree of Echoes remains a different tree and place.</text>
 <text x="54" y="1107" class="small">The overlook tests the VN’s depth; this drawing does not place the story’s dome beside Calista’s home.</text>
 </svg>

@@ -31,7 +31,7 @@ The atlas separates **visible evidence**, **proposed interpretation** and **what
 
 ![Two proposed internal anatomies, each shown in longitudinal and transverse section](lumen-study/anatomies.svg)
 
-These are diagrammatic sections, not finished exterior concepts or measured floor plans. The smaller transverse sketches test whether occupation continues across the width as well as through the height. Their individual cavities are illustrative, not registered slices of a completed 3D mesh.
+These are diagrammatic sections, not finished exterior concepts or measured floor plans. Amber areas mark connected inhabited interiors within the structure; they are not rows of detached houses or a count of dwellings. The smaller transverse sketches test whether occupation continues across the width as well as through the height. Their individual cavities are illustrative, not registered slices of a completed 3D mesh.
 
 | | A — Branching inhabited structure | B — Linked garden chambers |
 |---|---|---|
@@ -43,14 +43,24 @@ These are diagrammatic sections, not finished exterior concepts or measured floo
 
 **Recommendation: develop A, borrowing B's sheltered local spaces.** There is no mandatory central trunk, one civic core, repeated stack of identical decks or tree-shaped exterior. “Branching” describes connected structure and circulation; the larger anatomy need not literally be terrestrial wood. Homes and active public spaces belong on several inhabited heights, with other homes beneath gardens and beyond the edge of each drawing.
 
+## A home, its garden and the spaces beyond
+
+The unit to reconstruct is **one connected dwelling**: a shared central room, branching internal halls and private rooms. The manuscript places Kael's and Lyra's rooms on either side of Calista's; the VN shows the central gathering room. Those are parts of a home within Lumen's continuous body. Neither each room nor each person's allowance is a separate house.
+
+The author's clarification establishes **Maia's garden as ordinary household outdoor space**, without an implication of unusual wealth. The wider woods, treehouse surroundings and open areas are more shared. Keep four scales legible: personal privacy; shared household interiors and semi-private outdoors; places shared among nearby households; and wider community places. A visitor can reach a local path without crossing another household's living room or garden. A friend can be invited into that garden without its becoming a public thoroughfare.
+
+![One connected household interior, its semi-private garden, local shared woodland and wider community connections](lumen-study/household-spaces.svg)
+
+This is a **local horizontal relationship sketch**, not the floor plan of Lumen. The vertical neighborhood section below shows the same distinctions recurring at other heights. Exact room shapes and thresholds remain proposals. Preserve the garden's proximity and sense of enclosure in `script.rpy:51–52`; the wooded treehouse edge can be shared without converting the household's cultivated garden into a public park or making the entire forest private grounds. Mark any later boundary or route discrepancy against the existing art before changing a scene.
+
 ## Regions as overlapping parts of a living world
 
 These are functional groupings, not new canonical district names or exclusive zones. Distribute daily needs among neighborhoods; some specialized functions can be concentrated.
 
 | Region or system | Proposed place in the anatomy | Existing scene it must support |
 |---|---|---|
-| Domestic groves and small courts | Rooms within thickened structure, overlooking sheltered planted terraces at many heights; private thresholds between shared and personal spaces. | The central home table, nearby private rooms, Cassia's home and casual visits. |
-| Gardens and heritage groves | Linked cultivated pockets with sufficient soil, root space, drainage and canopy clearance; quieter groves branch away from busy paths. | Maia's work garden, shallow pond, the oak treehouse and the **separate** Tree of Echoes. |
+| Domestic interiors and household gardens | One dwelling's shared rooms, private rooms and internal halls occupy continuous living structure. Its semi-private outdoor space meets local shared paths through identifiable thresholds. Other households occupy adjoining parts of the body, including above and below. | The central home table, nearby private rooms, Maia's ordinary household garden, Cassia's home and invited visits. |
+| Local shared landscapes and community groves | Woodland, play spaces and paths are shared among nearby households; larger landscapes and heritage places serve the wider community. Their root beds, drainage and canopy occupy real volume. These are distinct from household gardens even where the planting is continuous. | The broader wooded treehouse area, access to open spaces, and the **separate** Tree of Echoes. |
 | Civic confluences | Several routes meet at local plazas. The named central plaza is a major social focus within this network, with occupied galleries and adjoining approaches. | Festival stage, lantern release, memorials and chance encounters. Its total gathering capacity remains unresolved. |
 | Making, teaching and exchange | Workshops, libraries, music rooms and guild activity threaded through neighborhoods; heavier processes separated where noise, heat or handling require it. | Screws, tools, machinery, welding, craft and personal experimentation remain meaningful. |
 | Cultivation and metabolic systems | Productive terraces and specialist biological/technical spaces recur near supply routes. Water, nutrient and air circulation link regions through the structural matrix. | The wiki's automated routine production and cultivation, alongside Maia's deliberate gardening and real commerce. |
@@ -70,7 +80,7 @@ Artificial gravity supplies a stable, familiar down direction across connected e
 
 ![Proposed continuous inhabited neighborhood section with people, routes and supporting tissue at several heights](lumen-study/neighborhood.svg)
 
-This tests a walk from home into a garden, past a court and along a route that reveals other inhabited heights. Home doors, shaded canopy, a separate oak and its treehouse, tangible workshop access, vertical transport and a higher overlook must coexist. The overlook is a **spatial test**, not an assertion that the canonical dome is directly beside Calista's home. The distance and intervening turns of that outing remain to be mapped.
+This tests a walk from a household interior into its own garden, through a threshold to a local shared path, and into the wider woodland, court and route network. The household garden and the broader wooded treehouse area are distinct parts of that sequence. The home symbol shows its shared room; adjoining private rooms continue beyond this section. Other connected dwellings recur above and below. Workshop access, vertical transport and a higher overlook must coexist with those domestic boundaries. The overlook is a **spatial test**, not an assertion that the canonical dome is directly beside Calista's home. The distance and intervening turns of that outing remain to be mapped.
 
 A later Blender study should model this continuous section and a crossing through its width, then compare child-height views against the reference plates. Check home enclosure, garden/treehouse access, construction-path depth and the layered overlook individually. Include load paths, root/service space, accessible vertical movement and an alternate route. A successful section should reveal more inhabited space as the camera moves, while retaining somewhere a person could sit, cook, repair something or be alone.
 
@@ -88,5 +98,7 @@ A later Blender study should model this continuous section and a crossing throug
 | C06 | Young Lumen, first locally born majority and later expansion lack a census or fixed founding date. | Model childhood separately from later epochs. Retain Radiant Fields as later growth. | Population, founding chronology and later dimensions remain proposals/open questions. |
 | C07 | Joren's fatal research expedition follows the successful dome outing. | Preserve the separate moon expedition and unspecified malfunction. | No new gravity, construction or safety-system cause assigned. |
 | C08 | Old gravity article and art-direction reference ranking conflict with current author direction. | Use accepted artificial gravity and current VN visual priority in this study. | Later wiki/production-document alignment is marked; neither older proposal controls the drawings. |
+| C09 | The first study's repeated house-shaped symbols and isolated home outline implied a collection of houses and a private estate. | Draw connected interiors, distinguish the visible central room from the complete dwelling, and give ordinary households indoor and outdoor space. | Study diagrams corrected. No new wealth status or manuscript/VN edit assigned. |
+| C10 | The garden folds around the home in the VN; the treehouse is at a wooded garden edge in the source material. The author distinguishes household garden from broader shared woodland. | Preserve the close household garden and its privacy; let the wooded edge connect to shared local landscapes. Show paths and thresholds without treating all greenery as one ownership area. | Access distinction recorded in the wiki. Exact boundary and camera geometry remain to be mapped; no scene wording or artwork changed. |
 
 The next decision is which anatomy and scale band to test in the local Blender section. After that test, move agreed facts into the relevant wiki articles and retain this study as the rationale. Broader modeling follows the validated local relationships; a numeric worksheet alone cannot validate Lumen's look or lived experience.

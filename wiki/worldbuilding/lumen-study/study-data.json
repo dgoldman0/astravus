@@ -12,7 +12,7 @@
   "area_m2_per_person": {
     "homes": 60,
     "civic": 25,
-    "public_gardens": 140,
+    "outdoor_spaces": 140,
     "productive_growing": 75,
     "services": 30,
     "shared_transport": 20,
