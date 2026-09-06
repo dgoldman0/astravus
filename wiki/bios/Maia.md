@@ -152,10 +152,6 @@ During transcendence experiences, Calista encounters Maia:
 - Touch is gentle and deliberate: smoothing hair, pressing seeds into palms, guiding hands in soil
 - Her garden itself is a form of communication, designed to evoke specific feelings and memories
 
-## Character Notes for Writers
-- Maia represents the grounding, nurturing force in the family
-- Her botanical expertise could serve metaphorical purposes in discussing growth, integration, and transcendence
-- The garden is as much a character as Maia—it evolves through the story and serves as setting for key moments
-- Her approach to teaching through example and metaphor is distinctive and valuable
-- Her transition into transcendence serves as a model for understanding the process as continuation rather than ending
-- The contrast between her early active presence and later ethereal existence marks time's passage
+## Narrative role
+
+Maia’s garden connects care, learning and growth across Calista’s life. Her patient teaching and later presence in transcendent dreams give continuity to that relationship as their ways of being together change.

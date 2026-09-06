@@ -54,7 +54,7 @@ Children arrive through the Sanctuary into their families. They retain their fam
 
 Partners may share a household and coordinate resources. Household arrangements, dwelling count and family size cannot be read directly from the number of constellation members. Likewise, an economic household can include apprentices, relatives or friends who are not romantic partners.
 
-For demographic and architectural planning, count embodied residents, residential groupings, families and adult partnerships separately. A count of residences does not establish a count of constellations. See [Socioeconomics](Socioeconomics.md#relationship-to-constellations).
+Residents, households, families and adult partnerships describe different aspects of the community. A count of residences does not establish a count of constellations. See [Socioeconomics](Socioeconomics.md#relationship-to-constellations).
 
 ## Change over time
 

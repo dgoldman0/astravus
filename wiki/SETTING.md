@@ -292,7 +292,7 @@ Art holds profound significance in Astraviin culture:
 Astraviin technology is characterized by:
 
 - **Living Integration**: Technology and biology exist seamlessly together
-- **Nanomachine Systems**: Implied infrastructure of coordinating nanomachines that maintain Astravus health
+- **Coordinated Maintenance**: Interconnected living systems sustain the Astravus and its inhabitants
 - **Bioluminescence**: Lighting provided by living plants rather than artificial sources
 - **Mental Interface**: After Core Integration, Astraviin can control devices through thought
 - **Holographic Systems**: Communication, record-keeping, and art often use holographic projection

@@ -198,12 +198,6 @@ Dorian's impact includes:
 - **Curiosity:** Questions lead to deeper understanding
 - **Continuity:** Knowledge and wisdom persist despite individual mortality
 
-## Character Notes for Writers
-- Dorian represents intellectual and historical dimension of family
-- Library serves as important setting for key scenes and quiet moments
-- His storytelling ability could provide narrative framework device
-- The nested story told by Sage likely originates with Dorian's historical knowledge
-- His friendship with Lyron demonstrates how passion creates connection across families
-- His approach to education through narrative contrasts with Arin's technical approach—both valid
-- His transcendence potentially offers opportunity to explore how knowledge becomes collective memory
-- Dorian embodies the idea that what we remember and record shapes community identity
+## Narrative role
+
+Dorian brings history and storytelling into the family’s daily life. His library and his friendship with Lyron connect learning with shared curiosity, while his teaching gives the children ways to imagine places and lives beyond their own.

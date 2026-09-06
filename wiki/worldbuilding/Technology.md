@@ -48,19 +48,9 @@ At age 35, Astraviin undergo Core Integration:
 - Results in dramatically enhanced capabilities
 - Opens the pathway to eventual transcendence
 
-### Nanomachine Hypothesis
+### Underlying mechanism
 
-The narrative notes suggest nanomachine involvement:
-
-> "Thinking of going a nanomachines route which will require more thought. They would permeate life and the Astravus and coordinate everything."
-
-This implies:
-
-- Nanomachines may be the underlying infrastructure
-- They could permeate both Astravus and inhabitants
-- Coordination of complex systems through microscopic agents
-- Potential for visible effects (glowing, fantasy-like elements)
-- Goal is to remain within science fiction rather than pure fantasy
+The story describes the effects of living technology and mental interfaces without specifying a complete microscopic mechanism.
 
 ---
 
@@ -287,15 +277,6 @@ Technology prepares for ultimate integration:
 - Mental interface practices connection with larger consciousness
 - Living with responsive environment models collective existence
 - Technology that becomes part of self mirrors becoming part of Astravus
-
-### Science Fiction Foundation
-
-The goal is to keep technology:
-
-- Within the realm of science fiction
-- Grounded in plausible extrapolation
-- Fantastical in appearance but explainable in principle
-- Beautiful and strange without being purely magical
 
 ---
 

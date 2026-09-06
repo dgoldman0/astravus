@@ -229,21 +229,6 @@ Familiars are sometimes described as:
 
 ---
 
-## Lyra's Future Familiar
-
-From narrative notes:
-
-> "Sadly that means none for Lyra, so we'll probably have to get her someone interesting as she gets older. Maybe an owl."
-
-This suggests:
-
-- Different familiars suit different personalities
-- Variety of species can become familiars
-- Matching familiar to person matters
-- Even unusual animals (owl) can fill this role
-
----
-
 ## Questions and Implications
 
 ### What Happens to Familiars After Death?
@@ -269,7 +254,6 @@ Details are not provided, but:
 The narrative focuses on traditional pets:
 
 - Cats, dogs, and rats are mentioned
-- An owl is suggested for Lyra
 - The range may extend to many species
 - Deep bond is the defining characteristic
 

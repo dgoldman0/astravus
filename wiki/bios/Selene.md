@@ -183,11 +183,6 @@ Selene's impact on her family includes:
 - **Continuity:** Melodies and musical traditions transcend individual lifespans
 - **Presence:** Full engagement in moments of creativity and connection
 
-## Character Notes for Writers
-- Selene represents the emotional and aesthetic dimension of the family
-- Music could serve as metaphor or narrative device throughout story
-- Her graceful, ethereal quality prefigures her later transcendence
-- The relationship between Calista and her music is important to Calista's identity
-- Selene's teaching style (encouraging rather than critical) contrasts with other approaches and is equally valid
-- Her presence in transcendent dreams connects Calista to the continuum of human-Astravus experience
-- The specific melodies and musical moments could be woven throughout narrative as leitmotifs
+## Narrative role
+
+Selene’s music gives Calista an early way to connect feeling with creative expression. Lessons, family listening and later transcendent encounters connect that influence across the story.

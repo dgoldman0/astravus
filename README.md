@@ -12,7 +12,7 @@ This repository gathers the material that has emerged so far: setting notes, cha
 
 Start with `revision/latest.md` for the latest draft of the Calista Arc, the most complete component of the Astravus Collection, or `sidestories/story5.md` for a short story introduction. However the latter is built as a sample and lacks scene transitions. 
 
-If you're simply interested in the worldbuilding, a good first path is through the wiki.
+For canon and lore, start with the [wiki](wiki/INDEX.md). Design proposals, source audits, ideas and revision history live in the separate [development area](development/README.md).
 
 For the playable adaptation, see [the visual novel](visual-novel/README.md). Its current Ren'Py preview covers Book I, *Seeds of Youth*, as a fixed story with illustrated scenes and an original instrumental score. Build instructions and production notes live in that subfolder.
 

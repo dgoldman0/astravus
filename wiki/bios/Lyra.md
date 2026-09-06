@@ -5,7 +5,7 @@
 - **Role in Story:** Calista's younger sister, explorer, adventurer
 - **Home:** Lumen (the Astravus)
 - **Parents:** Maia, Arin, Selene, Dorian and Sage, who form their own adult constellation; Lyra is their child, not a member of their partnership
-- **Familiar:** Originally companioned by Nibble (the rat); eventually receives owl as familiar in later years
+- **Familiar:** Close to Nibble, the family rat, during childhood
 
 ## Physical Description
 Lyra is small and spritely with a dancer's light, nimble build. Her skin is a golden tan with warm olive undertones, and her face is covered in a constellation of golden freckles that intensify in the sun. Her golden-blonde curls are unruly and often escaping whatever style she attempts, frequently adorned with small clips or ribbons. Wide green eyes—a bright, clear emerald—give her a perpetually curious expression and seem to see everything. She has a button nose and a gap between her front teeth that shows when she laughs. Her ears are slightly pointed—a genetic quirk she considers "elfin." Small for her age even as an adult, she makes up for stature with boundless energy and expressiveness, always moving and always exploring.
@@ -179,11 +179,6 @@ Calista's perspective on Lyra:
 - Note that rats have shorter lifespans (10-15 years even with enhancements)
 - Unlikely Nibble would survive into Lyra's expeditions
 
-### Future Familiar
-- Author notes suggest Lyra eventually receives an owl as familiar in later years
-- Would be appropriate familiar for an adventurer and knowledge-seeker
-- Owl as creature of wisdom, night vision, and freedom
-
 ## Themes Associated with Lyra
 - **Adventure & Exploration:** Drive to discover and understand
 - **Courage:** Willingness to face fear and danger for purpose
@@ -237,12 +232,6 @@ Lyra's journey serves multiple purposes in the story:
 - Sketches maps with emotional annotations: "sunset spot," "thought of home here," "Joren would have loved this"
 - Letters to family are long, enthusiastic, and filled with questions about life in Lumen
 
-## Character Notes for Writers
-- Lyra represents the forward-looking, exploratory spirit of Lumen's generation
-- Her expeditions allow for world-building and introduction of other communities
-- The tension between her need for exploration and Calista's fear is emotionally rich
-- Her discoveries (adaptive sculptures, ancient traditions) enrich the larger world
-- The eventual owl familiar mirrors her role as adventurer and wisdom-seeker
-- Her conversations with Calista provide opportunity to explore grief, fear, and growth
-- Lyra's return with knowledge emphasizes that exploration serves community as well as individual
-- The promise to stay in communication shows how relationships evolve across distance
+## Narrative role
+
+Lyra’s exploration brings other places and traditions into the story. Her independence and Calista’s fear for her connect the excitement of travel with the lasting effects of Joren’s death, while their communication sustains their relationship across distance.

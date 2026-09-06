@@ -259,12 +259,6 @@ By end of narrative:
 - Taught to younger generations as example of adventurous spirit
 - Serves as reminder of what was lost but also what was gained through knowing him
 
-## Character Notes for Writers
-- Joren's death is not incidental tragedy but formative event
-- His vibrant personality makes loss more poignant
-- The combination of Soren's artistic response and Kaleb's storytelling ensures community remembrance
-- Calista's mural becomes physical manifestation of processed grief
-- His death establishes death's rarity and significance in Lumen
-- The conflicts and resolutions before his death make loss more complex (shows reality not just idealization)
-- Theron's wisdom about transcendence helps Calista process grief in way that transforms understanding
-- Joren's life and spirit continue to influence story through memory, grief, and transformed understanding
+## Narrative role
+
+Joren’s friendship, quarrels and adventures with Calista give their shared places an emotional history. His death changes how she understands loss; the mural, community remembrance and repeated returns to the treehouse keep his life present in the narrative.

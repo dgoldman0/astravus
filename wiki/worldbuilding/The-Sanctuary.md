@@ -98,14 +98,9 @@ The Sanctuary is designed to be:
 - Accompanied by gentle ambient sounds
 - A space of reverence and joy
 
-### Specific Areas
+### First Breath room
 
-The Sanctuary likely includes:
-
-- **Preparation Rooms**: Where prospective parents learn and prepare
-- **Private Ceremony Rooms**: Where First Breath takes place
-- **Counseling Spaces**: For emotional and practical guidance
-- **Gathering Areas**: For community celebration
+Calista and Aris wait in a private room with soft lighting and gentle music. A caregiver brings Elara to them after she has taken First Breath. The scene establishes this welcoming space; it does not describe the Sanctuary’s full layout. See [Elara’s arrival](../../revision/latest.md#starting-a-family).
 
 ---
 
@@ -143,23 +138,9 @@ From the narrative:
 - The child is brought to the waiting parents
 - The process seems distinct from traditional biological birth
 
-### What Is Implied
+### Limits of the account
 
-Several possibilities exist but are not explicitly stated:
-
-- Children may be grown/developed within the Sanctuary
-- The Astravus itself may play a role in creating new life
-- Genetic contribution from parents may occur in various ways
-- The process may involve advanced biotechnology
-
-### Respectful Ambiguity
-
-The narrative maintains ambiguity about the exact mechanism:
-
-- Focus is on the emotional and spiritual aspects
-- The process is clearly sacred and significant
-- Technical details are less important than meaning
-- Different Astravii may have different methods
+The narrative does not specify how children develop before First Breath, how their biological origins are determined, or the physical process by which the Sanctuary brings them into the world. Its account centers on preparation, caregiving and the child’s welcome.
 
 ---
 

@@ -205,22 +205,10 @@ This suggests:
 While not fully detailed, the Core appears to be:
 
 - A biological/technological system integrated into the nervous system
-- Possibly related to nanomachine technology (implied in narrative notes)
 - The infrastructure that enables mental connection and interface
 - Something that develops over time, deepening with age
 
-### Connection to Nanomachines
-
-The narrative notes suggest:
-
-> "Thinking of going a nanomachines route which will require more thought. They would permeate life and the Astravus and coordinate everything."
-
-This implies the Core may involve nanomachine systems that:
-
-- Coordinate with Astravus systems
-- Enable the mental interface
-- Facilitate the eventual transcendence process
-- Potentially create visible effects (glowing, etc.)
+The precise microscopic mechanism of the Core is not specified in the narrative.
 
 ---
 

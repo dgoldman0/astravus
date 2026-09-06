@@ -202,15 +202,6 @@ Later relationship with Aris will show:
 - Perpetually late because "just one more equation" extends indefinitely
 - Genuinely surprised when hours have passed
 
-## Character Notes for Writers
-- Lysandra represents the first love experience, not the lasting one
-- Relationship shows realistic challenges of two intellectually ambitious people
-- Neither party is "wrong"—it's about incompatibility in needs and priorities
-- The separation is mature choice, not dramatic breakup
-- Lysandra's mathematical focus contrasts with Calista's visual artistic approach while still having aesthetic overlap
-- The relationship provides emotional foundation for Calista's later development
-- Lysandra's importance lies not in being endgame but in teaching crucial life lessons
-- The garden alcove becomes symbol of what was beautiful about the relationship
-- The eventual contrast with Aris shows how two people can better navigate similar challenges
-- The relationship demonstrates that love matters but isn't always enough
-- Lysandra provides a different type of intellectual stimulation than Aris's musical collaboration
+## Narrative role
+
+Lysandra is Calista’s first love. Their shared curiosity and later separation explore affection alongside differing needs and priorities. The garden alcove remains associated with their intimacy and the hopes they once shared.

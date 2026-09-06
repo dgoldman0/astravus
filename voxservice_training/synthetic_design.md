@@ -134,7 +134,8 @@ All training data splits into two primary categories:
 ---
 
 ### 4. Dialogue & Conversation Data
-**Source**: dialogue/ directory (individual dialogue files)  
+**Source**: [Earlier dialogue collection](../development/dialogue/INDEX.md), which mixes excerpts with expanded scenes; check additions against current canon.
+
 **Purpose**: Train conversational patterns, emotional authenticity, and character voice
 
 #### Schema
@@ -175,7 +176,8 @@ All training data splits into two primary categories:
 ---
 
 ### 5. Simulation & Experiential Data
-**Source**: dialogue/ directory (esp. dream/transcendence dialogues), events/, narrative inference  
+**Source**: [Earlier dialogue collection](../development/dialogue/INDEX.md), especially dream and transcendence scenes, [canon events](../wiki/events/INDEX.md), and labeled narrative inference.
+
 **Purpose**: Train generation of plausible narrative scenarios, dreams, and thought experiments consistent with universe
 
 #### Schema
@@ -381,5 +383,4 @@ When generating training data, parsers should:
 - **Facilitates authorial updates**: When unknowns are clarified, retraining is targeted and consistent
 - **Documents the universe's fuzzy edges**: Respects that real worldbuilding has ambiguities
 - **Creates feedback loop**: Author can see what the model is uncertain about and prioritize clarification
-
 

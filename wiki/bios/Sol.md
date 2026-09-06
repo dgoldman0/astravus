@@ -169,15 +169,6 @@ As transcendence approaches:
 - **Acts of Service:** Practical support as valid expression of affection
 - **Balance:** Structure enabling freedom rather than constraining it
 
-## Character Notes for Writers
-- Sol represents the practical, logistical perspective often missing from creative-focused narratives
-- Their synesthesia provides opportunities for unique descriptive passages
-- The 28-hour sleep cycle demonstrates how Lumen accommodates difference easily
-- Touch-aversion with exceptions shows nuanced portrayal of sensory preferences
-- Sol's love language is acts of service—this should be evident in how they interact
-- They bring necessary grounding to Kael's spontaneity and Sage's emotional focus
-- Sol's lists and systems can serve as narrative devices (finding old lists, planning scenes)
-- Their relationship with Kael and Sage demonstrates that successful partnerships leverage differences
-- The contrast between Sol's structured approach and Kael's adventurous nature should feel complementary, not conflicting
-- Sol proves that practical/logistical work is as valuable as creative or emotional work
+## Narrative role
 
+Sol brings practical care and organization to their partnership with Kael and Sage. Their routines and sensory preferences are part of how the household accommodates its members’ different needs.

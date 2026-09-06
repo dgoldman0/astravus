@@ -197,12 +197,6 @@ Calista (Protagonist)
 
 ## How to Use These Files
 
-### For Writing/Development
-- Reference specific character details consistently
-- Use relationships map for understanding character interactions
-- Check character development arc for appropriate timeline references
-- Review thematic associations for maintaining character consistency
-
 ### For Reading/Understanding
 - Start with Calista for main perspective
 - Review immediate family for context

@@ -247,12 +247,6 @@ Late-night collaboration session example:
 - Personal letters are themselves narrative works
 - Collaborates with Calista through art-and-story exchanges that communicate beyond surface content
 
-## Character Notes for Writers
-- Cassia's childhood voice with musical quality becomes her authorial voice
-- Her stories become window into her growing understanding of reality
-- The relationship with Calista shows how friendships deepen while changing forms
-- Her philosophical questions suggest intellectual depth beyond childhood storyteller
-- The mental connection with Calista in later years offers opportunity for discussing shared creation
-- Cassia's work exploring Astravii consciousness parallels Calista's personal experience of transcendence
-- Her character demonstrates that pursuing individual dreams strengthens rather than weakens important friendships
-- The integration of art (Calista) and story (Cassia) creates synergy greater than either alone
+## Narrative role
+
+Cassia’s childhood storytelling develops into her work as a writer. Her changing friendship with Calista connects personal growth, creative collaboration and lasting affection across different stages of their lives.

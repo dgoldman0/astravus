@@ -163,11 +163,6 @@ When Calista and Aris consider parenthood, they:
 - Physical energy translates emotion; restlessness signals processing
 - Shares stories through the stones he's collected, each one a tangible memory
 
-## Character Notes for Writers
-- Kael's early adventurousness contrasts with later stability—shows character growth without loss of essential self
-- His family model provides template for Calista and Aris's own family building
-- The mention of disagreeing with Calista and learning compromise early shows foundation for later adult relationships
-- His partnership with Sage is interesting reversal: romantic relationship with former caregiver
-- The 50+ year commitment to raising adopted child shows depth of love and dedication
-- Kael's story demonstrates that adventure and family commitment are not mutually exclusive
-- His home and family become haven for extended family, showing how individual choices ripple outward
+## Narrative role
+
+Kael’s early adventurousness continues into a life that also includes adult partnership and parenthood. Calista and Aris learn from his family’s experience when considering a child of their own.

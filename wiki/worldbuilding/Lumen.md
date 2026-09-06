@@ -4,10 +4,6 @@
 
 **Lumen** is the young Astravus that serves as the primary setting for Calista's narrative. The child of Aurora and Nyx, Lumen represents a community still developing its unique identity and culture while maintaining strong bonds with its parent Astravii. As a living entity, Lumen has its own personality, moods, and ways of expression that shape daily life for its inhabitants.
 
-**Spatial sources:** The [Book I space inventory](Lumen-Space-Inventory.md) records the complete current VN narrative's spaces, Book I prose requirements, visual references and unresolved connections. The [anatomy and scale study](Lumen-Design-Study.md) remains proposed; its incomplete household/neighborhood drawings are withdrawn as layout bases.
-
-**Childhood population direction:** Compare roughly 6,000 and 18,000 embodied residents while Calista is young. Current author guidance sets about 18,000 as the upper limit for that period; the exact census remains undecided. Lumen's later population is a separate question.
-
 ---
 
 ## Basic Information
@@ -46,18 +42,18 @@ The layout includes:
 
 ### Household and Shared Space
 
-A home is one connected dwelling within Lumen's living structure. Shared household rooms and branching halls connect individual private rooms; the central room shown in the VN is part of that home, not its entire extent or a collection of separate houses. Cali's daily home life also includes Arin's workshop, Selene's music room, Dorian's library and Sage's room, alongside cooking, art and garden work. These named spaces must be retained even where their precise attachment to the dwelling is still unresolved. The [inventory](Lumen-Space-Inventory.md#household) distinguishes what the story establishes from connections still to design.
+Cali’s childhood home is a connected dwelling within Lumen’s living structure. Branching halls link shared household rooms and personal spaces. Daily life extends through the central gathering room, Arin’s workshop, Selene’s music room, Dorian’s library, Sage’s room and Maia’s garden. Cooking, reading, making art, lessons and quiet company all have a place in the family’s routine. The story leaves some room attachments unspecified.
 
-Domestic life includes outdoor space. **Maia's garden is an ordinary household garden**, with a meaningful degree of privacy, not evidence that Calista's family is unusually wealthy. The broader woodland and treehouse area are more shared. These distinctions continue through the surrounding world:
+Maia’s garden is ordinary semi-private household space. Gardening beside one’s home carries no implication of unusual wealth. The broader forest, open plains and treehouse surroundings are shared more widely, while the refuge itself supports intimate gatherings and invited company.
 
 | Scale of use | Interior and outdoor spaces |
 |---|---|
 | Personal | Private rooms and personal retreats within a home. |
-| Household | Shared living, eating and activity spaces, together with household gardens and other semi-private outdoor areas. |
-| Nearby households | Local paths, courts, play spaces and shared woodland or open areas, including the broader treehouse surroundings. |
-| Wider community | Civic places, major gathering spaces and more extensive shared landscapes. |
+| Household | Shared living, eating and activity spaces, household gardens and other semi-private outdoor areas. |
+| Nearby households | Local paths, courts, play spaces and shared woodland or open land. |
+| Wider community | Major gathering places, civic facilities and more extensive shared landscapes. |
 
-These spaces connect through meaningful thresholds. A garden beside a home does not become public merely because a shared path passes nearby; a household's use of the garden does not make the surrounding forest its private grounds.
+These spaces meet at household entrances, garden edges and shared paths. A nearby public path does not make a household garden public, and tending that garden does not make the surrounding forest private grounds.
 
 ### Living Structures
 
@@ -124,7 +120,7 @@ Childhood sanctuary at the wooded edge of Maia's garden, within the more shared 
 - Decorated with drawings and treasures
 - Site of childhood adventures and later memorials
 
-The VN places the oak ladder within sight of Cali's planting patch and shows the garden and glowing paths from the upper room. Preserve this close relationship while defining the boundary between the household garden and more shared surrounding land. The lower hollow, lower sitting area, ladder/landing and upper room are all usable parts of the refuge.
+In the VN, Cali can see the oak ladder from her planting patch, and the upper room overlooks flowers and glowing garden paths. The refuge includes the lower hollow and its entrance, the furnished lower sitting area, the ladder and upper landing, and the room among the branches.
 
 ### Art Center
 
@@ -145,7 +141,7 @@ Engineering and making environments:
 - Spaces for collaborative building
 - Areas for tinkering and invention
 
-Arin's and Soren's workshops have their own current VN backgrounds and recurring relationships with the families who use them. Their exact attachment to the respective homes remains unmeasured. The construction equipment room and the wiki's shared guild workshops do not replace these personal working spaces.
+Arin’s and Soren’s workshops are distinct, recurring places associated with their respective households. The story does not specify their exact attachments to the homes. Shared guild workshops and the machinery room in the construction region serve other settings and activities.
 
 ### Music, Reading and Quiet Care
 
@@ -155,7 +151,7 @@ Cali's family life uses several distinct rooms:
 - **Dorian's library:** Books, maps and a reading/storytelling area; the children gather here and later trace routes themselves.
 - **Sage's room:** Cushions, blankets and candlelight for care, quiet company and bedtime stories. The VN also shows a sleeping alcove. The household fountain is audible beyond the door.
 
-These spaces are part of the family's daily spatial program. The story does not establish that every professional lesson, archival activity or counseling appointment takes place in these household-associated rooms.
+These rooms support family life alongside the adults’ professional work. Their domestic use does not establish where every lesson, archival activity or counseling appointment takes place.
 
 ### The Radiant Fields
 
@@ -177,9 +173,11 @@ Residential environments include:
 - Private rooms for each family member
 - Hallways with living murals
 
-In Cali's childhood home, the prose describes her alcove bed and window desk, Kael's adjacent room with a loft bed and blanket fort, and Lyra's room on the other side with collections and projects. Its statement that each person has a private space also requires provision for Maia, Arin, Selene, Dorian and Sage. It does not determine how many additional bedrooms are separate from their work or quiet rooms.
+Cali’s room has an alcove bed and a window desk. Kael’s adjacent room has a loft bed with a blanket fort underneath; Lyra’s room, on Cali’s other side, holds her collections and projects. Every resident has a private space. Sage’s room combines a sleeping alcove with an area for stories and invited company; the other adults’ sleeping arrangements are not individually described.
 
-Cooking and preparing meals together, storing supplies, washing after garden work, and leaving art projects unfinished also need space. The VN stages later childhood painting in the central room; it does not establish a separate childhood painting studio. See the [household records](Lumen-Space-Inventory.md#household) for exact source passages and the unresolved architectural choices.
+The household cooks and prepares meals together, washes after garden work and keeps supplies and unfinished projects at home. Cali draws at her own desk and the shared table. Later childhood painting takes place in the central room in the VN.
+
+These domestic details appear in [Book I’s earliest memories](../../revision/latest.md#earliest-memories) and the VN’s [family scenes](../../visual-novel/game/family_book_one.rpy). The [garden and treehouse scenes](../../visual-novel/game/script.rpy) establish the nearby outdoor spaces.
 
 ---
 

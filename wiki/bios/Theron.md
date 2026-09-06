@@ -166,14 +166,6 @@ Theron emphasizes that transcendence is:
 5. **On dreams:** Vivid description of becoming part of collective consciousness
 6. **Final perspective:** Framing transcendence as "wonderful blend of continuity and new beginnings"
 
-## Character Notes for Writers
-- Theron represents the voice of experience and wisdom
-- His characterization should be calming and authoritative
-- Specific metaphors and descriptions he uses resonate with Calista (and readers)
-- The dream metaphor becomes important in Calista's later transcendence experience
-- Theron's teachings provide framework for understanding events later in narrative
-- His presence demonstrates that advanced age in Astravii community brings continued growth
-- The contrast between his initial calm and his depth of understanding should be evident
-- His function is mentor/teacher, but he should feel like real person, not just exposition device
-- The warm, brown eyes and physical grace should be emphasized—humanizing despite age
-- His explanation of "nothing being lost" is crucial to the story's ultimate message
+## Narrative role
+
+Theron helps Calista understand transcendence and the difference between integration and death. His explanation of continuity within the Astravus gives her a way to approach later experiences of memory, grief and shared consciousness.

@@ -34,7 +34,7 @@ Event summaries now reflect Elara initiating the family storybook; her light scu
 
 [FRAGMENTS.md](FRAGMENTS.md) and [FRAGMENTSFULL.md](FRAGMENTSFULL.md) retain their mappings to the pre-edit draft at `2370143`. Their line numbers and counts are historical. Training data has not been regenerated.
 
-[REVIEW.md](REVIEW.md), [SOCIOECREVIEW.md](SOCIOECREVIEW.md), and [CHANGEIDEAS.md](../wiki/CHANGEIDEAS.md) remain historical reviews or planning records, with notices directing readers to the current continuity references. Earlier manuscripts and unrelated worldbuilding proposals are outside this pass.
+[REVIEW.md](REVIEW.md), [SOCIOECREVIEW.md](SOCIOECREVIEW.md), and [CHANGEIDEAS.md](../development/editorial/CHANGEIDEAS.md) remain historical reviews or planning records, with notices directing readers to the current continuity references. Earlier manuscripts and unrelated worldbuilding proposals are outside this pass.
 
 ## Validation
 

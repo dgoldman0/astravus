@@ -1,0 +1,876 @@
+{
+  "schema_version": 1,
+  "proposal_id": "LC01",
+  "date": "2026-09-06",
+  "status": "Proposed connections; no geometry, dimensions or canon adoption",
+  "inventory_sha256": "10074a13b66be899856749becdf8bb3938ba966d4079febda9db78aeeffe1ff7",
+  "allocations": [
+    {
+      "space_id": "home",
+      "zone": "Home",
+      "treatment": "composite",
+      "choice": "One connected dwelling occupies the garden-facing body and a quieter height within it. Its passages join all personal, work and shared spaces; neighboring occupation continues through the body above, below and behind."
+    },
+    {
+      "space_id": "central_room",
+      "zone": "Home",
+      "treatment": "local",
+      "choice": "Keep the table, seating, fountain and familiar places together. Use the visible inner passage for branching household halls and the far-right planted opening for the garden connection. Cooking and support connect outside the established camera composition."
+    },
+    {
+      "space_id": "home_halls",
+      "zone": "Home",
+      "treatment": "distributed",
+      "choice": "Use branching inner halls with a short bypass around the gathering room, a work/garden branch, and an internal rise to the private passage. Visitors enter through a household threshold from shared routes. Main circulation never passes through a private room."
+    },
+    {
+      "space_id": "cali_room",
+      "zone": "Private spaces",
+      "treatment": "local",
+      "choice": "On the upper private passage, directly between Kael’s and Lyra’s rooms. Retain her alcove bed, shelves, window desk, drawings and room for Shadow. Give the window a view into Lumen’s lit living landscape."
+    },
+    {
+      "space_id": "kael_room",
+      "zone": "Private spaces",
+      "treatment": "local",
+      "choice": "Next to Cali on one side of the same passage. Reserve the loft bed and usable blanket fort below it, maps, models, reading and Barkley’s company."
+    },
+    {
+      "space_id": "lyra_room",
+      "zone": "Private spaces",
+      "treatment": "local",
+      "choice": "Next to Cali on the other side. Retain the bed, accessible collections, educational games, projects and Nibble’s company. Each child enters from the passage independently."
+    },
+    {
+      "space_id": "adult_retreats",
+      "zone": "Private spaces",
+      "treatment": "distributed",
+      "choice": "Sage’s existing room supplies their personal retreat. Provide Maia, Arin, Selene and Dorian with one independently closable private retreat each off the upper passage. These four are separate from the workshop, music room and library in this candidate; no shared sleeping arrangement is prescribed."
+    },
+    {
+      "space_id": "kitchen",
+      "zone": "Home",
+      "treatment": "local",
+      "choice": "An adjoining cooking and preparation area opens toward the central meal room and has a short garden connection. Two people can prepare the second soup while others stay at the table. Pantry and clean food storage adjoin it; its form remains outside the existing room camera."
+    },
+    {
+      "space_id": "home_painting",
+      "zone": "Home",
+      "treatment": "distributed",
+      "choice": "Retain Cali’s window desk, the central table’s painting state and a nearby place for work to dry undisturbed. Provide a brush-washing point and materials storage along the support branch. Keep projects clear of the everyday route while allowing art to remain in shared life."
+    },
+    {
+      "space_id": "arin_workshop",
+      "zone": "Home",
+      "treatment": "local",
+      "choice": "Attach internally to the household’s work branch. Its illustrated doorway opens into that planted passage, which reaches a garden entrance with washing and storage and the garden without crossing the kitchen, music room or any private retreat. Preserve benches, drawers, stool and open floor."
+    },
+    {
+      "space_id": "selene_music",
+      "zone": "Home",
+      "treatment": "local",
+      "choice": "Place on a short hall branch near daily household life. Preserve piano and shared bench, harp, listening space and other instruments. Separate the room acoustically from the workshop and sleeping areas while retaining the sound heard from the household hall in the existing scenes."
+    },
+    {
+      "space_id": "dorian_library",
+      "zone": "Home",
+      "treatment": "local",
+      "choice": "Attach to a quieter internal branch as its own room, retaining map table, reading area, shelves, scrolls, windows and the visible rear corridor. Household readers can enter without passing through Dorian’s personal retreat."
+    },
+    {
+      "space_id": "sage_room",
+      "zone": "Home",
+      "treatment": "local",
+      "choice": "Place on the garden level, a short hall from the central fountain and near the internal rise to the children. Keep the sleeping alcove and story circle in the same personal room. The room can close for privacy and is a destination rather than a passage."
+    },
+    {
+      "space_id": "domestic_support",
+      "zone": "Home",
+      "treatment": "distributed",
+      "choice": "Provide handwashing, storage for boots and tools, and a place to deal with wet clothes near the garden entrance. Private bathing and toilet facilities open from the halls on both levels, with clothes, linen, laundry and drying space nearby. Food preparation has its own clean surfaces, separate from tool and brush washing. Fixture counts remain open."
+    },
+    {
+      "space_id": "maia_garden",
+      "zone": "Garden and oak",
+      "treatment": "composite",
+      "choice": "Wrap ordinary semi-private cultivated space around more than one face of the home. Connect its path to the central room, kitchen and garden entrance with washing and storage, then continue to the oak at the wooded edge. Shared routes stay outside the household route except at invitation points."
+    },
+    {
+      "space_id": "planting_patch",
+      "zone": "Garden and oak",
+      "treatment": "local",
+      "choice": "Retain the bed beside the path, marker stone and kneeling space. Keep an open line from this patch to the ladder; the close planting camera may face away from that line. The path back to handwashing remains short and at the garden’s working height."
+    },
+    {
+      "space_id": "pond_bank",
+      "zone": "Garden and oak",
+      "treatment": "local",
+      "choice": "Use the depicted basin’s broad dry bank for pots, kneeling, rescue and sitting afterward. Keep the wider path home continuous from this bank to the garden entrance with washing and storage. Protect views across the basin for the plant-arranging scene."
+    },
+    {
+      "space_id": "garden_ponds",
+      "zone": "Garden and oak",
+      "treatment": "distributed",
+      "choice": "Keep the recurring VN basin for the plant, rescue and wheel scenes; reserve at least one further garden pond beyond those frames to support the prose’s plural. Exact number and forms remain open. Water and root volumes extend into the living body beneath and beside them."
+    },
+    {
+      "space_id": "waterwheel_site",
+      "zone": "Garden and oak",
+      "treatment": "local",
+      "choice": "Use the existing basin’s visible feed spout and a reachable dry setup position. Carry the wheel from Arin’s bench through the work branch and garden to this bank. The proposed water circuit connects the spout to Lumen’s circulation; no new mill or large watercourse is needed."
+    },
+    {
+      "space_id": "garden_mural",
+      "zone": "Garden and oak",
+      "treatment": "local",
+      "choice": "Place the mural on a garden-facing wall beside an ordinary household garden path, with working floor, supplies and sitting space. Preserve the VN’s nearby water and planted approach. Family and invited friends can pass without making the intimate garden a public thoroughfare."
+    },
+    {
+      "space_id": "treehouse_upper",
+      "zone": "Garden and oak",
+      "treatment": "local",
+      "choice": "Retain a usable upper room among the oak’s branches, entered from the landing. The garden-facing openings overlook planting and paths; the table can move with the children’s age while pacing, sitting, blankets and stored drawings remain possible."
+    },
+    {
+      "space_id": "treehouse_access",
+      "zone": "Garden and oak",
+      "treatment": "local",
+      "choice": "Connect the furnished lower refuge to a real upper landing by the existing ladder. Keep the upper doorway distinct from the lower hollow’s second entrance. Leave the ladder visible from the planting patch and room for helping with the last rung and passing a book."
+    },
+    {
+      "space_id": "treehouse_hollow",
+      "zone": "Garden and oak",
+      "treatment": "local",
+      "choice": "Retain the lower hollow and its separate entrance as an occupied space for play and stored supplies beside the lower sitting area. Supplies can be fetched by descending the ladder and entering the hollow. It is not an unshown continuation of the upper room."
+    },
+    {
+      "space_id": "treehouse_lower_sitting",
+      "zone": "Garden and oak",
+      "treatment": "local",
+      "choice": "Keep the broad furnished platform, cushions, tables and treasures at the household-facing wooded edge. The garden path and an invited spur from the shared woods reach it. The shared through-path passes around the refuge, not across its sitting circle."
+    },
+    {
+      "space_id": "local_landscape",
+      "zone": "Beyond the garden",
+      "treatment": "linked",
+      "choice": "Continue the wooded edge into shared forest and open plains used by nearby households and the wider community. Their substantial extent continues outside this local slice. Paths follow the living body through different heights; the oak is one intimate edge within that landscape."
+    },
+    {
+      "space_id": "echoes_grove",
+      "zone": "Beyond the garden",
+      "treatment": "linked",
+      "choice": "Place on a separate woodland branch reached through thicket into its clearing. It is not visible as the oak’s second trunk or used as a shortcut through the refuge. Exact distance and elevation remain for the neighborhood model."
+    },
+    {
+      "space_id": "community_routes",
+      "zone": "Beyond the garden",
+      "treatment": "distributed",
+      "choice": "A network of shared paths and interior passages serves homes, courtyards, landscapes, work and growth areas through several heights. It has multiple connections around the household, including a branch for arrivals and supplies; it is not one central corridor or plaza hub."
+    },
+    {
+      "space_id": "courtyard",
+      "zone": "Beyond the garden",
+      "treatment": "linked",
+      "choice": "Keep the smaller storytelling courtyard on a neighborhood route farther from the garden. Several households can approach independently. Preserve its intimate gathering surface, planted arches and blankets; no route to another destination must pass through the children’s gathering."
+    },
+    {
+      "space_id": "cassia_home",
+      "zone": "Beyond the garden",
+      "treatment": "linked",
+      "choice": "Connect a separate complete dwelling to the shared network. Preserve the visible room for crafts and tea, drying drawings, water feature and rear-room opening. Reserve its own private, cooking, washing, storage and outdoor provision when its dwelling is modeled; none is replaced by Cali’s home."
+    },
+    {
+      "space_id": "joren_home",
+      "zone": "Beyond the garden",
+      "treatment": "linked",
+      "choice": "Connect Joren’s complete dwelling to another branch of the shared network, with Soren’s workshop attached through its own household work passage in this candidate. Reserve private, cooking, bathing, storage and outdoor life beyond the workshop frame; do not copy Cali’s room count."
+    },
+    {
+      "space_id": "central_plaza",
+      "zone": "Beyond the garden",
+      "treatment": "linked",
+      "choice": "Retain the recurring civic square, its approaches and occupied galleries as a destination within the larger network. Festival, memorial and annual remembrance use it at different times. Its community-wide capacity remains an explicit unresolved test at 6,000 and 18,000 residents."
+    },
+    {
+      "space_id": "plaza_stage",
+      "zone": "Beyond the garden",
+      "treatment": "local-within-linked",
+      "choice": "Keep the small stage and display area within the existing plaza composition. Provide a connected route for setup and supplies for the harp, flowers and later messages. Maia’s festival flowers are prepared work brought to this event, not a relocation of the household garden."
+    },
+    {
+      "space_id": "soren_workshop",
+      "zone": "Beyond the garden",
+      "treatment": "local-within-linked",
+      "choice": "Keep the separate room for drafting and assembly and floor prototype, entered via Joren’s household work passage. Allow a approach for supplies and work from shared routes without crossing sleeping spaces. Attachment is proposed; the single illustrated corridor does not map all doors."
+    },
+    {
+      "space_id": "kaleb_walk",
+      "zone": "Beyond the garden",
+      "treatment": "linked",
+      "choice": "Use an unfamiliar branch of the network of shared paths and construction passages for guided exploration. Keep choices of turning and recognizable arches. Do not equate every outing or off-ship expedition with one route merely because a background is reused."
+    },
+    {
+      "space_id": "construction_paths",
+      "zone": "Beyond the garden",
+      "treatment": "linked",
+      "choice": "Place the growth-area network beyond established inhabited paths, with multiple unfinished branches and changing vertical views. Preserve active machinery and tangible craft alongside living growth. This is a reachable region, not the family’s garden perimeter."
+    },
+    {
+      "space_id": "construction_room",
+      "zone": "Beyond the garden",
+      "treatment": "local-within-linked",
+      "choice": "Retain a room for tools and machinery opening from a construction passage. Its blueprint corresponds to that section and entry route. Reserve equipment and storage and working floor in that region separately from both personal workshops."
+    },
+    {
+      "space_id": "dome_platform",
+      "zone": "Beyond the garden",
+      "treatment": "local-within-linked",
+      "choice": "Keep the scaffold climb and afternoon platform in a growth area overlooking several inhabited heights. Home belongs somewhere in the visible pattern; exact visibility remains unproven. The structure is local to that view, with further body beyond, behind and below it."
+    },
+    {
+      "space_id": "sanctuary",
+      "zone": "Wider provisions",
+      "treatment": "linked",
+      "choice": "Connect the Sanctuary to the shared network and the journey home after First Breath. Its internal ceremony, preparation and care spaces belong to the wider study. The earlier room list remains a development idea."
+    },
+    {
+      "space_id": "moon_expedition",
+      "zone": "Wider provisions",
+      "treatment": "remote",
+      "choice": "Retain the research expedition as an off-ship destination, reached through exterior-transfer provision outside this local slice. The loss is heard at home. Vehicle, site and malfunction remain unspecified."
+    },
+    {
+      "space_id": "shared_work_facilities",
+      "zone": "Wider provisions",
+      "treatment": "reserve",
+      "choice": "Reserve shared guild workshops and studios, archives, learning and pooled supplies at neighborhood and community scales as well as the personal rooms. Their sizes, locations and childhood extent await the wider program; none is silently absorbed into Arin’s shop or Dorian’s library."
+    },
+    {
+      "space_id": "markets_exchange",
+      "zone": "Wider provisions",
+      "treatment": "reserve",
+      "choice": "Allow market and event setup, materials handling and storage at the plaza and other wiki-described exchanges. Keep shared routes usable between events; permanent shops and childhood scheduling are undecided."
+    },
+    {
+      "space_id": "living_systems",
+      "zone": "Wider provisions",
+      "treatment": "distributed",
+      "choice": "Carry root beds, soil, water supply and return, drainage, air, light, structural support and maintainable interfaces through the body around occupied spaces. Give the oak and ponds substantial space for roots and water; rooms may continue around it at lower heights. Food production and heat disposal require a wider study."
+    },
+    {
+      "space_id": "care_work",
+      "zone": "Wider provisions",
+      "treatment": "reserve",
+      "choice": "Reserve confidential professional settings for care and mediation on shared accessible routes, with exact providers and childhood extent unresolved. Sage’s household room remains their private retreat and a place for family comfort, not the only professional care facility."
+    },
+    {
+      "space_id": "mobility_services",
+      "zone": "Wider provisions",
+      "treatment": "distributed",
+      "choice": "Reserve accessible movement beside ordinary stairs and rising paths, household access for supplies and repairs, and larger inter-level and exterior-transfer connections. Shared movement can continue above and below the local garden without passing through the oak refuge or bedrooms. No vehicle or lift mechanism is canonized."
+    },
+    {
+      "space_id": "imagined_places",
+      "zone": "Represented settings",
+      "treatment": "represented",
+      "choice": "Keep stories, remembered distant destinations, dream caves, maps and mural imagery associated with their real rooms where they are told or painted. They add no physical rooms or central water hub to this neighborhood proposal."
+    }
+  ],
+  "private_provision": [
+    {
+      "resident": "Cali",
+      "space_id": "cali_room",
+      "proposal": "Upper passage; own room between her siblings; alcove bed and window desk."
+    },
+    {
+      "resident": "Kael",
+      "space_id": "kael_room",
+      "proposal": "Upper passage; own room beside Cali; loft bed and blanket fort."
+    },
+    {
+      "resident": "Lyra",
+      "space_id": "lyra_room",
+      "proposal": "Upper passage; own room on Cali’s other side; collections and projects."
+    },
+    {
+      "resident": "Maia",
+      "space_id": "adult_retreats",
+      "proposal": "Upper passage; own closable indoor retreat, in addition to her garden work."
+    },
+    {
+      "resident": "Arin",
+      "space_id": "adult_retreats",
+      "proposal": "Upper passage; own closable retreat, separated from workshop activity."
+    },
+    {
+      "resident": "Selene",
+      "space_id": "adult_retreats",
+      "proposal": "Upper passage; own closable retreat, independently accessible while music is practiced."
+    },
+    {
+      "resident": "Dorian",
+      "space_id": "adult_retreats",
+      "proposal": "Upper passage; own closable retreat, separate from the library’s household readers."
+    },
+    {
+      "resident": "Sage",
+      "space_id": "sage_room",
+      "proposal": "Garden level; existing sleeping alcove and story circle share Sage’s personal room."
+    }
+  ],
+  "edges": [
+    {
+      "a": "central_room",
+      "b": "home_halls",
+      "kind": "source",
+      "note": "Branching household halls; short bypass and upper connection are proposed."
+    },
+    {
+      "a": "home_halls",
+      "b": "arin_workshop",
+      "kind": "proposed attachment",
+      "note": "Independent room entrance from internal halls; Selene’s hall approach is explicit in the VN."
+    },
+    {
+      "a": "home_halls",
+      "b": "selene_music",
+      "kind": "proposed attachment",
+      "note": "Independent room entrance from internal halls; Selene’s hall approach is explicit in the VN."
+    },
+    {
+      "a": "home_halls",
+      "b": "dorian_library",
+      "kind": "proposed attachment",
+      "note": "Independent room entrance from internal halls; Selene’s hall approach is explicit in the VN."
+    },
+    {
+      "a": "home_halls",
+      "b": "sage_room",
+      "kind": "proposed attachment",
+      "note": "Independent room entrance from internal halls; Selene’s hall approach is explicit in the VN."
+    },
+    {
+      "a": "home_halls",
+      "b": "cali_room",
+      "kind": "proposed vertical route",
+      "note": "Internal rise and private passage; sibling adjacency is retained. An accessible parallel connection needs space."
+    },
+    {
+      "a": "home_halls",
+      "b": "kael_room",
+      "kind": "proposed vertical route",
+      "note": "Internal rise and private passage; sibling adjacency is retained. An accessible parallel connection needs space."
+    },
+    {
+      "a": "home_halls",
+      "b": "lyra_room",
+      "kind": "proposed vertical route",
+      "note": "Internal rise and private passage; sibling adjacency is retained. An accessible parallel connection needs space."
+    },
+    {
+      "a": "home_halls",
+      "b": "adult_retreats",
+      "kind": "proposed vertical route",
+      "note": "Internal rise and private passage; sibling adjacency is retained. An accessible parallel connection needs space."
+    },
+    {
+      "a": "central_room",
+      "b": "kitchen",
+      "kind": "proposed route",
+      "note": "Adjoining cooking and preparation area; doorway outside the established central-room framing."
+    },
+    {
+      "a": "kitchen",
+      "b": "maia_garden",
+      "kind": "proposed route",
+      "note": "Short route for fruit, herbs and household outdoor cooking work."
+    },
+    {
+      "a": "central_room",
+      "b": "maia_garden",
+      "kind": "proposed route",
+      "note": "Use the visible planted opening; exact exterior framing awaits the model."
+    },
+    {
+      "a": "home_halls",
+      "b": "domestic_support",
+      "kind": "proposed route",
+      "note": "Access washing and storage without crossing another person’s private room."
+    },
+    {
+      "a": "domestic_support",
+      "b": "maia_garden",
+      "kind": "proposed route",
+      "note": "Garden entrance with washing and storage and broad return path from the basin."
+    },
+    {
+      "a": "arin_workshop",
+      "b": "domestic_support",
+      "kind": "proposed route",
+      "note": "Short planted work passage; can share the workshop’s illustrated doorway."
+    },
+    {
+      "a": "home_halls",
+      "b": "community_routes",
+      "kind": "proposed route",
+      "note": "Household arrival threshold off a shared passage."
+    },
+    {
+      "a": "domestic_support",
+      "b": "community_routes",
+      "kind": "proposed route",
+      "note": "Approach for supplies and work by invitation, separate from the central gathering area."
+    },
+    {
+      "a": "maia_garden",
+      "b": "planting_patch",
+      "kind": "proposed route",
+      "note": "Household garden path beside the planting bed."
+    },
+    {
+      "a": "maia_garden",
+      "b": "pond_bank",
+      "kind": "proposed route",
+      "note": "Continuous wider path to the dry bank."
+    },
+    {
+      "a": "maia_garden",
+      "b": "garden_mural",
+      "kind": "proposed route",
+      "note": "Household path and room to stop beside the mural."
+    },
+    {
+      "a": "maia_garden",
+      "b": "treehouse_lower_sitting",
+      "kind": "proposed route",
+      "note": "Garden-facing approach to the wooded refuge."
+    },
+    {
+      "a": "treehouse_lower_sitting",
+      "b": "treehouse_hollow",
+      "kind": "proposed route",
+      "note": "Lower entrance opens beside the furnished refuge."
+    },
+    {
+      "a": "treehouse_lower_sitting",
+      "b": "treehouse_access",
+      "kind": "proposed route",
+      "note": "Reach the foot of the ladder without crossing cushions or tables."
+    },
+    {
+      "a": "treehouse_access",
+      "b": "treehouse_upper",
+      "kind": "proposed route",
+      "note": "Ladder, upper landing and doorway."
+    },
+    {
+      "a": "treehouse_lower_sitting",
+      "b": "local_landscape",
+      "kind": "proposed route",
+      "note": "Invited spur; the shared through-route bypasses the sitting platform."
+    },
+    {
+      "a": "local_landscape",
+      "b": "community_routes",
+      "kind": "proposed route",
+      "note": "Shared woods and open-land routes interweave with inhabited passages."
+    },
+    {
+      "a": "local_landscape",
+      "b": "echoes_grove",
+      "kind": "proposed route",
+      "note": "Separate thicket branch and clearing."
+    },
+    {
+      "a": "community_routes",
+      "b": "courtyard",
+      "kind": "proposed route",
+      "note": "Neighborhood approach; distance and intervening turns remain open."
+    },
+    {
+      "a": "community_routes",
+      "b": "cassia_home",
+      "kind": "proposed route",
+      "note": "Separate household arrival and internal extent."
+    },
+    {
+      "a": "community_routes",
+      "b": "joren_home",
+      "kind": "proposed route",
+      "note": "Separate household arrival and internal extent."
+    },
+    {
+      "a": "joren_home",
+      "b": "soren_workshop",
+      "kind": "proposed route",
+      "note": "Proposed attachment via Joren’s internal work passage."
+    },
+    {
+      "a": "community_routes",
+      "b": "central_plaza",
+      "kind": "proposed route",
+      "note": "Several civic approaches in the wider network; not one central trunk route."
+    },
+    {
+      "a": "community_routes",
+      "b": "construction_paths",
+      "kind": "proposed route",
+      "note": "Beyond familiar inhabited passages into growth areas."
+    },
+    {
+      "a": "construction_paths",
+      "b": "kaleb_walk",
+      "kind": "proposed route",
+      "note": "One possible guided branch; shared scenery does not identify every turning."
+    },
+    {
+      "a": "construction_paths",
+      "b": "construction_room",
+      "kind": "proposed route",
+      "note": "Enter the room for tools and machinery from its construction passage."
+    },
+    {
+      "a": "construction_paths",
+      "b": "dome_platform",
+      "kind": "proposed route",
+      "note": "Scaffold climb, afternoon platform and return descent."
+    },
+    {
+      "a": "community_routes",
+      "b": "sanctuary",
+      "kind": "proposed route",
+      "note": "Unmeasured network journey between Sanctuary and home."
+    }
+  ],
+  "walkthroughs": [
+    {
+      "scene_id": "first_memory",
+      "route_label": "Sanctuary → shared routes → household halls → central room",
+      "path": [
+        "sanctuary",
+        "community_routes",
+        "home_halls",
+        "central_room"
+      ],
+      "assessment": "The welcome remains remembered and narrated. The opening home view retains its table, fountain, living occupation and garden threshold; Arin’s hum and Selene’s music remain part of the house."
+    },
+    {
+      "scene_id": "garden",
+      "route_label": "Central room → garden → planting patch; back to washing",
+      "path": [
+        "central_room",
+        "maia_garden",
+        "planting_patch",
+        "maia_garden",
+        "domestic_support"
+      ],
+      "assessment": "The marker, can and kneeling space fit beside the path. Preserve a view from the patch to the ladder, even if the close camera looks the other way. The hollow is already usable before Cali climbs."
+    },
+    {
+      "scene_id": "plant_disagreement",
+      "route_label": "Household garden path → dry basin bank",
+      "path": [
+        "maia_garden",
+        "pond_bank"
+      ],
+      "assessment": "Keep pot-setting floor and movement around the dry bank, contrasting light, reflected flowers and a view from across the basin. No route requires standing in the water."
+    },
+    {
+      "scene_id": "workshop_first",
+      "route_label": "Central room → household hall → Arin’s workshop",
+      "path": [
+        "central_room",
+        "home_halls",
+        "arin_workshop"
+      ],
+      "assessment": "Keep the stool, sorting trays, bench legs and floor reach around scattered screws. The planted doorway remains usable; exact attachment is a design choice."
+    },
+    {
+      "scene_id": "music_first",
+      "route_label": "Central room → hall → Selene’s music room",
+      "path": [
+        "central_room",
+        "home_halls",
+        "selene_music"
+      ],
+      "assessment": "Music precedes Cali through the door. The piano bench holds both learner and teacher; harp and space for listening stays present. Sound can carry through open doors, with privacy available when they close."
+    },
+    {
+      "scene_id": "dorian_stories",
+      "route_label": "Central room → quiet household branch → library",
+      "path": [
+        "central_room",
+        "home_halls",
+        "dorian_library"
+      ],
+      "assessment": "Dorian and all three siblings have a reading place around the map. Shelves and the visible corridor stay in the library; the narrated journeys do not become neighborhood locations."
+    },
+    {
+      "scene_id": "sage_story",
+      "route_label": "Central room → short hall → Sage’s room",
+      "path": [
+        "central_room",
+        "home_halls",
+        "sage_room"
+      ],
+      "assessment": "The fountain remains audible along the short hall. Preserve Sage’s lap, three children under blankets, and the separate sleeping alcove. Actual sound transmission remains to be checked in geometry."
+    },
+    {
+      "scene_id": "family_rhythm",
+      "route_label": "Private room → inner passage → table; several other visits across the montage",
+      "path": [
+        "cali_room",
+        "home_halls",
+        "central_room"
+      ],
+      "assessment": "This is a montage across many days. Separate branches serve garden, Arin, Selene, Dorian and Sage; supper and games share the central room. Each resident can reach their own retreat without using another person’s room as a corridor."
+    },
+    {
+      "scene_id": "tree_echoes",
+      "route_label": "Household halls → shared paths → woods → separate clearing",
+      "path": [
+        "home_halls",
+        "community_routes",
+        "local_landscape",
+        "echoes_grove"
+      ],
+      "assessment": "The unfamiliar thicket leads to the transplanted tree, separate from the garden oak. Familiar paths continue beyond the local model rather than ending at a decorative grove."
+    },
+    {
+      "scene_id": "pond_scare",
+      "route_label": "Dry bank → wider garden path → garden entrance with washing and storage",
+      "path": [
+        "pond_bank",
+        "maia_garden",
+        "domestic_support"
+      ],
+      "assessment": "Keep reachable shallow water, two kneeling rescuers and a dry place for the embrace. Lyra can return holding Cali’s hand, with companions alongside, before wet clothing is dealt with."
+    },
+    {
+      "scene_id": "soup_experiment",
+      "route_label": "Garden → adjoining cooking area → shared table",
+      "path": [
+        "maia_garden",
+        "kitchen",
+        "central_room"
+      ],
+      "assessment": "A real cooking and preparation area supports Maia and Lyra working together while others clear bowls and pass bread at the table. Keep food and tool and brush washing separate."
+    },
+    {
+      "scene_id": "festival_lights",
+      "route_label": "Household halls → shared approaches → Central Plaza",
+      "path": [
+        "home_halls",
+        "community_routes",
+        "central_plaza"
+      ],
+      "assessment": "Flowers and harp have setup access beside the existing stage. The courtyard is a different destination. Whole-community standing, sightlines and movement remain open at both population options."
+    },
+    {
+      "scene_id": "meeting_cassia",
+      "route_label": "Household halls → neighborhood paths → storytelling courtyard",
+      "path": [
+        "home_halls",
+        "community_routes",
+        "courtyard"
+      ],
+      "assessment": "Preserve the blanket, room to sit at its edge and sketch, and adults returning to collect the children. Nearby households can approach independently."
+    },
+    {
+      "scene_id": "cassia_home",
+      "route_label": "Household halls → shared neighborhood routes → Cassia’s home",
+      "path": [
+        "home_halls",
+        "community_routes",
+        "cassia_home"
+      ],
+      "assessment": "The room for crafts and tea stays a complete working domestic scene, with drying paper and another room beyond. Dorian can visit without any need to route through Cali’s garden."
+    },
+    {
+      "scene_id": "meeting_joren",
+      "route_label": "Household halls → shared routes → construction branches",
+      "path": [
+        "home_halls",
+        "community_routes",
+        "construction_paths"
+      ],
+      "assessment": "Children round a corner and run through an arch into branching unfinished passages. The growth region is beyond the immediate household garden."
+    },
+    {
+      "scene_id": "joren_home",
+      "route_label": "Household halls → shared routes → Joren’s home → Soren’s workshop",
+      "path": [
+        "home_halls",
+        "community_routes",
+        "joren_home",
+        "soren_workshop"
+      ],
+      "assessment": "The attachment is proposed; keep Soren’s own drafting bench, parts trays and working floor. Joren’s complete home continues beyond this room."
+    },
+    {
+      "scene_id": "kaleb_walk",
+      "route_label": "Shared paths → construction region → unfamiliar guided branch",
+      "path": [
+        "community_routes",
+        "construction_paths",
+        "kaleb_walk"
+      ],
+      "assessment": "Keep recognizable turnings and the return journey. The later narration at home and map-making at Cali’s table are separate visits; one reused background does not establish one exact walk."
+    },
+    {
+      "scene_id": "treehouse",
+      "route_label": "Garden → lower refuge → ladder and landing → upper room",
+      "path": [
+        "maia_garden",
+        "treehouse_lower_sitting",
+        "treehouse_access",
+        "treehouse_upper"
+      ],
+      "assessment": "The landing holds assistance at the last rung and the book handoff. The upper room looks toward garden paths; fetch supplies by descending to the lower hollow’s distinct entrance."
+    },
+    {
+      "scene_id": "rain_refuge",
+      "route_label": "Garden → lower refuge → ladder and landing → upper room",
+      "path": [
+        "maia_garden",
+        "treehouse_lower_sitting",
+        "treehouse_access",
+        "treehouse_upper"
+      ],
+      "assessment": "Keep roof, canopy, open views, blankets and table. Rain belongs to this local landscape and does not require a new vessel-wide roof or climate."
+    },
+    {
+      "scene_id": "waterwheel",
+      "route_label": "Arin’s workshop → work passage and garden entrance → garden → dry bank",
+      "path": [
+        "arin_workshop",
+        "domestic_support",
+        "maia_garden",
+        "pond_bank"
+      ],
+      "assessment": "Keep a continuous carrying route and setup space. The existing image already supplies a feed spout; preserve its water falling onto the paddles and the companions on the bank."
+    },
+    {
+      "scene_id": "outer_exploration",
+      "route_label": "Household halls → shared routes → construction passage → machinery room",
+      "path": [
+        "home_halls",
+        "community_routes",
+        "construction_paths",
+        "construction_room"
+      ],
+      "assessment": "The multi-tool comes from Arin’s workshop. The machinery room has its own footprint and doorway; the blueprint matches the approach. Return home for drawing and explanation."
+    },
+    {
+      "scene_id": "lyra_included",
+      "route_label": "Garden → refuge edge → shared woodland paths",
+      "path": [
+        "maia_garden",
+        "treehouse_lower_sitting",
+        "local_landscape"
+      ],
+      "assessment": "The conversation uses the wide garden setting. Friends may meet at the refuge before leaving along the shared network; this does not turn its sitting platform into a public through-route."
+    },
+    {
+      "scene_id": "dome_ascent",
+      "route_label": "Shared routes → construction branches → scaffold and platform",
+      "path": [
+        "community_routes",
+        "construction_paths",
+        "dome_platform"
+      ],
+      "assessment": "Preserve a genuine climb, space to stay all afternoon and the return descent. Place home within the view’s larger pattern only after a camera test; no exact sightline or height is claimed yet."
+    },
+    {
+      "scene_id": "treehouse_dispute",
+      "route_label": "Garden → lower refuge → ladder and landing → upper room",
+      "path": [
+        "maia_garden",
+        "treehouse_lower_sitting",
+        "treehouse_access",
+        "treehouse_upper"
+      ],
+      "assessment": "Preserve room to pace beside the relocated table, Cassia’s intervention and all three familiars. Later furniture changes must fit the same shell."
+    },
+    {
+      "scene_id": "loss",
+      "route_label": "Household halls → central room",
+      "path": [
+        "home_halls",
+        "central_room"
+      ],
+      "assessment": "The news and grief happen at home. The fatal moon expedition stays outside this local geometry; the dome climb remains the earlier successful outing."
+    },
+    {
+      "scene_id": "family_grief",
+      "route_label": "Household halls → central room",
+      "path": [
+        "home_halls",
+        "central_room"
+      ],
+      "assessment": "Preserve the existing dusk room and embrace composition. Working rooms and private retreats remain accessible via the hall bypass while the central room is occupied."
+    },
+    {
+      "scene_id": "painting_grief",
+      "route_label": "Central room → household support for brush washing; return to the picture",
+      "path": [
+        "central_room",
+        "home_halls",
+        "domestic_support"
+      ],
+      "assessment": "Paint remains at the central table as the VN shows. Supply storage and drying space let work persist into the next morning without replacing the household room with a dedicated studio."
+    },
+    {
+      "scene_id": "cassia_grief",
+      "route_label": "Garden → lower refuge → ladder and landing → upper room",
+      "path": [
+        "maia_garden",
+        "treehouse_lower_sitting",
+        "treehouse_access",
+        "treehouse_upper"
+      ],
+      "assessment": "Keep a place for two friends to sit, hold hands and look through the window. The remembered dome view adds no route or new window in this scene."
+    },
+    {
+      "scene_id": "community_memorial",
+      "route_label": "Household halls → shared approaches → Central Plaza",
+      "path": [
+        "home_halls",
+        "community_routes",
+        "central_plaza"
+      ],
+      "assessment": "Use the same civic setting and visible galleries as the festival, with changed flowers and messages and assembly. Soren’s remembered workshop remains another place; audience capacity is unresolved."
+    },
+    {
+      "scene_id": "mural_remembrance",
+      "route_label": "Central room → garden path → mural wall",
+      "path": [
+        "central_room",
+        "maia_garden",
+        "garden_mural"
+      ],
+      "assessment": "The wall has real working space, nearby water and room to sit. Household members and invited visitors can pass in the garden; mural imagery supplies no additional physical ocean or treehouse."
+    },
+    {
+      "scene_id": "treehouse_remembrance",
+      "route_label": "Garden → lower refuge → ladder and landing → upper room",
+      "path": [
+        "maia_garden",
+        "treehouse_lower_sitting",
+        "treehouse_access",
+        "treehouse_upper"
+      ],
+      "assessment": "Keep the same room as drawings accumulate, including older maps and new messages. The platform and lower hollow remain available; the scene stays an intimate return."
+    },
+    {
+      "scene_id": "annual_remembrance",
+      "route_label": "Household halls → shared approaches → Central Plaza",
+      "path": [
+        "home_halls",
+        "community_routes",
+        "central_plaza"
+      ],
+      "assessment": "The annual event reuses the plaza. The continuing treehouse and garden mural remain separately reachable places; population and crowd capacity is still a wider design test."
+    }
+  ]
+}

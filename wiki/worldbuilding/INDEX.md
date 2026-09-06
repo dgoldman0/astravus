@@ -19,7 +19,7 @@ This directory contains detailed documentation of the worldbuilding elements in 
 - **[Socioeconomics.md](./Socioeconomics.md)** - Guilds, households, commerce, and currency systems
 - **[The-Sanctuary.md](./The-Sanctuary.md)** - Birth, First Breath ceremonies, and the arrival of new life
 - **[Art-and-Expression.md](./Art-and-Expression.md)** - Utamn, shaari, and the role of art in Astraviin culture
-- **[Technology.md](./Technology.md)** - Living technology, nanomachines, mental interfaces
+- **[Technology.md](./Technology.md)** - Living technology and mental interfaces
 
 ---
 
@@ -28,10 +28,6 @@ This directory contains detailed documentation of the worldbuilding elements in 
 - **[Lumen.md](./Lumen.md)** - Primary setting; young Astravus child of Aurora and Nyx
 - **[Aurora.md](./Aurora.md)** - Ancient parent Astravus; history and culture
 - **[Nyx.md](./Nyx.md)** - Ancient parent Astravus; wisdom and healing traditions
-
-**Spatial sources:** [Lumen Book I space inventory](Lumen-Space-Inventory.md) — full current VN scene coverage, household/work spaces, source passages, image register and unresolved connections.
-
-**Proposed design work:** [Lumen anatomy and scale study](Lumen-Design-Study.md) — visual references and exploratory anatomy/population/physics; not adopted canon. The incomplete household and neighborhood sketches are withdrawn as layout bases.
 
 ---
 
@@ -55,7 +51,7 @@ This directory contains detailed documentation of the worldbuilding elements in 
 | How does the economy work? | [Socioeconomics.md](./Socioeconomics.md) | Guilds, households, commerce |
 | How are children born? | [The-Sanctuary.md](./The-Sanctuary.md) | Birth and First Breath |
 | What role does art play? | [Art-and-Expression.md](./Art-and-Expression.md) | Utamn, shaari, expression |
-| What is the technology like? | [Technology.md](./Technology.md) | Living tech, nanomachines |
+| What is the technology like? | [Technology.md](./Technology.md) | Living technology and mental interfaces |
 | What is Lumen? | [Lumen.md](./Lumen.md) | Primary setting |
 | How did this all begin? | [Distant-Past.md](./Distant-Past.md) | Humanity's transformation |
 | What about death? | [Death-and-Loss.md](./Death-and-Loss.md) | Death vs. transcendence |

@@ -168,10 +168,6 @@ Arin's impact includes:
 - Graphite and grease smudges are constant; never fully "clean" because always in process
 - Talks to retired machines, apologizing for not waking them up yet
 
-## Character Notes for Writers
-- Arin represents the intersection of technical skill and creative expression
-- The workshop serves as important setting for key scenes and character development
-- The mentor relationship with Elara spans decades and demonstrates knowledge transmission across generations
-- Arin's methodical approach provides contrast to more emotionally-driven family members
-- The injury/mistake with the jar of screws demonstrates important parenting philosophy early in narrative
-- Later mentorship with Elara shows how Arin's values and skills continue to matter even as transcendence approaches
+## Narrative role
+
+Arin’s workshop links practical learning with creative confidence. His early response to Cali’s mistake and later mentorship of Elara connect the family’s approach to learning across generations.

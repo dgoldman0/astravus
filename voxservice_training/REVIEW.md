@@ -92,7 +92,7 @@ Cross-referenced against SETTING.md, TIMELINE.md, CHARACTERS.md:
 | TIMELINE.md | Event chronology, life stages | ✅ Aligned |
 | CHARACTERS.md | Character descriptions, quirks, relationships | ✅ Aligned |
 | bios/*.md | Extended character details | ✅ Aligned |
-| dialogue/*.md | Dialogue patterns and voice | ✅ Aligned |
+| [Earlier dialogue collection](../development/dialogue/INDEX.md) | Dialogue patterns and voice | Historical alignment finding; includes expanded scenes |
 
 ### Minor Inconsistencies Identified
 

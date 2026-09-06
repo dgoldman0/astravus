@@ -170,9 +170,6 @@ One dream showed him in the music room with Selene, Calista's mother, experienci
 - Silence from Aris is significant, indicating deep thought or distress
 - Improvises with Calista's art in real-time as a form of conversation
 
-## Character Notes for Writers
-- Aris represents the balance of individual artistic passion with committed partnership
-- His relationship with Calista demonstrates how different artistic mediums can enhance rather than compete
-- The mental connection between them after Core integration opens new possibilities for depicting intimacy
-- Aris's role is as equal partner, not secondary character—his voice and perspective matter equally to Calista's
-- His experience of transcendence happens alongside Calista's, showing that this process is communal as well as individual
+## Narrative role
+
+Aris and Calista’s collaboration joins two artistic practices within an adult partnership. Their mental connection brings intimacy into the story’s exploration of individuality and shared experience, and their approach to transcendence continues that relationship.

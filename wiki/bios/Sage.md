@@ -209,12 +209,6 @@ Sage's impact includes:
 - **Continuity:** Love and care persist through changes and transitions
 - **Integration:** Emotional wisdom serves community and individual equally
 
-## Character Notes for Writers
-- Sage represents emotional and relational dimension of family
-- Their room serves as intimate setting for important conversations and teaching
-- The nested Siblings' Story is excellent tool for demonstrating teaching philosophy
-- Sage's later partnership with Kael shows that relationships evolve and deepen over lifetime
-- Their approach to caregiving could provide model for scenes involving emotional support
-- Sage embodies idea that care is a skilled practice, not just intuition
-- Later appearance in Calista's transcendent dreams could emphasize emotional continuity
-- Sage has distinct relationships as a parent and caregiver within the family and as an adult partner within constellations; one role does not define the other
+## Narrative role
+
+Sage’s room and storytelling make skilled care part of everyday family life. Their relationships develop over time, including their later partnership with Kael. Their roles as a parent, caregiver and adult romantic partner remain distinct.

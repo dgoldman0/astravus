@@ -54,7 +54,7 @@ After residents receive their Cores:
 ### Living Systems
 - Water systems providing for residents
 - Interconnected technological and biological systems
-- Nanomachine systems (implied in later narrative) that coordinate maintenance and function
+- Coordinated maintenance throughout the living body
 - Integration of Astraviin residents with Lumen's functioning
 
 ## Cultural Identity
@@ -246,14 +246,6 @@ After residents receive their Cores:
 - **Living Systems:** Consciousness and sentience beyond human understanding
 - **Evolution:** Continuous change while maintaining identity
 
-## Character Notes for Writers
-- Lumen functions simultaneously as setting, character, and symbol
-- Physical descriptions of spaces can reflect emotional states and themes
-- Lumen's growth parallels Calista's and community's development
-- Beauty and design of spaces important to thematic content
-- Specific locations become significant through repeated use and emotional association
-- Lumen itself develops awareness and voice by end of narrative
-- The relationship between residents and Lumen models the transcendence process
-- Lumen represents successful human-technology integration without losing humanity
-- Radiant Fields and new developments show cultural evolution
-- The collective consciousness achieved by Lumen at narrative's end suggests new form of existence beyond individual transcendence
+## Narrative role
+
+Lumen serves as setting, character and the eventual home of Calista’s memories. Its growth accompanies changes in the community, while familiar rooms, gardens and gathering places gain significance through repeated use. The final line gives Lumen a direct voice.

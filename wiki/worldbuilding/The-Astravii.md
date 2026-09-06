@@ -53,7 +53,6 @@ There is no clear division between "natural" and "artificial" in an Astravus:
 - Technology and biology exist in perfect synthesis
 - Systems maintain themselves through living processes
 - The Astravus itself is both vessel and entity
-- Nanomachine systems (implied) coordinate maintenance and function
 
 ---
 

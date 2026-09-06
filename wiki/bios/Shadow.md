@@ -162,14 +162,6 @@ Shadow, as a cat, communicates entirely through non-verbal means:
 - **Name:** "Shadow" suggests following closely, staying present, darkness and light
 - **Presence:** Embodies quiet comfort and loyal attendance
 
-## Character Notes for Writers
-- Shadow represents unconditional love and presence
-- Cat's natural grace and mystery mirror qualities Calista values
-- Shadow's arc parallels Calista's—both enhance and integrate with Lumen
-- Regular presence grounds story in domestic reality
-- Shadow can serve as observer/witness to major events
-- The green eyes are distinctive visual marker for Shadow
-- Shadow's interventions show agency beyond typical pet behavior
-- Familiar's long lifespan allows for continuity through major narrative changes
-- Shadow could represent connection between human and technological/mystical elements
-- The relationship between Calista and Shadow offers template for other familiar bonds
+## Narrative role
+
+Shadow’s recurring presence connects major changes in Calista’s life with familiar domestic companionship. Their bond continues through enhanced awareness and deeper connection with Lumen.

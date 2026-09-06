@@ -166,9 +166,6 @@ In her later maturity (125+ years), Calista:
 - Leaves small drawings as messages for family—a sun for "thinking of you," a spiral for "I'm processing"
 - With Cassia, exchanges art-and-story collaborations that communicate layers beyond their surface content
 
-## Character Notes for Writers
-- Calista's journey is fundamentally about integration—of self with community, of individual with collective, of past with present
-- Her artistic practice serves as both personal therapy and community contribution
-- She embodies the balance between maintaining individuality while becoming part of something larger
-- Her relationship with loss (Joren) and fear (for Lyra) shows her vulnerability and deepens her character
-- The progression of her romantic relationships shows growth in understanding partnership and communication
+## Narrative role
+
+Calista’s art connects private feeling with community life. Her grief for Joren, changing friendships, adult relationships and eventual transcendence trace the relationship between an individual life and Lumen’s collective memory.

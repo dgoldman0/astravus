@@ -205,12 +205,6 @@ As Calista and Aris undergo transcendence, Elara:
 - Creates user guides for her inventions that are surprisingly warm and encouraging
 - Leaves voice messages for her devices when troubleshooting, as if they can hear her
 
-## Character Notes for Writers
-- Elara represents the next generation carrying forward family values while creating her own identity
-- She demonstrates that children of accomplished parents can find their own success without feeling overshadowed
-- Her interactive light sculpture technology could serve important narrative functions:
-  - Metaphor for how information and emotion can be shared and transformed
-  - Practical tool that demonstrates Lumen's advanced capabilities
-  - Symbol of bridging art, technology, and human connection
-- Her journey from childhood enthusiast to skilled professional spans most of the narrative, allowing for character development across time
-- The relationship with her grandparent Arin is particularly important, showing how knowledge and passion pass through generations
+## Narrative role
+
+Elara carries forward the family’s creative interests while developing her own work in engineering. Her relationship with Arin and her interactive light sculptures connect knowledge across generations and bring art and technology together.

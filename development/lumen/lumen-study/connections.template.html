@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumen · home, garden and neighborhood</title>
+<style>
+:root{color-scheme:dark;--bg:#11221e;--panel:#1b342b;--ink:#f1e8d6;--muted:#bccbbc;--line:#526955;--accent:#edba7d;--link:#a1d7ce;--private:#d3bddc}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,sans-serif}header,main,footer{max-width:1500px;margin:auto;padding:28px 36px}header{padding-top:48px}h1{font:400 clamp(2.2rem,5vw,3.8rem)/1.12 Georgia,serif;margin:12px 0 24px}h2{font:400 2rem/1.25 Georgia,serif}h3{font-size:1.1rem;margin:0 0 10px}p{max-width:85ch}a{color:var(--link);text-underline-offset:.2em}nav{display:flex;flex-wrap:wrap;gap:12px 24px}.eyebrow{color:var(--accent);letter-spacing:.08em;text-transform:uppercase;font-size:.8rem}.muted,small{color:var(--muted)}.callout{border-left:3px solid var(--accent);padding:8px 20px;margin:22px 0}.toolbar{display:flex;flex-wrap:wrap;gap:20px;align-items:end;margin:20px 0}.toolbar label{display:grid;gap:6px;max-width:100%;min-width:0}select,button{font:inherit;border:1px solid var(--line);border-radius:6px;color:var(--ink);background:var(--panel);padding:8px 12px;max-width:100%}select{min-width:0}button{cursor:pointer}button:hover,button[aria-pressed=true]{border-color:var(--accent);color:var(--accent)}:focus-visible{outline:3px solid var(--accent);outline-offset:3px}section{scroll-margin-top:20px;margin-bottom:48px}.columns{display:grid;grid-template-columns:1.15fr 1fr;gap:28px}.panel{background:var(--panel);padding:22px;border-radius:10px}.panel p{margin-bottom:0}.levels{display:grid;grid-template-columns:1fr 1fr;gap:24px}.level{border-left:3px solid var(--line);padding:12px 18px;margin:14px 0}.private{border-color:var(--private)}.chips{display:flex;gap:8px;flex-wrap:wrap}.chips button{font-size:.9rem}.connector{color:var(--muted);font-size:.9rem;padding-left:20px}.frame{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#0a1511}.frame img{display:block;width:100%;aspect-ratio:16/9;object-fit:contain}.frame figcaption{padding:14px 18px;font-size:.9rem;color:var(--muted)}.image-tools{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:12px 0}.image-tools label{min-width:0;max-width:100%}.space-heading{margin-bottom:5px}.route{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:20px 0}.route button{font-size:.9rem}.route .arrow{color:var(--accent)}.evidence{font-size:.9rem;overflow-wrap:anywhere}.evidence li{margin:10px 0}table{width:100%;border-collapse:collapse;font-size:.92rem}th,td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:10px}th{color:var(--accent)}details{margin:18px 0;border-top:1px solid var(--line);padding-top:16px}summary{cursor:pointer}footer{border-top:1px solid var(--line);font-size:.9rem}.empty{padding:32px;border:1px dashed var(--line)}[hidden]{display:none!important}
+@media(max-width:900px){header,main,footer{padding:22px}.columns,.levels{grid-template-columns:1fr}.toolbar{display:grid}.toolbar label{width:100%}.toolbar select{width:100%}th,td{padding:8px 5px;font-size:.88rem}.panel{padding:18px}.level{padding-right:0}}
+@media print{body{background:white;color:#172820}.panel{background:#eee}button,select,.toolbar,.image-tools{display:none}.columns,.levels{display:block}a{color:#174b49}.muted,small,.connector{color:#45604b}.frame figcaption{color:#45604b}header,main,footer{padding:12px}section{margin-bottom:24px}}
+</style>
+</head>
+<body>
+<header>
+<div class="eyebrow">Local connection study · proposed for review</div>
+<h1>A home with room<br>for all of its life.</h1>
+<p>This proposal connects the household’s shared rooms, workshops and personal spaces across two local levels. Its ordinary household garden meets the oak refuge and the shared landscape beyond.</p>
+<p class="callout">Compare each choice with the original VN images and source passages below. All 45 inventory records and 32 scenes are accounted for, but room dimensions, clearances and camera fit still need a 3D model.</p>
+<nav><a href="#arrangement-heading">Levels and connections</a><a href="#scene-heading">Scene walkthroughs</a><a href="../Lumen-Local-Connections.md">Written proposal</a><a href="../Lumen-Space-Inventory.md">Source inventory</a><a href="review.html#references">Annotated VN atlas</a><a href="../Lumen-Design-Study.md#compatibility-and-adjustment-register">Adjustment register</a></nav>
+</header>
+<main>
+<noscript><p class="callout">Read the <a href="../Lumen-Local-Connections.md">written proposal</a> and the <a href="Reference-Atlas.md">VN reference atlas</a>. The interactive scene and space selectors require JavaScript.</p></noscript>
+<section aria-labelledby="space-heading">
+<h2 id="space-heading">The source and the proposed connection</h2>
+<div class="toolbar"><label for="zone-select">Area of the proposal<select id="zone-select"><option value="">All areas</option></select></label><label for="space-select">Space or function<select id="space-select"></select></label></div>
+<h3 class="space-heading" id="space-title"></h3><p class="muted" id="space-status"></p>
+<div class="columns">
+<div>
+<figure class="frame" id="frame"><img id="space-image" alt=""><figcaption id="image-observation"></figcaption></figure>
+<div class="empty" id="no-image" hidden>This record has no dedicated image in the current spatial register. Use its source passages; its absence from the art is not permission to omit it.</div>
+<div class="image-tools" id="image-tools"><label for="image-select">Related VN image <select id="image-select"></select></label><a id="image-original" target="_blank" rel="noopener">Open original</a></div>
+<p class="muted">A frame is a visual guide to the setting it depicts. Related action and closing-theme images may cover only part of a space; none establishes the complete dwelling or a measured extent.</p>
+</div>
+<div>
+<div class="panel"><h3>Source description</h3><small id="source-basis"></small><p id="requirement"></p><p id="access"></p></div>
+<div class="panel" style="margin-top:18px"><h3>Proposed arrangement</h3><p id="choice"></p></div>
+<details open><summary>What still needs resolution</summary><p id="unresolved"></p></details>
+<ul class="evidence" id="evidence"></ul>
+<a id="inventory-link">Open the source inventory record</a>
+</div>
+</div>
+<details><summary>Declared route connections for this space</summary><ul id="connections"></ul><p class="muted">Routes may include several passages. Household halls and the shared network are distributed spaces, so this list does not make them single physical junctions. Sightlines and sound paths are additional constraints in the source inventory.</p></details>
+</section>
+<section aria-labelledby="arrangement-heading">
+<h2 id="arrangement-heading">Levels and connections</h2>
+<p class="muted">These groups show how the spaces connect, rather than their shape or floor area. The home’s upper passage and the oak’s upper room are shown separately; their actual heights remain open. Select a space to inspect its sources and proposed arrangement.</p>
+<div class="levels">
+<div class="panel"><h3>The household</h3>
+<div class="level private"><strong>Upper private passage · proposed</strong><p>Kael, Cali and Lyra keep their adjoining rooms. Maia, Arin, Selene and Dorian each have an independent retreat here. Sage’s room is at garden level.</p><div class="chips" id="private-chips"></div></div>
+<div class="connector">↕ Internal stairs, with space for an accessible connection between levels</div>
+<div class="level"><strong>Garden level</strong><p>Inner halls connect the rooms and provide a way around the gathering area. The garden opens to shared life, cooking and the workshop passage.</p><div class="chips" id="house-chips"></div></div>
+<div class="connector">↔ Arrival and work approaches join shared routes through the body</div>
+</div>
+<div class="panel"><h3>The garden and oak</h3>
+<div class="level"><strong>Upper oak room</strong><p>Drawings, table, blankets and garden-facing cutouts.</p><div class="chips" id="oak-upper"></div></div>
+<div class="connector">↕ Existing ladder, usable landing and upper entrance</div>
+<div class="level"><strong>Garden-facing lower refuge</strong><p>Furnished sitting platform and a separate hollow entrance. Preserve the view from the planting patch to the ladder.</p><div class="chips" id="garden-chips"></div></div>
+<div class="connector">↔ Shared woods and open plains continue around the refuge; their through-path avoids the sitting circle</div>
+</div>
+</div>
+<p>Root beds, water, structure and service access occupy real depth around these spaces. Other households, planted surfaces and shared paths continue above, below and behind the local view. The larger landscape extends beyond this household slice.</p>
+</section>
+<section aria-labelledby="scene-heading">
+<h2 id="scene-heading">Walk the story through the proposal</h2>
+<div class="toolbar"><label for="scene-select">VN scene<select id="scene-select"></select></label><a id="scene-source" href="../../../visual-novel/game/family_book_one.rpy">Read the scene</a></div>
+<div class="panel"><h3 id="scene-title"></h3><p id="route-label"></p><div class="route" id="route"></div><p id="assessment"></p></div>
+<details><summary>All source requirements associated with this scene</summary><p class="muted">Includes remembered, narrated and represented places. Inclusion does not mean the cast visits each one.</p><div class="chips" id="scene-spaces"></div></details>
+</section>
+
+<section aria-labelledby="people-heading"><h2 id="people-heading">Every resident has a private place</h2><p>Sage’s existing sleeping alcove and story circle share one personal room. This candidate gives Maia, Arin, Selene and Dorian separate retreats in addition to the rooms used for work and learning. Their furnishings and sleeping arrangements remain open.</p><table><thead><tr><th>Resident</th><th>Personal space in this proposal</th></tr></thead><tbody id="people"></tbody></table></section>
+</main>
+<footer>The model still needs to demonstrate room for the story’s actions, workable routes, privacy, roots and inhabited depth. See <a href="../Lumen-Local-Connections.md#what-remains-to-test">what remains to test</a>. The old household and neighborhood sketches remain withdrawn.</footer>
+<script>
+"use strict";
+const data=__CONNECTION_DATA__;
+const inv=data.inventory,proposal=data.proposal,$=id=>document.getElementById(id);
+const spaces=new Map(inv.spaces.map(s=>[s.id,s])),alloc=new Map(proposal.allocations.map(a=>[a.space_id,a]));
+const treatments={composite:'Several connected spaces',local:'Within the local study',distributed:'Provided in several places',linked:'Connected destination','local-within-linked':'Within a connected destination',reserve:'Space to allow for in the wider study',remote:'Off-ship destination',represented:'Narrated or depicted setting'};
+const origins={story:'Manuscript and VN narrative','story-and-author':'Story and author direction','story-and-vn':'Story and VN images',vn:'Visual novel',author:'Author direction',inference:'Design need inferred from described activities',wiki:'Supporting wiki','story-and-wiki':'Story and supporting wiki','wiki-and-inference':'Wiki roles; spatial needs inferred',remote:'Story: destination away from Lumen','represented-settings':'Narrated or depicted settings'};
+let selected='arin_workshop',scene='workshop_first',assets=[];
+function option(select,value,label){const o=document.createElement('option');o.value=value;o.textContent=label;select.append(o);}
+function button(id,label){const b=document.createElement('button');b.type='button';b.textContent=label||spaces.get(id).name;b.dataset.space=id;b.addEventListener('click',()=>{chooseSpace(id);$('space-heading').scrollIntoView({block:'start'});});return b;}
+function fillChips(target,items){$(target).replaceChildren(...items.map(item=>button(...(Array.isArray(item)?item:[item]))));}
+function fillSpaceSelect(){const zone=$('zone-select').value;$('space-select').replaceChildren();for(const a of proposal.allocations){if(!zone||a.zone===zone)option($('space-select'),a.space_id,spaces.get(a.space_id).name);}if([...$('space-select').options].some(o=>o.value===selected))$('space-select').value=selected;}
+function chooseSpace(id){selected=id;const a=alloc.get(id);if($('zone-select').value&&$('zone-select').value!==a.zone)$('zone-select').value='';fillSpaceSelect();$('space-select').value=id;showSpace();}
+function showImage(){const asset=assets[+$('image-select').value];if(!asset)return;$('space-image').src='../../../'+asset.path;$('space-image').alt=asset.observation;$('image-observation').textContent=selected==='adult_retreats'?'Sage’s room is the illustrated example here. The other adults’ private retreats are not depicted in the current VN. '+asset.observation:asset.observation;$('image-original').href='../../../'+asset.path;}
+function showSpace(){
+ const s=spaces.get(selected),a=alloc.get(selected);
+ $('space-title').textContent=s.name;$('space-status').textContent=a.zone+' · '+treatments[a.treatment];
+ $('source-basis').textContent=origins[s.basis];$('requirement').textContent=s.facts;$('access').textContent='Use and privacy: '+s.access+'.';$('choice').textContent=a.choice;$('unresolved').textContent=s.unresolved;
+ $('inventory-link').href='../Lumen-Space-Inventory.md#'+selected;
+ $('evidence').replaceChildren();for(const src of s.sources){const li=document.createElement('li'),a=document.createElement('a');a.href='../../../'+src.path+'#L'+src.line;a.textContent=src.path+':'+src.line;li.append(a,document.createTextNode(' — '+src.anchor));$('evidence').append(li);}
+ assets=inv.assets.filter(a=>a.spaces.includes(selected));$('image-select').replaceChildren();assets.forEach((a,i)=>option($('image-select'),String(i),a.path.split('/').pop()));$('frame').hidden=!assets.length;$('image-tools').hidden=!assets.length;$('no-image').hidden=!!assets.length;showImage();
+ $('connections').replaceChildren();for(const e of proposal.edges){if(e.a===selected||e.b===selected){const other=e.a===selected?e.b:e.a,li=document.createElement('li');li.append(button(other),document.createTextNode(' — '+e.note));$('connections').append(li);}}
+ if(!$('connections').children.length){const li=document.createElement('li');li.textContent='A composite, distributed function or reserved destination; see its proposed treatment for containment and connections.';$('connections').append(li);}
+ document.querySelectorAll('button[data-space]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.space===selected)));
+ history.replaceState(null,'','#'+selected);
+}
+function showScene(focus=false){
+ const s=inv.scenes.find(s=>s.id===scene),w=proposal.walkthroughs.find(w=>w.scene_id===scene);
+ $('scene-title').textContent=s.title;$('route-label').textContent=w.route_label;$('assessment').textContent=w.assessment;$('scene-source').href='../../../'+s.source.path+'#L'+s.source.line;
+ $('route').replaceChildren();w.path.forEach((id,i)=>{if(i){const arrow=document.createElement('span');arrow.className='arrow';arrow.textContent='→';arrow.setAttribute('aria-hidden','true');$('route').append(arrow);}$('route').append(button(id));});
+ fillChips('scene-spaces',s.spaces);
+ if(focus){const asset=inv.assets.find(a=>a.path===s.opening_image);chooseSpace(asset.spaces[0]);$('image-select').value=String(assets.findIndex(a=>a.path===asset.path));showImage();}
+ document.querySelectorAll('button[data-space]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.space===selected)));
+}
+fillChips('private-chips',[['kael_room','Kael'],['cali_room','Cali'],['lyra_room','Lyra'],['adult_retreats','Maia'],['adult_retreats','Arin'],['adult_retreats','Selene'],['adult_retreats','Dorian']]);
+fillChips('house-chips',['central_room','kitchen','arin_workshop','selene_music','dorian_library','sage_room','home_halls','home_painting','domestic_support']);
+fillChips('oak-upper',['treehouse_upper','treehouse_access']);
+fillChips('garden-chips',['maia_garden','planting_patch','pond_bank','garden_ponds','waterwheel_site','garden_mural','treehouse_lower_sitting','treehouse_hollow','local_landscape']);
+for(const zone of new Set(proposal.allocations.map(a=>a.zone)))option($('zone-select'),zone,zone);
+for(const s of inv.scenes)option($('scene-select'),s.id,s.title);
+for(const p of proposal.private_provision){const tr=document.createElement('tr'),name=document.createElement('th'),td=document.createElement('td');name.scope='row';name.textContent=p.resident;td.textContent=p.proposal;tr.append(name,td);$('people').append(tr);}
+if(spaces.has(location.hash.slice(1)))selected=location.hash.slice(1);
+fillSpaceSelect();$('scene-select').value=scene;showScene();showSpace();
+$('scene-select').addEventListener('change',()=>{scene=$('scene-select').value;showScene(true);});
+$('zone-select').addEventListener('change',()=>{fillSpaceSelect();selected=$('space-select').value;showSpace();});
+$('space-select').addEventListener('change',()=>{selected=$('space-select').value;showSpace();});
+$('image-select').addEventListener('change',showImage);
+</script>
+</body>
+</html>

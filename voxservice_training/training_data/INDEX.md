@@ -54,7 +54,7 @@ Each line is valid JSON:
 - **CHARACTERS.md**: All major characters, relationships, roles
 - **TIMELINE.md**: Major events across 200+ years
 - **bios/**: Individual character files (Calista, Maia, Aris, Elara, etc.)
-- **dialogue/**: Canonical dialogue examples
+- **[Earlier dialogue collection](../../development/dialogue/INDEX.md)**: Excerpts and expanded scenes used as writing examples; added wording and staging require comparison with current canon
 - **events/**: Major narrative events
 - **worldbuilding/**: Extended world details (Lumen, Core Integration, Constellations)
 
