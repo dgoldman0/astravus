@@ -6,6 +6,8 @@
 
 **Design exploration:** The [VN-led anatomy and scale study](Lumen-Design-Study.md) contains proposed layouts, population ranges and physical foundations. Its proposals are not adopted canon.
 
+**Childhood population direction:** Compare roughly 6,000 and 18,000 embodied residents while Calista is young. Current author guidance sets about 18,000 as the upper limit for that period; the exact census remains undecided. Lumen's later population is a separate question.
+
 ---
 
 ## Basic Information

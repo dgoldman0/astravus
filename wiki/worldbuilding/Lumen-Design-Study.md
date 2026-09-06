@@ -12,7 +12,7 @@ Lumen should feel like an inhabited, cultivated living being whose people gradua
 
 The strongest starting point is **branching inhabited structure with sheltered garden chambers within it**. The VN's dome view supplies the connected depth; its home, courtyard, treehouse and construction scenes supply the intimate scale, material character and practical agency. The dome is one unfinished local structure encountered on an outing. It does not define Lumen's exterior or a roof over its entire population.
 
-Proposed childhood search ranges are **6,000–18,000 embodied residents** and a body roughly **1.5–3 km long, 1–2 km wide and 0.8–1.6 km deep**. These are independent design probes, not a census or a size derived from the paintings. The lower and upper bounds are not paired engineering solutions. A 60,000-person comparison tests where the social scenes become harder to accommodate. [The worksheet](lumen-study/Scale-and-Physics.md) explains the assumptions and why the larger body sizes may prove unnecessary.
+Following the author's population guidance, compare **6,000 and 18,000 embodied residents** during Calista's childhood, with **about 18,000 as the upper limit for that period**. The exact census remains open within the working 6,000–18,000 band. The proposed body range remains roughly **1.5–3 km long, 1–2 km wide and 0.8–1.6 km deep**. Population and dimensions are independent design probes, not a size derived from the paintings or paired engineering solutions. Lumen's later growth needs a separate population study. [The worksheet](lumen-study/Scale-and-Physics.md) explains the assumptions and why the larger body sizes may prove unnecessary.
 
 ## What controls this study
 

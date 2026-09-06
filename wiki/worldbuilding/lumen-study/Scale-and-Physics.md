@@ -8,7 +8,7 @@
 
 The manuscript establishes a young world, a majority from the first locally born generation, a wider community containing strangers, shared public ceremonies and growth across more than a century. It gives no census. A visible festival crowd is not a count of the population; neither a family's size nor an adult constellation supplies a household average.
 
-Test **6,000, 18,000 and 60,000 embodied residents** at the childhood epoch. These are deliberately separated comparison points. The first two are a working search band: large enough for distinct neighborhoods, specialized work and unfamiliar faces, while keeping a shared community gathering comparatively tractable. The third tests the consequences of a substantially larger city; it is not ruled out by an image, but it raises the burden of proof for the story's social and travel scale.
+Compare **6,000 and 18,000 embodied residents** at the childhood epoch. The author considers both reasonable possibilities for young Lumen, with **about 18,000 as the upper limit during Calista's childhood**. These remain alternatives, not a chosen census. The working 6,000–18,000 band allows distinct neighborhoods, specialized work and unfamiliar faces while keeping the shared community gathering in focus. This childhood limit does not determine Lumen's later population or a universal limit for other Astravii.
 
 Count children and embodied adults, including residents needing care during gradual transcendence, in this population. Count visitors and familiars separately when calculating loads. Fully integrated minds require a separate, currently unknown substrate and resource budget; they cannot simply be counted as additional people occupying homes. A stable age distribution cannot be inferred from an assumed lifespan or founding year. Founding population, local births, immigration, departures and integration rates remain open. Keep later Calista-era growth as a separate epoch, not an automatic compound-growth forecast.
 
@@ -31,7 +31,6 @@ These are **chosen design allowances**, not building standards or measured VN di
 |---|---:|---:|---:|---:|
 | 6,000 residents | 2.34 km² | 0.45 km² | 0.84 km² | 12,000 m² |
 | 18,000 residents | 7.02 km² | 1.35 km² | 2.52 km² | 36,000 m² |
-| 60,000 residents | 23.40 km² | 4.50 km² | 8.40 km² | 120,000 m² |
 
 The gathering allowance is a comparison, **not a safe crowd-capacity calculation**. It excludes stage, planting, route clearance and other unusable surface. The festival's visible galleries justify examining several connected occupied heights, but do not establish that thousands can fit. The actual court, approaches, visibility, acoustics and movement must be modeled before claiming the manuscript's gathering works at any of these populations. For scale, 36,000 m² is a 190 m square if flattened; that is an equivalence, not the proposed plaza shape. Reduce the census before enlarging the VN's intimate stage simply to accommodate an arbitrary target.
 
@@ -86,7 +85,7 @@ Spacecraft thermal control balances absorbed and generated heat against storage 
 
 These are calculations, not a reactor selection or total heat budget. Hotter radiators cannot passively cool cooler habitats to their operating temperature; moving that heat uphill requires work and adds heat. Count actual emitting surface with a useful space view, not the apparent outline of folded leaves. A living-looking radiator still has to function as a radiator; its visual form is undecided.
 
-For sensitivity only, choose **100 W/m² of daily-average supplied power** for productive growing area. The three population probes then imply 45, 135 and 450 MW for that input alone. This is not a horticultural equipment specification or a claim about conversion efficiency. Vary it in the review page. Much of supplied energy ultimately becomes heat; chemical storage and exports must be counted explicitly. Habitat lighting, embodied residents, the living body, integrated minds, industry, gravity and propulsion add unknown loads. No total power figure is ready for canon.
+For sensitivity only, choose **100 W/m² of daily-average supplied power** for productive growing area. The two population probes then imply **45 MW at 6,000 residents** and **135 MW at 18,000 residents** for that input alone. This is not a horticultural equipment specification or a claim about conversion efficiency. Vary it in the review page. Much of supplied energy ultimately becomes heat; chemical storage and exports must be counted explicitly. Habitat lighting, embodied residents, the living body, integrated minds, industry, gravity and propulsion add unknown loads. No total power figure is ready for canon.
 
 ## What this study resolves, and what it leaves open
 

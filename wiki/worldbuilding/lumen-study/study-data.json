@@ -2,8 +2,7 @@
   "status": "Exploratory inputs, not canon or measured image dimensions",
   "population_probes": [
     6000,
-    18000,
-    60000
+    18000
   ],
   "working_population_range": [
     6000,
