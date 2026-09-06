@@ -4,6 +4,20 @@
 
 **Lumen** is the young Astravus that serves as the primary setting for Calista's narrative. The child of Aurora and Nyx, Lumen represents a community still developing its unique identity and culture while maintaining strong bonds with its parent Astravii. As a living entity, Lumen has its own personality, moods, and ways of expression that shape daily life for its inhabitants.
 
+## World Specification
+
+The wiki is the canonical home for Lumen's physical world. **Version 1 (September 2026)** adds a concrete baseline around the existing manuscript and visual novel, preserving their events and visual landmarks. New numerical details are rounded working canon, not measurements recovered from the story. Local coordinates and camera dimensions are modelling targets to refine against existing references.
+
+| Reference | Canonical page |
+| --- | --- |
+| Population, households, founding and growth | [Population and Growth](Lumen-Demographics.md) |
+| Body dimensions, regions, map, walking routes and space budget | [Physical Atlas](Lumen-Atlas.md) |
+| Air, sky, weather, water, food, construction and supporting systems | [Environment and Supporting Systems](Lumen-Systems.md) |
+| Ordinary gravity and permitted exceptions | [Artificial Gravity](Artificial-Gravity.md) |
+| Source constraints, wiki refinements and any adaptation adjustments | [Canon Decisions and Adaptation Compatibility](Lumen-Continuity.md) |
+
+Use **C+0** for Calista's First Breath and **C+10** for the representative Book I layout. This does not date every childhood scene to age ten. The detailed pages distinguish inherited facts, new working canon, adjustable modelling targets and open questions. The compatibility record identifies no required scene changes or existing-image replacements from the physical layout; it separately links two proposed manuscript terminology refinements. The first [Blender blockout](../../world/lumen/README.md) tests routes, surface packing, the dome view and local landmark arrangements; detailed camera reconstruction remains open.
+
 ---
 
 ## Basic Information
@@ -12,8 +26,10 @@
 |--------|--------|
 | **Type** | Young Astravus |
 | **Parents** | Aurora and Nyx |
-| **Age** | Young relative to parent Astravii |
-| **Population** | Growing; largely first generation born within Lumen |
+| **Age** | Approximately 110 at the C+10 reference; founding around C−100 is a new approximate baseline |
+| **Population** | Approximately 10,000 embodied residents at C+10; growing, with a majority from the first locally born generation at that time |
+| **Main body** | Approximately 4.8 × 2.8 × 1.8 km at C+10, excluding extended radiating surfaces; see the atlas for later growth |
+| **Habitation** | Terraced central city with adjoining inhabited and supporting chambers; nominal 1 g with common down |
 | **Cultural Status** | Developing independence while maintaining progenitor bonds |
 
 ---
@@ -44,7 +60,7 @@ The layout includes:
 
 Buildings in Lumen are:
 
-- Grown rather than built
+- Living structural tissue grown with human and automated guidance, alongside manufactured fittings and crafted spaces
 - Organic in shape and texture
 - Responsive to inhabitants
 - Integrated with plant life
@@ -77,10 +93,10 @@ Where new Astraviin are born:
 Extensive botanical sanctuary:
 
 - Vibrant colors and sweet fragrances
-- Contains the Tree of Echoes
+- Includes publicly accessible wooded margins containing the Tree of Echoes, separate from the treehouse oak
 - Site of the treehouse sanctuary
 - Living memorial (Calista's mural for Joren)
-- Outdoor classroom for lessons
+- Outdoor classroom for lessons; a stewarded landscape with a family-adjacent working garden rather than one wholly private yard
 
 ### The Tree of Echoes
 
@@ -128,6 +144,7 @@ Recreation area featuring:
 - Glass and bioluminescent architecture
 - Site of Luxa sport games
 - Represents Lumen's evolving culture
+- Developed in later growth chambers; shown in use after Calista's 125th year, not part of Book I's Luxa culture
 
 ### Home Spaces
 
@@ -234,12 +251,14 @@ Unique to Lumen (imported by Lyra from travels):
 
 ### Demographics
 
-Lumen's population is:
+During the Book I reference period, Lumen's population is:
 
 - Young and growing
 - Largely first generation born within Lumen
 - Deeply connected to their home Astravus
 - Forming larger-than-typical constellations
+
+For counts, housing and subsequent generations, use [Population and Growth](Lumen-Demographics.md). This early description is not a permanent demographic condition. Calista's five-adult, three-child family remains unusually large.
 
 ### Community Structure
 
@@ -303,7 +322,7 @@ As decades pass:
 
 - Population grows
 - Culture matures
-- New sections developed (Radiant Fields)
+- Additional homes, workshops and adjoining chambers developed
 - Increasing independence
 
 ### Late Story
@@ -314,12 +333,13 @@ By Calista's later years:
 - Own traditions and norms
 - Still connected to but independent from parents
 - Rich collective consciousness
+- Radiant Fields and Luxa appear in use after Calista's 125th year; the exact opening date is unspecified
 
 ### The Final Line
 
 The narrative concludes:
 
-> "Ah yes, I've had this dream before. Of when I was Cali." Lumen thought to themselves.
+> "Ah yes," I thought, "I've had this dream before. Of when I was Cali."
 
 This reveals:
 - Lumen has achieved full self-expression

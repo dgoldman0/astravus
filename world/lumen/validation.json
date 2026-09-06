@@ -1,0 +1,398 @@
+{
+  "layout_sha256": "07c03f98d8b6cd3cb3802ead5267b010777cd7ed3f887b362aa80e37166f3b3a",
+  "blender": "4.0.2",
+  "scope": "Measured blockout, not a finished reconstruction",
+  "routes": [
+    {
+      "from": "P02",
+      "to": "P03",
+      "target_m": 140,
+      "measured_walk_m": 138.8,
+      "walking_minutes": 2.8,
+      "max_segment_grade_percent": 0.0,
+      "extra": ""
+    },
+    {
+      "from": "P02",
+      "to": "P04",
+      "target_m": 450,
+      "measured_walk_m": 438.0,
+      "walking_minutes": 8.8,
+      "max_segment_grade_percent": 0.0,
+      "extra": ""
+    },
+    {
+      "from": "P02",
+      "to": "P05",
+      "target_m": 550,
+      "measured_walk_m": 547.9,
+      "walking_minutes": 11.0,
+      "max_segment_grade_percent": 4.2,
+      "extra": ""
+    },
+    {
+      "from": "P02",
+      "to": "P01",
+      "target_m": 450,
+      "measured_walk_m": 445.5,
+      "walking_minutes": 8.9,
+      "max_segment_grade_percent": 6.3,
+      "extra": ""
+    },
+    {
+      "from": "P02",
+      "to": "P07",
+      "target_m": 250,
+      "measured_walk_m": 262.9,
+      "walking_minutes": 5.3,
+      "max_segment_grade_percent": 3.0,
+      "extra": ""
+    },
+    {
+      "from": "P02",
+      "to": "P08",
+      "target_m": 450,
+      "measured_walk_m": 458.3,
+      "walking_minutes": 9.2,
+      "max_segment_grade_percent": 2.8,
+      "extra": ""
+    },
+    {
+      "from": "P02",
+      "to": "P10",
+      "target_m": 800,
+      "measured_walk_m": 803.8,
+      "walking_minutes": 16.1,
+      "max_segment_grade_percent": 2.8,
+      "extra": ""
+    },
+    {
+      "from": "P02",
+      "to": "P09",
+      "target_m": 850,
+      "measured_walk_m": 831.5,
+      "walking_minutes": 16.6,
+      "max_segment_grade_percent": 7.7,
+      "extra": ""
+    },
+    {
+      "from": "P02",
+      "to": "P11",
+      "target_m": 1050,
+      "measured_walk_m": 1027.2,
+      "walking_minutes": 20.5,
+      "max_segment_grade_percent": 3.5,
+      "extra": ""
+    },
+    {
+      "from": "P11",
+      "to": "P12",
+      "target_m": 400,
+      "measured_walk_m": 437.0,
+      "walking_minutes": 8.7,
+      "max_segment_grade_percent": 0.0,
+      "extra": "55 m scaffold ascent"
+    },
+    {
+      "from": "P01",
+      "to": "P14",
+      "target_m": 2100,
+      "measured_walk_m": 1996.8,
+      "walking_minutes": 39.9,
+      "max_segment_grade_percent": 0.0,
+      "extra": ""
+    },
+    {
+      "from": "P01",
+      "to": "P17",
+      "target_m": 2600,
+      "measured_walk_m": 2433.6,
+      "walking_minutes": 48.7,
+      "max_segment_grade_percent": 4.3,
+      "extra": ""
+    }
+  ],
+  "checks": [
+    {
+      "name": "dedicated_cultivation envelope clearance at -80",
+      "passed": true,
+      "ellipsoid_fraction": 0.87
+    },
+    {
+      "name": "dedicated_cultivation envelope clearance at -20",
+      "passed": true,
+      "ellipsoid_fraction": 0.826
+    },
+    {
+      "name": "dedicated_cultivation envelope clearance at -80",
+      "passed": true,
+      "ellipsoid_fraction": 0.87
+    },
+    {
+      "name": "dedicated_cultivation envelope clearance at -20",
+      "passed": true,
+      "ellipsoid_fraction": 0.826
+    },
+    {
+      "name": "metabolic_industrial_maintenance envelope clearance at -350",
+      "passed": true,
+      "ellipsoid_fraction": 0.643
+    },
+    {
+      "name": "transport_and_arrivals envelope clearance at -25",
+      "passed": true,
+      "ellipsoid_fraction": 0.703
+    },
+    {
+      "name": "serviced_reserve envelope clearance at -70",
+      "passed": true,
+      "ellipsoid_fraction": 0.803
+    },
+    {
+      "name": "residential envelope clearance at 40",
+      "passed": true,
+      "ellipsoid_fraction": 0.255
+    },
+    {
+      "name": "residential envelope clearance at 45",
+      "passed": true,
+      "ellipsoid_fraction": 0.253
+    },
+    {
+      "name": "residential envelope clearance at 50",
+      "passed": true,
+      "ellipsoid_fraction": 0.25
+    },
+    {
+      "name": "residential envelope clearance at 55",
+      "passed": true,
+      "ellipsoid_fraction": 0.248
+    },
+    {
+      "name": "communal_interiors envelope clearance at 55",
+      "passed": true,
+      "ellipsoid_fraction": 0.256
+    },
+    {
+      "name": "communal_interiors envelope clearance at 65",
+      "passed": true,
+      "ellipsoid_fraction": 0.252
+    },
+    {
+      "name": "public_landscape_and_walkways envelope clearance at 0",
+      "passed": true,
+      "ellipsoid_fraction": 0.291
+    },
+    {
+      "name": "P03 route target",
+      "passed": true
+    },
+    {
+      "name": "P03 path grade",
+      "passed": true
+    },
+    {
+      "name": "P04 route target",
+      "passed": true
+    },
+    {
+      "name": "P04 path grade",
+      "passed": true
+    },
+    {
+      "name": "P05 route target",
+      "passed": true
+    },
+    {
+      "name": "P05 path grade",
+      "passed": true
+    },
+    {
+      "name": "P01 route target",
+      "passed": true
+    },
+    {
+      "name": "P01 path grade",
+      "passed": true
+    },
+    {
+      "name": "P07 route target",
+      "passed": true
+    },
+    {
+      "name": "P07 path grade",
+      "passed": true
+    },
+    {
+      "name": "P08 route target",
+      "passed": true
+    },
+    {
+      "name": "P08 path grade",
+      "passed": true
+    },
+    {
+      "name": "P10 route target",
+      "passed": true
+    },
+    {
+      "name": "P10 path grade",
+      "passed": true
+    },
+    {
+      "name": "P09 route target",
+      "passed": true
+    },
+    {
+      "name": "P09 path grade",
+      "passed": true
+    },
+    {
+      "name": "P11 route target",
+      "passed": true
+    },
+    {
+      "name": "P11 path grade",
+      "passed": true
+    },
+    {
+      "name": "P12 route target",
+      "passed": true
+    },
+    {
+      "name": "P12 path grade",
+      "passed": true
+    },
+    {
+      "name": "P14 route target",
+      "passed": true
+    },
+    {
+      "name": "P14 path grade",
+      "passed": true
+    },
+    {
+      "name": "P17 route target",
+      "passed": true
+    },
+    {
+      "name": "P17 path grade",
+      "passed": true
+    },
+    {
+      "name": "Treehouse ladder meets landing",
+      "passed": true,
+      "upper_floor_m_above_ground": 5,
+      "room_floor_m2": 35,
+      "clear_door_width_m": 1.1
+    },
+    {
+      "name": "Treehouse trunk passage is open",
+      "passed": true,
+      "scope": "Centreline at torso height from landing through trunk into room"
+    },
+    {
+      "name": "Pond reachable water and separate dry bank",
+      "passed": true,
+      "water_depth_m": 0.35,
+      "water_to_coping_m": 0.18,
+      "near_bank_width_m": 7.2
+    },
+    {
+      "name": "Plaza gathering allowance",
+      "passed": true,
+      "clear_m2": 20000,
+      "at_2_m2_per_person": 10000,
+      "limit": "Geometric reservations; egress and crowd flow are not certified"
+    },
+    {
+      "name": "Measured net floor reservations match wiki budget",
+      "passed": true,
+      "measured_total_m2": 6200000.0,
+      "scope": "Packing of net areas within the envelope, not an assigned dwelling plan"
+    },
+    {
+      "name": "Measured clear gathering surfaces",
+      "passed": true,
+      "measured_area_m2": 20000.0
+    },
+    {
+      "name": "Dome view to home roof",
+      "passed": true,
+      "distance_m": 1082.8,
+      "obstruction_distance_m": null
+    },
+    {
+      "name": "Dome view to central square",
+      "passed": true,
+      "distance_m": 1137.6,
+      "obstruction_distance_m": null
+    },
+    {
+      "name": "Dome view across planted garden",
+      "passed": true,
+      "visible_ground_samples": 11,
+      "total_samples": 25,
+      "scope": "Sparse canopy proxies; foliage may hide individual patches"
+    },
+    {
+      "name": "Plaza landmarks framing",
+      "passed": true,
+      "projected": {
+        "tree": [
+          0.105,
+          0.634,
+          37.162
+        ],
+        "passage": [
+          0.5,
+          0.463,
+          53.968
+        ],
+        "stage": [
+          0.786,
+          0.421,
+          27.949
+        ]
+      }
+    },
+    {
+      "name": "Plaza left-to-right continuity",
+      "passed": true
+    },
+    {
+      "name": "Treehouse exterior framing",
+      "passed": true,
+      "projected": {
+        "room": [
+          0.447,
+          0.593,
+          23.886
+        ],
+        "trunk": [
+          0.598,
+          0.591,
+          25.897
+        ],
+        "lower hollow": [
+          0.607,
+          0.285,
+          24.581
+        ]
+      }
+    },
+    {
+      "name": "Treehouse room projects left of trunk",
+      "passed": true
+    }
+  ],
+  "surface_reservations_m2": {
+    "dedicated_cultivation": 2000000.0,
+    "metabolic_industrial_maintenance": 650000.0,
+    "transport_and_arrivals": 300000.0,
+    "serviced_reserve": 550000.0,
+    "residential": 950000.0,
+    "communal_interiors": 350000.0,
+    "public_landscape_and_walkways": 1400000.0
+  }
+}

@@ -20,12 +20,17 @@ This directory contains detailed documentation of the worldbuilding elements in 
 - **[The-Sanctuary.md](./The-Sanctuary.md)** - Birth, First Breath ceremonies, and the arrival of new life
 - **[Art-and-Expression.md](./Art-and-Expression.md)** - Utamn, shaari, and the role of art in Astraviin culture
 - **[Technology.md](./Technology.md)** - Living technology, nanomachines, mental interfaces
+- **[Artificial-Gravity.md](./Artificial-Gravity.md)** - Ordinary artificial gravity; current rules and the superseded VSB proposal
 
 ---
 
 ## Specific Locations
 
 - **[Lumen.md](./Lumen.md)** - Primary setting; young Astravus child of Aurora and Nyx
+- **[Lumen-Demographics.md](./Lumen-Demographics.md)** - Resident counts, households, founding and growth across Calista's life
+- **[Lumen-Atlas.md](./Lumen-Atlas.md)** - Body dimensions, regions, plan and section, location targets, routes and area budget
+- **[Lumen-Systems.md](./Lumen-Systems.md)** - Sky, weather, water, gravity, supporting systems and open engineering questions
+- **[Lumen-Continuity.md](./Lumen-Continuity.md)** - Canon decisions and explicit manuscript/VN compatibility and adjustment records
 - **[Aurora.md](./Aurora.md)** - Ancient parent Astravus; history and culture
 - **[Nyx.md](./Nyx.md)** - Ancient parent Astravus; wisdom and healing traditions
 

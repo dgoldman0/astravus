@@ -1,11 +1,13 @@
 # Lumen (The Astravus)
 
+For current physical canon, population estimates and growth by era, use the [Lumen world specification](../worldbuilding/Lumen.md#world-specification). This biography focuses on Lumen's character and does not independently define scale or physics.
+
 ## Basic Information
 - **Entity Type:** Living spaceship (Astravus)
 - **Age:** Young Astravus (implied as being in early phases relative to parent Astravii)
 - **Role in Story:** Primary setting and character; developing individual with its own consciousness
 - **Parents/Progenitors:** Aurora and Nyx (both ancient Astravii)
-- **Population:** Rapidly growing through first generation born and raised within Lumen
+- **Population:** Growing; a majority from the first locally born generation during Book I, with subsequent generations increasing later
 
 ## Nature & Composition
 
@@ -114,6 +116,7 @@ After residents receive their Cores:
 
 ### Radiant Fields
 - Newer section dedicated to recreation and sport
+- Shown in use after Calista's 125th year, in later growth chambers
 - Towering structures of glass and bioluminescent plants
 - Breathtaking skyline
 - Open spaces for various activities

@@ -1,0 +1,964 @@
+{
+  "version": 2,
+  "status": "Working world specification; local geometry is a modelling target, not a surveyed reconstruction",
+  "authority": "Lumen-Atlas.md",
+  "units": "metres",
+  "reference_epoch": "C+10",
+  "axes": {
+    "x": "cross-body",
+    "y": "toward main growth end",
+    "z": "up from Central Plaza paving"
+  },
+  "nominal_gravity_g": 1.0,
+  "body": {
+    "width": 2800,
+    "length": 4800,
+    "depth": 1800,
+    "bottom_z": -650,
+    "top_z": 1150
+  },
+  "later_body": {
+    "epoch": "illustrative C+150",
+    "width": 3600,
+    "length": 6400,
+    "depth": 2200,
+    "plan_centre_y": 800
+  },
+  "city_chamber": {
+    "x_min": -700,
+    "x_max": 700,
+    "y_min": -1000,
+    "y_max": 1400,
+    "bottom_z": 0,
+    "top_z": 600
+  },
+  "maia_garden": {
+    "x_min": -500,
+    "x_max": -80,
+    "y_min": 170,
+    "y_max": 590
+  },
+  "terrace_top_z": 120,
+  "treehouse_upper_floor_above_local_ground": 5,
+  "walking_metres_per_minute": 50,
+  "epochs": [
+    {
+      "id": "founding",
+      "calista_year": -100,
+      "residents": 3000,
+      "status": "approximate new baseline"
+    },
+    {
+      "id": "book_i",
+      "calista_year": 10,
+      "residents": 10000,
+      "body_km": [
+        4.8,
+        2.8,
+        1.8
+      ]
+    },
+    {
+      "id": "parenthood",
+      "calista_year": 50,
+      "residents": 14000,
+      "body_km": [
+        5.2,
+        3.0,
+        1.9
+      ]
+    },
+    {
+      "id": "later_years",
+      "calista_year": 125,
+      "residents": 22000,
+      "body_km": [
+        6.0,
+        3.4,
+        2.1
+      ]
+    },
+    {
+      "id": "later_example",
+      "calista_year": 150,
+      "residents": 26000,
+      "body_km": [
+        6.4,
+        3.6,
+        2.2
+      ],
+      "status": "illustrative snapshot; not the final transcendence date"
+    }
+  ],
+  "surface_budget_km2": {
+    "residential": 0.95,
+    "communal_interiors": 0.35,
+    "public_landscape_and_walkways": 1.4,
+    "dedicated_cultivation": 2.0,
+    "metabolic_industrial_maintenance": 0.65,
+    "transport_and_arrivals": 0.3,
+    "serviced_reserve": 0.55
+  },
+  "places": [
+    {
+      "id": "P01",
+      "name": "Central Plaza",
+      "xyz": [
+        0,
+        0,
+        0
+      ],
+      "state": "book_i"
+    },
+    {
+      "id": "P02",
+      "name": "Childhood family home",
+      "xyz": [
+        -300,
+        180,
+        20
+      ],
+      "state": "book_i"
+    },
+    {
+      "id": "P03",
+      "name": "Garden pond / work area",
+      "xyz": [
+        -270,
+        285,
+        20
+      ],
+      "state": "book_i"
+    },
+    {
+      "id": "P04",
+      "name": "Treehouse oak (ground)",
+      "xyz": [
+        -110,
+        530,
+        20
+      ],
+      "state": "book_i"
+    },
+    {
+      "id": "P05",
+      "name": "Tree of Echoes",
+      "xyz": [
+        -440,
+        520,
+        22
+      ],
+      "state": "book_i"
+    },
+    {
+      "id": "P06",
+      "name": "Storytelling courtyard",
+      "xyz": [
+        -140,
+        70,
+        10
+      ],
+      "state": "book_i"
+    },
+    {
+      "id": "P07",
+      "name": "Cassia's home",
+      "xyz": [
+        -470,
+        100,
+        25
+      ],
+      "state": "book_i"
+    },
+    {
+      "id": "P08",
+      "name": "Joren's home / Soren's workshop",
+      "xyz": [
+        -450,
+        -100,
+        30
+      ],
+      "state": "book_i"
+    },
+    {
+      "id": "P09",
+      "name": "Art center",
+      "xyz": [
+        350,
+        80,
+        25
+      ],
+      "state": "later_use"
+    },
+    {
+      "id": "P10",
+      "name": "Sanctuary",
+      "xyz": [
+        -450,
+        -400,
+        25
+      ],
+      "state": "book_i"
+    },
+    {
+      "id": "P11",
+      "name": "Construction tool room",
+      "xyz": [
+        260,
+        780,
+        30
+      ],
+      "state": "book_i"
+    },
+    {
+      "id": "P12",
+      "name": "Dome viewing platform",
+      "xyz": [
+        350,
+        1050,
+        85
+      ],
+      "state": "book_i"
+    },
+    {
+      "id": "P13",
+      "name": "Observation deck",
+      "xyz": [
+        550,
+        -850,
+        100
+      ],
+      "state": "later_use"
+    },
+    {
+      "id": "P14",
+      "name": "Arrival concourse",
+      "xyz": [
+        0,
+        -1750,
+        0
+      ],
+      "state": "inferred_infrastructure"
+    },
+    {
+      "id": "P15",
+      "name": "Calista and Aris's family home",
+      "xyz": [
+        -120,
+        750,
+        35
+      ],
+      "state": "later_household"
+    },
+    {
+      "id": "P16",
+      "name": "Kael, Sage and Sol's home",
+      "xyz": [
+        -550,
+        300,
+        30
+      ],
+      "state": "later_household"
+    },
+    {
+      "id": "P17",
+      "name": "Radiant Fields arena",
+      "xyz": [
+        180,
+        2150,
+        30
+      ],
+      "state": "after_125"
+    }
+  ],
+  "routes": [
+    {
+      "from": "P02",
+      "to": "P03",
+      "length": 140,
+      "waypoints": [
+        [
+          -300,
+          180,
+          20
+        ],
+        [
+          -328,
+          237,
+          20
+        ],
+        [
+          -270,
+          285,
+          20
+        ]
+      ]
+    },
+    {
+      "from": "P02",
+      "to": "P04",
+      "length": 450,
+      "waypoints": [
+        [
+          -300,
+          180,
+          20
+        ],
+        [
+          -290,
+          340,
+          20
+        ],
+        [
+          -160,
+          410,
+          20
+        ],
+        [
+          -110,
+          530,
+          20
+        ]
+      ]
+    },
+    {
+      "from": "P02",
+      "to": "P05",
+      "length": 550,
+      "waypoints": [
+        [
+          -300,
+          180,
+          20
+        ],
+        [
+          -485,
+          225,
+          20
+        ],
+        [
+          -485,
+          535,
+          20
+        ],
+        [
+          -440,
+          520,
+          22
+        ]
+      ]
+    },
+    {
+      "from": "P02",
+      "to": "P01",
+      "length": 450,
+      "waypoints": [
+        [
+          -300,
+          180,
+          20
+        ],
+        [
+          -220,
+          245,
+          20
+        ],
+        [
+          -130,
+          115,
+          10
+        ],
+        [
+          -85,
+          35,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "from": "P02",
+      "to": "P07",
+      "length": 250,
+      "waypoints": [
+        [
+          -300,
+          180,
+          20
+        ],
+        [
+          -390,
+          220,
+          23
+        ],
+        [
+          -470,
+          170,
+          25
+        ],
+        [
+          -470,
+          100,
+          25
+        ]
+      ]
+    },
+    {
+      "from": "P02",
+      "to": "P08",
+      "length": 450,
+      "waypoints": [
+        [
+          -300,
+          180,
+          20
+        ],
+        [
+          -480,
+          160,
+          25
+        ],
+        [
+          -500,
+          -30,
+          30
+        ],
+        [
+          -450,
+          -100,
+          30
+        ]
+      ]
+    },
+    {
+      "from": "P02",
+      "to": "P10",
+      "length": 800,
+      "waypoints": [
+        [
+          -300,
+          180,
+          20
+        ],
+        [
+          -480,
+          160,
+          25
+        ],
+        [
+          -500,
+          -30,
+          30
+        ],
+        [
+          -450,
+          -100,
+          30
+        ],
+        [
+          -535,
+          -230,
+          30
+        ],
+        [
+          -450,
+          -400,
+          25
+        ]
+      ]
+    },
+    {
+      "from": "P02",
+      "to": "P09",
+      "length": 850,
+      "waypoints": [
+        [
+          -300,
+          180,
+          20
+        ],
+        [
+          -220,
+          245,
+          20
+        ],
+        [
+          -130,
+          115,
+          10
+        ],
+        [
+          -85,
+          35,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          130,
+          -30,
+          10
+        ],
+        [
+          220,
+          45,
+          19
+        ],
+        [
+          350,
+          80,
+          25
+        ]
+      ]
+    },
+    {
+      "from": "P02",
+      "to": "P11",
+      "length": 1050,
+      "waypoints": [
+        [
+          -300,
+          180,
+          20
+        ],
+        [
+          -290,
+          400,
+          20
+        ],
+        [
+          -180,
+          660,
+          30
+        ],
+        [
+          50,
+          855,
+          30
+        ],
+        [
+          260,
+          780,
+          30
+        ]
+      ]
+    },
+    {
+      "from": "P11",
+      "to": "P12",
+      "length": 400,
+      "note": "walking approach; scaffold climb additional",
+      "waypoints": [
+        [
+          260,
+          780,
+          30
+        ],
+        [
+          400,
+          760,
+          30
+        ],
+        [
+          460,
+          870,
+          30
+        ],
+        [
+          350,
+          1000,
+          30
+        ]
+      ]
+    },
+    {
+      "from": "P01",
+      "to": "P14",
+      "length": 2100,
+      "waypoints": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          -350,
+          -420,
+          0
+        ],
+        [
+          -350,
+          -1000,
+          0
+        ],
+        [
+          0,
+          -1450,
+          0
+        ],
+        [
+          0,
+          -1750,
+          0
+        ]
+      ]
+    },
+    {
+      "from": "P01",
+      "to": "P17",
+      "length": 2600,
+      "waypoints": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          300,
+          500,
+          25
+        ],
+        [
+          300,
+          1200,
+          30
+        ],
+        [
+          -80,
+          1850,
+          30
+        ],
+        [
+          180,
+          2150,
+          30
+        ]
+      ]
+    }
+  ],
+  "blockout": {
+    "status": "First measured scale studies. Support trays pack net area; they are not a finished floor plan or approved VN reconstruction.",
+    "support_reservations": [
+      {
+        "use": "dedicated_cultivation",
+        "xy": [
+          -950,
+          0
+        ],
+        "size": [
+          350,
+          1428.5714285714287
+        ],
+        "levels": [
+          -80,
+          -20
+        ],
+        "headroom": 40,
+        "material": "cultivation"
+      },
+      {
+        "use": "dedicated_cultivation",
+        "xy": [
+          950,
+          0
+        ],
+        "size": [
+          350,
+          1428.5714285714287
+        ],
+        "levels": [
+          -80,
+          -20
+        ],
+        "headroom": 40,
+        "material": "cultivation"
+      },
+      {
+        "use": "metabolic_industrial_maintenance",
+        "xy": [
+          0,
+          -300
+        ],
+        "size": [
+          1000,
+          650
+        ],
+        "levels": [
+          -350
+        ],
+        "headroom": 60,
+        "material": "systems"
+      },
+      {
+        "use": "transport_and_arrivals",
+        "xy": [
+          0,
+          -1550
+        ],
+        "size": [
+          600,
+          500
+        ],
+        "levels": [
+          -25
+        ],
+        "headroom": 45,
+        "material": "transport"
+      },
+      {
+        "use": "serviced_reserve",
+        "xy": [
+          0,
+          1500
+        ],
+        "size": [
+          1000,
+          550
+        ],
+        "levels": [
+          -70
+        ],
+        "headroom": 100,
+        "material": "reserve"
+      },
+      {
+        "use": "residential",
+        "xy": [
+          -360,
+          0
+        ],
+        "size": [
+          500,
+          475
+        ],
+        "levels": [
+          40,
+          45,
+          50,
+          55
+        ],
+        "headroom": 4,
+        "material": "home"
+      },
+      {
+        "use": "communal_interiors",
+        "xy": [
+          420,
+          -150
+        ],
+        "size": [
+          350,
+          500
+        ],
+        "levels": [
+          55,
+          65
+        ],
+        "headroom": 8,
+        "material": "civic"
+      },
+      {
+        "use": "public_landscape_and_walkways",
+        "xy": [
+          0,
+          0
+        ],
+        "size": [
+          1000,
+          1400
+        ],
+        "levels": [
+          0
+        ],
+        "headroom": 15,
+        "material": "garden"
+      }
+    ],
+    "pond": {
+      "radii": [
+        4.5,
+        3.5
+      ],
+      "water_depth": 0.35,
+      "water_below_bank": 0.12,
+      "coping_above_bank": 0.06
+    },
+    "plaza_crowd_zones": [
+      {
+        "name": "main south",
+        "xy_size": [
+          0,
+          -35,
+          150,
+          50
+        ]
+      },
+      {
+        "name": "main west",
+        "xy_size": [
+          -72.5,
+          15,
+          35,
+          50
+        ]
+      },
+      {
+        "name": "main east",
+        "xy_size": [
+          72.5,
+          15,
+          35,
+          50
+        ]
+      },
+      {
+        "name": "west court",
+        "xy_size": [
+          -125,
+          -10,
+          50,
+          90
+        ]
+      },
+      {
+        "name": "east court",
+        "xy_size": [
+          125,
+          -10,
+          50,
+          90
+        ]
+      }
+    ],
+    "cameras": {
+      "world": {
+        "eye": [
+          5300,
+          -6500,
+          5400
+        ],
+        "target": [
+          0,
+          0,
+          150
+        ],
+        "ortho": 7100
+      },
+      "city": {
+        "eye": [
+          1900,
+          -2250,
+          1900
+        ],
+        "target": [
+          0,
+          220,
+          0
+        ],
+        "ortho": 2950
+      },
+      "dome": {
+        "eye": [
+          350,
+          1044,
+          86.65
+        ],
+        "target": [
+          -280,
+          300,
+          22
+        ],
+        "lens": 26
+      },
+      "treehouse": {
+        "eye": [
+          -123,
+          508,
+          25.5
+        ],
+        "target": [
+          -112,
+          530,
+          24.5
+        ],
+        "lens": 34
+      },
+      "treehouse_interior": {
+        "eye": [
+          -116.1,
+          531.3,
+          26.5
+        ],
+        "target": [
+          -111,
+          528.3,
+          26.2
+        ],
+        "lens": 20
+      },
+      "pond": {
+        "eye": [
+          -280,
+          270,
+          24.8
+        ],
+        "target": [
+          -270,
+          285,
+          19.8
+        ],
+        "lens": 35
+      },
+      "plaza": {
+        "eye": [
+          0,
+          -12,
+          2.2
+        ],
+        "target": [
+          0,
+          30,
+          3.5
+        ],
+        "lens": 24
+      },
+      "plaza_plan": {
+        "eye": [
+          0,
+          0,
+          460
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "ortho": 345
+      },
+      "later": {
+        "eye": [
+          6300,
+          -6500,
+          6500
+        ],
+        "target": [
+          0,
+          800,
+          150
+        ],
+        "ortho": 8100
+      }
+    },
+    "plaza_stage_xy": [
+      12,
+      16
+    ]
+  }
+}

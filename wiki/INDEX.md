@@ -1,9 +1,10 @@
 # The Astravus Wiki - Complete Index
 
 For current chronology, use [TIMELINE.md](TIMELINE.md) alongside the [latest draft](../revision/latest.md). [CHARACTERS.md](CHARACTERS.md#continuity-reference) records pronouns and fixed age relationships. Bios add character detail; dialogue pages may expand scenes and are not literal transcripts of the draft. Historical revision proposals are identified in [CHANGEIDEAS.md](CHANGEIDEAS.md).
+
+For physical world canon, start with the [Lumen world specification](worldbuilding/Lumen.md#world-specification): [population](worldbuilding/Lumen-Demographics.md), [atlas and map](worldbuilding/Lumen-Atlas.md), [environment and systems](worldbuilding/Lumen-Systems.md), and [artificial gravity](worldbuilding/Artificial-Gravity.md). Its [continuity record](worldbuilding/Lumen-Continuity.md) marks new decisions, preserved story/visual constraints, and any proposed adaptation adjustments. The wiki owns these world details; the 3D model should follow them.
+
 **Terminology:** A [constellation](worldbuilding/Constellations.md) is an adult romantic/peer relationship, distinct from a family or household. Children and familiars belong to families, not to the adults' constellation. The [terminology alignment record](CONSTELLATION_ALIGNMENT.md) marks two proposed manuscript wording refinements separately from world layout.
-
-
 
 
 Welcome to the comprehensive wiki for the Astravus Collection, focusing on Calista's full narrative arc. This index guides you through all wiki pages with brief summaries and organized categories.
@@ -14,13 +15,13 @@ Welcome to the comprehensive wiki for the Astravus Collection, focusing on Calis
 
 | Section | Description | Pages |
 |---------|-------------|-------|
-| **[Core Documents](#core-documents)** | Overview materials and revision tracking | 4 |
-| **[Character Biographies](#character-biographies-bios)** | Individual character profiles | 18 |
-| **[Dialogue Scenes](#dialogue-scenes-dialogue)** | Extracted conversations organized by life phase | 47 |
-| **[Events](#events-events)** | Major narrative events in chronological order | 73 |
-| **[Worldbuilding](#worldbuilding-worldbuilding)** | The setting, culture, and cosmic context | 15 |
+| **[Core Documents](#core-documents)** | Overview materials and revision tracking | 5 |
+| **[Character Biographies](#character-biographies-bios)** | Individual character profiles and index | 18 |
+| **[Dialogue Scenes](#dialogue-scenes-dialogue)** | Scene expansions and index | 45 |
+| **[Events](#events-events)** | Narrative event pages and index | 63 |
+| **[Worldbuilding](#worldbuilding-worldbuilding)** | World specification, culture, systems and index | 22 |
 
-**Total Wiki Pages:** 165
+**Total Wiki Markdown Pages:** 154 (including this index, section indexes and the previous gravity-page pointer).
 
 ---
 
@@ -400,6 +401,8 @@ Living technology, nanomachines, and mental interfaces that characterize this ci
 
 **[Lumen.md](./worldbuilding/Lumen.md)**
 The primary setting—a young Astravus child of Aurora and Nyx. Describes its size, structure, inhabitants, and developing consciousness. Details the community's culture and relationship to parent Astravii.
+
+The linked physical specification adds [Population and Growth](worldbuilding/Lumen-Demographics.md), [Physical Atlas](worldbuilding/Lumen-Atlas.md), [Environment and Supporting Systems](worldbuilding/Lumen-Systems.md), [Artificial Gravity](worldbuilding/Artificial-Gravity.md), and [Canon Decisions and Adaptation Compatibility](worldbuilding/Lumen-Continuity.md). Rounded numerical baselines are new working canon; precise location and camera geometry remain modelling targets.
 
 **[Aurora.md](./worldbuilding/Aurora.md)**
 Ancient parent Astravus spanning thousands of years of history and culture. Describes its wisdom traditions, archives, and role as teacher and progenitor. Shows the depth of civilization available to younger Astravii.

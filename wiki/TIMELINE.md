@@ -11,11 +11,13 @@ The fixed anchors are Core Integration at 35, Elara's First Breath when Calista 
 ### Before Calista's Birth
 - **~1,000+ years before:** Aurora reaches maturity as an Astravus
 - **~1,000+ years before:** Nyx reaches maturity as an Astravus
-- **Unknown date:** Aurora and Nyx give birth to Lumen
-- **Unknown date:** Tree of Echoes transplanted to Lumen from an ancient Astravus
+- **Around C−100, new worldbuilding baseline:** Aurora and Nyx give birth to Lumen; this approximate date comes from [Population and Growth](worldbuilding/Lumen-Demographics.md), not an exact date in the manuscript
+- **At Lumen's founding:** Tree of Echoes transplanted to Lumen, already ancient
 
 ### Lumen's Founding Generation
 Lumen is a young Astravus during the events of this narrative. Its population is largely composed of the first generation born and raised within its embrace. The Astraviin of Lumen share a deep connection with their home, drawing strength and wisdom from the legacy of Aurora and Nyx.
+
+This population description applies to early Lumen. The [physical atlas](worldbuilding/Lumen-Atlas.md) uses C+10 as a representative childhood layout and later growth snapshots at C+50, C+125 and an illustrative C+150. Those are modelling references, not exact dates for otherwise undated scenes. C+150 does not establish the date of Calista's final transcendence.
 
 ---
 
