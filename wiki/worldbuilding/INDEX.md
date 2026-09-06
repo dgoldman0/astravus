@@ -15,7 +15,7 @@ This directory contains detailed documentation of the worldbuilding elements in 
 
 ## Society and Culture
 
-- **[Constellations.md](./Constellations.md)** - Family structure; multi-adult households; formation and parenting
+- **[Constellations.md](./Constellations.md)** - Adult romantic/peer partnerships; distinct from families and households
 - **[Socioeconomics.md](./Socioeconomics.md)** - Guilds, households, commerce, and currency systems
 - **[The-Sanctuary.md](./The-Sanctuary.md)** - Birth, First Breath ceremonies, and the arrival of new life
 - **[Art-and-Expression.md](./Art-and-Expression.md)** - Utamn, shaari, and the role of art in Astraviin culture
@@ -47,7 +47,7 @@ This directory contains detailed documentation of the worldbuilding elements in 
 | Who are the Astraviin? | [The-Astraviin.md](./The-Astraviin.md) | Individuals living within Astravii |
 | How does transcendence work? | [Transcendence.md](./Transcendence.md) | Gradual merging with Astravus |
 | What is Core Integration? | [Core-Integration.md](./Core-Integration.md) | Age-35 transformation |
-| How do families work? | [Constellations.md](./Constellations.md) | Multi-adult family units |
+| What is a constellation? | [Constellations.md](./Constellations.md) | Adult romantic/peer partnership |
 | How does the economy work? | [Socioeconomics.md](./Socioeconomics.md) | Guilds, households, commerce |
 | How are children born? | [The-Sanctuary.md](./The-Sanctuary.md) | Birth and First Breath |
 | What role does art play? | [Art-and-Expression.md](./Art-and-Expression.md) | Utamn, shaari, expression |

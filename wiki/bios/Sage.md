@@ -2,9 +2,9 @@
 
 ## Basic Information
 - **Age:** 125+ years (approaching transcendence by later narrative)
-- **Role in Story:** Transition Counselor, caregiver, nurturer, Calista's parent, member of family constellation, later Kael's partner
+- **Role in Story:** Transition Counselor, caregiver, nurturer, Calista's parent, member of Calista's parents' adult constellation, later Kael's partner
 - **Home:** Lumen (the Astravus)
-- **Constellation:** Initially 5-member family with Maia, Arin, Selene, and Dorian; later forms constellation with Kael and Sol
+- **Constellation:** Five-adult partnership with Maia, Arin, Selene, and Dorian; later also forms an adult constellation with Kael and Sol
 - **Children:** Calista (middle child), Kael (older), Lyra (younger) as co-parent; raises Kael's child over 50 years
 
 ## Physical Description
@@ -217,4 +217,4 @@ Sage's impact includes:
 - Their approach to caregiving could provide model for scenes involving emotional support
 - Sage embodies idea that care is a skilled practice, not just intuition
 - Later appearance in Calista's transcendent dreams could emphasize emotional continuity
-- Sage's story demonstrates that what we thought was one role (caregiver in original constellation) was actually broader identity that evolved into partnership and expanded family
+- Sage has distinct relationships as a parent and caregiver within the family and as an adult partner within constellations; one role does not define the other

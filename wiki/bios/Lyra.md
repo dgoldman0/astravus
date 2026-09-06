@@ -4,7 +4,7 @@
 - **Age:** Younger than Calista (extending into late adulthood with decades of expeditions)
 - **Role in Story:** Calista's younger sister, explorer, adventurer
 - **Home:** Lumen (the Astravus)
-- **Original Constellation:** Member of 5-person family with Maia, Arin, Selene, Dorian, Sage
+- **Parents:** Maia, Arin, Selene, Dorian and Sage, who form their own adult constellation; Lyra is their child, not a member of their partnership
 - **Familiar:** Originally companioned by Nibble (the rat); eventually receives owl as familiar in later years
 
 ## Physical Description

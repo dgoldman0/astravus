@@ -87,8 +87,8 @@ As Calista approaches 50, after nearly fifteen years of watching Kael's family r
 - [[Calista]] - Family formation decision, visual metaphors
 - [[Aris]] - Relationship development, musical communication
 - [[Kael]] - Family example inspiring the decision
-- [[Sage]] - Part of Kael's family constellation
-- [[Sol]] - Part of Kael's family constellation
+- [[Sage]] - Adult partner in Kael's constellation
+- [[Sol]] - Adult partner in Kael's constellation
 - [[Parenting-Preparation]] - Related event
 - [[Elara]] - The child they will have
 - [[Elara-First-Breath]] - Future event this leads to

@@ -4,7 +4,7 @@
 - **Age:** Adult contemporary with Kael
 - **Role in Story:** Resource Coordinator and Logistics Specialist; Kael and Sage's partner; adoptive parent
 - **Home:** Lumen (the Astravus)
-- **Constellation:** Forms family with Kael and Sage; together they raise an adopted child for 50+ years
+- **Constellation:** Adult partnership with Kael and Sage; separately, they raise an adopted child
 
 ## Physical Description
 Sol is tall and lanky with unusually long fingers that seem made for precise work. They have deep brown skin with golden undertones that seems to catch and hold light. Their close-cropped silver hair began graying prematurely in their 20s, giving them a distinguished appearance from a young age. Their amber eyes have distinctive gold flecks that seem to shimmer when they're engaged in problem-solving. Sol moves with deliberate, unhurried grace—every movement intentional and efficient. They often wear practical clothing with many pockets, each containing something useful: lists, small tools, reference cards, snacks.

@@ -79,7 +79,7 @@ The home featured a cozy central room filled with natural light filtering throug
 
 ### Thematic Significance
 - Family as the core unit of Astraviin society
-- The constellation model of multi-parent childrearing
+- Shared parenting within the family, distinct from the adults' constellation partnership
 - Home as a sanctuary that shapes identity
 - The role of each parent in providing diverse perspectives
 

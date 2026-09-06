@@ -43,7 +43,7 @@ Astraviin possess dramatically extended lifespans:
 
 | Age Range | Stage | Key Characteristics |
 |-----------|-------|---------------------|
-| 0 | First Breath | Birth at the Sanctuary; welcomed into family constellation |
+| 0 | First Breath | Birth at the Sanctuary; welcomed into a family |
 | 0-5 | Infancy/Early Childhood | Fundamental development; immersion in family life |
 | 5-10 | Childhood | Formation of identity; early friendships; exploration |
 | 10-15 | Late Childhood | Deeper relationships; learning about the wider world |
@@ -102,11 +102,11 @@ Integration is described as:
 
 ### Constellations
 
-The primary social unit among the Astraviin is the **constellation**—a family grouping formed by adults who commit to raising children together. (See [Constellations.md](./Constellations.md) for full details.)
+An Astraviin **constellation** is a committed adult romantic/peer relationship. It is distinct from family and household membership: children and familiars are not members of their parents' or caregivers' adult partnership. (See [Constellations.md](./Constellations.md) for the canonical definition.)
 
 Key aspects:
-- Multi-adult households (typically 2-5+ adults)
-- Shared parenting responsibilities
+- Multi-adult constellations, commonly two or three adults in early Lumen, with larger arrangements possible
+- Parenthood is a separate commitment; constellations need not raise children
 - Formal formation process with counseling and ceremony
 - Strong cultural encouragement to form constellations
 
@@ -272,5 +272,5 @@ Astraviin often bond deeply with non-human companions (see [Familiars.md](./Fami
 - **[The-Astravii.md](./The-Astravii.md)** - The cosmic beings who are home to the Astraviin
 - **[Core-Integration.md](./Core-Integration.md)** - The age-35 transformation
 - **[Transcendence.md](./Transcendence.md)** - The ultimate journey
-- **[Constellations.md](./Constellations.md)** - Family structure
+- **[Constellations.md](./Constellations.md)** - Adult romantic/peer relationships
 - **[Familiars.md](./Familiars.md)** - Non-human companions

@@ -2,9 +2,9 @@
 
 ## Basic Information
 - **Age:** 125+ years (approaching transcendence by later narrative)
-- **Role in Story:** Ecological Systems Designer, botanist, Calista's mother, member of family constellation
+- **Role in Story:** Ecological Systems Designer, botanist, Calista's mother, member of Calista's parents' adult constellation
 - **Home:** Lumen (the Astravus)
-- **Constellation:** 5-member family with Arin, Selene, Dorian, and Sage
+- **Constellation:** Five-adult partnership with Arin, Selene, Dorian, and Sage
 - **Children:** Calista (middle child), Kael (older), Lyra (younger)
 
 ## Physical Description
@@ -51,7 +51,7 @@ Maia's approach to parenting emphasizes:
 - Provides emotional support, particularly during grief over Joren's death
 - Emphasizes importance of creativity and processing emotions
 
-### With Family Constellation
+### With Adult Constellation Partners
 - Works collaboratively with:
   - **Arin:** Engineering complementing her botany
   - **Selene:** Music enriching garden experiences

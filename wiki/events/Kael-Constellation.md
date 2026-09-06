@@ -70,7 +70,7 @@ The ceremony itself reflects Astravian values of community and transparency. The
 ## Outcome
 
 ### Immediate
-- New family constellation established
+- New adult constellation partnership established
 - Celebration and community recognition
 - Adjustment period for all involved
 

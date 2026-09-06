@@ -2,9 +2,9 @@
 
 ## Basic Information
 - **Age:** 125+ years (approaching transcendence by later narrative)
-- **Role in Story:** Acoustic Architect, musician, Calista's parent, member of family constellation
+- **Role in Story:** Acoustic Architect, musician, Calista's parent, member of Calista's parents' adult constellation
 - **Home:** Lumen (the Astravus)
-- **Constellation:** 5-member family with Maia, Arin, Dorian, and Sage
+- **Constellation:** Five-adult partnership with Maia, Arin, Dorian, and Sage
 - **Children:** Calista (middle child), Kael (older), Lyra (younger)
 
 ## Physical Description

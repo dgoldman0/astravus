@@ -4,8 +4,8 @@
 - **Age:** Older than Calista (125+ years)
 - **Role in Story:** Calista's older brother, adventurous sibling, future family patriarch
 - **Home:** Lumen (the Astravus)
-- **Original Constellation:** Member of 5-person family with Maia, Arin, Selene, Dorian, Sage
-- **Later Constellation:** Forms family with Sage and Sol; raises adopted child for 50+ years
+- **Parents:** Maia, Arin, Selene, Dorian and Sage; Kael's childhood family membership does not make him a member of their adult constellation
+- **Later Constellation:** Adult partnership with Sage and Sol; separately, they raise an adopted child
 
 ## Physical Description
 Kael is tall and solidly built with broad shoulders and strong, capable hands—a physique developed through years of athletic pursuits. His skin is a deep warm brown, and he has tousled dark hair that he cuts short on the sides but lets grow longer on top, often falling across his forehead. Bright hazel eyes—more gold than green—sparkle with mischief and convey energy and excitement about possibility. He has a dimple on his left cheek only, visible when he grins, and a small scar through his right eyebrow from a childhood adventure. His nose is slightly crooked from being broken during a game years ago. He moves with natural athletic grace, always seeming ready to spring into the next adventure.
@@ -112,7 +112,7 @@ When Calista and Aris consider parenthood, they:
 ## Relationships with Family Members
 - **Calista:** Older brother who models family building; source of mentorship and support
 - **Lyra:** Younger sister; they have disagreements but bond remains strong
-- **Parents:** Members of original constellation; maintains close relationships
+- **Parents:** Maia, Arin, Selene, Dorian and Sage; maintains close family relationships
 - **Sage:** Becomes romantic partner; deep emotional and practical bond
 - **Sol:** Co-parent and partner in family project
 - **Adopted child:** Center of family life for 50+ years

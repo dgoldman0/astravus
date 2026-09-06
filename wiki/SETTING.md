@@ -193,7 +193,7 @@ Astraviin development follows distinct stages:
 Astraviin are born through a process centered on the **Sanctuary**—a specialized facility within each Astravus where new life is brought into being. The exact biological process is not detailed, but it involves:
 
 - Community preparation and support for prospective parents
-- Formation of family constellations before children arrive
+- Adult partners may formalize a constellation and separately prepare for parenthood before children arrive
 - A ceremony called "First Breath" marking the child's arrival
 - Community witnessing and celebration
 
@@ -258,15 +258,15 @@ Death among the Astraviin is extremely rare and profoundly devastating precisely
 
 ## Part V: Society and Culture
 
-### Constellations (Family Structure)
+### Constellations (Adult Romantic and Peer Relationships)
 
-The primary social unit among the Astraviin is the **constellation**—a family grouping formed by adults who commit to raising children together. Key features:
+An Astraviin **constellation** is a committed adult romantic/peer relationship. It is distinct from the partners' families and households. See [Constellations](worldbuilding/Constellations.md) for the canonical definition. Key features:
 
-- **Multi-Adult Households**: Constellations typically include 2-5 or more adults
+- **Adult Partnership**: Members are adult partners; two or three are common in early Lumen, with larger partnerships also present
 - **Formal Formation**: Creating a constellation involves counseling, preparation, and ceremonial commitment
-- **Shared Parenting**: All adults in a constellation share responsibility for raising children
-- **Flexible Composition**: Constellations can include various relationship types—romantic partners, co-parents, caregivers
-- **Cultural Emphasis**: There is strong cultural encouragement to form constellations and raise the next generation
+- **Distinct Family Membership**: Children, relatives and familiars do not belong to the adult partnership merely by being family
+- **Separate Commitments**: Parenthood, caregiving and household sharing may accompany a constellation but do not define membership
+- **Choice**: A constellation need not raise children; partnership and parenthood are distinct decisions
 
 ### Community Structure
 
@@ -304,7 +304,7 @@ Key celebrations include:
 - **Festival of Lights**: Annual celebration honoring the harmony of nature and technology, featuring lanterns, bioluminescent displays, music, and wishes for the future
 - **Celebration of Life**: Annual commemorations honoring those who have died (as opposed to transcended)
 - **First Breath Ceremonies**: Community celebration when new children arrive from the Sanctuary
-- **Constellation Formation**: Ceremonial commitment between partners forming a new family unit
+- **Constellation Formation**: Ceremonial commitment among adult romantic/peer partners
 
 ---
 
@@ -421,7 +421,8 @@ The contrast between death and transcendence is central to Astraviin philosophy:
 All Astraviin and Astravii exist within a web of consciousness that spans:
 
 - **Personal Connections**: Mind-links between individuals
-- **Family Bonds**: Deep connections within constellations
+- **Family Bonds**: Connections among parents, children, siblings, extended family and familiars
+- **Constellation Bonds**: Intimate connections among adult romantic/peer partners
 - **Community Awareness**: Shared sensing of the Astravus's mood and presence
 - **Ancestral Memory**: Access to experiences of transcended individuals through dreams
 - **Inter-Astravii Travel**: Explorers who journey between Astravii carry connections across the cosmos
@@ -446,7 +447,7 @@ Though Astravii communities are separated by vast distances:
 | **Astraviin** | Individual people living within an Astravus |
 | **Core Integration** | Age-35 biological transformation enabling mind-linking |
 | **Transcendence** | Gradual merging of individual consciousness with Astravus |
-| **Constellation** | Family unit of multiple adults raising children together |
+| **Constellation** | Committed adult romantic/peer relationship; distinct from family and household |
 | **First Breath** | Ceremony marking birth/arrival of a new child |
 | **Sanctuary** | Facility where new Astraviin are born |
 | **Familiar** | Non-human companion animal with extended lifespan and deep bond |

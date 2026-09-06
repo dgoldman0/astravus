@@ -12,6 +12,8 @@ The aligned [latest draft](../revision/latest.md) and [timeline](TIMELINE.md) es
 
 Elara's she/her pronouns are used retrospectively in accounts of her childhood, including before the scene in which she articulates that preference. Arin is Elara's grandparent.
 
+A [constellation](worldbuilding/Constellations.md) is an adult romantic/peer relationship. The family groupings below include children and relatives who are not members of the adults' partnerships. Calista's own constellation is with Aris; her childhood parents form a separate five-adult constellation.
+
 ## Lumen (The Astravus)
 **Lumen** is a young, living spaceship and the primary setting of the story. It is the child of Aurora and Nyx, and serves as both a character and environment. Lumen represents a growing community with a unique culture that blends tradition and innovation. It gradually develops independence while maintaining bonds with its progenitor Astravii.
 
@@ -22,7 +24,7 @@ Elara's she/her pronouns are used retrospectively in accounts of her childhood, 
 
 ---
 
-## The Immediate Family (Calista's Constellation)
+## Calista, Aris and Elara
 
 ### Calista
 **Age:** 125+ (in later years)
@@ -51,7 +53,7 @@ Elara's she/her pronouns are used retrospectively in accounts of her childhood, 
 
 ---
 
-## The Five-Member Constellation (Calista's Parents & Partners)
+## Calista's Five Parents (Partners in Their Own Constellation)
 
 ### Maia
 **Role:** Ecological Systems Designer; Botanist
@@ -245,7 +247,7 @@ Referenced but not fully detailed—distant communities visited by Lyra during h
 
 ## Summary by Role Type
 
-### Immediate Family (Constellation of 5 + Calista + 2 Siblings)
+### Family Across Generations
 - Calista, Aris, Elara
 - Maia, Arin, Selene, Dorian, Sage
 - Kael, Lyra

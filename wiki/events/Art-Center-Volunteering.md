@@ -38,7 +38,7 @@ In her twenties, Calista begins volunteering at the community art center, teachi
 
 Following her own artistic development and the inspiration she drew from her parents' creative approaches, Calista feels called to share what she has learned with younger generations. She begins volunteering at the community art center in Lumen, where she teaches various forms of artistic expression.
 
-Her teaching style reflects what she learned from her parents—[[Maia]]'s gentle encouragement, [[Selene]]'s creative inspiration, and the thoughtful guidance of her entire constellation. She approaches each student as an individual, recognizing that creativity manifests differently in everyone.
+Her teaching style reflects what she learned from her parents—[[Maia]]'s gentle encouragement, [[Selene]]'s creative inspiration, and the thoughtful guidance of her five parents. She approaches each student as an individual, recognizing that creativity manifests differently in everyone.
 
 The experience proves transformative for Calista herself. Through teaching, she gains deeper understanding of her own artistic practice and develops skills in communication and patience that will serve her throughout her life. Working with young minds also reminds her of the wonder she felt during her own early artistic explorations.
 

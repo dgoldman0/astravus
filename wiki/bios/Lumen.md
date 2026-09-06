@@ -62,7 +62,7 @@ After residents receive their Cores:
 ### Early Development
 - Young population composed largely of first generation born and raised within Lumen
 - Astraviin share deep and intimate connection with their home
-- Community structure based on constellation units (family groupings)
+- Community includes adult constellation partnerships, families and households as distinct overlapping relationships
 - Larger family units common due to youthful, expanding population
 
 ### Community Values

@@ -15,7 +15,7 @@ Calista takes her First Breath at the Sanctuary and is welcomed into her family'
 
 ## Description
 
-Calista's First Breath marks her emergence into the world. Her parents—Maia, Arin, Selene, Dorian, and Sage—had been preparing for this moment, eagerly awaiting the arrival of a new child to their constellation.
+Calista's First Breath marks her emergence into the world. Her parents—Maia, Arin, Selene, Dorian, and Sage—had been preparing for this moment, eagerly awaiting the arrival of a new child to their family.
 
 The moment was recounted to Calista throughout her childhood, the story becoming almost tangible through her parents' loving retellings. They described holding her in their waiting arms, the warmth and joy of welcoming her into their lives. Their excitement was palpable as they brought her home from the Sanctuary.
 
@@ -31,7 +31,7 @@ Though Calista has no direct memory of this moment, her parents' stories made th
 ## Importance
 
 ### Narrative Significance
-- Establishes Calista's origin within the five-parent constellation
+- Establishes Calista's childhood family and its five parents
 - Introduces the concept of "First Breath" as the Astraviin term for birth
 - Introduces the Sanctuary as the birthplace of Astraviin children
 - Sets up the loving family environment that shapes Calista's development
@@ -45,7 +45,7 @@ Though Calista has no direct memory of this moment, her parents' stories made th
 
 ## Outcome
 
-Calista becomes the second child in her constellation, joining her older brother Kael. She is later joined by her younger sister Lyra. The constellation's five parents provide diverse influences that shape all three children.
+Calista becomes the second child in her family, joining her older brother Kael. She is later joined by her younger sister Lyra. Their five parents are partners in an adult constellation; their parenting provides diverse influences that shape all three children.
 
 ---
 
@@ -76,6 +76,6 @@ Calista becomes the second child in her constellation, joining her older brother
 
 ## Notes
 
-- The Sanctuary is the Astraviin institution where children are born and welcomed by their constellations
+- The Sanctuary is the Astraviin institution where children are born and welcomed by their families
 - First Breath is analogous to birth but carries specific cultural significance among the Astraviin
-- The five-parent constellation is noted as unusually large, even for Lumen's culture of larger family units
+- The parents' five-adult constellation is unusually large; the three children and familiars belong to their wider family, not the partnership

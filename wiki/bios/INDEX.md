@@ -2,14 +2,14 @@
 
 ## Quick Reference Guide to Character Bios
 
-### The Immediate Family (Calista's Constellation)
+### Calista, Aris and Elara
 
 **Main Characters:**
 - **[Calista](./Calista.md)** - Protagonist, artist, daughter, sister, partner, mother
 - **[Aris](./Aris.md)** - Calista's romantic partner, musician, collaborator, parent
 - **[Elara](./Elara.md)** - Calista and Aris's daughter, engineer, innovator
 
-### Lumen's Family (The Five-Member Constellation)
+### Calista's Parents (Five Adult Constellation Partners)
 
 **Calista's Parents & Guardians:**
 - **[Maia](./Maia.md)** - Ecological Systems Designer, botanist, nurturing presence
@@ -134,7 +134,7 @@ Calista (Protagonist)
 - Calista (career development)
 - Aris (meeting and partnership)
 - Elara (birth and early childhood)
-- Family constellation (guiding)
+- Parents and extended family (guiding)
 - Kael (family building with Sage & Sol)
 
 ### Later Years (Later Years & Transcendence)

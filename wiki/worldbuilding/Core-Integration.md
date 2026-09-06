@@ -259,4 +259,4 @@ The transformation is portrayed as opening rather than changing:
 - **[The-Astraviin.md](./The-Astraviin.md)** - The individuals who undergo integration
 - **[Transcendence.md](./Transcendence.md)** - The ultimate destination of the integration journey
 - **[Technology.md](./Technology.md)** - The technological aspects of the Core
-- **[Constellations.md](./Constellations.md)** - Family formation, often following integration
+- **[Constellations.md](./Constellations.md)** - Adult partnership formation, often following integration

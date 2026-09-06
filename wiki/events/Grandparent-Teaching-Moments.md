@@ -43,7 +43,7 @@
 
 ## Detailed Account
 
-Astravian children are raised by a constellation of adults, and for Elara, this includes the rich presence of five grandparents—Calista's own parents. Maia, Arin, Selene, Dorian, and Sage each bring unique gifts to their grandchild's development.
+Elara is raised by her parents with support from an extended family that includes five grandparents—Calista's own parents. These caregiving and family bonds do not make everyone members of one adult constellation. Maia, Arin, Selene, Dorian, and Sage each bring unique gifts to their grandchild's development.
 
 Maia shares her knowledge of gardening and her deep connection to natural rhythms. She takes Elara into her garden just as she once did with young Calista, teaching her to feel the life in growing things, to understand the patience required for cultivation. Her gentle presence offers a particular kind of wisdom.
 
@@ -91,7 +91,7 @@ For Calista, watching her parents with her child creates a beautiful sense of co
 ## Related Events
 - [[First-Gardening-Lesson]] - Calista's similar experience with Maia
 - [[First-Workshop-Visit]] - Calista's similar experience with Arin
-- [[Kael-Constellation]] - Formation of Kael's expanded family
+- [[Kael-Constellation]] - Formation of Kael's adult partnership with Sage and Sol
 - [[Elara-Light-Sculpture-Invention]] - Skills developed through this teaching
 
 ## Source Material

@@ -82,7 +82,7 @@ Calista establishes herself as an artist in her early twenties, meets [[Aris]] a
 - [[Core-Integration|Core Integration]] - Age 35, biological transformation
 - [[First-Mind-Connection-Aris|First Mind Connection with Aris]] - Intimate telepathic bond
 - [[Cafe-Conversation-Cassia|Café Conversation with Cassia]] - Reflecting on lifelong friendship
-- [[Kael-Constellation|Kael's Constellation Formation]] - Brother forms his own family with Sage and Sol
+- [[Kael-Constellation|Kael's Constellation Formation]] - Brother formalizes an adult partnership with Sage and Sol
 - [[Lyras-Adventure-Announcement|Lyra's Adventure Announcement]] - Sister declares explorer path
 
 ---

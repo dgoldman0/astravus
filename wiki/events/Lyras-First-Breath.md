@@ -1,7 +1,7 @@
 # Lyra's First Breath
 
 ## Overview
-[[Lyra]] is born—the third and youngest child of the five-parent constellation (Maia, Arin, Selene, Dorian, and Sage). As Calista's younger sister, Lyra brings new energy and dynamics to the family.
+[[Lyra]] is born—the third and youngest child raised by Maia, Arin, Selene, Dorian, and Sage. As Calista's younger sister, Lyra brings new energy and dynamics to the family.
 
 ## Setting
 
@@ -57,7 +57,7 @@ The five-parent constellation welcomes their third and final child, and with Lyr
 
 ### Thematic Significance
 - Siblings as different expressions of shared heritage
-- Family constellation's completion
+- Arrival of the youngest sibling in the family
 - Each child unique despite shared upbringing
 
 ### Narrative Role

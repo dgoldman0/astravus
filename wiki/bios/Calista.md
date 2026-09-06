@@ -10,7 +10,7 @@
 Calista has rich chestnut brown hair that falls in loose waves past her shoulders, often with paint or dust caught in the strands. Her eyes are a striking deep blue—curious and ever-watchful, capable of intense focus when absorbed in creative work. She has a light olive complexion with a distinctive smattering of freckles across her nose and cheeks, and lighter freckles scattered across her shoulders and forearms. Of medium height with a graceful, fluid build developed from years of artistic work, she has long, expressive hands with permanent traces of paint under her fingernails and calluses from holding brushes and sculpting tools. A small, pale scar marks her left temple from a childhood accident—she rarely speaks about its origin. She moves with artistic intention, her posture reflecting her contemplative nature, and has a habit of tilting her head slightly when listening intently.
 
 ## Family Background
-Calista is the middle child of three in her immediate family within a five-member constellation:
+Calista is the middle child of three. Her five parents form an adult constellation; Calista and her siblings belong to their family, not to that romantic partnership:
 - **Parents/Guardians:** Maia (ecological systems designer), Arin (biomechanical interface designer), Selene (acoustic architect), Dorian (oral historian), Sage (transition counselor)
 - **Older Brother:** Kael (adventurous, now with his own constellation with Sage and Sol)
 - **Younger Sister:** Lyra (curious explorer)
@@ -109,7 +109,7 @@ In her later maturity (125+ years), Calista:
 - **Shadow:** Longtime familiar; provides emotional support and companionship throughout life
 
 ## Major Life Events
-1. Birth and arrival in family constellation
+1. Birth and arrival in her family
 2. Childhood adventures in treehouse with Cassia and Joren
 3. Joren's tragic death—formative trauma
 4. First romantic relationship with Lysandra and their breakup

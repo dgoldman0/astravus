@@ -340,14 +340,14 @@ But these tensions are managed through centuries of practice, the steady influen
 
 ## Relationship to Constellations
 
-Constellations (family units) are a specialized form of household:
+Constellations are adult romantic/peer relationships. Households are domestic and economic organizations. The two may overlap, but neither is a subtype of the other:
 
-- They share the economic functions of households
-- They add the specific commitment to raising children
-- They often include members from multiple guilds, creating natural trade networks
-- The formation of a constellation typically triggers new economic relationships
+- Partners may share a household and coordinate resources, or participate in arrangements spanning residences
+- Relatives, children, familiars, apprentices and friends may belong to a household without belonging to its adult romantic partnerships
+- Adults can choose parenthood separately; it is not a requirement for constellation membership
+- Partnership formation may alter household arrangements and trade relationships, but does not determine household size
 
-See [Constellations.md](./Constellations.md) for details on family structure.
+See [Constellations.md](./Constellations.md) for the adult relationship definition and its distinction from family and household.
 
 ---
 

@@ -1,277 +1,71 @@
-# Constellations (Family Structure)
+# Constellations: Adult Romantic and Peer Relationships
 
-## Overview
+## Definition
 
-A **constellation** is the primary family unit among the Astraviin—a committed grouping of adults who formally join together to share life, raise children, and support each other through centuries of existence. Unlike traditional Earth-based family structures, constellations frequently include more than two adults and emphasize shared responsibility, intentional formation, and long-term commitment across lifetimes.
+A **constellation** is a committed **adult romantic/peer relationship** among its members. It names the adults' partnership, not their family, household, children, dependents, or animal companions.
 
----
+This definition follows the author's clarification, already recorded in the [visual novel adaptation](../../visual-novel/docs/ADAPTATION.md#dialogue-and-voice) and [glossary review](../../visual-novel/docs/GLOSSARY_REVIEW.md). It supersedes older wiki wording that made constellation membership synonymous with family membership or parenting.
 
-## Structure
+| Term | What it describes | Membership |
+| --- | --- | --- |
+| **Constellation** | Adult romantic/peer partnership | The adult partners themselves. |
+| **Family** | Familial relationships, including parenthood, children, siblings, extended family and familiars | People and companions connected through those familial bonds; not all are romantic partners. |
+| **Household** | Shared domestic and/or economic organization | Co-residents and others participating in its resources, care and work; it can span residences. |
 
-### Composition
+These structures can overlap without being interchangeable. Sharing a home, raising a child together, working together, or belonging to the same family does not by itself establish constellation membership. Children do not become members of their parents' romantic partnership. Familiars are family members, not constellation partners.
 
-Constellations typically include:
+## Adult membership
 
-- **Two to five or more adults** who form the core partnership
-- **Children** born through the Sanctuary or adopted from it
-- **Familiars** (animal companions) who are considered family members
+The manuscript describes two or three adult partners as common in early Lumen, with larger partnerships also present. Maia, Arin, Selene, Dorian and Sage form a five-adult constellation. Separately, the family they raise includes three children and their familiars. Five describes the partnership's membership; it does not mean five adults plus children in the constellation.
 
-### Calista's Family as Example
+A constellation need not have children, and parenthood is not its defining purpose. Partnership, parenthood and household formation are separate commitments that can occur together or at different times. The internal arrangement of adult romantic and peer bonds need not be identical in every constellation; no complete pair-by-pair relationship graph is established for the named groups.
 
-Calista was raised by a five-adult constellation:
+## Established examples
 
-| Parent | Role | Contribution |
-|--------|------|--------------|
-| **Maia** | Ecological Systems Designer | Nature, gardening, patience |
-| **Arin** | Biomechanical Interface Designer | Engineering, precision, problem-solving |
-| **Selene** | Acoustic Architect | Music, emotional expression |
-| **Dorian** | Oral Historian | Stories, heritage, memory |
-| **Sage** | Transition Counselor | Caregiving, emotional support |
+| Constellation | Adult partners | Related family facts |
+| --- | --- | --- |
+| Calista's parents' constellation | Maia, Arin, Selene, Dorian, Sage | They raise Kael, Calista and Lyra. None of those children belongs to this constellation by being raised by them. |
+| Calista and Aris's constellation | Calista, Aris | They later welcome Elara into their family. Elara is not a constellation member. |
+| Kael, Sage and Sol's constellation | Kael, Sage, Sol | They also choose to raise a child. Kael's adult partnership is distinct from his childhood family membership. |
 
-Together, they raised three children: Kael (older), Calista (middle), and Lyra (younger).
+Cassia, Joren and Calista's childhood friendship is a friendship group, not a constellation. Lumen's whole community is likewise not one collective romantic partnership.
 
-### Another Example: Kael's Constellation
+## Formation and commitment
 
-Kael later forms his own constellation:
+Constellation formation formalizes the relationship among adult partners. Calista and Aris's ceremony includes witnesses, symbolic gifts and celebration. Their years of creative collaboration and later mind-linking precede that ceremony.
 
-| Partner | Role | Contribution |
-|---------|------|--------------|
-| **Kael** | (Various) | Adventure, energy, leadership |
-| **Sage** | Transition Counselor | Emotional guidance, stability |
-| **Sol** | Resource Coordinator | Logistics, organization, planning |
+Counseling can help partners discuss their relationship, expectations, shared resources and how they wish to live. Where they also plan parenthood, they undertake separate preparation for caring for a child. The child-development classes, Sanctuary request and First Breath in Calista and Aris's story concern that parenting decision; they are not universal membership requirements for all constellations.
 
-They adopt a child from the Sanctuary.
+From their ceremony:
 
----
-
-## Formation Process
-
-### Not Casual
-
-Constellation formation is a significant commitment requiring:
-
-- Deep consideration and discussion
-- Formal preparation and counseling
-- Community recognition through ceremony
-- Practical arrangements for shared life
-
-### Counseling Phase
-
-Before forming a constellation, prospective partners work with counselors to:
-
-- Navigate complexities of merging lives
-- Organize finances and establish household
-- Plan for future children
-- Ensure compatibility and shared values
-- Prepare emotionally for lifelong commitment
-
-### Educational Workshops
-
-Prospective parents participate in:
-
-- Workshops on child development
-- Training in child care basics (nutrition, first aid, routines)
-- Practical skills (bathing, feeding, caregiving)
-- Emotional preparation for parenthood
-- Early education planning
-
-### The Ceremony
-
-Constellation formation culminates in a formal ceremony:
-
-- Held in a significant space within the Astravus
-- Witnessed by community, family, and friends
-- Exchange of vows reflecting Astraviin values
-- Symbolic gifts representing love and commitment
-- Celebratory gathering with music, art, and joy
-
-From Calista and Aris's ceremony:
 > "Cali and Aris, your commitment to each other and your future family is a testament to your love and dedication. This ceremony marks the beginning of your journey as a unified constellation."
 
----
+The ceremony recognizes Cali and Aris as partners. Their future family is related to that commitment but is not the definition of the constellation.
 
-## Cultural Context
+## Parenthood and family life
 
-### Why Multi-Adult Constellations?
+Adults in a constellation may also become parents. Their parenting responsibilities come from the commitments they make to children, not simply from being romantic partners. Other relatives, friends and caregivers can help raise children without joining that adult relationship.
 
-Several factors encourage larger family units:
+Calista's five parents share care and teaching: Maia brings ecological knowledge, Arin engineering, Selene music, Dorian history and Sage caregiving. Those are roles in Calista's family, not categories of constellation membership.
 
-**Extended Lifespans:**
-- With centuries ahead, multiple perspectives enrich life
-- More adults can share the long commitment of raising children
-- Different strengths complement each other over time
+Children arrive through the Sanctuary into their families. They retain their family connections as they grow, move households and establish adult relationships of their own. This is not a progression from being a child member of one constellation to an adult member of another.
 
-**Youthful, Expanding Population:**
-- Lumen's young population encourages family formation
-- Cultural emphasis on nurturing the next generation
-- Larger units can raise more children effectively
+## Households and practical life
 
-**Diverse Strengths:**
-- Different adults bring different skills and perspectives
-- Children benefit from varied mentorship
-- No single person must fulfill all parental roles
+Partners may share a household and coordinate resources. Household arrangements, dwelling count and family size cannot be read directly from the number of constellation members. Likewise, an economic household can include apprentices, relatives or friends who are not romantic partners.
 
-**Community Values:**
-- Astraviin culture emphasizes connection and cooperation
-- Constellations model the larger pattern of transcendence
-- Family is practice for eventual collective existence
+For demographic and architectural planning, count embodied residents, residential groupings, families and adult partnerships separately. A count of residences does not establish a count of constellations. See [Socioeconomics](Socioeconomics.md#relationship-to-constellations).
 
-### Not Mandatory
+## Change over time
 
-Despite cultural encouragement:
+Adult partnerships can deepen and evolve across long lives. Core Integration enables new forms of intimacy between integrated adults, but is not a prerequisite for every emotional or romantic bond. Partners may reach transcendence at different times. The narrative's shared dreams preserve connection without establishing a universal rule that every constellation must transcend together or remain unchanged forever.
 
-- Some individuals choose not to form constellations
-- Some choose not to raise children
-- Both choices are respected
-- The emphasis is on intentional choice, not conformity
+The formation, change or ending of an adult partnership does not erase a person's existing parental responsibilities or determine every family and household relationship. Detailed institutions for such changes remain open.
 
----
+## Related topics
 
-## Roles Within Constellations
-
-### Shared Responsibility
-
-All adults share parenting responsibility:
-
-- No single parent bears the entire burden
-- Children develop relationships with each parent
-- Different parents excel in different areas
-- The constellation functions as a unified whole
-
-### Specialized Contributions
-
-Each parent typically contributes their unique strengths:
-
-| In Calista's Family | Specialty | Teachings |
-|---------------------|-----------|-----------|
-| Maia | Ecological knowledge | Nature, patience, growth |
-| Arin | Engineering | Precision, problem-solving, resilience |
-| Selene | Music | Emotional expression, creativity |
-| Dorian | History | Heritage, storytelling, memory |
-| Sage | Caregiving | Emotional support, wisdom, comfort |
-
-### Relationship Dynamics
-
-Adults within a constellation may have:
-
-- Romantic partnerships (some or all members)
-- Deep friendship without romance
-- Collaborative partnership focused on children
-- Various combinations of connection
-
-The specific nature of adult relationships varies by constellation.
-
----
-
-## Children in Constellations
-
-### Arrival
-
-Children arrive through the **Sanctuary**:
-
-- Born through a process centered in this specialized facility
-- Welcomed through First Breath ceremony
-- Entered into waiting family constellations
-
-### Upbringing
-
-Children are raised with:
-
-- Multiple adult perspectives and mentors
-- Diverse teachings across many domains
-- Strong sense of belonging to family and community
-- Preparation for their own eventual life choices
-- Stories, skills, and wisdom passed across generations
-
-### Relationships with Siblings
-
-Siblings raised together:
-
-- Form lifelong bonds
-- Navigate conflicts and cooperation (as Calista, Kael, and Lyra do)
-- Support each other through life stages
-- May remain close even as they form their own constellations
-
----
-
-## Constellation Evolution
-
-### Over Time
-
-Constellations evolve across centuries:
-
-- Children grow and eventually leave to form their own constellations
-- Adult relationships deepen through mind-linking and shared experience
-- Some adults may transcend before others
-- The constellation adapts to changing circumstances
-
-### Transcendence
-
-As adults approach transcendence:
-
-- They spend more time in connection with the Astravus
-- Physical presence becomes more intermittent
-- Relationships continue through dreams and subtle signs
-- The constellation shifts but never truly ends
-
-### Legacy
-
-Constellations leave lasting legacy:
-
-- Children carry forward values and memories
-- Grandchildren continue the lineage
-- Transcended members remain accessible through the Astravus
-- The family pattern repeats and evolves
-
----
-
-## Contrast with Earth-Based Families
-
-| Aspect | Astraviin Constellation | Traditional Earth Family |
-|--------|-------------------------|-------------------------|
-| Size | Often 3-5+ adults | Typically 1-2 adults |
-| Duration | Centuries | Decades |
-| Formation | Formal counseling and ceremony | Variable (marriage, cohabitation) |
-| Children's Source | Sanctuary | Biological birth |
-| Ultimate Destination | Transcendence together | Death and separation |
-| Relationship Types | Multiple configurations | Often one primary partnership |
-
----
-
-## Thematic Significance
-
-### Microcosm of Transcendence
-
-Constellations mirror the larger pattern of Astraviin existence:
-
-- Multiple individuals joining together
-- Preserving individuality while creating something greater
-- Shared consciousness through mind-linking
-- Eventual collective existence through transcendence
-
-### Training for Unity
-
-Family life prepares individuals for transcendence:
-
-- Learning to share deeply with others
-- Balancing individual identity with collective belonging
-- Experiencing the richness of merged perspectives
-- Building trust in intimate connection
-
-### Community Within Community
-
-Each constellation is a mini-community:
-
-- Practicing cooperation and mutual support
-- Contributing to the larger Astraviin society
-- Raising the next generation of community members
-- Modeling the values of the whole
-
----
-
-## Related Topics
-
-- **[The-Sanctuary.md](./The-Sanctuary.md)** - Where children arrive
-- **[The-Astraviin.md](./The-Astraviin.md)** - The individuals who form constellations
-- **[Transcendence.md](./Transcendence.md)** - The ultimate destination of constellation members
-- **[Core-Integration.md](./Core-Integration.md)** - The transformation that deepens constellation bonds
+- [The Astraviin](The-Astraviin.md): the people who form adult partnerships.
+- [Socioeconomics](Socioeconomics.md): households, guilds and resource sharing.
+- [The Sanctuary](The-Sanctuary.md): preparation for parenthood and First Breath.
+- [Core Integration](Core-Integration.md): mental interfaces and shared experience.
+- [Transcendence](Transcendence.md): gradual integration with the Astravus.

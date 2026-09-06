@@ -28,7 +28,7 @@ When a child arrives, a ceremony takes place:
 - Peaceful and sacred ambiance
 
 **Participants:**
-- The constellation awaiting their child
+- The prospective parents awaiting their child
 - Friends and extended family
 - Caregivers and Sanctuary staff
 - Community witnesses
@@ -51,7 +51,7 @@ Before receiving a child, prospective parents:
 - Submit a formal request to the Sanctuary
 - Undergo evaluations to ensure readiness
 - Demonstrate preparation for parenthood
-- Show they have formed or are forming a stable constellation
+- Establish their caregiving and support arrangements; the story does not establish a universal romantic-partnership requirement for parenthood
 
 ### Parenting Courses
 
@@ -80,7 +80,7 @@ The Sanctuary offers comprehensive preparation:
 Counselors help prospective parents:
 
 - Navigate the complexities of new parenthood
-- Strengthen their constellation bond
+- Coordinate caregiving, including any adult partnership arrangements relevant to those parents
 - Plan for the practical realities of raising a child
 - Prepare emotionally and spiritually
 
@@ -207,7 +207,7 @@ The narrative mentions adoption:
 
 This implies:
 
-- Children may be available for constellation adoption
+- Prospective parents may adopt children through the Sanctuary
 - The Sanctuary facilitates matching children with families
 - Multiple pathways exist for forming families
 - All children are welcomed regardless of origin
@@ -216,7 +216,7 @@ This implies:
 
 ## Related Topics
 
-- **[Constellations.md](./Constellations.md)** - The family units who receive children
+- **[Constellations.md](./Constellations.md)** - Adult partnerships, distinct from the families receiving children
 - **[The-Astraviin.md](./The-Astraviin.md)** - The individuals born at the Sanctuary
 - **[Transcendence.md](./Transcendence.md)** - The complementary end of the life cycle
 - **[Lumen.md](./Lumen.md)** - The Astravus where the main Sanctuary is located

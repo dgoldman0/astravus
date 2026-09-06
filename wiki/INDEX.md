@@ -1,6 +1,9 @@
 # The Astravus Wiki - Complete Index
 
 For current chronology, use [TIMELINE.md](TIMELINE.md) alongside the [latest draft](../revision/latest.md). [CHARACTERS.md](CHARACTERS.md#continuity-reference) records pronouns and fixed age relationships. Bios add character detail; dialogue pages may expand scenes and are not literal transcripts of the draft. Historical revision proposals are identified in [CHANGEIDEAS.md](CHANGEIDEAS.md).
+**Terminology:** A [constellation](worldbuilding/Constellations.md) is an adult romantic/peer relationship, distinct from a family or household. Children and familiars belong to families, not to the adults' constellation. The [terminology alignment record](CONSTELLATION_ALIGNMENT.md) marks two proposed manuscript wording refinements separately from world layout.
+
+
 
 
 Welcome to the comprehensive wiki for the Astravus Collection, focusing on Calista's full narrative arc. This index guides you through all wiki pages with brief summaries and organized categories.
@@ -24,7 +27,7 @@ Welcome to the comprehensive wiki for the Astravus Collection, focusing on Calis
 ## Core Documents
 
 ### [CHARACTERS.md](./CHARACTERS.md)
-Comprehensive character guide covering all major and supporting characters in the narrative. Details physical descriptions, personality quirks, family relationships, and role in the story for Calista, Aris, Elara, and the broader constellation. Organized by character type and importance to the narrative.
+Comprehensive character guide covering all major and supporting characters in the narrative. Details physical descriptions, personality quirks, family relationships, and role in the story for Calista, Aris, Elara, and their wider families and adult relationships. Organized by character type and importance to the narrative.
 
 ### [SETTING.md](./SETTING.md)
 In-depth exploration of the world's history, from Earth's 21st-century transformation through the rise of the Astravii. Covers the distant past, the emergence of living cosmic beings, guild and household structures, and the current state of civilization in Lumen. Essential for understanding the broader context of Calista's world.
@@ -262,7 +265,7 @@ The Events section contains 73 detailed narrative moments organized chronologica
 ### Earliest Memories (Childhood: ~Age 0-10)
 
 **[Calistas-First-Breath](./events/Calistas-First-Breath.md)**
-Calista takes her First Breath at the Sanctuary and is welcomed into her family's arms. Establishes the five-parent constellation model and introduces the Sanctuary as birthplace. Sets the foundation of love and belonging that characterizes her life.
+Calista takes her First Breath at the Sanctuary and is welcomed into her family's arms. Establishes the five-parent family and the separate adult partnership among those parents and introduces the Sanctuary as birthplace. Sets the foundation of love and belonging that characterizes her life.
 
 **[Early-Home-Life](./events/Early-Home-Life.md)**
 Daily rhythms of childhood in the constellation's home. Reveals routines of learning, play, and family bonding with five parents and three familiars that create Calista's foundational sense of security.
@@ -288,7 +291,7 @@ Foundational Astravian mythology told by family. Establishes cultural narratives
 Beginning of lifelong friendship with creative collaborator. Sparks the most important sustained human relationship in Calista's life.
 
 **[Meeting-Joren](./events/Meeting-Joren.md)**
-First encounter with adventurous Joren completes the trio. Establishes the three-person constellation of childhood that forms Calista's identity.
+First encounter with adventurous Joren completes the trio. Establishes the three children's friendship that helps shape Calista's identity.
 
 **[Treehouse-Discovery](./events/Treehouse-Discovery.md)**
 Finding the sanctuary space in Maia's garden. The treehouse becomes central to the trio's formation and exploration of possibility.
@@ -382,7 +385,7 @@ The biological transformation that occurs at age 35. Details the emergence of en
 ### Society and Culture
 
 **[Constellations.md](./worldbuilding/Constellations.md)**
-Family structure and multi-adult households central to Astraviin society. Explains how constellations form, function, raise children, and maintain bonds. Shows the cultural value of chosen family and intentional partnership.
+Adult romantic/peer relationships in Astraviin society. Explains membership and commitment, distinguishing the partners' constellation from family, parenting and household organization.
 
 **[The-Sanctuary.md](./worldbuilding/The-Sanctuary.md)**
 Birth, First Breath ceremonies, and the arrival of new life. Explains how children are born, welcomed, and integrated into community. Details the spiritual and practical significance of First Breath ceremonies.

@@ -37,7 +37,7 @@ The bond between familiars and their humans is:
 - Deep and almost psychic
 - Spanning decades of shared life
 - Mutually supportive and enriching
-- Part of the family constellation
+- Part of the family; not a member of the adults' constellation
 
 ---
 
@@ -162,7 +162,7 @@ They are:
 
 - Mentioned alongside human family members
 - Included in daily life descriptions
-- Considered part of the constellation
+- Considered part of the family, distinct from the adults' constellation
 - Mourned when they pass (implied)
 
 ---
@@ -211,7 +211,7 @@ Familiars represent:
 
 ### Family Completeness
 
-Constellations often include familiars:
+Families often include familiars. The adults' constellation is their romantic/peer partnership and does not include the animals:
 
 - They are part of the family unit
 - Their presence enriches home life
@@ -278,6 +278,6 @@ The narrative focuses on traditional pets:
 ## Related Topics
 
 - **[The-Astraviin.md](./The-Astraviin.md)** - The humans who bond with familiars
-- **[Constellations.md](./Constellations.md)** - Family units that include familiars
+- **[Constellations.md](./Constellations.md)** - Adult partnerships, distinct from family membership
 - **[Core-Integration.md](./Core-Integration.md)** - The process familiars also undergo
 - **[Technology.md](./Technology.md)** - Enhancement that extends lifespans

@@ -2,9 +2,9 @@
 
 ## Basic Information
 - **Age:** 125+ years (approaching transcendence by later narrative)
-- **Role in Story:** Biomechanical Interface Designer, engineer, Calista's parent, member of family constellation
+- **Role in Story:** Biomechanical Interface Designer, engineer, Calista's parent, member of Calista's parents' adult constellation
 - **Home:** Lumen (the Astravus)
-- **Constellation:** 5-member family with Maia, Selene, Dorian, and Sage
+- **Constellation:** Five-adult partnership with Maia, Selene, Dorian, and Sage
 - **Children:** Calista (middle child), Kael (older), Lyra (younger)
 
 ## Physical Description
@@ -45,7 +45,7 @@ Arin's approach to parenting emphasizes:
 - **Collaborative learning:** Showing Calista how to use workshop tools and teaching the principles behind mechanical work
 
 ### With Extended Family
-Arin's professional skills benefit the whole family constellation:
+Arin's professional skills benefit the whole family:
 - Working on projects that serve Maia's garden
 - Creating devices that improve home functionality
 - Teaching mechanical principles to interested family members

@@ -2,9 +2,9 @@
 
 ## Basic Information
 - **Age:** 125+ years (approaching transcendence by later narrative)
-- **Role in Story:** Oral Historian, personal testimony specialist, Calista's parent, member of family constellation
+- **Role in Story:** Oral Historian, personal testimony specialist, Calista's parent, member of Calista's parents' adult constellation
 - **Home:** Lumen (the Astravus)
-- **Constellation:** 5-member family with Maia, Arin, Selene, and Sage
+- **Constellation:** Five-adult partnership with Maia, Arin, Selene, and Sage
 - **Children:** Calista (middle child), Kael (older), Lyra (younger)
 
 ## Physical Description

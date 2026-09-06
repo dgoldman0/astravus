@@ -205,7 +205,7 @@ Lumen's community emphasizes:
 - Connection and cooperation
 - Creative expression
 - Nurturing the next generation
-- Constellation family structures
+- Adult constellation partnerships, alongside families and households
 - Balance between tradition and innovation
 
 ### Community Events
@@ -245,7 +245,7 @@ Lumen's population is:
 
 Society is organized through:
 
-- Constellation family units
+- Adult constellation partnerships, family bonds and household networks
 - Specialized work roles
 - Community gathering and decision-making
 - Intergenerational mentorship

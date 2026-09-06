@@ -50,7 +50,7 @@ For Calista, the ceremony brings together all the threads of her life. Her paren
 
 The vows exchanged reflect Astravian values—commitment to growth, to truth, to supporting each other's evolution. They acknowledge both the joys and challenges that partnership brings, promising to face whatever comes together.
 
-When the ceremony concludes, Calista and Aris are recognized as a constellation—a unit within the larger constellation of their community. The celebration that follows is warm and genuine, full of music, art, and shared joy.
+When the ceremony concludes, Calista and Aris are recognized as a constellation—an adult partnership within their wider community. The celebration that follows is warm and genuine, full of music, art, and shared joy.
 
 ## Importance
 
