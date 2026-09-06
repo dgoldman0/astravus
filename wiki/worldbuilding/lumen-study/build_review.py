@@ -32,7 +32,7 @@ def main():
     atlas = [
         "# Lumen: current VN reference atlas", "",
         "**Inspected 6 September 2026 · observations and proposed interpretations, not new canon**", "",
-        "[Design study](../Lumen-Design-Study.md) · [Interactive annotated plates](review.html#references)", "",
+        "[Book I space inventory](../Lumen-Space-Inventory.md) · [Design study](../Lumen-Design-Study.md) · [Interactive annotated plates](review.html#references)", "",
         "The primary visual sources are the image files actually named in the current VN runtime definitions, read together with their scene code and action staging. Older outside illustrations are not core references. The runtime uses a 1920 × 1080 cover fit; the review follows that image framing without simulating actors, dialogue or interface overlays.", "",
         "The numbered observations correspond to separate markers in the browser review. Original art is linked directly and remains unchanged. Exact SHA-256 fingerprints and additional inspected source files are in [references.json](references.json). They identify the inspected revision, not design approval or calibrated geometry.", "",
     ]
@@ -49,8 +49,8 @@ def main():
     atlas.extend([
         "## Narrative and production scope", "",
         "Read the plates alongside [script.rpy](../../../visual-novel/game/script.rpy), [family_book_one.rpy](../../../visual-novel/game/family_book_one.rpy), [friendships_book_one.rpy](../../../visual-novel/game/friendships_book_one.rpy), [visuals.rpy](../../../visual-novel/game/visuals.rpy) and [environments_book_one.rpy](../../../visual-novel/game/environments_book_one.rpy). The source locators refer to the recorded revision and may move in later edits.", "",
-        "The full-life checks use [latest.md](../../../revision/latest.md) and the [timeline](../../TIMELINE.md), not just the adapted childhood scenes. The [adaptation guide](../../../visual-novel/docs/ADAPTATION.md), [art direction](../../../visual-novel/docs/ART_DIRECTION.md) and [location continuity record](../../../visual-novel/docs/location-continuity.json) supply production context. For this redesign, the author's current VN-first instruction supersedes the older external-reference ranking in the art guide.", "",
-        "Later comparison should also include the pond background, rain and later treehouse states, memorial versions of the plaza, and home painting/grief states. This selected atlas is a first spatial study, not a claim that every VN frame has been reconciled into one measured environment. Dream scenes are not measurements of physical Lumen.", "",
+        "The [space inventory](../Lumen-Space-Inventory.md) records a full read of Book I in [latest.md](../../../revision/latest.md) and the current VN narrative. Earlier study references to later books and the [timeline](../../TIMELINE.md) do not constitute a full all-books spatial audit. The [adaptation guide](../../../visual-novel/docs/ADAPTATION.md), [art direction](../../../visual-novel/docs/ART_DIRECTION.md) and [location continuity record](../../../visual-novel/docs/location-continuity.json) supply production context. The author's current VN-first instruction supersedes the older external-reference ranking in the art guide.", "",
+        "All 49 location/state/action/closing-theme images are inspected and mapped in the inventory, including the pond, rain/later treehouse, memorial plaza and home painting/grief states. These sixteen annotated plates are a selection. The household and neighborhood sketches are withdrawn as layout bases; a complete spatial reconstruction remains to be done. Dream scenes and places represented in stories or pictures are not measurements of physical Lumen.", "",
     ])
     outputs = {"review.html": page, "Reference-Atlas.md": "\n".join(atlas)}
     for filename, content in outputs.items():

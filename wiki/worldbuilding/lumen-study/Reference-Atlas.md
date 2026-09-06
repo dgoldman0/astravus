@@ -2,7 +2,7 @@
 
 **Inspected 6 September 2026 · observations and proposed interpretations, not new canon**
 
-[Design study](../Lumen-Design-Study.md) · [Interactive annotated plates](review.html#references)
+[Book I space inventory](../Lumen-Space-Inventory.md) · [Design study](../Lumen-Design-Study.md) · [Interactive annotated plates](review.html#references)
 
 The primary visual sources are the image files actually named in the current VN runtime definitions, read together with their scene code and action staging. Older outside illustrations are not core references. The runtime uses a 1920 × 1080 cover fit; the review follows that image framing without simulating actors, dialogue or interface overlays.
 
@@ -22,9 +22,117 @@ The numbered observations correspond to separate markers in the browser review. 
 2. Successive arches connect parts of a dwelling; private rooms continue beyond this shared room.
 3. Household outdoor space can adjoin the room without making every planted space public.
 
-**Proposed interpretation:** Treat this as the shared central room of one connected dwelling, with internal halls and individual private rooms continuing beyond the frame. Its household garden is ordinary outdoor domestic space, with a threshold to the local shared network.
+**Proposed interpretation:** Treat this as the shared central room of one connected dwelling. Account for the whole household program: private rooms and adult retreats, Arin’s workshop, Selene’s music room, Dorian’s library, Sage’s room, cooking, art and practical support. Some attachments and overlaps remain unresolved. Its garden is ordinary household outdoor space.
 
 **Not established:** The frame does not show the whole dwelling or establish its area. Separate arches are not separate houses. The author identifies the household garden as ordinary, without an implication of unusual wealth.
+
+## Arin’s workshop: making, learning and ongoing projects
+
+![Arin’s workshop: making, learning and ongoing projects](../../../visual-novel/game/images/backgrounds/book-one/workshop.png)
+
+**Runtime:** bg workshop · environments_book_one.rpy:20. [Original image](../../../visual-novel/game/images/backgrounds/book-one/workshop.png).
+
+**Story locator:** revision/latest.md:111; revision/latest.md:231; visual-novel/game/family_book_one.rpy:80; visual-novel/game/friendships_book_one.rpy:117.
+
+**Visible evidence:** Broad rear workbench and side benches/drawers, tools and small mechanisms, stool, timber floor, planted window left and doorway right.
+
+1. An equipped bench carries mechanisms and work in progress.
+2. Drawers, tools and open floor support the hands-on workshop scenes.
+3. An arched doorway continues into planted interior space; its destination is not established.
+
+**Proposed interpretation:** Closely associated with home life; the VN opening hears its hum and the daily montage returns here. Its doorway opens to further planted interior space in the art.
+
+**Not established:** Exact attachment to the dwelling and work/service access. Do not replace it with Soren’s workshop, the construction equipment room or a generic community workroom. Preserve both personal experimentation and useful engineering.
+
+## Selene’s music room: practice and shared learning
+
+![Selene’s music room: practice and shared learning](../../../visual-novel/game/images/backgrounds/book-one/music-room.png)
+
+**Runtime:** bg music_room · environments_book_one.rpy:14. [Original image](../../../visual-novel/game/images/backgrounds/book-one/music-room.png).
+
+**Story locator:** revision/latest.md:237; revision/latest.md:237; visual-novel/game/family_book_one.rpy:125.
+
+**Visible evidence:** Piano and shared bench center, harp and soft seating right, hallway doorway left and planted window openings.
+
+1. The piano and shared bench support Cali and Selene’s lesson.
+2. The harp and nearby cushions need their own usable space.
+3. The doorway connects to a hall, also explicit in the scene text.
+
+**Proposed interpretation:** Within the home’s soundscape; the VN explicitly approaches Selene’s door along a hall.
+
+**Not established:** Acoustic/privacy control and room dimensions; possible relationship to Selene’s personal retreat. Sound must still reach the home in the existing scenes.
+
+## Dorian’s library: maps, reading and stories
+
+![Dorian’s library: maps, reading and stories](../../../visual-novel/game/images/backgrounds/book-one/library.png)
+
+**Runtime:** bg library · environments_book_one.rpy:7. [Original image](../../../visual-novel/game/images/backgrounds/book-one/library.png).
+
+**Story locator:** revision/latest.md:137; revision/latest.md:139; revision/latest.md:241; visual-novel/game/family_book_one.rpy:193.
+
+**Visible evidence:** Books/scrolls around a map table and reading area, additional work surfaces, windows, overhead light and corridor through rear arch.
+
+1. A map table and surrounding cushions form a reading and storytelling area.
+2. Books and scrolls occupy the room, with additional work surfaces below.
+3. The rear arch opens to a corridor; its route to the home remains to be placed.
+
+**Proposed interpretation:** A recurring destination in the family routine. Its exact connection to the home’s central room is not mapped.
+
+**Not established:** Exact attachment, archive extent and use by outside listeners. Do not reduce it to the central room’s bookshelf or identify it as the whole community archive.
+
+## Sage’s room: personal retreat and quiet company
+
+![Sage’s room: personal retreat and quiet company](../../../visual-novel/game/images/backgrounds/book-one/sage-room.png)
+
+**Runtime:** bg sage_room · environments_book_one.rpy:15. [Original image](../../../visual-novel/game/images/backgrounds/book-one/sage-room.png).
+
+**Story locator:** revision/latest.md:149; revision/latest.md:153; visual-novel/game/family_book_one.rpy:271.
+
+**Visible evidence:** Cushioned gathering around low table, sleeping alcove behind, door left, window right; personal and welcoming uses in one room.
+
+1. A furnished sleeping alcove is part of the room’s visual guide.
+2. The low table and cushions provide room for Sage and the three children.
+3. The text hears the household fountain beyond this door; exact adjacency is open.
+
+**Proposed interpretation:** In the home; the fountain can be heard beyond Sage’s door.
+
+**Not established:** Precise adjacency and degree of acoustic/visual privacy. This household room does not establish that professional transition counseling always happens here.
+
+## Soren’s workshop: a distinct place for systems work
+
+![Soren’s workshop: a distinct place for systems work](../../../visual-novel/game/images/backgrounds/book-one/soren-workshop.png)
+
+**Runtime:** bg soren_workshop · environments_book_one.rpy:16. [Original image](../../../visual-novel/game/images/backgrounds/book-one/soren-workshop.png).
+
+**Story locator:** revision/latest.md:369; visual-novel/game/friendships_book_one.rpy:66; visual-novel/game/friendships_book_one.rpy:80.
+
+**Visible evidence:** Drafting bench and plans, tool drawers, work surfaces, floor rover prototype and arched corridor at right; distinct from Arin’s shop.
+
+1. The drafting bench and plans support the rover design scene.
+2. A floor prototype needs working room around it.
+3. The arched passage provides visible depth without establishing attachment to Joren’s home.
+
+**Proposed interpretation:** Associated with Joren’s family home; exact attachment is unspecified.
+
+**Not established:** Work/service access, noise and equipment needs. Keep this separate from Arin’s personal workshop and the construction equipment room.
+
+## Cassia’s home: daily life among art and living systems
+
+![Cassia’s home: daily life among art and living systems](../../../visual-novel/game/images/backgrounds/book-one/cassia-home.png)
+
+**Runtime:** bg cassia_home · environments_book_one.rpy:2. [Original image](../../../visual-novel/game/images/backgrounds/book-one/cassia-home.png).
+
+**Story locator:** revision/latest.md:361; visual-novel/game/friendships_book_one.rpy:14; visual-novel/game/friendships_book_one.rpy:56.
+
+**Visible evidence:** Craft surfaces/books, drying drawings, tea table and seating; planted water feature and another room through a rear-left arch.
+
+1. Tea and drawings occupy the central table and nearby seating.
+2. Art materials and drying drawings make creative work part of the home.
+3. Another furnished space is visible through the arch; this is not the whole dwelling.
+
+**Proposed interpretation:** Reachable by household visits; no exact adjacency to Cali’s home.
+
+**Not established:** Complete domestic program and personal rooms remain undescribed. Thalia’s mediation profession and Lyron’s agricultural work do not locate their workplaces inside this room.
 
 ## Courtyard: social life among cultivated structure
 
@@ -192,6 +300,6 @@ The numbered observations correspond to separate markers in the browser review. 
 
 Read the plates alongside [script.rpy](../../../visual-novel/game/script.rpy), [family_book_one.rpy](../../../visual-novel/game/family_book_one.rpy), [friendships_book_one.rpy](../../../visual-novel/game/friendships_book_one.rpy), [visuals.rpy](../../../visual-novel/game/visuals.rpy) and [environments_book_one.rpy](../../../visual-novel/game/environments_book_one.rpy). The source locators refer to the recorded revision and may move in later edits.
 
-The full-life checks use [latest.md](../../../revision/latest.md) and the [timeline](../../TIMELINE.md), not just the adapted childhood scenes. The [adaptation guide](../../../visual-novel/docs/ADAPTATION.md), [art direction](../../../visual-novel/docs/ART_DIRECTION.md) and [location continuity record](../../../visual-novel/docs/location-continuity.json) supply production context. For this redesign, the author's current VN-first instruction supersedes the older external-reference ranking in the art guide.
+The [space inventory](../Lumen-Space-Inventory.md) records a full read of Book I in [latest.md](../../../revision/latest.md) and the current VN narrative. Earlier study references to later books and the [timeline](../../TIMELINE.md) do not constitute a full all-books spatial audit. The [adaptation guide](../../../visual-novel/docs/ADAPTATION.md), [art direction](../../../visual-novel/docs/ART_DIRECTION.md) and [location continuity record](../../../visual-novel/docs/location-continuity.json) supply production context. The author's current VN-first instruction supersedes the older external-reference ranking in the art guide.
 
-Later comparison should also include the pond background, rain and later treehouse states, memorial versions of the plaza, and home painting/grief states. This selected atlas is a first spatial study, not a claim that every VN frame has been reconciled into one measured environment. Dream scenes are not measurements of physical Lumen.
+All 49 location/state/action/closing-theme images are inspected and mapped in the inventory, including the pond, rain/later treehouse, memorial plaza and home painting/grief states. These sixteen annotated plates are a selection. The household and neighborhood sketches are withdrawn as layout bases; a complete spatial reconstruction remains to be done. Dream scenes and places represented in stories or pictures are not measurements of physical Lumen.

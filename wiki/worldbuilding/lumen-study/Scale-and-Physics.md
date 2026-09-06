@@ -4,6 +4,8 @@
 
 [Design study](../Lumen-Design-Study.md) · [Interactive review](review.html#scale) · [Reference atlas](Reference-Atlas.md)
 
+**Program review required:** These numerical allowances predate the [Book I space inventory](../Lumen-Space-Inventory.md) and the recovery of omitted workshops, music/reading rooms, adult retreats and refuge spaces. Reassess the allowances after accounting for that complete program and its shared uses. They cannot currently justify a household layout or vessel size. Household-associated work rooms and community facilities must both be included without double-counting them.
+
 ## Population comes from the story's social scale
 
 The manuscript establishes a young world, a majority from the first locally born generation, a wider community containing strangers, shared public ceremonies and growth across more than a century. It gives no census. A visible festival crowd is not a count of the population; neither a family's size nor an adult constellation supplies a household average.

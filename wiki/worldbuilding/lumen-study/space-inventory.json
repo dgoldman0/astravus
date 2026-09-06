@@ -1,0 +1,2434 @@
+{
+  "schema_version": 1,
+  "audited_at": "2026-09-06",
+  "baseline_commit": "8c5d094",
+  "scope": "All Book I prose and all 32 current VN narrative scenes; all 39 defined background/CG images plus ten additional closing-theme images inspected for spatial content. Supporting wiki provisions are explicitly marked. This is not a complete all-books or whole-vessel inventory, a runtime playthrough, a calibrated reconstruction or approval of existing diagrams.",
+  "authority": "Current author direction; current VN art for visual design; manuscript/VN for events and actions; wiki for recorded canon. Distinguish illustration choices, wiki hypotheses, inference and imaginary settings. No new dimensions or room adjacency is adopted here.",
+  "author_decisions": [
+    "Artificial gravity is accepted; keep familiar story actions and visual design. Mechanism remains open.",
+    "Lumen is young and inhabited through a substantial living body, not one flat city under a dome.",
+    "Compare roughly 6,000 and 18,000 embodied childhood residents, with about 18,000 as the childhood upper limit; exact census and later growth remain open.",
+    "Maia’s garden is an ordinary household garden, with semi-private household outdoor life.",
+    "Broader woods/forest and open plains around the treehouse area are more shared; distinguish personal, household, nearby-household and wider-community use.",
+    "A constellation is an adult romantic/peer relationship, not a family, household or housing unit.",
+    "Existing VN visuals dominate older outside art. Preserve the VN and latest.md with minimal refinements, and mark any required adjustments."
+  ],
+  "sources": [
+    {
+      "path": "revision/latest.md",
+      "before": "# Book II: Growing Up",
+      "sha256": "aeb44c1029fc704248248e41bd516e4cf511e2bb346ce1a6d6f85b99aec10430"
+    },
+    {
+      "path": "visual-novel/game/script.rpy",
+      "sha256": "6da7ef3d6d18b69149c262a8897100c3b9d304a8ae4dcfddbcad2a10879134b1"
+    },
+    {
+      "path": "visual-novel/game/family_book_one.rpy",
+      "sha256": "df92caf742a0a78e1b48c0b876dc20eb796567e895492c22d46856e261601255"
+    },
+    {
+      "path": "visual-novel/game/friendships_book_one.rpy",
+      "sha256": "4781a57091a2cd53d18541649feda430fa084a4eeee9fdc9cf503bc5fd7d463c"
+    },
+    {
+      "path": "visual-novel/game/book_structure.rpy",
+      "sha256": "9a3b7b60a3a49fd5436365639c2a26fa7734c1a3bccf070a8656b5c73bfc4d46"
+    },
+    {
+      "path": "visual-novel/game/visuals.rpy",
+      "sha256": "314b20e8880e94fbfcc26593890f22c5abba23f4da0ec668bb01221f16414a30"
+    },
+    {
+      "path": "visual-novel/game/environments_book_one.rpy",
+      "sha256": "2838f9e8da7b5043a5910ecae21c19f857b63d773b569a41ccef6447564e1aa7"
+    },
+    {
+      "path": "visual-novel/game/closing_theme.json",
+      "sha256": "1ced60548d388801dd655f7de96b001e04b0fa6379cdb8447a5b3d4d5a70865e"
+    },
+    {
+      "path": "visual-novel/game/glossary.json",
+      "sha256": "da905106e31877ef489d80bb342d868755bb2cf4b8ac6cf90b12b0c508f729ba"
+    },
+    {
+      "path": "visual-novel/docs/BOOK_ONE_COVERAGE.md",
+      "sha256": "3954317e81ab9047c8c5e454019b49760e9b24d2b382d820d83c3c81f33c0d59"
+    },
+    {
+      "path": "visual-novel/docs/location-continuity.json",
+      "sha256": "2a1a321e7ed49d75f1e656ebdc6f063b697600ef3862e155d0235db084d55583"
+    },
+    {
+      "path": "visual-novel/docs/LOCATION_CONTINUITY.md",
+      "sha256": "9f4931122dbeb1d4abeb1402e43f83d2544d695a0e515ddad0a82c73352a1792"
+    },
+    {
+      "path": "wiki/worldbuilding/Socioeconomics.md",
+      "sha256": "ca6db724f7c7237d134a56786f44223b33046b0fc70b12c23b3b7904bd7c98a9"
+    },
+    {
+      "path": "wiki/worldbuilding/The-Sanctuary.md",
+      "sha256": "1f398924958228b1289335fb4a3dacbdf4a9405ffe93fc1543ed9823396e519e"
+    }
+  ],
+  "spaces": [
+    {
+      "id": "home",
+      "name": "Cali's childhood home",
+      "group": "Household",
+      "basis": "story",
+      "access": "Household and invited guests",
+      "facts": "A connected home for five parents and three children during the later household scenes, with three familiars. Shared life includes making, music, reading, cooking, care, play and private retreat. The central-room background shows only part of it.",
+      "placement": "Within Lumen; Maia’s garden folds around it. Internal halls branch to other parts of the home.",
+      "unresolved": "Complete extent, levels and room sizes. Do not infer a detached building, a wealthy estate, or eight separate houses from the number of residents.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "five adults raising three children"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "The hallways branching out from the central room led to different parts of our home."
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "It folded around our home: pond water"
+        }
+      ]
+    },
+    {
+      "id": "central_room",
+      "name": "Shared central room",
+      "group": "Household",
+      "basis": "story",
+      "access": "Household; friends visit",
+      "facts": "Round wooden meal/project table; chairs and sofas; reading and conversation areas; books, drawings and unfinished work; ceiling light panels; small indoor fountain; familiar resting places. Meals, knowledge quests, maps, grief and painting share this room over time.",
+      "placement": "Inside the home, connected to branching halls. The VN shows a garden threshold and a separate corridor opening.",
+      "unresolved": "Allow activities and circulation around furnishings; the round table is not the entire room. Overall dimensions and destinations of every arch remain unmeasured.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Our home itself had a cozy central room filled with light."
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "The sound of gently trickling water from a small indoor fountain"
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "By lunchtime our map had taken over the table"
+        }
+      ]
+    },
+    {
+      "id": "home_halls",
+      "name": "Internal halls and thresholds",
+      "group": "Household",
+      "basis": "story",
+      "access": "Household circulation",
+      "facts": "Branching hallways with bioluminescent planting and touch-responsive living murals connect the home. Music is heard through doors; the children and familiars move between rooms.",
+      "placement": "Branch from the central room; Selene’s door is reached along a hall.",
+      "unresolved": "Exact branches, level changes, door positions and acoustics. Keep household circulation distinct from public through-routes.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "The hallways branching out from the central room"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "interactive art that responded to our touch"
+        },
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "Selene's music reached the hall before I reached her door."
+        }
+      ]
+    },
+    {
+      "id": "cali_room",
+      "name": "Cali's private room",
+      "group": "Household",
+      "basis": "story",
+      "access": "Personal",
+      "facts": "Bed in an alcove, pillows and quilt; drawings, creations, book/trinket shelves; a desk beside a window for sketching and reading; space for Shadow. Morning light changes on the walls.",
+      "placement": "Within the home, between Kael’s room and Lyra’s room in the prose’s adjacency description.",
+      "unresolved": "Shape, orientation and window outlook. No dedicated VN bedroom background; the closing-theme sketchbook shot is in the treehouse and must not replace this room.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Each of us had our own private space within our home."
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "A small desk sat by the window"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "I would wake to the sight of light shifting across Lumen"
+        }
+      ]
+    },
+    {
+      "id": "kael_room",
+      "name": "Kael's private room",
+      "group": "Household",
+      "basis": "story",
+      "access": "Personal",
+      "facts": "Maps, exploratory models, loft bed and a blanket fort underneath; reading/planning and Barkley’s company.",
+      "placement": "Next to Cali’s room within the home.",
+      "unresolved": "Dimensions and access; the loft is furniture-scale vertical use, not evidence for a whole additional residential deck.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Kael's room was next to mine"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "His bed was a loft"
+        }
+      ]
+    },
+    {
+      "id": "lyra_room",
+      "name": "Lyra's private room",
+      "group": "Household",
+      "basis": "story",
+      "access": "Personal",
+      "facts": "Bed, shelves, educational games, drawings, projects and collections of stones, feathers and pressed flowers; room for Nibble’s company.",
+      "placement": "On the other side of Cali’s room from Kael’s.",
+      "unresolved": "Dimensions, storage arrangement and window/door placement.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Lyra's room was on the other side of mine"
+        }
+      ]
+    },
+    {
+      "id": "adult_retreats",
+      "name": "Private provision for Maia, Arin, Selene, Dorian and Sage",
+      "group": "Household",
+      "basis": "story",
+      "access": "Personal; sharing by invitation",
+      "facts": "The prose says each person has a private space. Carry all five adults in the residential program as well as the children. Sage has an explicitly described room; the other adults’ retreat arrangements are not individually described.",
+      "placement": "Within the home. Possible overlap with named work/quiet rooms remains open; Sage’s VN room visibly includes a sleeping alcove.",
+      "unresolved": "Which work rooms also serve as private retreats, and which adults have separate sleeping/retreat areas. This is not a claim of five additional bedrooms on top of all work rooms. A romantic constellation does not determine sleeping arrangements.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Each of us had our own private space within our home."
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "Their room, a haven of peace"
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "My own parents were Maia, Arin, Selene, Dorian, and Sage."
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Cooking, preparation and serving space",
+      "group": "Household",
+      "basis": "story",
+      "access": "Household",
+      "facts": "Fresh bread, prepared breakfasts and collaborative dinners; Lyra and Maia make a second pot of soup while the family waits. Needs working surfaces, ingredients, utensils, cooking and washing access, with space to work together.",
+      "placement": "Part of household life and connected to the central meal table. The scenes reuse the central-room background.",
+      "unresolved": "Separate kitchen versus connected cooking area; equipment, pantry and exact route to garden. Do not treat meals as delivered automatically or claim the background proves the kitchen is at the table.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Arin prepared a variety of delicious dishes"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "while we were cooking dinner together"
+        },
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "The new pot took time; we passed the bread around again."
+        }
+      ]
+    },
+    {
+      "id": "home_painting",
+      "name": "Household drawing and painting provision",
+      "group": "Household",
+      "basis": "story",
+      "access": "Personal and household activity",
+      "facts": "Cali sketches at her bedroom desk and the shared table; the friends spread maps there. Later she paints through grief, washes a brush and leaves work for the next morning. Storage and unfinished-work space matter.",
+      "placement": "Distributed within the home; the VN explicitly stages grief painting in the central room’s painting state.",
+      "unresolved": "Where wet work dries and materials are kept. No dedicated childhood painting studio is established; do not import the later adult home’s painting room.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "A small desk sat by the window"
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "We spread out some paper at home."
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "When the light faded, I washed the brush and left the picture"
+        }
+      ]
+    },
+    {
+      "id": "arin_workshop",
+      "name": "Arin's workshop",
+      "group": "Household",
+      "basis": "story",
+      "access": "Arin, household learners and invited friends; wider access unspecified",
+      "facts": "A recurring, equipped working room: benches, floor working space, tools, screws/parts storage, stool, gadgets and ongoing projects. Supports the spilled-screws scene, irrigation prototype and collaborative waterwheel fabrication with wood shaping and fitting.",
+      "placement": "Closely associated with home life; the VN opening hears its hum and the daily montage returns here. Its doorway opens to further planted interior space in the art.",
+      "unresolved": "Exact attachment to the dwelling and work/service access. Do not replace it with Soren’s workshop, the construction equipment room or a generic community workroom. Preserve both personal experimentation and useful engineering.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Arin's workshop was a place of fascination and learning."
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "It's a prototype for a new irrigation system"
+        },
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "Screws scattered over the bench and dropped to the floor."
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "In Arin's workshop, we began making things"
+        }
+      ]
+    },
+    {
+      "id": "selene_music",
+      "name": "Selene's music room",
+      "group": "Household",
+      "basis": "story",
+      "access": "Selene, household and invited learners",
+      "facts": "A real music/teaching room, with piano and shared seat, harp, flute and provision for the other instruments named in prose, including drums. Space for listeners, practice and familiars. The art shows a piano, harp, seating and a doorway.",
+      "placement": "Within the home’s soundscape; the VN explicitly approaches Selene’s door along a hall.",
+      "unresolved": "Acoustic/privacy control and room dimensions; possible relationship to Selene’s personal retreat. Sound must still reach the home in the existing scenes.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Selene's music room offered a different kind of learning."
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "the rhythmic beat of drums"
+        },
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "Selene's music reached the hall before I reached her door."
+        }
+      ]
+    },
+    {
+      "id": "dorian_library",
+      "name": "Dorian's library and reading area",
+      "group": "Household",
+      "basis": "story",
+      "access": "Dorian and household readers; further access unspecified",
+      "facts": "Books and scrolls, a reading/storytelling area, lamps, maps that siblings spread out and trace, table, shelves and window seat/outlook. The VN gives it its own large furnished room and visible corridor connection.",
+      "placement": "A recurring destination in the family routine. Its exact connection to the home’s central room is not mapped.",
+      "unresolved": "Exact attachment, archive extent and use by outside listeners. Do not reduce it to the central room’s bookshelf or identify it as the whole community archive.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Dorian's library was a sanctuary of stories and knowledge."
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "Dorian stood at the head of the reading area"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "Shadow watched us from the windowsill."
+        },
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "Dorian gathered us in the library every evening."
+        }
+      ]
+    },
+    {
+      "id": "sage_room",
+      "name": "Sage's room",
+      "group": "Household",
+      "basis": "story",
+      "access": "Personal room welcoming the children; care and quiet company",
+      "facts": "Soft cushions, blankets and candlelight; room for Sage with the three siblings, storytelling, comfort and minor care. The VN art includes a sleeping alcove, low table and broad cushioned gathering area.",
+      "placement": "In the home; the fountain can be heard beyond Sage’s door.",
+      "unresolved": "Precise adjacency and degree of acoustic/visual privacy. This household room does not establish that professional transition counseling always happens here.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Sage was always there to mend a scraped knee"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "we gathered in Sage's room"
+        },
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "Somewhere beyond their door, I could hear our little fountain."
+        }
+      ]
+    },
+    {
+      "id": "domestic_support",
+      "name": "Washing, clothing, storage and household servicing",
+      "group": "Household",
+      "basis": "inference",
+      "access": "Household; service access as needed",
+      "facts": "Hands are washed after planting; a brush is washed after painting; wet clothing follows the pond incident. Tools, food, bedding, art, collections and familiar supplies must be stored. These actions require provision even where rooms are not described.",
+      "placement": "Support for the household and its outdoor/work areas; not yet assigned to rooms.",
+      "unresolved": "Bathrooms, bathing, laundry, drying, pantry, cleaning and maintenance arrangements. These are design provisions to resolve, not a newly canonical list of conventional utility rooms.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "Let's wash our hands."
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "I washed the brush"
+        },
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "Her clothes soaked through mine"
+        }
+      ]
+    },
+    {
+      "id": "maia_garden",
+      "name": "Maia's household garden",
+      "group": "Gardens and refuges",
+      "basis": "story-and-author",
+      "access": "Ordinary household outdoor space; semi-private",
+      "facts": "Garden around the home with flowers, fruit, herbs/spice, insects, soil, pots, paths, living lights and ponds. A place to cultivate, learn, linger and remember. The author explicitly says this is an ordinary household garden, not a sign of unusual wealth.",
+      "placement": "Around the home; paths continue beyond its wall. Its wooded edge meets the more shared treehouse surroundings.",
+      "unresolved": "Exact boundary and area, relationship among ponds and routes, and how it meets local shared land. The broader forest is not all private garden; the garden is not all public park.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "one of my favorite activities was spending time in Maia's garden"
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "It folded around our home: pond water"
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "Beyond the garden wall, there were paths"
+        }
+      ]
+    },
+    {
+      "id": "planting_patch",
+      "name": "Sunflower bed and daily garden learning",
+      "group": "Gardens and refuges",
+      "basis": "story",
+      "access": "Household and invited learners",
+      "facts": "Planting patch beside a path; soil, marker stone, watering can, pots and seedlings; enough dry standing/kneeling space for Maia and Cali. The wider garden supports harvesting and insect observation too.",
+      "placement": "Within Maia’s garden. Cali can see the oak ladder from this patch.",
+      "unresolved": "Precise bed and ladder position; preserve the explicit sightline while reconciling close and wide garden views.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "Maia cleared a little patch beside the path"
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "From that patch I could see the ladder into the old oak."
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "harvest the fruits of our labor"
+        }
+      ]
+    },
+    {
+      "id": "pond_bank",
+      "name": "Dry pond bank and plant-arranging area",
+      "group": "Gardens and refuges",
+      "basis": "story",
+      "access": "Garden users",
+      "facts": "A place to carry and arrange pots, compare sunlight and pond reflections, kneel to help Lyra and sit with her afterward. Work occupies broad supported dry ground, with reachable water and a path back home.",
+      "placement": "Beside the pond; the arrangement can be viewed from across the water.",
+      "unresolved": "Shared-basin camera geometry remains a later reconstruction task. Do not mistake the garden work area for another enclosed workshop.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "From across the pond, little pieces of color trembled in the water."
+        },
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "We took the wider part of the path."
+        }
+      ]
+    },
+    {
+      "id": "garden_ponds",
+      "name": "Garden ponds and the shallow rescue basin",
+      "group": "Gardens and refuges",
+      "basis": "story",
+      "access": "Garden users; exact access follows each basin",
+      "facts": "Prose mentions multiple garden ponds. Lyra falls into a small shallow pond; the waterwheel later goes into one of the garden’s ponds. The VN uses one recognizable low stone basin across planting, rescue and wheel shots as a production choice.",
+      "placement": "Garden landscape; a basin by planting beds in the VN. Number, identity and spacing of prose ponds remain open.",
+      "unresolved": "Do not deduce exactly one pond or assign a huge lake. Retain shallow water, reachable low banks, dry recovery space and sensible water circulation.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "The pond was shallow"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "a miniature water wheel to place in one of the garden's ponds"
+        },
+        {
+          "path": "visual-novel/docs/LOCATION_CONTINUITY.md",
+          "anchor": "Reusing one basin is a production choice"
+        }
+      ]
+    },
+    {
+      "id": "waterwheel_site",
+      "name": "Miniature waterwheel test site",
+      "group": "Gardens and refuges",
+      "basis": "story",
+      "access": "Household and friends",
+      "facts": "A portable wooden wheel, supports and paddles made with Arin, then carried to water and watched by friends, Lyra and familiars. Allows installation, adjustment and watching from the bank.",
+      "placement": "At a garden pond, reached from Arin’s workshop.",
+      "unresolved": "Carrying route and local flow arrangement. This is a small project, not a mill house or Lumen’s principal power plant.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "a miniature water wheel to place in one of the garden's ponds"
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "When we carried it to the pond"
+        }
+      ]
+    },
+    {
+      "id": "garden_mural",
+      "name": "Garden mural and remembrance place",
+      "group": "Gardens and refuges",
+      "basis": "story",
+      "access": "Semi-private garden with visitors and passersby",
+      "facts": "A real wall in Maia’s garden, painted gradually by Cali with Cassia’s company. A place to stop and remember amid water, leaves and passing people. Art tools, seating and working space are shown in the VN.",
+      "placement": "In Maia’s garden; the selected image shows planted ground and water nearby.",
+      "unresolved": "Exact wall and approach. Painted places and people are part of the artwork; use the surrounding garden and working area as evidence for this physical setting.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "I painted a mural in Maia's garden"
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "The garden gave the painting a life around it: water, leaves, people passing."
+        }
+      ]
+    },
+    {
+      "id": "treehouse_upper",
+      "name": "Oak treehouse: upper room",
+      "group": "Gardens and refuges",
+      "basis": "story",
+      "access": "Children’s shared refuge; invitation and intimacy matter",
+      "facts": "Broad room built high in an old oak, patched timber and a wooden roof under canopy, open viewing cutouts with fabric curtains, drawings/maps, table, cushions, blankets and treasure chests. Room for friends to plan, argue, sit together and grieve. Furniture and drawings change across years.",
+      "placement": "At the far corner/wooded edge of Maia’s garden; overlooks garden flowers and glowing paths. Separate from the Tree of Echoes.",
+      "unresolved": "Height, dimensions and complete camera reconciliation. The more shared surrounding woods do not make this intimate refuge a public traffic route.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "old treehouse nestled in the far corner of Maia's garden"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "The treehouse was built high among the sturdy branches of an old oak"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "The windows were simple cutouts"
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "Rain moved through the leaves beyond the open windows."
+        }
+      ]
+    },
+    {
+      "id": "treehouse_access",
+      "name": "Oak ladder, landing and upper entrance",
+      "group": "Gardens and refuges",
+      "basis": "story",
+      "access": "Access to shared refuge",
+      "facts": "Ladder reaches a real landing at the upper entrance; Joren helps Cassia on the last rung and Cali reaches for her book. Children duck under branches and enter the same room.",
+      "placement": "Connects the lower garden/refuge level to the upper room. Visible from the sunflower patch.",
+      "unresolved": "Height, slope and landing geometry; do not substitute the lower hollow’s door for this upper entrance.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "an old ladder that led to the main floor"
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "Joren stopped on the landing to help Cassia with the last rung."
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "From that patch I could see the ladder"
+        }
+      ]
+    },
+    {
+      "id": "treehouse_hollow",
+      "name": "Oak lower hollow and second entrance",
+      "group": "Gardens and refuges",
+      "basis": "story",
+      "access": "Children’s refuge",
+      "facts": "A separate lower hollow with a second secret entrance and stored treasures/supplies. Cali plays here before she first climbs to the upper room.",
+      "placement": "Underneath the upper treehouse; reached at the lower level.",
+      "unresolved": "Internal extent and relation to the furnished platform. Do not omit the lower usable space when representing the treehouse.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "The hollow underneath the structure had a second secret entrance"
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "I'd played in the hollow underneath it"
+        }
+      ]
+    },
+    {
+      "id": "treehouse_lower_sitting",
+      "name": "Furnished refuge beneath the oak",
+      "group": "Gardens and refuges",
+      "basis": "story-and-vn",
+      "access": "Shared by the children and companions",
+      "facts": "Lower seating and planning areas with cushions, tables, maps, supplies and chests among natural and bioluminescent plants. The VN garden exterior shows a broad rounded timber platform beside the hollow entrance.",
+      "placement": "Below the upper room, adjoining the lower hollow and ladder.",
+      "unresolved": "Exact platform extent and number of tables/seats. Neither bare ground nor planting beds can replace the occupied lower refuge.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Below the treehouse, the ground was a haven of its own."
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "There were plenty of seating areas with cushions and tables"
+        }
+      ]
+    },
+    {
+      "id": "local_landscape",
+      "name": "Shared woodland, open ground and nearby households",
+      "group": "Gardens and refuges",
+      "basis": "author",
+      "access": "Shared among nearby households, with intimate places within it",
+      "facts": "The author calls for broader woods/forest and open plains around the treehouse area, shared more widely than the household garden. Local households need shared places as well as their own inside/outside spaces.",
+      "placement": "Connects with the wooded garden/treehouse edge and local paths; repeats through inhabited Lumen rather than becoming one flat park.",
+      "unresolved": "Extents of woods versus open land, thresholds and connection to other habitats. Keep the garden–ladder sightline; do not move the treehouse far away just to draw a privacy boundary.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "interconnected pathways, lush gardens, and open plazas"
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "From that patch I could see the ladder"
+        }
+      ]
+    },
+    {
+      "id": "echoes_grove",
+      "name": "Tree of Echoes approach and clearing",
+      "group": "Gardens and refuges",
+      "basis": "story",
+      "access": "Community landscape reachable by children",
+      "facts": "An unfamiliar path through dense thicket/underbrush leads to a clearing containing the ancient transplanted Tree of Echoes, with gnarled branches and hollow trunk. Room to stand close and listen to its creaking.",
+      "placement": "In Lumen’s broader garden/path landscape; a separate tree from the treehouse oak.",
+      "unresolved": "Travel distance and relation to the local woodland. Its age is inherited through transplantation, not the age of young Lumen.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "a new path leading into a dense thicket of trees"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "we emerged into a small clearing"
+        },
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "It was already old when they brought it here."
+        }
+      ]
+    },
+    {
+      "id": "community_routes",
+      "name": "Community halls, paths and planted walkways",
+      "group": "Community and other homes",
+      "basis": "story-and-vn",
+      "access": "Local and wider shared circulation",
+      "facts": "Varied interconnected paths, halls, turnings and passages with planting, living light, arches, railings and inhabited destinations. Children walk, run, map turns, return home and visit other households. The closing theme also shows a distinct timber neighborhood walkway.",
+      "placement": "Connects homes, gardens, courts, groves, work and construction at several inhabited heights.",
+      "unresolved": "Distances, travel times and full route network. The closing-theme walkway is not Maia’s specific garden path; distant dwellings are not extra treehouses at her oak.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "It was a sprawling environment filled with interconnected pathways"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "We would chase each other through the halls"
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "He let us choose a turning"
+        },
+        {
+          "path": "visual-novel/docs/location-continuity.json",
+          "anchor": "An exploratory neighborhood path."
+        }
+      ]
+    },
+    {
+      "id": "courtyard",
+      "name": "Community storytelling courtyard",
+      "group": "Community and other homes",
+      "basis": "vn",
+      "access": "Local shared gathering",
+      "facts": "Intimate seated storytelling, blankets, sketchbooks and adult gatherings under planted rounded arches. Cassia and Cali meet here and return at subsequent gatherings.",
+      "placement": "Farther from the household garden; distinct from the larger Central Plaza in the production location register.",
+      "unresolved": "Exact route, local households served and capacity. Do not merge this into the community-wide plaza.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "At one community gathering, I stopped to listen to a girl telling a story."
+        },
+        {
+          "path": "visual-novel/docs/location-continuity.json",
+          "anchor": "Cassia's community storytelling courtyard is a separate intimate venue"
+        }
+      ]
+    },
+    {
+      "id": "cassia_home",
+      "name": "Cassia's home",
+      "group": "Community and other homes",
+      "basis": "story",
+      "access": "Household and invited visitors",
+      "facts": "A distinct home of books, art supplies and handmade crafts; tea and drawings share a table, paper dries above it, Lyron explains the living systems, and Dorian visits. The art shows seating, a planted interior water feature and another room beyond a doorway.",
+      "placement": "Reachable by household visits; no exact adjacency to Cali’s home.",
+      "unresolved": "Complete domestic program and personal rooms remain undescribed. Thalia’s mediation profession and Lyron’s agricultural work do not locate their workplaces inside this room.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Cassia's home was a lively, creative haven"
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "Drying from a line above the table."
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "Lyron and Dorian would sit together"
+        }
+      ]
+    },
+    {
+      "id": "joren_home",
+      "name": "Joren's home",
+      "group": "Community and other homes",
+      "basis": "story",
+      "access": "Household and invited visitors",
+      "facts": "A separate domestic home filled with gadgets, maps and prototypes; exploration and invention shape its life. The VN family visit is staged in Soren’s workshop, so that background does not show the entire home.",
+      "placement": "Associated with Soren’s workshop; extent and attachment not precisely stated.",
+      "unresolved": "Sleeping, cooking, retreat and family spaces must be allowed for when this home is developed. Do not equate its whole domestic program with the workshop.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Their home was a fascinating blend of technology and curiosity"
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "At home, among Soren's prototypes"
+        }
+      ]
+    },
+    {
+      "id": "central_plaza",
+      "name": "Central Plaza, approaches and occupied galleries",
+      "group": "Community and other homes",
+      "basis": "story-and-vn",
+      "access": "Wider community",
+      "facts": "The same major gathering place hosts the Festival of Lights, community mourning and annual remembrance. Gardens/displays, people, circulation, a large tree, curved stair and occupied arcaded terraces surround the square in the VN.",
+      "placement": "Connected to other routes through arches, stairs and a rear passage beneath a bridge. It is a civic focus, not proof that all city life occupies one central ship compartment.",
+      "unresolved": "Whole-community gathering capacity at 6,000 versus 18,000, usable surrounding surfaces and approaches. No offscreen capacity is established merely because galleries appear.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "The entire community would gather"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "The central plaza, usually a place of celebration and joy"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "on the anniversary of his passing, we held a celebration of life in the central plaza"
+        }
+      ]
+    },
+    {
+      "id": "plaza_stage",
+      "name": "Plaza stage and floral/display space",
+      "group": "Community and other homes",
+      "basis": "story-and-vn",
+      "access": "Performers and community audiences",
+      "facts": "Selene performs harp on a small stage; Maia’s floral work is displayed beside it in the VN. Lanterns rise into the artificial sky. Later flowers/messages and drawings accompany remembrance at the same dais.",
+      "placement": "Within the Central Plaza; stage center-right in the selected wide camera.",
+      "unresolved": "Prepare/setup access, storage and precise floral area. The prose phrase “Maia’s garden was a centerpiece” is ambiguous; the VN already stages a floral centerpiece prepared by her and does not relocate the home garden.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Selene played her harp on a small stage"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "Maia's garden was a centerpiece"
+        },
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "Maia had helped prepare the floral centerpiece"
+        },
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "We found Maia's flowers beside the stage"
+        }
+      ]
+    },
+    {
+      "id": "soren_workshop",
+      "name": "Soren's systems workshop",
+      "group": "Work and exploration",
+      "basis": "story",
+      "access": "Soren, Joren and invited collaborators/learners",
+      "facts": "A distinct workshop full of blueprints, tools and half-finished inventions; bench, assemblies, parts trays and drafting space for Cali’s rover idea. The VN shows a large drafting bench, tool drawers, floor prototype and an arched passage.",
+      "placement": "Associated with Joren’s family home; exact attachment is unspecified.",
+      "unresolved": "Work/service access, noise and equipment needs. Keep this separate from Arin’s personal workshop and the construction equipment room.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "her workshop a testament to her ingenuity"
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "Joren's mother, Soren, had a workshop full of unfinished inventions."
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "She cleared a place beside her."
+        }
+      ]
+    },
+    {
+      "id": "kaleb_walk",
+      "name": "Kaleb’s guided exploration route",
+      "group": "Work and exploration",
+      "basis": "story",
+      "access": "Guided local outing",
+      "facts": "Maze-like, unfamiliar passages and a hidden area; the children choose turnings and record an arch to recognize their way back. The VN uses the construction-path background.",
+      "placement": "Within Lumen, reached on a walk with Kaleb. May share some construction routes, but the text does not equate every outing.",
+      "unresolved": "Destination, route and distance; distinguish the route from Kaleb’s off-ship expeditions and maps of places the children cannot yet reach.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Kaleb once took us on an adventure to explore a hidden area of Lumen."
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "asked how we would recognize it on the way back"
+        }
+      ]
+    },
+    {
+      "id": "construction_paths",
+      "name": "Outer construction zones and passages",
+      "group": "Work and exploration",
+      "basis": "story",
+      "access": "Work/growth areas encountered by exploring children",
+      "facts": "Multiple half-built passages, scaffolding, stored materials, machinery, clanging metal and welding sparks. Later expeditions use a light, scanner and Arin’s multi-tool; paths narrow and turn. Skilled making and automated construction coexist with living structure.",
+      "placement": "New/outer sections reached from established routes; visible depth and adjacent working heights in the VN.",
+      "unresolved": "Connections among separate outings, scale and growth process. “Outer” does not establish vacuum exposure or mean the whole settlement is under this dome.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "Half-built passages branched ahead of us"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "near the outer sections of Lumen that were still under construction"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "the occasional burst of welding sparks"
+        }
+      ]
+    },
+    {
+      "id": "construction_room",
+      "name": "Construction tools and machinery room",
+      "group": "Work and exploration",
+      "basis": "story",
+      "access": "Working/staging space encountered on exploration",
+      "facts": "An enclosed room of tools and machines; a handheld device projects the section’s blueprint, and nearby systems shape materials and work autonomously. The art shows benches, machinery and an open doorway onto the construction route.",
+      "placement": "Within an unfinished section reached from construction passages.",
+      "unresolved": "Full machinery/storage footprint and exact location. It is neither Arin’s nor Soren’s workshop and must not replace either.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "we discovered a room filled with tools and machines"
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "A touch brought a blueprint into the air."
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "machines that worked autonomously on building tasks"
+        }
+      ]
+    },
+    {
+      "id": "dome_platform",
+      "name": "Unfinished dome: scaffold climb and overlook",
+      "group": "Work and exploration",
+      "basis": "story",
+      "access": "Local construction outing and friends’ refuge",
+      "facts": "A massive unfinished dome in a new section, with scaffolds and platforms to climb, a usable place to remain through the afternoon, and a view over gardens and passages. The VN shows inhabited structure at many heights around a deep internal landscape.",
+      "placement": "Reached through construction areas; overlooks part of Lumen including the pattern to which home belongs.",
+      "unresolved": "Height, dimensions, actual view to home and route length. No requirement that this structure caps the entire ship or directly adjoins Cali’s garden. The happy climb ends with a descent.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "we came across a massive, unfinished dome"
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "At each level the paths below became smaller."
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "home was part of a pattern I couldn't see from the ground."
+        }
+      ]
+    },
+    {
+      "id": "sanctuary",
+      "name": "Sanctuary and First Breath welcome",
+      "group": "Work and exploration",
+      "basis": "story",
+      "access": "Care and family welcome; privacy appropriate to the occasion",
+      "facts": "Cali is brought home from the Sanctuary following First Breath. The VN opening depicts the family’s intimate welcome, not a complete facility. Birth/preparation/counseling functions belong to the broader wiki account.",
+      "placement": "A distinct place within Lumen, separate from the childhood dwelling.",
+      "unresolved": "Book I does not map its layout or birth mechanism. The wiki’s preparation/counseling/ceremony/gathering room list is explicitly phrased as likely, so retain its provisional status.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "taking me home from the Sanctuary"
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "They told me about the Sanctuary."
+        },
+        {
+          "path": "wiki/worldbuilding/The-Sanctuary.md",
+          "anchor": "The Sanctuary likely includes:"
+        }
+      ]
+    },
+    {
+      "id": "moon_expedition",
+      "name": "Nearby moon research expedition",
+      "group": "Work and exploration",
+      "basis": "remote",
+      "access": "Off-Lumen family expedition",
+      "facts": "Joren and family leave for a routine research expedition to a nearby moon; an unexpected malfunction causes the fatal accident despite attempted rescue. The news/grief is staged at home.",
+      "placement": "Away from Lumen’s childhood construction sites.",
+      "unresolved": "Vehicle, moon terrain, facility, malfunction mechanics and other casualties are unspecified. Do not make the dome climb the accident or design a fatal gravity failure to explain it.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "a routine research expedition to a nearby moon"
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "An unexpected malfunction caused a catastrophic accident"
+        }
+      ]
+    },
+    {
+      "id": "shared_work_facilities",
+      "name": "Guild workshops, studios, archives and training",
+      "group": "Wiki and design provisions",
+      "basis": "wiki",
+      "access": "Guild members, learners and collaborators",
+      "facts": "The existing wiki describes shared equipped work/studio spaces, archives, training and pooled materials. Distinct from family-associated workshops/libraries; the full world needs both scales.",
+      "placement": "Within Lumen’s wider economic/work network; Book I does not map these facilities.",
+      "unresolved": "Which facilities exist at the childhood census, their distribution and shared versus personal equipment. Professional roles alone do not prove a separate room for every occupation.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "wiki/worldbuilding/Socioeconomics.md",
+          "anchor": "**Workshops and Studios**: Shared production spaces"
+        },
+        {
+          "path": "wiki/worldbuilding/Socioeconomics.md",
+          "anchor": "**Archives**: Accumulated knowledge"
+        }
+      ]
+    },
+    {
+      "id": "markets_exchange",
+      "name": "Markets, exchange and shared supplies",
+      "group": "Wiki and design provisions",
+      "basis": "wiki",
+      "access": "Households and guilds",
+      "facts": "The wiki assigns general markets to the Central Plaza and also describes specialty exchanges and skill fairs. These require event setup, goods movement and storage arrangements, not necessarily dedicated permanent retail buildings.",
+      "placement": "The wiki names the Central Plaza; other venues and childhood scheduling are not established by the VN.",
+      "unresolved": "Childhood scope, handling/storage routes and use of the same public space across different events.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "wiki/worldbuilding/Socioeconomics.md",
+          "anchor": "**Central Plaza Markets**: Weekly general markets"
+        },
+        {
+          "path": "wiki/worldbuilding/Socioeconomics.md",
+          "anchor": "**Specialty Exchanges**: Periodic markets"
+        }
+      ]
+    },
+    {
+      "id": "living_systems",
+      "name": "Cultivation, circulation and maintenance systems",
+      "group": "Wiki and design provisions",
+      "basis": "story-and-wiki",
+      "access": "Distributed ecological/work support",
+      "facts": "Lyron explains water cycling through gardens, people and Lumen; Arin makes irrigation equipment and Soren designs operational systems. The wiki assigns routine cultivation, food processing, maintenance and standard growth to automation while people experiment and guide it.",
+      "placement": "Connects gardens and inhabited spaces throughout the living body; not necessarily one central mechanical plant.",
+      "unresolved": "Production areas, water/nutrient/air routes, light, root volumes, heat and service access. A decorative garden alone does not size the entire food or metabolic system.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "A garden doesn't stop at its own wall."
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "The plants, and us, and back again."
+        },
+        {
+          "path": "wiki/worldbuilding/Socioeconomics.md",
+          "anchor": "Routine maintenance, standard growth"
+        }
+      ]
+    },
+    {
+      "id": "care_work",
+      "name": "Professional care and counseling provision",
+      "group": "Wiki and design provisions",
+      "basis": "wiki-and-inference",
+      "access": "Care recipients, practitioners and invited support",
+      "facts": "Sage is a transition counselor; Thalia mediates; the wiki includes biomedical and wellness practice. These roles need suitable settings and privacy in a developed world. Household comfort scenes do not assign every professional appointment to Sage’s bedroom.",
+      "placement": "Location and possible shared facilities are unresolved.",
+      "unresolved": "Which care settings are shared, part of the Sanctuary, elsewhere in a neighborhood, or within a practitioner’s home. Do not invent a named childhood clinic or ceremonial core chamber.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Finally Sage, the transition counselor"
+        },
+        {
+          "path": "wiki/worldbuilding/Socioeconomics.md",
+          "anchor": "**Biomedical Practitioners**"
+        }
+      ]
+    },
+    {
+      "id": "mobility_services",
+      "name": "Accessible movement, deliveries and exterior transfer",
+      "group": "Wiki and design provisions",
+      "basis": "inference",
+      "access": "Residents, visitors and service work",
+      "facts": "A deeply inhabited body and off-ship expeditions require usable movement and transfer arrangements. Book I gives paths, stairs, scaffolds and carried projects; it does not provide a complete accessible transport, supply or docking plan.",
+      "placement": "To be worked into the distributed body around preserved local scenes.",
+      "unresolved": "Accessible alternatives, inter-level connections, supplies/waste, emergency access and off-ship transfer. Elevators, docks or shafts drawn in studies remain proposals, not discovered story locations.",
+      "model_status": "unplaced",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "interconnected pathways"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "a routine research expedition to a nearby moon"
+        }
+      ]
+    },
+    {
+      "id": "imagined_places",
+      "name": "Stories, dreams, maps and painted worlds",
+      "group": "Narrated and represented places",
+      "basis": "represented-settings",
+      "access": "Imagined or represented",
+      "facts": "Sage’s Aria/Bram/Cora Astravus and central water system; Nibble’s fairy-tale land; Kael’s dream crystal cave; Dorian’s narrated distant journeys; Cassia’s creature and talking trees; map rivers, pirate ship, space station and planets; places painted on the mural. These are remembered, imagined or represented settings, not extra measured places inside childhood Lumen. Including narrated history here does not classify that history as fictional; distant destinations are simply outside this local layout.",
+      "placement": "Stories are told in real rooms and refuges whose space is inventoried separately.",
+      "unresolved": "Do not derive Lumen’s physical central hub, life-support architecture, oceans or alien fauna from these narrative layers. Other Astravii mentioned as heritage are not rooms within Lumen.",
+      "model_status": "not-physical",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Once upon a time, aboard a great Astravus"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "I dreamt I was exploring a hidden cave"
+        },
+        {
+          "path": "revision/latest.md",
+          "anchor": "Sometimes we pretended it was a pirate ship"
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "It held the places we'd known and the places we'd meant to find."
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from_id": "central_room",
+      "to_id": "home_halls",
+      "kind": "explicit",
+      "description": "Halls branch from the shared central room to other parts of the home.",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "The hallways branching out from the central room"
+        }
+      ]
+    },
+    {
+      "from_id": "cali_room",
+      "to_id": "kael_room",
+      "kind": "explicit",
+      "description": "Kael’s room is next to Cali’s.",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Kael's room was next to mine"
+        }
+      ]
+    },
+    {
+      "from_id": "cali_room",
+      "to_id": "lyra_room",
+      "kind": "explicit",
+      "description": "Lyra’s room lies on the other side of Cali’s from Kael’s; this does not set compass directions.",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "Lyra's room was on the other side of mine"
+        }
+      ]
+    },
+    {
+      "from_id": "home_halls",
+      "to_id": "selene_music",
+      "kind": "explicit",
+      "description": "Cali hears music in the hall before reaching Selene’s door.",
+      "sources": [
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "before I reached her door"
+        }
+      ]
+    },
+    {
+      "from_id": "sage_room",
+      "to_id": "central_room",
+      "kind": "audible",
+      "description": "The household fountain is audible beyond Sage’s door; this constrains the sound path without proving immediate adjacency.",
+      "sources": [
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "Somewhere beyond their door, I could hear our little fountain."
+        }
+      ]
+    },
+    {
+      "from_id": "home",
+      "to_id": "maia_garden",
+      "kind": "explicit",
+      "description": "The garden folds around the home. Current VN home art includes an opening toward planted outdoor space.",
+      "sources": [
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "It folded around our home"
+        }
+      ]
+    },
+    {
+      "from_id": "planting_patch",
+      "to_id": "treehouse_access",
+      "kind": "sightline",
+      "description": "Cali sees the ladder into the oak from the planting patch.",
+      "sources": [
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "From that patch I could see the ladder into the old oak."
+        }
+      ]
+    },
+    {
+      "from_id": "maia_garden",
+      "to_id": "treehouse_upper",
+      "kind": "explicit",
+      "description": "The treehouse is at the garden’s far corner/wooded edge; the upper room looks onto its flowers and glowing paths.",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "old treehouse nestled in the far corner of Maia's garden"
+        },
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "Through the leaves, we could see patches of Maia's garden"
+        }
+      ]
+    },
+    {
+      "from_id": "treehouse_hollow",
+      "to_id": "treehouse_upper",
+      "kind": "vertical",
+      "description": "The lower hollow is underneath the raised room and has a separate entrance.",
+      "sources": [
+        {
+          "path": "revision/latest.md",
+          "anchor": "The hollow underneath the structure had a second secret entrance"
+        }
+      ]
+    },
+    {
+      "from_id": "treehouse_lower_sitting",
+      "to_id": "treehouse_access",
+      "kind": "visual",
+      "description": "The VN wide garden view connects the furnished lower platform to the ladder and upper landing.",
+      "sources": [
+        {
+          "path": "visual-novel/docs/location-continuity.json",
+          "anchor": "The ladder connects the lower refuge"
+        }
+      ]
+    },
+    {
+      "from_id": "maia_garden",
+      "to_id": "local_landscape",
+      "kind": "author",
+      "description": "Household garden privacy meets more shared woods/open ground; a social threshold need not break planting continuity or the ladder sightline.",
+      "sources": [
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "Beyond the garden wall, there were paths"
+        }
+      ]
+    },
+    {
+      "from_id": "arin_workshop",
+      "to_id": "waterwheel_site",
+      "kind": "carried-project",
+      "description": "The wheel is made in Arin’s workshop and carried to a garden pond; distance and thresholds remain unplaced.",
+      "sources": [
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "When we carried it to the pond"
+        }
+      ]
+    },
+    {
+      "from_id": "construction_paths",
+      "to_id": "construction_room",
+      "kind": "explicit",
+      "description": "The children enter a machinery room from the construction passages.",
+      "sources": [
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "In a room of tools and machines, Cassia found a small device."
+        }
+      ]
+    },
+    {
+      "from_id": "construction_paths",
+      "to_id": "dome_platform",
+      "kind": "explicit",
+      "description": "The dome outing approaches through construction and climbs scaffolds to an elevated platform.",
+      "sources": [
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "One day we found the unfinished dome."
+        },
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "Then we were on the platform."
+        }
+      ]
+    },
+    {
+      "from_id": "central_plaza",
+      "to_id": "courtyard",
+      "kind": "distinct",
+      "description": "The recurring community-wide plaza and local storytelling court are distinct production locations.",
+      "sources": [
+        {
+          "path": "visual-novel/docs/LOCATION_CONTINUITY.md",
+          "anchor": "Cassia's smaller"
+        }
+      ]
+    },
+    {
+      "from_id": "treehouse_upper",
+      "to_id": "echoes_grove",
+      "kind": "distinct",
+      "description": "The oak refuge and ancient transplanted Tree of Echoes are different trees and destinations.",
+      "sources": [
+        {
+          "path": "visual-novel/docs/location-continuity.json",
+          "anchor": "distinct from the Tree of Echoes"
+        }
+      ]
+    },
+    {
+      "from_id": "joren_home",
+      "to_id": "soren_workshop",
+      "kind": "attachment-open",
+      "description": "The family visit uses Soren’s workshop; narrative association does not map the whole dwelling or establish a specific connecting door.",
+      "sources": [
+        {
+          "path": "visual-novel/game/friendships_book_one.rpy",
+          "anchor": "At home, among Soren's prototypes"
+        }
+      ]
+    },
+    {
+      "from_id": "arin_workshop",
+      "to_id": "home",
+      "kind": "attachment-open",
+      "description": "Workshop is part of the family’s daily spatial program; exact connection and service entrance need design.",
+      "sources": [
+        {
+          "path": "visual-novel/game/script.rpy",
+          "anchor": "Arin's workshop hummed."
+        }
+      ]
+    },
+    {
+      "from_id": "dorian_library",
+      "to_id": "home",
+      "kind": "attachment-open",
+      "description": "The family repeatedly uses Dorian’s library; preserve it while resolving its connection, not by replacing it with shared-room shelving.",
+      "sources": [
+        {
+          "path": "visual-novel/game/family_book_one.rpy",
+          "anchor": "Dorian gathered us in the library every evening."
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "first_memory",
+      "title": "First memory",
+      "spaces": [
+        "sanctuary",
+        "home",
+        "central_room",
+        "home_halls",
+        "adult_retreats",
+        "cali_room",
+        "kael_room",
+        "lyra_room",
+        "arin_workshop",
+        "selene_music",
+        "maia_garden",
+        "community_routes"
+      ],
+      "source": {
+        "path": "visual-novel/game/script.rpy",
+        "anchor": "enter_scene(\"first_memory\")"
+      }
+    },
+    {
+      "id": "garden",
+      "title": "A small beginning",
+      "spaces": [
+        "maia_garden",
+        "planting_patch",
+        "domestic_support",
+        "treehouse_access",
+        "treehouse_hollow"
+      ],
+      "source": {
+        "path": "visual-novel/game/script.rpy",
+        "anchor": "enter_scene(\"garden\")"
+      }
+    },
+    {
+      "id": "plant_disagreement",
+      "title": "Room for both",
+      "spaces": [
+        "maia_garden",
+        "pond_bank",
+        "garden_ponds"
+      ],
+      "source": {
+        "path": "visual-novel/game/family_book_one.rpy",
+        "anchor": "enter_scene(\"plant_disagreement\")"
+      }
+    },
+    {
+      "id": "workshop_first",
+      "title": "The scattered pieces",
+      "spaces": [
+        "arin_workshop"
+      ],
+      "source": {
+        "path": "visual-novel/game/family_book_one.rpy",
+        "anchor": "enter_scene(\"workshop_first\")"
+      }
+    },
+    {
+      "id": "music_first",
+      "title": "A color you can hear",
+      "spaces": [
+        "home_halls",
+        "selene_music"
+      ],
+      "source": {
+        "path": "visual-novel/game/family_book_one.rpy",
+        "anchor": "enter_scene(\"music_first\")"
+      }
+    },
+    {
+      "id": "dorian_stories",
+      "title": "Routes through a story",
+      "spaces": [
+        "dorian_library",
+        "imagined_places"
+      ],
+      "source": {
+        "path": "visual-novel/game/family_book_one.rpy",
+        "anchor": "enter_scene(\"dorian_stories\")"
+      }
+    },
+    {
+      "id": "sage_story",
+      "title": "Three ways forward",
+      "spaces": [
+        "sage_room",
+        "central_room",
+        "imagined_places"
+      ],
+      "source": {
+        "path": "visual-novel/game/family_book_one.rpy",
+        "anchor": "enter_scene(\"sage_story\")"
+      }
+    },
+    {
+      "id": "family_rhythm",
+      "title": "The days between",
+      "spaces": [
+        "home",
+        "central_room",
+        "home_halls",
+        "cali_room",
+        "kael_room",
+        "lyra_room",
+        "adult_retreats",
+        "kitchen",
+        "maia_garden",
+        "planting_patch",
+        "arin_workshop",
+        "selene_music",
+        "dorian_library",
+        "sage_room",
+        "imagined_places"
+      ],
+      "source": {
+        "path": "visual-novel/game/family_book_one.rpy",
+        "anchor": "enter_scene(\"family_rhythm\")"
+      }
+    },
+    {
+      "id": "tree_echoes",
+      "title": "The Tree of Echoes",
+      "spaces": [
+        "community_routes",
+        "echoes_grove"
+      ],
+      "source": {
+        "path": "visual-novel/game/family_book_one.rpy",
+        "anchor": "enter_scene(\"tree_echoes\")"
+      }
+    },
+    {
+      "id": "pond_scare",
+      "title": "The shallow water",
+      "spaces": [
+        "garden_ponds",
+        "pond_bank",
+        "community_routes",
+        "home",
+        "domestic_support"
+      ],
+      "source": {
+        "path": "visual-novel/game/family_book_one.rpy",
+        "anchor": "enter_scene(\"pond_scare\")"
+      }
+    },
+    {
+      "id": "soup_experiment",
+      "title": "A little too much",
+      "spaces": [
+        "kitchen",
+        "central_room",
+        "maia_garden"
+      ],
+      "source": {
+        "path": "visual-novel/game/family_book_one.rpy",
+        "anchor": "enter_scene(\"soup_experiment\")"
+      }
+    },
+    {
+      "id": "festival_lights",
+      "title": "Wishes in the light",
+      "spaces": [
+        "central_plaza",
+        "plaza_stage",
+        "maia_garden"
+      ],
+      "source": {
+        "path": "visual-novel/game/family_book_one.rpy",
+        "anchor": "enter_scene(\"festival_lights\")"
+      }
+    },
+    {
+      "id": "meeting_cassia",
+      "title": "An invitation",
+      "spaces": [
+        "courtyard",
+        "community_routes",
+        "imagined_places"
+      ],
+      "source": {
+        "path": "visual-novel/game/script.rpy",
+        "anchor": "enter_scene(\"meeting_cassia\")"
+      }
+    },
+    {
+      "id": "cassia_home",
+      "title": "Room for another story",
+      "spaces": [
+        "cassia_home",
+        "living_systems"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"cassia_home\")"
+      }
+    },
+    {
+      "id": "meeting_joren",
+      "title": "Something worth finding",
+      "spaces": [
+        "construction_paths"
+      ],
+      "source": {
+        "path": "visual-novel/game/script.rpy",
+        "anchor": "enter_scene(\"meeting_joren\")"
+      }
+    },
+    {
+      "id": "joren_home",
+      "title": "Things we could make",
+      "spaces": [
+        "joren_home",
+        "soren_workshop"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"joren_home\")"
+      }
+    },
+    {
+      "id": "kaleb_walk",
+      "title": "Beyond the familiar paths",
+      "spaces": [
+        "kaleb_walk",
+        "community_routes",
+        "construction_paths",
+        "joren_home",
+        "soren_workshop",
+        "home",
+        "central_room",
+        "home_painting"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"kaleb_walk\")"
+      }
+    },
+    {
+      "id": "treehouse",
+      "title": "Our place in the branches",
+      "spaces": [
+        "maia_garden",
+        "treehouse_access",
+        "treehouse_upper",
+        "treehouse_hollow",
+        "treehouse_lower_sitting",
+        "local_landscape",
+        "imagined_places"
+      ],
+      "source": {
+        "path": "visual-novel/game/script.rpy",
+        "anchor": "enter_scene(\"treehouse\")"
+      }
+    },
+    {
+      "id": "rain_refuge",
+      "title": "A story under the rain",
+      "spaces": [
+        "treehouse_upper",
+        "imagined_places"
+      ],
+      "source": {
+        "path": "visual-novel/game/script.rpy",
+        "anchor": "enter_scene(\"rain_refuge\")"
+      }
+    },
+    {
+      "id": "waterwheel",
+      "title": "Something that turns",
+      "spaces": [
+        "arin_workshop",
+        "waterwheel_site",
+        "garden_ponds",
+        "pond_bank"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"waterwheel\")"
+      }
+    },
+    {
+      "id": "outer_exploration",
+      "title": "The unfinished world",
+      "spaces": [
+        "arin_workshop",
+        "construction_paths",
+        "construction_room",
+        "central_room"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"outer_exploration\")"
+      }
+    },
+    {
+      "id": "lyra_included",
+      "title": "A place beside us",
+      "spaces": [
+        "maia_garden",
+        "treehouse_access",
+        "community_routes"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"lyra_included\")"
+      }
+    },
+    {
+      "id": "dome_ascent",
+      "title": "The view from above",
+      "spaces": [
+        "construction_paths",
+        "dome_platform",
+        "home",
+        "community_routes"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"dome_ascent\")"
+      }
+    },
+    {
+      "id": "treehouse_dispute",
+      "title": "Which way we go",
+      "spaces": [
+        "treehouse_upper"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"treehouse_dispute\")"
+      }
+    },
+    {
+      "id": "loss",
+      "title": "The news",
+      "spaces": [
+        "central_room",
+        "home",
+        "moon_expedition",
+        "treehouse_upper"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"loss\")"
+      }
+    },
+    {
+      "id": "family_grief",
+      "title": "What comfort can do",
+      "spaces": [
+        "central_room"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"family_grief\")"
+      }
+    },
+    {
+      "id": "painting_grief",
+      "title": "What the hand remembers",
+      "spaces": [
+        "central_room",
+        "home_painting",
+        "domestic_support",
+        "imagined_places"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"painting_grief\")"
+      }
+    },
+    {
+      "id": "cassia_grief",
+      "title": "Between the two of us",
+      "spaces": [
+        "treehouse_upper",
+        "dome_platform"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"cassia_grief\")"
+      }
+    },
+    {
+      "id": "community_memorial",
+      "title": "The names we carry",
+      "spaces": [
+        "central_plaza",
+        "plaza_stage",
+        "soren_workshop",
+        "living_systems"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"community_memorial\")"
+      }
+    },
+    {
+      "id": "mural_remembrance",
+      "title": "A place to remember",
+      "spaces": [
+        "maia_garden",
+        "garden_mural",
+        "imagined_places"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"mural_remembrance\")"
+      }
+    },
+    {
+      "id": "treehouse_remembrance",
+      "title": "The rain returns",
+      "spaces": [
+        "treehouse_upper",
+        "garden_mural",
+        "dome_platform"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"treehouse_remembrance\")"
+      }
+    },
+    {
+      "id": "annual_remembrance",
+      "title": "What remains",
+      "spaces": [
+        "central_plaza",
+        "plaza_stage",
+        "treehouse_upper",
+        "garden_mural"
+      ],
+      "source": {
+        "path": "visual-novel/game/friendships_book_one.rpy",
+        "anchor": "enter_scene(\"annual_remembrance\")"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "path": "visual-novel/game/images/backgrounds/family-home.png",
+      "aliases": [
+        "bg family_home"
+      ],
+      "spaces": [
+        "central_room",
+        "home_halls"
+      ],
+      "observation": "Round table, sofa left, fountain behind, passage rear-right and garden opening at right; whole dwelling remains off camera.",
+      "review": "visually-inspected",
+      "sha256": "dbf252a7502305a15c685bcbc6bfc7973f5bf2db277401dbdd6e6fda87d15a6a"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/family-home-painting.png",
+      "aliases": [
+        "bg family_home_painting"
+      ],
+      "spaces": [
+        "central_room",
+        "home_painting"
+      ],
+      "observation": "Same central room with painting materials and work in progress on the table.",
+      "review": "visually-inspected",
+      "sha256": "c84cdbbf9c5f425445fad16ade67fbc18550697622a71378950147112ed8bd16"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/home-dusk.png",
+      "aliases": [
+        "bg home_dusk"
+      ],
+      "spaces": [
+        "central_room"
+      ],
+      "observation": "Dusk/grief state of the same room; no new grief room.",
+      "review": "visually-inspected",
+      "sha256": "22af8146417df1fac47983901df8ddd7a3adc12737b4bbcdb33372d9ca85d45b"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/garden-close.png",
+      "aliases": [
+        "bg garden_close"
+      ],
+      "spaces": [
+        "maia_garden",
+        "planting_patch",
+        "garden_ponds"
+      ],
+      "observation": "Timber-edged beds beside a curved stone path and a pond behind; local brighter planting light within enclosure.",
+      "review": "visually-inspected",
+      "sha256": "4d6729bc69f1ca19f13bfc50015d2efc9ecdcb63ab269e889cf79ddd73f05c0a"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/garden.png",
+      "aliases": [
+        "bg garden"
+      ],
+      "spaces": [
+        "maia_garden",
+        "treehouse_upper",
+        "treehouse_access",
+        "treehouse_hollow",
+        "treehouse_lower_sitting"
+      ],
+      "observation": "Upper room projects left of the right-hand oak; ladder meets landing; separate lower door and broad furnished platform. Ground path approaches from left.",
+      "review": "visually-inspected",
+      "sha256": "e32d470defeda7faccd5e6fa1c08125faf9e60f818506e6cb15aae364725d243"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/community-courtyard.png",
+      "aliases": [
+        "bg community_courtyard"
+      ],
+      "spaces": [
+        "courtyard"
+      ],
+      "observation": "Local low-table gathering circles, planted edges, rounded arches and adjoining passages.",
+      "review": "visually-inspected",
+      "sha256": "a02f53750be493a139f06a3811e3911736f9846aa6eb06de6e53342974f9f048"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/construction-path.png",
+      "aliases": [
+        "bg construction_path"
+      ],
+      "spaces": [
+        "construction_paths",
+        "community_routes"
+      ],
+      "observation": "Curved path through thick branching structure, stored panels/tools, scaffolds and adjacent occupied working heights.",
+      "review": "visually-inspected",
+      "sha256": "9d36f01f1f51194bc99e0d79ce8811397c0b90a23f2df71de18d7a39e90dd0b8"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/treehouse-shaded.png",
+      "aliases": [
+        "bg treehouse"
+      ],
+      "spaces": [
+        "treehouse_upper"
+      ],
+      "observation": "Left diagonal trunk, arched entrance behind, open right bays/rails, curtains, maps, boxes and cushions; broad useful room.",
+      "review": "visually-inspected",
+      "sha256": "ed727c67e4e6628eef1e2ba9820b70a1d98cd32b4d71e4c04100f4508e9d16d3"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/treehouse-rain.png",
+      "aliases": [
+        "bg treehouse_rain"
+      ],
+      "spaces": [
+        "treehouse_upper"
+      ],
+      "observation": "Same structural room with rain outside the open bays; interior remains sheltered.",
+      "review": "visually-inspected",
+      "sha256": "9a21aab8edb8f0424464e4106cf5e8700b62d35de806ab90c38b1d14624ea456"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/treehouse-later.png",
+      "aliases": [
+        "bg treehouse_later"
+      ],
+      "spaces": [
+        "treehouse_upper"
+      ],
+      "observation": "Same structure; table moved toward the viewing bays, changed seating and accumulated projects in later childhood.",
+      "review": "visually-inspected",
+      "sha256": "25bfec7ea7a1366a0e62c51f044eee3d6c066efef2dfff16c619cb80eb5e718a"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/treehouse-memory.png",
+      "aliases": [
+        "bg treehouse_memory"
+      ],
+      "spaces": [
+        "treehouse_upper"
+      ],
+      "observation": "Later furniture arrangement plus messages/drawings and rain outside; ordinary remembrance.",
+      "review": "visually-inspected",
+      "sha256": "6333e29fb28cdd941de01093e0acd8918d7c18dcf5f33898ff0f25efd5016543"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/workshop.png",
+      "aliases": [
+        "bg workshop"
+      ],
+      "spaces": [
+        "arin_workshop"
+      ],
+      "observation": "Broad rear workbench and side benches/drawers, tools and small mechanisms, stool, timber floor, planted window left and doorway right.",
+      "review": "visually-inspected",
+      "sha256": "603d67750be055357d53693ea315aa201473db6a746ab02f8a5f968c9b9b2934"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/workshop-waterwheel.png",
+      "aliases": [
+        "bg workshop_waterwheel"
+      ],
+      "spaces": [
+        "arin_workshop"
+      ],
+      "observation": "Same workshop; small wooden wheel occupies the workbench as a project state.",
+      "review": "visually-inspected",
+      "sha256": "614611fed18af319562a457e65417a74176a772b58eabf386f7ab44e7cf298ec"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/music-room.png",
+      "aliases": [
+        "bg music_room"
+      ],
+      "spaces": [
+        "selene_music"
+      ],
+      "observation": "Piano and shared bench center, harp and soft seating right, hallway doorway left and planted window openings.",
+      "review": "visually-inspected",
+      "sha256": "f3f9eae745ab6e93e0dfe100a9207977901e874624315f5c139eff500706c464"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/library.png",
+      "aliases": [
+        "bg library"
+      ],
+      "spaces": [
+        "dorian_library"
+      ],
+      "observation": "Books/scrolls around a map table and reading area, additional work surfaces, windows, overhead light and corridor through rear arch.",
+      "review": "visually-inspected",
+      "sha256": "9d2380db731f2576fadba93d4aa7be7460873a701efd973559981b41c5b9cddf"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/sage-room.png",
+      "aliases": [
+        "bg sage_room"
+      ],
+      "spaces": [
+        "sage_room",
+        "adult_retreats"
+      ],
+      "observation": "Cushioned gathering around low table, sleeping alcove behind, door left, window right; personal and welcoming uses in one room.",
+      "review": "visually-inspected",
+      "sha256": "b51b309492a5d8026571ff3938d5aae102515653250df054c1dd3d461751d581"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/cassia-home.png",
+      "aliases": [
+        "bg cassia_home"
+      ],
+      "spaces": [
+        "cassia_home"
+      ],
+      "observation": "Craft surfaces/books, drying drawings, tea table and seating; planted water feature and another room through a rear-left arch.",
+      "review": "visually-inspected",
+      "sha256": "8e536261e4b647371e346cfc34bd818dad026026eb209d5d4c458f0b2e6c0e0b"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/soren-workshop.png",
+      "aliases": [
+        "bg soren_workshop"
+      ],
+      "spaces": [
+        "soren_workshop"
+      ],
+      "observation": "Drafting bench and plans, tool drawers, work surfaces, floor rover prototype and arched corridor at right; distinct from Arin’s shop.",
+      "review": "visually-inspected",
+      "sha256": "d451bcedd70e8c80546a8147a33877dce0454a92004b017002aa45050460ae0b"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/echoes.png",
+      "aliases": [
+        "bg echoes"
+      ],
+      "spaces": [
+        "echoes_grove"
+      ],
+      "observation": "Ancient hollow tree in a planted clearing, dense enclosure and overhead foliage/light; no literal faces or voices.",
+      "review": "visually-inspected",
+      "sha256": "cb84874fe2ab57c98c382ca9da15e7f10ac9d9160be780122a0abd69b119c814"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/garden-pond.png",
+      "aliases": [
+        "bg garden_pond"
+      ],
+      "spaces": [
+        "garden_ponds",
+        "pond_bank"
+      ],
+      "observation": "Low stone coping, shallow pebbled basin, inlet left, plant groups and timber boundary; accessible dry bank.",
+      "review": "visually-inspected",
+      "sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/garden-work-area.png",
+      "aliases": [
+        "bg garden_work_area"
+      ],
+      "spaces": [
+        "pond_bank",
+        "garden_ponds"
+      ],
+      "observation": "Wider dry working bank with potted plants; basin remains behind the occupied ground.",
+      "review": "visually-inspected",
+      "sha256": "cab0cbcfc99633faf099baa3122434c13ea5eee0711acd5aff98ac0f4f973f62"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/waterwheel.png",
+      "aliases": [
+        "bg waterwheel"
+      ],
+      "spaces": [
+        "waterwheel_site",
+        "garden_ponds",
+        "pond_bank"
+      ],
+      "observation": "Miniature wheel and supports by inlet of the recurring basin; tools on dry foreground bank.",
+      "review": "visually-inspected",
+      "sha256": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/garden-wonders.png",
+      "aliases": [
+        "bg garden_wonders"
+      ],
+      "spaces": [
+        "planting_patch",
+        "maia_garden"
+      ],
+      "observation": "Closing-theme flower/insect detail beside the garden path; no new garden location.",
+      "review": "visually-inspected",
+      "sha256": "7da2fab31aef36de1a6bde4bbd347193bffe79bd395d3fd6d26ff75c8b0b4aef"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/memory-mural-v2.png",
+      "aliases": [
+        "bg memory_mural"
+      ],
+      "spaces": [
+        "garden_mural"
+      ],
+      "observation": "Hand-painted wall with working supplies, bench and planted water beside it. The adventure landscape on the wall is paint.",
+      "review": "visually-inspected",
+      "sha256": "38cb3dd1cfad04400f6fec8d971a4171a4eff513c26f9c1e507aefd9fceaba47"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/festival.png",
+      "aliases": [
+        "bg festival"
+      ],
+      "spaces": [
+        "central_plaza",
+        "plaza_stage"
+      ],
+      "observation": "Large tree/curved stair left, rear passage beneath bridge, occupied multi-level arcades, low dais center-right, floral display and lanterns.",
+      "review": "visually-inspected",
+      "sha256": "0d1ddc42de15e46e839290310074c2db15d0ab5a25f000f2fb4882f236ffb141"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/memorial-plaza.png",
+      "aliases": [
+        "bg memorial_plaza"
+      ],
+      "spaces": [
+        "central_plaza",
+        "plaza_stage"
+      ],
+      "observation": "Same plaza architecture with flowers/messages and a gathered crowd; festival instruments removed.",
+      "review": "visually-inspected",
+      "sha256": "242f9f11339c27d0f479a5280b58ed37e9df754030c490feca59c121c455167c"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/remembrance-plaza.png",
+      "aliases": [
+        "bg remembrance_plaza"
+      ],
+      "spaces": [
+        "central_plaza",
+        "plaza_stage"
+      ],
+      "observation": "Same square and dais with annual drawings/messages, crowd and changed light.",
+      "review": "visually-inspected",
+      "sha256": "ad1667be4328b4763e5d9282528e40b042c4eb489de7633663169e551bb54495"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/construction-room.png",
+      "aliases": [
+        "bg construction_room"
+      ],
+      "spaces": [
+        "construction_room"
+      ],
+      "observation": "Benches, tools, machinery and projected section drawing; doorway joins a planted construction passage.",
+      "review": "visually-inspected",
+      "sha256": "c5e93b257206702921c19f923b5ee9bcc14676f5ee08765ab37a88d4e0ae18b3"
+    },
+    {
+      "path": "visual-novel/game/images/backgrounds/book-one/dome.png",
+      "aliases": [
+        "bg dome"
+      ],
+      "spaces": [
+        "dome_platform"
+      ],
+      "observation": "Foreground overlook/parapet and scaffolds; views across gardens, branching structure, arches and inhabitants at many heights. This does not measure the whole ship.",
+      "review": "visually-inspected",
+      "sha256": "dc168e36c3f1a5a9851dbad7d0ba2e30e6dfd71116d77f4447dbc5d4f6ddcaa8"
+    },
+    {
+      "path": "visual-novel/game/images/cg/first-memory-young.png",
+      "aliases": [
+        "cg first_memory"
+      ],
+      "spaces": [
+        "sanctuary"
+      ],
+      "observation": "Close welcome with five adults and newborn Cali, cushions, cloth and warm alcoves; facility extent and birth mechanism unseen.",
+      "review": "visually-inspected",
+      "sha256": "796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/garden-compromise.png",
+      "aliases": [
+        "cg garden_compromise"
+      ],
+      "spaces": [
+        "pond_bank"
+      ],
+      "observation": "Three people arranging plants on dry supported bank; pond reflections and planting choices remain visible.",
+      "review": "visually-inspected",
+      "sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/flute-playing.png",
+      "aliases": [
+        "cg flute_playing"
+      ],
+      "spaces": [
+        "selene_music"
+      ],
+      "observation": "Cali and Selene share the piano bench; harp, keyboard and surrounding room remain coherent.",
+      "review": "visually-inspected",
+      "sha256": "8f44a837334af47ec5081cd04a4ab65087faca327fb278127ea3062214d109c1"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/flute-rest.png",
+      "aliases": [
+        "cg flute_rest"
+      ],
+      "spaces": [
+        "selene_music"
+      ],
+      "observation": "Same lesson composition and bench while the flute is lowered; not another room.",
+      "review": "visually-inspected",
+      "sha256": "7554e2418496049f96c44d83b65460e9cc79a038f902ff2639ab6648215ae521"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/pond-rescue.png",
+      "aliases": [
+        "cg pond_rescue"
+      ],
+      "spaces": [
+        "pond_bank",
+        "garden_ponds"
+      ],
+      "observation": "Children kneel on a dry low bank and reach wet Lyra in shallow water; animals have supported ground.",
+      "review": "visually-inspected",
+      "sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/pond-comfort.png",
+      "aliases": [
+        "cg pond_comfort"
+      ],
+      "spaces": [
+        "pond_bank",
+        "garden_ponds"
+      ],
+      "observation": "Siblings sit together on broad dry ground beside the recurring basin after the rescue.",
+      "review": "visually-inspected",
+      "sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/cassia-storytelling.png",
+      "aliases": [
+        "cg cassia_storytelling"
+      ],
+      "spaces": [
+        "courtyard"
+      ],
+      "observation": "Children seated with sketchbook and cushions, adult gathering and arches behind; intimate court.",
+      "review": "visually-inspected",
+      "sha256": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/family-embrace.png",
+      "aliases": [
+        "cg family_embrace"
+      ],
+      "spaces": [
+        "central_room"
+      ],
+      "observation": "Maia and Cali on central-room sofa, table and corridor behind; comfort occupies existing home space.",
+      "review": "visually-inspected",
+      "sha256": "1113867923621e201436dcf19c2f03df6dd37927dba837ae523a39cbda436b90"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/cassia-comfort.png",
+      "aliases": [
+        "cg cassia_comfort"
+      ],
+      "spaces": [
+        "treehouse_upper"
+      ],
+      "observation": "Seated beside the trunk, with upper door and open bays visible; later table and seats remain behind.",
+      "review": "visually-inspected",
+      "sha256": "e656c47c19a9c9ef5f273c041d149db9078e58d99dc63a755f759d2c0a9c825e"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/treehouse-friends.png",
+      "aliases": [
+        "cg treehouse_friends"
+      ],
+      "spaces": [
+        "treehouse_upper"
+      ],
+      "observation": "Trio seated around the low map table in the familiar upper room; close framing does not shrink the unseen room.",
+      "review": "visually-inspected",
+      "sha256": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/theme-garden-opening.png",
+      "aliases": [],
+      "spaces": [
+        "planting_patch"
+      ],
+      "observation": "Close sunflower/garden moment; no additional outdoor location.",
+      "review": "visually-inspected",
+      "sha256": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/theme-path-friends.png",
+      "aliases": [],
+      "spaces": [
+        "community_routes"
+      ],
+      "observation": "Distinct timber neighborhood walkway with branch rails, plants and occupied structures beyond; not the specific oak garden approach.",
+      "review": "visually-inspected",
+      "sha256": "1fbaeeac453d40ad6761894b68b6955a332942fa29b02ae2be93934fbabde2f5"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/theme-insect-discovery.png",
+      "aliases": [],
+      "spaces": [
+        "planting_patch"
+      ],
+      "observation": "Children inspect an insect by garden planting and dry path.",
+      "review": "visually-inspected",
+      "sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/theme-nibble-moment.png",
+      "aliases": [],
+      "spaces": [
+        "maia_garden"
+      ],
+      "observation": "Cali and Nibble beside an outdoor timber bench; intimate garden resting provision.",
+      "review": "visually-inspected",
+      "sha256": "c20617d52737079f8d91da956b3b0aa7c958cf87577696f32bb691c4576b1fb5"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/theme-treehouse-arrival.png",
+      "aliases": [],
+      "spaces": [
+        "treehouse_upper"
+      ],
+      "observation": "Close trio inside upper room with trunk, entrance and viewing bays; filename does not establish a new arrival building.",
+      "review": "visually-inspected",
+      "sha256": "9358565397facaa82363d8960e0df9fe6b3352c87f8e40ee6025957d10e04b72"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/theme-waterwheel-team.png",
+      "aliases": [],
+      "spaces": [
+        "waterwheel_site",
+        "pond_bank"
+      ],
+      "observation": "Children work around miniature wheel on dry bank beside pond; illustrative assembly/test moment.",
+      "review": "visually-inspected",
+      "sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/theme-dome-friends.png",
+      "aliases": [],
+      "spaces": [
+        "dome_platform"
+      ],
+      "observation": "Trio stands on the overlook with parapet and layered inhabited view behind.",
+      "review": "visually-inspected",
+      "sha256": "d7577ed4ebc21cb87cc0107b6c86583e324812697efc0a2d95c17619ba895dff"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/theme-sketch-laughter.png",
+      "aliases": [],
+      "spaces": [
+        "treehouse_upper"
+      ],
+      "observation": "Tight composition of map table and friends inside the upper room; sketch creature is fictional.",
+      "review": "visually-inspected",
+      "sha256": "834fd2c8430fe29da8d504b36170d417e3a7bfff710d014b4a2e6229ae7d73d8"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/theme-evening-reading.png",
+      "aliases": [],
+      "spaces": [
+        "treehouse_upper"
+      ],
+      "observation": "Cali sketches on her lap by cushions and an open rail; this is not her private bedroom desk.",
+      "review": "visually-inspected",
+      "sha256": "3600e695c1bddaf867faa04d5f157faf323012e269626fcce8fa5aab247627fc"
+    },
+    {
+      "path": "visual-novel/game/images/cg/book-one/theme-morning-outlook.png",
+      "aliases": [],
+      "spaces": [
+        "maia_garden",
+        "treehouse_upper",
+        "treehouse_lower_sitting",
+        "treehouse_access"
+      ],
+      "observation": "Cali on garden route with oak’s upper room, lower refuge and ladder behind; camera separation matters for apparent scale.",
+      "review": "visually-inspected",
+      "sha256": "1a0edf4cbbf8ff03ff42dce399c02f7e0780232a654f82662759faeece2ddc45"
+    }
+  ]
+}

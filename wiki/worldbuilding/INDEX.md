@@ -29,7 +29,9 @@ This directory contains detailed documentation of the worldbuilding elements in 
 - **[Aurora.md](./Aurora.md)** - Ancient parent Astravus; history and culture
 - **[Nyx.md](./Nyx.md)** - Ancient parent Astravus; wisdom and healing traditions
 
-**Proposed design work:** [Lumen anatomy and scale study](Lumen-Design-Study.md) — current VN reference atlas, alternative internal sections, exploratory populations and physics; not adopted canon.
+**Spatial sources:** [Lumen Book I space inventory](Lumen-Space-Inventory.md) — full current VN scene coverage, household/work spaces, source passages, image register and unresolved connections.
+
+**Proposed design work:** [Lumen anatomy and scale study](Lumen-Design-Study.md) — visual references and exploratory anatomy/population/physics; not adopted canon. The incomplete household and neighborhood sketches are withdrawn as layout bases.
 
 ---
 

@@ -52,7 +52,7 @@
       "runtime": "bg family_home · visuals.rpy:14 · script.rpy:34",
       "story": "revision/latest.md:61–81; central room, branching halls and adjacent private rooms. script.rpy:51–52; garden folds around the home.",
       "observed": "A central table, books and drawings, close seating, a small fountain and several arched thresholds. The room feels occupied and sheltered.",
-      "proposal": "Treat this as the shared central room of one connected dwelling, with internal halls and individual private rooms continuing beyond the frame. Its household garden is ordinary outdoor domestic space, with a threshold to the local shared network.",
+      "proposal": "Treat this as the shared central room of one connected dwelling. Account for the whole household program: private rooms and adult retreats, Arin’s workshop, Selene’s music room, Dorian’s library, Sage’s room, cooking, art and practical support. Some attachments and overlaps remain unresolved. Its garden is ordinary household outdoor space.",
       "unknown": "The frame does not show the whole dwelling or establish its area. Separate arches are not separate houses. The author identifies the household garden as ordinary, without an implication of unusual wealth.",
       "pins": [
         {
@@ -72,6 +72,174 @@
         }
       ],
       "sha256": "dbf252a7502305a15c685bcbc6bfc7973f5bf2db277401dbdd6e6fda87d15a6a"
+    },
+    {
+      "id": "arin_workshop",
+      "title": "Arin’s workshop: making, learning and ongoing projects",
+      "path": "visual-novel/game/images/backgrounds/book-one/workshop.png",
+      "runtime": "bg workshop · environments_book_one.rpy:20",
+      "story": "revision/latest.md:111; revision/latest.md:231; visual-novel/game/family_book_one.rpy:80; visual-novel/game/friendships_book_one.rpy:117",
+      "observed": "Broad rear workbench and side benches/drawers, tools and small mechanisms, stool, timber floor, planted window left and doorway right.",
+      "proposal": "Closely associated with home life; the VN opening hears its hum and the daily montage returns here. Its doorway opens to further planted interior space in the art.",
+      "unknown": "Exact attachment to the dwelling and work/service access. Do not replace it with Soren’s workshop, the construction equipment room or a generic community workroom. Preserve both personal experimentation and useful engineering.",
+      "pins": [
+        {
+          "x": 48,
+          "y": 49,
+          "text": "An equipped bench carries mechanisms and work in progress."
+        },
+        {
+          "x": 28,
+          "y": 66,
+          "text": "Drawers, tools and open floor support the hands-on workshop scenes."
+        },
+        {
+          "x": 87,
+          "y": 36,
+          "text": "An arched doorway continues into planted interior space; its destination is not established."
+        }
+      ],
+      "sha256": "603d67750be055357d53693ea315aa201473db6a746ab02f8a5f968c9b9b2934"
+    },
+    {
+      "id": "selene_music",
+      "title": "Selene’s music room: practice and shared learning",
+      "path": "visual-novel/game/images/backgrounds/book-one/music-room.png",
+      "runtime": "bg music_room · environments_book_one.rpy:14",
+      "story": "revision/latest.md:237; revision/latest.md:237; visual-novel/game/family_book_one.rpy:125",
+      "observed": "Piano and shared bench center, harp and soft seating right, hallway doorway left and planted window openings.",
+      "proposal": "Within the home’s soundscape; the VN explicitly approaches Selene’s door along a hall.",
+      "unknown": "Acoustic/privacy control and room dimensions; possible relationship to Selene’s personal retreat. Sound must still reach the home in the existing scenes.",
+      "pins": [
+        {
+          "x": 51,
+          "y": 58,
+          "text": "The piano and shared bench support Cali and Selene’s lesson."
+        },
+        {
+          "x": 78,
+          "y": 51,
+          "text": "The harp and nearby cushions need their own usable space."
+        },
+        {
+          "x": 10,
+          "y": 39,
+          "text": "The doorway connects to a hall, also explicit in the scene text."
+        }
+      ],
+      "sha256": "f3f9eae745ab6e93e0dfe100a9207977901e874624315f5c139eff500706c464"
+    },
+    {
+      "id": "dorian_library",
+      "title": "Dorian’s library: maps, reading and stories",
+      "path": "visual-novel/game/images/backgrounds/book-one/library.png",
+      "runtime": "bg library · environments_book_one.rpy:7",
+      "story": "revision/latest.md:137; revision/latest.md:139; revision/latest.md:241; visual-novel/game/family_book_one.rpy:193",
+      "observed": "Books/scrolls around a map table and reading area, additional work surfaces, windows, overhead light and corridor through rear arch.",
+      "proposal": "A recurring destination in the family routine. Its exact connection to the home’s central room is not mapped.",
+      "unknown": "Exact attachment, archive extent and use by outside listeners. Do not reduce it to the central room’s bookshelf or identify it as the whole community archive.",
+      "pins": [
+        {
+          "x": 51,
+          "y": 56,
+          "text": "A map table and surrounding cushions form a reading and storytelling area."
+        },
+        {
+          "x": 23,
+          "y": 24,
+          "text": "Books and scrolls occupy the room, with additional work surfaces below."
+        },
+        {
+          "x": 52,
+          "y": 33,
+          "text": "The rear arch opens to a corridor; its route to the home remains to be placed."
+        }
+      ],
+      "sha256": "9d2380db731f2576fadba93d4aa7be7460873a701efd973559981b41c5b9cddf"
+    },
+    {
+      "id": "sage_room",
+      "title": "Sage’s room: personal retreat and quiet company",
+      "path": "visual-novel/game/images/backgrounds/book-one/sage-room.png",
+      "runtime": "bg sage_room · environments_book_one.rpy:15",
+      "story": "revision/latest.md:149; revision/latest.md:153; visual-novel/game/family_book_one.rpy:271",
+      "observed": "Cushioned gathering around low table, sleeping alcove behind, door left, window right; personal and welcoming uses in one room.",
+      "proposal": "In the home; the fountain can be heard beyond Sage’s door.",
+      "unknown": "Precise adjacency and degree of acoustic/visual privacy. This household room does not establish that professional transition counseling always happens here.",
+      "pins": [
+        {
+          "x": 49,
+          "y": 44,
+          "text": "A furnished sleeping alcove is part of the room’s visual guide."
+        },
+        {
+          "x": 52,
+          "y": 68,
+          "text": "The low table and cushions provide room for Sage and the three children."
+        },
+        {
+          "x": 10,
+          "y": 43,
+          "text": "The text hears the household fountain beyond this door; exact adjacency is open."
+        }
+      ],
+      "sha256": "b51b309492a5d8026571ff3938d5aae102515653250df054c1dd3d461751d581"
+    },
+    {
+      "id": "soren_workshop",
+      "title": "Soren’s workshop: a distinct place for systems work",
+      "path": "visual-novel/game/images/backgrounds/book-one/soren-workshop.png",
+      "runtime": "bg soren_workshop · environments_book_one.rpy:16",
+      "story": "revision/latest.md:369; visual-novel/game/friendships_book_one.rpy:66; visual-novel/game/friendships_book_one.rpy:80",
+      "observed": "Drafting bench and plans, tool drawers, work surfaces, floor rover prototype and arched corridor at right; distinct from Arin’s shop.",
+      "proposal": "Associated with Joren’s family home; exact attachment is unspecified.",
+      "unknown": "Work/service access, noise and equipment needs. Keep this separate from Arin’s personal workshop and the construction equipment room.",
+      "pins": [
+        {
+          "x": 47,
+          "y": 40,
+          "text": "The drafting bench and plans support the rover design scene."
+        },
+        {
+          "x": 55,
+          "y": 69,
+          "text": "A floor prototype needs working room around it."
+        },
+        {
+          "x": 83,
+          "y": 41,
+          "text": "The arched passage provides visible depth without establishing attachment to Joren’s home."
+        }
+      ],
+      "sha256": "d451bcedd70e8c80546a8147a33877dce0454a92004b017002aa45050460ae0b"
+    },
+    {
+      "id": "cassia_home",
+      "title": "Cassia’s home: daily life among art and living systems",
+      "path": "visual-novel/game/images/backgrounds/book-one/cassia-home.png",
+      "runtime": "bg cassia_home · environments_book_one.rpy:2",
+      "story": "revision/latest.md:361; visual-novel/game/friendships_book_one.rpy:14; visual-novel/game/friendships_book_one.rpy:56",
+      "observed": "Craft surfaces/books, drying drawings, tea table and seating; planted water feature and another room through a rear-left arch.",
+      "proposal": "Reachable by household visits; no exact adjacency to Cali’s home.",
+      "unknown": "Complete domestic program and personal rooms remain undescribed. Thalia’s mediation profession and Lyron’s agricultural work do not locate their workplaces inside this room.",
+      "pins": [
+        {
+          "x": 59,
+          "y": 73,
+          "text": "Tea and drawings occupy the central table and nearby seating."
+        },
+        {
+          "x": 17,
+          "y": 29,
+          "text": "Art materials and drying drawings make creative work part of the home."
+        },
+        {
+          "x": 23,
+          "y": 44,
+          "text": "Another furnished space is visible through the arch; this is not the whole dwelling."
+        }
+      ],
+      "sha256": "8e536261e4b647371e346cfc34bd818dad026026eb209d5d4c458f0b2e6c0e0b"
     },
     {
       "id": "courtyard",
