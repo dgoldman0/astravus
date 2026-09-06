@@ -34,7 +34,7 @@ Each Astraviin shares a profound bond with their home Astravus:
 
 Astraviin possess dramatically extended lifespans:
 
-- Lives can extend across centuries before transcendence; a measured population average is not established
+- Average lifespan ranges from 200-500+ years before transcendence
 - Living upwards of 500 years before transcending is rare but possible
 - Death from aging is essentially eliminated
 - Physical health and vitality persist throughout life

@@ -138,7 +138,7 @@ An **Astravus** (plural: **Astravii**) is a living entity of cosmic scale—part
 
 Astravii vary in appearance and design, shaped by the collective aesthetic sensibilities of those who compose them. Common features include:
 
-- **Organic Architecture**: Grown living structures with crafted spaces and manufactured fittings, bioluminescent lighting, and responsive environments
+- **Organic Architecture**: Structures that grow rather than being built, with living walls, bioluminescent lighting, and responsive environments
 - **Seamless Integration**: Technology and biology exist in perfect synthesis—there is no clear division between "natural" and "artificial"
 - **Environmental Sensitivity**: The Astravus responds to its inhabitants' emotional states, adjusting temperature, lighting, and atmosphere
 - **Self-Sustaining Ecosystems**: Gardens, water systems, and atmospheric processors work as integrated living systems
@@ -293,7 +293,7 @@ Astraviin technology is characterized by:
 
 - **Living Integration**: Technology and biology exist seamlessly together
 - **Nanomachine Systems**: Implied infrastructure of coordinating nanomachines that maintain Astravus health
-- **Bioluminescence**: Living plants provide evening light alongside maintained daytime illumination
+- **Bioluminescence**: Lighting provided by living plants rather than artificial sources
 - **Mental Interface**: After Core Integration, Astraviin can control devices through thought
 - **Holographic Systems**: Communication, record-keeping, and art often use holographic projection
 
@@ -314,12 +314,10 @@ Key celebrations include:
 
 **Lumen** is the young Astravus that serves as the primary setting for Calista's narrative. It is the child of Aurora and Nyx—two ancient Astravii—and represents a community still developing its unique identity.
 
-The canonical physical baseline is the [Lumen world specification](worldbuilding/Lumen.md#world-specification), with linked population, atlas, systems and continuity pages. It adds rounded worldbuilding values around the existing story: approximately 10,000 embodied residents and a 4.8 × 2.8 × 1.8 km main body at the representative C+10 childhood date, with ordinary artificial gravity. Later growth is recorded separately; these figures are not measurements quoted from the manuscript.
-
 ### Characteristics
 
 - **Young Astravus**: Still in early phases relative to parent Astravii
-- **Growing Population**: Largely composed of the first generation born and raised within Lumen during early childhood; later generations grow throughout the narrative
+- **Growing Population**: Largely composed of first generation born and raised within Lumen
 - **Developing Culture**: Slowly gaining independence from Aurora and Nyx while maintaining strong bonds
 - **Unique Personality**: Lumen has its own quirks—humming at specific frequencies, growing unexpected plants, temperature fluctuations reflecting transcended inhabitants' emotions
 
@@ -330,7 +328,7 @@ The canonical physical baseline is the [Lumen world specification](worldbuilding
 - Bioluminescent plants illuminating evening pathways
 - Living murals that shift and change on walls
 - Indoor fountains and water features
-- Grown living structure interwoven with crafted rooms and manufactured systems
+- Organic architecture that grows rather than being built
 
 ### Key Locations
 
@@ -341,7 +339,7 @@ The canonical physical baseline is the [Lumen world specification](worldbuilding
 - **Art Center**: Community space for artistic collaboration and exhibition
 - **Workshop Spaces**: Where engineers and makers create
 - **Music Rooms**: Spaces designed for acoustic excellence
-- **Radiant Fields**: Later recreation district featuring Luxa, shown in use after Calista's 125th year
+- **Radiant Fields**: Recreation area featuring the sport of Luxa
 
 ### The Tree of Echoes
 

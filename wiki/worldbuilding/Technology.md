@@ -12,7 +12,7 @@ Astraviin technology exists in seamless integration with organic life, blurring 
 
 Astraviin technology is characterized by:
 
-- **Organic Integration**: Grown living systems integrated with manufactured tools and crafted components
+- **Organic Integration**: Technology that grows rather than being manufactured
 - **Seamless Synthesis**: No clear division between biological and technological
 - **Responsive Systems**: Technology that responds to users' thoughts and presence
 - **Self-Maintenance**: Systems that heal and maintain themselves
@@ -22,7 +22,7 @@ Astraviin technology is characterized by:
 Rather than tools external to the body:
 
 - Technology becomes part of the individual through Core Integration
-- Mental interfaces complement physical controls; children and other pre-integration users retain ordinary access
+- Mental interface replaces physical controls
 - The environment responds to intention
 - Tools feel like extensions of self
 
@@ -94,7 +94,7 @@ Mental interface feels:
 
 ### Living Architecture
 
-Astravus load-bearing and responsive tissues grow with human and automated guidance. Conventional assembly, timber craft, scaffolding and manufactured fittings coexist with them:
+Astravus structures are grown, not built:
 
 - Walls that are literally alive
 - Spaces that adjust to inhabitants' needs
@@ -103,14 +103,12 @@ Astravus load-bearing and responsive tissues grow with human and automated guida
 
 ### Bioluminescence
 
-Living plants supply much of the evening illumination; maintained directional daylight serves daytime life and cultivation:
+Lighting comes from living plants:
 
 - Soft glow during evening hours
 - Pathways illuminated by bioluminescent growth
 - Light that adjusts to community mood
 - No harsh artificial illumination
-
-For Lumen's current physical rules, use [Environment and Supporting Systems](Lumen-Systems.md) and [Artificial Gravity](Artificial-Gravity.md). The nominal habitation field is 1 g. The earlier low-gravity VSB proposal is superseded; artificial gravity is an accepted fictional premise without a fixed underlying mechanism.
 
 ### Climate Control
 

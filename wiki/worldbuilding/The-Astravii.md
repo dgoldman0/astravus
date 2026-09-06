@@ -37,7 +37,7 @@ Astravii are cosmic-scale beings, though their exact dimensions vary. They are l
 
 ### Organic Architecture
 
-Astravii grow their living structural tissues with human and automated guidance. Manufactured systems and crafted spaces coexist with this growth. Key features include:
+Astravii structures are not built but grown. Key features include:
 
 - **Living Walls**: Surfaces that are literally alive, capable of subtle response and change
 - **Bioluminescent Lighting**: Plants that glow softly, providing natural illumination especially in evening hours
@@ -45,8 +45,6 @@ Astravii grow their living structural tissues with human and automated guidance.
 - **Living Murals**: Wall art that shifts and changes, displaying scenes from nature, abstract patterns, or interactive elements
 - **Water Features**: Indoor fountains, ponds, and streams integrated throughout
 - **Gardens**: Lush plant life woven throughout all spaces
-
-The range above describes Astravii generally. For Lumen's specific population, dimensions and gravity, use the [Lumen world specification](Lumen.md#world-specification); a young Astravus need not contain millions of embodied residents.
 
 ### Seamless Integration
 
