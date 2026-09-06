@@ -1,0 +1,38 @@
+{
+  "status": "Exploratory inputs, not canon or measured image dimensions",
+  "population_probes": [
+    6000,
+    18000,
+    60000
+  ],
+  "working_population_range": [
+    6000,
+    18000
+  ],
+  "initial_population": 18000,
+  "area_m2_per_person": {
+    "homes": 60,
+    "civic": 25,
+    "public_gardens": 140,
+    "productive_growing": 75,
+    "services": 30,
+    "shared_transport": 20,
+    "reserve": 40
+  },
+  "gathering_net_m2_per_person": 2,
+  "growing_power_probe_w_per_m2": 100,
+  "emissivity": 0.9,
+  "sigma_w_m2_k4": 5.670374419e-08,
+  "body_envelope_km": {
+    "low": [
+      1.5,
+      1,
+      0.8
+    ],
+    "high": [
+      3,
+      2,
+      1.6
+    ]
+  }
+}

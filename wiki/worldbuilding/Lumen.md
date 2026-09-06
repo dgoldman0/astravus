@@ -4,6 +4,8 @@
 
 **Lumen** is the young Astravus that serves as the primary setting for Calista's narrative. The child of Aurora and Nyx, Lumen represents a community still developing its unique identity and culture while maintaining strong bonds with its parent Astravii. As a living entity, Lumen has its own personality, moods, and ways of expression that shape daily life for its inhabitants.
 
+**Design exploration:** The [VN-led anatomy and scale study](Lumen-Design-Study.md) contains proposed layouts, population ranges and physical foundations. Its proposals are not adopted canon.
+
 ---
 
 ## Basic Information

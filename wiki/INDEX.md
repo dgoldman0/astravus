@@ -1,6 +1,8 @@
 # The Astravus Wiki - Complete Index
 
 For current chronology, use [TIMELINE.md](TIMELINE.md) alongside the [latest draft](../revision/latest.md). [CHARACTERS.md](CHARACTERS.md#continuity-reference) records pronouns and fixed age relationships. Bios add character detail; dialogue pages may expand scenes and are not literal transcripts of the draft. Historical revision proposals are identified in [CHANGEIDEAS.md](CHANGEIDEAS.md).
+
+**Current design study:** [Lumen's anatomy and scale](worldbuilding/Lumen-Design-Study.md) uses the current visual novel as its primary visual source. The reference atlas, sections and numerical ranges are proposals for review, not adopted canon.
 **Terminology:** A [constellation](worldbuilding/Constellations.md) is an adult romantic/peer relationship, distinct from a family or household. Children and familiars belong to families, not to the adults' constellation. The [terminology alignment record](CONSTELLATION_ALIGNMENT.md) marks two proposed manuscript wording refinements separately from world layout.
 
 

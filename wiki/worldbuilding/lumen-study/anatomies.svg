@@ -1,0 +1,579 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1660 1520" role="img" aria-labelledby="title desc">
+<title id="title">Lumen: two internal anatomy proposals</title><desc id="desc">Proposed longitudinal and transverse sections compare branching inhabited structure with connected garden chambers. Rooms and planted routes recur at many heights and across the width. Neither proposal defines an exterior silhouette, a measured plan or adopted canon.</desc>
+<rect width="1660" height="1520" fill="#10221f"/>
+<defs><pattern id="cut" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M-3 3L3-3M0 12L12 0M9 15L15 9" stroke="#bdd0a4" stroke-width="1" opacity=".14"/></pattern><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#e9a35f" stroke-width="1.3"/></marker></defs>
+<style>text{font-family:DejaVu Sans,Arial,sans-serif} .label{font-size:17px;fill:#f0e6d0}.small{font-size:14px;fill:#bbcab9}.title{font-size:30px;fill:#f0e6d0;font-weight:700}.heading{font-size:24px;fill:#f0e6d0;font-weight:600}</style>
+<text x="48" y="53" class="title">LUMEN / TWO WAYS TO INHABIT A LIVING BODY</text>
+<text x="48" y="88" class="label">Proposed anatomy • schematic sections • no measured scale • current VN is the visual source</text>
+<rect x="48" y="110" width="22" height="14" rx="3" fill="#58705a" />
+<text x="80" y="124" class="small">Cut living structure</text>
+<rect x="350" y="110" width="22" height="14" rx="3" fill="#ecc58c" />
+<text x="382" y="124" class="small">Occupied rooms</text>
+<rect x="615" y="110" width="22" height="14" rx="3" fill="#85ae73" />
+<text x="647" y="124" class="small">Planted terrace</text>
+<rect x="860" y="110" width="22" height="14" rx="3" fill="#e9a35f" />
+<text x="892" y="124" class="small">Public route</text>
+<rect x="1115" y="110" width="22" height="14" rx="3" fill="#83c9c6" />
+<text x="1147" y="124" class="small">Supply / return</text>
+<text x="1480" y="124" class="small">↓ shared down</text>
+<rect x="28" y="150" width="1604" height="635" rx="16" fill="#132a25" />
+<text x="48" y="192" class="heading">A / BRANCHING INHABITED STRUCTURE</text>
+<text x="48" y="222" class="small">Long views pass through a load-bearing web; homes, gardens and work recur within it.</text>
+<g transform="translate(62 248)">
+<path d="M8 192C-12 109 75 40 160 28C254-12 367 9 456 21C566-15 682 7 776 33C874 19 962 63 1000 129C1040 192 1009 288 949 341C860 409 764 419 667 395C553 437 435 424 342 405C233 429 104 386 48 319C14 281 11 236 8 192Z" fill="#19342e" stroke="#819474" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M58 315C178 300 244 208 322 174S467 157 550 62" fill="none" stroke="#58705a" stroke-width="61" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M58 315C178 300 244 208 322 174S467 157 550 62" fill="none" stroke="#819474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+<path d="M138 51C185 136 215 222 291 286S405 355 446 410" fill="none" stroke="#58705a" stroke-width="65" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M138 51C185 136 215 222 291 286S405 355 446 410" fill="none" stroke="#819474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+<path d="M325 15C354 105 431 230 493 263S613 286 702 403" fill="none" stroke="#58705a" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M325 15C354 105 431 230 493 263S613 286 702 403" fill="none" stroke="#819474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+<path d="M528 13C580 114 713 151 790 151S909 118 984 141" fill="none" stroke="#58705a" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M528 13C580 114 713 151 790 151S909 118 984 141" fill="none" stroke="#819474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+<path d="M986 240C877 234 794 299 699 300S555 262 491 263" fill="none" stroke="#58705a" stroke-width="61" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M986 240C877 234 794 299 699 300S555 262 491 263" fill="none" stroke="#819474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+<path d="M746 32C711 122 639 186 608 246S584 330 560 412" fill="none" stroke="#58705a" stroke-width="53" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M746 32C711 122 639 186 608 246S584 330 560 412" fill="none" stroke="#819474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+<path d="M46 130C126 148 192 133 248 92" fill="none" stroke="#58705a" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46 130C126 148 192 133 248 92" fill="none" stroke="#819474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+<path d="M840 59C841 209 903 288 949 337" fill="none" stroke="#58705a" stroke-width="49" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M840 59C841 209 903 288 949 337" fill="none" stroke="#819474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+<path d="M284 286C219 339 136 352 86 351" fill="none" stroke="#58705a" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M284 286C219 339 136 352 86 351" fill="none" stroke="#819474" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+<g transform="translate(83 135) scale(0.92)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M76 138Q115.0 132 154 138" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M95.5 136v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="95.5" cy="121" r="7" fill="#85ae73" />
+<path d="M115.0 136v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="115.0" cy="121" r="7" fill="#85ae73" />
+<path d="M134.5 136v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="134.5" cy="121" r="7" fill="#85ae73" />
+<g transform="translate(219 88) scale(0.92)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M212 91Q251.0 85 290 91" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M231.5 89v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="231.5" cy="74" r="7" fill="#85ae73" />
+<path d="M251.0 89v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="251.0" cy="74" r="7" fill="#85ae73" />
+<path d="M270.5 89v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="270.5" cy="74" r="7" fill="#85ae73" />
+<g transform="translate(251 280) scale(0.92)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M69 0V-12Q79-28 89-12V0Z" fill="#ecc58c"/>
+<path d="M77 0V-11Q80-17 83-11V0" fill="#19342e"/>
+</g>
+<path d="M244 283Q294.0 277 344 283" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M269.0 281v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="269.0" cy="266" r="7" fill="#85ae73" />
+<path d="M294.0 281v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="294.0" cy="266" r="7" fill="#85ae73" />
+<path d="M319.0 281v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="319.0" cy="266" r="7" fill="#85ae73" />
+<g transform="translate(283 164) scale(0.92)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M276 167Q315.0 161 354 167" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M295.5 165v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="295.5" cy="150" r="7" fill="#85ae73" />
+<path d="M315.0 165v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="315.0" cy="150" r="7" fill="#85ae73" />
+<path d="M334.5 165v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="334.5" cy="150" r="7" fill="#85ae73" />
+<g transform="translate(446 247) scale(0.92)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M439 250Q478.0 244 517 250" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M458.5 248v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="458.5" cy="233" r="7" fill="#85ae73" />
+<path d="M478.0 248v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="478.0" cy="233" r="7" fill="#85ae73" />
+<path d="M497.5 248v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="497.5" cy="233" r="7" fill="#85ae73" />
+<g transform="translate(563 115) scale(0.92)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M556 118Q595.0 112 634 118" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M575.5 116v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="575.5" cy="101" r="7" fill="#85ae73" />
+<path d="M595.0 116v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="595.0" cy="101" r="7" fill="#85ae73" />
+<path d="M614.5 116v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="614.5" cy="101" r="7" fill="#85ae73" />
+<g transform="translate(706 140) scale(0.92)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M699 143Q738.0 137 777 143" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M718.5 141v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="718.5" cy="126" r="7" fill="#85ae73" />
+<path d="M738.0 141v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="738.0" cy="126" r="7" fill="#85ae73" />
+<path d="M757.5 141v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="757.5" cy="126" r="7" fill="#85ae73" />
+<g transform="translate(776 287) scale(0.92)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+<path d="M69 0V-12Q79-28 89-12V0Z" fill="#ecc58c"/>
+<path d="M77 0V-11Q80-17 83-11V0" fill="#19342e"/>
+</g>
+<path d="M769 290Q819.0 284 869 290" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M794.0 288v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="794.0" cy="273" r="7" fill="#85ae73" />
+<path d="M819.0 288v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="819.0" cy="273" r="7" fill="#85ae73" />
+<path d="M844.0 288v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="844.0" cy="273" r="7" fill="#85ae73" />
+<g transform="translate(623 347) scale(0.92)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M616 350Q655.0 344 694 350" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M635.5 348v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="635.5" cy="333" r="7" fill="#85ae73" />
+<path d="M655.0 348v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="655.0" cy="333" r="7" fill="#85ae73" />
+<path d="M674.5 348v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="674.5" cy="333" r="7" fill="#85ae73" />
+<g transform="translate(337 369) scale(0.92)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M330 372Q369.0 366 408 372" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M349.5 370v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="349.5" cy="355" r="7" fill="#85ae73" />
+<path d="M369.0 370v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="369.0" cy="355" r="7" fill="#85ae73" />
+<path d="M388.5 370v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="388.5" cy="355" r="7" fill="#85ae73" />
+<g transform="translate(872 221) scale(0.92)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M865 224Q904.0 218 943 224" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M884.5 222v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="884.5" cy="207" r="7" fill="#85ae73" />
+<path d="M904.0 222v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="904.0" cy="207" r="7" fill="#85ae73" />
+<path d="M923.5 222v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="923.5" cy="207" r="7" fill="#85ae73" />
+<path d="M72 146C151 173 204 203 252 280L353 290C407 285 425 259 472 251L560 252C647 240 656 169 724 146L835 145C866 142 889 187 905 223" fill="none" stroke="#e9a35f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M248 282C268 213 332 169 358 166L490 164C552 164 555 123 581 120" fill="none" stroke="#e9a35f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M478 279C528 282 567 323 641 348" fill="none" stroke="#83c9c6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 7"/>
+<path d="M849 80C851 159 886 238 918 290" fill="none" stroke="#83c9c6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 7"/>
+<path d="M390 333L390 213" fill="none" stroke="#e9a35f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 6"/>
+<rect x="383" y="267" width="14" height="17" rx="3" fill="#ecc58c" />
+<text x="5" y="457" class="small">Several inhabited heights</text>
+<path d="M10 438L282 280" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="282" cy="280" r="3" fill="#bbcab9" />
+<text x="352" y="457" class="small">Bridges + vertical routes</text>
+<path d="M357 438L390 266" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="390" cy="266" r="3" fill="#bbcab9" />
+<text x="695" y="457" class="small">Supply paths within structure</text>
+<path d="M700 438L905 253" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="905" cy="253" r="3" fill="#bbcab9" />
+</g>
+<g transform="translate(1155 262)">
+<text x="15" y="-12" class="label">Across the width</text>
+<path d="M12 190C-4 98 53 20 139 12C203-5 302 23 358 68C424 131 429 239 375 314C322 390 218 410 122 376C46 350 2 271 12 190Z" fill="#19342e" stroke="#819474" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51 68C135 164 209 174 388 190" fill="none" stroke="#58705a" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M136 14C127 135 165 221 127 375" fill="none" stroke="#58705a" stroke-width="43" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M307 41C252 151 278 297 336 358" fill="none" stroke="#58705a" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 275C148 256 240 265 362 311" fill="none" stroke="#58705a" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M163 182C203 218 239 235 273 268" fill="none" stroke="#58705a" stroke-width="39" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(64 113) scale(0.9)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+</g>
+<path d="M59 116Q79.0 110 99 116" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M69.0 114v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="69.0" cy="99" r="7" fill="#85ae73" />
+<path d="M79.0 114v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="79.0" cy="99" r="7" fill="#85ae73" />
+<path d="M89.0 114v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="89.0" cy="99" r="7" fill="#85ae73" />
+<g transform="translate(150 162) scale(0.9)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M145 165Q175.0 159 205 165" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160.0 163v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="160.0" cy="148" r="7" fill="#85ae73" />
+<path d="M175.0 163v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="175.0" cy="148" r="7" fill="#85ae73" />
+<path d="M190.0 163v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="190.0" cy="148" r="7" fill="#85ae73" />
+<g transform="translate(277 161) scale(0.9)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M272 164Q302.0 158 332 164" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M287.0 162v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="287.0" cy="147" r="7" fill="#85ae73" />
+<path d="M302.0 162v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="302.0" cy="147" r="7" fill="#85ae73" />
+<path d="M317.0 162v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="317.0" cy="147" r="7" fill="#85ae73" />
+<g transform="translate(60 261) scale(0.9)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M55 264Q85.0 258 115 264" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.0 262v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70.0" cy="247" r="7" fill="#85ae73" />
+<path d="M85.0 262v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="85.0" cy="247" r="7" fill="#85ae73" />
+<path d="M100.0 262v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100.0" cy="247" r="7" fill="#85ae73" />
+<g transform="translate(230 257) scale(0.9)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M225 260Q255.0 254 285 260" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M240.0 258v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="240.0" cy="243" r="7" fill="#85ae73" />
+<path d="M255.0 258v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="255.0" cy="243" r="7" fill="#85ae73" />
+<path d="M270.0 258v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="270.0" cy="243" r="7" fill="#85ae73" />
+<g transform="translate(172 334) scale(0.9)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+</g>
+<path d="M167 337Q187.0 331 207 337" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M177.0 335v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="177.0" cy="320" r="7" fill="#85ae73" />
+<path d="M187.0 335v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="187.0" cy="320" r="7" fill="#85ae73" />
+<path d="M197.0 335v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="197.0" cy="320" r="7" fill="#85ae73" />
+<path d="M75 125Q169 148 249 162L249 243Q199 241 119 264" fill="none" stroke="#e9a35f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="0" y="433" class="small">Occupation crosses the width.</text>
+<text x="0" y="455" class="small">No single trunk or central city.</text>
+</g>
+<text x="48" y="758" class="label">Best fit: dome depth + construction paths. Main work: support spans, pressure zones, sound and access.</text>
+<rect x="28" y="805" width="1604" height="632" rx="16" fill="#132a25" />
+<text x="48" y="847" class="heading">B / LINKED GARDEN CHAMBERS</text>
+<text x="48" y="877" class="small">Varied hollows open through thicker living material; rooms inhabit their edges, not one common floor.</text>
+<g transform="translate(62 902)">
+<path d="M8 192C-12 109 75 40 160 28C254-12 367 9 456 21C566-15 682 7 776 33C874 19 962 63 1000 129C1040 192 1009 288 949 341C860 409 764 419 667 395C553 437 435 424 342 405C233 429 104 386 48 319C14 281 11 236 8 192Z" fill="#58705a" stroke="#819474" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 192C-12 109 75 40 160 28C254-12 367 9 456 21C566-15 682 7 776 33C874 19 962 63 1000 129C1040 192 1009 288 949 341C860 409 764 419 667 395C553 437 435 424 342 405C233 429 104 386 48 319C14 281 11 236 8 192Z" fill="url(#cut)"/>
+<path d="M134 145C197 151 223 163 299 218" fill="none" stroke="#19342e" stroke-width="65" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M271 217C340 211 374 139 468 116" fill="none" stroke="#19342e" stroke-width="65" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M462 120C544 154 558 220 607 269" fill="none" stroke="#19342e" stroke-width="60" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M596 270C682 238 720 170 798 151" fill="none" stroke="#19342e" stroke-width="65" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M754 287C823 274 838 217 911 226" fill="none" stroke="#19342e" stroke-width="55" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M300 302C397 323 467 322 549 315" fill="none" stroke="#19342e" stroke-width="45" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="134" cy="145" rx="95" ry="76" fill="#19342e"/>
+<path d="M48 176.92Q134 187.56 220 176.92" fill="none" stroke="#58705a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 175.4Q130.75 169.4 211.5 175.4" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90.375 173.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="90.375" cy="158.4" r="7" fill="#85ae73" />
+<path d="M130.75 173.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="130.75" cy="158.4" r="7" fill="#85ae73" />
+<path d="M171.125 173.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="171.125" cy="158.4" r="7" fill="#85ae73" />
+<g transform="translate(56 173.12) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<g transform="translate(63 210.36) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<ellipse cx="294" cy="255" rx="110" ry="105" fill="#19342e"/>
+<path d="M193 299.1Q294 313.8 395 299.1" fill="none" stroke="#58705a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M195 297.0Q288.5 291.0 382.0 297.0" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M241.75 295.0v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="241.75" cy="280.0" r="7" fill="#85ae73" />
+<path d="M288.5 295.0v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="288.5" cy="280.0" r="7" fill="#85ae73" />
+<path d="M335.25 295.0v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="335.25" cy="280.0" r="7" fill="#85ae73" />
+<g transform="translate(201 293.85) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<g transform="translate(208 345.3) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<ellipse cx="466" cy="116" rx="105" ry="70" fill="#19342e"/>
+<path d="M370 145.4Q466 155.2 562 145.4" fill="none" stroke="#58705a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M372 144.0Q461.25 138.0 550.5 144.0" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M416.625 142.0v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="416.625" cy="127.0" r="7" fill="#85ae73" />
+<path d="M461.25 142.0v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="461.25" cy="127.0" r="7" fill="#85ae73" />
+<path d="M505.875 142.0v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="505.875" cy="127.0" r="7" fill="#85ae73" />
+<g transform="translate(378 141.9) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<g transform="translate(385 176.2) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<ellipse cx="601" cy="290" rx="95" ry="86" fill="#19342e"/>
+<path d="M515 326.12Q601 338.16 687 326.12" fill="none" stroke="#58705a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M517 324.4Q597.75 318.4 678.5 324.4" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M557.375 322.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="557.375" cy="307.4" r="7" fill="#85ae73" />
+<path d="M597.75 322.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="597.75" cy="307.4" r="7" fill="#85ae73" />
+<path d="M638.125 322.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="638.125" cy="307.4" r="7" fill="#85ae73" />
+<g transform="translate(523 321.82) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<g transform="translate(530 363.96) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<ellipse cx="799" cy="142" rx="101" ry="79" fill="#19342e"/>
+<path d="M707 175.18Q799 186.24 891 175.18" fill="none" stroke="#58705a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M709 173.6Q794.85 167.6 880.7 173.6" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M751.925 171.6v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="751.925" cy="156.6" r="7" fill="#85ae73" />
+<path d="M794.85 171.6v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="794.85" cy="156.6" r="7" fill="#85ae73" />
+<path d="M837.775 171.6v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="837.775" cy="156.6" r="7" fill="#85ae73" />
+<g transform="translate(715 171.23) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<g transform="translate(722 209.94) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<ellipse cx="896" cy="278" rx="66" ry="67" fill="#19342e"/>
+<path d="M839 306.14Q896 315.52 953 306.14" fill="none" stroke="#58705a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M841 304.8Q897.1 298.8 953.2 304.8" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M869.05 302.8v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="869.05" cy="287.8" r="7" fill="#85ae73" />
+<path d="M897.1 302.8v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="897.1" cy="287.8" r="7" fill="#85ae73" />
+<path d="M925.15 302.8v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="925.15" cy="287.8" r="7" fill="#85ae73" />
+<g transform="translate(847 302.79) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<g transform="translate(854 335.62) scale(0.82)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M89 180C189 159 222 215 273 296L367 292C391 245 424 165 477 160C527 165 544 279 567 327L655 327C697 298 722 220 774 177L841 174C863 186 862 254 892 303" fill="none" stroke="#e9a35f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M227 75C335 59 384 80 450 33M365 378C428 365 482 378 543 389M675 81C639 128 635 162 699 193" fill="none" stroke="#83c9c6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 7"/>
+<text x="5" y="457" class="small">Rooms in the chamber walls</text>
+<path d="M10 438L240 353" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="240" cy="353" r="3" fill="#bbcab9" />
+<text x="352" y="457" class="small">Broad connecting thresholds</text>
+<path d="M357 438L409 167" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="409" cy="167" r="3" fill="#bbcab9" />
+<text x="695" y="457" class="small">Local courts at different heights</text>
+<path d="M700 438L799 184" fill="none" stroke="#bbcab9" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="799" cy="184" r="3" fill="#bbcab9" />
+</g>
+<g transform="translate(1155 918)">
+<text x="15" y="-12" class="label">Across the width</text>
+<path d="M12 190C-4 98 53 20 139 12C203-5 302 23 358 68C424 131 429 239 375 314C322 390 218 410 122 376C46 350 2 271 12 190Z" fill="#58705a" stroke="#819474" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 190C-4 98 53 20 139 12C203-5 302 23 358 68C424 131 429 239 375 314C322 390 218 410 122 376C46 350 2 271 12 190Z" fill="url(#cut)"/>
+<path d="M95 119C173 124 214 182 295 206" fill="none" stroke="#19342e" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M161 282C194 221 253 219 295 206" fill="none" stroke="#19342e" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M138 110L138 268" fill="none" stroke="#19342e" stroke-width="37" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="102" cy="114" rx="66" ry="64" fill="#19342e"/>
+<g transform="translate(51 176) scale(0.85)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M41 136.4Q100.4 130.4 159.8 136.4" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.7 134.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70.7" cy="119.4" r="7" fill="#85ae73" />
+<path d="M100.4 134.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100.4" cy="119.4" r="7" fill="#85ae73" />
+<path d="M130.1 134.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="130.1" cy="119.4" r="7" fill="#85ae73" />
+<g transform="translate(54 133.2) scale(0.75)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+</g>
+<ellipse cx="289" cy="179" rx="75" ry="82" fill="#19342e"/>
+<g transform="translate(229 259) scale(0.85)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M219 207.7Q286.5 201.7 354.0 207.7" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M252.75 205.7v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="252.75" cy="190.7" r="7" fill="#85ae73" />
+<path d="M286.5 205.7v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="286.5" cy="190.7" r="7" fill="#85ae73" />
+<path d="M320.25 205.7v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="320.25" cy="190.7" r="7" fill="#85ae73" />
+<g transform="translate(232 203.6) scale(0.75)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+</g>
+<ellipse cx="158" cy="283" rx="75" ry="64" fill="#19342e"/>
+<g transform="translate(98 345) scale(0.85)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+<path d="M46 0V-12Q56-28 66-12V0Z" fill="#ecc58c"/>
+<path d="M54 0V-11Q57-17 60-11V0" fill="#19342e"/>
+</g>
+<path d="M88 305.4Q155.5 299.4 223.0 305.4" fill="none" stroke="#85ae73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M121.75 303.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="121.75" cy="288.4" r="7" fill="#85ae73" />
+<path d="M155.5 303.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="155.5" cy="288.4" r="7" fill="#85ae73" />
+<path d="M189.25 303.4v-12" fill="none" stroke="#85ae73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="189.25" cy="288.4" r="7" fill="#85ae73" />
+<g transform="translate(101 302.2) scale(0.75)">
+<path d="M0 0V-12Q10-28 20-12V0Z" fill="#ecc58c"/>
+<path d="M8 0V-11Q11-17 14-11V0" fill="#19342e"/>
+<path d="M23 0V-12Q33-28 43-12V0Z" fill="#ecc58c"/>
+<path d="M31 0V-11Q34-17 37-11V0" fill="#19342e"/>
+</g>
+<path d="M72 141C138 160 228 189 292 210C286 259 212 274 163 309" fill="none" stroke="#e9a35f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="0" y="433" class="small">Connected, unequal chambers.</text>
+<text x="0" y="455" class="small">Keep long views through openings.</text>
+</g>
+<text x="48" y="1410" class="label">Best fit: intimate home + sheltered grove. Main work: preserve openness, visual depth and direct travel.</text>
+<text x="48" y="1481" class="label">Recommendation: develop A with B’s sheltered pockets. Outlines and cavity counts are illustrative; neither is an exterior design.</text>
+</svg>
