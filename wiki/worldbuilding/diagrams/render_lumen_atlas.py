@@ -130,6 +130,9 @@ def render():
              fontsize=9, color=ink)
     output = root / "lumen-atlas.svg"
     fig.savefig(output, facecolor=bg, metadata={"Date": None})
+    # Matplotlib emits trailing spaces inside multiline SVG paths. Retain the
+    # path separators while keeping generated diffs free of whitespace errors.
+    output.write_text("\n".join(line.rstrip() for line in output.read_text().splitlines()) + "\n")
     # The PNG is a disposable visual-review artifact, not a duplicate wiki asset.
     fig.savefig("/tmp/lumen-atlas-review.png", dpi=130, facecolor=bg)
     plt.close(fig)
