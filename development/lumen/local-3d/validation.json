@@ -1,0 +1,1163 @@
+{
+  "summary": {
+    "status": "fail",
+    "pass": 38,
+    "fail": 2,
+    "open": 11,
+    "blocker_objects": 1675,
+    "support_objects": 156
+  },
+  "method": {
+    "route_sample_spacing_max_m": 0.18,
+    "body_height_spacing_max_m": 0.2,
+    "horizontal_rays_per_height": 24,
+    "support_probes_per_position": 9,
+    "geometry": "Evaluated mesh triangles in world space, including tagged hidden objects",
+    "limits": "Sampled occupancy and visibility only; no dynamics, structural, acoustic or code-compliance claim."
+  },
+  "checks": [
+    {
+      "id": "visual_architecture_review",
+      "title": "Architecture and proportions against the visual novel",
+      "status": "fail",
+      "detail": "Rejected by the author. Pond section and dimensions, household enclosure, oak mass and refuge architecture depart from the primary VN references. Automated clearance results do not resolve those failures. See README.md."
+    },
+    {
+      "id": "private_kael",
+      "title": "Kael — independent room access",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 18.15,
+        "samples": 103,
+        "radius_m": 0.28,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "private_cali",
+      "title": "Cali — independent room access",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 13.35,
+        "samples": 76,
+        "radius_m": 0.28,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "private_lyra",
+      "title": "Lyra — independent room access",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 8.55,
+        "samples": 50,
+        "radius_m": 0.28,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "private_maia",
+      "title": "Maia — independent room access",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 18.25,
+        "samples": 103,
+        "radius_m": 0.28,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "private_selene",
+      "title": "Selene — independent room access",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 13.45,
+        "samples": 76,
+        "radius_m": 0.28,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "private_arin",
+      "title": "Arin — independent room access",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 6.75,
+        "samples": 40,
+        "radius_m": 0.28,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "private_dorian",
+      "title": "Dorian — independent room access",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 11.65,
+        "samples": 67,
+        "radius_m": 0.28,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "house_stair",
+      "title": "Household stair and upper passage",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 15.441,
+        "samples": 112,
+        "radius_m": 0.28,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.27,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "home_lift",
+      "title": "Reserved lift travel envelope",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present. Support was checked only at the endpoints; lift mechanism, operation and loads remain outside this check.",
+      "metrics": {
+        "route_length_m": 4.8,
+        "samples": 28,
+        "radius_m": 0.7,
+        "height_m": 2.05,
+        "floor_tolerance_m": 0.25,
+        "support": "endpoint-only",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "oak_dog",
+      "title": "Barkley’s proposed rear route to upper landing",
+      "status": "fail",
+      "detail": "The proposed envelope intersects geometry or lacks supporting ground. First unsupported probe: [40.64286, 1.96429, 4.40714].",
+      "metrics": {
+        "route_length_m": 30.613,
+        "samples": 188,
+        "radius_m": 0.25,
+        "height_m": 0.9,
+        "floor_tolerance_m": 0.27,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": {
+          "sample": 99,
+          "feet": [
+            40.64286,
+            1.96429,
+            4.40714
+          ],
+          "point": [
+            40.64286,
+            1.96429,
+            4.40714
+          ],
+          "reason": "No upward supporting surface within tolerance",
+          "hit": {
+            "object": "Rear oak turning landing.001",
+            "point": [
+              40.64286,
+              1.96429,
+              4.62
+            ],
+            "distance": 0.05714273825287819,
+            "normal_z": -1.0
+          }
+        }
+      }
+    },
+    {
+      "id": "upper_entry",
+      "title": "Upper landing and room entrance",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 6.108,
+        "samples": 36,
+        "radius_m": 0.28,
+        "height_m": 1.75,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "oak_hollow",
+      "title": "Lower refuge and separate hollow entrance",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 4.6,
+        "samples": 27,
+        "radius_m": 0.28,
+        "height_m": 1.8,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "wheel_carry",
+      "title": "Carry the waterwheel from Arin’s bench to the pond",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 34.841,
+        "samples": 197,
+        "radius_m": 0.58,
+        "height_m": 1.75,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "pond_return",
+      "title": "Wide return from pond to garden washing",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 27.541,
+        "samples": 156,
+        "radius_m": 0.72,
+        "height_m": 1.75,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "central_bypass",
+      "title": "Central room: circulation around occupied table",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 16.009,
+        "samples": 94,
+        "radius_m": 0.3,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "music_approach",
+      "title": "Music room approach from household hall",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 18.246,
+        "samples": 103,
+        "radius_m": 0.3,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "library_approach",
+      "title": "Library approach without crossing a private room",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 13.4,
+        "samples": 76,
+        "radius_m": 0.3,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "treehouse_pacing_walk",
+      "title": "Joren can pace beside the upper map table",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 4.33,
+        "samples": 26,
+        "radius_m": 0.28,
+        "height_m": 1.55,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "bath_access",
+      "title": "Bath approach around its privacy screen",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 6.2,
+        "samples": 37,
+        "radius_m": 0.28,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "kitchen_work",
+      "title": "Shared table to clean cooking area",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 4.9,
+        "samples": 29,
+        "radius_m": 0.3,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "oak_shared_bypass",
+      "title": "Shared woodland route bypasses the household and refuge",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 95.072,
+        "samples": 531,
+        "radius_m": 0.6,
+        "height_m": 1.9,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "screw_sorting",
+      "title": "Arin and Cali can kneel at the workshop floor",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.8,
+        "height_m": 1.2,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "kitchen_pair",
+      "title": "Maia and Lyra can cook together",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.8,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "landing_help",
+      "title": "Clear landing beside the final ladder rung",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.36,
+        "height_m": 1.8,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "treehouse_pacing",
+      "title": "Turning space beside the upper map table",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.48,
+        "height_m": 1.8,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "rescue_cali",
+      "title": "Cali kneels on supported dry bank",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.29,
+        "height_m": 1.0,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "rescue_kael",
+      "title": "Kael kneels on supported dry bank",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.29,
+        "height_m": 1.0,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "recovery",
+      "title": "Dry space for the three-child embrace",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.7,
+        "height_m": 1.5,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "wheel_gathering",
+      "title": "Central dry floor for the wheel gathering",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 1.35,
+        "height_m": 1.85,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "wheel_position_arin",
+      "title": "Arin — supported wheel-scene position",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.28,
+        "height_m": 1.75,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "wheel_position_cali",
+      "title": "Cali — supported wheel-scene position",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.23,
+        "height_m": 1.35,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "wheel_position_joren",
+      "title": "Joren — supported wheel-scene position",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.23,
+        "height_m": 1.42,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "wheel_position_cassia",
+      "title": "Cassia — supported wheel-scene position",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.23,
+        "height_m": 1.35,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "wheel_position_lyra",
+      "title": "Lyra — supported wheel-scene position",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.2,
+        "height_m": 1.15,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "wheel_position_barkley",
+      "title": "Barkley — supported wheel-scene position",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.57,
+        "height_m": 0.9,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "wheel_position_shadow",
+      "title": "Shadow — supported wheel-scene position",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.32,
+        "height_m": 0.5,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "wheel_position_nibble",
+      "title": "Nibble — supported wheel-scene position",
+      "status": "pass",
+      "detail": "Sampled body clearance and supporting surfaces are present.",
+      "metrics": {
+        "route_length_m": 0.0,
+        "samples": 1,
+        "radius_m": 0.13,
+        "height_m": 0.2,
+        "floor_tolerance_m": 0.25,
+        "support": "all",
+        "collision_failure": null,
+        "support_failure": null
+      }
+    },
+    {
+      "id": "patch_ladder",
+      "title": "Planting patch sees the oak ladder",
+      "status": "pass",
+      "detail": "No tagged blocker intersects the sightline before its final 0.10 m.",
+      "metrics": {
+        "length_m": 22.824,
+        "from": [
+          12.8,
+          -8.5,
+          1.2
+        ],
+        "to": [
+          35.55,
+          -9.8,
+          2.5
+        ],
+        "obstruction": null
+      }
+    },
+    {
+      "id": "upper_garden",
+      "title": "Upper refuge looks through an open bay toward the garden",
+      "status": "pass",
+      "detail": "No tagged blocker intersects the sightline before its final 0.10 m.",
+      "metrics": {
+        "length_m": 13.36,
+        "from": [
+          31.7,
+          -4.0,
+          6.1
+        ],
+        "to": [
+          26.0,
+          -15.0,
+          1.1
+        ],
+        "obstruction": null
+      }
+    },
+    {
+      "id": "action_motion",
+      "title": "Reaching, climbing and animal movement",
+      "status": "open",
+      "detail": "Mannequins and clearance envelopes check occupied space. The pond assistance pose, final ladder step, wheel installation and Barkley’s gait need articulated motion review; static clearance does not establish the whole action."
+    },
+    {
+      "id": "acoustics",
+      "title": "Fountain and music audibility",
+      "status": "open",
+      "detail": "The model provides connected halls and nearby rooms. Reverberation, door transmission and sound levels are not simulated."
+    },
+    {
+      "id": "structure",
+      "title": "Living structure, roots and water",
+      "status": "open",
+      "detail": "Root and support volumes are represented. Material strength, pressure, root biology, growth and hydraulic capacity remain uncalculated."
+    },
+    {
+      "id": "lift_operation",
+      "title": "Accessible vertical travel",
+      "status": "open",
+      "detail": "A 2.2 m cabin envelope and its two landing states are modeled. Motion, gates, power and accessible operation require a further mechanism design."
+    },
+    {
+      "id": "neighborhood_scope",
+      "title": "Nearby homes and excursions",
+      "status": "open",
+      "detail": "Cassia’s home, Joren’s home, the courtyard, Tree of Echoes, construction and plaza are distinct connected context destinations. Their complete interiors and crowd capacities are not reconstructed."
+    },
+    {
+      "id": "dome_access",
+      "title": "Dome scaffold descent",
+      "status": "open",
+      "detail": "The context climb is a sloped placeholder that reserves a broad route suitable for a later tread design. Its detailed stairs and Barkley’s descent remain to be validated before that excursion model is complete."
+    },
+    {
+      "id": "regional_scale",
+      "title": "Distances and population",
+      "status": "open",
+      "detail": "Local distances are proposal values in metres. They do not determine a census, the whole Astravus’s dimensions, or the extent of shared forest and plains."
+    },
+    {
+      "id": "camera_home",
+      "title": "Home — reference landmark comparison",
+      "status": "open",
+      "detail": "Approximate landmark RMS displacement is 0.173 in normalized image coordinates. Camera and geometry require visual review; this is not a recovered blueprint.",
+      "camera": "home",
+      "metrics": {
+        "id": "home",
+        "landmarks": [
+          {
+            "id": "table",
+            "label": "Round tabletop center",
+            "world": [
+              0,
+              -0.7,
+              0.82
+            ],
+            "reference_uv": [
+              0.45,
+              0.55
+            ],
+            "model_uv": [
+              0.4618,
+              0.681
+            ],
+            "error": 0.1315,
+            "in_front": true
+          },
+          {
+            "id": "fountain",
+            "label": "Fountain niche center",
+            "world": [
+              -1.7,
+              3.4,
+              1.25
+            ],
+            "reference_uv": [
+              0.385,
+              0.345
+            ],
+            "model_uv": [
+              0.3884,
+              0.5408
+            ],
+            "error": 0.1958,
+            "in_front": true
+          },
+          {
+            "id": "hall",
+            "label": "Internal passage floor opening",
+            "world": [
+              2.5,
+              4,
+              0.15
+            ],
+            "reference_uv": [
+              0.665,
+              0.445
+            ],
+            "model_uv": [
+              0.6596,
+              0.663
+            ],
+            "error": 0.2181,
+            "in_front": true
+          },
+          {
+            "id": "garden_door",
+            "label": "Garden doorway threshold",
+            "world": [
+              5,
+              1.7,
+              0.05
+            ],
+            "reference_uv": [
+              0.935,
+              0.595
+            ],
+            "model_uv": [
+              0.9331,
+              0.7431
+            ],
+            "error": 0.1481,
+            "in_front": true
+          },
+          {
+            "id": "sofa",
+            "label": "Left sofa seat center",
+            "world": [
+              -3.5,
+              0.3,
+              0.7
+            ],
+            "reference_uv": [
+              0.105,
+              0.505
+            ],
+            "model_uv": [
+              0.1182,
+              0.6615
+            ],
+            "error": 0.1571,
+            "in_front": true
+          }
+        ],
+        "rms": 0.1731
+      }
+    },
+    {
+      "id": "camera_garden",
+      "title": "Garden — reference landmark comparison",
+      "status": "open",
+      "detail": "Approximate landmark RMS displacement is 0.141 in normalized image coordinates. Camera and geometry require visual review; this is not a recovered blueprint.",
+      "camera": "garden",
+      "metrics": {
+        "id": "garden",
+        "landmarks": [
+          {
+            "id": "upper_door",
+            "label": "Upper arched doorway center",
+            "world": [
+              35.55,
+              -7,
+              6.0
+            ],
+            "reference_uv": [
+              0.695,
+              0.265
+            ],
+            "model_uv": [
+              0.5569,
+              0.4045
+            ],
+            "error": 0.1963,
+            "in_front": true
+          },
+          {
+            "id": "ladder_top",
+            "label": "Ladder contact with upper landing",
+            "world": [
+              35.54999923706055,
+              -8.399999618530273,
+              4.800000190734863
+            ],
+            "reference_uv": [
+              0.68,
+              0.385
+            ],
+            "model_uv": [
+              0.5822,
+              0.4559
+            ],
+            "error": 0.1208,
+            "in_front": true
+          },
+          {
+            "id": "ladder_bottom",
+            "label": "Ladder contact with lower refuge",
+            "world": [
+              35.54999923706055,
+              -11.199999809265137,
+              0.20000000298023224
+            ],
+            "reference_uv": [
+              0.635,
+              0.76
+            ],
+            "model_uv": [
+              0.6409,
+              0.6934
+            ],
+            "error": 0.0669,
+            "in_front": true
+          },
+          {
+            "id": "lower_door",
+            "label": "Lower hollow doorway center",
+            "world": [
+              37,
+              -7.4,
+              1.3
+            ],
+            "reference_uv": [
+              0.72,
+              0.66
+            ],
+            "model_uv": [
+              0.5937,
+              0.6274
+            ],
+            "error": 0.1304,
+            "in_front": true
+          },
+          {
+            "id": "lower_table",
+            "label": "Low table within the lower sitting platform",
+            "world": [
+              33.2,
+              -12.1,
+              0.6
+            ],
+            "reference_uv": [
+              0.595,
+              0.835
+            ],
+            "model_uv": [
+              0.6076,
+              0.679
+            ],
+            "error": 0.1565,
+            "in_front": true
+          }
+        ],
+        "rms": 0.1408
+      }
+    },
+    {
+      "id": "camera_treehouse",
+      "title": "Treehouse — reference landmark comparison",
+      "status": "open",
+      "detail": "Approximate landmark RMS displacement is 0.159 in normalized image coordinates. Camera and geometry require visual review; this is not a recovered blueprint.",
+      "camera": "treehouse",
+      "metrics": {
+        "id": "treehouse",
+        "landmarks": [
+          {
+            "id": "trunk",
+            "label": "Main trunk contact with the room floor",
+            "world": [
+              36.8,
+              -4.6,
+              4.8
+            ],
+            "reference_uv": [
+              0.16,
+              0.57
+            ],
+            "model_uv": [
+              0.0209,
+              0.7678
+            ],
+            "error": 0.2418,
+            "in_front": true
+          },
+          {
+            "id": "upper_door",
+            "label": "Upper arched entrance center",
+            "world": [
+              35.55,
+              -7,
+              6.0
+            ],
+            "reference_uv": [
+              0.37,
+              0.36
+            ],
+            "model_uv": [
+              0.299,
+              0.5122
+            ],
+            "error": 0.1679,
+            "in_front": true
+          },
+          {
+            "id": "open_bay",
+            "label": "Main open viewing bay center",
+            "world": [
+              31.7,
+              -7,
+              6.85
+            ],
+            "reference_uv": [
+              0.68,
+              0.32
+            ],
+            "model_uv": [
+              0.6016,
+              0.3861
+            ],
+            "error": 0.1025,
+            "in_front": true
+          },
+          {
+            "id": "rail",
+            "label": "Main viewing bay rail midpoint",
+            "world": [
+              31.7,
+              -7,
+              5.76
+            ],
+            "reference_uv": [
+              0.67,
+              0.415
+            ],
+            "model_uv": [
+              0.6012,
+              0.5525
+            ],
+            "error": 0.1538,
+            "in_front": true
+          },
+          {
+            "id": "table",
+            "label": "Low map-table surface center",
+            "world": [
+              31.25,
+              -4.55,
+              5.35
+            ],
+            "reference_uv": [
+              0.66,
+              0.78
+            ],
+            "model_uv": [
+              0.6732,
+              0.7103
+            ],
+            "error": 0.0709,
+            "in_front": true
+          }
+        ],
+        "rms": 0.1587
+      }
+    },
+    {
+      "id": "camera_pond",
+      "title": "Pond — reference landmark comparison",
+      "status": "open",
+      "detail": "Approximate landmark RMS displacement is 0.073 in normalized image coordinates. Camera and geometry require visual review; this is not a recovered blueprint.",
+      "camera": "pond",
+      "metrics": {
+        "id": "pond",
+        "landmarks": [
+          {
+            "id": "far_shore",
+            "label": "Far central water-to-shore contact",
+            "world": [
+              19,
+              -7.5,
+              -0.18
+            ],
+            "reference_uv": [
+              0.545,
+              0.365
+            ],
+            "model_uv": [
+              0.5,
+              0.4523
+            ],
+            "error": 0.0982,
+            "in_front": true
+          },
+          {
+            "id": "near_shore",
+            "label": "Near central water-to-shore contact",
+            "world": [
+              19,
+              -12.5,
+              -0.18
+            ],
+            "reference_uv": [
+              0.515,
+              0.81
+            ],
+            "model_uv": [
+              0.5,
+              0.7864
+            ],
+            "error": 0.028,
+            "in_front": true
+          },
+          {
+            "id": "spout",
+            "label": "Feed-spout tip before the wheel project",
+            "world": [
+              17,
+              -9,
+              0.2
+            ],
+            "reference_uv": [
+              0.32,
+              0.44
+            ],
+            "model_uv": [
+              0.2896,
+              0.4373
+            ],
+            "error": 0.0305,
+            "in_front": true
+          },
+          {
+            "id": "yellow_plants",
+            "label": "Tall yellow planting group",
+            "world": [
+              18.6,
+              -6.4,
+              1.3
+            ],
+            "reference_uv": [
+              0.39,
+              0.305
+            ],
+            "model_uv": [
+              0.4679,
+              0.2146
+            ],
+            "error": 0.1193,
+            "in_front": true
+          },
+          {
+            "id": "lilies",
+            "label": "Main lily group center",
+            "world": [
+              20.4,
+              -10.3,
+              -0.15
+            ],
+            "reference_uv": [
+              0.69,
+              0.6
+            ],
+            "model_uv": [
+              0.6758,
+              0.5677
+            ],
+            "error": 0.0353,
+            "in_front": true
+          }
+        ],
+        "rms": 0.0733
+      }
+    }
+  ],
+  "provenance": {
+    "blender": "4.0.2",
+    "builder_sha256": "bb7f2c825ea0706a4dbe807df52ad453aeac6306b68fc21bfb6b71875d255401",
+    "inventory_sha256": "10074a13b66be899856749becdf8bb3938ba966d4079febda9db78aeeffe1ff7",
+    "proposal": "LC02 candidate",
+    "units": "metres"
+  },
+  "acceptance": "Rejected by author on 2026-09-06; no accepted local geometry"
+}

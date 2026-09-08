@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "notes": [
+    "These landmarks were estimated by viewing the current VN images. They guide a candidate reconstruction; they are not recovered dimensions or new canon.",
+    "Coordinates are normalized to the entire source image: u increases from left to right and v from top to bottom. A landmark denotes the named visible feature, not the center of its entire 3D object.",
+    "The tolerance of 0.08 is a broad composition allowance in normalized image coordinates. Passing a projection comparison does not prove camera calibration, hidden geometry, physical clearance or visual continuity.",
+    "The garden exterior and upper treehouse interior look toward opposite sides of the same open frontage. The oak can appear right in the exterior and left in the interior without mirroring the structure.",
+    "The pond feed spout is movable project dressing. Its outlet is redirected and raised in waterwheel.png; the spout coordinate below applies to garden-pond.png only.",
+    "Source paths are relative to the repository root. The hashes identify the pixels inspected for this record."
+  ],
+  "views": [
+    {
+      "id": "home",
+      "source": "visual-novel/game/images/backgrounds/family-home.png",
+      "sha256": "dbf252a7502305a15c685bcbc6bfc7973f5bf2db277401dbdd6e6fda87d15a6a",
+      "landmarks": [
+        {"id": "table", "label": "Round tabletop center", "uv": [0.45, 0.55], "tolerance": 0.08},
+        {"id": "fountain", "label": "Fountain niche center", "uv": [0.385, 0.345], "tolerance": 0.08},
+        {"id": "hall", "label": "Internal passage floor opening", "uv": [0.665, 0.445], "tolerance": 0.08},
+        {"id": "garden_door", "label": "Garden doorway threshold", "uv": [0.935, 0.595], "tolerance": 0.08},
+        {"id": "sofa", "label": "Left sofa seat center", "uv": [0.105, 0.505], "tolerance": 0.08}
+      ],
+      "relationships": [
+        "The camera looks across the foreground table toward a curved rear wall with substantial shelves, seating and a recessed fountain.",
+        "The fountain is left of a receding planted internal hall. A separate garden opening is farther right and leads onto a stone path.",
+        "Retain usable circulation around the table and chairs. Additional hall branches, cooking and support spaces can continue beyond this camera view.",
+        "The garden opening and internal passage have different destinations; their shared planted appearance does not make them interchangeable."
+      ]
+    },
+    {
+      "id": "garden",
+      "source": "visual-novel/game/images/backgrounds/garden.png",
+      "sha256": "e32d470defeda7faccd5e6fa1c08125faf9e60f818506e6cb15aae364725d243",
+      "landmarks": [
+        {"id": "upper_door", "label": "Upper arched doorway center", "uv": [0.695, 0.265], "tolerance": 0.08},
+        {"id": "ladder_top", "label": "Ladder contact with upper landing", "uv": [0.68, 0.385], "tolerance": 0.08},
+        {"id": "ladder_bottom", "label": "Ladder contact with lower refuge", "uv": [0.635, 0.76], "tolerance": 0.08},
+        {"id": "lower_door", "label": "Lower hollow doorway center", "uv": [0.72, 0.66], "tolerance": 0.08},
+        {"id": "lower_table", "label": "Low table within the lower sitting platform", "uv": [0.595, 0.835], "tolerance": 0.08}
+      ],
+      "relationships": [
+        "The broad upper room projects left of the massive right-hand oak. The upper door is at its trunk end.",
+        "The ladder connects the furnished lower refuge to a real upper landing beside the upper entrance. Keep the landing connected to the room floor.",
+        "The lower hollow entrance is a distinct door beside the ladder; it does not replace the upper entrance.",
+        "The broad rounded platform holds cushions, tables, maps and chests. Planting beds border it, while the garden path passes to its left.",
+        "The model must preserve room for the landing assistance scene and routes between the lower door, ladder and sitting area. Matching their image positions alone does not establish those clearances."
+      ]
+    },
+    {
+      "id": "treehouse",
+      "source": "visual-novel/game/images/backgrounds/treehouse-shaded.png",
+      "sha256": "ed727c67e4e6628eef1e2ba9820b70a1d98cd32b4d71e4c04100f4508e9d16d3",
+      "landmarks": [
+        {"id": "trunk", "label": "Main trunk contact with the room floor", "uv": [0.16, 0.57], "tolerance": 0.08},
+        {"id": "upper_door", "label": "Upper arched entrance center", "uv": [0.37, 0.36], "tolerance": 0.08},
+        {"id": "open_bay", "label": "Main open viewing bay center", "uv": [0.68, 0.32], "tolerance": 0.08},
+        {"id": "rail", "label": "Main viewing bay rail midpoint", "uv": [0.67, 0.415], "tolerance": 0.08},
+        {"id": "table", "label": "Low map-table surface center", "uv": [0.66, 0.78], "tolerance": 0.08}
+      ],
+      "relationships": [
+        "The massive trunk occupies the left foreground and rises diagonally into overhead branches. The arched upper entrance is behind and beside it near center-left.",
+        "Open viewing bays extend across the right, with branch rails and fabric curtains. The image does not establish glazing.",
+        "The low map table is in the right foreground, with cushions and treasure storage nearby and clear floor extending toward the entrance.",
+        "An interior camera looking back toward the garden-facing frontage can reconcile this view with the exterior's right-hand oak. The upper door must remain the same physical entrance in both views.",
+        "Leaves outside the open bays may obscure parts of the wider garden; this does not remove the required outlook toward flowers and glowing paths."
+      ]
+    },
+    {
+      "id": "pond",
+      "source": "visual-novel/game/images/backgrounds/book-one/garden-pond.png",
+      "sha256": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
+      "landmarks": [
+        {"id": "far_shore", "label": "Far central water-to-shore contact", "uv": [0.545, 0.365], "tolerance": 0.08},
+        {"id": "near_shore", "label": "Near central water-to-shore contact", "uv": [0.515, 0.81], "tolerance": 0.08},
+        {"id": "spout", "label": "Feed-spout tip before the wheel project", "uv": [0.32, 0.44], "tolerance": 0.08},
+        {"id": "yellow_plants", "label": "Tall yellow planting group", "uv": [0.39, 0.305], "tolerance": 0.08},
+        {"id": "lilies", "label": "Main lily group center", "uv": [0.69, 0.60], "tolerance": 0.08}
+      ],
+      "relationships": [
+        "The shallow basin has visible bottom pebbles, low irregular coping and adjacent dry paving. Preserve the small change in height from paving to coping to water.",
+        "The timber boundary and planting groups remain behind the basin. A broad dry working bank extends beyond the near edge.",
+        "The wider garden-work-area view places the pond farther back and to the right, leaving continuous dry paving across much of the foreground. It must not introduce a raised retaining-wall pool.",
+        "The waterwheel view keeps the basin and camera while changing the small feed fitting. Its outlet moves to approximately u=0.245, v=0.395; model that as a movable fitting rather than a displaced pond.",
+        "The work and rescue views require reachable water, supported kneeling positions and dry recovery space. All visible water must connect to the same basin in these recurring production views."
+      ]
+    }
+  ]
+}

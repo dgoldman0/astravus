@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cali’s nearby world · Lumen 3D study</title>
+<style>
+:root{color-scheme:dark;--bg:#10221f;--panel:#19352e;--ink:#f0e6d0;--muted:#b9cdbd;--line:#496659;--accent:#edb573;--blue:#96d4ce;--pass:#b6dfaf;--fail:#ffb6a7}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif}a{color:var(--blue);text-underline-offset:.2em}button,select,input{font:inherit}button,select{color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:.5rem .7rem}button{cursor:pointer}button:hover,button[aria-pressed=true]{border-color:var(--accent);color:var(--accent)}button:disabled{opacity:.5;cursor:default}:focus-visible{outline:3px solid var(--accent);outline-offset:3px}header,main,footer{max-width:1620px;margin:auto;padding:22px 28px}header{padding-bottom:8px}h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.17}h1{font-size:clamp(2rem,4vw,3rem);margin:8px 0}h2{font-size:1.8rem;margin:0 0 16px}h3{font-size:1rem;margin:0 0 8px}p{max-width:85ch;margin:8px 0 15px}.eyebrow{color:var(--accent);font-size:.75rem;letter-spacing:.09em;text-transform:uppercase}.muted,small{color:var(--muted)}nav{display:flex;gap:20px;flex-wrap:wrap;font-size:.87rem;margin:12px 0}main{padding-top:10px}.toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 12px}.toolbar label{display:flex;align-items:center;gap:8px;min-width:0;max-width:100%}.toolbar select{min-width:0;max-width:100%;width:min(420px,100%)}input[type=checkbox]{accent-color:var(--accent)}.workspace{display:grid;grid-template-columns:minmax(0,1fr) 240px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#0a1814}.viewport{height:clamp(410px,65vh,800px);min-width:0;position:relative;overflow:hidden}.viewport canvas{width:100%;height:100%;display:block;touch-action:none;cursor:grab}.viewport canvas:active{cursor:grabbing}.scene-labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}.scene-label{position:absolute;left:0;top:0;transform:translate(-50%,-100%);padding:3px 7px;border:1px solid #7b937c66;background:#10221fd9;color:var(--ink);font-size:11px;line-height:1.3;white-space:nowrap;pointer-events:auto;box-shadow:0 1px 4px #0005;max-width:190px;overflow:hidden;text-overflow:ellipsis}.view-note{position:absolute;top:12px;left:12px;max-width:calc(100% - 24px);padding:7px 10px;background:#10221fcf;border-radius:5px;font-size:.8rem;pointer-events:none}.scale{position:absolute;bottom:16px;left:18px;font-size:11px;text-shadow:0 1px 3px #000;pointer-events:none}.scale-line{height:7px;width:100px;border:1px solid var(--ink);border-top:none;margin-bottom:4px}.orientation{position:absolute;right:16px;bottom:10px;width:88px;height:82px;pointer-events:none}.orientation line{stroke-width:2}.orientation text{font:12px system-ui,sans-serif;fill:var(--ink)}.fallback{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:24px}.fallback[hidden]{display:none}.fallback img{max-width:100%;max-height:80%;object-fit:contain}.fallback p{padding:8px 12px;background:var(--panel);font-size:.85rem}.collections{padding:18px;background:var(--panel);border-left:1px solid var(--line);overflow:auto;max-height:800px}.collections h3{color:var(--accent)}.group-list{display:grid;gap:10px;margin:14px 0 22px}.group-list label{display:flex;gap:9px;align-items:flex-start;font-size:.88rem;cursor:pointer}.group-list input{margin-top:4px;flex:0 0 auto}.metrics{font-size:.83rem;border-top:1px solid var(--line);padding-top:12px}.metrics span{display:block;margin:5px 0}.instructions{font-size:.84rem;color:var(--muted);margin:10px 0 26px;max-width:none}.scene-caption{border-left:2px solid var(--accent);padding:3px 16px;margin:20px 0 30px}.scene-caption p{margin:4px 0}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:20px 0 36px}.comparison figure{margin:0;min-width:0}.image-shell{background:#0a1814;border:1px solid var(--line);border-radius:8px;aspect-ratio:16/9;display:grid;place-items:center;overflow:hidden}.image-shell img{width:100%;height:100%;object-fit:contain}.image-shell span{padding:20px;color:var(--muted);font-size:.9rem}.comparison figcaption{font-size:.87rem;margin-top:10px}.comparison figcaption strong{display:block;font-weight:500;color:var(--accent)}section{margin-top:36px;scroll-margin-top:20px}.status-bar{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}.status-count{padding:7px 12px;border:1px solid var(--line);border-radius:6px;font-size:.88rem}.pass{color:var(--pass)}.fail{color:var(--fail)}.open{color:var(--accent)}.checks{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.check{border:1px solid var(--line);border-radius:8px;padding:17px;background:var(--panel)}.check h3{display:flex;gap:10px;align-items:baseline}.badge{font-size:.69rem;letter-spacing:.04em;text-transform:uppercase;border:1px solid currentColor;border-radius:3px;padding:1px 5px;white-space:nowrap}.check p{font-size:.9rem;color:var(--muted);margin-bottom:0}.check a{display:inline-block;margin-top:8px;font-size:.86rem}footer{font-size:.83rem;color:var(--muted);border-top:1px solid var(--line);margin-top:38px;padding-bottom:34px}[hidden]{display:none!important}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:900px){header,main,footer{padding-left:18px;padding-right:18px}.workspace{grid-template-columns:1fr}.collections{border-left:0;border-top:1px solid var(--line);padding:14px;max-height:none}.group-list{grid-template-columns:repeat(2,minmax(0,1fr));margin:10px 0}.metrics{display:flex;gap:15px;flex-wrap:wrap;margin-top:10px}.viewport{height:56vh;min-height:350px}.comparison{gap:14px}.scene-label{font-size:10px;max-width:150px}.checks{grid-template-columns:1fr}}@media(max-width:580px){.comparison{grid-template-columns:1fr}.toolbar label:first-child{width:100%}.toolbar select{width:100%}.toolbar button{font-size:.85rem}.toolbar label{font-size:.85rem}.viewport{height:54vh;min-height:330px}.view-note{font-size:.72rem}.group-list{font-size:.8rem}.eyebrow{font-size:.65rem}nav{gap:12px}h1{font-size:2.1rem}.instructions{font-size:.79rem}.orientation{width:68px;height:65px}.scene-label{max-width:125px}.check h3{font-size:.92rem}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{body{background:#fff;color:#182c25}.workspace,.toolbar,.instructions{display:none}.comparison,.checks{display:block}.comparison figure,.check{break-inside:avoid;margin-bottom:20px}.check{background:#fff}.check p,small,.muted{color:#354b42}a{color:#216561}header,main,footer{padding:12px}.status-count{color:#182c25}}
+</style>
+</head>
+<body>
+<aside style="padding:1rem;background:#542923;color:#fff;border-bottom:2px solid #e49d84"><strong>Rejected geometry — retained for reference.</strong> The author rejected this model’s architecture and proportions. Clearance results do not validate its resemblance to the VN. <a href="README.md" style="color:#ffe5b2">Read the source comparison.</a></aside>
+<header>
+<div class="eyebrow">Lumen · local spatial study · proposed dimensions</div>
+<h1 id="model-title">Cali’s nearby world</h1>
+<nav aria-label="Related material"><a href="../../README.md">Development</a><a href="../Lumen-Local-Connections.md">Household connections</a><a href="../Lumen-Space-Inventory.md">Story and visual sources</a><a href="../../../wiki/worldbuilding/Lumen.md">Canon</a><a href="#comparison">Camera comparisons</a><a href="#validation">Validation</a></nav>
+</header>
+<main>
+<div class="toolbar">
+<label for="camera-select">View <select id="camera-select"></select></label>
+<button id="reset-view" type="button">Reset view</button>
+<button id="cutaway" type="button" aria-pressed="false">Open cutaway</button>
+<label><input type="checkbox" id="show-labels" checked> Labels</label>
+</div>
+<div class="workspace">
+<div class="viewport" id="viewport">
+<canvas id="scene" tabindex="0" aria-label="Interactive three-dimensional Lumen model. Arrow keys orbit, Shift plus arrow keys pan, plus and minus zoom." aria-describedby="scene-instructions"></canvas>
+<div class="scene-labels" id="scene-labels"></div>
+<div class="view-note" id="view-note">Loading the model…</div>
+<div class="scale" id="scale"><div class="scale-line" id="scale-line"></div><span id="scale-text"></span></div>
+<svg class="orientation" id="orientation" viewBox="0 0 88 82" aria-label="Model coordinate axes"><g id="axes"></g></svg>
+<div class="fallback" id="fallback" hidden><img id="fallback-image" alt="Saved Blender render of the selected camera"><p id="fallback-message">Interactive 3D is unavailable in this browser. The saved Blender camera is shown instead.</p></div>
+</div>
+<aside class="collections" aria-label="Visible parts of the model"><h3>Explore the layers</h3><div class="group-list" id="group-list"></div><div class="metrics" id="metrics"></div></aside>
+</div>
+<p class="instructions" id="scene-instructions">Drag to orbit · Shift-drag or right-drag to pan · scroll to zoom. Touch: drag to orbit, two fingers to move and zoom. Keyboard: arrows to orbit, Shift + arrows to pan, + / − to zoom. Select a label to look closer. Distances are in metres.</p>
+<noscript><p>Enable JavaScript to explore the model and its camera comparisons. The exported <a href="model-review.json">model data</a> and <a href="validation.json">validation record</a> remain available.</p></noscript>
+<div class="scene-caption"><h3 id="camera-title"></h3><p id="camera-note"></p><p class="muted" id="camera-position"></p></div>
+<section id="comparison" aria-labelledby="comparison-heading">
+<h2 id="comparison-heading">The same place, in model and story</h2>
+<p class="muted">The saved Blender render uses the selected camera. The VN image is the original visual guide. Compare the visible room, openings, furnishings and sightlines; the model proposes dimensions that the illustration does not specify.</p>
+<div class="comparison">
+<figure><div class="image-shell"><img id="render-image" alt="" hidden><span id="render-empty">No saved render for this view.</span></div><figcaption><strong>Blender camera</strong><span id="render-caption"></span> <a id="render-link" target="_blank" rel="noopener" hidden>Open render</a></figcaption></figure>
+<figure><div class="image-shell"><img id="reference-image" alt="" hidden><span id="reference-empty">This overview has no single VN reference frame.</span></div><figcaption><strong>Current VN guide</strong><span id="reference-caption">Original image, unchanged.</span> <a id="reference-link" target="_blank" rel="noopener" hidden>Open original</a></figcaption></figure>
+</div>
+</section>
+<section id="validation" aria-labelledby="validation-heading">
+<h2 id="validation-heading">What the model establishes</h2>
+<p id="validation-summary"></p>
+<div class="status-bar" id="status-bar" aria-label="Validation result counts"></div>
+<ul class="checks" id="checks"></ul>
+</section>
+</main>
+<footer>The interactive view uses the geometry exported from Blender, in the same world coordinates. Lighting and surface appearance differ from the saved renders. This is a development model; proposed dimensions and open checks are not adopted canon. <a href="model-review.json">Model data</a> · <a href="validation.json">Validation record</a></footer>
+<script>
+"use strict";
+const model = __MODEL_JSON__;
+const validation = __VALIDATION_JSON__;
+const el = id => document.getElementById(id);
+const number = n => Number(n).toLocaleString("en-US",{maximumFractionDigits:1});
+const vec = {add:(a,b)=>a.map((x,i)=>x+b[i]),sub:(a,b)=>a.map((x,i)=>x-b[i]),mul:(a,s)=>a.map(x=>x*s),dot:(a,b)=>a.reduce((s,x,i)=>s+x*b[i],0),cross:(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]],length:a=>Math.hypot(...a),unit:a=>{const d=Math.hypot(...a)||1;return a.map(x=>x/d)}};
+function multiply(a,b){const out=new Float32Array(16);for(let c=0;c<4;c++)for(let r=0;r<4;r++)for(let k=0;k<4;k++)out[c*4+r]+=a[k*4+r]*b[c*4+k];return out;}
+function perspective(fov,aspect,near,far){const f=1/Math.tan(fov*Math.PI/360),nf=1/(near-far);return new Float32Array([f/aspect,0,0,0,0,f,0,0,0,0,(far+near)*nf,-1,0,0,2*far*near*nf,0]);}
+function lookAt(eye,target){const z=vec.unit(vec.sub(eye,target)),up=Math.abs(z[2])>.999?[0,1,0]:[0,0,1],x=vec.unit(vec.cross(up,z)),y=vec.cross(z,x);return new Float32Array([x[0],y[0],z[0],0,x[1],y[1],z[1],0,x[2],y[2],z[2],0,-vec.dot(x,eye),-vec.dot(y,eye),-vec.dot(z,eye),1]);}
+function project(point,matrix){const p=[...point,1],v=[0,0,0,0];for(let r=0;r<4;r++)for(let c=0;c<4;c++)v[r]+=matrix[c*4+r]*p[c];return {x:v[0]/v[3],y:v[1]/v[3],z:v[2]/v[3],w:v[3]};}
+const bounds=model.bounds,span=vec.sub(bounds.max,bounds.min),diagonal=vec.length(span),visible=new Map(model.groups.map(g=>[g.id,g.visible!==false]));
+let currentCamera=model.cameras[0],target=[...currentCamera.target],distance=1,yaw=0,pitch=0,fov=currentCamera.fov,dirty=true,lastView=null,isCustom=false,cutawaySnapshot=null;
+const cutGroups=model.groups.filter(g=>/roof|context|ceiling|canopy|enclosure/i.test(g.id+" "+g.title)).map(g=>g.id);
+const canvas=el("scene"),viewport=el("viewport"),groupInputs=new Map(),labelNodes=[];
+el("model-title").textContent=model.title||"Cali’s nearby world";
+document.title=(model.title||"Cali’s nearby world")+" · Lumen 3D study";
+for(const camera of model.cameras){const option=document.createElement("option");option.value=camera.id;option.textContent=camera.title;el("camera-select").append(option);}
+for(const group of model.groups){const label=document.createElement("label"),input=document.createElement("input"),text=document.createElement("span");input.type="checkbox";input.checked=visible.get(group.id);input.dataset.group=group.id;input.addEventListener("change",()=>{visible.set(group.id,input.checked);cutawaySnapshot=null;syncCutaway();dirty=true;});text.textContent=group.title;label.append(input,text);el("group-list").append(label);groupInputs.set(group.id,input);}
+for(const text of ["Model extent: "+span.map(number).join(" × ")+" m","Z is up · artificial gravity assumed","Scale bar measures the camera’s focus plane"]){const item=document.createElement("span");item.textContent=text;el("metrics").append(item);}
+function syncGroups(){for(const [id,input] of groupInputs)input.checked=visible.get(id);syncCutaway();dirty=true;}
+function syncCutaway(){const active=cutGroups.length>0&&cutGroups.every(id=>!visible.get(id));el("cutaway").setAttribute("aria-pressed",String(active));el("cutaway").textContent=active?"Close cutaway":"Open cutaway";el("cutaway").disabled=cutGroups.length===0;}
+el("cutaway").addEventListener("click",()=>{if(cutGroups.every(id=>!visible.get(id))){for(const id of cutGroups)visible.set(id,cutawaySnapshot?cutawaySnapshot.get(id):true);cutawaySnapshot=null;}else{cutawaySnapshot=new Map(visible);for(const id of cutGroups)visible.set(id,false);}syncGroups();});
+el("show-labels").addEventListener("change",()=>{el("scene-labels").hidden=!el("show-labels").checked;dirty=true;});
+function eyePosition(){return vec.add(target,[distance*Math.cos(pitch)*Math.cos(yaw),distance*Math.cos(pitch)*Math.sin(yaw),distance*Math.sin(pitch)]);}
+function adoptPosition(position,focus){target=[...focus];const offset=vec.sub(position,target);distance=vec.length(offset);yaw=Math.atan2(offset[1],offset[0]);pitch=Math.asin(Math.max(-1,Math.min(1,offset[2]/distance)));}
+function custom(){isCustom=true;el("view-note").textContent="Exploring from “"+currentCamera.title+"” · reset to return";dirty=true;}
+function setImage(prefix,path,alt,emptyMessage){const image=el(prefix+"-image"),empty=el(prefix+"-empty"),link=el(prefix+"-link");image.hidden=true;empty.hidden=false;empty.textContent=emptyMessage;link.hidden=!path;if(!path){image.removeAttribute("src");return;}link.href=path;image.alt=alt;image.onload=()=>{image.hidden=false;empty.hidden=true;};image.onerror=()=>{image.hidden=true;empty.hidden=false;empty.textContent="This image is not available at the recorded path.";};image.src=path;}
+function updateFallback(){const image=el("fallback-image");image.hidden=!currentCamera.render;if(currentCamera.render){image.onerror=()=>{image.hidden=true;el("fallback-message").textContent="Interactive 3D is unavailable, and this camera’s saved render could not be loaded. Open the review from its repository folder with the renders present.";};image.src=currentCamera.render;image.alt="Saved Blender render: "+currentCamera.title;}}
+function selectCamera(id){currentCamera=model.cameras.find(c=>c.id===id)||model.cameras[0];el("camera-select").value=currentCamera.id;adoptPosition(currentCamera.position,currentCamera.target);fov=currentCamera.fov;isCustom=false;cutawaySnapshot=null;for(const g of model.groups)visible.set(g.id,Array.isArray(currentCamera.hide_groups)?!currentCamera.hide_groups.includes(g.id):g.visible!==false);syncGroups();el("view-note").textContent=currentCamera.title+" · metres";el("camera-title").textContent=currentCamera.title;el("camera-note").textContent=currentCamera.note||"";el("camera-position").textContent="Camera at "+currentCamera.position.map(number).join(", ")+" m · looking toward "+currentCamera.target.map(number).join(", ")+" m";el("render-caption").textContent=currentCamera.title+". ";setImage("render",currentCamera.render,"Blender model: "+currentCamera.title,"No saved render for this view.");setImage("reference",currentCamera.reference,"Current VN guide for "+currentCamera.title,"This overview has no single VN reference frame.");el("reference-caption").hidden=!currentCamera.reference;updateFallback();dirty=true;}
+el("camera-select").addEventListener("change",()=>selectCamera(el("camera-select").value));el("reset-view").addEventListener("click",()=>selectCamera(currentCamera.id));
+for(const label of model.labels||[]){const button=document.createElement("button");button.type="button";button.className="scene-label";button.textContent=label.text;button.title="Look closer at "+label.text;button.setAttribute("aria-label","Look closer at "+label.text);button.addEventListener("click",()=>{target=[...label.position];distance=Math.min(distance,24);pitch=Math.max(pitch,.2);custom();canvas.focus({preventScroll:true});});el("scene-labels").append(button);labelNodes.push({data:label,node:button});}
+const summary=validation.summary;el("validation-summary").textContent=typeof summary==="string"?summary:summary?.text||summary?.detail||"Read the passed checks alongside the open questions below. A passed geometric check establishes only the condition it measures.";
+for(const status of ["pass","open","fail"]){const count=validation.checks.filter(c=>c.status===status).length;if(!count&&status==="fail")continue;const badge=document.createElement("span");badge.className="status-count "+status;badge.textContent=count+" "+({pass:"passed",open:"open",fail:"failed"}[status]);el("status-bar").append(badge);}
+for(const check of validation.checks){const item=document.createElement("li"),heading=document.createElement("h3"),badge=document.createElement("span"),title=document.createElement("span"),detail=document.createElement("p");item.className="check";item.id="check-"+check.id;badge.className="badge "+check.status;badge.textContent={pass:"Passed",open:"Open",fail:"Failed"}[check.status];title.textContent=check.title;detail.textContent=check.detail;heading.append(badge,title);item.append(heading,detail);if(check.camera&&model.cameras.some(c=>c.id===check.camera)){const link=document.createElement("a");link.href="#viewport";link.textContent="Inspect this camera";link.addEventListener("click",()=>selectCamera(check.camera));item.append(link);}el("checks").append(item);}
+let gl=null,program=null,buffers=[],locations=null;
+const occlusionTrees=[];
+function failWebGL(message){gl=null;if(message)console.warn(message);el("fallback").hidden=false;canvas.hidden=true;el("scene-labels").hidden=true;el("scale").hidden=true;el("orientation").hidden=true;el("view-note").hidden=true;updateFallback();}
+function shader(type,source){const value=gl.createShader(type);gl.shaderSource(value,source);gl.compileShader(value);if(!gl.getShaderParameter(value,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(value));return value;}
+function initGL(){gl=canvas.getContext("webgl",{alpha:false,antialias:true,preserveDrawingBuffer:false});if(!gl)throw Error("WebGL is unavailable; showing saved renders.");program=gl.createProgram();gl.attachShader(program,shader(gl.VERTEX_SHADER,"attribute vec3 aPosition;attribute vec3 aNormal;uniform mat4 uMatrix;varying vec3 vNormal;void main(){vNormal=aNormal;gl_Position=uMatrix*vec4(aPosition,1.0);}"));gl.attachShader(program,shader(gl.FRAGMENT_SHADER,"precision mediump float;varying vec3 vNormal;uniform vec3 uColor;void main(){vec3 n=normalize(vNormal);if(!gl_FrontFacing)n=-n;float light=.48+.37*max(dot(n,normalize(vec3(-.35,-.5,1.))),0.)+.15*max(dot(n,normalize(vec3(.6,.25,.5))),0.);gl_FragColor=vec4(uColor*light,1.0);}"));gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));locations={position:gl.getAttribLocation(program,"aPosition"),normal:gl.getAttribLocation(program,"aNormal"),matrix:gl.getUniformLocation(program,"uMatrix"),color:gl.getUniformLocation(program,"uColor")};for(const mesh of model.meshes){const data=new Float32Array(mesh.triangles.length*6);let cursor=0;for(let i=0;i<mesh.triangles.length;i+=3){const points=mesh.triangles.slice(i,i+3).map(index=>mesh.vertices.slice(index*3,index*3+3));const normal=vec.unit(vec.cross(vec.sub(points[1],points[0]),vec.sub(points[2],points[0])));for(const point of points){data.set(point,cursor);data.set(normal,cursor+3);cursor+=6;}}const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.bufferData(gl.ARRAY_BUFFER,data,gl.STATIC_DRAW);buffers.push({buffer,count:mesh.triangles.length,color:mesh.color,group:mesh.group});occlusionTrees.push({mesh,tree:buildOcclusionTree(mesh)});}gl.enable(gl.DEPTH_TEST);gl.depthFunc(gl.LEQUAL);gl.clearColor(.039,.094,.078,1);gl.useProgram(program);gl.enableVertexAttribArray(locations.position);gl.enableVertexAttribArray(locations.normal);}
+// A small bounding-volume tree keeps labels behind opaque geometry out of view.
+// The same exported triangles are used for drawing and this visibility check.
+function buildOcclusionTree(mesh){
+  const triangles=[];
+  for(let offset=0;offset<mesh.triangles.length;offset+=3){
+    const points=mesh.triangles.slice(offset,offset+3).map(i=>mesh.vertices.slice(i*3,i*3+3));
+    const min=[0,1,2].map(axis=>Math.min(...points.map(p=>p[axis])));
+    const max=[0,1,2].map(axis=>Math.max(...points.map(p=>p[axis])));
+    triangles.push({offset,min,max,center:min.map((v,i)=>(v+max[i])/2)});
+  }
+  function branch(items){
+    const min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];
+    for(const item of items)for(let axis=0;axis<3;axis++){min[axis]=Math.min(min[axis],item.min[axis]);max[axis]=Math.max(max[axis],item.max[axis]);}
+    if(items.length<=16)return {min,max,items};
+    const extent=vec.sub(max,min),axis=extent.indexOf(Math.max(...extent));
+    items.sort((a,b)=>a.center[axis]-b.center[axis]);
+    const middle=Math.floor(items.length/2);
+    return {min,max,left:branch(items.slice(0,middle)),right:branch(items.slice(middle))};
+  }
+  return branch(triangles);
+}
+function rayMeetsBox(origin,direction,limit,node){
+  let near=0,far=limit;
+  for(let axis=0;axis<3;axis++){
+    if(Math.abs(direction[axis])<1e-10){if(origin[axis]<node.min[axis]||origin[axis]>node.max[axis])return false;continue;}
+    let a=(node.min[axis]-origin[axis])/direction[axis],b=(node.max[axis]-origin[axis])/direction[axis];
+    if(a>b)[a,b]=[b,a];near=Math.max(near,a);far=Math.min(far,b);if(near>far)return false;
+  }
+  return true;
+}
+function rayMeetsTriangle(origin,direction,limit,mesh,offset){
+  const points=mesh.triangles.slice(offset,offset+3).map(i=>mesh.vertices.slice(i*3,i*3+3));
+  const edge1=vec.sub(points[1],points[0]),edge2=vec.sub(points[2],points[0]),p=vec.cross(direction,edge2),det=vec.dot(edge1,p);
+  if(Math.abs(det)<1e-9)return false;
+  const inv=1/det,t=vec.sub(origin,points[0]),u=vec.dot(t,p)*inv;
+  if(u<0||u>1)return false;
+  const q=vec.cross(t,edge1),v=vec.dot(direction,q)*inv;
+  if(v<0||u+v>1)return false;
+  const distance=vec.dot(edge2,q)*inv;
+  return distance>.03&&distance<limit;
+}
+function rayMeetsTree(origin,direction,limit,mesh,node){
+  if(!rayMeetsBox(origin,direction,limit,node))return false;
+  if(node.items)return node.items.some(item=>rayMeetsTriangle(origin,direction,limit,mesh,item.offset));
+  return rayMeetsTree(origin,direction,limit,mesh,node.left)||rayMeetsTree(origin,direction,limit,mesh,node.right);
+}
+function labelOccluded(eye,position){
+  const offset=vec.sub(position,eye),distance=vec.length(offset),direction=vec.unit(offset),limit=distance-.2;
+  if(limit<=0)return false;
+  return occlusionTrees.some(({mesh,tree})=>visible.get(mesh.group)&&rayMeetsTree(eye,direction,limit,mesh,tree));
+}
+function drawAxes(view){const origin=[39,47],axes=[{v:[1,0,0],color:"#eb9d7d",name:"X"},{v:[0,1,0],color:"#a5d69d",name:"Y"},{v:[0,0,1],color:"#a0d4e5",name:"Z"}],root=el("axes");root.replaceChildren();for(const axis of axes){const x=origin[0]+26*(view[0]*axis.v[0]+view[4]*axis.v[1]+view[8]*axis.v[2]),y=origin[1]-26*(view[1]*axis.v[0]+view[5]*axis.v[1]+view[9]*axis.v[2]);const line=document.createElementNS("http://www.w3.org/2000/svg","line"),text=document.createElementNS("http://www.w3.org/2000/svg","text");for(const [key,value] of Object.entries({x1:origin[0],y1:origin[1],x2:x,y2:y,stroke:axis.color}))line.setAttribute(key,value);text.setAttribute("x",x+3);text.setAttribute("y",y-3);text.textContent=axis.name;root.append(line,text);}}
+function draw(){if(!gl||!dirty)return;dirty=false;const rect=viewport.getBoundingClientRect(),ratio=Math.min(window.devicePixelRatio||1,2),width=Math.max(1,Math.round(rect.width*ratio)),height=Math.max(1,Math.round(rect.height*ratio));if(canvas.width!==width||canvas.height!==height){canvas.width=width;canvas.height=height;}gl.viewport(0,0,width,height);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);const eye=eyePosition(),view=lookAt(eye,target),projection=perspective(fov,width/height,.05,Math.max(diagonal*8,distance+diagonal*3,1000)),matrix=multiply(projection,view);lastView={eye,target:[...target],matrix};gl.uniformMatrix4fv(locations.matrix,false,matrix);for(const mesh of buffers){if(!visible.get(mesh.group))continue;gl.bindBuffer(gl.ARRAY_BUFFER,mesh.buffer);gl.vertexAttribPointer(locations.position,3,gl.FLOAT,false,24,0);gl.vertexAttribPointer(locations.normal,3,gl.FLOAT,false,24,12);gl.uniform3fv(locations.color,mesh.color);gl.drawArrays(gl.TRIANGLES,0,mesh.count);}const occupied=[];for(const label of labelNodes){const p=project(label.data.position,matrix),x=(p.x+1)*rect.width/2,y=(1-p.y)*rect.height/2;let show=visible.get(label.data.group)&&p.w>0&&p.z>-1&&p.z<1&&x>12&&x<rect.width-12&&y>45&&y<rect.height-50;if(show&&labelOccluded(eye,label.data.position))show=false;if(show){const half=Math.min(92,label.data.text.length*3.1+10);if(occupied.some(o=>Math.abs(o.x-x)<o.half+half&&Math.abs(o.y-y)<27))show=false;else occupied.push({x,y,half});}label.node.hidden=!show;if(show){label.node.style.left=x+"px";label.node.style.top=y+"px";}}const pixelsPerMetre=rect.height/(2*distance*Math.tan(fov*Math.PI/360)),desired=100/pixelsPerMetre,power=10**Math.floor(Math.log10(desired)),nice=[1,2,5,10].map(v=>v*power).reduce((a,b)=>Math.abs(b-desired)<Math.abs(a-desired)?b:a);el("scale-line").style.width=nice*pixelsPerMetre+"px";el("scale-text").textContent=nice.toLocaleString("en-US",{maximumSignificantDigits:3})+" m at focus plane";drawAxes(view);}
+function frame(){draw();requestAnimationFrame(frame);}
+function orbit(dx,dy){yaw-=dx*.006;pitch=Math.max(-1.48,Math.min(1.48,pitch+dy*.006));custom();}
+function pan(dx,dy){const eye=eyePosition(),forward=vec.unit(vec.sub(target,eye)),right=vec.unit(vec.cross(forward,[0,0,1])),up=vec.unit(vec.cross(right,forward)),scale=2*distance*Math.tan(fov*Math.PI/360)/Math.max(1,viewport.clientHeight);target=vec.add(target,vec.add(vec.mul(right,-dx*scale),vec.mul(up,dy*scale)));custom();}
+function zoom(amount){distance=Math.max(.45,Math.min(diagonal*8,distance*Math.exp(amount)));custom();}
+const pointers=new Map();let gesture=null;
+function pointerState(){const values=[...pointers.values()];if(values.length>=2)return {x:(values[0].x+values[1].x)/2,y:(values[0].y+values[1].y)/2,d:Math.hypot(values[0].x-values[1].x,values[0].y-values[1].y),count:values.length};return values.length?{...values[0],count:1}:null;}
+canvas.addEventListener("contextmenu",event=>event.preventDefault());canvas.addEventListener("pointerdown",event=>{canvas.focus({preventScroll:true});canvas.setPointerCapture(event.pointerId);pointers.set(event.pointerId,{x:event.clientX,y:event.clientY,pan:event.shiftKey||event.button===2||event.button===1});gesture=pointerState();});canvas.addEventListener("pointermove",event=>{if(!pointers.has(event.pointerId))return;const prior=pointers.get(event.pointerId);pointers.set(event.pointerId,{...prior,x:event.clientX,y:event.clientY});const next=pointerState();if(gesture&&gesture.count===next.count){const dx=next.x-gesture.x,dy=next.y-gesture.y;if(next.count>=2){pan(dx,dy);if(gesture.d>0&&next.d>0)zoom(Math.log(gesture.d/next.d));}else if(prior.pan||event.shiftKey)pan(dx,dy);else orbit(dx,dy);}gesture=next;});for(const type of ["pointerup","pointercancel","lostpointercapture"])canvas.addEventListener(type,event=>{pointers.delete(event.pointerId);gesture=pointerState();});canvas.addEventListener("wheel",event=>{event.preventDefault();zoom(Math.max(-.25,Math.min(.25,event.deltaY*(event.deltaMode===1?.025:.0015))));},{passive:false});canvas.addEventListener("keydown",event=>{const direction={ArrowLeft:[-16,0],ArrowRight:[16,0],ArrowUp:[0,-16],ArrowDown:[0,16]}[event.key];if(direction){event.preventDefault();(event.shiftKey?pan:orbit)(...direction);}else if(["+","=","-","_"].includes(event.key)){event.preventDefault();zoom(["+","="].includes(event.key)?-.12:.12);}else if(event.key.toLowerCase()==="r"){event.preventDefault();selectCamera(currentCamera.id);}});
+canvas.addEventListener("webglcontextlost",event=>{event.preventDefault();gl=null;failWebGL("The 3D graphics context was lost; showing saved renders.");});new ResizeObserver(()=>{dirty=true;}).observe(viewport);
+selectCamera(currentCamera.id);try{initGL();frame();}catch(error){failWebGL(error.message);}
+window.LumenReview={selectCamera,getState:()=>({camera:currentCamera.id,eye:eyePosition(),target:[...target],fov,visible:Object.fromEntries(visible),webgl:!!gl,custom:isCustom,meshCount:model.meshes.length,labelCount:labelNodes.length}),project:point=>lastView?project(point,lastView.matrix):null};
+</script>
+</body>
+</html>

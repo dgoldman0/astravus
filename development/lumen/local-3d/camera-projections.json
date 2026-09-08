@@ -1,0 +1,406 @@
+[
+  {
+    "id": "home",
+    "landmarks": [
+      {
+        "id": "table",
+        "label": "Round tabletop center",
+        "world": [
+          0,
+          -0.7,
+          0.82
+        ],
+        "reference_uv": [
+          0.45,
+          0.55
+        ],
+        "model_uv": [
+          0.4618,
+          0.681
+        ],
+        "error": 0.1315,
+        "in_front": true
+      },
+      {
+        "id": "fountain",
+        "label": "Fountain niche center",
+        "world": [
+          -1.7,
+          3.4,
+          1.25
+        ],
+        "reference_uv": [
+          0.385,
+          0.345
+        ],
+        "model_uv": [
+          0.3884,
+          0.5408
+        ],
+        "error": 0.1958,
+        "in_front": true
+      },
+      {
+        "id": "hall",
+        "label": "Internal passage floor opening",
+        "world": [
+          2.5,
+          4,
+          0.15
+        ],
+        "reference_uv": [
+          0.665,
+          0.445
+        ],
+        "model_uv": [
+          0.6596,
+          0.663
+        ],
+        "error": 0.2181,
+        "in_front": true
+      },
+      {
+        "id": "garden_door",
+        "label": "Garden doorway threshold",
+        "world": [
+          5,
+          1.7,
+          0.05
+        ],
+        "reference_uv": [
+          0.935,
+          0.595
+        ],
+        "model_uv": [
+          0.9331,
+          0.7431
+        ],
+        "error": 0.1481,
+        "in_front": true
+      },
+      {
+        "id": "sofa",
+        "label": "Left sofa seat center",
+        "world": [
+          -3.5,
+          0.3,
+          0.7
+        ],
+        "reference_uv": [
+          0.105,
+          0.505
+        ],
+        "model_uv": [
+          0.1182,
+          0.6615
+        ],
+        "error": 0.1571,
+        "in_front": true
+      }
+    ],
+    "rms": 0.1731
+  },
+  {
+    "id": "garden",
+    "landmarks": [
+      {
+        "id": "upper_door",
+        "label": "Upper arched doorway center",
+        "world": [
+          35.55,
+          -7,
+          6.0
+        ],
+        "reference_uv": [
+          0.695,
+          0.265
+        ],
+        "model_uv": [
+          0.5569,
+          0.4045
+        ],
+        "error": 0.1963,
+        "in_front": true
+      },
+      {
+        "id": "ladder_top",
+        "label": "Ladder contact with upper landing",
+        "world": [
+          35.54999923706055,
+          -8.399999618530273,
+          4.800000190734863
+        ],
+        "reference_uv": [
+          0.68,
+          0.385
+        ],
+        "model_uv": [
+          0.5822,
+          0.4559
+        ],
+        "error": 0.1208,
+        "in_front": true
+      },
+      {
+        "id": "ladder_bottom",
+        "label": "Ladder contact with lower refuge",
+        "world": [
+          35.54999923706055,
+          -11.199999809265137,
+          0.20000000298023224
+        ],
+        "reference_uv": [
+          0.635,
+          0.76
+        ],
+        "model_uv": [
+          0.6409,
+          0.6934
+        ],
+        "error": 0.0669,
+        "in_front": true
+      },
+      {
+        "id": "lower_door",
+        "label": "Lower hollow doorway center",
+        "world": [
+          37,
+          -7.4,
+          1.3
+        ],
+        "reference_uv": [
+          0.72,
+          0.66
+        ],
+        "model_uv": [
+          0.5937,
+          0.6274
+        ],
+        "error": 0.1304,
+        "in_front": true
+      },
+      {
+        "id": "lower_table",
+        "label": "Low table within the lower sitting platform",
+        "world": [
+          33.2,
+          -12.1,
+          0.6
+        ],
+        "reference_uv": [
+          0.595,
+          0.835
+        ],
+        "model_uv": [
+          0.6076,
+          0.679
+        ],
+        "error": 0.1565,
+        "in_front": true
+      }
+    ],
+    "rms": 0.1408
+  },
+  {
+    "id": "treehouse",
+    "landmarks": [
+      {
+        "id": "trunk",
+        "label": "Main trunk contact with the room floor",
+        "world": [
+          36.8,
+          -4.6,
+          4.8
+        ],
+        "reference_uv": [
+          0.16,
+          0.57
+        ],
+        "model_uv": [
+          0.0209,
+          0.7678
+        ],
+        "error": 0.2418,
+        "in_front": true
+      },
+      {
+        "id": "upper_door",
+        "label": "Upper arched entrance center",
+        "world": [
+          35.55,
+          -7,
+          6.0
+        ],
+        "reference_uv": [
+          0.37,
+          0.36
+        ],
+        "model_uv": [
+          0.299,
+          0.5122
+        ],
+        "error": 0.1679,
+        "in_front": true
+      },
+      {
+        "id": "open_bay",
+        "label": "Main open viewing bay center",
+        "world": [
+          31.7,
+          -7,
+          6.85
+        ],
+        "reference_uv": [
+          0.68,
+          0.32
+        ],
+        "model_uv": [
+          0.6016,
+          0.3861
+        ],
+        "error": 0.1025,
+        "in_front": true
+      },
+      {
+        "id": "rail",
+        "label": "Main viewing bay rail midpoint",
+        "world": [
+          31.7,
+          -7,
+          5.76
+        ],
+        "reference_uv": [
+          0.67,
+          0.415
+        ],
+        "model_uv": [
+          0.6012,
+          0.5525
+        ],
+        "error": 0.1538,
+        "in_front": true
+      },
+      {
+        "id": "table",
+        "label": "Low map-table surface center",
+        "world": [
+          31.25,
+          -4.55,
+          5.35
+        ],
+        "reference_uv": [
+          0.66,
+          0.78
+        ],
+        "model_uv": [
+          0.6732,
+          0.7103
+        ],
+        "error": 0.0709,
+        "in_front": true
+      }
+    ],
+    "rms": 0.1587
+  },
+  {
+    "id": "pond",
+    "landmarks": [
+      {
+        "id": "far_shore",
+        "label": "Far central water-to-shore contact",
+        "world": [
+          19,
+          -7.5,
+          -0.18
+        ],
+        "reference_uv": [
+          0.545,
+          0.365
+        ],
+        "model_uv": [
+          0.5,
+          0.4523
+        ],
+        "error": 0.0982,
+        "in_front": true
+      },
+      {
+        "id": "near_shore",
+        "label": "Near central water-to-shore contact",
+        "world": [
+          19,
+          -12.5,
+          -0.18
+        ],
+        "reference_uv": [
+          0.515,
+          0.81
+        ],
+        "model_uv": [
+          0.5,
+          0.7864
+        ],
+        "error": 0.028,
+        "in_front": true
+      },
+      {
+        "id": "spout",
+        "label": "Feed-spout tip before the wheel project",
+        "world": [
+          17,
+          -9,
+          0.2
+        ],
+        "reference_uv": [
+          0.32,
+          0.44
+        ],
+        "model_uv": [
+          0.2896,
+          0.4373
+        ],
+        "error": 0.0305,
+        "in_front": true
+      },
+      {
+        "id": "yellow_plants",
+        "label": "Tall yellow planting group",
+        "world": [
+          18.6,
+          -6.4,
+          1.3
+        ],
+        "reference_uv": [
+          0.39,
+          0.305
+        ],
+        "model_uv": [
+          0.4679,
+          0.2146
+        ],
+        "error": 0.1193,
+        "in_front": true
+      },
+      {
+        "id": "lilies",
+        "label": "Main lily group center",
+        "world": [
+          20.4,
+          -10.3,
+          -0.15
+        ],
+        "reference_uv": [
+          0.69,
+          0.6
+        ],
+        "model_uv": [
+          0.6758,
+          0.5677
+        ],
+        "error": 0.0353,
+        "in_front": true
+      }
+    ],
+    "rms": 0.0733
+  }
+]

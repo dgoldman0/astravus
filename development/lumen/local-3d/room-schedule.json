@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Shared central room",
+    "bounds": [
+      -5,
+      5,
+      -5,
+      4
+    ],
+    "floor_z": 0,
+    "area_m2": 90,
+    "group": "house"
+  },
+  {
+    "name": "Selene — music",
+    "bounds": [
+      -14,
+      -5,
+      -3,
+      4
+    ],
+    "floor_z": 0,
+    "area_m2": 63,
+    "group": "house"
+  },
+  {
+    "name": "Dorian — library",
+    "bounds": [
+      -13,
+      -5,
+      6,
+      13
+    ],
+    "floor_z": 0,
+    "area_m2": 56,
+    "group": "house"
+  },
+  {
+    "name": "Sage — room and sleeping alcove",
+    "bounds": [
+      -4,
+      2,
+      6,
+      12
+    ],
+    "floor_z": 0,
+    "area_m2": 36,
+    "group": "house"
+  },
+  {
+    "name": "Arin — workshop",
+    "bounds": [
+      8.5,
+      17,
+      6,
+      13
+    ],
+    "floor_z": 0,
+    "area_m2": 59.5,
+    "group": "house"
+  },
+  {
+    "name": "Cooking and pantry",
+    "bounds": [
+      5,
+      11,
+      -5,
+      0.4
+    ],
+    "floor_z": 0,
+    "area_m2": 32.4,
+    "group": "house"
+  },
+  {
+    "name": "Garden washing and work store",
+    "bounds": [
+      17.4,
+      21,
+      6,
+      12
+    ],
+    "floor_z": 0,
+    "area_m2": 21.6,
+    "group": "house"
+  },
+  {
+    "name": "Bathing and clothes",
+    "bounds": [
+      -18,
+      -14,
+      6,
+      12
+    ],
+    "floor_z": 0,
+    "area_m2": 24,
+    "group": "house"
+  },
+  {
+    "name": "Kael — private retreat",
+    "bounds": [
+      -12.5,
+      -7.7,
+      7,
+      12
+    ],
+    "floor_z": 4.8,
+    "area_m2": 24.0,
+    "group": "upper"
+  },
+  {
+    "name": "Cali — private retreat",
+    "bounds": [
+      -7.7,
+      -2.9,
+      7,
+      12
+    ],
+    "floor_z": 4.8,
+    "area_m2": 24.0,
+    "group": "upper"
+  },
+  {
+    "name": "Lyra — private retreat",
+    "bounds": [
+      -2.9,
+      1.9,
+      7,
+      12
+    ],
+    "floor_z": 4.8,
+    "area_m2": 24.0,
+    "group": "upper"
+  },
+  {
+    "name": "Maia — private retreat",
+    "bounds": [
+      -12.5,
+      -7.7,
+      -0.5,
+      4.5
+    ],
+    "floor_z": 4.8,
+    "area_m2": 24.0,
+    "group": "upper"
+  },
+  {
+    "name": "Selene — private retreat",
+    "bounds": [
+      -7.7,
+      -2.9,
+      -0.5,
+      4.5
+    ],
+    "floor_z": 4.8,
+    "area_m2": 24.0,
+    "group": "upper"
+  },
+  {
+    "name": "Arin — private retreat",
+    "bounds": [
+      8.5,
+      13.25,
+      7,
+      12
+    ],
+    "floor_z": 4.8,
+    "area_m2": 23.75,
+    "group": "upper"
+  },
+  {
+    "name": "Dorian — private retreat",
+    "bounds": [
+      13.25,
+      18,
+      7,
+      12
+    ],
+    "floor_z": 4.8,
+    "area_m2": 23.75,
+    "group": "upper"
+  },
+  {
+    "name": "Upper bathing and clothes",
+    "bounds": [
+      2,
+      5,
+      -0.5,
+      4.5
+    ],
+    "floor_z": 4.8,
+    "area_m2": 15.0,
+    "group": "upper"
+  }
+]

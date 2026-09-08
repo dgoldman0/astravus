@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "status": "Camera proposals requiring rendered visual review",
+  "notes": [
+    "Only camera position, aim and horizontal field of view are fitted. Geometry and source art are unchanged.",
+    "The fit uses approximate source landmarks and keeps the camera upright within declared position and lens bounds. It does not recover the illustration's original camera.",
+    "Low residuals do not establish visibility. A marker can project correctly while a trunk, wall or furnishing hides it.",
+    "Inspect the proposed renders for recognizable features, clear routes, sensible perspective and a coherent shared environment before accepting a pose.",
+    "A result at a search bound may indicate a geometry mismatch. Do not automatically widen bounds or distort the model to erase residuals."
+  ],
+  "input_sha256": {
+    "camera-projections.json": "ca053d96096b8f6deb38dd0f4e96f8479fc44c2a5e31de75324155eea5de5e7c",
+    "model-review.json": "a297964015c5a6ee6d092d4c94d37a1025278f4ec4976a667f75f77407b7b57b",
+    "camera-constraints.json": "b1ee9477cb2479830faf1f016f15967c65474b0458dc5eaf46f521f11ae60037"
+  },
+  "search_bounds": {
+    "home": [
+      [
+        [
+          -0.8,
+          1.8
+        ],
+        [
+          -5.4,
+          -4.0
+        ],
+        [
+          1.4,
+          1.9
+        ]
+      ],
+      [
+        70,
+        96
+      ]
+    ],
+    "garden": [
+      [
+        [
+          17,
+          43
+        ],
+        [
+          -35,
+          -19
+        ],
+        [
+          1.45,
+          2.1
+        ]
+      ],
+      [
+        48,
+        78
+      ]
+    ],
+    "treehouse": [
+      [
+        [
+          29,
+          34
+        ],
+        [
+          -2.2,
+          -0.7
+        ],
+        [
+          6.15,
+          6.7
+        ]
+      ],
+      [
+        65,
+        96
+      ]
+    ],
+    "pond": [
+      [
+        [
+          17.5,
+          20.5
+        ],
+        [
+          -17.5,
+          -14
+        ],
+        [
+          1.5,
+          2.1
+        ]
+      ],
+      [
+        58,
+        88
+      ]
+    ]
+  },
+  "views": [
+    {
+      "id": "home",
+      "position": [
+        0.66772,
+        -4.0,
+        1.9
+      ],
+      "target": [
+        -0.05762,
+        3.87269,
+        -0.1548
+      ],
+      "horizontal_fov_degrees": 89.15645,
+      "roll_degrees": 0,
+      "original_rms": 0.1731,
+      "proposed_rms": 0.01496,
+      "at_search_bounds": [
+        "y",
+        "z"
+      ],
+      "all_landmarks_in_front": true,
+      "landmarks": [
+        {
+          "id": "table",
+          "proposed_uv": [
+            0.44767,
+            0.55222
+          ],
+          "error": 0.00322
+        },
+        {
+          "id": "fountain",
+          "proposed_uv": [
+            0.3865,
+            0.34627
+          ],
+          "error": 0.00197
+        },
+        {
+          "id": "hall",
+          "proposed_uv": [
+            0.66253,
+            0.46975
+          ],
+          "error": 0.02487
+        },
+        {
+          "id": "garden_door",
+          "proposed_uv": [
+            0.94031,
+            0.57489
+          ],
+          "error": 0.0208
+        },
+        {
+          "id": "sofa",
+          "proposed_uv": [
+            0.10431,
+            0.49778
+          ],
+          "error": 0.00725
+        }
+      ]
+    },
+    {
+      "id": "garden",
+      "position": [
+        32.02045,
+        -31.62463,
+        2.1
+      ],
+      "target": [
+        31.93914,
+        -2.59641,
+        3.58859
+      ],
+      "horizontal_fov_degrees": 48.0,
+      "roll_degrees": 0,
+      "original_rms": 0.1408,
+      "proposed_rms": 0.05227,
+      "at_search_bounds": [
+        "z",
+        "horizontal_fov"
+      ],
+      "all_landmarks_in_front": true,
+      "landmarks": [
+        {
+          "id": "upper_door",
+          "proposed_uv": [
+            0.66307,
+            0.28778
+          ],
+          "error": 0.03922
+        },
+        {
+          "id": "ladder_top",
+          "proposed_uv": [
+            0.67309,
+            0.37095
+          ],
+          "error": 0.01566
+        },
+        {
+          "id": "ladder_bottom",
+          "proposed_uv": [
+            0.69852,
+            0.78958
+          ],
+          "error": 0.07006
+        },
+        {
+          "id": "lower_door",
+          "proposed_uv": [
+            0.73483,
+            0.66864
+          ],
+          "error": 0.01716
+        },
+        {
+          "id": "lower_table",
+          "proposed_uv": [
+            0.57138,
+            0.7568
+          ],
+          "error": 0.08169
+        }
+      ]
+    },
+    {
+      "id": "treehouse",
+      "position": [
+        30.91063,
+        -2.2,
+        6.7
+      ],
+      "target": [
+        33.91468,
+        -7.45094,
+        5.13209
+      ],
+      "horizontal_fov_degrees": 94.49116,
+      "roll_degrees": 0,
+      "original_rms": 0.1587,
+      "proposed_rms": 0.03899,
+      "at_search_bounds": [
+        "y",
+        "z"
+      ],
+      "all_landmarks_in_front": true,
+      "landmarks": [
+        {
+          "id": "trunk",
+          "proposed_uv": [
+            0.15964,
+            0.58996
+          ],
+          "error": 0.01997
+        },
+        {
+          "id": "upper_door",
+          "proposed_uv": [
+            0.38202,
+            0.3793
+          ],
+          "error": 0.02274
+        },
+        {
+          "id": "open_bay",
+          "proposed_uv": [
+            0.67946,
+            0.2579
+          ],
+          "error": 0.06211
+        },
+        {
+          "id": "rail",
+          "proposed_uv": [
+            0.6689,
+            0.45868
+          ],
+          "error": 0.0437
+        },
+        {
+          "id": "table",
+          "proposed_uv": [
+            0.66285,
+            0.74982
+          ],
+          "error": 0.03032
+        }
+      ]
+    },
+    {
+      "id": "pond",
+      "position": [
+        18.8741,
+        -15.21041,
+        1.5
+      ],
+      "target": [
+        18.91196,
+        -8.45014,
+        -0.25993
+      ],
+      "horizontal_fov_degrees": 82.12006,
+      "roll_degrees": 0,
+      "original_rms": 0.0733,
+      "proposed_rms": 0.06627,
+      "at_search_bounds": [
+        "z"
+      ],
+      "all_landmarks_in_front": true,
+      "landmarks": [
+        {
+          "id": "far_shore",
+          "proposed_uv": [
+            0.50602,
+            0.459
+          ],
+          "error": 0.10176
+        },
+        {
+          "id": "near_shore",
+          "proposed_uv": [
+            0.52086,
+            0.81574
+          ],
+          "error": 0.0082
+        },
+        {
+          "id": "spout",
+          "proposed_uv": [
+            0.32684,
+            0.451
+          ],
+          "error": 0.01295
+        },
+        {
+          "id": "yellow_plants",
+          "proposed_uv": [
+            0.47835,
+            0.25895
+          ],
+          "error": 0.09963
+        },
+        {
+          "id": "lilies",
+          "proposed_uv": [
+            0.66616,
+            0.57049
+          ],
+          "error": 0.03794
+        }
+      ]
+    }
+  ]
+}
