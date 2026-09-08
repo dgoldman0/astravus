@@ -1,0 +1,128 @@
+{
+  "status": "Reconstruction study; visual acceptance remains open",
+  "camera_assumption": {
+    "position_m": [
+      0.0,
+      -6.0,
+      1.7000000476837158
+    ],
+    "pitch_degrees": 23,
+    "horizontal_fov_degrees": 62
+  },
+  "shoreline_bounds_m": {
+    "width": 3.8341548442840576,
+    "depth": 2.8235104084014893
+  },
+  "water_level_m": -0.065,
+  "proposed_bed_range_m": [
+    -0.318,
+    -0.202
+  ],
+  "source_sha256": {
+    "pond": "5fe43f183e54eaa586d4fc085258c770326cc4171234333906840c7fa1f4e958",
+    "wheel": "072158f6d372d60bd6b19e15f6a8cfba26431f74b5e079ac6a21cc0714f76085",
+    "rescue": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+    "comfort": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf"
+  },
+  "trace_uv": [
+    [
+      0.505,
+      0.807
+    ],
+    [
+      0.64,
+      0.792
+    ],
+    [
+      0.76,
+      0.75
+    ],
+    [
+      0.846,
+      0.697
+    ],
+    [
+      0.901,
+      0.616
+    ],
+    [
+      0.915,
+      0.542
+    ],
+    [
+      0.89,
+      0.478
+    ],
+    [
+      0.827,
+      0.423
+    ],
+    [
+      0.746,
+      0.394
+    ],
+    [
+      0.65,
+      0.375
+    ],
+    [
+      0.546,
+      0.367
+    ],
+    [
+      0.442,
+      0.371
+    ],
+    [
+      0.358,
+      0.388
+    ],
+    [
+      0.285,
+      0.418
+    ],
+    [
+      0.231,
+      0.456
+    ],
+    [
+      0.186,
+      0.498
+    ],
+    [
+      0.142,
+      0.555
+    ],
+    [
+      0.113,
+      0.618
+    ],
+    [
+      0.11,
+      0.675
+    ],
+    [
+      0.152,
+      0.727
+    ],
+    [
+      0.255,
+      0.773
+    ],
+    [
+      0.375,
+      0.803
+    ]
+  ],
+  "section": {
+    "cut_y_m": -2.24,
+    "copied_paving_meshes": 6,
+    "water_level_m": -0.065,
+    "sampled_bed_z_range_m": [
+      -0.315,
+      -0.206
+    ],
+    "vertical_exaggeration": 1,
+    "note": "Profile sampled from the bed mesh; paving is cut from evaluated stone meshes."
+  }
+}

@@ -2,6 +2,24 @@
 
 This log records work on the collection. Current canon is in the [wiki](../wiki/INDEX.md); open work and references are listed in the [development index](README.md).
 
+## 8 September 2026 — Repair the pond scene and inspect its renders
+
+The author identified a long gap behind the left coping and intersecting-looking foreground stones in the published pond image. The replacement [pond study](lumen/pond-study/review.html) uses fitted stone footprints guided by the VN shoreline and slab positions. Narrow joints, inward edge chips and photographed rock surfaces replace the independently drifting stone rows. The older local model is preserved in a separate reference commit, with its rejection clearly marked.
+
+Successive rendered previews were compared with the actual VN pond and wheel images. Changes include smaller varied foliage, hanging growth, irises rooted in the shallow margin, connected overhead twigs, rounded lily pads and a raised flower. Native water ripples, shaded garden reflections and a visible submerged bed replace the earlier opaque and distorted water treatments. The wheel is smaller and angled, with flat wooden rims, a connected feed and a lower tool tray.
+
+Pond, wheel, overview, section and the two action views remain states of one saved scene. The figures are static scale studies; the placement checks do not establish rescue dynamics or a working mechanical simulation. The comparison page displays the render date and links its matching native file. Proposed scale and author visual acceptance remain open. No change to the manuscript, VN or canon wiki was required for this pass.
+
+## 7 September 2026 — Pond reconstruction and matching render sets
+
+The [local 3D experiment](lumen/local-3d/README.md) was rejected and remains withdrawn. Work narrowed to a [standalone pond reconstruction](lumen/pond-study/review.html), built from the current VN pond, waterwheel, rescue and comfort images. The author’s constraints remain in force: the VN is the primary visual reference, its images guide reconstruction without supplying exact measurements, and existing story and visuals should require minimal changes. The new fragment inherits no ground or layout from the rejected model.
+
+The study concentrates on the irregular basin, broad dry paving, shallow bed, planted timber boundary and the actions at the bank. Its metre scale follows a chosen camera and a trace of the inner coping edge on the nominal paving plane; water depth is proposed separately. Rescue and comfort use static mannequins with inspectable support and limb placement. The section comes from the actual bed and cut paving at unchanged vertical scale. These studies do not establish dynamics or visual acceptance.
+
+The author caught a newer pond render paired with an older overview. Publication now renders all six views from one saved Blender scene and places the complete set in a versioned folder. One manifest selects both the images and their matching native file; partial camera renders remain private previews. This corrects revision consistency without treating that consistency as approval of the model.
+
+Lighting, plant and stone appearance, and visual correspondence remain under refinement. The [study notes](lumen/pond-study/README.md) and [source observations](lumen/pond-study/source-observations.md) distinguish evidence from reconstruction choices. No canon, manuscript or VN changes are indicated by this study, and its proposed details remain unadopted.
+
 ## 6 September 2026 — Household connections and canon separation
 
 The Book I source audit now supports a [local connection proposal](lumen/Lumen-Local-Connections.md) covering the named working rooms, all eight residents’ privacy, cooking and household facilities, Maia’s garden, both levels of the oak refuge, and routes into the wider community. Its reference tool accounts for all 45 inventory records and walks the 32 current VN scenes through proposed connections.

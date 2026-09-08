@@ -1,0 +1,897 @@
+{
+  "status": "pass-with-open-motion-review",
+  "scope": "Static articulated rescue and comfort poses on the reconstructed pond ground.",
+  "proposed_reference_heights_m": {
+    "Cali": 1.25,
+    "Kael": 1.38,
+    "Lyra": 1.03
+  },
+  "ground_contacts": [
+    {
+      "name": "Rescue Cali left knee",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 29",
+      "contact_m": [
+        -0.67041,
+        -3.90133,
+        0.00297
+      ],
+      "mesh_bottom_m": 0.00297,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Cali left boot",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 29",
+      "contact_m": [
+        -0.85821,
+        -4.19706,
+        0.00338
+      ],
+      "mesh_bottom_m": 0.00338,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Cali right knee",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 29",
+      "contact_m": [
+        -0.8427,
+        -3.78127,
+        0.00385
+      ],
+      "mesh_bottom_m": 0.00385,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Cali right boot",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 29",
+      "contact_m": [
+        -1.05512,
+        -4.05984,
+        0.00464
+      ],
+      "mesh_bottom_m": 0.00464,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Kael left knee",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 22",
+      "contact_m": [
+        -1.12838,
+        -3.56316,
+        -0.0006
+      ],
+      "mesh_bottom_m": -0.0006,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Kael left boot",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 28",
+      "contact_m": [
+        -1.33572,
+        -3.88965,
+        -0.00291
+      ],
+      "mesh_bottom_m": -0.00291,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Kael right knee",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 22",
+      "contact_m": [
+        -1.31859,
+        -3.43061,
+        0.00069
+      ],
+      "mesh_bottom_m": 0.00069,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Kael right boot",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 28",
+      "contact_m": [
+        -1.5531,
+        -3.73816,
+        -0.00276
+      ],
+      "mesh_bottom_m": -0.00276,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Lyra left knee",
+      "status": "pass",
+      "surface": "Submerged pebble.784",
+      "contact_m": [
+        -0.6797,
+        -3.37623,
+        -0.20073
+      ],
+      "mesh_bottom_m": -0.20073,
+      "water_level_m": -0.065,
+      "dry_required": false
+    },
+    {
+      "name": "Rescue Lyra left boot",
+      "status": "pass",
+      "surface": "Shallow sloped pond bed",
+      "contact_m": [
+        -0.50339,
+        -3.14501,
+        -0.26129
+      ],
+      "mesh_bottom_m": -0.26129,
+      "water_level_m": -0.065,
+      "dry_required": false
+    },
+    {
+      "name": "Rescue Lyra right knee",
+      "status": "pass",
+      "surface": "Shallow sloped pond bed",
+      "contact_m": [
+        -0.8227,
+        -3.27657,
+        -0.2265
+      ],
+      "mesh_bottom_m": -0.2265,
+      "water_level_m": -0.065,
+      "dry_required": false
+    },
+    {
+      "name": "Rescue Lyra right boot",
+      "status": "pass",
+      "surface": "Shallow sloped pond bed",
+      "contact_m": [
+        -0.66682,
+        -3.03112,
+        -0.26152
+      ],
+      "mesh_bottom_m": -0.26152,
+      "water_level_m": -0.065,
+      "dry_required": false
+    },
+    {
+      "name": "Rescue Barkley paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 90",
+      "contact_m": [
+        -1.6965,
+        -4.49046,
+        -0.00303
+      ],
+      "mesh_bottom_m": -0.00303,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Barkley paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 90",
+      "contact_m": [
+        -1.87699,
+        -4.36468,
+        -0.00315
+      ],
+      "mesh_bottom_m": -0.00315,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Barkley paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 28",
+      "contact_m": [
+        -1.41062,
+        -4.08025,
+        -0.00381
+      ],
+      "mesh_bottom_m": -0.00381,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Barkley paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 28",
+      "contact_m": [
+        -1.59112,
+        -3.95446,
+        -0.00354
+      ],
+      "mesh_bottom_m": -0.00354,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Shadow paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 81",
+      "contact_m": [
+        -0.64078,
+        -4.51033,
+        -0.0014
+      ],
+      "mesh_bottom_m": -0.0014,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Shadow paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 81",
+      "contact_m": [
+        -0.69487,
+        -4.58794,
+        0.00145
+      ],
+      "mesh_bottom_m": 0.00145,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Shadow paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 81",
+      "contact_m": [
+        -0.81717,
+        -4.3874,
+        0.00023
+      ],
+      "mesh_bottom_m": 0.00023,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Rescue Shadow paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 81",
+      "contact_m": [
+        -0.87126,
+        -4.46502,
+        0.00078
+      ],
+      "mesh_bottom_m": 0.00078,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Cali left knee",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 82",
+      "contact_m": [
+        -0.13797,
+        -4.72994,
+        -0.00062
+      ],
+      "mesh_bottom_m": -0.00062,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Cali left boot",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 31",
+      "contact_m": [
+        -0.15297,
+        -4.37994,
+        0.00379
+      ],
+      "mesh_bottom_m": 0.00379,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Cali right knee",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 82",
+      "contact_m": [
+        0.07203,
+        -4.72994,
+        -0.00124
+      ],
+      "mesh_bottom_m": -0.00124,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Cali right boot",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 31",
+      "contact_m": [
+        0.08703,
+        -4.37994,
+        0.00675
+      ],
+      "mesh_bottom_m": 0.00675,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Lyra left knee",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 72",
+      "contact_m": [
+        0.23051,
+        -4.78354,
+        0.00175
+      ],
+      "mesh_bottom_m": 0.00175,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Lyra left boot",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 31",
+      "contact_m": [
+        0.21815,
+        -4.49514,
+        0.00626
+      ],
+      "mesh_bottom_m": 0.00626,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Lyra right knee",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 72",
+      "contact_m": [
+        0.40355,
+        -4.78354,
+        0.00414
+      ],
+      "mesh_bottom_m": 0.00414,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Lyra right boot",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 32",
+      "contact_m": [
+        0.41591,
+        -4.49514,
+        -0.00093
+      ],
+      "mesh_bottom_m": -0.00093,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Kael left knee",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 83",
+      "contact_m": [
+        0.63111,
+        -4.66554,
+        0.00574
+      ],
+      "mesh_bottom_m": 0.00574,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Kael left boot",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 32",
+      "contact_m": [
+        0.61455,
+        -4.27914,
+        0.00032
+      ],
+      "mesh_bottom_m": 0.00032,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Kael right knee",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 83",
+      "contact_m": [
+        0.86295,
+        -4.66554,
+        0.00404
+      ],
+      "mesh_bottom_m": 0.00404,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Kael right boot",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 33",
+      "contact_m": [
+        0.87951,
+        -4.27914,
+        -0.00268
+      ],
+      "mesh_bottom_m": -0.00268,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Barkley seated hindquarters",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 81",
+      "contact_m": [
+        -0.70297,
+        -4.44994,
+        0.00274
+      ],
+      "mesh_bottom_m": 0.00274,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Barkley front paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 81",
+      "contact_m": [
+        -0.81297,
+        -4.70994,
+        -0.00123
+      ],
+      "mesh_bottom_m": -0.00123,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Barkley front paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 82",
+      "contact_m": [
+        -0.59297,
+        -4.70994,
+        -0.00146
+      ],
+      "mesh_bottom_m": -0.00146,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Shadow paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 84",
+      "contact_m": [
+        1.38973,
+        -4.47244,
+        -0.0033
+      ],
+      "mesh_bottom_m": -0.0033,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Shadow paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 84",
+      "contact_m": [
+        1.48433,
+        -4.47244,
+        -0.00417
+      ],
+      "mesh_bottom_m": -0.00417,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Shadow paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 84",
+      "contact_m": [
+        1.38973,
+        -4.68744,
+        -0.00235
+      ],
+      "mesh_bottom_m": -0.00235,
+      "water_level_m": -0.065,
+      "dry_required": true
+    },
+    {
+      "name": "Comfort Shadow paw",
+      "status": "pass",
+      "surface": "Fitted garden flagstone 84",
+      "contact_m": [
+        1.48433,
+        -4.68744,
+        0.00123
+      ],
+      "mesh_bottom_m": 0.00123,
+      "water_level_m": -0.065,
+      "dry_required": true
+    }
+  ],
+  "arm_reach": [
+    {
+      "name": "Rescue Cali free hand",
+      "status": "pass",
+      "shoulder_m": [
+        -0.56311,
+        -3.79328,
+        0.57464
+      ],
+      "elbow_m": [
+        -0.46512,
+        -3.65966,
+        0.37917
+      ],
+      "hand_m": [
+        -0.62456,
+        -3.49449,
+        0.44
+      ],
+      "proposed_segments_m": [
+        0.2562,
+        0.2375
+      ],
+      "measured_segments_m": [
+        0.2563,
+        0.2375
+      ],
+      "shoulder_to_hand_m": 0.3334,
+      "mesh_elbow_gap_m": 0.0
+    },
+    {
+      "name": "Rescue Cali contact",
+      "status": "pass",
+      "shoulder_m": [
+        -0.77847,
+        -3.64319,
+        0.57464
+      ],
+      "elbow_m": [
+        -0.59302,
+        -3.6599,
+        0.3986
+      ],
+      "hand_m": [
+        -0.6943,
+        -3.44589,
+        0.38
+      ],
+      "proposed_segments_m": [
+        0.2562,
+        0.2375
+      ],
+      "measured_segments_m": [
+        0.2562,
+        0.2375
+      ],
+      "shoulder_to_hand_m": 0.2897,
+      "mesh_elbow_gap_m": 0.0
+    },
+    {
+      "name": "Rescue Kael contact",
+      "status": "pass",
+      "shoulder_m": [
+        -1.02776,
+        -3.46947,
+        0.61728
+      ],
+      "elbow_m": [
+        -1.1404,
+        -3.29435,
+        0.42576
+      ],
+      "hand_m": [
+        -0.883,
+        -3.31439,
+        0.38
+      ],
+      "proposed_segments_m": [
+        0.2829,
+        0.2622
+      ],
+      "measured_segments_m": [
+        0.2829,
+        0.2622
+      ],
+      "shoulder_to_hand_m": 0.3183,
+      "mesh_elbow_gap_m": 0.0
+    },
+    {
+      "name": "Rescue Kael free hand",
+      "status": "pass",
+      "shoulder_m": [
+        -1.26552,
+        -3.30378,
+        0.61728
+      ],
+      "elbow_m": [
+        -1.18754,
+        -3.16313,
+        0.38454
+      ],
+      "hand_m": [
+        -0.95274,
+        -3.26579,
+        0.44
+      ],
+      "proposed_segments_m": [
+        0.2829,
+        0.2622
+      ],
+      "measured_segments_m": [
+        0.2829,
+        0.2622
+      ],
+      "shoulder_to_hand_m": 0.3615,
+      "mesh_elbow_gap_m": 0.0
+    },
+    {
+      "name": "Rescue Lyra hand 0",
+      "status": "pass",
+      "shoulder_m": [
+        -0.60272,
+        -3.3025,
+        0.30871
+      ],
+      "elbow_m": [
+        -0.50056,
+        -3.47352,
+        0.37871
+      ],
+      "hand_m": [
+        -0.6943,
+        -3.44589,
+        0.38
+      ],
+      "proposed_segments_m": [
+        0.2112,
+        0.1957
+      ],
+      "measured_segments_m": [
+        0.2112,
+        0.1957
+      ],
+      "shoulder_to_hand_m": 0.1845,
+      "mesh_elbow_gap_m": 0.0
+    },
+    {
+      "name": "Rescue Lyra hand 1",
+      "status": "pass",
+      "shoulder_m": [
+        -0.78018,
+        -3.17883,
+        0.30871
+      ],
+      "elbow_m": [
+        -0.97599,
+        -3.1422,
+        0.37871
+      ],
+      "hand_m": [
+        -0.883,
+        -3.31439,
+        0.38
+      ],
+      "proposed_segments_m": [
+        0.2112,
+        0.1957
+      ],
+      "measured_segments_m": [
+        0.2111,
+        0.1957
+      ],
+      "shoulder_to_hand_m": 0.1845,
+      "mesh_elbow_gap_m": 0.0
+    },
+    {
+      "name": "Comfort Cali arm 0",
+      "status": "pass",
+      "shoulder_m": [
+        -0.16422,
+        -4.62494,
+        0.62793
+      ],
+      "elbow_m": [
+        -0.04985,
+        -4.69429,
+        0.40936
+      ],
+      "hand_m": [
+        0.18703,
+        -4.70994,
+        0.40228
+      ],
+      "proposed_segments_m": [
+        0.2562,
+        0.2375
+      ],
+      "measured_segments_m": [
+        0.2562,
+        0.2375
+      ],
+      "shoulder_to_hand_m": 0.4261,
+      "mesh_elbow_gap_m": 0.0
+    },
+    {
+      "name": "Comfort Cali arm 1",
+      "status": "pass",
+      "shoulder_m": [
+        0.09828,
+        -4.62494,
+        0.62793
+      ],
+      "elbow_m": [
+        0.31725,
+        -4.5297,
+        0.72091
+      ],
+      "hand_m": [
+        0.39703,
+        -4.64994,
+        0.53228
+      ],
+      "proposed_segments_m": [
+        0.2562,
+        0.2375
+      ],
+      "measured_segments_m": [
+        0.2562,
+        0.2375
+      ],
+      "shoulder_to_hand_m": 0.3147,
+      "mesh_elbow_gap_m": 0.0
+    },
+    {
+      "name": "Comfort Lyra arm 0",
+      "status": "pass",
+      "shoulder_m": [
+        0.20888,
+        -4.70494,
+        0.5214
+      ],
+      "elbow_m": [
+        0.09142,
+        -4.77392,
+        0.36007
+      ],
+      "hand_m": [
+        0.26203,
+        -4.82994,
+        0.28228
+      ],
+      "proposed_segments_m": [
+        0.2112,
+        0.1957
+      ],
+      "measured_segments_m": [
+        0.2111,
+        0.1957
+      ],
+      "shoulder_to_hand_m": 0.275,
+      "mesh_elbow_gap_m": 0.0
+    },
+    {
+      "name": "Comfort Lyra arm 1",
+      "status": "pass",
+      "shoulder_m": [
+        0.42518,
+        -4.70494,
+        0.5214
+      ],
+      "elbow_m": [
+        0.55511,
+        -4.76515,
+        0.36622
+      ],
+      "hand_m": [
+        0.38703,
+        -4.81994,
+        0.28228
+      ],
+      "proposed_segments_m": [
+        0.2112,
+        0.1957
+      ],
+      "measured_segments_m": [
+        0.2112,
+        0.1957
+      ],
+      "shoulder_to_hand_m": 0.2681,
+      "mesh_elbow_gap_m": 0.0
+    },
+    {
+      "name": "Comfort Kael arm 0",
+      "status": "pass",
+      "shoulder_m": [
+        0.60213,
+        -4.54494,
+        0.70377
+      ],
+      "elbow_m": [
+        0.33038,
+        -4.55431,
+        0.6257
+      ],
+      "hand_m": [
+        0.49703,
+        -4.63994,
+        0.44228
+      ],
+      "proposed_segments_m": [
+        0.2829,
+        0.2622
+      ],
+      "measured_segments_m": [
+        0.2829,
+        0.2622
+      ],
+      "shoulder_to_hand_m": 0.2974,
+      "mesh_elbow_gap_m": 0.0
+    },
+    {
+      "name": "Comfort Kael arm 1",
+      "status": "pass",
+      "shoulder_m": [
+        0.89193,
+        -4.54494,
+        0.70377
+      ],
+      "elbow_m": [
+        1.10322,
+        -4.57648,
+        0.51831
+      ],
+      "hand_m": [
+        0.89703,
+        -4.61994,
+        0.36228
+      ],
+      "proposed_segments_m": [
+        0.2829,
+        0.2622
+      ],
+      "measured_segments_m": [
+        0.2829,
+        0.2622
+      ],
+      "shoulder_to_hand_m": 0.3497,
+      "mesh_elbow_gap_m": 0.0
+    }
+  ],
+  "hand_contacts": [
+    {
+      "name": "Cali holds Lyra’s hand",
+      "status": "pass",
+      "contact_m": [
+        -0.6943,
+        -3.44589,
+        0.38
+      ],
+      "hand_center_gap_m": 0.0
+    },
+    {
+      "name": "Kael holds Lyra’s hand",
+      "status": "pass",
+      "contact_m": [
+        -0.883,
+        -3.31439,
+        0.38
+      ],
+      "hand_center_gap_m": 0.0
+    }
+  ],
+  "open": [
+    "Continuous lifting and climbing from water to paving are not animated or dynamically tested.",
+    "Balance, joint rotation limits, grip forces and load capacity require further review.",
+    "The animal shapes establish scale and paw support, not a validated gait.",
+    "Whole-body collision and cloth deformation are not tested by joint-distance and support checks.",
+    "Camera compositions are independent views guided by the VN images, not a claim of exact image matching."
+  ]
+}

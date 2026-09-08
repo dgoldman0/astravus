@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "build_id": "e146fe245346cd00",
+  "built_utc": "2026-09-08T01:44:17.450863+00:00",
+  "blend": {
+    "path": "builds/e146fe245346cd00/pond-study.blend",
+    "sha256": "e146fe245346cd0014e2e2a42f2a2f2c1224b6122aeb324803521fc46bddadd7"
+  },
+  "common_geometry_sha256": "5dd0386c61a542707e0f0a47ac8dd2fbac3036e10b0981ac36bbbf8c394a7f65",
+  "views": {
+    "rescue": {
+      "path": "builds/e146fe245346cd00/renders/rescue.png",
+      "sha256": "00618414c9981bbd8a42f1a40eacc0eb70bd0028346d0b54e46f837494ff2fd4",
+      "common_geometry_sha256": "5dd0386c61a542707e0f0a47ac8dd2fbac3036e10b0981ac36bbbf8c394a7f65",
+      "snapshot_sha256": "e146fe245346cd0014e2e2a42f2a2f2c1224b6122aeb324803521fc46bddadd7"
+    },
+    "comfort": {
+      "path": "builds/e146fe245346cd00/renders/comfort.png",
+      "sha256": "4e70cb3cf1ca0e33ed7d9ecdf8d6f07ea1d707666fb674b34fe8dc08f44e7863",
+      "common_geometry_sha256": "5dd0386c61a542707e0f0a47ac8dd2fbac3036e10b0981ac36bbbf8c394a7f65",
+      "snapshot_sha256": "e146fe245346cd0014e2e2a42f2a2f2c1224b6122aeb324803521fc46bddadd7"
+    },
+    "pond": {
+      "path": "builds/e146fe245346cd00/renders/pond.png",
+      "sha256": "1ce3175ec8e471184dd1ad7695614855146509b6cea8dc7a137c47f25c802952",
+      "common_geometry_sha256": "5dd0386c61a542707e0f0a47ac8dd2fbac3036e10b0981ac36bbbf8c394a7f65",
+      "snapshot_sha256": "e146fe245346cd0014e2e2a42f2a2f2c1224b6122aeb324803521fc46bddadd7"
+    },
+    "wheel": {
+      "path": "builds/e146fe245346cd00/renders/wheel.png",
+      "sha256": "2eafd54bc63ecad481a38889cea8ebc288ff5f18e7fdda31dcfe4c2a544e3751",
+      "common_geometry_sha256": "5dd0386c61a542707e0f0a47ac8dd2fbac3036e10b0981ac36bbbf8c394a7f65",
+      "snapshot_sha256": "e146fe245346cd0014e2e2a42f2a2f2c1224b6122aeb324803521fc46bddadd7"
+    },
+    "overview": {
+      "path": "builds/e146fe245346cd00/renders/overview.png",
+      "sha256": "941e36741272cb57341716cef4506d011fa3bf05e5952bb972d657928f289a52",
+      "common_geometry_sha256": "5dd0386c61a542707e0f0a47ac8dd2fbac3036e10b0981ac36bbbf8c394a7f65",
+      "snapshot_sha256": "e146fe245346cd0014e2e2a42f2a2f2c1224b6122aeb324803521fc46bddadd7"
+    },
+    "section": {
+      "path": "builds/e146fe245346cd00/renders/section.png",
+      "sha256": "c62485850dc09025c4bd692d3e17d37855f07238575fdbcde622f16d64035258",
+      "common_geometry_sha256": "5dd0386c61a542707e0f0a47ac8dd2fbac3036e10b0981ac36bbbf8c394a7f65",
+      "snapshot_sha256": "e146fe245346cd0014e2e2a42f2a2f2c1224b6122aeb324803521fc46bddadd7"
+    }
+  },
+  "inputs": {
+    "build_pond.py": "877f786aace8bacec6a6092f9429b7cf0eaeee2e707a78a17be819e821235619",
+    "actions.py": "bb097465e6e3599959303f12b08b7cd69bfdfa402f2029c6cb373933b8425ab4",
+    "section.py": "60bd33f3fa0adadad07ec38e8750b7155a5001db286dbfeff77ea28452176b12",
+    "render_set.py": "d79a775a0bf0368b9ff4ca0601e75ad40c4fd6cc4eba34c8ea6260046b915061"
+  },
+  "state_note": "Pond, overview and action views share unchanged ground, water, planting and boundary meshes. The wheel and figure collections are separate depicted states. Section is derived from the same bed and paving."
+}
