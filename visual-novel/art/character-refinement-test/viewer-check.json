@@ -1,0 +1,26 @@
+{
+  "images": [
+    {
+      "src": "../../game/images/cg/first-memory-young.png",
+      "loaded": true
+    },
+    {
+      "src": "opening-refined-v1.png",
+      "loaded": true
+    },
+    {
+      "src": "runtime-before.png",
+      "loaded": true
+    },
+    {
+      "src": "runtime-after.png",
+      "loaded": true
+    }
+  ],
+  "modes_checked": 4,
+  "slider_checked": true,
+  "desktop_width": 1440,
+  "mobile_width": 390,
+  "horizontal_overflow": false,
+  "page_errors": []
+}
