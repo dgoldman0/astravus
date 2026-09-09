@@ -1,0 +1,7 @@
+{
+  "recorded_at_utc": "2026-09-09T14:21:54.612779+00:00",
+  "source_commit": "44bd196",
+  "previous_web_zip": "../../../archive/local/web-before-audio-fix.zip",
+  "previous_web_sha256": "ac21807e1ded3b3d76d214bc6de1f1ea8af3ad37a0f042a67d3926348ea322b1",
+  "scope": "Frozen stock/candidate observations; the final implementation patches only the exported engine pending-audio fadeout branch."
+}

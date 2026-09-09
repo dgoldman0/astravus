@@ -1,0 +1,519 @@
+{
+  "checked_at_utc": "2026-09-09T14:26:53.159895+00:00",
+  "url": "http://127.0.0.1:8000/?preview=0.1-alpha",
+  "browser": "148.0.7778.96",
+  "passed": true,
+  "cases": [
+    {
+      "case": "rapid",
+      "loaded_audio_sha256": "4057f9fb5dafea6e621b4e5cbeb17f02c457ebf7d858c274ebc9d0e2ca891d84",
+      "steps": [
+        {
+          "scene": "mural_remembrance",
+          "text": "As time passed, I began a mural in Maia's garden. It held the places we'd known and the places we'd meant to find.",
+          "channels": {
+            "music": {
+              "file": "audio/first_light.ogg",
+              "position": 2.229,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": null,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "mural_remembrance",
+          "text": "I worked a little at a time. The wall was larger than any page I had used. Some days that helped.",
+          "channels": {
+            "music": {
+              "file": "audio/first_light.ogg",
+              "position": 2.325,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": null,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "mural_remembrance",
+          "text": "The tree needs to be wider here. We never left enough room for the creature to land.",
+          "channels": {
+            "music": {
+              "file": "audio/first_light.ogg",
+              "position": 2.421,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": null,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "mural_remembrance",
+          "text": "Then make it wider. It's your wall.",
+          "channels": {
+            "music": {
+              "file": "audio/first_light.ogg",
+              "position": 2.591,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": null,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "mural_remembrance",
+          "text": "Cassia helped me remember. We could disagree about a color, then fall quiet because we'd both thought of asking him.",
+          "channels": {
+            "music": {
+              "file": "audio/first_light.ogg",
+              "position": 2.698,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": null,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "mural_remembrance",
+          "text": "The garden gave the painting a life around it: water, leaves, people passing. I could go there when I wanted to be close to a memory.",
+          "channels": {
+            "music": {
+              "file": "audio/first_light.ogg",
+              "position": 2.858,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": null,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "treehouse_remembrance",
+          "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+          "channels": {
+            "music": {
+              "file": "audio/first_light.ogg",
+              "position": 3.05,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/rain.ogg",
+              "position": null,
+              "paused": false
+            }
+          }
+        }
+      ],
+      "first_rain_scene": {
+        "scene": "treehouse_remembrance",
+        "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+        "channels": {
+          "music": {
+            "file": "audio/first_light.ogg",
+            "position": 3.104,
+            "paused": false
+          },
+          "ambience": {
+            "file": "audio/rain.ogg",
+            "position": null,
+            "paused": false
+          }
+        }
+      },
+      "playing_after_seconds": 3.210939913056791,
+      "playing": {
+        "scene": "treehouse_remembrance",
+        "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+        "channels": {
+          "music": {
+            "file": "audio/remembrance_rain.ogg",
+            "position": 0.416,
+            "paused": false
+          },
+          "ambience": {
+            "file": "audio/rain.ogg",
+            "position": 0.416,
+            "paused": false
+          }
+        }
+      },
+      "fadeout_trace": [
+        {
+          "channel": 7,
+          "delay": 0.016,
+          "before": {
+            "file": "audio/first_light.ogg",
+            "position": 1184
+          },
+          "after": {
+            "file": "audio/first_light.ogg",
+            "position": 1184
+          }
+        },
+        {
+          "channel": 8,
+          "delay": 0.016,
+          "before": {
+            "file": "",
+            "position": -1
+          },
+          "after": {
+            "file": "",
+            "position": -1
+          }
+        },
+        {
+          "channel": 0,
+          "delay": 0.016,
+          "before": {
+            "file": "",
+            "position": -1
+          },
+          "after": {
+            "file": "",
+            "position": -1
+          }
+        },
+        {
+          "channel": 7,
+          "delay": 3,
+          "before": {
+            "file": "audio/first_light.ogg",
+            "position": 1184
+          },
+          "after": {
+            "file": "audio/first_light.ogg",
+            "position": 1184
+          }
+        },
+        {
+          "channel": 8,
+          "delay": 2,
+          "before": {
+            "file": "",
+            "position": -1
+          },
+          "after": {
+            "file": "",
+            "position": -1
+          }
+        },
+        {
+          "channel": 7,
+          "delay": 3,
+          "before": {
+            "file": "audio/first_light.ogg",
+            "position": 2890.666666666666
+          },
+          "after": {
+            "file": "audio/first_light.ogg",
+            "position": 2890.666666666666
+          }
+        },
+        {
+          "channel": 8,
+          "delay": 2,
+          "before": {
+            "file": "audio/garden_air.ogg",
+            "position": 0
+          },
+          "after": {
+            "file": "",
+            "position": -1
+          }
+        }
+      ],
+      "restored": {
+        "scene": "treehouse_remembrance",
+        "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+        "channels": {
+          "music": {
+            "file": "audio/remembrance_rain.ogg",
+            "position": 0.736,
+            "paused": false
+          },
+          "ambience": {
+            "file": "audio/rain.ogg",
+            "position": 0.733,
+            "paused": false
+          }
+        }
+      },
+      "errors": []
+    },
+    {
+      "case": "normal-fades",
+      "loaded_audio_sha256": "4057f9fb5dafea6e621b4e5cbeb17f02c457ebf7d858c274ebc9d0e2ca891d84",
+      "steps": [
+        {
+          "scene": "mural_remembrance",
+          "text": "As time passed, I began a mural in Maia's garden. It held the places we'd known and the places we'd meant to find.",
+          "channels": {
+            "music": {
+              "file": "audio/painting_theme.ogg",
+              "position": 2.261,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": 2.538,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "mural_remembrance",
+          "text": "I worked a little at a time. The wall was larger than any page I had used. Some days that helped.",
+          "channels": {
+            "music": {
+              "file": "audio/painting_theme.ogg",
+              "position": 3.168,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": 3.445,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "mural_remembrance",
+          "text": "The tree needs to be wider here. We never left enough room for the creature to land.",
+          "channels": {
+            "music": {
+              "file": "audio/painting_theme.ogg",
+              "position": 4.053,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": 4.33,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "mural_remembrance",
+          "text": "Then make it wider. It's your wall.",
+          "channels": {
+            "music": {
+              "file": "audio/painting_theme.ogg",
+              "position": 4.96,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": 5.237,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "mural_remembrance",
+          "text": "Cassia helped me remember. We could disagree about a color, then fall quiet because we'd both thought of asking him.",
+          "channels": {
+            "music": {
+              "file": "audio/painting_theme.ogg",
+              "position": 5.888,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": 6.165,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "mural_remembrance",
+          "text": "The garden gave the painting a life around it: water, leaves, people passing. I could go there when I wanted to be close to a memory.",
+          "channels": {
+            "music": {
+              "file": "audio/painting_theme.ogg",
+              "position": 6.858,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": 7.135,
+              "paused": false
+            }
+          }
+        },
+        {
+          "scene": "treehouse_remembrance",
+          "text": "The garden gave the painting a life around it: water, leaves, people passing. I could go there when I wanted to be close to a memory.",
+          "channels": {
+            "music": {
+              "file": "audio/painting_theme.ogg",
+              "position": 7.712,
+              "paused": false
+            },
+            "ambience": {
+              "file": "audio/garden_air.ogg",
+              "position": 7.989,
+              "paused": false
+            }
+          }
+        }
+      ],
+      "first_rain_scene": {
+        "scene": "treehouse_remembrance",
+        "text": "The garden gave the painting a life around it: water, leaves, people passing. I could go there when I wanted to be close to a memory.",
+        "channels": {
+          "music": {
+            "file": "audio/painting_theme.ogg",
+            "position": 7.754,
+            "paused": false
+          },
+          "ambience": {
+            "file": "audio/garden_air.ogg",
+            "position": 8.032,
+            "paused": false
+          }
+        }
+      },
+      "playing_after_seconds": 3.9539821334183216,
+      "playing": {
+        "scene": "treehouse_remembrance",
+        "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+        "channels": {
+          "music": {
+            "file": "audio/remembrance_rain.ogg",
+            "position": 0.49,
+            "paused": false
+          },
+          "ambience": {
+            "file": "audio/rain.ogg",
+            "position": 0.49,
+            "paused": false
+          }
+        }
+      },
+      "fadeout_trace": [
+        {
+          "channel": 7,
+          "delay": 0.016,
+          "before": {
+            "file": "audio/first_light.ogg",
+            "position": 1237.3333333333335
+          },
+          "after": {
+            "file": "audio/first_light.ogg",
+            "position": 1237.3333333333335
+          }
+        },
+        {
+          "channel": 8,
+          "delay": 0.016,
+          "before": {
+            "file": "",
+            "position": -1
+          },
+          "after": {
+            "file": "",
+            "position": -1
+          }
+        },
+        {
+          "channel": 0,
+          "delay": 0.016,
+          "before": {
+            "file": "",
+            "position": -1
+          },
+          "after": {
+            "file": "",
+            "position": -1
+          }
+        },
+        {
+          "channel": 7,
+          "delay": 3,
+          "before": {
+            "file": "",
+            "position": -1
+          },
+          "after": {
+            "file": "",
+            "position": -1
+          }
+        },
+        {
+          "channel": 8,
+          "delay": 2,
+          "before": {
+            "file": "",
+            "position": -1
+          },
+          "after": {
+            "file": "",
+            "position": -1
+          }
+        },
+        {
+          "channel": 7,
+          "delay": 3,
+          "before": {
+            "file": "audio/painting_theme.ogg",
+            "position": 8224
+          },
+          "after": {
+            "file": "audio/painting_theme.ogg",
+            "position": 8224
+          }
+        },
+        {
+          "channel": 8,
+          "delay": 2,
+          "before": {
+            "file": "audio/garden_air.ogg",
+            "position": 8501.333333333334
+          },
+          "after": {
+            "file": "audio/garden_air.ogg",
+            "position": 8501.333333333334
+          }
+        }
+      ],
+      "restored": {
+        "scene": "treehouse_remembrance",
+        "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+        "channels": {
+          "music": {
+            "file": "audio/remembrance_rain.ogg",
+            "position": 0.789,
+            "paused": false
+          },
+          "ambience": {
+            "file": "audio/rain.ogg",
+            "position": 0.8,
+            "paused": false
+          }
+        }
+      },
+      "errors": []
+    }
+  ],
+  "smoke_sha256": "16a69a3358df4b24065d260a7efac6e39c59dda9a98126497a5a40ab4d6e43f5",
+  "runner_sha256": "b0fb931c6dbd74462e397ef7a438fee1aecce1ce0f6c3537d99b0ed36a4eb966",
+  "web_zip_sha256": "a4b468512a0bd25f2f59ff141d8f5128e991418a4b708cc332ddee6e32d8c3c0"
+}

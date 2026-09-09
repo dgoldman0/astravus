@@ -9,6 +9,8 @@ import re
 import zipfile
 import zlib
 
+from project import SDK, WEB_AUDIO_MEMBER, patched_web_audio
+
 PROJECT = Path(__file__).resolve().parents[1]
 EXCLUDED = ("scripts/", "tests/", "docs/", "art/", "web/", "build/", "dist/", "test-results/",
             "marketing/", ".cache/", ".git/", "game/cache/", "game/saves/",
@@ -120,6 +122,8 @@ def check(review_build=False):
             check_crc(game)
             check_members(game)
             generated = check_generated_runtime(game, "", version)
+            web_audio = patched_web_audio((SDK / WEB_AUDIO_MEMBER).read_bytes())
+            assert game.read(WEB_AUDIO_MEMBER) == web_audio, "Missing or changed browser audio handoff fix"
             check_members(archive)
             for name, expected in source.items():
                 content = archive.read(name) if name in archive.namelist() else game.read(name)
@@ -127,7 +131,8 @@ def check(review_build=False):
             report["exports"]["web"] = {"file": path.relative_to(PROJECT).as_posix(),
                 "bytes": path.stat().st_size, "sha256": archive_digest(path),
                 "entries": len(archive.namelist()), "game_entries": len(game.namelist()),
-                "matching_runtime_files": len(source), "generated_engine_files": generated}
+                "matching_runtime_files": len(source), "generated_engine_files": generated,
+                "web_audio_compatibility_sha256": digest(web_audio)}
     output = PROJECT / "test-results" / ("review-exports.json" if review_build else "release-exports.json")
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(report, indent=2) + "\n")

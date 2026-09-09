@@ -16,6 +16,7 @@ import shutil
 import subprocess
 import sys
 import tarfile
+import tempfile
 import urllib.request
 import zipfile
 
@@ -28,6 +29,53 @@ CHECKSUMS = {
     f"renpy-{VERSION}-web.zip": "954db897e65f51ea63cb2fb7b203d02be0447f4e22069514020bbe6c6691fdfc",
 }
 RELEASE_VERSION = r"\d+\.\d+(?:\.\d+)?(?:-[A-Za-z0-9]+(?:[.-][A-Za-z0-9]+)*)?"
+WEB_AUDIO_MEMBER = "renpy/common/_audio.js"
+WEB_AUDIO_SOURCE_SHA256 = "b40467d06b40f98e3cb83abd3b840db730e6bb8275d49fba22fc06de38e51879"
+WEB_AUDIO_FADEOUT_START = b"""renpyAudio.fadeout = (channel, delay) => {
+
+    let c = get_channel(channel);
+"""
+WEB_AUDIO_PENDING_STOP = b"""    // Astravus compatibility fix for the pinned Ren'Py 8.5.3 web backend.
+    // A loop still decoding or awaiting synchronized start has nothing audible
+    // to fade. Clear it and its queued repeat so the replacement can start.
+    if (!c.video && (c.playing == null || c.playing.started == null)) {
+        renpyAudio.stop(channel);
+        return;
+    }
+"""
+
+
+def patched_web_audio(source):
+    """Keep ordinary/tight-loop fades intact; discard only unstarted audio."""
+    if hashlib.sha256(source).hexdigest() != WEB_AUDIO_SOURCE_SHA256:
+        raise SystemExit("Unexpected Ren'Py web audio source; review the handoff fix before rebuilding.")
+    if source.count(WEB_AUDIO_FADEOUT_START) != 1:
+        raise SystemExit("Expected exactly one Ren'Py web audio fadeout function.")
+    return source.replace(WEB_AUDIO_FADEOUT_START, WEB_AUDIO_FADEOUT_START + WEB_AUDIO_PENDING_STOP, 1)
+
+
+def patch_web_audio(archive_path):
+    """Patch the exported engine copy atomically, leaving the pinned SDK intact."""
+    temporary = None
+    try:
+        with zipfile.ZipFile(archive_path) as original:
+            if original.namelist().count(WEB_AUDIO_MEMBER) != 1:
+                raise SystemExit("Expected exactly one web audio source in game.zip.")
+            replacement = patched_web_audio(original.read(WEB_AUDIO_MEMBER))
+            with tempfile.NamedTemporaryFile(dir=archive_path.parent, suffix=".zip", delete=False) as file:
+                temporary = Path(file.name)
+            with zipfile.ZipFile(temporary, "w") as output:
+                output.comment = original.comment
+                for member in original.infolist():
+                    if member.filename == WEB_AUDIO_MEMBER:
+                        output.writestr(member, replacement)
+                    else:
+                        with original.open(member) as source, output.open(member, "w") as target:
+                            shutil.copyfileobj(source, target)
+        temporary.replace(archive_path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 
 def download(name):
@@ -86,6 +134,7 @@ def engine(*args, headless=False, testing=False):
 def prepare_web():
     """Install browser startup/cache fixes without modifying the downloaded SDK."""
     web = PROJECT / "build/web"
+    patch_web_audio(web / "game.zip")
     index = web / "index.html"
     html = index.read_text()
     original = '<script src="renpy-pre.js"></script>\n  <script async type="text/javascript" src="renpy.js"></script>'

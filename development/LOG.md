@@ -2,6 +2,10 @@
 
 This log records work on the collection. Current canon is in the [wiki](../wiki/INDEX.md); open work and references are listed in the [development index](README.md).
 
+## 9 September 2026 — Repair the browser audio handoff
+
+The web engine could promote an unstarted garden loop during fadeout, leaving rain and synchronized music waiting. A guard in the exported Ren'Py audio backend now clears only unstarted audio and its queued repeat. Running fades, loop-boundary fades, native game files and audio assets retain their behavior. The web package was rebuilt at 10:22:47 AM EDT; all 32 scenes, 32 reverse chapter jumps, closing-theme controls, save/load, reload and cache checks pass. Focused rapid/normal audio checks and 67 regression tests also pass. [Repair review and package identity](visual-novel/reviews/audio/browser-handoff/README.md).
+
 ## 9 September 2026 — Separate visual-novel development and rebuild the game
 
 The author requested a clearer boundary between selected game materials and exploratory work. [Visual novel development](visual-novel/README.md) now holds character prompts and alternatives, opening identity trials, editable GIMP projects, comparison viewers and inspection history. The game’s curated gallery retains only the 20 selected sheets and current notes for 17 named characters. A preservation inventory maps all 543 relocated items; six already-broken archive links were restored from their exact stashed originals.

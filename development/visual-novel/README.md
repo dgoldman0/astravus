@@ -15,7 +15,8 @@ contains the twenty selected reference sheets and their seventeen character note
 | [Background review](reviews/backgrounds.md) | All 29 selected plates, including weather, light and time progression. |
 | [Graphics reviews](reviews/graphics/) | Source-art, scene, location, compositing and film inspections, plus the current graphics ledger. |
 | [Familiar compositing](reviews/familiar-compositing.md) | The cool-forest lighting and construction-room visibility refinement, with preserved native comparisons. |
-| [Organization and rebuild checks](reviews/organization/README.md) | Preservation checks, working viewers, rebuilt packages and the remaining browser audio handoff issue. |
+| [Organization and rebuild checks](reviews/organization/README.md) | Preservation checks, working viewers and the first rebuilt packages. |
+| [Browser audio handoff repair](reviews/audio/browser-handoff/README.md) | Resolved garden-to-rain transition, current web package and passing full browser checks. |
 | [Closing film review](reviews/film.md) | Rebuilt movie inputs, encoded-frame inspections and complete stream verification. |
 | [Audio reviews](reviews/audio/) | Score and listening review history. |
 | [Release reviews](reviews/releases/) | Earlier version, interface, wording and export reviews. |

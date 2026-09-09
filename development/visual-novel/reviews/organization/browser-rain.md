@@ -1,5 +1,7 @@
 # Browser rain handoff — September 9, 2026
 
+Historical pre-fix diagnosis. The [subsequent repair](../audio/browser-handoff/README.md) confirms the pending-loop cause and passes the complete browser check on the rebuilt web package. The observations below retain their original scope.
+
 The bounded probe reproduced the failed ambience handoff. After entering **Mural remembrance** through the real chapter menu and advancing normally with Space into **Treehouse remembrance**, both `renpy.music.get_playing(channel="ambience")` and the backend playing name remained `audio/garden_air.ogg` for ten seconds. Rain was present in the queue and loop list throughout. **The full browser smoke test has not passed; this remains an unresolved browser playback limitation.**
 
 At the first treehouse line, garden playback position was 0.106 seconds; at the 10.005-second observation it was 10.111 seconds. Backend queue depth remained 2. The ambience channel was playing, unpaused, unmuted and not force-stopped; volume was nonzero. The scene, rainy background and first dialogue line stayed unchanged, and no transition was active. There were no recorded JavaScript errors or failed requests; Chromium logged software-WebGL performance warnings. The [cue capture](browser-rain-at-cue.png) and [ten-second capture](browser-rain-after-10s.png) were visually inspected and are byte-identical. This is more than an early scene-state read, but the probe does not establish how often ordinary reading reproduces the problem.

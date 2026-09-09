@@ -1,0 +1,1091 @@
+{
+  "candidate": "stock",
+  "audio_trace": [
+    {
+      "method": "fadeout",
+      "args": [
+        7,
+        0.016
+      ],
+      "time": 1.4293333333333333,
+      "before": {
+        "name": "audio/first_light.ogg",
+        "pos": 981.3333333333334,
+        "depth": 2
+      },
+      "after": {
+        "name": "audio/first_light.ogg",
+        "pos": 981.3333333333334,
+        "depth": 1
+      }
+    },
+    {
+      "method": "fadeout",
+      "args": [
+        8,
+        0.016
+      ],
+      "time": 1.4293333333333333,
+      "before": {
+        "name": "",
+        "pos": -1,
+        "depth": 0
+      },
+      "after": {
+        "name": "",
+        "pos": -1,
+        "depth": 0
+      }
+    },
+    {
+      "method": "fadeout",
+      "args": [
+        0,
+        0.016
+      ],
+      "time": 1.4293333333333333,
+      "before": {
+        "name": "",
+        "pos": -1,
+        "depth": 0
+      },
+      "after": {
+        "name": "",
+        "pos": -1,
+        "depth": 0
+      }
+    },
+    {
+      "method": "fadeout",
+      "args": [
+        7,
+        3
+      ],
+      "time": 1.44,
+      "before": {
+        "name": "audio/first_light.ogg",
+        "pos": 992,
+        "depth": 1
+      },
+      "after": {
+        "name": "audio/first_light.ogg",
+        "pos": 992,
+        "depth": 1
+      }
+    },
+    {
+      "method": "fadeout",
+      "args": [
+        8,
+        2
+      ],
+      "time": 1.44,
+      "before": {
+        "name": "",
+        "pos": -1,
+        "depth": 0
+      },
+      "after": {
+        "name": "",
+        "pos": -1,
+        "depth": 0
+      }
+    },
+    {
+      "method": "queue",
+      "args": [
+        7,
+        "//game/audio/painting_theme.ogg",
+        "audio/painting_theme.ogg",
+        true,
+        3,
+        true,
+        0,
+        -1,
+        1,
+        0
+      ],
+      "time": 1.5253333333333334,
+      "before": {
+        "name": "audio/first_light.ogg",
+        "pos": 1077.3333333333335,
+        "depth": 1
+      },
+      "after": {
+        "name": "audio/first_light.ogg",
+        "pos": 1077.3333333333335,
+        "depth": 2
+      }
+    },
+    {
+      "method": "stop",
+      "args": [
+        8
+      ],
+      "time": 1.5253333333333334,
+      "before": {
+        "name": "",
+        "pos": -1,
+        "depth": 0
+      },
+      "after": {
+        "name": "",
+        "pos": -1,
+        "depth": 0
+      }
+    },
+    {
+      "method": "queue",
+      "args": [
+        8,
+        "//game/audio/garden_air.ogg",
+        "audio/garden_air.ogg",
+        true,
+        2,
+        true,
+        0,
+        -1,
+        1,
+        0
+      ],
+      "time": 1.5253333333333334,
+      "before": {
+        "name": "",
+        "pos": -1,
+        "depth": 0
+      },
+      "after": {
+        "name": "audio/garden_air.ogg",
+        "pos": 0,
+        "depth": 1
+      }
+    },
+    {
+      "method": "queue",
+      "args": [
+        8,
+        "//game/audio/garden_air.ogg",
+        "audio/garden_air.ogg",
+        false,
+        0,
+        true,
+        0,
+        -1,
+        1,
+        0
+      ],
+      "time": 1.632,
+      "before": {
+        "name": "audio/garden_air.ogg",
+        "pos": 0,
+        "depth": 1
+      },
+      "after": {
+        "name": "audio/garden_air.ogg",
+        "pos": 0,
+        "depth": 2
+      }
+    },
+    {
+      "method": "fadeout",
+      "args": [
+        7,
+        3
+      ],
+      "time": 2.656,
+      "before": {
+        "name": "audio/first_light.ogg",
+        "pos": 2208,
+        "depth": 2
+      },
+      "after": {
+        "name": "audio/first_light.ogg",
+        "pos": 2208,
+        "depth": 1
+      }
+    },
+    {
+      "method": "fadeout",
+      "args": [
+        8,
+        2
+      ],
+      "time": 2.656,
+      "before": {
+        "name": "audio/garden_air.ogg",
+        "pos": 0,
+        "depth": 2
+      },
+      "after": {
+        "name": "audio/garden_air.ogg",
+        "pos": 0,
+        "depth": 1
+      }
+    },
+    {
+      "method": "queue",
+      "args": [
+        7,
+        "//game/audio/remembrance_rain.ogg",
+        "audio/remembrance_rain.ogg",
+        true,
+        3,
+        true,
+        0,
+        -1,
+        1,
+        0
+      ],
+      "time": 2.6666666666666665,
+      "before": {
+        "name": "audio/first_light.ogg",
+        "pos": 2218.6666666666665,
+        "depth": 1
+      },
+      "after": {
+        "name": "audio/first_light.ogg",
+        "pos": 2218.6666666666665,
+        "depth": 2
+      }
+    },
+    {
+      "method": "queue",
+      "args": [
+        8,
+        "//game/audio/rain.ogg",
+        "audio/rain.ogg",
+        true,
+        3,
+        true,
+        0,
+        -1,
+        1,
+        0
+      ],
+      "time": 2.6666666666666665,
+      "before": {
+        "name": "audio/garden_air.ogg",
+        "pos": 10.66666666666638,
+        "depth": 1
+      },
+      "after": {
+        "name": "audio/garden_air.ogg",
+        "pos": 10.66666666666638,
+        "depth": 2
+      }
+    },
+    {
+      "method": "queue",
+      "args": [
+        7,
+        "//game/audio/remembrance_rain.ogg",
+        "audio/remembrance_rain.ogg",
+        false,
+        0,
+        true,
+        0,
+        -1,
+        1,
+        0
+      ],
+      "time": 5.685333333333333,
+      "before": {
+        "name": "audio/remembrance_rain.ogg",
+        "pos": 0,
+        "depth": 1
+      },
+      "after": {
+        "name": "audio/remembrance_rain.ogg",
+        "pos": 0,
+        "depth": 2
+      }
+    }
+  ],
+  "checked_at_utc": "2026-09-09T14:17:00.303059+00:00",
+  "url": "http://127.0.0.1:8000/?preview=0.1-alpha",
+  "browser": "148.0.7778.96",
+  "viewport": [
+    1280,
+    720
+  ],
+  "scope": "Actual chapter-menu entry to mural followed by normal Space advances into treehouse; no game/audio overrides. Ten seconds stationary after first treehouse observation.",
+  "rain_by_10s": false,
+  "backend_rain_by_10s": false,
+  "samples": [
+    {
+      "scene": "mural_remembrance",
+      "bg": "memory_mural",
+      "text": "As time passed, I began a mural in Maia's garden. It held the places we'd known and the places we'd meant to find.",
+      "say": true,
+      "transition": false,
+      "trans_pause": false,
+      "skipping": null,
+      "context_menu": false,
+      "pcm_ok": true,
+      "channels": {
+        "ambience": {
+          "get_playing": "audio/garden_air.ogg",
+          "is_playing": true,
+          "pos": null,
+          "delay_to_10s": null,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/garden_air.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/garden_air.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "sfx",
+          "mixer_muted": false,
+          "actual_volume": 0.06309573444801933,
+          "number": 8,
+          "backend_name": "audio/garden_air.ogg",
+          "backend_queue_depth": 2
+        },
+        "music": {
+          "get_playing": "audio/first_light.ogg",
+          "is_playing": true,
+          "pos": 1.44,
+          "delay_to_10s": 8.56,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/painting_theme.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/painting_theme.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "music",
+          "mixer_muted": false,
+          "actual_volume": 0.04365158322401661,
+          "number": 7,
+          "backend_name": "audio/first_light.ogg",
+          "backend_queue_depth": 2
+        }
+      },
+      "at": "mural_entry",
+      "elapsed": null,
+      "browser": {
+        "visibility": "visible",
+        "audioContext": null
+      }
+    },
+    {
+      "scene": "treehouse_remembrance",
+      "bg": "treehouse_memory",
+      "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+      "say": true,
+      "transition": false,
+      "trans_pause": false,
+      "skipping": null,
+      "context_menu": false,
+      "pcm_ok": true,
+      "channels": {
+        "ambience": {
+          "get_playing": "audio/garden_air.ogg",
+          "is_playing": true,
+          "pos": 0.202,
+          "delay_to_10s": 9.798,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "sfx",
+          "mixer_muted": false,
+          "actual_volume": 0.06309573444801933,
+          "number": 8,
+          "backend_name": "audio/garden_air.ogg",
+          "backend_queue_depth": 2
+        },
+        "music": {
+          "get_playing": "audio/first_light.ogg",
+          "is_playing": true,
+          "pos": 2.41,
+          "delay_to_10s": 7.59,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/remembrance_rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/remembrance_rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "music",
+          "mixer_muted": false,
+          "actual_volume": 0.04365158322401661,
+          "number": 7,
+          "backend_name": "audio/first_light.ogg",
+          "backend_queue_depth": 2
+        }
+      },
+      "at": "first_treehouse_observation",
+      "elapsed": 0.0,
+      "browser": {
+        "visibility": "visible",
+        "audioContext": null
+      }
+    },
+    {
+      "scene": "treehouse_remembrance",
+      "bg": "treehouse_memory",
+      "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+      "say": true,
+      "transition": false,
+      "trans_pause": false,
+      "skipping": null,
+      "context_menu": false,
+      "pcm_ok": true,
+      "channels": {
+        "ambience": {
+          "get_playing": "audio/garden_air.ogg",
+          "is_playing": true,
+          "pos": 0.725,
+          "delay_to_10s": 9.275,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "sfx",
+          "mixer_muted": false,
+          "actual_volume": 0.06309573444801933,
+          "number": 8,
+          "backend_name": "audio/garden_air.ogg",
+          "backend_queue_depth": 2
+        },
+        "music": {
+          "get_playing": "audio/first_light.ogg",
+          "is_playing": true,
+          "pos": 2.933,
+          "delay_to_10s": 7.067,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/remembrance_rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/remembrance_rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "music",
+          "mixer_muted": false,
+          "actual_volume": 0.04365158322401661,
+          "number": 7,
+          "backend_name": "audio/first_light.ogg",
+          "backend_queue_depth": 2
+        }
+      },
+      "at": "treehouse_stationary",
+      "elapsed": 0.5310383727774024,
+      "browser": {
+        "visibility": "visible",
+        "audioContext": null
+      }
+    },
+    {
+      "scene": "treehouse_remembrance",
+      "bg": "treehouse_memory",
+      "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+      "say": true,
+      "transition": false,
+      "trans_pause": false,
+      "skipping": null,
+      "context_menu": false,
+      "pcm_ok": true,
+      "channels": {
+        "ambience": {
+          "get_playing": "audio/garden_air.ogg",
+          "is_playing": true,
+          "pos": 0.789,
+          "delay_to_10s": 9.211,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "sfx",
+          "mixer_muted": false,
+          "actual_volume": 0.06309573444801933,
+          "number": 8,
+          "backend_name": "audio/garden_air.ogg",
+          "backend_queue_depth": 2
+        },
+        "music": {
+          "get_playing": "audio/first_light.ogg",
+          "is_playing": true,
+          "pos": 2.997,
+          "delay_to_10s": 7.003,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/remembrance_rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/remembrance_rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "music",
+          "mixer_muted": false,
+          "actual_volume": 0.04365158322401661,
+          "number": 7,
+          "backend_name": "audio/first_light.ogg",
+          "backend_queue_depth": 2
+        }
+      },
+      "at": "treehouse_stationary",
+      "elapsed": 0.5835758997127414,
+      "browser": {
+        "visibility": "visible",
+        "audioContext": null
+      }
+    },
+    {
+      "scene": "treehouse_remembrance",
+      "bg": "treehouse_memory",
+      "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+      "say": true,
+      "transition": false,
+      "trans_pause": false,
+      "skipping": null,
+      "context_menu": false,
+      "pcm_ok": true,
+      "channels": {
+        "ambience": {
+          "get_playing": "audio/garden_air.ogg",
+          "is_playing": true,
+          "pos": 1.194,
+          "delay_to_10s": 8.801,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "sfx",
+          "mixer_muted": false,
+          "actual_volume": 0.06309573444801933,
+          "number": 8,
+          "backend_name": "audio/garden_air.ogg",
+          "backend_queue_depth": 2
+        },
+        "music": {
+          "get_playing": "audio/first_light.ogg",
+          "is_playing": true,
+          "pos": 3.413,
+          "delay_to_10s": 6.587,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/remembrance_rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/remembrance_rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "music",
+          "mixer_muted": false,
+          "actual_volume": 0.04365158322401661,
+          "number": 7,
+          "backend_name": "audio/first_light.ogg",
+          "backend_queue_depth": 2
+        }
+      },
+      "at": "treehouse_stationary",
+      "elapsed": 1.0023099584504962,
+      "browser": {
+        "visibility": "visible",
+        "audioContext": null
+      }
+    },
+    {
+      "scene": "treehouse_remembrance",
+      "bg": "treehouse_memory",
+      "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+      "say": true,
+      "transition": false,
+      "trans_pause": false,
+      "skipping": null,
+      "context_menu": false,
+      "pcm_ok": true,
+      "channels": {
+        "ambience": {
+          "get_playing": "audio/garden_air.ogg",
+          "is_playing": true,
+          "pos": 2.186,
+          "delay_to_10s": 7.814,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "sfx",
+          "mixer_muted": false,
+          "actual_volume": 0.06309573444801933,
+          "number": 8,
+          "backend_name": "audio/garden_air.ogg",
+          "backend_queue_depth": 2
+        },
+        "music": {
+          "get_playing": "audio/first_light.ogg",
+          "is_playing": true,
+          "pos": 4.394,
+          "delay_to_10s": 5.606,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/remembrance_rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/remembrance_rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "music",
+          "mixer_muted": false,
+          "actual_volume": 0.04365158322401661,
+          "number": 7,
+          "backend_name": "audio/first_light.ogg",
+          "backend_queue_depth": 2
+        }
+      },
+      "at": "treehouse_stationary",
+      "elapsed": 2.0023920256644487,
+      "browser": {
+        "visibility": "visible",
+        "audioContext": null
+      }
+    },
+    {
+      "scene": "treehouse_remembrance",
+      "bg": "treehouse_memory",
+      "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+      "say": true,
+      "transition": false,
+      "trans_pause": false,
+      "skipping": null,
+      "context_menu": false,
+      "pcm_ok": true,
+      "channels": {
+        "ambience": {
+          "get_playing": "audio/garden_air.ogg",
+          "is_playing": true,
+          "pos": 3.189,
+          "delay_to_10s": 6.811,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "sfx",
+          "mixer_muted": false,
+          "actual_volume": 0.06309573444801933,
+          "number": 8,
+          "backend_name": "audio/garden_air.ogg",
+          "backend_queue_depth": 2
+        },
+        "music": {
+          "get_playing": "audio/remembrance_rain.ogg",
+          "is_playing": true,
+          "pos": null,
+          "delay_to_10s": null,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/remembrance_rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/remembrance_rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "music",
+          "mixer_muted": false,
+          "actual_volume": 0.04365158322401661,
+          "number": 7,
+          "backend_name": "audio/remembrance_rain.ogg",
+          "backend_queue_depth": 2
+        }
+      },
+      "at": "treehouse_stationary",
+      "elapsed": 3.0023573311045766,
+      "browser": {
+        "visibility": "visible",
+        "audioContext": null
+      }
+    },
+    {
+      "scene": "treehouse_remembrance",
+      "bg": "treehouse_memory",
+      "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+      "say": true,
+      "transition": false,
+      "trans_pause": false,
+      "skipping": null,
+      "context_menu": false,
+      "pcm_ok": true,
+      "channels": {
+        "ambience": {
+          "get_playing": "audio/garden_air.ogg",
+          "is_playing": true,
+          "pos": 5.151,
+          "delay_to_10s": 4.849,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "sfx",
+          "mixer_muted": false,
+          "actual_volume": 0.06309573444801933,
+          "number": 8,
+          "backend_name": "audio/garden_air.ogg",
+          "backend_queue_depth": 2
+        },
+        "music": {
+          "get_playing": "audio/remembrance_rain.ogg",
+          "is_playing": true,
+          "pos": null,
+          "delay_to_10s": null,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/remembrance_rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/remembrance_rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "music",
+          "mixer_muted": false,
+          "actual_volume": 0.04365158322401661,
+          "number": 7,
+          "backend_name": "audio/remembrance_rain.ogg",
+          "backend_queue_depth": 2
+        }
+      },
+      "at": "treehouse_stationary",
+      "elapsed": 5.001552054658532,
+      "browser": {
+        "visibility": "visible",
+        "audioContext": null
+      }
+    },
+    {
+      "scene": "treehouse_remembrance",
+      "bg": "treehouse_memory",
+      "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+      "say": true,
+      "transition": false,
+      "trans_pause": false,
+      "skipping": null,
+      "context_menu": false,
+      "pcm_ok": true,
+      "channels": {
+        "ambience": {
+          "get_playing": "audio/garden_air.ogg",
+          "is_playing": true,
+          "pos": 10.197,
+          "delay_to_10s": 0,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "sfx",
+          "mixer_muted": false,
+          "actual_volume": 0.06309573444801933,
+          "number": 8,
+          "backend_name": "audio/garden_air.ogg",
+          "backend_queue_depth": 2
+        },
+        "music": {
+          "get_playing": "audio/remembrance_rain.ogg",
+          "is_playing": true,
+          "pos": null,
+          "delay_to_10s": null,
+          "playing_flag": true,
+          "queue": [
+            {
+              "filename": "audio/remembrance_rain.ogg",
+              "fadein": 0,
+              "loop": true,
+              "tight": true
+            }
+          ],
+          "loop": [
+            "audio/remembrance_rain.ogg"
+          ],
+          "default_loop": true,
+          "paused": false,
+          "context_pause": false,
+          "force_stop": false,
+          "mixer": "music",
+          "mixer_muted": false,
+          "actual_volume": 0.04365158322401661,
+          "number": 7,
+          "backend_name": "audio/remembrance_rain.ogg",
+          "backend_queue_depth": 2
+        }
+      },
+      "at": "treehouse_stationary",
+      "elapsed": 10.005709173157811,
+      "browser": {
+        "visibility": "visible",
+        "audioContext": null
+      }
+    }
+  ],
+  "dialogue_steps": [
+    {
+      "scene": "mural_remembrance",
+      "text": "As time passed, I began a mural in Maia's garden. It held the places we'd known and the places we'd meant to find.",
+      "bg": "memory_mural"
+    },
+    {
+      "scene": "mural_remembrance",
+      "text": "I worked a little at a time. The wall was larger than any page I had used. Some days that helped.",
+      "bg": "memory_mural"
+    },
+    {
+      "scene": "mural_remembrance",
+      "text": "The tree needs to be wider here. We never left enough room for the creature to land.",
+      "bg": "memory_mural"
+    },
+    {
+      "scene": "mural_remembrance",
+      "text": "Then make it wider. It's your wall.",
+      "bg": "memory_mural"
+    },
+    {
+      "scene": "mural_remembrance",
+      "text": "Cassia helped me remember. We could disagree about a color, then fall quiet because we'd both thought of asking him.",
+      "bg": "memory_mural"
+    },
+    {
+      "scene": "mural_remembrance",
+      "text": "The garden gave the painting a life around it: water, leaves, people passing. I could go there when I wanted to be close to a memory.",
+      "bg": "memory_mural"
+    },
+    {
+      "scene": "treehouse_remembrance",
+      "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+      "bg": "treehouse_memory"
+    }
+  ],
+  "errors": [],
+  "console": [
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x344c19372600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): Running out of reserved outsideRenderPass queueSerial. ending renderPass now."
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x344c19372600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): Running out of reserved outsideRenderPass queueSerial. ending renderPass now."
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x344c19372600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): Running out of reserved outsideRenderPass queueSerial. ending renderPass now."
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x344c19372600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): Running out of reserved outsideRenderPass queueSerial. ending renderPass now. (this message will no longer repeat)"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x344c19372600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    }
+  ],
+  "failed_requests": [],
+  "smoke_source_sha256_at_extraction": "16a69a3358df4b24065d260a7efac6e39c59dda9a98126497a5a40ab4d6e43f5",
+  "helper_sha256": "5f89069bcc58be224eb076c9181b142d100017c510135ae1c4d16744afaff9d6",
+  "runner_sha256": "e0af497806d44c1bce080d883ac91cd7607985e4bf4683185abaa0650caec124",
+  "supporting_inputs_checked_after_run": [
+    {
+      "path": "visual-novel/game/options.rpy",
+      "sha256": "cb73f1de5b6c8f77f980e217532ed35ed756248a3d01970e4d70db4ef20abfde"
+    },
+    {
+      "path": "visual-novel/game/friendships_book_one.rpy",
+      "sha256": "4781a57091a2cd53d18541649feda430fa084a4eeee9fdc9cf503bc5fd7d463c"
+    },
+    {
+      "path": "visual-novel/game/audio/rain.ogg",
+      "sha256": "e3c82d4bf2a63b0958a5b3a954f05a52f5addad1ab12bddb955da65d6afc28d4"
+    },
+    {
+      "path": "visual-novel/game/audio/garden_air.ogg",
+      "sha256": "6aeba82d0dad827836e122c9a09e7e1767d598e7c1a808420bcfe34bbf2434ca"
+    },
+    {
+      "path": "visual-novel/.cache/renpy-8.5.3-sdk/renpy/audio/audio.py",
+      "sha256": "17a02290d5b9cfe744a21472685176e31e0e3af5de8b5095d709105f9340c3ec"
+    },
+    {
+      "path": "visual-novel/.cache/renpy-8.5.3-sdk/renpy/audio/music.py",
+      "sha256": "5de87c000fb6dbcfa8fcdc04e74b243be1260e62c37f03385fc6d430607a35ae"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "browser-rain-at-cue.png",
+      "sha256": "fd26d5df4ec5d63b2dd4d35dbaa4aba965ac1b70f02105c5667edb5c54689e33"
+    },
+    {
+      "file": "browser-rain-after-10s.png",
+      "sha256": "fd26d5df4ec5d63b2dd4d35dbaa4aba965ac1b70f02105c5667edb5c54689e33"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+Browser cache passed: stale copy replaced online; refreshed copy remains available offline.
+Browser scene 01/32: first_memory
+Browser scene 02/32: garden
+Browser scene 03/32: plant_disagreement
+Browser scene 04/32: workshop_first
+Browser scene 05/32: music_first
+Browser scene 06/32: dorian_stories
+Browser scene 07/32: sage_story
+Browser scene 08/32: family_rhythm
+Browser sprite rendering: 68.3 fps, p95 21.0ms for 2 actors in software WebGL.
+Browser scene 09/32: tree_echoes
+Browser scene 10/32: pond_scare
+Browser scene 11/32: soup_experiment
+Browser scene 12/32: festival_lights
+Browser scene 13/32: meeting_cassia
+Browser scene 14/32: cassia_home
+Browser scene 15/32: meeting_joren
+Browser scene 16/32: joren_home
+Browser scene 17/32: kaleb_walk
+Browser scene 18/32: treehouse
+Browser scene 19/32: rain_refuge
+Browser scene 20/32: waterwheel
+Browser scene 21/32: outer_exploration
+Browser scene 22/32: lyra_included
+Browser scene 23/32: dome_ascent
+Browser scene 24/32: treehouse_dispute
+Browser scene 25/32: loss
+Browser scene 26/32: family_grief
+Browser scene 27/32: painting_grief
+Browser scene 28/32: cassia_grief
+Browser scene 29/32: community_memorial
+Browser scene 30/32: mural_remembrance
+Browser scene 31/32: treehouse_remembrance
+Browser scene 32/32: annual_remembrance
+Browser closing theme passed: playback, both motion preferences, frozen pause, keyboard resume, skip, Escape while paused, fresh replay and channel cleanup.
+Browser glossary passed: all 10 reveal stages appear at their actual lines, with no premature definitions.
+Browser song credit passed: title, attribution and real SUNO hyperlink click (destination intercepted).
+Browser 0.1-alpha passed all 32 scenes: all 14 People entries and 3 illustrated familiars, familiar staging in 7 scenes, all 8 action stills and flute reuse, three flute cues in story order with matching poses, save/load, ordered reveals, age/clothing, rain, grief, complete ending, Credits, reload and Continue; no engine/page errors.
+Browser chapter jump annual_remembrance: matches normal entrance
+Browser chapter jump treehouse_remembrance: matches normal entrance
+Browser chapter jump mural_remembrance: matches normal entrance
+Browser chapter jump community_memorial: matches normal entrance
+Browser chapter jump cassia_grief: matches normal entrance
+Browser chapter jump painting_grief: matches normal entrance
+Browser chapter jump family_grief: matches normal entrance
+Browser chapter jump loss: matches normal entrance
+Browser chapter jump treehouse_dispute: matches normal entrance
+Browser chapter jump dome_ascent: matches normal entrance
+Browser chapter jump lyra_included: matches normal entrance
+Browser chapter jump outer_exploration: matches normal entrance
+Browser chapter jump waterwheel: matches normal entrance
+Browser chapter jump rain_refuge: matches normal entrance
+Browser chapter jump treehouse: matches normal entrance
+Browser chapter jump kaleb_walk: matches normal entrance
+Browser chapter jump joren_home: matches normal entrance
+Browser chapter jump meeting_joren: matches normal entrance
+Browser chapter jump cassia_home: matches normal entrance
+Browser chapter jump meeting_cassia: matches normal entrance
+Browser chapter jump festival_lights: matches normal entrance
+Browser chapter jump soup_experiment: matches normal entrance
+Browser chapter jump pond_scare: matches normal entrance
+Browser chapter jump tree_echoes: matches normal entrance
+Browser chapter jump family_rhythm: matches normal entrance
+Browser chapter jump sage_story: matches normal entrance
+Browser chapter jump dorian_stories: matches normal entrance
+Browser chapter jump music_first: matches normal entrance
+Browser chapter jump workshop_first: matches normal entrance
+Browser chapter jump plant_disagreement: matches normal entrance
+Browser chapter jump garden: matches normal entrance
+Browser chapter jump first_memory: matches normal entrance
+All 32 chapter jumps passed against normal-play entrances, including backwards story state and character visibility.
+Alpha polish passed: spoiler confirmation/cancellation, unread gaps after jumps, persistent setting, credits link and afterword.
+Unsupported graphics passed: useful fallback appears before any engine or game download.

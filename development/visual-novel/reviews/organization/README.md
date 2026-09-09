@@ -1,5 +1,7 @@
 # Organization and rebuild checks
 
+This directory preserves the first rebuild checkpoint, including its failed browser run. The subsequent [browser audio repair](../audio/browser-handoff/README.md) resolves that failure and records the current web package with passing full-game browser checks.
+
 The September 9, 2026 pass separates selected game materials from exploratory art and review history. The [development index](../../README.md) explains the new locations; [current validation](../../../../visual-novel/docs/VALIDATION.md) identifies the rebuilt packages and completed game checks.
 
 The [preservation inventory](../../organization.json) maps 543 old paths to their retained destinations. [Preservation results](preservation.json) confirm all destinations exist, all 274 moved ordinary binary files retain their bytes, and all 20 selected key sheets remain unchanged. Six symlinks already had missing targets before the move; their exact originals were recovered from the recorded stash and their links repaired. The [recovery record](../../archive/recovered-proof.json) identifies all 31 recovered source files. Raw prompt text and historical source hashes remain historical evidence; mutable current review records are identified explicitly.
