@@ -6,7 +6,7 @@
 
 [The childhood manuscript](../../../../revision/latest.md#earliest-memories), line 33, establishes flowing white hair, violet eyes, graceful presence and long delicate fingers. [Selene's biography](../../../../wiki/bios/Selene.md#physical-description) adds deep bronze skin, high cheekbones, a narrow face and the shortest, petite build of the five parents. Her white hair is genetic, beginning early in adult life; it must not make her elderly.
 
-Preserve the existing bronze face and unmistakable violet irises. Pure white wavy hair contrasts with the complexion; it is not gray-brown or platinum-blonde. The current everyday sprite and white-haired adult behind Maia in the [accepted opening](../../character-refinement-test/opening-refined-v1.png) anchor her identity. Her head remains adult in proportion despite her smaller stature.
+Preserve the existing bronze face and unmistakable violet irises. Pure white wavy hair contrasts with the complexion; it is not gray-brown or platinum-blonde. The current everyday sprite and white-haired adult behind Maia in the [opening illustration](../../../game/images/cg/first-memory-young.png) anchor her identity. Her head remains adult in proportion despite her smaller stature.
 
 ## Stage, clothes and performance
 
@@ -16,6 +16,8 @@ Keep the same vital adult face through Book I; the biography's “125+” is lat
 
 Her warmth is quiet; attention may include a slight listening tilt, and concern gathers the brows without theatrical anguish. Warm interiors color the hair's highlights while its underlying identity remains white. Cool shade preserves bronze facial midtones and violet irises. Avoid chalk-white skin or bright glowing eyes.
 
-## Review and use
+## Reference use
 
-The sheet preserves her existing face, costume and hair across the views. The everyday sprite already matches and is retained. The expressions add useful acting references without replacing the current listening pose. New rear garment details are production constructions, not added canon. [prompt-key.txt](prompt-key.txt) records the exact request; the parent register records inputs and generated output.
+Use the face angles and expressions while preserving the listening pose when the scene calls for it. Rear garment details are production constructions, not added canon.
+
+[Sheet prompt](../../../../development/visual-novel/art/characters/selene/prompt-key.txt) and [production record](../../../../development/visual-novel/art/characters/parents-changes.json).

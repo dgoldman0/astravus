@@ -1,0 +1,20 @@
+Failed to parse tag cache: No such file or directory
+using gegl copy
+using gegl copy
+using gegl copy
+batch command executed successfully
+{
+  "status": "passed",
+  "assets": [
+    {
+      "name": "lyra",
+      "changed_pixels": 8747,
+      "outside_mask_changed_pixels": 0
+    },
+    {
+      "name": "thalia",
+      "changed_pixels": 158,
+      "outside_mask_changed_pixels": 0
+    }
+  ]
+}

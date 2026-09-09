@@ -1,0 +1,365 @@
+{
+  "status": "reproduced_unfocused_replay",
+  "mode": "diagnosis",
+  "checked_at_utc": "2026-09-09T13:43:23.807928+00:00",
+  "url": "http://127.0.0.1:8000/?preview=0.1-alpha",
+  "viewport": [
+    1280,
+    720
+  ],
+  "browser": "148.0.7778.96",
+  "scope": "Direct annual-remembrance chapter entry, actual final dialogue, complete extracted closing-theme sequence; no full-story replay.",
+  "source_sha256": "536ba7d68a6c44a1b9631e3047f5011190f44c7ba1e6a4060073701361fc9c77",
+  "helper_sha256": "d50dad693ccdabdca83d8a776dda8a8be3662cdb61d684c43e930b5f1658e97d",
+  "closing_function_sha256": "0e1728165cdbb90c7078abf4c433b1fe5d8b464596900da3db89977d49a85b5d",
+  "runner_sha256": "265f43cac4e94a8a5dd834d73ed831e2bc6600f0cb1f955e7122ee3110f0fd4f",
+  "focus_checks": [
+    {
+      "phase": "setup",
+      "texts": [
+        "Chapters"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "phase": "setup",
+      "texts": [
+        "32 \u00b7 What remains"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [
+        "Play closing theme"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [
+        "Pause"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [
+        "Skip closing theme"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [
+        "Replay closing theme"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [],
+      "in_screen": false,
+      "ready": false
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [],
+      "in_screen": false,
+      "ready": false
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [],
+      "in_screen": false,
+      "ready": false
+    }
+  ],
+  "pointer_moves": [
+    {
+      "x": 402.6666666666667,
+      "y": 426.6666666666667,
+      "phase": "setup"
+    },
+    {
+      "x": 736.6666666666666,
+      "y": 627.0,
+      "phase": "setup"
+    },
+    {
+      "x": 562.0,
+      "y": 512.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 1064.3333333333333,
+      "y": 682.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 1182.6666666666667,
+      "y": 682.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 639.3333333333334,
+      "y": 428.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 639.3333333333334,
+      "y": 428.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 641.3333333333334,
+      "y": 428.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 639.3333333333334,
+      "y": 428.0,
+      "phase": "closing_sequence"
+    }
+  ],
+  "observations": [
+    {
+      "focused_type": "<class 'NoneType'>",
+      "focused_texts": [],
+      "focused_id": 5306572,
+      "in_screen": false,
+      "targets": [
+        {
+          "rect": [
+            809,
+            613,
+            300,
+            58
+          ],
+          "widget_id": 39809120,
+          "in_screen": true
+        }
+      ],
+      "mouse_pos": [
+        958,
+        642
+      ],
+      "focus_type": "mouse",
+      "pending_focus_type": "mouse",
+      "transition": false,
+      "trans_pause": false,
+      "last_event": "<Event(32769-UserEvent1 code=0, mod=0)>",
+      "mouse_event_time": 1788961396.613,
+      "input_event_time": 1788961401.0419998,
+      "at": "unfocused_after_same_position_move",
+      "browser_mouse_events": [
+        {
+          "x": 562,
+          "y": 512,
+          "t": 9190.5
+        },
+        {
+          "x": 1064,
+          "y": 682,
+          "t": 11196.60000038147
+        },
+        {
+          "x": 1064,
+          "y": 682,
+          "t": 11246.70000076294
+        },
+        {
+          "x": 1182,
+          "y": 682,
+          "t": 12665.10000038147
+        },
+        {
+          "x": 1182,
+          "y": 682,
+          "t": 12706.70000076294
+        },
+        {
+          "x": 639,
+          "y": 428,
+          "t": 14042
+        },
+        {
+          "x": 639,
+          "y": 428,
+          "t": 14103.20000076294
+        },
+        {
+          "x": 639,
+          "y": 428,
+          "t": 18960.300000190735
+        }
+      ]
+    },
+    {
+      "focused_type": "<class 'renpy.display.behavior.Button'>",
+      "focused_texts": [
+        "Replay closing theme"
+      ],
+      "focused_id": 39809120,
+      "in_screen": true,
+      "targets": [
+        {
+          "rect": [
+            809,
+            613,
+            300,
+            58
+          ],
+          "widget_id": 39809120,
+          "in_screen": true
+        }
+      ],
+      "mouse_pos": [
+        961,
+        642
+      ],
+      "focus_type": "mouse",
+      "pending_focus_type": "mouse",
+      "transition": false,
+      "trans_pause": false,
+      "last_event": "<Event(32769-UserEvent1 code=0, mod=0)>",
+      "mouse_event_time": 1788961402.147,
+      "input_event_time": 1788961402.147,
+      "at": "after_two_pixel_nudge",
+      "browser_mouse_events": [
+        {
+          "x": 1064,
+          "y": 682,
+          "t": 11196.60000038147
+        },
+        {
+          "x": 1064,
+          "y": 682,
+          "t": 11246.70000076294
+        },
+        {
+          "x": 1182,
+          "y": 682,
+          "t": 12665.10000038147
+        },
+        {
+          "x": 1182,
+          "y": 682,
+          "t": 12706.70000076294
+        },
+        {
+          "x": 639,
+          "y": 428,
+          "t": 14042
+        },
+        {
+          "x": 639,
+          "y": 428,
+          "t": 14103.20000076294
+        },
+        {
+          "x": 639,
+          "y": 428,
+          "t": 18960.300000190735
+        },
+        {
+          "x": 641,
+          "y": 428,
+          "t": 19642
+        }
+      ]
+    },
+    {
+      "focused_type": "<class 'renpy.display.behavior.Button'>",
+      "focused_texts": [
+        "Replay closing theme"
+      ],
+      "focused_id": 39809120,
+      "in_screen": true,
+      "targets": [
+        {
+          "rect": [
+            809,
+            613,
+            300,
+            58
+          ],
+          "widget_id": 39809120,
+          "in_screen": true
+        }
+      ],
+      "mouse_pos": [
+        958,
+        642
+      ],
+      "focus_type": "mouse",
+      "pending_focus_type": "mouse",
+      "transition": false,
+      "trans_pause": false,
+      "last_event": "<Event(32769-UserEvent1 code=0, mod=0)>",
+      "mouse_event_time": 1788961402.231,
+      "input_event_time": 1788961402.231,
+      "at": "after_return_to_center",
+      "browser_mouse_events": [
+        {
+          "x": 1064,
+          "y": 682,
+          "t": 11246.70000076294
+        },
+        {
+          "x": 1182,
+          "y": 682,
+          "t": 12665.10000038147
+        },
+        {
+          "x": 1182,
+          "y": 682,
+          "t": 12706.70000076294
+        },
+        {
+          "x": 639,
+          "y": 428,
+          "t": 14042
+        },
+        {
+          "x": 639,
+          "y": 428,
+          "t": 14103.20000076294
+        },
+        {
+          "x": 639,
+          "y": 428,
+          "t": 18960.300000190735
+        },
+        {
+          "x": 641,
+          "y": 428,
+          "t": 19642
+        },
+        {
+          "x": 639,
+          "y": 428,
+          "t": 19725.300000190735
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "browser-closing-focus-failure.png",
+      "sha256": "d8d3796c4597abcdf79e24216b83c0336f7ab359f2a17ef09db119052b686878"
+    },
+    {
+      "file": "browser-closing-focus-restored.png",
+      "sha256": "7ada32988a11c0ef11da18d7e0cc538af631a5ae0f2e304a81384d02030e0dd9"
+    }
+  ],
+  "errors": [],
+  "credits_return_title": false
+}

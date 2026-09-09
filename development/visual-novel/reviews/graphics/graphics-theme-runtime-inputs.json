@@ -1,0 +1,141 @@
+{
+  "shots": [
+    {
+      "capture": "theme-art-00",
+      "position": 5.8,
+      "image": "game/images/cg/book-one/theme-garden-opening.png",
+      "sha256": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b",
+      "label": "Cali and Kael in the sunflowers",
+      "capture_file": "test-results/screenshots/theme-art-00.png",
+      "capture_sha256": "b68b027a36fe02dbe47021d6ede688df8b59877a807f6bf04b756742132449ba"
+    },
+    {
+      "capture": "theme-art-01",
+      "position": 17.06,
+      "image": "game/images/backgrounds/book-one/garden-wonders.png",
+      "sha256": "7da2fab31aef36de1a6bde4bbd347193bffe79bd395d3fd6d26ff75c8b0b4aef",
+      "label": "A closer look at the garden",
+      "capture_file": "test-results/screenshots/theme-art-01.png",
+      "capture_sha256": "e73ac575ae6101090910104d501e1c7c496c5208c36439e7411e2e6486297bc5"
+    },
+    {
+      "capture": "theme-art-02",
+      "position": 28.36,
+      "image": "game/images/cg/book-one/garden-compromise.png",
+      "sha256": "d0416d9d112d712dacf13cd4ec13649d9c16931c585f2554f0d7e389bba126bc",
+      "label": "Gentle guidance",
+      "capture_file": "test-results/screenshots/theme-art-02.png",
+      "capture_sha256": "9181c1463e1b8553fcde1e4ceca95f06a9a4f16f1d844937a164383a158e2d08"
+    },
+    {
+      "capture": "theme-art-03",
+      "position": 38.980000000000004,
+      "image": "game/images/cg/book-one/flute-rest.png",
+      "sha256": "7554e2418496049f96c44d83b65460e9cc79a038f902ff2639ab6648215ae521",
+      "label": "Learning with Selene",
+      "capture_file": "test-results/screenshots/theme-art-03.png",
+      "capture_sha256": "7be36a65f8825b8168a16aa6fd91f287eaf0ef1257c61b37d50f5699a8ede272"
+    },
+    {
+      "capture": "theme-art-04",
+      "position": 49.879999999999995,
+      "image": "game/images/cg/book-one/theme-path-friends.png",
+      "sha256": "1fbaeeac453d40ad6761894b68b6955a332942fa29b02ae2be93934fbabde2f5",
+      "label": "Following a new path together",
+      "capture_file": "test-results/screenshots/theme-art-04.png",
+      "capture_sha256": "2dfa7f298b66b21112e6eef4def07fae13836fdbb100391ae1202bb88bdceefc"
+    },
+    {
+      "capture": "theme-art-05",
+      "position": 60.68,
+      "image": "game/images/cg/book-one/theme-insect-discovery.png",
+      "sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8",
+      "label": "A tiny shared discovery",
+      "capture_file": "test-results/screenshots/theme-art-05.png",
+      "capture_sha256": "49e6f98d22d7edbf42805c3dc0b9a7acc849f1a664e353ebc53a3898ec43715b"
+    },
+    {
+      "capture": "theme-art-06",
+      "position": 71.0,
+      "image": "game/images/cg/book-one/theme-nibble-moment.png",
+      "sha256": "c20617d52737079f8d91da956b3b0aa7c958cf87577696f32bb691c4576b1fb5",
+      "label": "Nibble investigates",
+      "capture_file": "test-results/screenshots/theme-art-06.png",
+      "capture_sha256": "28a154a7c6a730a0c476dbc2fd90be13cf87f3b5319382646501963858043171"
+    },
+    {
+      "capture": "theme-art-07",
+      "position": 83.25999999999999,
+      "image": "game/images/cg/book-one/theme-treehouse-arrival.png",
+      "sha256": "9358565397facaa82363d8960e0df9fe6b3352c87f8e40ee6025957d10e04b72",
+      "label": "Come inside",
+      "capture_file": "test-results/screenshots/theme-art-07.png",
+      "capture_sha256": "0660aaa9ac298512aef01e02eaebab46dc42b5a1bd0c14d62d98a9450bfe10b3"
+    },
+    {
+      "capture": "theme-art-08",
+      "position": 97.69999999999999,
+      "image": "game/images/cg/book-one/cassia-storytelling.png",
+      "sha256": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c",
+      "label": "Stories shared",
+      "capture_file": "test-results/screenshots/theme-art-08.png",
+      "capture_sha256": "0cbbef97f9fb0b39d70791f81328bd048c2eb807adffa8ac1523299917ad1a20"
+    },
+    {
+      "capture": "theme-art-09",
+      "position": 110.08,
+      "image": "game/images/cg/book-one/treehouse-friends.png",
+      "sha256": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4",
+      "label": "Friends by my side",
+      "capture_file": "test-results/screenshots/theme-art-09.png",
+      "capture_sha256": "76926be1a1d032214a377f5ba8fdfd8a1964d1d08ef4cfdbcb790cceb9b2a0a6"
+    },
+    {
+      "capture": "theme-art-10",
+      "position": 121.5,
+      "image": "game/images/cg/book-one/theme-waterwheel-team.png",
+      "sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
+      "label": "We made it work",
+      "capture_file": "test-results/screenshots/theme-art-10.png",
+      "capture_sha256": "39d8b4279d8bf7e899a60575a0aaf58f4b2be3f0a7dde43f8b526d5c424b36a7"
+    },
+    {
+      "capture": "theme-art-11",
+      "position": 132.3,
+      "image": "game/images/cg/book-one/theme-dome-friends.png",
+      "sha256": "d7577ed4ebc21cb87cc0107b6c86583e324812697efc0a2d95c17619ba895dff",
+      "label": "The world grows wider",
+      "capture_file": "test-results/screenshots/theme-art-11.png",
+      "capture_sha256": "cdf76622b3d08ca826a79adc301930ef00871d3985d91bc6b44986dc55835110"
+    },
+    {
+      "capture": "theme-art-12",
+      "position": 145.6,
+      "image": "game/images/cg/book-one/theme-sketch-laughter.png",
+      "sha256": "834fd2c8430fe29da8d504b36170d417e3a7bfff710d014b4a2e6229ae7d73d8",
+      "label": "A sketch and a laugh",
+      "capture_file": "test-results/screenshots/theme-art-12.png",
+      "capture_sha256": "be72d4f3f277d0ad182ae0fcaf1915718d368c99ea285c1240bd00f1da853b3b"
+    },
+    {
+      "capture": "theme-art-13",
+      "position": 159.51999999999998,
+      "image": "game/images/cg/book-one/theme-evening-reading.png",
+      "sha256": "3600e695c1bddaf867faa04d5f157faf323012e269626fcce8fa5aab247627fc",
+      "label": "One more page before night",
+      "capture_file": "test-results/screenshots/theme-art-13.png",
+      "capture_sha256": "f86a42ae46fa7981e800161a3d53fc1aab346b82d3f74b5490cd4e973e6ddce1"
+    },
+    {
+      "capture": "theme-art-14",
+      "position": 170.64,
+      "image": "game/images/cg/book-one/theme-morning-outlook.png",
+      "sha256": "1a0edf4cbbf8ff03ff42dce399c02f7e0780232a654f82662759faeece2ddc45",
+      "label": "Another day to discover",
+      "capture_file": "test-results/screenshots/theme-art-14.png",
+      "capture_sha256": "7036ed167489e21b77c1a0d84d5dee8ac8088365fc236a11a09cc6b3140afbf2"
+    }
+  ],
+  "cue_sha256": "1ced60548d388801dd655f7de96b001e04b0fa6379cdb8447a5b3d4d5a70865e",
+  "review_file": "../development/visual-novel/reviews/graphics/graphics-theme-runtime-review.md"
+}

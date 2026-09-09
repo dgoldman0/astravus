@@ -1,0 +1,109 @@
+Browser cache passed: stale copy replaced online; refreshed copy remains available offline.
+Browser scene 01/32: first_memory
+Browser scene 02/32: garden
+Browser scene 03/32: plant_disagreement
+Browser scene 04/32: workshop_first
+Browser scene 05/32: music_first
+Browser scene 06/32: dorian_stories
+Browser scene 07/32: sage_story
+Browser scene 08/32: family_rhythm
+Browser sprite rendering: 73.5 fps, p95 20.0ms for 2 actors in software WebGL.
+Browser scene 09/32: tree_echoes
+Browser scene 10/32: pond_scare
+Browser scene 11/32: soup_experiment
+Browser scene 12/32: festival_lights
+Browser scene 13/32: meeting_cassia
+Browser scene 14/32: cassia_home
+Browser scene 15/32: meeting_joren
+Browser scene 16/32: joren_home
+Browser scene 17/32: kaleb_walk
+Browser scene 18/32: treehouse
+Browser scene 19/32: rain_refuge
+Browser scene 20/32: waterwheel
+Browser scene 21/32: outer_exploration
+Browser scene 22/32: lyra_included
+Browser scene 23/32: dome_ascent
+Browser scene 24/32: treehouse_dispute
+Browser scene 25/32: loss
+Browser scene 26/32: family_grief
+Browser scene 27/32: painting_grief
+Browser scene 28/32: cassia_grief
+Browser scene 29/32: community_memorial
+Browser scene 30/32: mural_remembrance
+Browser scene 31/32: treehouse_remembrance
+Browser scene 32/32: annual_remembrance
+Traceback (most recent call last):
+  File "/home/kir/Documents/Projects/astravus-visual-novel/Astravus/visual-novel/scripts/browser_smoke.py", line 174, in click_button
+    focus_state = await execute(focus_code)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kir/Documents/Projects/astravus-visual-novel/Astravus/visual-novel/scripts/browser_smoke.py", line 114, in execute
+    return await asyncio.wait_for(page.evaluate("code => window.renpy_exec(code)", wrapped), 45)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/asyncio/tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 9131, in evaluate
+    await self._impl_obj.evaluate(
+        expression=expression, arg=mapping.to_impl(arg)
+    )
+  File "/home/kir/miniconda3/lib/python3.13/site-packages/playwright/_impl/_page.py", line 469, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/site-packages/playwright/_impl/_frame.py", line 323, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "/home/kir/miniconda3/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/kir/miniconda3/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 557, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 123, in _inner_send
+    done, _ = await asyncio.wait(
+              ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/kir/miniconda3/lib/python3.13/asyncio/tasks.py", line 451, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/asyncio/tasks.py", line 537, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kir/Documents/Projects/astravus-visual-novel/Astravus/visual-novel/scripts/browser_smoke.py", line 172, in click_button
+    async with asyncio.timeout(30):
+               ~~~~~~~~~~~~~~~^^^^
+  File "/home/kir/miniconda3/lib/python3.13/asyncio/timeouts.py", line 116, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kir/Documents/Projects/astravus-visual-novel/Astravus/visual-novel/scripts/browser_smoke.py", line 734, in <module>
+    asyncio.run(check(parser.parse_args().url))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/kir/Documents/Projects/astravus-visual-novel/Astravus/visual-novel/scripts/browser_smoke.py", line 425, in check
+    await check_closing_theme()
+  File "/home/kir/Documents/Projects/astravus-visual-novel/Astravus/visual-novel/scripts/browser_smoke.py", line 287, in check_closing_theme
+    await click_button("chapter_end", "Replay closing theme")
+  File "/home/kir/Documents/Projects/astravus-visual-novel/Astravus/visual-novel/scripts/browser_smoke.py", line 181, in click_button
+    raise AssertionError(f"No settled focus for {label!r} on {screen}: {focus_state}") from error
+AssertionError: No settled focus for 'Replay closing theme' on chapter_end: {'texts': [], 'in_screen': False, 'ready': False}

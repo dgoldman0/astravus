@@ -20,8 +20,8 @@ The large expressive eyes, large ears and full coat are intentional author choic
 
 Use soft neutral daylight with clear white-fur detail and gentle warm dark-fur highlights. Eye pigment remains violet/coral across lighting and angle. It should not flood the surrounding face with colored light. The selected green matte is a compositing backing and does not belong in the white fur.
 
-## Review and provenance
+## Reference use
 
-The initial key assigned violet to its two left-facing profile eyes and added an isolated dark rump spot. A targeted generated correction changed those eyes to coral, corrected the side label and removed the invented rear spot. Front and three-quarter eye assignments remained correct; the selected key now follows the same physical side across views. The existing sprite was reviewed and retained unchanged.
+Keep the eye assignment physically consistent through every view and preserve the white rear haunches. The selected runtime sprite retains the author-supplied identity reference.
 
-Prompts: [initial](prompt.txt), [eye/coat correction](correction-prompt.txt). The [pass record](../trio-familiars-changes.json) records source hashes, output identifiers and selected hashes. The built-in image tool was used and its backend version was not exposed. The original author attachment had no local path; the selected runtime sprite is its retained project reference.
+[production record](../../../../development/visual-novel/art/characters/trio-familiars-changes.json).

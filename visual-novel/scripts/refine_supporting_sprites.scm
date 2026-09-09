@@ -2,7 +2,7 @@
 ; Run from visual-novel. Original sprites are immutable files in each key folder.
 ; No generated donor pixels are used by these two local corrections.
 
-(define keys-folder "art/character-keys/")
+(define keys-folder "../development/visual-novel/art/characters/")
 (define (key-path who name) (string-append keys-folder who "/" name))
 (define (save-png image drawable path)
   (file-png-save2 RUN-NONINTERACTIVE image drawable path path 0 9 0 0 0 0 0 0 0))

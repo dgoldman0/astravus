@@ -1,0 +1,93 @@
+{
+  "render_dimensions": [
+    1738,
+    977
+  ],
+  "frames": [
+    {
+      "file": "construction-path-clean.png",
+      "changed_pixels": 0,
+      "bbox": null,
+      "before_sha256": "41fdd934514f04a08d08ab3da61d98b5511b4d192c88026ab30f5859bb479b56",
+      "after_sha256": "41fdd934514f04a08d08ab3da61d98b5511b4d192c88026ab30f5859bb479b56"
+    },
+    {
+      "file": "construction-path-dialogue.png",
+      "changed_pixels": 0,
+      "bbox": null,
+      "before_sha256": "ca29f119da1a8c51c331a49fb358f050e43422318e283a67f210f9c60c6b33cf",
+      "after_sha256": "ca29f119da1a8c51c331a49fb358f050e43422318e283a67f210f9c60c6b33cf"
+    },
+    {
+      "file": "construction-room-clean.png",
+      "changed_pixels": 20852,
+      "bbox": [
+        639,
+        476,
+        1298,
+        776
+      ],
+      "before_sha256": "eac9b0ccf0c30354b12ec86faedd0d3e8c8d599f0bcb3799efe1a087d6ed46e0",
+      "after_sha256": "32327295969fe70cb383887b42aad5ebf327baf5fe497b83ee3577125628a2e0"
+    },
+    {
+      "file": "construction-room-dialogue.png",
+      "changed_pixels": 20733,
+      "bbox": [
+        639,
+        476,
+        1298,
+        776
+      ],
+      "before_sha256": "cb8bda6bde0d4f6f9bb43f04a7ae50a098136827f567c2cfad111f0bf2312742",
+      "after_sha256": "aac57146d5be6aa679b6a55f07b188673f5d1802b708b038be8ed074c0f2dc88"
+    },
+    {
+      "file": "echoes-clean.png",
+      "changed_pixels": 36020,
+      "bbox": [
+        870,
+        411,
+        1125,
+        692
+      ],
+      "before_sha256": "a6dae2e51a242176fa032aa1c26fb7161aab1485b5ccd17f0111b7adbadde5c3",
+      "after_sha256": "66a9d577c0f2cabefefb5dd0e7e62d9ed68186c18713a6efb0d4f3ca8081832c"
+    },
+    {
+      "file": "echoes-dialogue.png",
+      "changed_pixels": 36015,
+      "bbox": [
+        870,
+        411,
+        1125,
+        692
+      ],
+      "before_sha256": "100f520e2261ff06aefe91941bb989499988fcf1cfb3618d3172970f0f6a8b63",
+      "after_sha256": "10b8430984f60e56a5935ef589361ec7af32e6554713a330fd292c9fb81fb102"
+    },
+    {
+      "file": "home-clean.png",
+      "changed_pixels": 0,
+      "bbox": null,
+      "before_sha256": "649c228ab7b23044d71403e4d8170cbfd0dd5f8d12a128ad51f7e0199ec3eaa8",
+      "after_sha256": "649c228ab7b23044d71403e4d8170cbfd0dd5f8d12a128ad51f7e0199ec3eaa8"
+    },
+    {
+      "file": "home-dialogue.png",
+      "changed_pixels": 0,
+      "bbox": null,
+      "before_sha256": "3184c453f4df498432bf552788420393ddc597926253b4b2a9141150be8ecd20",
+      "after_sha256": "3184c453f4df498432bf552788420393ddc597926253b4b2a9141150be8ecd20"
+    }
+  ],
+  "unaffected_home_and_path_exact": true,
+  "source_images_unchanged": true,
+  "source_images": {
+    "game/images/familiars/nibble.png": "a3eb23fe22427f87b6fdf12c7c6c2fdf7dcbc87d50579ba288726f2bd7f1bb95",
+    "game/images/familiars/barkley.png": "49084a021567be20c336956201f5ed6bfdb4ac6a9c8a8198b7e2040e7d88ad37",
+    "game/images/familiars/shadow.png": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59"
+  },
+  "before_familiars_sha256": "da70dd1da9e1fd15fb044ddbebb7109d0b90cddd69e0ed154dfef6a4f652cce2",
+  "selected_familiars_sha256": "6985c15f0436b65547bb00ccbe4bc627572a4e462c0ecb1c24bf017c7793056e"
+}

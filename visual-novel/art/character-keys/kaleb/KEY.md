@@ -12,12 +12,12 @@ Retain the angular jaw and cheek structure, strong expressive brow, irregular br
 
 ## Wardrobe and performance
 
-Keep the layered brown travel coat, charcoal/teal underlayers, muted scarf, belt and worn boots. The user retained this wardrobe. Practical layers and their back construction are a production interpretation, not a prescribed explorer uniform. Add no weapons, armor or unsupported scars.
+Keep the layered brown travel coat, charcoal/teal underlayers, muted scarf, belt and worn boots. Practical layers and their back construction are a production interpretation, not a prescribed explorer uniform. Add no weapons, armor or unsupported scars.
 
 The key includes an engaged adventurous smile, attentive seriousness and restrained grief. His source warmth should remain available in ordinary exploration; his memorial face should not be a grin. Those performances must preserve the same nose, brow, jaw and age.
 
-## Light and review
+## Light and reference use
 
 Golden-brown irises should not become yellow lamps or green hazel. Retain warm skin midtones, brown hair between gray strands and readable fabric depth under subdued lighting.
 
-The current sprite is retained because it already supports the intended adult design. The sheet provides new facial angles, a smile and an emotional range alongside the full body views. Those images do not establish how clothing changes for every trip or later age. [Prompt](prompt-key.txt); generation, source hashes and selection notes are in [supporting changes](../supporting-changes.json).
+The sheet provides facial angles and an emotional range alongside the full body views. It does not prescribe clothing for every trip or later age. [Sheet prompt](../../../../development/visual-novel/art/characters/kaleb/prompt-key.txt); [production record](../../../../development/visual-novel/art/characters/supporting-changes.json).

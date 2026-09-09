@@ -1,0 +1,609 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-09T13:29:45.658435+00:00",
+  "scope": "Eight first-memory lines only; full 32-scene smoke is separate.",
+  "url": "http://127.0.0.1:8000/?preview=0.1-alpha",
+  "viewport": [
+    1280,
+    720
+  ],
+  "browser": "148.0.7778.96",
+  "source": "visual-novel/scripts/browser_smoke.py",
+  "source_sha256": "536ba7d68a6c44a1b9631e3047f5011190f44c7ba1e6a4060073701361fc9c77",
+  "helper_sha256": "d50dad693ccdabdca83d8a776dda8a8be3662cdb61d684c43e930b5f1658e97d",
+  "runner_sha256": "4e6f8651bbd7680a0768d8609996dc927d61fec479e53ec01be7102c93a8c55a",
+  "cycles": [
+    {
+      "cycle": 1,
+      "scene": "first_memory",
+      "text": "My earliest memory wasn't really mine.",
+      "glossary_keys": [],
+      "glossary_open_close": true,
+      "people_open_select_close": true,
+      "dialogue_unchanged_by_menus": true
+    },
+    {
+      "cycle": 2,
+      "scene": "first_memory",
+      "text": "It belonged to the people who brought me home.",
+      "glossary_keys": [],
+      "glossary_open_close": true,
+      "people_open_select_close": true,
+      "dialogue_unchanged_by_menus": true
+    },
+    {
+      "cycle": 3,
+      "scene": "first_memory",
+      "text": "They told me about the Sanctuary. About my First Breath, and the five pairs of hands waiting to hold me.",
+      "glossary_keys": [
+        "first_breath",
+        "sanctuary"
+      ],
+      "glossary_open_close": true,
+      "people_open_select_close": true,
+      "dialogue_unchanged_by_menus": true
+    },
+    {
+      "cycle": 4,
+      "scene": "first_memory",
+      "text": "In every telling, someone remembered a different thing: the sound I made, or the way I gripped a finger and wouldn't let go.",
+      "glossary_keys": [
+        "first_breath",
+        "sanctuary"
+      ],
+      "glossary_open_close": true,
+      "people_open_select_close": true,
+      "dialogue_unchanged_by_menus": true
+    },
+    {
+      "cycle": 5,
+      "scene": "first_memory",
+      "text": "I used to ask them to tell it again. They always began with the joy of it.",
+      "glossary_keys": [
+        "first_breath",
+        "sanctuary"
+      ],
+      "glossary_open_close": true,
+      "people_open_select_close": true,
+      "dialogue_unchanged_by_menus": true
+    },
+    {
+      "cycle": 6,
+      "scene": "first_memory",
+      "text": "Only later did I wonder how nervous they'd been. They'd brought Kael home before me, but did that make it any easier?",
+      "glossary_keys": [
+        "first_breath",
+        "sanctuary"
+      ],
+      "glossary_open_close": true,
+      "people_open_select_close": true,
+      "dialogue_unchanged_by_menus": true
+    },
+    {
+      "cycle": 7,
+      "scene": "first_memory",
+      "text": "Lumen, the child of Aurora and Nyx, was still a young world when I was born.",
+      "glossary_keys": [
+        "first_breath",
+        "lumen",
+        "sanctuary"
+      ],
+      "glossary_open_close": true,
+      "people_open_select_close": true,
+      "dialogue_unchanged_by_menus": true
+    },
+    {
+      "cycle": 8,
+      "scene": "first_memory",
+      "text": "My own parents were Maia, Arin, Selene, Dorian, and Sage.",
+      "glossary_keys": [
+        "first_breath",
+        "lumen",
+        "sanctuary"
+      ],
+      "glossary_open_close": true,
+      "people_open_select_close": true,
+      "dialogue_unchanged_by_menus": true
+    }
+  ],
+  "actual_mouse_clicks": [
+    {
+      "screen": "quick_menu",
+      "label": "Glossary"
+    },
+    {
+      "screen": "glossary",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "People"
+    },
+    {
+      "screen": "people",
+      "label": "Cali"
+    },
+    {
+      "screen": "people",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "Glossary"
+    },
+    {
+      "screen": "glossary",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "People"
+    },
+    {
+      "screen": "people",
+      "label": "Cali"
+    },
+    {
+      "screen": "people",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "Glossary"
+    },
+    {
+      "screen": "glossary",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "People"
+    },
+    {
+      "screen": "people",
+      "label": "Cali"
+    },
+    {
+      "screen": "people",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "Glossary"
+    },
+    {
+      "screen": "glossary",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "People"
+    },
+    {
+      "screen": "people",
+      "label": "Cali"
+    },
+    {
+      "screen": "people",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "Glossary"
+    },
+    {
+      "screen": "glossary",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "People"
+    },
+    {
+      "screen": "people",
+      "label": "Cali"
+    },
+    {
+      "screen": "people",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "Glossary"
+    },
+    {
+      "screen": "glossary",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "People"
+    },
+    {
+      "screen": "people",
+      "label": "Cali"
+    },
+    {
+      "screen": "people",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "Glossary"
+    },
+    {
+      "screen": "glossary",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "People"
+    },
+    {
+      "screen": "people",
+      "label": "Cali"
+    },
+    {
+      "screen": "people",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "Glossary"
+    },
+    {
+      "screen": "glossary",
+      "label": "Return"
+    },
+    {
+      "screen": "quick_menu",
+      "label": "People"
+    },
+    {
+      "screen": "people",
+      "label": "Cali"
+    },
+    {
+      "screen": "people",
+      "label": "Return"
+    }
+  ],
+  "focus_checks": [
+    {
+      "click": 1,
+      "texts": [
+        "Glossary"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 2,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 3,
+      "texts": [
+        "People"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 4,
+      "texts": [
+        "Cali"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 5,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 6,
+      "texts": [
+        "Glossary"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 7,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 8,
+      "texts": [
+        "People"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 9,
+      "texts": [
+        "Cali"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 10,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 11,
+      "texts": [
+        "Glossary"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 12,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 13,
+      "texts": [
+        "People"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 14,
+      "texts": [
+        "Cali"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 15,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 16,
+      "texts": [
+        "Glossary"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 17,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 18,
+      "texts": [
+        "People"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 19,
+      "texts": [
+        "Cali"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 20,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 21,
+      "texts": [
+        "Glossary"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 22,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 23,
+      "texts": [
+        "People"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 24,
+      "texts": [
+        "Cali"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 25,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 26,
+      "texts": [
+        "Glossary"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 27,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 28,
+      "texts": [
+        "People"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 29,
+      "texts": [
+        "Cali"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 30,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 31,
+      "texts": [
+        "Glossary"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 32,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 33,
+      "texts": [
+        "People"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 34,
+      "texts": [
+        "Cali"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 35,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 36,
+      "texts": [
+        "Glossary"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 37,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 38,
+      "texts": [
+        "People"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 39,
+      "texts": [
+        "Cali"
+      ],
+      "in_screen": true,
+      "ready": true
+    },
+    {
+      "click": 40,
+      "texts": [
+        "Return"
+      ],
+      "in_screen": true,
+      "ready": true
+    }
+  ],
+  "errors": [],
+  "source_unchanged_during_test": true,
+  "screenshots": [
+    {
+      "file": "browser-click-glossary.png",
+      "sha256": "3abc85c1415403803444aa0bb770563f10d33cebb9e694d2d1afa6e4a28155ec"
+    },
+    {
+      "file": "browser-click-people.png",
+      "sha256": "5d1da1d3ec2a9dd354ced5c031fab1b865071a9ef4e4c0e3a8e38eac3131ed5d"
+    },
+    {
+      "file": "browser-click-returned.png",
+      "sha256": "cb24a6a2a1ccb00447a42abbed49b345af405e7dddb16fce6a2964edc9b47f0b"
+    }
+  ]
+}

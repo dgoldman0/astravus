@@ -1,0 +1,26 @@
+{
+  "inputs": {
+    "game/closing_theme.json": "1ced60548d388801dd655f7de96b001e04b0fa6379cdb8447a5b3d4d5a70865e",
+    "scripts/render_closing_theme.py": "07fd19e20da7e1386a8294622c5b16a8a121a561ded57b0e6b9968e25df8d6c8",
+    "game/images/cg/book-one/theme-garden-opening.png": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b",
+    "game/images/backgrounds/book-one/garden-wonders.png": "7da2fab31aef36de1a6bde4bbd347193bffe79bd395d3fd6d26ff75c8b0b4aef",
+    "game/images/cg/book-one/garden-compromise.png": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
+    "game/images/cg/book-one/flute-rest.png": "7554e2418496049f96c44d83b65460e9cc79a038f902ff2639ab6648215ae521",
+    "game/images/cg/book-one/theme-path-friends.png": "1fbaeeac453d40ad6761894b68b6955a332942fa29b02ae2be93934fbabde2f5",
+    "game/images/cg/book-one/theme-insect-discovery.png": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8",
+    "game/images/cg/book-one/theme-nibble-moment.png": "c20617d52737079f8d91da956b3b0aa7c958cf87577696f32bb691c4576b1fb5",
+    "game/images/cg/book-one/theme-treehouse-arrival.png": "9358565397facaa82363d8960e0df9fe6b3352c87f8e40ee6025957d10e04b72",
+    "game/images/cg/book-one/cassia-storytelling.png": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c",
+    "game/images/cg/book-one/treehouse-friends.png": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4",
+    "game/images/cg/book-one/theme-waterwheel-team.png": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
+    "game/images/cg/book-one/theme-dome-friends.png": "d7577ed4ebc21cb87cc0107b6c86583e324812697efc0a2d95c17619ba895dff",
+    "game/images/cg/book-one/theme-sketch-laughter.png": "834fd2c8430fe29da8d504b36170d417e3a7bfff710d014b4a2e6229ae7d73d8",
+    "game/images/cg/book-one/theme-evening-reading.png": "3600e695c1bddaf867faa04d5f157faf323012e269626fcce8fa5aab247627fc",
+    "game/images/cg/book-one/theme-morning-outlook.png": "1a0edf4cbbf8ff03ff42dce399c02f7e0780232a654f82662759faeece2ddc45"
+  },
+  "output": {
+    "file": "build/closing-theme.mp4",
+    "sha256": "87f20bf84d226d4a523f60ff42f5132b19ac9830351e10f1ca6605965ea7dd34"
+  },
+  "renderer_log": "../development/visual-novel/archive/local/graphics-workspace/pond-film-render.log"
+}

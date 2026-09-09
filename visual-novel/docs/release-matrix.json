@@ -25,7 +25,7 @@
       "game/friendships_book_one.rpy",
       "game/book_structure.rpy",
       "docs/BOOK_ONE_COVERAGE.md",
-      "docs/WRITING_NOTES.md",
+      "../development/visual-novel/design/adaptation.md",
       "game/glossary.rpy",
       "game/glossary.json",
       "game/glossary_rules.py"
@@ -186,7 +186,7 @@
       ],
       "authority": [
         "docs/AUDIO_DIRECTION.md",
-        "docs/POLISH_STORY_AUDIO.md",
+        "../development/visual-novel/reviews/audio/POLISH_STORY_AUDIO.md",
         "docs/closing-theme-audio.json"
       ],
       "command": [
@@ -270,7 +270,7 @@
     },
     {
       "id": "lint",
-      "title": "Ren\u2019Py syntax, references and final text count",
+      "title": "Ren’Py syntax, references and final text count",
       "method": "automated",
       "phase": "content",
       "required": true,
@@ -278,7 +278,7 @@
         "runtime"
       ],
       "acceptance": [
-        "Pinned Ren\u2019Py lint completes without errors; final dialogue/word counts are recorded and reading-time copy checked against them."
+        "Pinned Ren’Py lint completes without errors; final dialogue/word counts are recorded and reading-time copy checked against them."
       ],
       "authority": [
         "scripts/project.py",
@@ -306,7 +306,7 @@
       "acceptance": [
         "Definitions read as optional reader help; dialogue does not interrupt an emotional/action beat merely to define a setting term.",
         "Each staged definition is limited to information already used or understood in that reading.",
-        "No terminology change removes a necessary source revelation or weakens the protected24\u219225transition."
+        "No terminology change removes a necessary source revelation or weakens the protected24→25transition."
       ],
       "authority": [
         "../revision/latest.md",
@@ -574,7 +574,7 @@
       "authority": [
         "game/closing_theme.rpy",
         "game/closing_theme.json",
-        "docs/POLISH_MOTION.md"
+        "../development/visual-novel/reviews/graphics/POLISH_MOTION.md"
       ],
       "command": [
         "{python}",
@@ -599,7 +599,7 @@
       ],
       "acceptance": [
         "Inspect current in-engine frames covering all 32 scenes and every action/pose change that can contradict dialogue. Document the actual coverage split: native scene frames plus final browser frames for any native capture gaps; keep full native functional traversal separate.",
-        "Compare adjacent stage transitions and same-location shots, including scenes3/5/10/12/18/20/24\u201329.",
+        "Compare adjacent stage transitions and same-location shots, including scenes3/5/10/12/18/20/24–29.",
         "Characters sit/stand/kneel on plausible surfaces; approved faces/iris colors survive chroma key, scene tint and camera scale.",
         "Text is readable without clipping; scene artwork is not obscured incorrectly; every navigation page including glossary fits and closes correctly."
       ],
@@ -666,7 +666,7 @@
         "Distinguish measured playback balance and editorial cue review from subjective headphone/speaker listening."
       ],
       "authority": [
-        "docs/POLISH_STORY_AUDIO.md",
+        "../development/visual-novel/reviews/audio/POLISH_STORY_AUDIO.md",
         "docs/AUDIO_DIRECTION.md",
         "game/family_book_one.rpy"
       ],
@@ -709,15 +709,15 @@
         "runtime"
       ],
       "acceptance": [
-        "Opening includes the established characters; shots reflect the supplied song\u2019s childhood/adventure themes without pretending to be new post-loss events.",
+        "Opening includes the established characters; shots reflect the supplied song’s childhood/adventure themes without pretending to be new post-loss events.",
         "All shots use approved character and location designs, with varied compositions and stable gentle camera movement.",
         "Inspect every overlap and held/moving shot at native resolution, including local high-frequency edges and faces, then review the encoded movie in real-time playback. Timestamp/decode/full-frame averages are supporting technical evidence only; unresolved reported jitter or unperformed playback leaves editorial approval open.",
         "In-game/reduced-motion versions and exported MP4 share the final cue sheet and source art."
       ],
       "authority": [
         "game/closing_theme.json",
-        "docs/POLISH_MOTION.md",
-        "docs/CLOSING_THEME_DRAFT.md"
+        "../development/visual-novel/reviews/graphics/POLISH_MOTION.md",
+        "docs/CLOSING_THEME.md"
       ],
       "requires": [
         "character-comparison",
@@ -797,7 +797,7 @@
       "acceptance": [
         "All current ZIPs are nonempty and CRC-valid; packaged runtime bytes match final source assets/scripts.",
         "Windows/Linux/macOS launchers and executable permissions are present; web.zip has index.html at its root.",
-        "No marketing, testcases, developer caches, source WAV, dev tools, saves or old comparison assets leak into builds. Only the pinned Ren\u2019Py runtime build_info.json and bytecode-312.rpyb cache files are allowed, with metadata/compression integrity checked.",
+        "No marketing, testcases, developer caches, source WAV, dev tools, saves or old comparison assets leak into builds. Only the pinned Ren’Py runtime build_info.json and bytecode-312.rpyb cache files are allowed, with metadata/compression integrity checked.",
         "Only recognized superseded Astravus archives are removed after new exports validate; save namespace is unchanged."
       ],
       "authority": [
@@ -837,7 +837,7 @@
       "authority": [
         "docs/closing-theme-audio.json",
         "scripts/render_closing_theme.py",
-        "docs/POLISH_MOTION.md"
+        "../development/visual-novel/reviews/graphics/POLISH_MOTION.md"
       ],
       "requires": [
         "theme-editorial"
@@ -864,7 +864,7 @@
     },
     {
       "id": "scene-01",
-      "title": "01 \u00b7 First memory: source, wording and transition",
+      "title": "01 · First memory: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -877,7 +877,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 5\u201397 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 5–97 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/script.rpy"
       ],
@@ -885,7 +885,7 @@
     },
     {
       "id": "scene-02",
-      "title": "02 \u00b7 A small beginning: source, wording and transition",
+      "title": "02 · A small beginning: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -898,7 +898,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 99\u2013109 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 99–109 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/script.rpy"
       ],
@@ -906,7 +906,7 @@
     },
     {
       "id": "scene-03",
-      "title": "03 \u00b7 Room for both: source, wording and transition",
+      "title": "03 · Room for both: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -919,7 +919,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 111\u2013119 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 111–119 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/family_book_one.rpy"
       ],
@@ -927,7 +927,7 @@
     },
     {
       "id": "scene-04",
-      "title": "04 \u00b7 The scattered pieces: source, wording and transition",
+      "title": "04 · The scattered pieces: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -940,7 +940,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 121\u2013129 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 121–129 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/family_book_one.rpy"
       ],
@@ -948,7 +948,7 @@
     },
     {
       "id": "scene-05",
-      "title": "05 \u00b7 A color you can hear: source, wording and transition",
+      "title": "05 · A color you can hear: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -961,7 +961,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 131\u2013137 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 131–137 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/family_book_one.rpy"
       ],
@@ -969,7 +969,7 @@
     },
     {
       "id": "scene-06",
-      "title": "06 \u00b7 Routes through a story: source, wording and transition",
+      "title": "06 · Routes through a story: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -982,7 +982,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 139\u2013147 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 139–147 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/family_book_one.rpy"
       ],
@@ -990,7 +990,7 @@
     },
     {
       "id": "scene-07",
-      "title": "07 \u00b7 Three ways forward: source, wording and transition",
+      "title": "07 · Three ways forward: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1003,7 +1003,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 149\u2013197 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 149–197 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/family_book_one.rpy"
       ],
@@ -1011,7 +1011,7 @@
     },
     {
       "id": "scene-08",
-      "title": "08 \u00b7 The days between: source, wording and transition",
+      "title": "08 · The days between: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1024,7 +1024,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 199\u2013263 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 199–263 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/family_book_one.rpy"
       ],
@@ -1032,7 +1032,7 @@
     },
     {
       "id": "scene-09",
-      "title": "09 \u00b7 The Tree of Echoes: source, wording and transition",
+      "title": "09 · The Tree of Echoes: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1045,7 +1045,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 265\u2013287 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 265–287 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/family_book_one.rpy"
       ],
@@ -1053,7 +1053,7 @@
     },
     {
       "id": "scene-10",
-      "title": "10 \u00b7 The shallow water: source, wording and transition",
+      "title": "10 · The shallow water: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1066,7 +1066,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 289\u2013301 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 289–301 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/family_book_one.rpy"
       ],
@@ -1074,7 +1074,7 @@
     },
     {
       "id": "scene-11",
-      "title": "11 \u00b7 A little too much: source, wording and transition",
+      "title": "11 · A little too much: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1087,7 +1087,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 303\u2013319 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 303–319 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/family_book_one.rpy"
       ],
@@ -1095,7 +1095,7 @@
     },
     {
       "id": "scene-12",
-      "title": "12 \u00b7 Wishes in the light: source, wording and transition",
+      "title": "12 · Wishes in the light: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1108,7 +1108,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 321\u2013339 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 321–339 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/family_book_one.rpy"
       ],
@@ -1116,7 +1116,7 @@
     },
     {
       "id": "scene-13",
-      "title": "13 \u00b7 An invitation: source, wording and transition",
+      "title": "13 · An invitation: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1129,7 +1129,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 343\u2013347 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 343–347 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/script.rpy"
       ],
@@ -1137,7 +1137,7 @@
     },
     {
       "id": "scene-14",
-      "title": "14 \u00b7 Room for another story: source, wording and transition",
+      "title": "14 · Room for another story: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1150,7 +1150,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 349\u2013361 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 349–361 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "scene-15",
-      "title": "15 \u00b7 Something worth finding: source, wording and transition",
+      "title": "15 · Something worth finding: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1171,7 +1171,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 363\u2013367 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 363–367 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/script.rpy"
       ],
@@ -1179,7 +1179,7 @@
     },
     {
       "id": "scene-16",
-      "title": "16 \u00b7 Things we could make: source, wording and transition",
+      "title": "16 · Things we could make: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1192,7 +1192,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 369\u2013381 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 369–381 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1200,7 +1200,7 @@
     },
     {
       "id": "scene-17",
-      "title": "17 \u00b7 Beyond the familiar paths: source, wording and transition",
+      "title": "17 · Beyond the familiar paths: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1213,7 +1213,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 375\u2013381 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 375–381 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1221,7 +1221,7 @@
     },
     {
       "id": "scene-18",
-      "title": "18 \u00b7 Our place in the branches: source, wording and transition",
+      "title": "18 · Our place in the branches: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1234,7 +1234,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 383\u2013409 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 383–409 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/script.rpy"
       ],
@@ -1242,7 +1242,7 @@
     },
     {
       "id": "scene-19",
-      "title": "19 \u00b7 A story under the rain: source, wording and transition",
+      "title": "19 · A story under the rain: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1255,7 +1255,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 411\u2013415 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 411–415 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/script.rpy"
       ],
@@ -1263,7 +1263,7 @@
     },
     {
       "id": "scene-20",
-      "title": "20 \u00b7 Something that turns: source, wording and transition",
+      "title": "20 · Something that turns: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1271,12 +1271,12 @@
         "story"
       ],
       "acceptance": [
-        "The source's \u201cas we grew older\u201d introduces later childhood, not Book II's late teens. The miniature waterwheel moves from workshop to pond.",
+        "The source's “as we grew older” introduces later childhood, not Book II's late teens. The miniature waterwheel moves from workshop to pond.",
         "Read the entry, full scene and following transition together. Preserve action/chronology and emotional intent; no unsupported metaphysical facts, invented accident details or status-report grief.",
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 417\u2013423 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 417–423 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "scene-21",
-      "title": "21 \u00b7 The unfinished world: source, wording and transition",
+      "title": "21 · The unfinished world: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1297,7 +1297,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 425\u2013437 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 425–437 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1305,7 +1305,7 @@
     },
     {
       "id": "scene-22",
-      "title": "22 \u00b7 A place beside us: source, wording and transition",
+      "title": "22 · A place beside us: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1318,7 +1318,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 439\u2013445 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 439–445 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1326,7 +1326,7 @@
     },
     {
       "id": "scene-23",
-      "title": "23 \u00b7 The view from above: source, wording and transition",
+      "title": "23 · The view from above: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1339,7 +1339,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 447\u2013457 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 447–457 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1347,7 +1347,7 @@
     },
     {
       "id": "scene-24",
-      "title": "24 \u00b7 Which way we go: source, wording and transition",
+      "title": "24 · Which way we go: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1360,7 +1360,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 459\u2013473 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 459–473 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1368,7 +1368,7 @@
     },
     {
       "id": "scene-25",
-      "title": "25 \u00b7 The news: source, wording and transition",
+      "title": "25 · The news: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1381,7 +1381,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 475\u2013481 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 475–481 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1389,7 +1389,7 @@
     },
     {
       "id": "scene-26",
-      "title": "26 \u00b7 What comfort can do: source, wording and transition",
+      "title": "26 · What comfort can do: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1402,7 +1402,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 483\u2013489 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 483–489 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1410,7 +1410,7 @@
     },
     {
       "id": "scene-27",
-      "title": "27 \u00b7 What the hand remembers: source, wording and transition",
+      "title": "27 · What the hand remembers: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1423,7 +1423,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 487\u2013489 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 487–489 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1431,7 +1431,7 @@
     },
     {
       "id": "scene-28",
-      "title": "28 \u00b7 Between the two of us: source, wording and transition",
+      "title": "28 · Between the two of us: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1444,7 +1444,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 491\u2013495 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 491–495 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1452,7 +1452,7 @@
     },
     {
       "id": "scene-29",
-      "title": "29 \u00b7 The names we carry: source, wording and transition",
+      "title": "29 · The names we carry: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1465,7 +1465,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 497\u2013501 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 497–501 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1473,7 +1473,7 @@
     },
     {
       "id": "scene-30",
-      "title": "30 \u00b7 A place to remember: source, wording and transition",
+      "title": "30 · A place to remember: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1486,7 +1486,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 503\u2013507 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 503–507 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1494,7 +1494,7 @@
     },
     {
       "id": "scene-31",
-      "title": "31 \u00b7 The rain returns: source, wording and transition",
+      "title": "31 · The rain returns: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1507,7 +1507,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 505\u2013509 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 505–509 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -1515,7 +1515,7 @@
     },
     {
       "id": "scene-32",
-      "title": "32 \u00b7 What remains: source, wording and transition",
+      "title": "32 · What remains: source, wording and transition",
       "method": "manual",
       "phase": "content",
       "required": true,
@@ -1528,7 +1528,7 @@
         "Check dialogue for awkward definition insertions, accidental repetition and contradictions with the current glossary."
       ],
       "authority": [
-        "../revision/latest.md Book I, source lines 511\u2013513 (passage context governs if lines move).",
+        "../revision/latest.md Book I, source lines 511–513 (passage context governs if lines move).",
         "docs/BOOK_ONE_COVERAGE.md",
         "game/friendships_book_one.rpy"
       ],
@@ -4744,9 +4744,9 @@
       "number": 1,
       "key": "first_memory",
       "title": "First memory",
-      "stage": "newborn memory \u2192 early family",
+      "stage": "newborn memory → early family",
       "script": "game/script.rpy",
-      "source_passage": "Book I lines 5\u201397",
+      "source_passage": "Book I lines 5–97",
       "story_requirement": "First Breath is told to Cali by her parents. Newborn illustration gives way to later household life before Lyra's arrival and the three-child family are described. Constellation means the five adults' partnership.",
       "checks": [
         "scene-01",
@@ -4767,7 +4767,7 @@
       "title": "A small beginning",
       "stage": "early childhood",
       "script": "game/script.rpy",
-      "source_passage": "Book I lines 99\u2013109",
+      "source_passage": "Book I lines 99–109",
       "story_requirement": "Maia and Cali plant the source's sunflower. The watering mishap and marker stone are modest connective details; the unfamiliar ladder is a place Cali has yet to climb.",
       "checks": [
         "scene-02",
@@ -4788,7 +4788,7 @@
       "title": "Room for both",
       "stage": "early childhood",
       "script": "game/family_book_one.rpy",
-      "source_passage": "Book I lines 111\u2013119",
+      "source_passage": "Book I lines 111–119",
       "story_requirement": "Flower placement is a practical disagreement about appearance and light. Pots and the kneeling illustration belong on dry ground beside the pond.",
       "checks": [
         "scene-03",
@@ -4809,7 +4809,7 @@
       "title": "The scattered pieces",
       "stage": "early childhood",
       "script": "game/family_book_one.rpy",
-      "source_passage": "Book I lines 121\u2013129",
+      "source_passage": "Book I lines 121–129",
       "story_requirement": "Arin uses they/them; the source's spilled screws lead to sorting and reassurance. The small trays do not introduce new world mechanics.",
       "checks": [
         "scene-04",
@@ -4830,7 +4830,7 @@
       "title": "A color you can hear",
       "stage": "early childhood",
       "script": "game/family_book_one.rpy",
-      "source_passage": "Book I lines 131\u2013137",
+      "source_passage": "Book I lines 131–137",
       "story_requirement": "A broken single note precedes the multi-note attempt. Flute up/rest illustrations follow the action. Selene's association of music with pale blue is in the source, and is expressed as an association.",
       "checks": [
         "scene-05",
@@ -4851,7 +4851,7 @@
       "title": "Routes through a story",
       "stage": "early childhood",
       "script": "game/family_book_one.rpy",
-      "source_passage": "Book I lines 139\u2013147",
+      "source_passage": "Book I lines 139–147",
       "story_requirement": "Dorian tells historical exploration stories. His advice about carrying history is from the source, not a literal claim of an unseen companion.",
       "checks": [
         "scene-06",
@@ -4872,7 +4872,7 @@
       "title": "Three ways forward",
       "stage": "early childhood",
       "script": "game/family_book_one.rpy",
-      "source_passage": "Book I lines 149\u2013197",
+      "source_passage": "Book I lines 149–197",
       "story_requirement": "Sage's three siblings are explicitly fictional. Their failed search, mineral blockage, adapted filter, and cooperation follow the source.",
       "checks": [
         "scene-07",
@@ -4893,7 +4893,7 @@
       "title": "The days between",
       "stage": "early childhood",
       "script": "game/family_book_one.rpy",
-      "source_passage": "Book I lines 199\u2013263",
+      "source_passage": "Book I lines 199–263",
       "story_requirement": "The narrator explicitly distinguishes many mornings/evenings from a single day. Later flute practice follows the initial lesson. Sage's fictional mouse named Nibble is also in the prose; the actual familiar remains a rat.",
       "checks": [
         "scene-08",
@@ -4914,7 +4914,7 @@
       "title": "The Tree of Echoes",
       "stage": "early childhood",
       "script": "game/family_book_one.rpy",
-      "source_passage": "Book I lines 265\u2013287",
+      "source_passage": "Book I lines 265–287",
       "story_requirement": "The ancient transplanted tree is distinct from the garden's treehouse oak. Its near-voices are explicitly wood creaking. Lumen is identified as a living ship here.",
       "checks": [
         "scene-09",
@@ -4935,7 +4935,7 @@
       "title": "The shallow water",
       "stage": "early childhood",
       "script": "game/family_book_one.rpy",
-      "source_passage": "Book I lines 289\u2013301",
+      "source_passage": "Book I lines 289–301",
       "story_requirement": "Lyra panics after slipping into a shallow pond. Cali and Kael help her out; wet recovery follows the rescue illustration. No deep-water incident is added.",
       "checks": [
         "scene-10",
@@ -4956,7 +4956,7 @@
       "title": "A little too much",
       "stage": "early childhood",
       "script": "game/family_book_one.rpy",
-      "source_passage": "Book I lines 303\u2013319",
+      "source_passage": "Book I lines 303–319",
       "story_requirement": "Lyra's strong spice, embarrassment, Maia's reassurance, and their second pot retain the source's progression.",
       "checks": [
         "scene-11",
@@ -4977,7 +4977,7 @@
       "title": "Wishes in the light",
       "stage": "early childhood",
       "script": "game/family_book_one.rpy",
-      "source_passage": "Book I lines 321\u2013339",
+      "source_passage": "Book I lines 321–339",
       "story_requirement": "The community fills the central plaza. Selene performs, Maia's flowers are displayed, and the children release lanterns and make their source wishes.",
       "checks": [
         "scene-12",
@@ -4998,7 +4998,7 @@
       "title": "An invitation",
       "stage": "early childhood",
       "script": "game/script.rpy",
-      "source_passage": "Book I lines 343\u2013347",
+      "source_passage": "Book I lines 343–347",
       "story_requirement": "Cassia draws Cali into her fictional creature story. Its imagined purple-and-gold eyes describe the creature, not either girl's design.",
       "checks": [
         "scene-13",
@@ -5019,7 +5019,7 @@
       "title": "Room for another story",
       "stage": "early childhood",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 349\u2013361",
+      "source_passage": "Book I lines 349–361",
       "story_requirement": "Thalia listens and mediates; Lyron discusses shared water systems on a later evening. Their professions and relationship to Cassia match the source.",
       "checks": [
         "scene-14",
@@ -5040,7 +5040,7 @@
       "title": "Something worth finding",
       "stage": "early childhood",
       "script": "game/script.rpy",
-      "source_passage": "Book I lines 363\u2013367",
+      "source_passage": "Book I lines 363–367",
       "story_requirement": "Joren leads children through the construction zone and issues the source's challenge. Cali responds eagerly. The invented blue-light meeting is absent.",
       "checks": [
         "scene-15",
@@ -5061,7 +5061,7 @@
       "title": "Things we could make",
       "stage": "early childhood",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 369\u2013381",
+      "source_passage": "Book I lines 369–381",
       "story_requirement": "Soren guides Cali's small rover project. Their workshop discussion stays within the source's invention and exploration interests.",
       "checks": [
         "scene-16",
@@ -5082,7 +5082,7 @@
       "title": "Beyond the familiar paths",
       "stage": "early childhood",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 375\u2013381",
+      "source_passage": "Book I lines 375–381",
       "story_requirement": "Kaleb leads a walk through unfamiliar passages. The map at Cali's home then connects visits with both friends to their growing use of the treehouse.",
       "checks": [
         "scene-17",
@@ -5103,7 +5103,7 @@
       "title": "Our place in the branches",
       "stage": "early childhood",
       "script": "game/script.rpy",
-      "source_passage": "Book I lines 383\u2013409",
+      "source_passage": "Book I lines 383–409",
       "story_requirement": "The treehouse already holds shared possessions and memories. Joren's promise to keep meeting there is established before the loss.",
       "checks": [
         "scene-18",
@@ -5124,7 +5124,7 @@
       "title": "A story under the rain",
       "stage": "early childhood",
       "script": "game/script.rpy",
-      "source_passage": "Book I lines 411\u2013415",
+      "source_passage": "Book I lines 411–415",
       "story_requirement": "Cassia asks the source's hypothetical question about talking trees. The group is telling a story under blankets, not receiving a supernatural message.",
       "checks": [
         "scene-19",
@@ -5145,8 +5145,8 @@
       "title": "Something that turns",
       "stage": "later childhood",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 417\u2013423",
-      "story_requirement": "The source's \u201cas we grew older\u201d introduces later childhood, not Book II's late teens. The miniature waterwheel moves from workshop to pond.",
+      "source_passage": "Book I lines 417–423",
+      "story_requirement": "The source's “as we grew older” introduces later childhood, not Book II's late teens. The miniature waterwheel moves from workshop to pond.",
       "checks": [
         "scene-20",
         "asset-registers",
@@ -5166,7 +5166,7 @@
       "title": "The unfinished world",
       "stage": "later childhood",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 425\u2013437",
+      "source_passage": "Book I lines 425–437",
       "story_requirement": "The portable scanner, construction machinery, and projected blueprint are source material. Joren's light here is an ordinary light during the later expedition.",
       "checks": [
         "scene-21",
@@ -5187,7 +5187,7 @@
       "title": "A place beside us",
       "stage": "later childhood",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 439\u2013445",
+      "source_passage": "Book I lines 439–445",
       "story_requirement": "Lyra's earlier occasional participation is distinguished from wanting to be included more often. Her invitation does not pretend she has never accompanied them.",
       "checks": [
         "scene-22",
@@ -5208,7 +5208,7 @@
       "title": "The view from above",
       "stage": "later childhood",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 447\u2013457",
+      "source_passage": "Book I lines 447–457",
       "story_requirement": "The unfinished dome, careful climb, long afternoon, and return follow the source. This is a happy childhood expedition, not the cause of Joren's death.",
       "checks": [
         "scene-23",
@@ -5229,7 +5229,7 @@
       "title": "Which way we go",
       "stage": "later childhood",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 459\u2013473",
+      "source_passage": "Book I lines 459–473",
       "story_requirement": "Both friends contribute to the argument. Cassia and the familiars help them compromise. The source's closing reflections bridge these ordinary days to the next scene.",
       "checks": [
         "scene-24",
@@ -5250,7 +5250,7 @@
       "title": "The news",
       "stage": "later childhood / mourning",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 475\u2013481",
+      "source_passage": "Book I lines 475–481",
       "story_requirement": "The routine family research expedition to a nearby moon precedes an unspecified malfunction and failed rescue. The source's cultural shock, mortality reflection, shared grief, Lyra's confusion, and empty treehouse remain in order.",
       "checks": [
         "scene-25",
@@ -5271,7 +5271,7 @@
       "title": "What comfort can do",
       "stage": "later childhood / mourning",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 483\u2013489",
+      "source_passage": "Book I lines 483–489",
       "story_requirement": "Maia's words about Joren living in their stories and memories are source language. Her embrace accompanies Cali's grief; it supplies no literal return or quick cure.",
       "checks": [
         "scene-26",
@@ -5292,7 +5292,7 @@
       "title": "What the hand remembers",
       "stage": "later childhood / mourning",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 487\u2013489",
+      "source_passage": "Book I lines 487–489",
       "story_requirement": "Painting and the familiars' company give Cali small things to do. No later adventure or resolution of grief is invented.",
       "checks": [
         "scene-27",
@@ -5313,7 +5313,7 @@
       "title": "Between the two of us",
       "stage": "later childhood / mourning",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 491\u2013495",
+      "source_passage": "Book I lines 491–495",
       "story_requirement": "Cassia's question and shared grief follow the prose. The remembered dome is an event the reader has already seen. The seated hand-holding illustration supports their comfort.",
       "checks": [
         "scene-28",
@@ -5334,7 +5334,7 @@
       "title": "The names we carry",
       "stage": "later childhood / mourning",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 497\u2013501",
+      "source_passage": "Book I lines 497–501",
       "story_requirement": "The same central plaza becomes a memorial. Soren's work and Kaleb's source address remain part of community mourning; no additional casualty is asserted.",
       "checks": [
         "scene-29",
@@ -5355,7 +5355,7 @@
       "title": "A place to remember",
       "stage": "later childhood / mourning",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 503\u2013507",
+      "source_passage": "Book I lines 503–507",
       "story_requirement": "The mural belongs in Maia's garden. Cassia helps remember their shared adventures.",
       "checks": [
         "scene-30",
@@ -5376,7 +5376,7 @@
       "title": "The rain returns",
       "stage": "later childhood / mourning",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 505\u2013509",
+      "source_passage": "Book I lines 505–509",
       "story_requirement": "New drawings and messages join the old maps. Rain accompanies remembering and drawing together.",
       "checks": [
         "scene-31",
@@ -5397,7 +5397,7 @@
       "title": "What remains",
       "stage": "later childhood / mourning",
       "script": "game/friendships_book_one.rpy",
-      "source_passage": "Book I lines 511\u2013513",
+      "source_passage": "Book I lines 511–513",
       "story_requirement": "Annual gatherings are retrospective, without assigning new ages to unchanged child sprites. The book ends with Joren's enduring absence.",
       "checks": [
         "scene-32",

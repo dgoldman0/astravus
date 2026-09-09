@@ -54,7 +54,7 @@ The [Astraviin lifecycle](../../wiki/worldbuilding/The-Astraviin.md) supplies br
 
 ## Dialogue and staging decisions
 
-The family expansion keeps each parent's character while giving the child something immediate to do: arrange flowers, repair a mistake, find a note, follow a route, listen to a story, or help a frightened sibling. Lessons are carried by the interaction before the narrator names their meaning. This follows the project's [writing notes](WRITING_NOTES.md), rather than assuming that shorter dialogue alone is more natural.
+The family expansion keeps each parent's character while giving the child something immediate to do: arrange flowers, repair a mistake, find a note, follow a route, listen to a story, or help a frightened sibling. Lessons are carried by the interaction before the narrator names their meaning. This follows the project's [writing notes](../../development/visual-novel/design/adaptation.md), rather than assuming that shorter dialogue alone is more natural.
 
 The draft's repeated garden patience lesson, workshop learning, music practice and family meals appear as later variations in `family_rhythm`; the script does not repeat each introductory explanation. The first flute attempt and practiced melody use the same musical idea at different levels of fluency. Background changes place the montage in the garden, workshop, music room, library, central room and Sage's room.
 

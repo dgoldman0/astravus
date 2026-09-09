@@ -1,0 +1,132 @@
+{
+  "expression": "renpy.music.get_playing(channel=\"ambience\") == \"audio/rain.ogg\"",
+  "timeout_seconds": 10,
+  "state": {
+    "end": false,
+    "say": true,
+    "afterword": false,
+    "scene": "treehouse_remembrance",
+    "number": 31,
+    "visited": [
+      "first_memory",
+      "garden",
+      "plant_disagreement",
+      "workshop_first",
+      "music_first",
+      "dorian_stories",
+      "sage_story",
+      "family_rhythm",
+      "tree_echoes",
+      "pond_scare",
+      "soup_experiment",
+      "festival_lights",
+      "meeting_cassia",
+      "cassia_home",
+      "meeting_joren",
+      "joren_home",
+      "kaleb_walk",
+      "treehouse",
+      "rain_refuge",
+      "waterwheel",
+      "outer_exploration",
+      "lyra_included",
+      "dome_ascent",
+      "treehouse_dispute",
+      "loss",
+      "family_grief",
+      "painting_grief",
+      "cassia_grief",
+      "community_memorial",
+      "mural_remembrance",
+      "treehouse_remembrance"
+    ],
+    "known": true,
+    "lost": true,
+    "stage": "later",
+    "met_cassia": true,
+    "met_joren": true,
+    "bg": "treehouse_memory",
+    "cg": "",
+    "calista": null,
+    "cassia": null,
+    "joren": null,
+    "music": "audio/painting_theme.ogg",
+    "ambience": "audio/garden_air.ogg",
+    "sound": null,
+    "text": "We brought new drawings to the treehouse, and messages to Joren. There were still maps we hadn't finished. We made room for both.",
+    "speaker": null,
+    "portrait": null,
+    "portrait_visible": false,
+    "visible_actors": [],
+    "people": [
+      "Cali",
+      "Maia",
+      "Kael",
+      "Arin",
+      "Selene",
+      "Dorian",
+      "Lyra",
+      "Sage",
+      "Cassia",
+      "Thalia",
+      "Lyron",
+      "Joren",
+      "Soren",
+      "Kaleb"
+    ],
+    "glossary": {
+      "astraviin": {
+        "title": "Astraviin",
+        "description": "The people who live within and share a close bond with an Astravus. Cali and her community are Astraviin.",
+        "level": 0
+      },
+      "astravus": {
+        "title": "Astravus",
+        "description": "A great living ship that travels through the cosmos and is home to a community. In Sage's story, Aria, Bram, and Cora live aboard one.",
+        "level": 0
+      },
+      "constellation": {
+        "title": "Constellation",
+        "description": "A committed romantic partnership among adults. Cali's five parents form a constellation; the family they raise together also includes their children and animal companions.",
+        "level": 0
+      },
+      "familiar": {
+        "title": "Familiar",
+        "description": "An animal companion who shares a family's daily life and is treated as a member of the family. Shadow, Barkley, and Nibble are Cali's household familiars.",
+        "level": 0
+      },
+      "first_breath": {
+        "title": "First Breath",
+        "description": "A child's birth and welcome into the community. Cali's parents remember her First Breath at the Sanctuary.",
+        "level": 0
+      },
+      "lumen": {
+        "title": "Lumen",
+        "description": "Cali's home: a young, living Astravus, the child of Aurora and Nyx. Its gardens, paths, and gathering places are part of the world its residents share.",
+        "level": 1
+      },
+      "sanctuary": {
+        "title": "Sanctuary",
+        "description": "The place where children are born and welcomed by their waiting parents. Cali's parents brought her home from the Sanctuary.",
+        "level": 0
+      },
+      "transcendence": {
+        "title": "Transcendence",
+        "description": "Joining with one's Astravus. In Cali's world, this is the familiar course of life, distinct from death.",
+        "level": 0
+      },
+      "tree_of_echoes": {
+        "title": "Tree of Echoes",
+        "description": "An ancient, hollow tree brought here when Lumen was founded. It grew from a seed given by an ancient Astravus, a reminder of the community's heritage.",
+        "level": 1
+      }
+    },
+    "familiars": [
+      "Shadow",
+      "Barkley",
+      "Nibble"
+    ],
+    "visible_familiars": [],
+    "complete": false
+  }
+}

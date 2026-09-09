@@ -1,0 +1,16 @@
+Failed to parse tag cache: No such file or directory
+batch command executed successfully
+[
+  {
+    "name": "arin",
+    "changed_pixels": 78276,
+    "outside_mask_changed_pixels": 0,
+    "bottom_600_rows_unchanged": true
+  },
+  {
+    "name": "sage",
+    "changed_pixels": 229975,
+    "outside_mask_changed_pixels": 0,
+    "bottom_600_rows_unchanged": true
+  }
+]

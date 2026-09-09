@@ -22,7 +22,7 @@ def sha(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, default=ROOT / "build/graphics-polish/environment-state")
+    parser.add_argument("--output", type=Path, default=ROOT / "../development/visual-novel/archive/local/graphics-workspace/environment-state")
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
     specs = json.loads((ROOT / "docs/environment-state-spec.json").read_text())

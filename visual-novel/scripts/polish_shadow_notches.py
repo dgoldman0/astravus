@@ -2,7 +2,7 @@
 
 No image model, whole-image filter, or runtime asset mutation is involved. Masks,
 donor offsets and source hashes are explicit in docs/graphics-shadow-notch-spec.json.
-Outputs and reproducible recipes are staged under build/graphics-polish/shadow.
+Outputs and reproducible recipes are staged under ../development/visual-novel/archive/local/graphics-workspace/shadow.
 """
 import argparse
 import hashlib
@@ -63,7 +63,7 @@ def retouch(source, spec):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, default=ROOT / "build/graphics-polish/shadow")
+    parser.add_argument("--output", type=Path, default=ROOT / "../development/visual-novel/archive/local/graphics-workspace/shadow")
     args = parser.parse_args()
     data = json.loads(SPEC.read_text())
     reference = ROOT / data["reference_file"]

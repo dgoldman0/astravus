@@ -4,11 +4,12 @@ No duplicated before/after paintings: images link directly to selected game art.
 """
 import html
 import json
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ledger = json.loads((ROOT / 'docs/graphics-polish.json').read_text())
-output = ROOT / 'build/graphics-polish/index.html'
+ledger = json.loads((ROOT / '../development/visual-novel/reviews/graphics/ledger.json').read_text())
+output = ROOT / '../development/visual-novel/archive/local/graphics-workspace/index.html'
 output.parent.mkdir(parents=True, exist_ok=True)
 cards = []
 for item in ledger['assets']:
@@ -22,7 +23,7 @@ for item in ledger['assets']:
     state = 'open' if open_count else 'reviewed'
     findings = '<br>'.join(html.escape(str(note.get('notes', note.get('note', note)))) for note in item.get('findings', []))
     dimensions = ''.join('<tr><td>'+html.escape(ledger['dimensions'][key].split(';')[0])+'</td><td>'+html.escape(value.replace('_',' '))+'</td></tr>' for key, value in outcomes.items())
-    image = '../../'+file
+    image = Path(os.path.relpath(ROOT / file, output.parent)).as_posix()
     cards.append(f'''<article data-kind="{html.escape(kind)}" data-state="{state}" data-search="{html.escape(name+' '+' '.join(uses+theme))}">
       <button class="picture" onclick="openImage(this)" data-url="{html.escape(image)}" data-title="{html.escape(name)}"><img loading="lazy" src="{html.escape(image)}" alt="{html.escape(name)}"></button>
       <h2>{html.escape(name)}</h2><p class="state">{open_count} open dimensions · {html.escape(kind)}</p>

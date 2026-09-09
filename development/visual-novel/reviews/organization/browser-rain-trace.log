@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "/home/kir/Documents/Projects/astravus-visual-novel/Astravus/development/visual-novel/reviews/organization/browser-rain-trace.py", line 109, in <module>
+    if __name__=='__main__':asyncio.run(run())
+                            ~~~~~~~~~~~^^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/kir/Documents/Projects/astravus-visual-novel/Astravus/development/visual-novel/reviews/organization/browser-rain-trace.py", line 33, in run
+    await page.evaluate("""() => {
+    ...<27 lines>...
+    }""")
+  File "/home/kir/miniconda3/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 9131, in evaluate
+    await self._impl_obj.evaluate(
+        expression=expression, arg=mapping.to_impl(arg)
+    )
+  File "/home/kir/miniconda3/lib/python3.13/site-packages/playwright/_impl/_page.py", line 469, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kir/miniconda3/lib/python3.13/site-packages/playwright/_impl/_frame.py", line 323, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "/home/kir/miniconda3/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/kir/miniconda3/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: ReferenceError: renpyAudio is not defined
+    at eval (eval at evaluate (:302:30), <anonymous>:3:23)
+    at UtilityScript.evaluate (<anonymous>:309:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)

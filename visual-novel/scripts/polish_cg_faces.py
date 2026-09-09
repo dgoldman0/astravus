@@ -19,7 +19,7 @@ from PIL import Image, ImageDraw, ImageFilter
 from polish_character_geometry import edit
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'build/graphics-polish/cg'
+OUT = ROOT / '../development/visual-novel/archive/local/graphics-workspace/cg'
 
 
 def sha(path):

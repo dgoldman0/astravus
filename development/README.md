@@ -24,6 +24,7 @@ The [rejected local 3D model](lumen/local-3d/README.md) remains withdrawn. The p
 - [Constellation wording proposals](editorial/CONSTELLATION_ALIGNMENT.md): two marked manuscript refinements, still unapplied.
 - [Historical revision plan](editorial/CHANGEIDEAS.md): the January findings and execution record.
 - [Manuscript revision records](../revision/ALIGNMENT.md) and [VN production documentation](../visual-novel/README.md): maintained beside the works they concern.
+- [Visual novel development](visual-novel/README.md): character and scene experiments, GIMP projects, rejected candidates, source reviews and inspection history, kept separate from the selected game materials.
 
 ## Recording decisions
 

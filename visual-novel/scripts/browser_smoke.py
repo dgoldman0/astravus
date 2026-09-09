@@ -114,11 +114,21 @@ async def check(url):
             return await asyncio.wait_for(page.evaluate("code => window.renpy_exec(code)", wrapped), 45)
 
         async def until(expression, seconds=30):
-            async with asyncio.timeout(seconds):
-                while not await value(expression):
-                    if errors:
-                        raise AssertionError(errors)
-                    await asyncio.sleep(.1)
+            try:
+                async with asyncio.timeout(seconds):
+                    while not await value(expression):
+                        if errors:
+                            raise AssertionError(errors)
+                        await asyncio.sleep(.1)
+            except TimeoutError as error:
+                diagnostic = {"expression": expression, "timeout_seconds": seconds}
+                try:
+                    diagnostic["state"] = await value(STATE)
+                    await page.screenshot(path=str(OUT / "browser-timeout.png"))
+                except Exception as diagnostic_error:
+                    diagnostic["capture_error"] = str(diagnostic_error)
+                (OUT / "browser-timeout.json").write_text(json.dumps(diagnostic, indent=2) + "\n")
+                raise AssertionError(f"Browser condition timed out: {diagnostic}") from error
             await asyncio.sleep(.25)
 
         async def click_button(screen, label):
@@ -147,7 +157,58 @@ for focus in renpy.display.focus.focus_list:
                 await asyncio.sleep(.1)
             assert rectangles, f"No visible {label!r} button on {screen}"
             x, y, width, height = rectangles[0]
-            await page.mouse.click((x + width / 2) * 2 / 3, (y + height / 2) * 2 / 3)
+            px, py = (x + width / 2) * 2 / 3, (y + height / 2) * 2 / 3
+            # Let Ren'Py process the pointer movement before sending mouse-down.
+            # A synthetic move/down in one browser tick can miss a newly drawn
+            # quick-menu button when the engine is still finishing that frame.
+            await page.mouse.move(px, py)
+            # Screen reevaluation can replace the Button instance after its
+            # rectangle was read. Match the current semantic focus and current
+            # screen together, rather than waiting for a previous object's ID.
+            focus_code = f'''_browser_click_screen = renpy.get_screen({screen!r})
+_browser_click_button = renpy.display.focus.get_focused()
+_browser_click_widgets = set()
+_browser_click_texts = []
+if _browser_click_screen is not None:
+    _browser_click_screen.visit_all(lambda item, out=_browser_click_widgets: out.add(id(item)))
+if isinstance(_browser_click_button, renpy.display.behavior.Button):
+    _browser_click_button.visit_all(lambda item, out=_browser_click_texts: out.append(item.get_all_text()) if isinstance(item, renpy.text.text.Text) else None)
+result = dict(texts=_browser_click_texts, focused_type=type(_browser_click_button).__name__,
+    in_screen=id(_browser_click_button) in _browser_click_widgets,
+    transition=bool(renpy.display.interface.get_ongoing_transition()),
+    trans_pause=bool(renpy.display.interface.trans_pause),
+    ready=({label!r} in _browser_click_texts and id(_browser_click_button) in _browser_click_widgets
+        and not renpy.display.interface.trans_pause and not renpy.display.interface.get_ongoing_transition()))'''
+            focus_state = None
+            pointer_retries = 0
+            try:
+                async with asyncio.timeout(30):
+                    while True:
+                        focus_state = await execute(focus_code)
+                        if focus_state["ready"]:
+                            break
+                        if errors:
+                            raise AssertionError(errors)
+                        if pointer_retries < 3:
+                            # Returning from a keyboard-controlled screen can
+                            # leave the cursor at this button's old coordinates
+                            # with no engine focus. A same-position DOM move
+                            # does not reliably produce a new engine mouse event.
+                            # Re-read the settled target, move within it, let the
+                            # engine observe that movement, then return to center.
+                            rectangles = await execute(code)
+                            if rectangles:
+                                x, y, width, height = rectangles[0]
+                                px, py = (x + width / 2) * 2 / 3, (y + height / 2) * 2 / 3
+                                await page.mouse.move(px + min(2, width / 6), py)
+                                await execute(focus_code)
+                                await page.mouse.move(px, py)
+                                pointer_retries += 1
+                                continue
+                        await asyncio.sleep(.1)
+            except TimeoutError as error:
+                raise AssertionError(f"No settled focus for {label!r} on {screen}: {focus_state}") from error
+            await page.mouse.click(px, py)
 
         async def click_credit_link(url):
             # Scroll the credits viewport until the actual hyperlink is visible.
@@ -228,6 +289,7 @@ result = renpy.display.core.time.time()''')
             await until('renpy.get_widget("closing_theme", "montage").position() > .5')
             await page.screenshot(path=str(OUT / "browser-theme-reduced-motion.png"))
             await click_button("closing_theme", "Pause")
+            await until('renpy.music.get_pause(channel="closing_theme")', seconds=5)
             assert await value('renpy.music.get_pause(channel="closing_theme")')
             paused_at = await value('renpy.get_widget("closing_theme", "montage").position()')
             await asyncio.sleep(.6)
@@ -247,6 +309,7 @@ result = renpy.display.core.time.time()''')
             await until('renpy.get_widget("closing_theme", "montage").position() > 1.5')
             await page.screenshot(path=str(OUT / "browser-theme-camera-motion.png"))
             await page.keyboard.press("Space")
+            await until('renpy.music.get_pause(channel="closing_theme")', seconds=5)
             assert await value('renpy.music.get_pause(channel="closing_theme")')
             await page.keyboard.press("Escape")
             await until('bool(renpy.get_screen("chapter_end"))')
@@ -254,6 +317,7 @@ result = renpy.display.core.time.time()''')
 
             await click_button("chapter_end", "Replay closing theme")
             await until('bool(renpy.get_screen("closing_theme"))')
+            await until('not renpy.music.get_pause(channel="closing_theme")', seconds=5)
             assert not await value('renpy.music.get_pause(channel="closing_theme")')
             assert await value('renpy.get_widget("closing_theme", "montage").position() < 5')
             await click_button("closing_theme", "Skip closing theme")
@@ -362,9 +426,9 @@ renpy.get_screen("glossary").visit_all(lambda item, out=result: out.append(item.
             "meeting_cassia": "community_courtyard", "meeting_joren": "construction_path",
             "treehouse": "treehouse", "rain_refuge": "treehouse_rain",
             "outer_exploration": "construction_room",
-            "dome_ascent": "dome", "treehouse_dispute": "treehouse",
-            "family_grief": "home_dusk", "painting_grief": "family_home",
-            "cassia_grief": "treehouse", "community_memorial": "memorial_plaza",
+            "dome_ascent": "dome", "treehouse_dispute": "treehouse_later",
+            "family_grief": "home_dusk", "painting_grief": "family_home_painting",
+            "cassia_grief": "treehouse_later", "community_memorial": "memorial_plaza",
             "mural_remembrance": "memory_mural", "treehouse_remembrance": "treehouse_memory",
             "annual_remembrance": "remembrance_plaza",
         }

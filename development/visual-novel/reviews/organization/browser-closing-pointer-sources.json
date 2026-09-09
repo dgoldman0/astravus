@@ -1,0 +1,45 @@
+{
+  "scope": "Supporting source and artifact hashes checked after the completed bounded browser run; timestamps and tested helper/function hashes remain in the run receipts.",
+  "files": [
+    {
+      "path": "visual-novel/.cache/renpy-8.5.3-sdk/renpy/display/core.py",
+      "sha256": "26348e7f259b4a2453c203636a883a95a3b2cc3db65b86d09811dce70b69c835"
+    },
+    {
+      "path": "visual-novel/.cache/renpy-8.5.3-sdk/renpy/display/focus.py",
+      "sha256": "fdfea4b5d3b0b42a9182a37304bbbf80a00b6e3d3264ccc19e1ba39d1b41b303"
+    },
+    {
+      "path": "visual-novel/build/web/renpy-pre.js",
+      "sha256": "aef6c9d0aee065bc33e19c5e0cbea4d3e1fd0d1abc08fecc30c1a2a1212c3820"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-closing-pointer-check.py",
+      "sha256": "265f43cac4e94a8a5dd834d73ed831e2bc6600f0cb1f955e7122ee3110f0fd4f"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-closing-pointer-diagnosis.json",
+      "sha256": "a60d20e2cadbbc0bf1e6d2c1005f4716792b6eb2c1c0d389bf517cf1df7b6561"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-closing-pointer-verified.json",
+      "sha256": "23e1d039f7679aa5d01ed09bc775affabb3fb08514302bbcff615389a3f79f9e"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-closing-pointer-diagnosis.log",
+      "sha256": "e46c541d41ae6b4791794bdd30d9f6edaa52b7c539671348f4c76e41370e756d"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-closing-pointer-verified.log",
+      "sha256": "bc68e9c7add93c440cf60605c67c426ac01a0e836d311d646b64aea43e6bdf70"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-theme-reduced-motion.png",
+      "sha256": "7e56e922096d45cb88c2c2a3754288bc9aa32f173ba0c7fc26f169a765190f44"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-theme-camera-motion.png",
+      "sha256": "5106ab92ed38084cdabcec6668df977545886b5bf0c5c3e83e82c5077b549728"
+    }
+  ]
+}

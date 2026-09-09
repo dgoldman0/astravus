@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-09-09T13:18:14.731649+00:00",
+  "status": "passed",
+  "script_hashes": {
+    "scripts/render_graphics_gallery.py": "98db5ea96ce8bd6b00b98711740df5d20fd39a599a1df685fb510374d862b527",
+    "scripts/capture_theme_art.py": "5b7c8f4989f32ddc8811fea5c4f96f94a193d8ccef8ee07b7185b6eba8d59d73"
+  },
+  "ledger_sha256": "ddf530ee4bf3e786b85226fceca593d947fecd3fe0a0b4f676271f91b08d9e01",
+  "gallery": {
+    "html_generated": true,
+    "selected_images": 78,
+    "image_urls_resolve_to_expected_files": true,
+    "viewer_urls_match_images": true,
+    "all_urls_relative": true,
+    "html_sha256": "9d779020f767d53be00124c841dc9014140af4e1df6571652e056709558be4b1",
+    "temporary_output_outside_game": true
+  },
+  "capture_setup": {
+    "initial_output_directory_absent": true,
+    "parents_created": true,
+    "testcase_write_succeeded": true,
+    "existing_directory_rerun_succeeded": true,
+    "engine_executed": false,
+    "game_test_file_created": false
+  },
+  "existing_archive_outputs_unchanged": true,
+  "method": "Executed complete gallery script with only output assignment replaced through AST; parsed generated HTML and resolved every img/src and viewer data-url. Executed capture script actual out assignment, mkdir and first write statements twice under a missing temporary checkout directory, stopping before its engine try block. Temporary outputs removed after assertions. No runtime art generation or engine run."
+}

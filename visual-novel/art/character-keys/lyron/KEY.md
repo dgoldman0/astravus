@@ -1,6 +1,6 @@
 # Lyron visual key
 
-[View current key](key.png). This is the revised Lumen wardrobe with Lyron's gentle adult identity. The earlier denim-shirt/cargo-trouser sheet is unselected.
+[View key](key.png). Reference for Lyron's gentle adult identity and everyday Lumen wardrobe during Book I.
 
 ## Source and stage
 
@@ -16,12 +16,12 @@ Preserve warm medium-brown skin, a gentle long oval face, softer jaw corners, st
 
 The selected outfit is a softly structured blue-gray overlapping garment ending around the upper thigh, with curving panels, unobtrusive integrated side closure, inset seam storage, comfortable three-quarter sleeves and a divided hem. Plain relaxed earth-taupe trousers and quiet woven shoes complete it. The fine natural-fiber texture has tonal depth across its planes.
 
-The exact cut, closure and material behavior are selected production interpretations. They do not establish a Lumen uniform, a guild badge, ubiquitous adaptive clothing or a new technology. The redesign responds specifically to the user's observation that the old shirt, belt and cargo pockets looked contemporary American. The other five supporting characters' wardrobes remain retained.
+The exact cut, closure and material behavior are selected production interpretations. They do not establish a Lumen uniform, a guild badge, ubiquitous adaptive clothing or a new technology.
 
-## Performance, light and review
+## Performance and light
 
 Warm small smile, calm explanation and thoughtful concern should share the same facial construction. Keep his manner unhurried and capable. Do not turn gray hair into frailty or dress him as a generic sage.
 
-Preserve hazel eyes and warm brown skin under differing illumination; the cloth is tactile and non-luminous. Front-oriented, side and back garment views agree on the overlap and divided hem. The revised full sprite transfers this outfit into the original standing stage and saturated-green compositing convention. Its changed silhouette has been measured and registered in [character_layout.json](../../../game/character_layout.json), retaining the established standing height. Native rendering is checked separately from these source measurements.
+Preserve hazel eyes and warm brown skin under differing illumination; the cloth is tactile and non-luminous. Front-oriented, side and back garment views agree on the overlap and divided hem. Use the standing sprite and [character_layout.json](../../../game/character_layout.json) for scene scale and grounding; the sheet fills its own page and is not an independent height measurement.
 
-[Wardrobe-key prompt](prompt-key-wardrobe.txt), [sprite prompt](prompt-sprite-wardrobe.txt) and [supporting changes](../supporting-changes.json) preserve provenance. The initial key and face-only sprite donor remain unselected.
+[Sheet prompt](../../../../development/visual-novel/art/characters/lyron/prompt-key-wardrobe.txt); [production record](../../../../development/visual-novel/art/characters/supporting-changes.json).

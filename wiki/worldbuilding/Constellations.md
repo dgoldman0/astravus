@@ -4,7 +4,7 @@
 
 A **constellation** is a committed **adult romantic/peer relationship** among its members. It names the adults' partnership, not their family, household, children, dependents, or animal companions.
 
-This definition follows the author's clarification, already recorded in the [visual novel adaptation](../../visual-novel/docs/ADAPTATION.md#dialogue-and-voice) and [glossary review](../../visual-novel/docs/GLOSSARY_REVIEW.md). It supersedes older wiki wording that made constellation membership synonymous with family membership or parenting.
+This definition follows the author's clarification, already recorded in the [visual novel adaptation](../../visual-novel/docs/ADAPTATION.md#dialogue-and-voice) and [glossary review](../../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md). It supersedes older wiki wording that made constellation membership synonymous with family membership or parenting.
 
 | Term | What it describes | Membership |
 | --- | --- | --- |

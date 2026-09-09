@@ -9,6 +9,7 @@ from fractions import Fraction
 import hashlib
 import importlib.util
 import json
+import os
 from pathlib import Path
 import re
 import shutil
@@ -20,6 +21,11 @@ import numpy as np
 from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def project_relative(path):
+    """Record sibling development outputs relative to the game project too."""
+    return Path(os.path.relpath(path, ROOT)).as_posix()
 
 
 def sha(path):
@@ -72,7 +78,7 @@ def main():
     inputs += [ROOT / "game" / s["image"] for s in data["shots"]]
     input_hashes = {str(f.relative_to(ROOT)): sha(f) for f in inputs}
     movie_hash = sha(args.movie)
-    render_snapshot_path = ROOT / "build/graphics-polish/film-render-inputs.json"
+    render_snapshot_path = ROOT / "../development/visual-novel/archive/local/graphics-workspace/film-render-inputs.json"
     render_snapshot = json.loads(render_snapshot_path.read_text())
     assert render_snapshot["output"]["sha256"] == movie_hash
     assert all(sha(ROOT / p) == h for p, h in render_snapshot["inputs"].items())
@@ -190,7 +196,7 @@ def main():
             "minimum_opacity_step": float(np.diff(mix).min()), "maximum_opacity_step": float(np.diff(mix).max()),
             "maximum_residual_rgb_mae_at480x270": float(residuals.max()),
             "maximum_full_frame_adjacent_rgb_mae": max(tr["adjacent_rgb_mae"]),
-            "native_frame_samples": keys, "strip": str(path.relative_to(ROOT)), "native_detail": str(detail_path.relative_to(ROOT)),
+            "native_frame_samples": keys, "strip": project_relative(path), "native_detail": project_relative(detail_path),
             "opacity_samples": mix.tolist()})
     hold_reports = []
     for hold in holds:
@@ -209,16 +215,16 @@ def main():
             _, n, a, b = hold["worst_pairs"][name]
             path = out / f"hold-{hold['shot']:02}-{name}-native.png"
             strip(path, [a, b], [f"{(n-1)/fps:.3f}s", f"{n/fps:.3f}s"])
-            statistics[name]["worst_adjacent_pair_strip"] = str(path.relative_to(ROOT))
+            statistics[name]["worst_adjacent_pair_strip"] = project_relative(path)
         hold_reports.append({k: v for k, v in hold.items() if k not in ("worst_pairs", "observations")}
                             | {"statistics": statistics, "observations": hold["observations"]})
     assert sha(args.movie) == movie_hash
     assert sha(source) == source_audio["sha256"]
     assert all(sha(ROOT / p) == h for p, h in input_hashes.items())
     report = {"created_at_utc": datetime.now(timezone.utc).isoformat(), "movie": {
-        "file": str(args.movie.relative_to(ROOT)), "sha256": movie_hash, "bytes": args.movie.stat().st_size, **info},
+        "file": project_relative(args.movie), "sha256": movie_hash, "bytes": args.movie.stat().st_size, **info},
         "inputs": input_hashes, "inputs_unchanged_during_check": True,
-        "render_snapshot": str(render_snapshot_path.relative_to(ROOT)), "render_snapshot_sha256": sha(render_snapshot_path),
+        "render_snapshot": project_relative(render_snapshot_path), "render_snapshot_sha256": sha(render_snapshot_path),
         "render_snapshot_matches_movie_and_inputs": True, "source_audio": source_audio, "audio": audio_result,
         "runtime_audio": {"file": str(runtime_audio.relative_to(ROOT)), "sha256": input_hashes[str(runtime_audio.relative_to(ROOT))],
                           "role": "Separate runtime Vorbis asset; standalone MP4 encodes the supplied WAV instead."},

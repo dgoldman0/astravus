@@ -6,7 +6,7 @@
 
 [The childhood manuscript](../../../../revision/latest.md#earliest-memories), line 29, specifies short-cropped auburn hair, sharp blue eyes and a lean muscular build. [Arin's biography](../../../../wiki/bios/Arin.md#physical-description) adds pale freckles, capable forearms and average height below Maia and Dorian. Preserve the focused gaze, defined cheek planes and tapered adult jaw. They remain androgynous; their identity does not depend on gendered clothing cues.
 
-The far-left adult in the [accepted opening](../../character-refinement-test/opening-refined-v1.png) fixes the paler freckled complexion and closer auburn crop. This sheet carries that direction into the workshop outfit. Arin must remain distinct from Sage's round face, tan complexion, sandy sweep and medium build. Blue irises are useful at portrait scale; identity must also survive lowered eyes and monochrome silhouettes.
+The far-left adult in the [opening illustration](../../../game/images/cg/first-memory-young.png) fixes the paler freckled complexion and closer auburn crop. This sheet carries that direction into the workshop outfit. Arin must remain distinct from Sage's round face, tan complexion, sandy sweep and medium build. Blue irises are useful at portrait scale; identity must also survive lowered eyes and monochrome silhouettes.
 
 ## Stage, clothes and performance
 
@@ -16,6 +16,8 @@ Keep a vital adult through Book I. The biography's later “125+,” missing lef
 
 Warmth is a slight smile, attention steadies the eyes, and concern tightens the mouth without default anger. Hands move precisely; forearms are capable without bodybuilding mass. Under amber light, preserve a lighter local skin value than Sage. Cool light does not bleach freckles or change blue irises to gray-green.
 
-## Review and use
+## Reference use
 
-The sheet's face and costume remain recognizable across angles, with natural restrained acting. The everyday sprite is refined from the same direction using generated paint and editable GIMP masks; its original lower body, feet and unrelated costume regions are preserved. Review the [sprite prompt](prompt-sprite.txt), [key prompt](prompt-key.txt), immutable `sprite-before.png`, native masks and `sprite-refined.xcf` for the exact edit lineage.
+Carry the same lean facial construction and pale freckled skin into both the workshop and First Breath. The standing sprite supplies larger costume details; unseen garment construction remains a production interpretation.
+
+[Sheet prompt](../../../../development/visual-novel/art/characters/arin/prompt-key.txt) and [production record](../../../../development/visual-novel/art/characters/parents-changes.json).

@@ -2,9 +2,9 @@
 
 Version **0.1-alpha** is a kinetic adaptation of **Book I: Seeds of Youth**, built in Ren'Py 8.5.3. Its 32 scenes follow Calista from her borrowed memory of First Breath through family life, childhood friendships, and the book's lasting aftermath. It ends before Book II's late-teen period. The story has one fixed outcome; the reader controls the pace. Allow **about 40–50 minutes**. This is an estimate from approximately 7,900 story words plus scene changes and pauses, not a measured human playthrough.
 
-This is the full-book alpha. The public version restarts at **0.1-alpha** after the earlier development previews. Updates and feedback: [Astravus on itch.io](https://arcadiumgames.itch.io/astravus-calista). An afterword looks ahead to Calista's wider life and the hope of adapting later books. The first rough playable draft, version 0.1.3, is preserved at commit `3dfcf6c` and documented in [Draft One](docs/DRAFT_ONE.md).
+This is the full-book alpha. The public version restarts at **0.1-alpha** after the earlier development previews. Updates and feedback: [Astravus on itch.io](https://arcadiumgames.itch.io/astravus-calista). An afterword looks ahead to Calista's wider life and the hope of adapting later books. The first rough playable draft, version 0.1.3, is preserved at commit `3dfcf6c` and documented in [Draft One](../development/visual-novel/reviews/releases/DRAFT_ONE.md).
 
-The expanded afterword offers an optional **2:58 closing theme**, *Curiosity and Discovery*, by Daniel Goldman with assistance from ChatGPT and SUNO. It can be paused, skipped or replayed; reduced motion keeps the pictures still. The film opens with Cali and Kael and features characters in fourteen of fifteen distinct shots. The [closing-theme notes](docs/CLOSING_THEME_DRAFT.md) describe the editable sequence and standalone MP4 renderer. It adds about three minutes to the reading estimate if watched.
+The expanded afterword offers an optional **2:58 closing theme**, *Curiosity and Discovery*, by Daniel Goldman with assistance from ChatGPT and SUNO. It can be paused, skipped or replayed; reduced motion keeps the pictures still. The film opens with Cali and Kael and features characters in fourteen of fifteen distinct shots. The [closing-theme notes](docs/CLOSING_THEME.md) describe the editable sequence and standalone MP4 renderer. It adds about three minutes to the reading estimate if watched.
 
 ## Play
 
@@ -59,9 +59,9 @@ The automated review scripts exercise story progression and reading controls; br
 
 [Adaptation notes](docs/ADAPTATION.md) explain the source boundary, condensation, dialogue changes, and reveal order. The detailed [Book I coverage map](docs/BOOK_ONE_COVERAGE.md) includes the restored family episodes, friends' families, later projects and conflicts, loss, and remembrance. The source draft remains authoritative; the adaptation does not silently rewrite it or the wiki.
 
-The [0.2.7 pacing and action review](docs/REVIEW_0_2_7.md) adds a dry garden work area and eight illustrated moments for planting, flute lessons, the pond rescue, seated storytelling and comfort. Character-free backgrounds and separate sprites remain available; these fixed sub-scenes are used where their shared pose fits the action.
+The [character gallery](art/character-keys/index.html) contains the twenty selected visual keys for the fourteen named humans and three familiars depicted in Book I. The three friends have separate early and later childhood sheets. Illustrated scenes cover shared actions such as planting, flute lessons, the pond rescue and comfort; background plates and standing sprites support the surrounding dialogue.
 
-The [0.2.5 story and visual review](docs/REVIEW_0_2_5.md) covers all 32 scenes. It removes the invented blue-light encounter and callback, restores the source's character intent and key dialogue, unifies the populated plaza across three occasions, improves Cassia's facial shading, adds the four supporting parents' portraits, and corrects pond and festival-prop continuity. The asset manifests linked there preserve the full generation prompts and reference chains.
+Experiments, rejected candidates, editable study projects and review history belong in [visual novel development](../development/visual-novel/README.md). The game folder retains selected runtime art, current character references, production contracts and build tools. [Graphics production](docs/GRAPHICS_POLISH.md) explains the current asset checks and links to the external review ledger.
 
 [Art direction](docs/ART_DIRECTION.md) and [character continuity](docs/CHARACTER_CONTINUITY.md) distinguish newborn, early-childhood, and later-childhood designs. Wardrobe and expressions change with activity and emotion. The sheltered treehouse retains its architecture and dark garden palette; brighter planting areas, rain, the festival, and remembrance have their own views. Generated images are selected working assets, with prompts, references, and hashes in [the original manifest](docs/assets.json), [character manifest](docs/character-assets.json), and [environment manifest](docs/environment-assets.json).
 
@@ -75,9 +75,10 @@ The [release acceptance matrix](docs/RELEASE_MATRIX.md) tracks all 32 scenes, al
 | --- | --- | --- |
 | `game/*.rpy`, `game/ui/` | Story, interface, presentation, and development tests | Track |
 | `game/images/`, `game/fonts/`, `game/audio/` | Selected runtime assets and notices | Track |
+| `art/character-keys/` | Selected character sheets and current design rules | Track |
 | `scripts/`, `docs/`, `web/`, `progressive_download.txt` | Reproducible workflow, provenance, and browser fixes | Track |
-| `.cache/`, `.art-staging/`, `.venv/` | SDK, audio masters/encoder, local state, and unused candidates | Ignore |
+| `.cache/`, `.venv/` | SDK, audio masters/encoder and local tool state | Ignore |
 | `dist/`, `build/`, `test-results/` | Packages, ZIPs, measurements, screenshots, and test state | Ignore |
 | `*.rpyc`, `*.rpyb`, `game/cache/`, `game/saves/`, logs | Generated Ren'Py files | Ignore |
 
-Keep production work in this subfolder and preserve focused, explained commits. Ren'Py ships with its license notices; Lato and DejaVu notices are in `game/fonts/`. This adaptation adds no new license to the author's story or original visual references.
+Keep selected production materials here and exploratory work in `development/visual-novel/`. Preserve focused, explained commits. Ren'Py ships with its license notices; Lato and DejaVu notices are in `game/fonts/`. This adaptation adds no new license to the author's story or original visual references.

@@ -1,0 +1,6 @@
+# Previously ignored local candidates and generated review workspaces are
+# preserved here. Tracked art studies, immutable production inputs and receipts
+# live in art/ and reviews/; current game packages remain in visual-novel/build
+# and visual-novel/dist.
+/archive/local/
+__pycache__/

@@ -18,7 +18,7 @@ import textwrap
 from types import SimpleNamespace
 
 ROOT = Path(__file__).resolve().parents[1]
-LEDGER = ROOT / "docs/graphics-polish.json"
+LEDGER = ROOT / "../development/visual-novel/reviews/graphics/ledger.json"
 MANIFESTS = ("assets.json", "character-assets.json", "environment-assets.json", "familiar-assets.json")
 STORY = ("game/script.rpy", "game/family_book_one.rpy", "game/friendships_book_one.rpy")
 DIMENSIONS = {
@@ -294,7 +294,7 @@ def sync():
     commit = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
     tree = subprocess.check_output(["git", "ls-tree", "-r", commit, "--", "visual-novel/game/images"], cwd=ROOT.parent, text=True)
     blobs = {line.split("\t", 1)[1].removeprefix("visual-novel/"): line.split()[2] for line in tree.splitlines()}
-    data = read("docs/graphics-polish.json") if LEDGER.exists() else {
+    data = read("../development/visual-novel/reviews/graphics/ledger.json") if LEDGER.exists() else {
         "schema_version": 1, "scope": "All selected runtime images; graphics production polish",
         "authority": ["Author direction and manuscript/wiki facts", "Existing character, stature and location contracts", "Deliberately selected visual comparison references"],
         "policy": ["Every artistic dimension begins pending. Prior matrix/registry acceptance is not renewed approval.",
@@ -321,7 +321,13 @@ def sync():
         data["assets"].append(item)
     data["synced_at_utc"] = datetime.now(timezone.utc).isoformat()
     data["selected_count"] = len(live)
-    data["archive"] = json.loads((ROOT / "build/archive/design-proof/ARCHIVE.json").read_text())
+    archive = ROOT / "../development/visual-novel/archive/local/design-proof/ARCHIVE.json"
+    if archive.is_file():
+        data["archive"] = json.loads(archive.read_text())
+    else:
+        data["archive"] = {"available": False,
+            "note": "Optional ignored design experiments are absent from this checkout; selected production inputs are checked separately.",
+            "recovery_record": "../development/visual-novel/archive/recovered-proof.json"}
     save(data)
     print(f"Synced {len(live)} images; no artistic outcomes changed.")
 
@@ -362,7 +368,7 @@ def main():
     if args.command == "sync":
         sync()
         return 0
-    data, live = read("docs/graphics-polish.json"), inventory()
+    data, live = read("../development/visual-novel/reviews/graphics/ledger.json"), inventory()
     if {a["file"] for a in data["assets"]} != set(live):
         parser.error("Selected image set changed; run sync first")
     if args.command == "record":

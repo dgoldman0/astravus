@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "tool": "GIMP 2.10.36 Script-Fu",
+  "script_file": "scripts/refine_supporting_sprites.scm",
+  "script_sha256": "6bf70db202f270444fc17e3f63b54ba16761fc1600df765a86af1e8c39e410f3",
+  "status": "passed",
+  "assets": [
+    {
+      "character": "lyra",
+      "source_file": "../development/visual-novel/art/characters/lyra/sprite-original.png",
+      "source_sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d",
+      "final_file": "../development/visual-novel/art/characters/lyra/sprite-refined.png",
+      "final_sha256": "3198fe4eb432101cdd7d86a0f0f17e007349489645ce68e203f0adac01cbf7fb",
+      "xcf_file": "../development/visual-novel/art/characters/lyra/sprite-refined.xcf",
+      "xcf_sha256": "cf4bf0036059fe07f642022338f2bbfcba8db52c343e37ffd212d22eba1e17f8",
+      "size": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "masks": [
+        {
+          "file": "../development/visual-novel/art/characters/lyra/mask-eye-viewer-left.png",
+          "sha256": "0f7da77cc33ed09e8cecf2bcaabb005eba2bb17d22e378b9862d826dcf1a29fe",
+          "support_bbox": [
+            451,
+            254,
+            539,
+            328
+          ],
+          "nonzero_pixels": 5212
+        },
+        {
+          "file": "../development/visual-novel/art/characters/lyra/mask-eye-viewer-right.png",
+          "sha256": "f8588014b9f89fca6bb6341270c56a05ca154a58dee92ceb5354b5322e53b017",
+          "support_bbox": [
+            538,
+            240,
+            616,
+            310
+          ],
+          "nonzero_pixels": 4368
+        }
+      ],
+      "changed_pixels": 8747,
+      "outside_mask_changed_pixels": 0,
+      "chroma_backing_unchanged": true,
+      "xcf_reopened_matches_final": true,
+      "hidden_layers_restore_original": true
+    },
+    {
+      "character": "thalia",
+      "source_file": "../development/visual-novel/art/characters/thalia/sprite-original.png",
+      "source_sha256": "654c9f3316c1c78d023efb8b4d22afd1b68003d7f47a6435c2a6b1984f637132",
+      "final_file": "../development/visual-novel/art/characters/thalia/sprite-refined.png",
+      "final_sha256": "734fcc28508a9a86381d4223e8b541c3b50227f002460207a468c0c5cf4798ed",
+      "xcf_file": "../development/visual-novel/art/characters/thalia/sprite-refined.xcf",
+      "xcf_sha256": "a347c87bab5501129147ed25f76a34448992c6842b88debffe035b6ddf92ad0a",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "masks": [
+        {
+          "file": "../development/visual-novel/art/characters/thalia/mask-irises.png",
+          "sha256": "b169c31e83ec08c44bfe1da18d86d9efe792929db28655db68c6fe255c578291",
+          "support_bbox": [
+            458,
+            165,
+            523,
+            184
+          ],
+          "nonzero_pixels": 169
+        }
+      ],
+      "changed_pixels": 158,
+      "outside_mask_changed_pixels": 0,
+      "chroma_backing_unchanged": true,
+      "xcf_reopened_matches_final": true,
+      "hidden_layers_restore_original": true
+    }
+  ],
+  "limitation": "Checks establish bounded native edits and editability, not artistic approval."
+}

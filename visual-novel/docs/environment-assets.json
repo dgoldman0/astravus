@@ -216,7 +216,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "production-workshop-waterwheel",
-        "recipe_sha256": "99b633ffd7850c264af6b071db8337d97224523f536400a6982b6447f9bf28bc"
+        "recipe_sha256": "34fe22e7898a7c11d24103b33f5e50d7337f336ab38f4a596335e1f1f15a6eaf"
       }
     },
     {
@@ -231,7 +231,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "production-family-home-painting",
-        "recipe_sha256": "1677e926721133a0ca73cea43f0439a7eb65185a118162f8ad91ec929242b64d"
+        "recipe_sha256": "81b2da95fbcfa6fb7d5d4672ca4e329c96060bbcf6b06c04d6b49fb341816906"
       }
     },
     {

@@ -15,7 +15,8 @@ class ReviewEvidenceTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name)
+        self.root = Path(self.temp.name) / "visual-novel"
+        self.root.mkdir()
         self.addCleanup(patch.stopall)
         patch.object(review, "PROJECT", self.root).start()
         (self.root / "input.txt").write_text("selected source")
@@ -52,6 +53,28 @@ class ReviewEvidenceTests(unittest.TestCase):
     def test_missing_evidence_invalidates_review(self):
         (self.root / "review.md").unlink()
         self.assertEqual(self.state(), "STALE")
+
+    def test_development_evidence_and_comparison_remain_hash_bound(self):
+        path = self.root.parent / "development/visual-novel/reviews/art.md"
+        path.parent.mkdir(parents=True)
+        path.write_text("Inspected source and native frame")
+        name = "../development/visual-novel/reviews/art.md"
+        self.receipt["evidence"] = review.evidence_hashes([name])
+        self.receipt["comparison_reference"] = "file:" + name
+        self.receipt["comparison_signature"] = review.comparison_signature("file:" + name)
+        self.assertEqual(self.state(), "PASS")
+        path.write_text("Different review")
+        self.assertEqual(self.state(), "STALE")
+
+    def test_review_paths_cannot_escape_allowed_workspaces(self):
+        outside = self.root.parent / "unrelated.md"
+        outside.write_text("Unrelated file")
+        (self.root / "escape.md").symlink_to(outside)
+        for name in ("../unrelated.md", "escape.md"):
+            with self.subTest(name=name), self.assertRaises(ValueError):
+                review.evidence_hashes([name])
+            with self.subTest(name=name), self.assertRaises(ValueError):
+                review.comparison_signature("file:" + name)
 
     def test_hash_without_review_never_passes(self):
         self.assertEqual(review.check_status(self.matrix, self.row, {})[0], "PENDING")

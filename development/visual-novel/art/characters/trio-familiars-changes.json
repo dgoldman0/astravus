@@ -1,0 +1,755 @@
+{
+  "schema_version": 1,
+  "source_snapshot_note": "literary_and_production_sources records the historical inputs read for key creation, using paths relative to the Astravus repository. CHARACTER_CONTINUITY.md was subsequently updated during this pass; its recorded source hash is deliberately retained, not asserted to match the current file. Selected key, prompt and documentation hashes identify their retained files.",
+  "scope": "Childhood trio and three household familiars visual keys",
+  "tool_mode": "built-in image generation with selected local sprite references",
+  "backend_model": "Version not exposed; GPT-Image-2.5 availability is not asserted",
+  "selected_key_count": 9,
+  "generation_count_including_corrections": 13,
+  "stage_contract": "Early and later trio sheets both depict Book I childhood; later starts at project building before Book II late teens. No new exact ages.",
+  "literary_and_production_sources": [
+    {
+      "file": "revision/latest.md",
+      "sha256": "9a634142d1e67ea418132dab6eb18b3fd76984574486a81204ea0103dad88cda"
+    },
+    {
+      "file": "wiki/bios/Calista.md",
+      "sha256": "8f8627774676f065f78d69e9505df757f941034b7828fcec7db1cbeb26cfd2bd"
+    },
+    {
+      "file": "wiki/bios/Cassia.md",
+      "sha256": "c32aa1ddfb9bfa866d28fdd465303dfcf22f54aba46493044740e24a496711f9"
+    },
+    {
+      "file": "wiki/bios/Joren.md",
+      "sha256": "209aeba6ed20144677fdafe35a09f37a6c0e2038ed22d25812866d47a6cc8c56"
+    },
+    {
+      "file": "wiki/bios/Shadow.md",
+      "sha256": "b42d6cdb62d1d786d641055b6bc1f61fdfddcb2446e638efc0204dd6326d8e8f"
+    },
+    {
+      "file": "wiki/worldbuilding/Familiars.md",
+      "sha256": "b5fc7630c7c34c09cf2c8a54c0de09d92522e72f61c8539e367455ed3a57d634"
+    },
+    {
+      "file": "visual-novel/docs/CHARACTER_CONTINUITY.md",
+      "sha256": "509dbc3461cb3e6b34843e40021e1c2c71121d7a215dec1433641cca96501ad0",
+      "snapshot_note": "Historical source version before the character-pass continuity update."
+    },
+    {
+      "file": "visual-novel/docs/familiar-assets.json",
+      "sha256": "723aef4d0c4ab089424d522e9e2ddca06b6a510f13382ad9bafe98ed04b7c5fa"
+    }
+  ],
+  "keys": [
+    {
+      "character": "calista",
+      "documentation": "art/character-keys/calista/KEY.md",
+      "documentation_sha256": "ef7194d29a0d3b2d46a04804ee3eadb7e6bdd06edcde407191e1040cd5da0911",
+      "sheets": [
+        {
+          "file": "art/character-keys/calista/later-key.png",
+          "sha256": "bff79c99f1253c65f4a06ed8cd9e4283f7b1b4a825ed1df733c178ee201c963f",
+          "stage": "later"
+        },
+        {
+          "file": "art/character-keys/calista/early-key.png",
+          "sha256": "674f1625748e664e5961afa4f2cd9744ae813b41e5ee0bdef71bda0f3e7087d3",
+          "stage": "early"
+        }
+      ]
+    },
+    {
+      "character": "cassia",
+      "documentation": "art/character-keys/cassia/KEY.md",
+      "documentation_sha256": "d7a2881fc4dc959f2786ccb659ef1d91774d7fdcfd107620258925f87c82bc0a",
+      "sheets": [
+        {
+          "file": "art/character-keys/cassia/later-key.png",
+          "sha256": "4c35a3edbe9478fa4b0437b2e46945914eeabed6c9f2bab058aecdbe5b285f34",
+          "stage": "later"
+        },
+        {
+          "file": "art/character-keys/cassia/early-key.png",
+          "sha256": "e45be2b2ea007639a97c519f46992c7e0778fb6b4ac451b836670d57e9c73f1e",
+          "stage": "early"
+        }
+      ]
+    },
+    {
+      "character": "joren",
+      "documentation": "art/character-keys/joren/KEY.md",
+      "documentation_sha256": "57d614a1628d4479166773f44b93727d6a9dca3787a1e7e5292a7e608539258f",
+      "sheets": [
+        {
+          "file": "art/character-keys/joren/early-key.png",
+          "sha256": "d494b5813397e240103f1bd545f3c0cb3c7a693ae5d1475a6709e72de35efac0",
+          "stage": "early"
+        },
+        {
+          "file": "art/character-keys/joren/later-key.png",
+          "sha256": "a37730b967229b476af234e11f39d00ac865686f303e83d7d63acf28a376f550",
+          "stage": "later"
+        }
+      ]
+    },
+    {
+      "character": "shadow",
+      "documentation": "art/character-keys/shadow/KEY.md",
+      "documentation_sha256": "5753ad1c39a520ded1b2ea7ef6e89f2c4f1ab74441191ae45a2d92530fcec8dc",
+      "sheets": [
+        {
+          "file": "art/character-keys/shadow/key.png",
+          "sha256": "a9427e733e568f43474df8255464233ec3a1029207f255466c9ed85c1873f126",
+          "stage": "familiar"
+        }
+      ]
+    },
+    {
+      "character": "barkley",
+      "documentation": "art/character-keys/barkley/KEY.md",
+      "documentation_sha256": "634c7440883072f178986cc3ffc8896bb06ed55c61944df6c8da56b7310cddd5",
+      "sheets": [
+        {
+          "file": "art/character-keys/barkley/key.png",
+          "sha256": "2c659926c612a52bc1c79d37b86ea2fb989592946c4ec79701d62e6a545e9e5b",
+          "stage": "familiar"
+        }
+      ]
+    },
+    {
+      "character": "nibble",
+      "documentation": "art/character-keys/nibble/KEY.md",
+      "documentation_sha256": "59fa7f0ab2a3be86ee9e5ce52c264f90b84e4b16bd9bed28ea442e91e2981218",
+      "sheets": [
+        {
+          "file": "art/character-keys/nibble/key.png",
+          "sha256": "ca4fee17399db0574fc4033815d8a704f4d73fa3ae8bf3c5d4905f0b28c4b94e",
+          "stage": "familiar"
+        }
+      ]
+    }
+  ],
+  "generations": [
+    {
+      "id": "exec-c2ceb7e0-965f-41bd-9691-6f8bb114f587",
+      "character": "calista",
+      "stage": "early",
+      "operation": "new key from selected sprite references",
+      "selected": false,
+      "output_file": null,
+      "output_sha256": "489a1db580369fba3c8f33f03e4d38f4976ec0b2229c0e9198102b62017009e3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "selected identity reference",
+          "file": "game/images/characters/book-one/calista-young.png",
+          "sha256": "7e37d6dd316296f9f89f3ce495cf999b0a3ace235c91be6661d129640e64d8ee"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/calista/early-prompt.txt",
+      "prompt_sha256": "b39d6c7c53d6ddb48c0bcb77df8df608994bfacd06ef576650d1ad6342c059b2",
+      "prompt": "Use case: illustration-story. Create a NEW useful production character visual key sheet based on the supplied SELECTED visual-novel sprite, not a replacement sprite. The reference image is the authoritative identity, childhood-stage, costume, paint style, and facial-construction reference. Remove its technical green backing in this new sheet. Large clean landscape sheet, ideally 2880x1920. Warm ivory/plain neutral studio backing, painterly realism matching the sprite, diffuse neutral daylight with softly warm highlights and enough fill to read eyes and skin. No orange wash. Carefully consistent same character in EVERY view.\nLayout: upper row THREE complete full-body views FRONT, SIDE, BACK in relaxed standing pose with identical scale and visible feet; lower row SIX reasonably large head studies: neutral FRONT, attentive THREE-QUARTER, true PROFILE, gentle AMUSED, focused THINKING, subtly WORRIED. Labels may be these exact short English words; use readable unobtrusive dark type. No prose paragraphs, dimensions, invented ages or color swatches. Natural childhood anatomy, unchanged identity, eye aperture and normal embedded irises from reference; no enlarged doll eyes, no mini-adult, no teenager, no glamor makeup. Do not duplicate the same camera angle for front/side/back. Chest, nose, chin, ear and hair mass must rotate coherently. Same clothing construction, hair arrangement, skin color and head/body proportions across all views. Render fingers, toes hidden by shoes, clothing seams and straps credibly. No extra characters, extra limbs, props not in reference, scene backdrop, checkerboard, watermark or fanciful design additions. This is a character identity/structure reference, not a fashion redesign. Empty relaxed hands for structural views; if a handheld object appears in the source, show it once as a small faithfully matching separate prop inset, not in every hand or as new lore.\nTitle exactly: \"CALISTA — EARLY CHILDHOOD\". Preserve the selected young Cali's recognizable thoughtful, softly rounded face, light olive complexion, nose/cheek freckles, deep BLUE eyes, rich chestnut wavy/curly hair with the same loosely gathered crown and faded charcoal-teal bow. Preserve her cream rolled-sleeve blouse, worn brown-olive overalls, brown lace-up boots, and single brown sketchbook. Her hair is chestnut, not black; her complexion is olive, not Cassia's rich umber. She is still a young child, around the selected image's proportions, not a toddler. Mood palette is quiet curiosity, gentle amusement, concentration and slight concern. Do not introduce a dated temple injury/scar from her later-life biography."
+    },
+    {
+      "id": "exec-d01f8d8e-aff2-4ae3-978b-53533d175e4a",
+      "character": "cassia",
+      "stage": "early",
+      "operation": "new key from selected sprite references",
+      "selected": false,
+      "output_file": null,
+      "output_sha256": "2c55f2498497bca555e6e0f3ed9df9da700f9f61a44c82d1418cc75b42bc67ca",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "selected identity reference",
+          "file": "game/images/characters/book-one/cassia-young.png",
+          "sha256": "353258e8c289f3eb3f95a0329fb1ae44b48fdab90d8604dcc64547cb5581f363"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/cassia/early-prompt.txt",
+      "prompt_sha256": "aaac6d1d25068d2c3f88f130989f54ae3bd339c7d6c7edbbffc7dd281c10d222",
+      "prompt": "Use case: illustration-story. Create a NEW useful production character visual key sheet based on the supplied SELECTED visual-novel sprite, not a replacement sprite. The reference image is the authoritative identity, childhood-stage, costume, paint style, and facial-construction reference. Remove its technical green backing in this new sheet. Large clean landscape sheet, ideally 2880x1920. Warm ivory/plain neutral studio backing, painterly realism matching the sprite, diffuse neutral daylight with softly warm highlights and enough fill to read eyes and skin. No orange wash. Carefully consistent same character in EVERY view.\nLayout: upper row THREE complete full-body views FRONT, SIDE, BACK in relaxed standing pose with identical scale and visible feet; lower row SIX reasonably large head studies: neutral FRONT, attentive THREE-QUARTER, true PROFILE, gentle AMUSED, focused THINKING, subtly WORRIED. Labels may be these exact short English words; use readable unobtrusive dark type. No prose paragraphs, dimensions, invented ages or color swatches. Natural childhood anatomy, unchanged identity, eye aperture and normal embedded irises from reference; no enlarged doll eyes, no mini-adult, no teenager, no glamor makeup. Do not duplicate the same camera angle for front/side/back. Chest, nose, chin, ear and hair mass must rotate coherently. Same clothing construction, hair arrangement, skin color and head/body proportions across all views. Render fingers, toes hidden by shoes, clothing seams and straps credibly. No extra characters, extra limbs, props not in reference, scene backdrop, checkerboard, watermark or fanciful design additions. This is a character identity/structure reference, not a fashion redesign. Empty relaxed hands for structural views; if a handheld object appears in the source, show it once as a small faithfully matching separate prop inset, not in every hand or as new lore.\nTitle exactly: \"CASSIA — EARLY CHILDHOOD\". Preserve the selected young Cassia's unique lively child face, rich UMBER skin, deep GREEN eyes, long loose chestnut waves/curls, mustard-gold headband and scarf. Preserve the purple-plum long tunic with tiny golden botanical embroidery, slate-blue loose trousers, rolled cream cuffs, brown belt, brown boots, shoulder satchel and one small story notebook with feather tucked into it. Exact same hair identity and complexion in all angles. Retain the accepted gentle facial midtone detail, softly modeled cheeks/nose/forehead and softly blended lip boundary; never flatten her face into very dark shadows, lighten her complexion, add a harsh dark lip outline or use giant emerald irises. Her smile should be expressive and natural, not a fixed doll grin. A subtle crescent birthmark belongs on HER LEFT wrist if clearly visible. Do not invent the timing of her later crooked-nose accident; preserve current nose shape. Slender young child, not adolescent."
+    },
+    {
+      "id": "exec-2a76482c-7712-4d02-aceb-360e7bc21612",
+      "character": "joren",
+      "stage": "early",
+      "operation": "new key from selected sprite references",
+      "selected": true,
+      "output_file": "art/character-keys/joren/early-key.png",
+      "output_sha256": "d494b5813397e240103f1bd545f3c0cb3c7a693ae5d1475a6709e72de35efac0",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "selected identity reference",
+          "file": "game/images/characters/book-one/joren-young.png",
+          "sha256": "e7fdfcb40ec82c98d46f6343ea458ba83b54cea2c7cb37bcc34c21d009286ce2"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/joren/early-prompt.txt",
+      "prompt_sha256": "55c82f5061d661ff8266d1d70fc418cac400e628fd27d76afac39a9a92af096f",
+      "prompt": "Use case: illustration-story. Create a NEW useful production character visual key sheet based on the supplied SELECTED visual-novel sprite, not a replacement sprite. The reference image is the authoritative identity, childhood-stage, costume, paint style, and facial-construction reference. Remove its technical green backing in this new sheet. Large clean landscape sheet, ideally 2880x1920. Warm ivory/plain neutral studio backing, painterly realism matching the sprite, diffuse neutral daylight with softly warm highlights and enough fill to read eyes and skin. No orange wash. Carefully consistent same character in EVERY view.\nLayout: upper row THREE complete full-body views FRONT, SIDE, BACK in relaxed standing pose with identical scale and visible feet; lower row SIX reasonably large head studies: neutral FRONT, attentive THREE-QUARTER, true PROFILE, gentle AMUSED, focused THINKING, subtly WORRIED. Labels may be these exact short English words; use readable unobtrusive dark type. No prose paragraphs, dimensions, invented ages or color swatches. Natural childhood anatomy, unchanged identity, eye aperture and normal embedded irises from reference; no enlarged doll eyes, no mini-adult, no teenager, no glamor makeup. Do not duplicate the same camera angle for front/side/back. Chest, nose, chin, ear and hair mass must rotate coherently. Same clothing construction, hair arrangement, skin color and head/body proportions across all views. Render fingers, toes hidden by shoes, clothing seams and straps credibly. No extra characters, extra limbs, props not in reference, scene backdrop, checkerboard, watermark or fanciful design additions. This is a character identity/structure reference, not a fashion redesign. Empty relaxed hands for structural views; if a handheld object appears in the source, show it once as a small faithfully matching separate prop inset, not in every hand or as new lore.\nTitle exactly: \"JOREN — EARLY CHILDHOOD\". Preserve the selected Joren's distinct sturdy boyish build, fair RUDDY freckled skin, tousled sunlit BLOND hair, bright BLUE eyes and broad lively facial structure. Preserve rust-orange short-sleeve overshirt, cream henley undershirt, charcoal-brown patched knee-length shorts, brown lace-up boots with scrunched socks, brown crossbody explorer satchel. Keep ordinary little healing knee scrapes. A tiny gap between the upper front teeth should show only in the amused open-mouth smile; closed lips hide teeth naturally. He is a young child with sturdy limbs and shoulders, not lean adolescent/young man. Relaxed standing turnaround rather than freezing his source excited gesture; preserve exact wardrobe and recognizable face. No extra explorer tools or weapons."
+    },
+    {
+      "id": "exec-fa4b6761-78e0-488c-b891-79451ef5018d",
+      "character": "calista",
+      "stage": "later",
+      "operation": "new key from selected sprite references",
+      "selected": true,
+      "output_file": "art/character-keys/calista/later-key.png",
+      "output_sha256": "bff79c99f1253c65f4a06ed8cd9e4283f7b1b4a825ed1df733c178ee201c963f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "selected identity reference",
+          "file": "game/images/characters/book-one/calista-older.png",
+          "sha256": "d36489fd12db1fd3f2d360afa83d675e2af5bcb563e942775ad196f5f11f70b3"
+        },
+        {
+          "role": "selected expression reference",
+          "file": "game/images/characters/book-one/calista-mourning.png",
+          "sha256": "0075c2688598b716a97d7f720e61452a8a6a0ebe3198c2b1cb8a45f3d3da0df8"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/calista/later-prompt.txt",
+      "prompt_sha256": "fd8633cb594c4a541615b177618cc44f38fa90f94cee5fc922cd77f82671f5a9",
+      "prompt": "Use case: illustration-story. NEW production visual key sheet for the exact selected character in image 1. Image 1 is authoritative identity, outfit and LATER CHILDHOOD stage; image 2 is the approved same-child expression reference only. Warm painterly realism matching these selected VN sprites, softly dimensional natural faces, no anime/doll exaggeration, no adult-photoreal makeover. Landscape large sheet on quiet warm ivory with diffuse neutral daylight and gentle warm highlights. Skin and iris pigments are invariant across all views.\nLayout upper row: THREE equal-height complete bodies in genuinely orthographic FRONT (face sternum pelvis directly toward camera), true SIDE (nose directly sideways, far eye hidden), true BACK (face not visible). Relaxed standing, empty hands, same hair and identical source clothes across all three. All feet visible. Lower row: SIX reasonably large head studies labeled NEUTRAL (straight front), ATTENTIVE (three-quarter), PROFILE (90 degrees, ONLY ONE EYE VISIBLE), AMUSED (restrained natural smile), FRUSTRATED (subtle tension), QUIET SADNESS (restrained closed mouth, no smile or melodrama). Render the SAME CHILD in all views, with the same bone structure and eye size. No pose drift masquerading as front/profile. Same painterly style and proportions, clothing seams, hands anatomically coherent. This is Book I later childhood after growing/project-making, BEFORE late teens; maturity means modestly longer limbs and less baby-round cheeks as shown in image 1, never adult shoulders, adolescent fashion/body, makeup or invented exact ages. No scenery, technical green backing, invented tools, extra characters or limbs. One tiny source-prop inset if needed; no explanatory paragraphs. Labels and title only.\nTitle \"CALISTA — LATER CHILDHOOD\". Preserve her recognizable light olive face, dense natural nose/cheek freckles, deep BLUE eyes, chestnut waves/curls, dark hair tie and softly gathered back of crown. Her face remains a child with slightly longer structure than the early sprite. Wardrobe is cream rolled-sleeve blouse, olive-brown open multi-pocket vest, dark slate-blue trousers with brown knee patches and brown lace-up boots. Same small brown sketchbook inset; no apron/palette in these turnaround views. Take quiet sadness from image 2's restrained face ONLY, retain image 1 clothes. Do not add an undated left-temple scar."
+    },
+    {
+      "id": "exec-86f35adb-9e2f-432c-b13b-1786d2e4b040",
+      "character": "cassia",
+      "stage": "later",
+      "operation": "new key from selected sprite references",
+      "selected": true,
+      "output_file": "art/character-keys/cassia/later-key.png",
+      "output_sha256": "4c35a3edbe9478fa4b0437b2e46945914eeabed6c9f2bab058aecdbe5b285f34",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "selected identity reference",
+          "file": "game/images/characters/book-one/cassia-older.png",
+          "sha256": "f65d350cb1d99f692c0de61ee2f160f21795aefafd7d263e88e29f27939865d6"
+        },
+        {
+          "role": "selected expression reference",
+          "file": "game/images/characters/book-one/cassia-mourning.png",
+          "sha256": "8fe0c0a2c74c0199a05cba55115c494f6188c36064d3144bcec2dd3586bcc9b1"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/cassia/later-prompt.txt",
+      "prompt_sha256": "740f312bb85399c4122dd27ce3d3df4d79f4bf13683bf03640863aa42508b616",
+      "prompt": "Use case: illustration-story. NEW production visual key sheet for the exact selected character in image 1. Image 1 is authoritative identity, outfit and LATER CHILDHOOD stage; image 2 is the approved same-child expression reference only. Warm painterly realism matching these selected VN sprites, softly dimensional natural faces, no anime/doll exaggeration, no adult-photoreal makeover. Landscape large sheet on quiet warm ivory with diffuse neutral daylight and gentle warm highlights. Skin and iris pigments are invariant across all views.\nLayout upper row: THREE equal-height complete bodies in genuinely orthographic FRONT (face sternum pelvis directly toward camera), true SIDE (nose directly sideways, far eye hidden), true BACK (face not visible). Relaxed standing, empty hands, same hair and identical source clothes across all three. All feet visible. Lower row: SIX reasonably large head studies labeled NEUTRAL (straight front), ATTENTIVE (three-quarter), PROFILE (90 degrees, ONLY ONE EYE VISIBLE), AMUSED (restrained natural smile), FRUSTRATED (subtle tension), QUIET SADNESS (restrained closed mouth, no smile or melodrama). Render the SAME CHILD in all views, with the same bone structure and eye size. No pose drift masquerading as front/profile. Same painterly style and proportions, clothing seams, hands anatomically coherent. This is Book I later childhood after growing/project-making, BEFORE late teens; maturity means modestly longer limbs and less baby-round cheeks as shown in image 1, never adult shoulders, adolescent fashion/body, makeup or invented exact ages. No scenery, technical green backing, invented tools, extra characters or limbs. One tiny source-prop inset if needed; no explanatory paragraphs. Labels and title only.\nTitle \"CASSIA — LATER CHILDHOOD\". Preserve rich UMBER complexion, deep GREEN eyes, long chestnut waves/curls gathered loosely with ochre tie, and her recognizable lively elongated-child face. Soft dimensional facial midtones and softly blended lip edges were specifically approved: retain those and never lighten her complexion or blacken lip contour. She is slender with still-childhood limbs. Wardrobe identical to image 1: muted plum tunic with modest gold stitching, open olive sleeveless vest, rusty-brown loose trousers, rolled cream cuffs, brown belt, brown satchel and brown boots. Small notebook inset allowed. Image 2 supplies quiet sadness only; no default grin. If her LEFT wrist birthmark is visible, it is tiny irregular low-contrast brown skin pigmentation vaguely crescent-like, never a perfect gold moon tattoo or bright jewelry. Preserve source nose; injury timing unspecified."
+    },
+    {
+      "id": "exec-42541fbb-87d1-47f3-bd0a-1984898f60a0",
+      "character": "joren",
+      "stage": "later",
+      "operation": "new key from selected sprite references",
+      "selected": true,
+      "output_file": "art/character-keys/joren/later-key.png",
+      "output_sha256": "a37730b967229b476af234e11f39d00ac865686f303e83d7d63acf28a376f550",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "selected identity reference",
+          "file": "game/images/characters/book-one/joren-older.png",
+          "sha256": "853411333d8c9cc40fae87b3a4089ae551eaae7250319195b1f5e14dc048a8b0"
+        },
+        {
+          "role": "selected expression reference",
+          "file": "game/images/characters/book-one/joren-frustrated.png",
+          "sha256": "1ef2db5eb4b132947fb39ac4757ca54b37bd3faefa24be71d785faf24117f004"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/joren/later-prompt.txt",
+      "prompt_sha256": "d98af8f59e688a08abde5a77c90fabb1872c0a08ded203d285b05529bbc142df",
+      "prompt": "Use case: illustration-story. NEW production visual key sheet for the exact selected character in image 1. Image 1 is authoritative identity, outfit and LATER CHILDHOOD stage; image 2 is the approved same-child expression reference only. Warm painterly realism matching these selected VN sprites, softly dimensional natural faces, no anime/doll exaggeration, no adult-photoreal makeover. Landscape large sheet on quiet warm ivory with diffuse neutral daylight and gentle warm highlights. Skin and iris pigments are invariant across all views.\nLayout upper row: THREE equal-height complete bodies in genuinely orthographic FRONT (face sternum pelvis directly toward camera), true SIDE (nose directly sideways, far eye hidden), true BACK (face not visible). Relaxed standing, empty hands, same hair and identical source clothes across all three. All feet visible. Lower row: SIX reasonably large head studies labeled NEUTRAL (straight front), ATTENTIVE (three-quarter), PROFILE (90 degrees, ONLY ONE EYE VISIBLE), AMUSED (restrained natural smile), FRUSTRATED (subtle tension), QUIET SADNESS (restrained closed mouth, no smile or melodrama). Render the SAME CHILD in all views, with the same bone structure and eye size. No pose drift masquerading as front/profile. Same painterly style and proportions, clothing seams, hands anatomically coherent. This is Book I later childhood after growing/project-making, BEFORE late teens; maturity means modestly longer limbs and less baby-round cheeks as shown in image 1, never adult shoulders, adolescent fashion/body, makeup or invented exact ages. No scenery, technical green backing, invented tools, extra characters or limbs. One tiny source-prop inset if needed; no explanatory paragraphs. Labels and title only.\nTitle \"JOREN — LATER CHILDHOOD\". Preserve sturdy boyish build, fair ruddy freckled skin, tousled BLOND hair, BLUE eyes and same broad youthful face. Slightly longer limbs than early version, still a child. Clothing identical to image 1: open slate-teal rolled-sleeve overshirt, rust-orange henley, dark brown trousers with tan knee patches, brown boots and socks, brown diagonal crossbody satchel. Single tiny brass circular navigation device inset matching source can show the handheld prop; hands relaxed and empty in turnaround. Tiny front-tooth gap only where naturally visible in amused smile. Image 2 supplies frustration without distorting eyes or aging him. The sadness head depicts a living child's ordinary disappointment; it is not a post-death portrait or new story scene."
+    },
+    {
+      "id": "exec-92a1787a-25e3-4c06-8896-1cc212411cb1",
+      "character": "calista",
+      "stage": "early",
+      "operation": "targeted key correction",
+      "selected": true,
+      "output_file": "art/character-keys/calista/early-key.png",
+      "output_sha256": "674f1625748e664e5961afa4f2cd9744ae813b41e5ee0bdef71bda0f3e7087d3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "edit target",
+          "generation": "exec-c2ceb7e0-965f-41bd-9691-6f8bb114f587",
+          "sha256": "489a1db580369fba3c8f33f03e4d38f4976ec0b2229c0e9198102b62017009e3",
+          "note": "Input was the earlier generated key; the workspace key now contains its selected correction."
+        },
+        {
+          "role": "selected identity reference",
+          "file": "game/images/characters/book-one/calista-young.png",
+          "sha256": "7e37d6dd316296f9f89f3ce495cf999b0a3ace235c91be6661d129640e64d8ee"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/calista/early-correction-prompt.txt",
+      "prompt_sha256": "d27bef3c048a6e170252812c11b0667a96b64b3b668974bb6f48ccce1d3db601",
+      "prompt": "Use case: precise-object-edit. Image 1 is the visual-key EDIT TARGET; image 2 is the selected sprite identity reference. Preserve the entire layout, colors, labels, character identity, face proportions, clothing, hair and painted style of image1. Correct ONLY the pose angles of two studies: the upper-left body labeled FRONT must face squarely forward with face/sternum/pelvis centered toward camera; the lower third head labeled PROFILE must be a genuine 90-degree RIGHT-FACING side view, with only ONE eye visible and far eye completely hidden by the bridge of the nose. Keep the source young child's same forehead, softly projecting little nose, lips, jaw, ear placement and chestnut hair; derive a coherent true profile without changing identity or increasing eye size. No extra faces, labels, illustrations or wardrobe changes. Everything else remains the same."
+    },
+    {
+      "id": "exec-d90be787-f162-4d04-ba5b-45d84bbcd46e",
+      "character": "cassia",
+      "stage": "early",
+      "operation": "targeted key correction",
+      "selected": true,
+      "output_file": "art/character-keys/cassia/early-key.png",
+      "output_sha256": "e45be2b2ea007639a97c519f46992c7e0778fb6b4ac451b836670d57e9c73f1e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "edit target",
+          "generation": "exec-d01f8d8e-aff2-4ae3-978b-53533d175e4a",
+          "sha256": "2c55f2498497bca555e6e0f3ed9df9da700f9f61a44c82d1418cc75b42bc67ca",
+          "note": "Input was the earlier generated key; the workspace key now contains its selected correction."
+        },
+        {
+          "role": "selected identity reference",
+          "file": "game/images/characters/book-one/cassia-young.png",
+          "sha256": "353258e8c289f3eb3f95a0329fb1ae44b48fdab90d8604dcc64547cb5581f363"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/cassia/early-correction-prompt.txt",
+      "prompt_sha256": "24e79e40b89dfaa2c0acc275957822f84ed1b23578c7ce91af0e121e4da42565",
+      "prompt": "Use case: precise-object-edit. Image 1 is the visual-key EDIT TARGET; image 2 is the selected sprite identity reference. Preserve the full sheet composition, character identity, childhood proportions, rich umber skin, deep green eyes, softly modeled face, hair, clothes and paint style. Correct only TWO defects. First, the big upper-left body labeled FRONT must face squarely forward, face/sternum/pelvis toward camera, not tilt into a three-quarter pose. Second, the crescent on her LEFT WRIST and its inset is incorrectly a bright perfect gold moon. Replace it with a very small irregular patch of subtly darker brown SKIN PIGMENTATION with soft organic edges, only vaguely crescent-shaped; it must look like an ordinary natural birthmark, never a drawn symbol, tattoo, jewelry, scar or glowing mark. Keep left/right anatomy consistent with original. All other studies, labels, outfit, and expression range unchanged."
+    },
+    {
+      "id": "exec-42a616d0-5b60-443f-a022-4d466253690d",
+      "character": "shadow",
+      "stage": "familiar",
+      "operation": "new key from selected sprite references",
+      "selected": false,
+      "output_file": null,
+      "output_sha256": "5a8755133c4ff1f6cd45e2fa3dfd2d095cdb397aa4a714dab2fa198fd8ce9bb2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "selected identity reference",
+          "file": "game/images/familiars/shadow.png",
+          "sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/shadow/prompt.txt",
+      "prompt_sha256": "06c3263140f1d6efd28822bb7a07b20104f7d557e9c2cffd83f03078cdddd558",
+      "prompt": "Use case: illustration-story. Create one new professional animal-character visual key for the EXACT selected familiar shown in the reference image. This input is authoritative character-design reference, not a scene to edit. Preserve its species, body and face identity, proportions, coat color/markings, tail, ears and expressive painterly rendering. New wide 1536x1024-or-larger ivory studio sheet in the same warm painterly realism, diffuse neutral daylight with gentle warm rim and readable local color. Remove technical green/blue background only in the new sheet.\nUseful layout: upper row THREE complete body studies FRONT (sitting), SIDE (standing naturally on four feet in true 90-degree profile), BACK (standing in a rear three-quarter view, clear coat and tail attachment). Lower row three larger head studies FRONT, THREE-QUARTER, PROFILE plus one small distinguishing-detail inset. Each view must be the exact SAME ANIMAL with coherent markings rotated around the anatomy. All paws, ears, whiskers and ONE complete tail per view remain inside frame. Anatomically coherent ordinary animal joints, paws, muzzle, spine; preserve the intentional stylization/eye sizes of source without increasing them. Natural subdued alertness, calm affection and curiosity; no human smiles, crying, costumes, collars, hats, accessories, glowing magic or invented variants. No human characters or other animals. Exact readable title and short view labels only, plus small exact scale reminder \"Rat < Cat < Dog\" without numbers, measurement charts or silhouettes. No prose, scenes, checkerboard, watermark. No new scars, spots, patterns, ornaments or sexual features.\nTitle \"SHADOW — CHARACTER KEY\". Sleek BLACK female domestic shorthair cat with luminous GREEN irises, source's refined slim body, narrow muzzle and lightly tilted curious attentive head. Highlights charcoal/warm reflected light, actual fur black. Preserve a SINGLE small notch on HER LEFT outer ear edge (viewer's RIGHT in straight frontal view), with her right ear intact. The notch rotates with her anatomical left ear and must never migrate to both ears or vanish from a view where that ear edge is visible. ONE slender cat tail ending in a small crooked upward tip, no loop, doubled tail, bushy tail, missing attachment or multiple tails. Detail inset shows the LEFT ear notch and tail-tip bend. Do not imply the origin or date of the notch or add Core implants. Keep face recognizably the selected Shadow, not a kitten replacement or another cat breed."
+    },
+    {
+      "id": "exec-14bbd83d-ec54-47b5-8c4d-b2fcb3dc2bcb",
+      "character": "barkley",
+      "stage": "familiar",
+      "operation": "new key from selected sprite references",
+      "selected": true,
+      "output_file": "art/character-keys/barkley/key.png",
+      "output_sha256": "2c659926c612a52bc1c79d37b86ea2fb989592946c4ec79701d62e6a545e9e5b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "selected identity reference",
+          "file": "game/images/familiars/barkley.png",
+          "sha256": "49084a021567be20c336956201f5ed6bfdb4ac6a9c8a8198b7e2040e7d88ad37"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/barkley/prompt.txt",
+      "prompt_sha256": "838fdba2aff79f123b82cb20799417e0204475a31e0c0f837a53871d7f6980e0",
+      "prompt": "Use case: illustration-story. Create one new professional animal-character visual key for the EXACT selected familiar shown in the reference image. This input is authoritative character-design reference, not a scene to edit. Preserve its species, body and face identity, proportions, coat color/markings, tail, ears and expressive painterly rendering. New wide 1536x1024-or-larger ivory studio sheet in the same warm painterly realism, diffuse neutral daylight with gentle warm rim and readable local color. Remove technical green/blue background only in the new sheet.\nUseful layout: upper row THREE complete body studies FRONT (sitting), SIDE (standing naturally on four feet in true 90-degree profile), BACK (standing in a rear three-quarter view, clear coat and tail attachment). Lower row three larger head studies FRONT, THREE-QUARTER, PROFILE plus one small distinguishing-detail inset. Each view must be the exact SAME ANIMAL with coherent markings rotated around the anatomy. All paws, ears, whiskers and ONE complete tail per view remain inside frame. Anatomically coherent ordinary animal joints, paws, muzzle, spine; preserve the intentional stylization/eye sizes of source without increasing them. Natural subdued alertness, calm affection and curiosity; no human smiles, crying, costumes, collars, hats, accessories, glowing magic or invented variants. No human characters or other animals. Exact readable title and short view labels only, plus small exact scale reminder \"Rat < Cat < Dog\" without numbers, measurement charts or silhouettes. No prose, scenes, checkerboard, watermark. No new scars, spots, patterns, ornaments or sexual features.\nTitle \"BARKLEY — CHARACTER KEY\". Adult male GOLDEN RETRIEVER with warm honey-gold feathered coat, naturally wavy chest fur, source's broad kind retriever muzzle, floppy ears, dark brown eyes and dark brown/black nose. Preserve the selected long-haired retriever anatomy and exact friendly attentive face. He is the largest household familiar, not a small puppy, poodle, red setter or lion. Single naturally attached long feathery retriever tail, four believable dog paws. Mouth mostly closed, one softly open relaxed mouth permitted in an affectionate head study, no fixed human grin. Detail inset shows coat feathering and paw construction. No invented white chest patch, new color variation, injury or collar."
+    },
+    {
+      "id": "exec-30bb10de-f531-4544-93c8-15188b3d430c",
+      "character": "nibble",
+      "stage": "familiar",
+      "operation": "new key from selected sprite references",
+      "selected": false,
+      "output_file": null,
+      "output_sha256": "4f0f11bc44eed5fc57e0caaa948a7354fa8b031103fb7ba2bd6d8fbbb7922e76",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "selected identity reference",
+          "file": "game/images/familiars/nibble.png",
+          "sha256": "a3eb23fe22427f87b6fdf12c7c6c2fdf7dcbc87d50579ba288726f2bd7f1bb95"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/nibble/prompt.txt",
+      "prompt_sha256": "255d3b9c68dc257d449a0f8b3f32fb621d23614adce90b29b1712a8cdcf73853",
+      "prompt": "Use case: illustration-story. Create one new professional animal-character visual key for the EXACT selected familiar shown in the reference image. This input is authoritative character-design reference, not a scene to edit. Preserve its species, body and face identity, proportions, coat color/markings, tail, ears and expressive painterly rendering. New wide 1536x1024-or-larger ivory studio sheet in the same warm painterly realism, diffuse neutral daylight with gentle warm rim and readable local color. Remove technical green/blue background only in the new sheet.\nUseful layout: upper row THREE complete body studies FRONT (sitting), SIDE (standing naturally on four feet in true 90-degree profile), BACK (standing in a rear three-quarter view, clear coat and tail attachment). Lower row three larger head studies FRONT, THREE-QUARTER, PROFILE plus one small distinguishing-detail inset. Each view must be the exact SAME ANIMAL with coherent markings rotated around the anatomy. All paws, ears, whiskers and ONE complete tail per view remain inside frame. Anatomically coherent ordinary animal joints, paws, muzzle, spine; preserve the intentional stylization/eye sizes of source without increasing them. Natural subdued alertness, calm affection and curiosity; no human smiles, crying, costumes, collars, hats, accessories, glowing magic or invented variants. No human characters or other animals. Exact readable title and short view labels only, plus small exact scale reminder \"Rat < Cat < Dog\" without numbers, measurement charts or silhouettes. No prose, scenes, checkerboard, watermark. No new scars, spots, patterns, ornaments or sexual features.\nTitle \"NIBBLE — CHARACTER KEY\". Author-defined fancy RAT, intentionally fluffy BLACK/BROWN-AND-WHITE coat, broad tousled WHITE forehead blaze, white muzzle and chest, dark patches around both eyes and across upper back, very large soft PINK ears, pink paws with fine claws, long delicate whiskers and ONE long bare pink rat tail. Her expressive large mismatched eyes are an intentional author choice: ANATOMICAL RIGHT EYE VIOLET, ANATOMICAL LEFT EYE CORAL-RED. Thus frontal view must have VIOLET on viewer's LEFT and CORAL on viewer's RIGHT. Keep that assignment physically consistent when rotating the animal; in a right-side profile show violet and in a left-side profile show coral. Preserve the actual selected face, fluffy silhouette and coat mapping; do not redesign into an agouti rat, short-haired laboratory rat, mouse, hamster or realistic tiny-eyed rodent. She is much smaller than Shadow and fits on a child's shoulder. Detail inset shows her frontal eyes and the white blaze with brief exact labels \"RIGHT EYE: VIOLET\" and \"LEFT EYE: CORAL\" with correct leader positions. No new patch shapes on visible source surfaces; unobserved rear fur should continue the same existing black/white distribution simply without spots or symbols."
+    },
+    {
+      "id": "exec-4392f686-7fbb-491b-94b5-5c95d12dac02",
+      "character": "shadow",
+      "stage": "familiar",
+      "operation": "targeted key correction",
+      "selected": true,
+      "output_file": "art/character-keys/shadow/key.png",
+      "output_sha256": "a9427e733e568f43474df8255464233ec3a1029207f255466c9ed85c1873f126",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "edit target",
+          "generation": "exec-42a616d0-5b60-443f-a022-4d466253690d",
+          "sha256": "5a8755133c4ff1f6cd45e2fa3dfd2d095cdb397aa4a714dab2fa198fd8ce9bb2",
+          "note": "Input was the earlier generated key; the workspace key now contains its selected correction."
+        },
+        {
+          "role": "selected identity reference",
+          "file": "game/images/familiars/shadow.png",
+          "sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/shadow/correction-prompt.txt",
+      "prompt_sha256": "644d228863ba35446b6f0671c4ed25405de79ddc20ae62e1963eabacdce77dc1",
+      "prompt": "Use case: precise-object-edit. Image1 is the Shadow visual key EDIT TARGET, image2 the selected identity reference. Keep the entire sheet exactly as it is EXCEPT the one missing notch in the top middle SIDE (STANDING) cat view. That cat faces toward the LEFT of the page, exposing her anatomical LEFT side, and the large near ear needs the same small old outer-edge notch on her LEFT ear that is visible in the lower PROFILE head. Add exactly that small matching notch to the top-middle visible foreground ear only. The anatomical right ear stays intact; never notch both ears. Preserve all other views, coat, face, eyes, tail, markings, labels, positions, background, lighting and rendering unchanged. No new ear holes or added injuries."
+    },
+    {
+      "id": "exec-f2cc4442-6a53-4cf3-b7e7-ef184b917c4b",
+      "character": "nibble",
+      "stage": "familiar",
+      "operation": "targeted key correction",
+      "selected": true,
+      "output_file": "art/character-keys/nibble/key.png",
+      "output_sha256": "ca4fee17399db0574fc4033815d8a704f4d73fa3ae8bf3c5d4905f0b28c4b94e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "inputs": [
+        {
+          "role": "edit target",
+          "generation": "exec-30bb10de-f531-4544-93c8-15188b3d430c",
+          "sha256": "4f0f11bc44eed5fc57e0caaa948a7354fa8b031103fb7ba2bd6d8fbbb7922e76",
+          "note": "Input was the earlier generated key; the workspace key now contains its selected correction."
+        },
+        {
+          "role": "selected identity reference",
+          "file": "game/images/familiars/nibble.png",
+          "sha256": "a3eb23fe22427f87b6fdf12c7c6c2fdf7dcbc87d50579ba288726f2bd7f1bb95"
+        }
+      ],
+      "prompt_file": "../development/visual-novel/art/characters/nibble/correction-prompt.txt",
+      "prompt_sha256": "ba3555d4ecf3bd56659e378085f46e509337dd907a832e1193ebae94ded7107e",
+      "prompt": "Use case: precise-object-edit. Image1 is Nibble's visual key EDIT TARGET; image2 is her authoritative selected design. Preserve this whole key and identity except these factual corrections:\n1) Both strict LEFT-FACING profile pictures (top middle full body and lower third head) show her anatomical LEFT side. Their visible eye must therefore be CORAL-RED, NOT VIOLET. Change only the iris pigment in those TWO profiles to the same coral-red as the viewer-right eye in the frontal head. Frontal and three-quarter heads already assign violet to anatomical right/viewer-left and coral to anatomical left/viewer-right correctly; preserve them. Preserve the rear upper-right glimpse of violet because that is her right eye. Change subtitle under the top middle body from \"(RIGHT PROFILE)\" to \"(LEFT PROFILE)\".\n2) The top middle side view has an invented isolated dark patch near her rump beyond the white band. Remove that extra rump patch and continue clean soft WHITE fur across the hindquarters, consistent with source image2. Keep the existing dark head and shoulder/upper-back patch. In the top right rear view, ensure the dark shoulder patch does not turn into a second new rump patch: rear haunches are white as source, no invented spots.\nEverything else remains unchanged: fluffy white blaze, dark eye patches, large pink ears, large expressive eyes, little pink paws, one bare pink tail, natural source body proportions, all labels except specified profile subtitle, studio background and painterly style. No new symbols, color variants, features or side-switching."
+    }
+  ],
+  "reviewed_existing_sprites": [
+    {
+      "file": "game/images/characters/book-one/calista-festival.png",
+      "sha256": "cc63e75baf92ad6fa2b1cfff17611f7cd1a7213d65671f6d149f6429fe13ec7f",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/calista-festive.png",
+      "sha256": "edff3baed0a6fb3387f7c40c49c3b18c01f830b1ba786c7137572918774bc04a",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/calista-frustrated.png",
+      "sha256": "c294370e2f4fa63e22d772cd68c60f99c3c61477077e58029a88ca1f6c7c420d",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/calista-home.png",
+      "sha256": "407e2ac4a120d2346fd1599c1a9002914e9cd70385f9ef605ac430200b68ab1f",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/calista-mourning.png",
+      "sha256": "0075c2688598b716a97d7f720e61452a8a6a0ebe3198c2b1cb8a45f3d3da0df8",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/calista-older.png",
+      "sha256": "d36489fd12db1fd3f2d360afa83d675e2af5bcb563e942775ad196f5f11f70b3",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/calista-painting.png",
+      "sha256": "ca499733b762cd9a2cc9e66f8ec82ddf67a3c1f639db93ab7465fc858f8aaf0e",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/calista-young.png",
+      "sha256": "7e37d6dd316296f9f89f3ce495cf999b0a3ace235c91be6661d129640e64d8ee",
+      "dimensions": [
+        1022,
+        1538
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/cassia-mourning.png",
+      "sha256": "8fe0c0a2c74c0199a05cba55115c494f6188c36064d3144bcec2dd3586bcc9b1",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/cassia-older.png",
+      "sha256": "f65d350cb1d99f692c0de61ee2f160f21795aefafd7d263e88e29f27939865d6",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/cassia-young.png",
+      "sha256": "353258e8c289f3eb3f95a0329fb1ae44b48fdab90d8604dcc64547cb5581f363",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/joren-frustrated.png",
+      "sha256": "1ef2db5eb4b132947fb39ac4757ca54b37bd3faefa24be71d785faf24117f004",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/joren-older.png",
+      "sha256": "853411333d8c9cc40fae87b3a4089ae551eaae7250319195b1f5e14dc048a8b0",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/characters/book-one/joren-young.png",
+      "sha256": "e7fdfcb40ec82c98d46f6343ea458ba83b54cea2c7cb37bcc34c21d009286ce2",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/familiars/shadow.png",
+      "sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/familiars/barkley.png",
+      "sha256": "49084a021567be20c336956201f5ed6bfdb4ac6a9c8a8198b7e2040e7d88ad37",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    },
+    {
+      "file": "game/images/familiars/nibble.png",
+      "sha256": "a3eb23fe22427f87b6fdf12c7c6c2fdf7dcbc87d50579ba288726f2bd7f1bb95",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "visually_reviewed": true,
+      "decision": "retain selected sprite",
+      "unchanged_from_git_head": true
+    }
+  ],
+  "reviewed_decisions": {
+    "calista": {
+      "review": "All eight sprites retain the selected olive/blue/chestnut identity, distinct childhood stages and accepted expressions. Later key preserves modest face/limb maturation and restrained sadness without adult proportions. Existing expressive eye size is retained without enlargement.",
+      "corrections": [
+        "Early front-body angle made square to camera.",
+        "Early facial profile corrected to show one eye."
+      ]
+    },
+    "cassia": {
+      "review": "All three sprites retain umber complexion, green irises and accepted softer facial midtones/lip boundary. Both keys preserve that identity. Later sadness inset includes the selected mourning shawl; turnarounds retain exploration clothes.",
+      "corrections": [
+        "Early front-body pose corrected.",
+        "Bright geometric crescent replaced with subtle irregular left-wrist pigmentation."
+      ]
+    },
+    "joren": {
+      "review": "All three sprites retain sturdy fair-ruddy blond boy identity, blue eyes and child proportions. Keys show coherent turnarounds and limited expressions. Later sadness is living-child disappointment, not a new post-death appearance.",
+      "corrections": []
+    },
+    "shadow": {
+      "review": "Selected black/green identity and single crooked-tip tail are retained. Notch is consistently on the anatomical left ear; original sprite remains suitable.",
+      "corrections": [
+        "Restored omitted left-ear notch in upper standing side view."
+      ]
+    },
+    "barkley": {
+      "review": "Selected golden retriever face, honey-gold feathered coat, brown eyes and anatomy remain appropriate. Key adds plausible standing/rear views, with no new coat marks or equipment.",
+      "corrections": []
+    },
+    "nibble": {
+      "review": "Author-selected fluffy black/brown-and-white rat identity is retained, including large ears and expressive heterochromia. Right eye is violet and left eye coral; white rear haunches have no additional patch. Original sprite remains suitable.",
+      "corrections": [
+        "Changed both left-facing profile eyes from violet to coral and corrected side label.",
+        "Removed an invented isolated dark rump patch."
+      ]
+    }
+  },
+  "runtime_changes": [],
+  "cg_implications": [
+    "Preserve existing distinct complexions and iris colors, accepted child faces and recent Cassia shading.",
+    "Later childhood needs modest facial/limb maturation as well as scale; Joren remains slightly taller and sturdier than both girls.",
+    "Mourning requires subdued expressions; Joren cannot appear alive after his death.",
+    "Shadow has one slender crooked-tip tail and her notch stays on anatomical left ear.",
+    "Nibble anatomical right eye violet, left eye coral; page-left-facing profile shows coral. White rump has no new dark spots.",
+    "Familiar size ordering is rat smaller than cat smaller than dog; no numerical size canon is introduced."
+  ],
+  "validation": {
+    "all_9_selected_keys_present": true,
+    "all_selected_images_decoded": true,
+    "all_selected_outputs_match_generation_bytes": true,
+    "all_17_owned_sprites_reviewed_and_unchanged": true,
+    "all_outputs_visually_reviewed": true,
+    "python_used_for_image_editing": false,
+    "gimp_used_for_keys": false,
+    "runtime_tests_required_for_this_subtask": false,
+    "all_6_key_documents_local_links_resolve": true
+  },
+  "limits": [
+    "Generated side/back views extend selected art for production, not new canon or measured 3D geometry.",
+    "Each sheet fills its own page; use existing runtime height rules for group scale.",
+    "Superseded candidates remain at the image tool output location and are not selected project references."
+  ]
+}

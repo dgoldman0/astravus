@@ -1,0 +1,24 @@
+[
+  {
+    "name": "arin",
+    "output_id": "exec-dbafef34-9445-47aa-9304-d14c2254616c",
+    "source": "/home/kir/.codex/generated_images/01a083d9-411a-70b0-ac67-7b7589180ccf/exec-dbafef34-9445-47aa-9304-d14c2254616c.png",
+    "prompt_file": "../development/visual-novel/art/characters/arin/prompt-sprite.txt",
+    "input_refs": [
+      "../development/visual-novel/art/characters/arin/sprite-before.png",
+      "art/character-keys/arin/key.png",
+      "../development/visual-novel/art/opening-identity/opening-refined-v1.png"
+    ]
+  },
+  {
+    "name": "sage",
+    "output_id": "exec-f5824769-be72-44e7-aaf6-26b2f4176982",
+    "source": "/home/kir/.codex/generated_images/01a083d9-411a-70b0-ac67-7b7589180ccf/exec-f5824769-be72-44e7-aaf6-26b2f4176982.png",
+    "prompt_file": "../development/visual-novel/art/characters/sage/prompt-sprite.txt",
+    "input_refs": [
+      "../development/visual-novel/art/characters/sage/sprite-before.png",
+      "art/character-keys/sage/key.png",
+      "../development/visual-novel/art/opening-identity/opening-refined-v1.png"
+    ]
+  }
+]

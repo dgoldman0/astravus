@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 import fcntl
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 import subprocess
@@ -75,13 +76,20 @@ def snapshot(matrix, row):
     return result
 
 
+def review_file(name):
+    """Allow production files and the dedicated sibling development workspace."""
+    path = (PROJECT / name).resolve()
+    roots = (PROJECT.resolve(), (PROJECT.parent / "development/visual-novel").resolve())
+    if not any(path.is_relative_to(root) for root in roots) or not path.is_file():
+        raise ValueError(f"Review file must be in the project or its development workspace: {name}")
+    return path
+
+
 def evidence_hashes(paths):
     result = {}
     for name in paths:
-        path = (PROJECT / name).resolve()
-        if not path.is_relative_to(PROJECT) or not path.is_file():
-            raise ValueError(f"Evidence must be a current project file: {name}")
-        result[path.relative_to(PROJECT).as_posix()] = file_digest(path)
+        path = review_file(name)
+        result[Path(os.path.relpath(path, PROJECT)).as_posix()] = file_digest(path)
     return result
 
 
@@ -109,10 +117,7 @@ def comparison_signature(reference):
                     return digest(generation)
         raise ValueError("Comparison generation is not in the asset manifests")
     if kind == "file":
-        path = (PROJECT / value).resolve()
-        if not path.is_relative_to(PROJECT) or not path.is_file():
-            raise ValueError("Comparison file must be a current project file")
-        return file_digest(path)
+        return file_digest(review_file(value))
     raise ValueError("Comparison must use git:BLOB, generation:ID or file:PROJECT_PATH")
 
 

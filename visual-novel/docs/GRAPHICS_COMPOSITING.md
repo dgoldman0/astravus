@@ -30,7 +30,7 @@ Only green changed in those comparisons. Opaque interior means alpha at least
 measurement supports preservation of internal colors; the independent face and
 hair inspection provides the visual judgment.
 
-`build/graphics-polish/review/fringe-measurements.json` binds the old/current
+`../development/visual-novel/archive/local/graphics-workspace/review/fringe-measurements.json` binds the old/current
 shader hashes, selected source hashes, actual native render hashes, measurements
 and full bright/dark captures. Current comparison images are in that same review
 directory. The old shader remains recoverable through Git; the temporary native

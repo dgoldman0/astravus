@@ -461,7 +461,7 @@
       "severity": "blocking",
       "finding": "Author rejected insufficient weather/outdoor/time variation and effectively frozen furnishings across early, rainy and later remembrance states.",
       "correction": "Retain recognizable architectural structure and connected access; make required weather/light changes readable and give later furniture/dressing appropriate evidence of intervening life. Review current source chronology and the new full compositions before renewing approval.",
-      "resolution": "Superseded the rejected near-identical states with four source-timed daylight/rain and early/later furniture paintings. Root and independent full/native source reviews accepted the exact new states; fifteen actual native state captures verified visible weather, furniture chronology, familiar supports and final daylight comfort transition. See docs/graphics-environments.md and final refresh in docs/graphics-runtime-review.md. This is scoped reviewer acceptance, not author signoff."
+      "resolution": "Superseded the rejected near-identical states with four source-timed daylight/rain and early/later furniture paintings. Root and independent full/native source reviews accepted the exact new states; fifteen actual native state captures verified visible weather, furniture chronology, familiar supports and final daylight comfort transition. See ../development/visual-novel/reviews/graphics/graphics-environments.md and final refresh in docs/graphics-runtime-review.md. This is scoped reviewer acceptance, not author signoff."
     },
     {
       "id": "TH-TIME-2",
@@ -470,7 +470,7 @@
       "severity": "blocking",
       "finding": "Author rejected insufficient weather/outdoor/time variation and effectively frozen furnishings across early, rainy and later remembrance states.",
       "correction": "Retain recognizable architectural structure and connected access; make required weather/light changes readable and give later furniture/dressing appropriate evidence of intervening life. Review current source chronology and the new full compositions before renewing approval.",
-      "resolution": "Superseded the rejected near-identical states with four source-timed daylight/rain and early/later furniture paintings. Root and independent full/native source reviews accepted the exact new states; fifteen actual native state captures verified visible weather, furniture chronology, familiar supports and final daylight comfort transition. See docs/graphics-environments.md and final refresh in docs/graphics-runtime-review.md. This is scoped reviewer acceptance, not author signoff."
+      "resolution": "Superseded the rejected near-identical states with four source-timed daylight/rain and early/later furniture paintings. Root and independent full/native source reviews accepted the exact new states; fifteen actual native state captures verified visible weather, furniture chronology, familiar supports and final daylight comfort transition. See ../development/visual-novel/reviews/graphics/graphics-environments.md and final refresh in docs/graphics-runtime-review.md. This is scoped reviewer acceptance, not author signoff."
     },
     {
       "id": "TH-TIME-3",
@@ -479,7 +479,7 @@
       "severity": "blocking",
       "finding": "Author rejected insufficient weather/outdoor/time variation and effectively frozen furnishings across early, rainy and later remembrance states.",
       "correction": "Retain recognizable architectural structure and connected access; make required weather/light changes readable and give later furniture/dressing appropriate evidence of intervening life. Review current source chronology and the new full compositions before renewing approval.",
-      "resolution": "Superseded the rejected near-identical states with four source-timed daylight/rain and early/later furniture paintings. Root and independent full/native source reviews accepted the exact new states; fifteen actual native state captures verified visible weather, furniture chronology, familiar supports and final daylight comfort transition. See docs/graphics-environments.md and final refresh in docs/graphics-runtime-review.md. This is scoped reviewer acceptance, not author signoff."
+      "resolution": "Superseded the rejected near-identical states with four source-timed daylight/rain and early/later furniture paintings. Root and independent full/native source reviews accepted the exact new states; fifteen actual native state captures verified visible weather, furniture chronology, familiar supports and final daylight comfort transition. See ../development/visual-novel/reviews/graphics/graphics-environments.md and final refresh in docs/graphics-runtime-review.md. This is scoped reviewer acceptance, not author signoff."
     },
     {
       "id": "POND-GEO-garden-pond",
@@ -487,8 +487,8 @@
       "file": "game/images/backgrounds/book-one/garden-pond.png",
       "severity": "blocking",
       "finding": "The governing/related view requires an explicit pairwise geometry review against the repaired pond sequence; no new local defect is inferred solely from reopening.",
-      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
-      "resolution": "Governing shallow basin: paving meets low coping, with a left inlet, planted timber boundary behind and right lily group. Fresh pairwise views preserve this low water/coping/ground profile; the establishing native frame shows the same anchors. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "correction": "Use ../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "Governing shallow basin: paving meets low coping, with a left inlet, planted timber boundary behind and right lily group. Fresh pairwise views preserve this low water/coping/ground profile; the establishing native frame shows the same anchors. Exact source and native inspection are documented in ../development/visual-novel/reviews/graphics/pond-repair-review.md and docs/pond-runtime-review.md.",
       "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
@@ -497,8 +497,8 @@
       "file": "game/images/backgrounds/book-one/garden-work-area.png",
       "severity": "blocking",
       "finding": "The elevated exterior wall/water-to-ground relationship conflicts with the governing low basin.",
-      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
-      "resolution": "The repaired wider working-side view has broad dry paving meeting low near coping, with the left inlet side, far planted fence and right lilies in coherent order. The old tall exterior pool wall is removed; original pot bases and available actor support remain dry. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "correction": "Use ../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "The repaired wider working-side view has broad dry paving meeting low near coping, with the left inlet side, far planted fence and right lilies in coherent order. The old tall exterior pool wall is removed; original pot bases and available actor support remain dry. Exact source and native inspection are documented in ../development/visual-novel/reviews/graphics/pond-repair-review.md and docs/pond-runtime-review.md.",
       "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
@@ -507,8 +507,8 @@
       "file": "game/images/cg/book-one/garden-compromise.png",
       "severity": "blocking",
       "finding": "The elevated exterior wall/water-to-ground relationship conflicts with the governing low basin.",
-      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
-      "resolution": "The closer working-bank planting view retains original people/pots over dry paving. Figures obscure part of the near arc and inlet; the far fence/plant band, right lilies and low near edge connect to the governing/wider views. The original diagonal raised-wall remnant is removed; knees and pots remain grounded. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "correction": "Use ../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "The closer working-bank planting view retains original people/pots over dry paving. Figures obscure part of the near arc and inlet; the far fence/plant band, right lilies and low near edge connect to the governing/wider views. The original diagonal raised-wall remnant is removed; knees and pots remain grounded. Exact source and native inspection are documented in ../development/visual-novel/reviews/graphics/pond-repair-review.md and docs/pond-runtime-review.md.",
       "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
@@ -517,8 +517,8 @@
       "file": "game/images/cg/book-one/pond-comfort.png",
       "severity": "blocking",
       "finding": "The elevated exterior wall/water-to-ground relationship conflicts with the governing low basin.",
-      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
-      "resolution": "The camera has pulled back onto the dry bank after the rescue. Original seated/crouched people and animal paws remain supported; low near coping, the far planted timber boundary and right lilies form a coherent continuation of the shallow basin. No exposed raised-pool wall remains. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "correction": "Use ../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "The camera has pulled back onto the dry bank after the rescue. Original seated/crouched people and animal paws remain supported; low near coping, the far planted timber boundary and right lilies form a coherent continuation of the shallow basin. No exposed raised-pool wall remains. Exact source and native inspection are documented in ../development/visual-novel/reviews/graphics/pond-repair-review.md and docs/pond-runtime-review.md.",
       "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
@@ -527,8 +527,8 @@
       "file": "game/images/cg/book-one/theme-waterwheel-team.png",
       "severity": "blocking",
       "finding": "The governing/related view requires an explicit pairwise geometry review against the repaired pond sequence; no new local defect is inferred solely from reopening.",
-      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
-      "resolution": "The construction/test illustration shows the small project and children on a dry near bank with recessed water, low slabs, far planted boundary and right lilies. The working-side camera is compatible with the master; this illustration does not claim the final in-pond project state. Root inspected the unchanged full/native source; earlier exact-byte native theme fitting remains applicable. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "correction": "Use ../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "The construction/test illustration shows the small project and children on a dry near bank with recessed water, low slabs, far planted boundary and right lilies. The working-side camera is compatible with the master; this illustration does not claim the final in-pond project state. Root inspected the unchanged full/native source; earlier exact-byte native theme fitting remains applicable. Exact source and native inspection are documented in ../development/visual-novel/reviews/graphics/pond-repair-review.md and docs/pond-runtime-review.md.",
       "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
@@ -538,7 +538,7 @@
       "severity": "blocking",
       "finding": "The thin far-background water strip behind the right-hand bank reads as a second basin. Plausible local rescue support does not establish correct shared-basin topology.",
       "correction": "Replace only that background strip with a coherent continuation of the bank/vegetation while preserving foreground rim, rescue figures, familiars and main water. Inspect the exact replacement and fresh native rescue capture.",
-      "resolution": "The lower close water-edge view retains its original low reachable coping and supported rescuers. Dry soil/paving now joins the far planter to that coping, removing the isolated second-looking water strip. Right lilies and far timber/plant boundary remain; the cropped inlet is unobserved. Actual final native support and dialogue frames preserve reach and all familiar contacts. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "resolution": "The lower close water-edge view retains its original low reachable coping and supported rescuers. Dry soil/paving now joins the far planter to that coping, removing the isolated second-looking water strip. Right lilies and far timber/plant boundary remain; the cropped inlet is unobserved. Actual final native support and dialogue frames preserve reach and all familiar contacts. Exact source and native inspection are documented in ../development/visual-novel/reviews/graphics/pond-repair-review.md and docs/pond-runtime-review.md.",
       "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
     {
@@ -547,8 +547,8 @@
       "file": "game/images/backgrounds/book-one/waterwheel.png",
       "severity": "blocking",
       "finding": "The governing/related view requires an explicit pairwise geometry review against the repaired pond sequence; no new local defect is inferred solely from reopening.",
-      "correction": "Use docs/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
-      "resolution": "The miniature completed wheel and supports occupy the governing left inlet. The near coping, shallow basin, planted fence and right lilies remain the established construction. Current native dialogue and familiar-support frames show the installed state and dry animal contacts. Exact source and native inspection are documented in docs/pond-repair-review.md and docs/pond-runtime-review.md.",
+      "correction": "Use ../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md: compare waterline/coping/paving, perimeter/thickness and visible shared anchors; inspect preserved contact and artistic detail. Record actual master/candidate hashes and camera explanation before renewed acceptance.",
+      "resolution": "The miniature completed wheel and supports occupy the governing left inlet. The near coping, shallow basin, planted fence and right lilies remain the established construction. Current native dialogue and familiar-support frames show the installed state and dry animal contacts. Exact source and native inspection are documented in ../development/visual-novel/reviews/graphics/pond-repair-review.md and docs/pond-runtime-review.md.",
       "resolved_at_utc": "2026-09-05T22:02:59.172115+00:00"
     }
   ],
@@ -574,12 +574,12 @@
       "review_status": "consistent",
       "reviewed_sha256": "e32d470defeda7faccd5e6fa1c08125faf9e60f818506e6cb15aae364725d243",
       "findings": [],
-      "review_notes": "Governing exterior shows both levels and the full lower refuge; do not replace its floor with beds. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "review_notes": "Governing exterior shows both levels and the full lower refuge; do not replace its floor with beds. Fresh production inspection in ../development/visual-novel/reviews/graphics/graphics-environments.md (treehouse/garden visible geometry), ../development/visual-novel/reviews/graphics/graphics-support-art-review.md (other CG support/material details), and ../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
       "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-support-art-review.md",
-        "docs/graphics-background-sprite-audit.md"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-support-art-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md"
       ]
     },
     {
@@ -604,13 +604,13 @@
       "findings": [
         "TH-TIME-1"
       ],
-      "review_notes": "Early green daylight, five generic childhood drawings and original lower table are distinct from the rainy/later states. Fixed open bays, trunk and connected door remain. Actual source chronology/full/native review is in docs/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
+      "review_notes": "Early green daylight, five generic childhood drawings and original lower table are distinct from the rainy/later states. Fixed open bays, trunk and connected door remain. Actual source chronology/full/native review is in ../development/visual-novel/reviews/graphics/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
       "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-environment-state-audit.md",
-        "docs/graphics-runtime-review.md",
-        "docs/graphics-runtime-environment-inputs.json"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-environment-state-audit.md",
+        "../development/visual-novel/reviews/graphics/graphics-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-runtime-environment-inputs.json"
       ]
     },
     {
@@ -633,13 +633,13 @@
       "findings": [
         "TH-TIME-2"
       ],
-      "review_notes": "Early rainy afternoon has cooler mist/wet canopy and restrained outdoor rain, retaining early furniture and a dry sheltered room. Actual source chronology/full/native review is in docs/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
+      "review_notes": "Early rainy afternoon has cooler mist/wet canopy and restrained outdoor rain, retaining early furniture and a dry sheltered room. Actual source chronology/full/native review is in ../development/visual-novel/reviews/graphics/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
       "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-environment-state-audit.md",
-        "docs/graphics-runtime-review.md",
-        "docs/graphics-runtime-environment-inputs.json"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-environment-state-audit.md",
+        "../development/visual-novel/reviews/graphics/graphics-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-runtime-environment-inputs.json"
       ]
     },
     {
@@ -662,13 +662,13 @@
       "findings": [
         "TH-TIME-3"
       ],
-      "review_notes": "Later rainy remembrance retains the evolved furniture and accumulated wall drawings/messages. It does not reuse the obsolete foreground-table overlay. Actual source chronology/full/native review is in docs/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
+      "review_notes": "Later rainy remembrance retains the evolved furniture and accumulated wall drawings/messages. It does not reuse the obsolete foreground-table overlay. Actual source chronology/full/native review is in ../development/visual-novel/reviews/graphics/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
       "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-environment-state-audit.md",
-        "docs/graphics-runtime-review.md",
-        "docs/graphics-runtime-environment-inputs.json"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-environment-state-audit.md",
+        "../development/visual-novel/reviews/graphics/graphics-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-runtime-environment-inputs.json"
       ]
     },
     {
@@ -686,12 +686,12 @@
       "review_status": "consistent_crop",
       "reviewed_sha256": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4",
       "findings": [],
-      "review_notes": "Final close table group retains the large left trunk, arched entry behind and open right viewing bays. Shared map table and cushions support the seated bodies; Cali has comparable peer torso/limbs. Final local iris retouches leave those room/body pixels identical to the inspected composition. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "review_notes": "Final close table group retains the large left trunk, arched entry behind and open right viewing bays. Shared map table and cushions support the seated bodies; Cali has comparable peer torso/limbs. Final local iris retouches leave those room/body pixels identical to the inspected composition. Fresh production inspection in ../development/visual-novel/reviews/graphics/graphics-environments.md (treehouse/garden visible geometry), ../development/visual-novel/reviews/graphics/graphics-support-art-review.md (other CG support/material details), and ../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
       "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-support-art-review.md",
-        "docs/graphics-background-sprite-audit.md"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-support-art-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md"
       ]
     },
     {
@@ -709,13 +709,13 @@
       "review_status": "consistent_crop",
       "reviewed_sha256": "e656c47c19a9c9ef5f273c041d149db9078e58d99dc63a755f759d2c0a9c825e",
       "findings": [],
-      "review_notes": "Final later daylight and furniture match the preceding room; complete green window bays retain structural rails and support. Figures, faces and joined hands remain outside environment masks. Actual source chronology/full/native review is in docs/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
+      "review_notes": "Final later daylight and furniture match the preceding room; complete green window bays retain structural rails and support. Figures, faces and joined hands remain outside environment masks. Actual source chronology/full/native review is in ../development/visual-novel/reviews/graphics/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
       "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-environment-state-audit.md",
-        "docs/graphics-runtime-review.md",
-        "docs/graphics-runtime-environment-inputs.json"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-environment-state-audit.md",
+        "../development/visual-novel/reviews/graphics/graphics-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-runtime-environment-inputs.json"
       ]
     },
     {
@@ -733,12 +733,12 @@
       "review_status": "consistent_crop",
       "reviewed_sha256": "834fd2c8430fe29da8d504b36170d417e3a7bfff710d014b4a2e6229ae7d73d8",
       "findings": [],
-      "review_notes": "Final close laughter/table crop retains compatible timber room, open bay and supported hands around the shared drawing. Anatomy correction restores a natural Cassia smile; local iris correction changes no room/table/hand pixels. Tight crop cannot certify offscreen floor geometry, and does not invent a second plan. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "review_notes": "Final close laughter/table crop retains compatible timber room, open bay and supported hands around the shared drawing. Anatomy correction restores a natural Cassia smile; local iris correction changes no room/table/hand pixels. Tight crop cannot certify offscreen floor geometry, and does not invent a second plan. Fresh production inspection in ../development/visual-novel/reviews/graphics/graphics-environments.md (treehouse/garden visible geometry), ../development/visual-novel/reviews/graphics/graphics-support-art-review.md (other CG support/material details), and ../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
       "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-support-art-review.md",
-        "docs/graphics-background-sprite-audit.md"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-support-art-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md"
       ]
     },
     {
@@ -756,12 +756,12 @@
       "review_status": "consistent_crop",
       "reviewed_sha256": "3600e695c1bddaf867faa04d5f157faf323012e269626fcce8fa5aab247627fc",
       "findings": [],
-      "review_notes": "Cali sits with a sketchbook on her lap beside cushions, shelf and open rail; no added desk or glazed window is established. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "review_notes": "Cali sits with a sketchbook on her lap beside cushions, shelf and open rail; no added desk or glazed window is established. Fresh production inspection in ../development/visual-novel/reviews/graphics/graphics-environments.md (treehouse/garden visible geometry), ../development/visual-novel/reviews/graphics/graphics-support-art-review.md (other CG support/material details), and ../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
       "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-support-art-review.md",
-        "docs/graphics-background-sprite-audit.md"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-support-art-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md"
       ]
     },
     {
@@ -782,12 +782,12 @@
       "findings": [
         "TH-01"
       ],
-      "review_notes": "Final warm close camera is inside the broad upper room: enormous diagonal oak at left, single real arched exterior entry behind the girls, continuous timber floor, open bays and branch rails on the right, map table at right foreground. The erroneous second door is absent; Joren touches the real bay post. Figures are cropped below thighs rather than shrunk to fit the whole room. Local iris proof preserves this geometry exactly. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "review_notes": "Final warm close camera is inside the broad upper room: enormous diagonal oak at left, single real arched exterior entry behind the girls, continuous timber floor, open bays and branch rails on the right, map table at right foreground. The erroneous second door is absent; Joren touches the real bay post. Figures are cropped below thighs rather than shrunk to fit the whole room. Local iris proof preserves this geometry exactly. Fresh production inspection in ../development/visual-novel/reviews/graphics/graphics-environments.md (treehouse/garden visible geometry), ../development/visual-novel/reviews/graphics/graphics-support-art-review.md (other CG support/material details), and ../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
       "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-support-art-review.md",
-        "docs/graphics-background-sprite-audit.md"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-support-art-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md"
       ]
     },
     {
@@ -810,12 +810,12 @@
       "findings": [
         "TH-02"
       ],
-      "review_notes": "Final foreground Calista stands nearer the camera on the garden route, with the building behind her: massive oak at right, broad raised room extending left, real upper entry beside trunk, connected ladder, separate lower hollow and lower sitting refuge with cushions/table/chests. Her closer portrait scale does not put a giant figure on the distant deck. Bright sunrise and detailed character presence are restored. Only64iris pixels changed after this geometry inspection. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "review_notes": "Final foreground Calista stands nearer the camera on the garden route, with the building behind her: massive oak at right, broad raised room extending left, real upper entry beside trunk, connected ladder, separate lower hollow and lower sitting refuge with cushions/table/chests. Her closer portrait scale does not put a giant figure on the distant deck. Bright sunrise and detailed character presence are restored. Only64iris pixels changed after this geometry inspection. Fresh production inspection in ../development/visual-novel/reviews/graphics/graphics-environments.md (treehouse/garden visible geometry), ../development/visual-novel/reviews/graphics/graphics-support-art-review.md (other CG support/material details), and ../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
       "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-support-art-review.md",
-        "docs/graphics-background-sprite-audit.md"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-support-art-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md"
       ]
     },
     {
@@ -835,10 +835,10 @@
       "findings": [
         "TH-03"
       ],
-      "review_notes": "Final close trio walks on a continuous timber neighborhood route between protective branch rails and planted edges. The background dwellings are a distinct neighborhood view, not the Maia-garden treehouse. No unsupported garden-only assignment remains. Root inspected complete frame and local iris proof: recoloring changed no path, railing or body pixels. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Final close trio walks on a continuous timber neighborhood route between protective branch rails and planted edges. The background dwellings are a distinct neighborhood view, not the Maia-garden treehouse. No unsupported garden-only assignment remains. Root inspected complete frame and local iris proof: recoloring changed no path, railing or body pixels. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "reviewed_reference_signature": "cec9c24571306fec5f8c4edfb5f2effcf6e3973abfa778e434263c673eb76cc6",
       "production_evidence": [
-        "art/visual-pass-2026-09/VISUAL_AUDIT.md"
+        "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md"
       ]
     },
     {
@@ -894,12 +894,12 @@
       "review_status": "consistent_crop",
       "reviewed_sha256": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b",
       "findings": [],
-      "review_notes": "Close sunflower exploration; no contradictory building footprint visible. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "review_notes": "Close sunflower exploration; no contradictory building footprint visible. Fresh production inspection in ../development/visual-novel/reviews/graphics/graphics-environments.md (treehouse/garden visible geometry), ../development/visual-novel/reviews/graphics/graphics-support-art-review.md (other CG support/material details), and ../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
       "reviewed_reference_signature": "5c370d8e211fde8e5c97895a9a706802af6a55060ad15d3098e8516f5a41d404",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-support-art-review.md",
-        "docs/graphics-background-sprite-audit.md"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-support-art-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md"
       ]
     },
     {
@@ -917,10 +917,10 @@
       "review_status": "consistent_crop",
       "reviewed_sha256": "652a0ca6dd0cfd4a2caac4c9019a57e500b3dccab53d7978df6d0f59a1d21f48",
       "findings": [],
-      "review_notes": "Close discovery among plants; no distant layout claim. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Close discovery among plants; no distant layout claim. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "reviewed_reference_signature": "5c370d8e211fde8e5c97895a9a706802af6a55060ad15d3098e8516f5a41d404",
       "production_evidence": [
-        "art/visual-pass-2026-09/VISUAL_AUDIT.md"
+        "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md"
       ]
     },
     {
@@ -965,9 +965,9 @@
       "review_notes": "Governing shallow basin: paving meets low coping, with a left inlet, planted timber boundary behind and right lily group. Fresh pairwise views preserve this low water/coping/ground profile; the establishing native frame shows the same anchors.",
       "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
       "production_evidence": [
-        "docs/POND_GEOMETRY_REVIEW.md",
-        "docs/pond-repair-review.md",
-        "docs/pond-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md",
+        "../development/visual-novel/reviews/graphics/pond-repair-review.md",
+        "../development/visual-novel/reviews/graphics/pond-runtime-review.md",
         "test-results/pond-states/capture-state.json"
       ],
       "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
@@ -995,9 +995,9 @@
       "review_notes": "The repaired wider working-side view has broad dry paving meeting low near coping, with the left inlet side, far planted fence and right lilies in coherent order. The old tall exterior pool wall is removed; original pot bases and available actor support remain dry.",
       "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
       "production_evidence": [
-        "docs/POND_GEOMETRY_REVIEW.md",
-        "docs/pond-repair-review.md",
-        "docs/pond-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md",
+        "../development/visual-novel/reviews/graphics/pond-repair-review.md",
+        "../development/visual-novel/reviews/graphics/pond-runtime-review.md",
         "test-results/pond-states/capture-state.json"
       ],
       "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
@@ -1027,9 +1027,9 @@
       "review_notes": "The closer working-bank planting view retains original people/pots over dry paving. Figures obscure part of the near arc and inlet; the far fence/plant band, right lilies and low near edge connect to the governing/wider views. The original diagonal raised-wall remnant is removed; knees and pots remain grounded.",
       "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
       "production_evidence": [
-        "docs/POND_GEOMETRY_REVIEW.md",
-        "docs/pond-repair-review.md",
-        "docs/pond-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md",
+        "../development/visual-novel/reviews/graphics/pond-repair-review.md",
+        "../development/visual-novel/reviews/graphics/pond-runtime-review.md",
         "test-results/pond-states/capture-state.json"
       ],
       "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
@@ -1054,14 +1054,14 @@
       "findings": [
         "POND-GEO-pond-comfort"
       ],
-      "review_notes": "The camera has pulled back onto the dry bank after the rescue. Original seated/crouched people and animal paws remain supported; low near coping, the far planted timber boundary and right lilies form a coherent continuation of the shallow basin. No exposed raised-pool wall remains. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "The camera has pulled back onto the dry bank after the rescue. Original seated/crouched people and animal paws remain supported; low near coping, the far planted timber boundary and right lilies form a coherent continuation of the shallow basin. No exposed raised-pool wall remains. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
       "production_evidence": [
-        "docs/POND_GEOMETRY_REVIEW.md",
-        "docs/pond-repair-review.md",
-        "docs/pond-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md",
+        "../development/visual-novel/reviews/graphics/pond-repair-review.md",
+        "../development/visual-novel/reviews/graphics/pond-runtime-review.md",
         "test-results/pond-states/capture-state.json",
-        "art/visual-pass-2026-09/VISUAL_AUDIT.md"
+        "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md"
       ],
       "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
@@ -1088,9 +1088,9 @@
       "review_notes": "The construction/test illustration shows the small project and children on a dry near bank with recessed water, low slabs, far planted boundary and right lilies. The working-side camera is compatible with the master; this illustration does not claim the final in-pond project state. Root inspected the unchanged full/native source; earlier exact-byte native theme fitting remains applicable.",
       "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
       "production_evidence": [
-        "docs/POND_GEOMETRY_REVIEW.md",
-        "docs/pond-repair-review.md",
-        "docs/pond-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md",
+        "../development/visual-novel/reviews/graphics/pond-repair-review.md",
+        "../development/visual-novel/reviews/graphics/pond-runtime-review.md",
         "test-results/pond-states/capture-state.json"
       ],
       "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
@@ -1116,14 +1116,14 @@
       "findings": [
         "POND-GEO-pond-rescue"
       ],
-      "review_notes": "The lower close water-edge view retains its original low reachable coping and supported rescuers. Dry soil/paving now joins the far planter to that coping, removing the isolated second-looking water strip. Right lilies and far timber/plant boundary remain; the cropped inlet is unobserved. Actual final native support and dialogue frames preserve reach and all familiar contacts. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "The lower close water-edge view retains its original low reachable coping and supported rescuers. Dry soil/paving now joins the far planter to that coping, removing the isolated second-looking water strip. Right lilies and far timber/plant boundary remain; the cropped inlet is unobserved. Actual final native support and dialogue frames preserve reach and all familiar contacts. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
       "production_evidence": [
-        "docs/POND_GEOMETRY_REVIEW.md",
-        "docs/pond-repair-review.md",
-        "docs/pond-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md",
+        "../development/visual-novel/reviews/graphics/pond-repair-review.md",
+        "../development/visual-novel/reviews/graphics/pond-runtime-review.md",
         "test-results/pond-states/capture-state.json",
-        "art/visual-pass-2026-09/VISUAL_AUDIT.md"
+        "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md"
       ],
       "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
@@ -1150,9 +1150,9 @@
       "review_notes": "The miniature completed wheel and supports occupy the governing left inlet. The near coping, shallow basin, planted fence and right lilies remain the established construction. Current native dialogue and familiar-support frames show the installed state and dry animal contacts.",
       "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
       "production_evidence": [
-        "docs/POND_GEOMETRY_REVIEW.md",
-        "docs/pond-repair-review.md",
-        "docs/pond-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/POND_GEOMETRY_REVIEW.md",
+        "../development/visual-novel/reviews/graphics/pond-repair-review.md",
+        "../development/visual-novel/reviews/graphics/pond-runtime-review.md",
         "test-results/pond-states/capture-state.json"
       ],
       "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
@@ -1250,12 +1250,12 @@
       "review_status": "consistent_crop",
       "reviewed_sha256": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c",
       "findings": [],
-      "review_notes": "Final courtyard storytelling circle retains its intimate audience, steps and rounded background openings. It is a separate smaller venue from the festival/memorial plaza. Calista31pixel iris correction leaves courtyard, listeners and props exactly unchanged. Fresh production inspection in docs/graphics-environments.md (treehouse/garden visible geometry), docs/graphics-support-art-review.md (other CG support/material details), and docs/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
+      "review_notes": "Final courtyard storytelling circle retains its intimate audience, steps and rounded background openings. It is a separate smaller venue from the festival/memorial plaza. Calista31pixel iris correction leaves courtyard, listeners and props exactly unchanged. Fresh production inspection in ../development/visual-novel/reviews/graphics/graphics-environments.md (treehouse/garden visible geometry), ../development/visual-novel/reviews/graphics/graphics-support-art-review.md (other CG support/material details), and ../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md (settings) supports this exact selected painting. New shared room references change light/furniture states while retaining the identified construction; matching views were explicitly compared. Runtime placements are separately documented.",
       "reviewed_reference_signature": "93fc6183dd603c2de212f2ff3be2af1de247b3e4d68cb0090d47ca3b111171ad",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-support-art-review.md",
-        "docs/graphics-background-sprite-audit.md"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-support-art-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-background-sprite-audit.md"
       ]
     },
     {
@@ -1294,13 +1294,13 @@
       "review_status": "consistent",
       "reviewed_sha256": "25bfec7ea7a1366a0e62c51f044eee3d6c066efef2dfff16c619cb80eb5e718a",
       "findings": [],
-      "review_notes": "Later daytime room visibly moves the worktable to the window, adds low stools/drawing storage and rearranges textiles; no memorial papers are introduced before loss. Actual source chronology/full/native review is in docs/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
+      "review_notes": "Later daytime room visibly moves the worktable to the window, adds low stools/drawing storage and rearranges textiles; no memorial papers are introduced before loss. Actual source chronology/full/native review is in ../development/visual-novel/reviews/graphics/graphics-environments.md and graphics-environment-state-audit.md; final native state captures confirm visible support and transitions. No unseen floor-plan dimensions are inferred.",
       "reviewed_reference_signature": "a09a6a1a1f432d55f77d4a0812c6f7d7999358299e302185601b7512256a06a1",
       "production_evidence": [
-        "docs/graphics-environments.md",
-        "docs/graphics-environment-state-audit.md",
-        "docs/graphics-runtime-review.md",
-        "docs/graphics-runtime-environment-inputs.json"
+        "../development/visual-novel/reviews/graphics/graphics-environments.md",
+        "../development/visual-novel/reviews/graphics/graphics-environment-state-audit.md",
+        "../development/visual-novel/reviews/graphics/graphics-runtime-review.md",
+        "../development/visual-novel/reviews/graphics/graphics-runtime-environment-inputs.json"
       ]
     }
   ]

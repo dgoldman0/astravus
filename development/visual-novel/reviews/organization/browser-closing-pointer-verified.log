@@ -1,0 +1,7 @@
+Browser closing theme passed: playback, both motion preferences, frozen pause, keyboard resume, skip, Escape while paused, fresh replay and channel cleanup.
+{
+  "status": "passed",
+  "focus_checks": 13,
+  "pointer_moves": 13,
+  "errors": []
+}

@@ -22,8 +22,8 @@ Early studies cover attentive curiosity, amusement, concentration and mild worry
 
 The sheets use softly warm, diffuse studio light with readable skin midtones. Blue irises remain blue in warmer environments without becoming luminous; olive skin must not shift to Cassia's deeper umber or Joren's ruddy fairness. Match scene light across the whole face rather than recoloring an eye to overpower shadow.
 
-## Review and provenance
+## Reference use
 
-The initial early sheet's front body and profile angle were corrected. The selected sheet now includes a square front body and a one-eye side profile; identity, clothes and quiet expression range remain coherent. The later sheet preserves the recognizable face through modest childhood maturation. All eight selected Calista sprites were visually reviewed and retained: this pass found no source failure warranting replacement of the accepted face, iris, wardrobe or expression work.
+The early sheet provides a square front body and a one-eye side profile; the later sheet carries the same identity through modest childhood maturation. Side/back construction supplies reference where the selected pose cannot show it, without establishing additional canon.
 
-Prompts: [early](early-prompt.txt), [early angle correction](early-correction-prompt.txt), [later](later-prompt.txt). Built-in image generation created the sheets; its backend model version was not exposed. Source hashes, generated identifiers, corrections and final hashes are in [the pass record](../trio-familiars-changes.json). Side/back construction supplies production reference where the selected pose cannot show it; it does not establish additional canon.
+[production record](../../../../development/visual-novel/art/characters/trio-familiars-changes.json).

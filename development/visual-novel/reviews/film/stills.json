@@ -1,0 +1,88 @@
+{
+  "created_at_utc": "2026-09-09T13:08:10.490290+00:00",
+  "movie": {
+    "file": "build/closing-theme.mp4",
+    "sha256": "c3c413c720e2fb8ecbf0e4ec3dfb6e0a2191d31cf731e066af2e5d3294c605a0",
+    "bytes": 304947636
+  },
+  "method": "One sequential FFmpeg decode, selecting exact zero-based frame numbers without crop or scaling. No source artwork edits.",
+  "frames": [
+    {
+      "frame": 240,
+      "time_seconds": 4.0,
+      "name": "opening",
+      "file": "../development/visual-novel/reviews/film/stills/opening.png",
+      "sha256": "00f28b47cb0dcf38a91b4a65c2f6a90eba8c02943951c4c088f1b2842098f152",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 3600,
+      "time_seconds": 60.0,
+      "name": "insect",
+      "file": "../development/visual-novel/reviews/film/stills/insect.png",
+      "sha256": "b267984f8bb3bea2c1cbf522b254f0442ef2bc6fa119855fcaf16e21dcfee01a",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 8640,
+      "time_seconds": 144.0,
+      "name": "sketch",
+      "file": "../development/visual-novel/reviews/film/stills/sketch.png",
+      "sha256": "89ea96fdbb3b8904c0b9c4f136d4fe566bda695dfd716ed0317581f929842a96",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 9540,
+      "time_seconds": 159.0,
+      "name": "reading",
+      "file": "../development/visual-novel/reviews/film/stills/reading.png",
+      "sha256": "ecba61ea9e114d0383ba7f683d4d4268f5721f9ae3fe790688069952b0a39abf",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 9960,
+      "time_seconds": 166.0,
+      "name": "morning",
+      "file": "../development/visual-novel/reviews/film/stills/morning.png",
+      "sha256": "38199d68d9da7d71d5383a14ff34194eb20d6e61a7c2ec399cff8160f4195a90",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 10260,
+      "time_seconds": 171.0,
+      "name": "title",
+      "file": "../development/visual-novel/reviews/film/stills/title.png",
+      "sha256": "3ca6b3fccfbc28f0948a3c28223c6b2917cd7769d1a1f6a1eb44c4867e713ea2",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "frame": 10662,
+      "time_seconds": 177.7,
+      "name": "ending-fade",
+      "file": "../development/visual-novel/reviews/film/stills/ending-fade.png",
+      "sha256": "dae6e1b791c15769c9970e7841e2a126bea4b49ee8ee5be71d06494ba363c384",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    }
+  ]
+}

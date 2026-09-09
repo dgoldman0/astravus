@@ -1,0 +1,168 @@
+[
+  {
+    "at": "before_move",
+    "focused_id": 30702064,
+    "focused_type": "<class 'renpy.display.behavior.SayBehavior'>",
+    "focused_texts": [],
+    "focused_in_screen": false,
+    "buttons": [
+      {
+        "id": 35016768,
+        "rect": [
+          1119,
+          1026,
+          121,
+          54
+        ],
+        "texts": [
+          "Glossary"
+        ],
+        "in_screen": true,
+        "is_focused": false
+      }
+    ],
+    "transition": false,
+    "trans_pause": false,
+    "scene": "first_memory"
+  },
+  {
+    "at": "after_move_0",
+    "focused_id": 35016768,
+    "focused_type": "<class 'renpy.display.behavior.Button'>",
+    "focused_texts": [
+      "Glossary"
+    ],
+    "focused_in_screen": true,
+    "buttons": [
+      {
+        "id": 35016768,
+        "rect": [
+          1119,
+          1026,
+          121,
+          54
+        ],
+        "texts": [
+          "Glossary"
+        ],
+        "in_screen": true,
+        "is_focused": true
+      }
+    ],
+    "transition": false,
+    "trans_pause": false,
+    "scene": "first_memory"
+  },
+  {
+    "at": "after_move_1",
+    "focused_id": 35016768,
+    "focused_type": "<class 'renpy.display.behavior.Button'>",
+    "focused_texts": [
+      "Glossary"
+    ],
+    "focused_in_screen": true,
+    "buttons": [
+      {
+        "id": 35016768,
+        "rect": [
+          1119,
+          1026,
+          121,
+          54
+        ],
+        "texts": [
+          "Glossary"
+        ],
+        "in_screen": true,
+        "is_focused": true
+      }
+    ],
+    "transition": false,
+    "trans_pause": false,
+    "scene": "first_memory"
+  },
+  {
+    "at": "after_move_2",
+    "focused_id": 35016768,
+    "focused_type": "<class 'renpy.display.behavior.Button'>",
+    "focused_texts": [
+      "Glossary"
+    ],
+    "focused_in_screen": true,
+    "buttons": [
+      {
+        "id": 35016768,
+        "rect": [
+          1119,
+          1026,
+          121,
+          54
+        ],
+        "texts": [
+          "Glossary"
+        ],
+        "in_screen": true,
+        "is_focused": true
+      }
+    ],
+    "transition": false,
+    "trans_pause": false,
+    "scene": "first_memory"
+  },
+  {
+    "at": "after_move_3",
+    "focused_id": 35016768,
+    "focused_type": "<class 'renpy.display.behavior.Button'>",
+    "focused_texts": [
+      "Glossary"
+    ],
+    "focused_in_screen": true,
+    "buttons": [
+      {
+        "id": 35016768,
+        "rect": [
+          1119,
+          1026,
+          121,
+          54
+        ],
+        "texts": [
+          "Glossary"
+        ],
+        "in_screen": true,
+        "is_focused": true
+      }
+    ],
+    "transition": false,
+    "trans_pause": false,
+    "scene": "first_memory"
+  },
+  {
+    "at": "after_move_4",
+    "focused_id": 35016768,
+    "focused_type": "<class 'renpy.display.behavior.Button'>",
+    "focused_texts": [
+      "Glossary"
+    ],
+    "focused_in_screen": true,
+    "buttons": [
+      {
+        "id": 35016768,
+        "rect": [
+          1119,
+          1026,
+          121,
+          54
+        ],
+        "texts": [
+          "Glossary"
+        ],
+        "in_screen": true,
+        "is_focused": true
+      }
+    ],
+    "transition": false,
+    "trans_pause": false,
+    "scene": "first_memory"
+  }
+]

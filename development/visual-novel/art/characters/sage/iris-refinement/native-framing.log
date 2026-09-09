@@ -1,0 +1,44 @@
+[rpytest] [log] Running 1 test(s) marked with 'only' flag.
+[rpytest] [log] - global::character_framing_review
+
+[rpytest] Starting test run
+[rpytest] Platform:      Linux-6.8.0-124-generic-x86_64-with-glibc2.39
+[rpytest] Python:        3.12.8
+[rpytest] Ren'Py:        Ren'Py 8.5.3.26051504
+[rpytest] Game Version:  0.1-alpha
+
+[rpytest] [exc] + global
+[rpytest] [exc]   - character_framing_review
+[rpytest] [exc]   - character_framing_review (15.153 s)
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test cases :     9 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     6 skipped |     2 not run
+[rpytest] Test hooks :     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 16.803 s
+[rpytest] Status: PASSED 
+
+[rpytest] [log] Running 1 test(s) marked with 'only' flag.
+[rpytest] [log] - global::character_framing_review
+
+[rpytest] Starting test run
+[rpytest] Platform:      Linux-6.8.0-124-generic-x86_64-with-glibc2.39
+[rpytest] Python:        3.12.8
+[rpytest] Ren'Py:        Ren'Py 8.5.3.26051504
+[rpytest] Game Version:  0.1-alpha
+
+[rpytest] [exc] + global
+[rpytest] [exc]   - character_framing_review
+[rpytest] [exc]   - character_framing_review (14.567 s)
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test cases :     9 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     6 skipped |     2 not run
+[rpytest] Test hooks :     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 15.635 s
+[rpytest] Status: PASSED 
+

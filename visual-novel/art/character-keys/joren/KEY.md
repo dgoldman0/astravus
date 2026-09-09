@@ -24,8 +24,8 @@ Warm, energetic amusement is balanced with attentive, thinking, frustrated and q
 
 Keep softly dimensional painterly skin and blond highlights under diffuse neutral light. Ruddy cheeks are a local complexion trait rather than an orange wash across the whole character. His blue eyes remain embedded, reflective eyes without added glow. Keep him visually separate from Calista's chestnut/olive palette and Cassia's chestnut/umber/green palette.
 
-## Review and provenance
+## Reference use
 
-Both generated sheets provide useful front, side and back bodies, rotated facial views and distinct restrained expressions. They preserve the selected costume and recognizable boy through modest maturation. All three current sprites were visually reviewed and retained; there was no source or identity failure requiring regeneration of the approved work.
+The sheets provide full-body views, rotated faces and restrained expressions for both childhood stages. Newly visible costume backs and rotated anatomy extend the selected artwork without adding literary facts.
 
-Prompts: [early](early-prompt.txt), [later](later-prompt.txt). The [pass record](../trio-familiars-changes.json) contains source hashes, output identifiers and final hashes. Built-in image generation was used; backend model version was not exposed. Newly visible costume backs and rotated anatomy extend the selected artwork for production and do not add literary facts.
+[production record](../../../../development/visual-novel/art/characters/trio-familiars-changes.json).

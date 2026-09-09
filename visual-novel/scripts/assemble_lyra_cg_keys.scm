@@ -1,6 +1,6 @@
 ; Run from visual-novel. Native GIMP 2.10 composition; no full-frame resampling.
 ; The full generated scenes are paint donors, never replacement backgrounds.
-(define pass-dir "art/visual-pass-2026-09/")
+(define pass-dir "../development/visual-novel/art/character-refinements/")
 (define (pass-path name suffix) (string-append pass-dir name suffix))
 (define (pass-png image layer path)
   (file-png-save2 RUN-NONINTERACTIVE image layer path path 0 9 0 0 0 0 0 0 0))

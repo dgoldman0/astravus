@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "tool": "GIMP 2.10.36 Script-Fu",
+  "generation_model": "Built-in image tool; backend version not exposed",
+  "source_file": "../development/visual-novel/art/opening-identity/opening-original.png",
+  "source_sha256": "796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f",
+  "candidate_file": "opening-generated-v1.png",
+  "candidate_sha256": "17423b95da463da9185dc732903e2b8ee96a314d15e2a04922c7dbad1c415512",
+  "final_file": "opening-refined-v1.png",
+  "final_sha256": "39e84063966b2a3759cb0334715862661049daa6391d70c70f670121ecaf1498",
+  "xcf_file": "opening-refined-v1.xcf",
+  "xcf_sha256": "ba222575765b8e8cfc478cbc66b477b6b13b6b1ac0308f1a6bc756b60cdb79de",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "methods": [
+    "Unscaled locked original base",
+    "Three generated-paint layers in legacy Normal mode",
+    "Native GIMP hand-traced polygon selections with 4px feather",
+    "Editable layer masks, with actual masks exported for analysis"
+  ],
+  "masks": [
+    {
+      "file": "mask-arin-head.png",
+      "sha256": "40e2bc08793e207a5dcc46605ae3d069c7df4008f0e823587332db5f5d84bdb6",
+      "nonzero_pixels": 64558,
+      "support_bbox": [
+        328,
+        138,
+        608,
+        503
+      ],
+      "feather_pixels": 8955
+    },
+    {
+      "file": "mask-arin-arms.png",
+      "sha256": "78d860f120613cc5daa0a8deacbe09e71ac45a0562ab33d25b3a844504985f21",
+      "nonzero_pixels": 21158,
+      "support_bbox": [
+        382,
+        618,
+        628,
+        844
+      ],
+      "feather_pixels": 7088
+    },
+    {
+      "file": "mask-sage.png",
+      "sha256": "27ad75a6a8ede437b30f5a546b8c2b732f38111c6a0b52bc3b112e352c6ba3d1",
+      "nonzero_pixels": 174997,
+      "support_bbox": [
+        1146,
+        158,
+        1624,
+        735
+      ],
+      "feather_pixels": 15392
+    }
+  ],
+  "changed_pixels": 250921,
+  "raw_generation_changed_pixels": 1572137,
+  "outside_mask_changed_pixels": 0,
+  "outside_mask_pixels_identical": true,
+  "xcf_reopened_matches_final": true,
+  "hidden_refinement_layers_restore_original": true,
+  "protected_regions": [
+    {
+      "region": "Selene face",
+      "box": [
+        611,
+        125,
+        674,
+        257
+      ],
+      "changed_pixels": 0
+    },
+    {
+      "region": "Dorian face",
+      "box": [
+        1014,
+        111,
+        1156,
+        302
+      ],
+      "changed_pixels": 0
+    },
+    {
+      "region": "Maia face",
+      "box": [
+        818,
+        232,
+        926,
+        398
+      ],
+      "changed_pixels": 0
+    },
+    {
+      "region": "Calista newborn face and reaching hand",
+      "box": [
+        938,
+        435,
+        1125,
+        536
+      ],
+      "changed_pixels": 0
+    },
+    {
+      "region": "Maia hands around the blanket",
+      "box": [
+        801,
+        586,
+        1080,
+        731
+      ],
+      "changed_pixels": 0
+    }
+  ],
+  "assembly_file": "assemble.scm",
+  "assembly_sha256": "0c68143aec04ceae852016fa803d1d60b12e9cc77e0033a95e71fa24f9c38e2a",
+  "rebuild_file": "run-gimp-test.sh",
+  "rebuild_sha256": "03b161019a572c4581fc79d51bdd0bfd47fa128d64a1861e93a2b7bbe0c8dedc",
+  "limitation": "Numeric checks establish preservation and editability, not artistic or canonical approval."
+}

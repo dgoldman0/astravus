@@ -1,0 +1,161 @@
+{
+  "source_stash_parent": "c251e6da134771b833f84a6d9efa2104e878c08a^3",
+  "reason": "Six archived viewer symlinks already pointed to missing targets before organization. Recover the exact stashed sources and repair those links without selecting any archived proposal.",
+  "files": [
+    {
+      "original_file": "visual-novel/docs/design-proof/CHARACTERS.md",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/CHARACTERS.md",
+      "sha256": "ef0b2b405aec18f927856604fc435420d41449ee28025abb2ed976171399d66e"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/GIMP.md",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/GIMP.md",
+      "sha256": "ab1d94295009c28eb8128e5b5b5e4e900e585ffef979957c4a1e64acb1a6386a"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/MUSIC.md",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/MUSIC.md",
+      "sha256": "70ca6772af5c42c315af7e66e3ed17be5e0a8dcab24939a5155ddf2d6b9f9da3"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/README.md",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/README.md",
+      "sha256": "84d46659b8ab6c06e7587b2a0a2a6c2fc6f1a2a79edb270932d9c64c419c185c"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/SETTING.md",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/SETTING.md",
+      "sha256": "8baf04b4961c3268c0a6ba99398f6a4d642348e64382e314eec56a1af6ccb096"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/VIDEO.md",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/VIDEO.md",
+      "sha256": "7c2eea17f18750f8b804d14c58dc11dd1837407aabc55745682d8074214c7413"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/art-candidates.json",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/art-candidates.json",
+      "sha256": "f18dd5780575138bfb2bd8f6f6b590c1bbb91352f4741ead5431a4f58df223b4"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/candidates/calista-reference.png",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/candidates/calista-reference.png",
+      "sha256": "e381913e125048b9476ee8aff80e0cc949c0efad78083ddb064733467ffdfba6"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/candidates/cassia-reference.png",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/candidates/cassia-reference.png",
+      "sha256": "f829b4f350ec606e638b4dd68816b933c23db3ef10fc1353d5ee417c9c7ca3d1"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/candidates/joren-reference.png",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/candidates/joren-reference.png",
+      "sha256": "74a6b431ad6aa4041e7942571320c519b25b68732dba4494923f5b7c23496d92"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/candidates/treehouse-map-candidate.png",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/candidates/treehouse-map-candidate.png",
+      "sha256": "c1b3d84578bd398ebcf5b7c15e4fb2ca8e84645541ca5a72ed965d61a76197b7"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/candidates/treehouse-scaffold.png",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/candidates/treehouse-scaffold.png",
+      "sha256": "0df1b20e45595581f8e8818cff8d953dbc03858f52dc768df82c116e071a39d4"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/candidates/trio-lineup.png",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/candidates/trio-lineup.png",
+      "sha256": "8eb02a1afb6a3b638ff84e77ffcf4b639d265a648fd8d7921c02e665752eaff2"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/gimp-review-template.html",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/gimp-review-template.html",
+      "sha256": "2b6e92593ae11aa3ef1c0cb6bc96bbceaa89f5f5a4e700ba01757e0b6e9861ac"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/iris-candidate.json",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/iris-candidate.json",
+      "sha256": "de8c87d0e6f84d37d28c5e4747570bdc237c5d8bf020fafbc6bf4c05a33fc8b3"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/prompts/calista-reference.txt",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/prompts/calista-reference.txt",
+      "sha256": "d44cb7877e5b9b4b6667757cb2124367b909e77c2d3e9eb1e438d6d114281439"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/prompts/cassia-reference.txt",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/prompts/cassia-reference.txt",
+      "sha256": "2dee5edf056958721d8c5208842f5830c4ff42d9591d90985e4dddcbd5799334"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/prompts/joren-reference.txt",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/prompts/joren-reference.txt",
+      "sha256": "c2c95f3f7ebf6dce577ecffff8453c1c914b6653ceb2ace9a0260a23251465ed"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/prompts/treehouse-map.txt",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/prompts/treehouse-map.txt",
+      "sha256": "74be2385e90a1d60f78c91f462146bf1fe6e16017404e96b2f1d46d3b8b94d8f"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/prompts/trio-lineup.txt",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/prompts/trio-lineup.txt",
+      "sha256": "75319e3668ed365298334e5630398c5349dfec2fe6b2e7d2e5665809396265ff"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/review-template.html",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/review-template.html",
+      "sha256": "ada6cca272b1bd8c0fba2932c7c8e3eabf6f7932ba1983e71dfdc5795dd7268e"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/settings-scene.json",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/settings-scene.json",
+      "sha256": "3f1c3527e3517148f6a555045404565693955b6e0c79b38b485eefecfec4aa3e"
+    },
+    {
+      "original_file": "visual-novel/docs/design-proof/settings-viewer.html",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/docs/design-proof/settings-viewer.html",
+      "sha256": "ce5a8a5e2fad6bd855388b5fa9453ab612cb0422afb3b04ca63b61f9c08d9e24"
+    },
+    {
+      "original_file": "visual-novel/scripts/capture_design_proof_settings.py",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/scripts/capture_design_proof_settings.py",
+      "sha256": "54836ffbb64829714f8693912f88fa5c0fcca6af18cb5147b436de493e72a4e2"
+    },
+    {
+      "original_file": "visual-novel/scripts/design_proof_music.py",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/scripts/design_proof_music.py",
+      "sha256": "839b06735b7c1d6d352933452b20a017f62a67dcdb2d5acd47135f8b6f994315"
+    },
+    {
+      "original_file": "visual-novel/scripts/design_proof_review.py",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/scripts/design_proof_review.py",
+      "sha256": "f951d6cac84ac5f782db7ba503aec4ecf4db07c9431bc4f84018ade02570f324"
+    },
+    {
+      "original_file": "visual-novel/scripts/design_proof_settings.mjs",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/scripts/design_proof_settings.mjs",
+      "sha256": "45efada0304a3d82952531a734ccc8a9e1e377c9c454a844332c6c6cdb830a18"
+    },
+    {
+      "original_file": "visual-novel/scripts/design_proof_video.py",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/scripts/design_proof_video.py",
+      "sha256": "fc357eec6a6e4d3e8d76e0b9d6508582ec5f859fa6f89280a6fbf2f2aa4e0e0b"
+    },
+    {
+      "original_file": "visual-novel/scripts/gimp_cassia_repair.py",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/scripts/gimp_cassia_repair.py",
+      "sha256": "54b6c54c6d9d6e528dc8d183190d847c2bd3a78579e475695a3c025d08c5ac0f"
+    },
+    {
+      "original_file": "visual-novel/scripts/gimp_cassia_repair.scm",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/scripts/gimp_cassia_repair.scm",
+      "sha256": "bf491818184837e4daee9b6140ae5369317b41b9e4a34e819fc4156d53e422a1"
+    },
+    {
+      "original_file": "visual-novel/scripts/serve_design_proof.py",
+      "restored_file": "development/visual-novel/archive/local/design-proof/source/visual-novel/scripts/serve_design_proof.py",
+      "sha256": "1b3f51cad5d35060e3da3990ff379de398fc00d56d04971155f72422aabba573"
+    }
+  ]
+}

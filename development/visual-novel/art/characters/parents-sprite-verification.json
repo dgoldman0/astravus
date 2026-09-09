@@ -1,0 +1,98 @@
+[
+  {
+    "name": "arin",
+    "tool": "GIMP 2.10.36 Script-Fu",
+    "size": [
+      1024,
+      1536
+    ],
+    "source_file": "../development/visual-novel/art/characters/arin/sprite-before.png",
+    "source_sha256": "5f0e5a1c6a31cd742ebd615284a3d4860217a30d576f6edc79ca00c26b286b7e",
+    "generated_file": "../development/visual-novel/art/characters/arin/sprite-generated.png",
+    "generated_sha256": "9257e7d8c50714dbef15942283a33a7c17b11ed870ca987c6f5139f1caac9456",
+    "final_file": "../development/visual-novel/art/characters/arin/sprite-refined.png",
+    "final_sha256": "a208e74d82908a6a3c1dfa05d2b592ac92d7f11a1f54a56542535701a3f8b379",
+    "xcf_file": "../development/visual-novel/art/characters/arin/sprite-refined.xcf",
+    "xcf_sha256": "832ac9d4d2eac9599e93845159d23eca36a541c25dfd227e4aa145f67f06503b",
+    "masks": [
+      {
+        "file": "../development/visual-novel/art/characters/arin/mask-head.png",
+        "sha256": "03e13ee568521d74004c6178051d3d5c2dfa43c3db8a70570e507c15eec60365",
+        "support_bbox": [
+          404,
+          3,
+          635,
+          335
+        ],
+        "nonzero_pixels": 50481
+      },
+      {
+        "file": "../development/visual-novel/art/characters/arin/mask-arms.png",
+        "sha256": "a52652b49957c5702f7b087e2213fe20142d6cce78eeb600d9e8fa31e46220bd",
+        "support_bbox": [
+          308,
+          500,
+          675,
+          836
+        ],
+        "nonzero_pixels": 28866
+      }
+    ],
+    "changed_pixels": 78276,
+    "outside_mask_changed_pixels": 0,
+    "xcf_reopened_matches_final": true,
+    "hidden_edit_layers_restore_original": true,
+    "bottom_600_rows_unchanged": true,
+    "script_file": "scripts/assemble_parent_sprite_keys.scm",
+    "script_sha256": "21c0904ed86d402449ba79a517a435240b3d53287387fef657e173ca665790f8",
+    "method": "Generated paint on immutable base; native GIMP polygon layer masks with 2px feather, Normal legacy blend"
+  },
+  {
+    "name": "sage",
+    "tool": "GIMP 2.10.36 Script-Fu",
+    "size": [
+      1023,
+      1537
+    ],
+    "source_file": "../development/visual-novel/art/characters/sage/sprite-before.png",
+    "source_sha256": "c2065df8ea3d578ac691392c7e3ecdae34ec2344fac05cc31cc5ce9739180f32",
+    "generated_file": "../development/visual-novel/art/characters/sage/sprite-generated.png",
+    "generated_sha256": "4625225b2b3ffc4a2f552c38d829b233dddbe5eb6e5784f8f84909d51edd9e38",
+    "final_file": "../development/visual-novel/art/characters/sage/sprite-refined.png",
+    "final_sha256": "6d4bfe57f4060754b1d425c8a5bc6f97781cced4dd34ef7871cec09fade8d3a0",
+    "xcf_file": "../development/visual-novel/art/characters/sage/sprite-refined.xcf",
+    "xcf_sha256": "14d5eba35ab635d5df51d112046a84e32a2b78f2ac7006a29ea9c0721acf8906",
+    "masks": [
+      {
+        "file": "../development/visual-novel/art/characters/sage/mask-head.png",
+        "sha256": "bcf1a69d3dc44990b68148a2f99bb538d4b070b2b939195ee7790cbf5d5568f9",
+        "support_bbox": [
+          399,
+          22,
+          642,
+          414
+        ],
+        "nonzero_pixels": 66205
+      },
+      {
+        "file": "../development/visual-novel/art/characters/sage/mask-torso.png",
+        "sha256": "1cf759dcad6b0222e74849735730b9124014a54d906982a9b92d1f032d87b8a9",
+        "support_bbox": [
+          346,
+          262,
+          743,
+          878
+        ],
+        "nonzero_pixels": 168860
+      }
+    ],
+    "changed_pixels": 229975,
+    "outside_mask_changed_pixels": 0,
+    "xcf_reopened_matches_final": true,
+    "hidden_edit_layers_restore_original": true,
+    "bottom_600_rows_unchanged": true,
+    "script_file": "scripts/assemble_parent_sprite_keys.scm",
+    "script_sha256": "21c0904ed86d402449ba79a517a435240b3d53287387fef657e173ca665790f8",
+    "method": "Generated paint on immutable base; native GIMP polygon layer masks with 2px feather, Normal legacy blend"
+  }
+]

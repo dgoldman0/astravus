@@ -18,8 +18,8 @@ Shadow is smaller than Barkley and much larger than Nibble. The key's “Rat < C
 
 Her mood comes through alert ears, small head turns and a quiet gaze. Human smiles, expressive eyebrows or theatrical grief would change the animal design. Use diffuse light and restrained fill so black fur remains readable without turning brown or gray. The selected runtime sprite's blue backing is technical compositing material, not her lighting or fur color.
 
-## Review and provenance
+## Reference use
 
-The first key omitted the notch from its upper standing side view. A targeted generated correction restored the same left-ear notch; the other angles, one-tail construction and black/green identity remain consistent. The current selected sprite was reviewed and retained. The new views do not alter her original injury history or establish a new bond stage.
+Rotate the same anatomical-left ear notch and crooked tail tip consistently. The new views do not date her injury or establish a different bond stage.
 
-Prompts: [initial](prompt.txt), [ear correction](correction-prompt.txt). The [pass record](../trio-familiars-changes.json) records exact sources, hashes and built-in generation identifiers. The backend model version was not exposed.
+[Sheet prompt](../../../../development/visual-novel/art/characters/shadow/prompt.txt) and [production record](../../../../development/visual-novel/art/characters/trio-familiars-changes.json).

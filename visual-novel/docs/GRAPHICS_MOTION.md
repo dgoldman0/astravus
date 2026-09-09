@@ -28,7 +28,7 @@ python3 scripts/check_theme_stability.py
 ```
 
 This writes one current six-second, silent 1080p60 diagnostic under
-`build/graphics-polish/theme-stability/`, using the final two selected paintings,
+`../development/visual-novel/archive/local/graphics-workspace/theme-stability/`, using the final two selected paintings,
 an eased initial dissolve, then repeated identical RGB input frames. It imports
 the production renderer's exact delivery settings, including the whole-film GOP
 limit. The test does not render the full film or modify its current MP4.
@@ -43,7 +43,7 @@ frames 90–359, after the intentional dissolve, yielded:
 
 The exact source, script, cue and output hashes, command, per-frame measurements
 and full decode result are in
-`build/graphics-polish/theme-stability/diagnostic.json`. Tiny lossy-codec rounding
+`../development/visual-novel/archive/local/graphics-workspace/theme-stability/diagnostic.json`. Tiny lossy-codec rounding
 differences remain; this is not mathematically lossless delivery.
 
 The diagnostic isolates the encoder using pre-fitted RGB stills. It does not
@@ -64,7 +64,7 @@ second. The AAC track ends at 177.76 seconds and its complete encoded packet
 hash matches the preceding delivery. Only the planting image changed among the
 render inputs; the ending art, cue and renderer remain identical.
 
-The preceding delivery's [detailed ending review](graphics-film-review.md)
+The preceding delivery's [detailed ending review](../../development/visual-novel/reviews/graphics/graphics-film-review.md)
 measured the final three dissolves and every adjacent native face/foliage crop
 in their held periods, excluding title/dissolve/fade frames. Its worst native
 detail pairs retain stable contours. Small codec differences

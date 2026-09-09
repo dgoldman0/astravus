@@ -1,0 +1,1020 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-09T13:17:57.117342+00:00",
+  "scope": "Moved local HTML viewer loading, controls and responsive layout; not a new native Ren'Py or whole-art audit.",
+  "entrypoints": {
+    "keys": "visual-novel/art/character-keys/index.html",
+    "comparisons": "development/visual-novel/art/character-refinements/review.html",
+    "opening": "development/visual-novel/art/opening-identity/review.html"
+  },
+  "server": {
+    "document_root": ".",
+    "bind": "127.0.0.1",
+    "port": "ephemeral",
+    "transport": "HTTP"
+  },
+  "browser": {
+    "engine": "Chromium via Playwright",
+    "version": "148.0.7778.96",
+    "headless": true,
+    "desktop_viewport": [
+      1500,
+      1080
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "external_requests_blocked": true
+  },
+  "checks": {
+    "keys": {
+      "sheets_opened": [
+        {
+          "route": "#maia/key",
+          "sheet": "maia/key.png"
+        },
+        {
+          "route": "#arin/key",
+          "sheet": "arin/key.png"
+        },
+        {
+          "route": "#selene/key",
+          "sheet": "selene/key.png"
+        },
+        {
+          "route": "#dorian/key",
+          "sheet": "dorian/key.png"
+        },
+        {
+          "route": "#sage/key",
+          "sheet": "sage/key.png"
+        },
+        {
+          "route": "#calista/early",
+          "sheet": "calista/early-key.png"
+        },
+        {
+          "route": "#calista/later",
+          "sheet": "calista/later-key.png"
+        },
+        {
+          "route": "#cassia/early",
+          "sheet": "cassia/early-key.png"
+        },
+        {
+          "route": "#cassia/later",
+          "sheet": "cassia/later-key.png"
+        },
+        {
+          "route": "#joren/early",
+          "sheet": "joren/early-key.png"
+        },
+        {
+          "route": "#joren/later",
+          "sheet": "joren/later-key.png"
+        },
+        {
+          "route": "#kael/key",
+          "sheet": "kael/key.png"
+        },
+        {
+          "route": "#lyra/key",
+          "sheet": "lyra/key.png"
+        },
+        {
+          "route": "#thalia/key",
+          "sheet": "thalia/key.png"
+        },
+        {
+          "route": "#lyron/key",
+          "sheet": "lyron/key.png"
+        },
+        {
+          "route": "#soren/key",
+          "sheet": "soren/key.png"
+        },
+        {
+          "route": "#kaleb/key",
+          "sheet": "kaleb/key.png"
+        },
+        {
+          "route": "#shadow/key",
+          "sheet": "shadow/key.png"
+        },
+        {
+          "route": "#barkley/key",
+          "sheet": "barkley/key.png"
+        },
+        {
+          "route": "#nibble/key",
+          "sheet": "nibble/key.png"
+        }
+      ],
+      "character_count": 17,
+      "embedded_catalog_matches_file": true,
+      "compare_stages": true,
+      "zoom_200_percent_and_reset": true,
+      "lyron_current_sheet": true,
+      "deep_link_reload": true,
+      "mobile_selector_and_no_horizontal_overflow": true
+    },
+    "comparisons": {
+      "pairs": [
+        {
+          "asset": "opening",
+          "both_versions_loaded": true,
+          "different_rendered_pixels": true,
+          "split_endpoints_equal_modes": true,
+          "detail_presets": [
+            "arin",
+            "sage"
+          ]
+        },
+        {
+          "asset": "pond-rescue",
+          "both_versions_loaded": true,
+          "different_rendered_pixels": true,
+          "split_endpoints_equal_modes": true,
+          "detail_presets": [
+            "lyra"
+          ]
+        },
+        {
+          "asset": "pond-comfort",
+          "both_versions_loaded": true,
+          "different_rendered_pixels": true,
+          "split_endpoints_equal_modes": true,
+          "detail_presets": [
+            "lyra"
+          ]
+        },
+        {
+          "asset": "insect-discovery",
+          "both_versions_loaded": true,
+          "different_rendered_pixels": true,
+          "split_endpoints_equal_modes": true,
+          "detail_presets": [
+            "lyra"
+          ]
+        },
+        {
+          "asset": "arin",
+          "both_versions_loaded": true,
+          "different_rendered_pixels": true,
+          "split_endpoints_equal_modes": true,
+          "detail_presets": [
+            "face"
+          ]
+        },
+        {
+          "asset": "sage",
+          "both_versions_loaded": true,
+          "different_rendered_pixels": true,
+          "split_endpoints_equal_modes": true,
+          "detail_presets": [
+            "face"
+          ]
+        },
+        {
+          "asset": "lyra",
+          "both_versions_loaded": true,
+          "different_rendered_pixels": true,
+          "split_endpoints_equal_modes": true,
+          "detail_presets": [
+            "face"
+          ]
+        },
+        {
+          "asset": "thalia",
+          "both_versions_loaded": true,
+          "different_rendered_pixels": true,
+          "split_endpoints_equal_modes": true,
+          "detail_presets": [
+            "face"
+          ]
+        },
+        {
+          "asset": "lyron",
+          "both_versions_loaded": true,
+          "different_rendered_pixels": true,
+          "split_endpoints_equal_modes": true,
+          "detail_presets": [
+            "face",
+            "garment"
+          ]
+        }
+      ],
+      "split_endpoint_pixel_checks": 18,
+      "reset_full_split_50_percent": true,
+      "deep_link_reload": true,
+      "keyboard_B_A_S": true,
+      "mobile_portrait_landscape_and_detail_no_horizontal_overflow": true
+    },
+    "opening": {
+      "modes": [
+        "original",
+        "refined",
+        "generated",
+        "compare"
+      ],
+      "runtime_images_loaded": 2,
+      "face_insets": 4,
+      "split_endpoints_and_keyboard_arrow": true,
+      "mobile_modes_and_no_horizontal_overflow": true
+    }
+  },
+  "all_input_paths_exist_and_HTTP_HEAD_200": true,
+  "inputs_unchanged_during_test": true,
+  "inputs": [
+    {
+      "path": "development/visual-novel/art/character-refinements/README.md",
+      "sha256": "49a0832d3dc7d06c215e1aa237e353b5793dcb3069f33dffa674091ab56c293f",
+      "bytes": 4695
+    },
+    {
+      "path": "development/visual-novel/art/character-refinements/pond-comfort-original.png",
+      "sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+      "bytes": 2729754,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/character-refinements/pond-comfort-refined.png",
+      "sha256": "e64630c32b6cc1345d21f28a43185d07adfb72c3c4b9811bf35740c3b970b77f",
+      "bytes": 2735002,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/character-refinements/pond-rescue-original.png",
+      "sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+      "bytes": 2617967,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/character-refinements/pond-rescue-refined.png",
+      "sha256": "bb8c57165f2020de2ed0be0113afb9c4e4b2240cef1eeac5711bdb2779467a43",
+      "bytes": 2608889,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/character-refinements/review.html",
+      "sha256": "0cc97b97a39aaca3fca53e4db35b7f238f1eff9108702fea5ec844f897381441",
+      "bytes": 17783
+    },
+    {
+      "path": "development/visual-novel/art/character-refinements/theme-insect-discovery-original.png",
+      "sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8",
+      "bytes": 2514917,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/character-refinements/theme-insect-discovery-refined.png",
+      "sha256": "652a0ca6dd0cfd4a2caac4c9019a57e500b3dccab53d7978df6d0f59a1d21f48",
+      "bytes": 2456723,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/characters/arin/sprite-before.png",
+      "sha256": "5f0e5a1c6a31cd742ebd615284a3d4860217a30d576f6edc79ca00c26b286b7e",
+      "bytes": 1603092,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/characters/arin/sprite-refined.png",
+      "sha256": "a208e74d82908a6a3c1dfa05d2b592ac92d7f11a1f54a56542535701a3f8b379",
+      "bytes": 1387019,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/characters/lyra/sprite-original.png",
+      "sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d",
+      "bytes": 1455424,
+      "dimensions": [
+        1023,
+        1537
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/characters/lyron/sprite-original.png",
+      "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f",
+      "bytes": 1651105,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/characters/sage/sprite-before.png",
+      "sha256": "c2065df8ea3d578ac691392c7e3ecdae34ec2344fac05cc31cc5ce9739180f32",
+      "bytes": 1446192,
+      "dimensions": [
+        1023,
+        1537
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/characters/sage/sprite-refined.png",
+      "sha256": "6d4bfe57f4060754b1d425c8a5bc6f97781cced4dd34ef7871cec09fade8d3a0",
+      "bytes": 1367366,
+      "dimensions": [
+        1023,
+        1537
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/characters/thalia/sprite-original.png",
+      "sha256": "654c9f3316c1c78d023efb8b4d22afd1b68003d7f47a6435c2a6b1984f637132",
+      "bytes": 1572026,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/opening-identity/CHARACTER_REFINEMENTS.md",
+      "sha256": "4143966a8aae51f6e6c14330af628f53d37c844ed490b7d8a739ef064487ab17",
+      "bytes": 9583
+    },
+    {
+      "path": "development/visual-novel/art/opening-identity/README.md",
+      "sha256": "56c77895246b3dd40f3a9dae8cc165134c3735e15a063830f103bc664518485a",
+      "bytes": 6476
+    },
+    {
+      "path": "development/visual-novel/art/opening-identity/opening-generated-v1.png",
+      "sha256": "17423b95da463da9185dc732903e2b8ee96a314d15e2a04922c7dbad1c415512",
+      "bytes": 2221002,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/opening-identity/opening-original.png",
+      "sha256": "796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f",
+      "bytes": 2342610,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/opening-identity/opening-refined-v1.png",
+      "sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f",
+      "bytes": 2249579,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/opening-identity/opening-refined-v1.xcf",
+      "sha256": "ba222575765b8e8cfc478cbc66b477b6b13b6b1ac0308f1a6bc756b60cdb79de",
+      "bytes": 18649759
+    },
+    {
+      "path": "development/visual-novel/art/opening-identity/review.html",
+      "sha256": "32a12960b187ba91a126143246534c17f4cc00384ff314bb8d430979710741a3",
+      "bytes": 11445
+    },
+    {
+      "path": "development/visual-novel/art/opening-identity/runtime-after.png",
+      "sha256": "4fff8662898009f19b629d133d48cdd8a41dbe988af91e57586f10ffb8e63af6",
+      "bytes": 2384117,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "development/visual-novel/art/opening-identity/runtime-before.png",
+      "sha256": "8a9eeb71c1a4af401de455f80bdc2073cf1f34d7dc5f9b7d03a0007744598944",
+      "bytes": 2392621,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-viewers-check.py",
+      "sha256": "5c8811d1e1b1595121e363241feaee5e5095bc758e8b51f55e745f1e4384def4",
+      "bytes": 18751
+    },
+    {
+      "path": "revision/latest.md",
+      "sha256": "9a634142d1e67ea418132dab6eb18b3fd76984574486a81204ea0103dad88cda",
+      "bytes": 140070
+    },
+    {
+      "path": "visual-novel/art/character-keys/README.md",
+      "sha256": "9fbb5165c3b60cc44d56361615c0f5c1f753ea4cbb4c1f195e1becbf44d8fe07",
+      "bytes": 2368
+    },
+    {
+      "path": "visual-novel/art/character-keys/arin/KEY.md",
+      "sha256": "ee7ee678b53b1e6405270fbf4052d37bb1d5f27e8b90292af78f49c060451bab",
+      "bytes": 2727
+    },
+    {
+      "path": "visual-novel/art/character-keys/arin/key.png",
+      "sha256": "a67ea8f8d17e51a97ffdc0efee30eeedac76ead32970ea8e87218f8866ae2cf0",
+      "bytes": 2464672,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/barkley/KEY.md",
+      "sha256": "9c39b4ba4126c6de66ace6cab3a6d7c14c514ebbfb5c825eea9de5c0a47329b0",
+      "bytes": 2429
+    },
+    {
+      "path": "visual-novel/art/character-keys/barkley/key.png",
+      "sha256": "2c659926c612a52bc1c79d37b86ea2fb989592946c4ec79701d62e6a545e9e5b",
+      "bytes": 2424889,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/calista/KEY.md",
+      "sha256": "b9c6f850afda53eaeecf12917f18a3fe504bf8c3a9ccfbe79d8703fac34f296c",
+      "bytes": 3734
+    },
+    {
+      "path": "visual-novel/art/character-keys/calista/early-key.png",
+      "sha256": "674f1625748e664e5961afa4f2cd9744ae813b41e5ee0bdef71bda0f3e7087d3",
+      "bytes": 2265279,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/calista/later-key.png",
+      "sha256": "bff79c99f1253c65f4a06ed8cd9e4283f7b1b4a825ed1df733c178ee201c963f",
+      "bytes": 2197207,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/cassia/KEY.md",
+      "sha256": "58910066652546907fd26b6a3cacef8cd49f4a70182f2264433e39bc8eb831d5",
+      "bytes": 3573
+    },
+    {
+      "path": "visual-novel/art/character-keys/cassia/early-key.png",
+      "sha256": "e45be2b2ea007639a97c519f46992c7e0778fb6b4ac451b836670d57e9c73f1e",
+      "bytes": 2333797,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/cassia/later-key.png",
+      "sha256": "4c35a3edbe9478fa4b0437b2e46945914eeabed6c9f2bab058aecdbe5b285f34",
+      "bytes": 2421599,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/catalog.json",
+      "sha256": "be8e01e752fcd1f0e81e103925d8018a126d478462e5d3950863804bd853e035",
+      "bytes": 22703
+    },
+    {
+      "path": "visual-novel/art/character-keys/dorian/KEY.md",
+      "sha256": "4d63822a03f357c9405d499ee0a1e26f48adeb43608267f106585b961e6a6df5",
+      "bytes": 2617
+    },
+    {
+      "path": "visual-novel/art/character-keys/dorian/key.png",
+      "sha256": "721812050c5bc38338e559656b6833ff3e2838fd19cb8380be161dd74505ec31",
+      "bytes": 2634295,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/index.html",
+      "sha256": "5982abd0b52c9c452a46d0d202e0a633fde7ec3fae8b3128de51be07fe78529a",
+      "bytes": 37623
+    },
+    {
+      "path": "visual-novel/art/character-keys/joren/KEY.md",
+      "sha256": "ea437ba0a98a9ece2a77b44a3791874d3e04eca0b8d18318df9e5486dd5b0854",
+      "bytes": 3393
+    },
+    {
+      "path": "visual-novel/art/character-keys/joren/early-key.png",
+      "sha256": "d494b5813397e240103f1bd545f3c0cb3c7a693ae5d1475a6709e72de35efac0",
+      "bytes": 2265896,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/joren/later-key.png",
+      "sha256": "a37730b967229b476af234e11f39d00ac865686f303e83d7d63acf28a376f550",
+      "bytes": 2245867,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/kael/KEY.md",
+      "sha256": "0baf65e58012bf21b3b1acf70a6bc2e957bc9de80e9903db17037836e2605f37",
+      "bytes": 2525
+    },
+    {
+      "path": "visual-novel/art/character-keys/kael/key.png",
+      "sha256": "3ee0b3fde4cadffbd93e10e7642bd11875638b5dfdc6ccdee8bca66ee28b4062",
+      "bytes": 2377929,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/kaleb/KEY.md",
+      "sha256": "a7527cc8ab83c7a4d3f150a2567455bb6edc5270e0b7854499e0a42bf4aba568",
+      "bytes": 2042
+    },
+    {
+      "path": "visual-novel/art/character-keys/kaleb/key.png",
+      "sha256": "54cb863251e4dca5c2c8a8dc11eda89bcb0ebf4da2e3dd8894057ba18ba6f8b9",
+      "bytes": 2593460,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/lyra/KEY.md",
+      "sha256": "ff8c96ab202089d37736aca23f2cd8325a7304b97319755ae74ad85194f68c8c",
+      "bytes": 2256
+    },
+    {
+      "path": "visual-novel/art/character-keys/lyra/key.png",
+      "sha256": "f1042d1f6ad4c784808dd12fe09e9d51590e205b8e7fa8962afe165d39e673db",
+      "bytes": 2380192,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/lyron/KEY.md",
+      "sha256": "1d43da03b9c937e651b689ebed3533192288da1325988c94063eb9d0c4b66da1",
+      "bytes": 2935
+    },
+    {
+      "path": "visual-novel/art/character-keys/lyron/key.png",
+      "sha256": "ad62c7295f18d75c99f8d2e9b1bb571d021bde82a048855c02e0a40f5f0ecad4",
+      "bytes": 2391600,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/maia/KEY.md",
+      "sha256": "4984ca7464bab83ea13bbcebbee6e330bf2cb2a4645ffe4cdb7e0a4cfe418efe",
+      "bytes": 2768
+    },
+    {
+      "path": "visual-novel/art/character-keys/maia/key.png",
+      "sha256": "acc714960631798870735d26eca3e2bcca47066ea9fa8ba7dae7c552844c662c",
+      "bytes": 2791330,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/nibble/KEY.md",
+      "sha256": "11bb739cba0294d2ba4cb10fd0aad3c7e266c83d82c7dc1a145eb2e92189a440",
+      "bytes": 2797
+    },
+    {
+      "path": "visual-novel/art/character-keys/nibble/key.png",
+      "sha256": "ca4fee17399db0574fc4033815d8a704f4d73fa3ae8bf3c5d4905f0b28c4b94e",
+      "bytes": 2104558,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/sage/KEY.md",
+      "sha256": "ead5aa7fee216d5dbd62a833cb8d47244a4a5d4019320af4d31367ac91acba2c",
+      "bytes": 2606
+    },
+    {
+      "path": "visual-novel/art/character-keys/sage/key.png",
+      "sha256": "d55e417b05e4dfc44aafd5ec7cdb34fac0871ce84ba9f51ee7c34a224750e8c4",
+      "bytes": 2526640,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/selene/KEY.md",
+      "sha256": "1ff11fb5127029a7623892b3760f135ec0562e9d0b11e8a6c220ecc59eab1e7f",
+      "bytes": 2602
+    },
+    {
+      "path": "visual-novel/art/character-keys/selene/key.png",
+      "sha256": "68075d19a0f12ef87fb04de849c0d64b75be4c4b731d79387d45d2bde809a6d5",
+      "bytes": 2717598,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/shadow/KEY.md",
+      "sha256": "93736258ce5bfa59cbf5a356c70140a2c5d50c2158c90dac8db38d4116f8a0e0",
+      "bytes": 2562
+    },
+    {
+      "path": "visual-novel/art/character-keys/shadow/key.png",
+      "sha256": "a9427e733e568f43474df8255464233ec3a1029207f255466c9ed85c1873f126",
+      "bytes": 2089091,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/soren/KEY.md",
+      "sha256": "428132daf6a736f7390349852cca2b292d708dbe7f43d0b84706683be22703c5",
+      "bytes": 2120
+    },
+    {
+      "path": "visual-novel/art/character-keys/soren/key.png",
+      "sha256": "7449cdb7e34bf775596128400df82eabcef6cd0dea64c966fe2360eaae99d9e2",
+      "bytes": 2358211,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/art/character-keys/thalia/KEY.md",
+      "sha256": "6f34ee9e1ea15d9319a2361bf5854f91428aeed89f76705f3a8a71a532662f08",
+      "bytes": 2039
+    },
+    {
+      "path": "visual-novel/art/character-keys/thalia/key.png",
+      "sha256": "cf921f4cc40de7dd4e5dc85c1168cfdbba40068069cce5b7c44b6fa0326a45a1",
+      "bytes": 2407204,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "visual-novel/docs/familiar-assets.json",
+      "sha256": "723aef4d0c4ab089424d522e9e2ddca06b6a510f13382ad9bafe98ed04b7c5fa",
+      "bytes": 14505
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/arin-everyday.png",
+      "sha256": "a208e74d82908a6a3c1dfa05d2b592ac92d7f11a1f54a56542535701a3f8b379",
+      "bytes": 1387019,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/calista-mourning.png",
+      "sha256": "0075c2688598b716a97d7f720e61452a8a6a0ebe3198c2b1cb8a45f3d3da0df8",
+      "bytes": 1409595,
+      "dimensions": [
+        1023,
+        1537
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/calista-older.png",
+      "sha256": "d36489fd12db1fd3f2d360afa83d675e2af5bcb563e942775ad196f5f11f70b3",
+      "bytes": 1432866,
+      "dimensions": [
+        1023,
+        1537
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/calista-young.png",
+      "sha256": "7e37d6dd316296f9f89f3ce495cf999b0a3ace235c91be6661d129640e64d8ee",
+      "bytes": 1470128,
+      "dimensions": [
+        1022,
+        1538
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/cassia-mourning.png",
+      "sha256": "8fe0c0a2c74c0199a05cba55115c494f6188c36064d3144bcec2dd3586bcc9b1",
+      "bytes": 1647101,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/cassia-older.png",
+      "sha256": "f65d350cb1d99f692c0de61ee2f160f21795aefafd7d263e88e29f27939865d6",
+      "bytes": 1707744,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/cassia-young.png",
+      "sha256": "353258e8c289f3eb3f95a0329fb1ae44b48fdab90d8604dcc64547cb5581f363",
+      "bytes": 1729046,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/dorian-everyday.png",
+      "sha256": "100a3c36ae18a31572741a6ab66beee190dc19c58054dd5af557b3eee553664a",
+      "bytes": 1637736,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/joren-frustrated.png",
+      "sha256": "1ef2db5eb4b132947fb39ac4757ca54b37bd3faefa24be71d785faf24117f004",
+      "bytes": 1656185,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/joren-older.png",
+      "sha256": "853411333d8c9cc40fae87b3a4089ae551eaae7250319195b1f5e14dc048a8b0",
+      "bytes": 1614271,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/joren-young.png",
+      "sha256": "e7fdfcb40ec82c98d46f6343ea458ba83b54cea2c7cb37bcc34c21d009286ce2",
+      "bytes": 1621364,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/kael-young.png",
+      "sha256": "86f1acb57974e793a366ad693f0be9fd8b9d55e454794eaab401b04c7bc13651",
+      "bytes": 1441772,
+      "dimensions": [
+        1023,
+        1537
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/kaleb-everyday.png",
+      "sha256": "dbd65a8637da9692dda912025d87da0d3419d1acedb20cc3b0bf96a57be1184b",
+      "bytes": 1680641,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/lyra-young.png",
+      "sha256": "3198fe4eb432101cdd7d86a0f0f17e007349489645ce68e203f0adac01cbf7fb",
+      "bytes": 1389271,
+      "dimensions": [
+        1023,
+        1537
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/lyron-everyday.png",
+      "sha256": "33d007146fabfc5a797fbeee5775761810da7f95bc69ab6620a4531a984f501c",
+      "bytes": 1683121,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/maia-home.png",
+      "sha256": "5af5fc0864752f96d60c8eb8f0fafaf05124edfa2205f7da8c72c70b49d681b2",
+      "bytes": 1615996,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/sage-everyday.png",
+      "sha256": "a8b50af8591a81b707e8768145f9559f17e6a18b6675e9b24c44bb1b36a3a837",
+      "bytes": 1367378,
+      "dimensions": [
+        1023,
+        1537
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/selene-everyday.png",
+      "sha256": "4b18d24c659a09bcbd83f1b9e01b2fbc6bfe40578e14ee16c69a5cc455e8beb2",
+      "bytes": 1619559,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/soren-everyday.png",
+      "sha256": "aa9cefcc28cff081cf23ee1f6a56bfbe44731318b1ef3f7ec1946dd57cd516cf",
+      "bytes": 1581773,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/characters/book-one/thalia-everyday.png",
+      "sha256": "734fcc28508a9a86381d4223e8b541c3b50227f002460207a468c0c5cf4798ed",
+      "bytes": 1343713,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/familiars/barkley.png",
+      "sha256": "49084a021567be20c336956201f5ed6bfdb4ac6a9c8a8198b7e2040e7d88ad37",
+      "bytes": 1684830,
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/familiars/nibble.png",
+      "sha256": "a3eb23fe22427f87b6fdf12c7c6c2fdf7dcbc87d50579ba288726f2bd7f1bb95",
+      "bytes": 1645778,
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "visual-novel/game/images/familiars/shadow.png",
+      "sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59",
+      "bytes": 1411506,
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "path": "wiki/bios/Arin.md",
+      "sha256": "ed767f5639cb917b4039ca1b8a5f3b09170d15ca9511579d69f5644abd9457e5",
+      "bytes": 9440
+    },
+    {
+      "path": "wiki/bios/Calista.md",
+      "sha256": "8f8627774676f065f78d69e9505df757f941034b7828fcec7db1cbeb26cfd2bd",
+      "bytes": 12205
+    },
+    {
+      "path": "wiki/bios/Cassia.md",
+      "sha256": "c32aa1ddfb9bfa866d28fdd465303dfcf22f54aba46493044740e24a496711f9",
+      "bytes": 12134
+    },
+    {
+      "path": "wiki/bios/Dorian.md",
+      "sha256": "6c230a991a83a43548a2600e389edd2e0fa46afd19a7bf793fbd10255681dea2",
+      "bytes": 10627
+    },
+    {
+      "path": "wiki/bios/Joren.md",
+      "sha256": "209aeba6ed20144677fdafe35a09f37a6c0e2038ed22d25812866d47a6cc8c56",
+      "bytes": 11691
+    },
+    {
+      "path": "wiki/bios/Kael.md",
+      "sha256": "5fadf1335868141d50aec7cd61b73f655aec2ffcc522941d6c91014ee5048c76",
+      "bytes": 9253
+    },
+    {
+      "path": "wiki/bios/Lyra.md",
+      "sha256": "98bb83cd8f2eca2656efda313c61f9fe132a27b37ed89fbe86f7197f34cfa829",
+      "bytes": 12887
+    },
+    {
+      "path": "wiki/bios/Maia.md",
+      "sha256": "230d48b15fbb1a8ae804c322581a17f16c20663c43e021b147a17077e1195f91",
+      "bytes": 8929
+    },
+    {
+      "path": "wiki/bios/Sage.md",
+      "sha256": "f10c22921fedb7c78f2cca9397b279e525db6fc65da5bd012e22dd79c04e4cdb",
+      "bytes": 11772
+    },
+    {
+      "path": "wiki/bios/Selene.md",
+      "sha256": "c573fa449e0ad8c38618a643f660501e9996742cc928ae9050c3bb32b977d388",
+      "bytes": 10004
+    },
+    {
+      "path": "wiki/bios/Shadow.md",
+      "sha256": "b42d6cdb62d1d786d641055b6bc1f61fdfddcb2446e638efc0204dd6326d8e8f",
+      "bytes": 6852
+    },
+    {
+      "path": "wiki/worldbuilding/Familiars.md",
+      "sha256": "b5fc7630c7c34c09cf2c8a54c0de09d92522e72f61c8539e367455ed3a57d634",
+      "bytes": 6974
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "development/visual-novel/reviews/organization/browser-keys-desktop.png",
+      "sha256": "a63b691eec261af4f73284bd4f33e95f9187d9abe1aa5082b3688fbadde339f6"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-keys-mobile.png",
+      "sha256": "acefb66dd111f619bd6db8c6819662e8971ee1eb060c02a7b8f15857027ddf20"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-comparisons-desktop.png",
+      "sha256": "28125f47609f19218407ea82f0981cf8e706b529021204092c1a687e182da8d7"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-comparisons-detail.png",
+      "sha256": "ff7b569676efd3a35ed9a67a837f4662b1c1b3def8cc5c43041b7cd35138a36a"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-comparisons-mobile.png",
+      "sha256": "3ec5c2ccef231b7ff67938b6527b689c4317f6822afbc0fe2e3def5139396335"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-opening-desktop.png",
+      "sha256": "70452481feb0dcfe186531cf9d004bc1af03473759c5b316c1d43c7468580928"
+    },
+    {
+      "path": "development/visual-novel/reviews/organization/browser-opening-mobile.png",
+      "sha256": "0c85c6e3d691014677cb866427bb1d31ad178e3187a0b3af19ec20952f9cc8f4"
+    }
+  ],
+  "javascript_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "HTTP_errors": [],
+  "external_requests": []
+}

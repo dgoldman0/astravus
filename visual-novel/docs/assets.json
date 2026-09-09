@@ -63,7 +63,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "character-pass-opening",
-        "recipe_sha256": "a0554c847d555641566325224276d433c2ff3f627dee5ee4569386f03117b6f1"
+        "recipe_sha256": "47dd736e125353b62c3ae48e918a7ea44d571b9ca0874463b9cfaad1055f2155"
       }
     },
     {
@@ -138,7 +138,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "production-cassia-storytelling",
-        "recipe_sha256": "6bbbcb66f34313eff0b2969df3c8d9fa20a7db1f421f4989655bf5ebac150854"
+        "recipe_sha256": "bfb4e10b89894bf622b8e6cd4481ba5f82fe3fee77473b51e8168c33dddb71fb"
       }
     },
     {
@@ -208,7 +208,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "character-pass-pond-rescue",
-        "recipe_sha256": "4edbdbc71dcd148a28c139d7ff11f4d219eb15f96f108502e394475b7fdf6f54"
+        "recipe_sha256": "71859ce7b60c0dfa2a071e400970d9bcb74bbc17d4748c3ccc3c39b64aa1bea2"
       }
     },
     {
@@ -223,7 +223,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "character-pass-pond-comfort",
-        "recipe_sha256": "95a6fe5be0c8899186a45c6c9037b55f7ff74e8a60ace10ee090e3838f21afc1"
+        "recipe_sha256": "341b62ad30e3c860709a841ec2e00b1fb28d8b8bfd9e797027be77a14aea6f7b"
       }
     },
     {
@@ -238,7 +238,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "production-treehouse-friends",
-        "recipe_sha256": "9713da53d5dbdfd85e49b879e41be81243a841fb312581c3e5b7980e94e328db"
+        "recipe_sha256": "d8aeaf8777a1427f141ada88a3ab52e48633739a26ebf775f69032a0b98c3e2f"
       }
     },
     {
@@ -253,7 +253,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "production-theme-garden-opening",
-        "recipe_sha256": "95928ecedfec388558306f991f7d72590a2398f8c5073e00bee7dc2ecae399db"
+        "recipe_sha256": "1a2063de1f55732e665d25a536e21e26c311c4c9b13910605158248435934583"
       }
     },
     {
@@ -283,7 +283,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "character-pass-theme-insect-discovery",
-        "recipe_sha256": "976936c1e520f0a2f00850aa4a023c655f66b2537c4f7b8c518d9460d1522f65"
+        "recipe_sha256": "fa68076d694c6e40cd10219e6425633d29294ae73ff5adc209332c5dc40076df"
       }
     },
     {
@@ -308,7 +308,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "production-theme-treehouse-arrival",
-        "recipe_sha256": "5ff1608af20fab881b2014b1b5b3304bf45294b2033e58c1aacc1ae6dbe757a6"
+        "recipe_sha256": "5678896ecbfae291d9d12ae327b01d5b6958fb1c06a8ffaf56fceb2641e7900b"
       }
     },
     {
@@ -333,7 +333,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "production-theme-dome-friends",
-        "recipe_sha256": "115170483bf23fe6d515d5918fbeaf6efc7d7ef14ef63cadf7cadea23e64c6be"
+        "recipe_sha256": "d466681d7239d3981baf49ee2f64aa5f6f4c3350f05c35917a2f030acac8277b"
       }
     },
     {
@@ -373,7 +373,7 @@
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
         "id": "production-theme-morning-outlook",
-        "recipe_sha256": "c2b122137e12416489550df32a8914974975172e0627886d37a69224d7ccdd32"
+        "recipe_sha256": "ce3cc1e78c874efaf305205fb7abcc4871bee2bf368d812705a008f81225c2f1"
       }
     }
   ],
@@ -1159,11 +1159,11 @@
       "output_id": "exec-c4e0fc1c-ad1e-4627-aae9-41bb7491bd26",
       "prompt": "Use case: precise-object-edit.\nAsset: one carefully controlled revision of an existing painterly visual-novel illustration, not a new composition.\nImage 1 is the sole edit target. Keep its exact wide frame, camera, positions, five adults, newborn, room, lamplight, color grade, fabric detail, painterly finish and intimacy. Return the complete scene at the original 1672 x 941 framing if possible.\n\nChange ONLY the two adults at the outer edges: ARIN at far left and SAGE at far right. They currently resemble each other too closely. Refine their existing designs to embody these source descriptions while retaining their age as fully grown earlier-life parents, their androgyny and their shared tender attention to the baby.\n\nSAGE, far RIGHT, is the main change. Give them a recognizably rounder, softly full face: fuller cheek volume, a broader softly curved jaw and rounded chin, gentle brow and a subtly broader softer nose. Keep believable mature adult facial proportions, freckles, natural skin texture, warm tan skin with rosy undertones, and the downturned gaze and quiet closed-mouth smile. They should look like a different individual from Arin, without a change of gender presentation. Make their visible neck, shoulders and clothed upper torso a natural medium build rather than the current very lean build; modest soft fullness, not an exaggerated body change. Keep the same seated pose and hand positions. Refine their short sandy hair into a softer close rounded crop with a small side part, calmer gently wavy surface and ears visible; clearly different silhouette from Arin's pointed tousled auburn crop. Keep the sandy color naturally subdued by the amber lamplight. Retain their existing blue-teal waistcoat, cream rolled sleeves, jewelry, cuffs and clothing patterns. Gray eyes only where iris is actually visible; do not open the eyelids to display eye color.\n\nARIN, far LEFT: preserve their existing recognizable lean angular facial identity, lean muscular build, strong forearms, exact head angle, pose and expression. Make their auburn hair a genuinely short practical crop, a little tighter at sides and nape with short textured top, still recognizably auburn rather than sandy. Bring their freckled complexion closer to pale warm skin, visibly lighter than Sage under the SAME dim warm lamplight; natural illuminated skin, no bleached glow or cool spotlight. Treat their face, neck and visible forearms/hands consistently. Preserve their subtle freckles and natural anatomy. Keep all clothing, jewelry, hand positions and their inward attention. Blue eyes only where visible; do not open eyelids. No added tools, grease, scars or finger changes in this newborn welcoming scene.\n\nEverything else is locked: MAIA in the center holding the newborn, SELENE with white hair behind left-center, DORIAN with glasses behind right-center, their exact faces, skin, hair, bodies, clothing and positions; baby's exact face, pose, scale, wrapped body and supporting hands; all background plants, lamps, alcoves, cushions, architecture and light. Preserve original edges and fine texture. Do not beautify or smooth the entire scene, recolor it, reframe it, rearrange it or change its style. No new objects, people, text or panels. Keep attention on the safely supported baby. This is a local character correction, with only the Arin and Sage regions revised.\n",
       "references": [
-        "visual-novel/art/character-refinement-test/opening-original.png"
+        "development/visual-novel/art/opening-identity/opening-original.png"
       ],
       "selected": false,
       "selection_note": "Paint donor for a masked production edit; not a full-scene replacement.",
-      "file": "visual-novel/art/character-refinement-test/opening-generated-v1.png",
+      "file": "development/visual-novel/art/opening-identity/opening-generated-v1.png",
       "sha256": "17423b95da463da9185dc732903e2b8ee96a314d15e2a04922c7dbad1c415512"
     },
     {
@@ -1171,12 +1171,12 @@
       "output_id": "exec-c3540716-42b6-48e9-9c7e-1a10aa1c8a33",
       "prompt": "Use case: identity-preserve\nAsset type: local correction to an existing Astravus visual novel story illustration.\nInputs: Image 1 is the edit target. Image 2 is Lyra's accepted multi-view identity key; use it for facial construction only. Output one full scene at exactly the target canvas, 1672 x 941, with the exact framing and alignment.\nPrimary request: Refine only Lyra's facial anatomy to match the key's more natural small-child proportions: slightly smaller eye apertures and green irises, fitted eyelids and coherent cheek/bridge planes. Retain her youthful round cheeks, tiny nose, golden-olive complexion, golden freckles, unruly golden curls, and recognizable identity. She is the youngest child, visibly much smaller than her siblings, not a teen or adult. Keep the existing painterly storybook rendering, detail level, local exposure, warm light and soft shadow colors. Her irises are green pigment under that light, not glowing lenses.\nScene and performance: Lyra is the little golden-curled child at the right, waist-deep in pond water. Keep her face at the same tilt and position, eyes looking up-left toward her rescuing siblings, frightened and urgently appealing with lifted worried brows and parted mouth. Preserve fear and alertness; do not apply the reference's sleepy neutral expression. Preserve damp curls, soaked russet shirt and gray-green overalls, wet skin, arm and hand positions, supporting sibling grips, waterline, ripples and the entire pond geometry. All of Kael (left), Cali (center), Barkley, Shadow, plants and environment remain unchanged.\nConstraints: Change only Lyra's face. Do not change hair silhouette, body scale, clothing, other characters, camera, setting, lighting, background or objects. No text, key-sheet panels, labels, watermarks or new props. Preserve the face angle and scene-specific gaze and emotion while applying the reference anatomy.\n",
       "references": [
-        "visual-novel/art/visual-pass-2026-09/pond-rescue-original.png",
+        "development/visual-novel/art/character-refinements/pond-rescue-original.png",
         "visual-novel/art/character-keys/lyra/key.png"
       ],
       "selected": false,
       "selection_note": "Paint donor for a masked production edit; not a full-scene replacement.",
-      "file": "visual-novel/art/visual-pass-2026-09/pond-rescue-generated.png",
+      "file": "development/visual-novel/art/character-refinements/pond-rescue-generated.png",
       "sha256": "738c3c86471f2672bff9e09ab5119d587f4e4f2e34899555451330079302848d"
     },
     {
@@ -1184,12 +1184,12 @@
       "output_id": "exec-aa7120cc-1ff5-4225-8a2e-88b41018142f",
       "prompt": "Use case: identity-preserve\nAsset type: local correction to an existing Astravus visual novel story illustration.\nInputs: Image 1 is the edit target. Image 2 is Lyra's accepted multi-view identity key; use it for facial construction only. Output one full scene at exactly the target canvas, 1672 x 941, with the exact framing and alignment.\nPrimary request: Refine only Lyra's facial anatomy to match the key's more natural small-child proportions: slightly smaller eye apertures and green irises, fitted eyelids and coherent cheek/bridge planes. Retain her youthful round cheeks, tiny nose, golden-olive complexion, golden freckles, unruly golden curls, and recognizable identity. She is the youngest child, visibly much smaller than her siblings, not a teen or adult. Keep the existing painterly storybook rendering, detail level, local exposure, warm light and soft shadow colors. Her irises are green pigment under that light, not glowing lenses.\nScene and performance: Lyra is the smallest golden-curled child at the center foreground, sitting supported in Cali's arms. Keep her head position and tilt, eyes looking slightly left and up, quiet shaken vulnerability after rescue, lips gently parted with no new smile. Do not apply a blank sleepy neutral or cheerful laugh. Preserve the warm shaded garden light, damp/tousled curls and wet/muddy clothing. Keep exactly all supporting hands, overlapping bodies, clothing and poses. Cali (left behind her), Kael (right), Barkley (left), Shadow (right), pond and stone ground remain unchanged.\nConstraints: Change only Lyra's face. Do not change hair silhouette, body scale, clothing, other characters, camera, setting, lighting, background or objects. No text, key-sheet panels, labels, watermarks or new props. Preserve the face angle and scene-specific gaze and emotion while applying the reference anatomy.\n",
       "references": [
-        "visual-novel/art/visual-pass-2026-09/pond-comfort-original.png",
+        "development/visual-novel/art/character-refinements/pond-comfort-original.png",
         "visual-novel/art/character-keys/lyra/key.png"
       ],
       "selected": false,
       "selection_note": "Paint donor for a masked production edit; not a full-scene replacement.",
-      "file": "visual-novel/art/visual-pass-2026-09/pond-comfort-generated.png",
+      "file": "development/visual-novel/art/character-refinements/pond-comfort-generated.png",
       "sha256": "5bf87f959fd1210e5248892c4f925704f87e598fd36743dd967784da090343de"
     },
     {
@@ -1197,12 +1197,12 @@
       "output_id": "exec-2c569a43-af93-4e18-a040-e612e51b0ac3",
       "prompt": "Use case: identity-preserve\nAsset type: local correction to an existing Astravus visual novel story illustration.\nInputs: Image 1 is the edit target. Image 2 is Lyra's accepted multi-view identity key; use it for facial construction only. Output one full scene at exactly the target canvas, 1672 x 941, with the exact framing and alignment.\nPrimary request: Refine only Lyra's facial anatomy to match the key's more natural small-child proportions: slightly smaller eye apertures and green irises, fitted eyelids and coherent cheek/bridge planes. Retain her youthful round cheeks, tiny nose, golden-olive complexion, golden freckles, unruly golden curls, and recognizable identity. She is the youngest child, visibly much smaller than her siblings, not a teen or adult. Keep the existing painterly storybook rendering, detail level, local exposure, warm light and soft shadow colors. Her irises are green pigment under that light, not glowing lenses.\nScene and performance: Lyra is the golden-curled little girl at right, leaning toward the ladybug on the leaf. Keep her head position and tilt and eyes focused down-left on the insect, with alert inquisitive wonder and the existing small delighted smile. Do not turn curiosity into sleepiness, sadness, or a blank pose. Retain detailed golden curls, rust hair clips, freckles, russet shirt, gray-green overall straps. All of Cali at left, her hands, leaf and tiny ladybug, the foreground flowers, background, rimlight and composition remain unchanged.\nConstraints: Change only Lyra's face. Do not change hair silhouette, body scale, clothing, other characters, camera, setting, lighting, background or objects. No text, key-sheet panels, labels, watermarks or new props. Preserve the face angle and scene-specific gaze and emotion while applying the reference anatomy.\n",
       "references": [
-        "visual-novel/art/visual-pass-2026-09/theme-insect-discovery-original.png",
+        "development/visual-novel/art/character-refinements/theme-insect-discovery-original.png",
         "visual-novel/art/character-keys/lyra/key.png"
       ],
       "selected": false,
       "selection_note": "Paint donor for a masked production edit; not a full-scene replacement.",
-      "file": "visual-novel/art/visual-pass-2026-09/theme-insect-discovery-generated.png",
+      "file": "development/visual-novel/art/character-refinements/theme-insect-discovery-generated.png",
       "sha256": "68f71c9224032d67fe7dcbeb04cbf2cd4f9fb22e2fb1d54beecfedee402c360b"
     }
   ]

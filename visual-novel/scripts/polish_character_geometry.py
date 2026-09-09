@@ -16,7 +16,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 SPEC = ROOT / "docs/character-geometry-spec.json"
-OUT = ROOT / "build/graphics-polish/characters"
+OUT = ROOT / "../development/visual-novel/archive/local/graphics-workspace/characters"
 
 
 def digest(data):

@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "method": "GIMP 2.10.36 luminance desaturation on existing pigment at 80% layer opacity; two feathered iris masks; exact pupil/catchlight exclusion",
+  "selected_file": "visual-novel/game/images/characters/book-one/sage-everyday.png",
+  "source_sha256": "6d4bfe57f4060754b1d425c8a5bc6f97781cced4dd34ef7871cec09fade8d3a0",
+  "selected_sha256": "a8b50af8591a81b707e8768145f9559f17e6a18b6675e9b24c44bb1b36a3a837",
+  "mode": "RGB",
+  "size": [
+    1023,
+    1537
+  ],
+  "foreground_bounds": [
+    357,
+    38,
+    736,
+    1474
+  ],
+  "changed_pixels": 77,
+  "changed_bounds": [
+    473,
+    144,
+    526,
+    168
+  ],
+  "mask_nonzero_pixels": 80,
+  "outside_mask_changed_pixels": 0,
+  "protected_pupil_catchlight_pixels": 68,
+  "protected_changed_pixels": 0,
+  "all_other_pixels_exact": true,
+  "prior_xcf_flatten_matches_source": true,
+  "new_xcf_reopening_matches_export": true,
+  "hiding_new_layer_restores_source": true,
+  "max_linear_luminance_delta_0_to_1": 0.0012807303631707234,
+  "native": {
+    "suite": "global::character_framing_review",
+    "runs": "fresh before and after, each passed 2 assertions",
+    "capture_size": [
+      1920,
+      1080
+    ],
+    "changed_pixels": 56,
+    "changed_bounds": [
+      937,
+      270,
+      968,
+      285
+    ],
+    "alpha_exact": true,
+    "review": "Both actual Ren'Py full-body renders inspected. Iris change is subtle at stage size; no luminous eyes, face/pose shift, or matte change. Enlarged GIMP source details establish the pigment correction more clearly."
+  },
+  "reproduction_script": "visual-novel/scripts/refine_sage_irises.scm",
+  "reproduction_script_sha256": "5cbeff74ba84562583f6efca38fbb705f2cfe81927f2a96e563900c620c78d71",
+  "prior_editable_source": "development/visual-novel/art/characters/sage/sprite-refined.xcf",
+  "prior_editable_source_sha256": "14d5eba35ab635d5df51d112046a84e32a2b78f2ac7006a29ea9c0721acf8906",
+  "files": {
+    "README.md": "b4e9e20808d81e926c45fd99dac93993b5cd0c42e6f29d87786f1b5bc5a8e10c",
+    "eye-detail-after.png": "b4d067b644928ff820ee4485d1a4afc22004b576dcd88a223cb92d89ff643508",
+    "eye-detail-before.png": "146513e9e0c8463e71ae9ecd31aaa2370e90e9d917c10ebdf9a91d57dca06baf",
+    "gimp.log": "62c96b5b03aa637a1dfdc31769467902e0715012a1e38ce5d644410cc3bc9b05",
+    "mask-iris-viewer-left.png": "41c90b6a739349b80412bd38d6e797a5e1d75f6edfb06391d1db726706618908",
+    "mask-iris-viewer-right.png": "f44b0379c690db7c4350f21bcb78a32a19cbf11c659805678951fa1f19c94071",
+    "mask-irises.png": "a009a31afa37a71da3b9e4c6e861bd81d554163794c99cf5ddf90e2a684389b4",
+    "mask-protected-pupils-highlights.png": "f188a8154a4321166471b7728852828f22f885df61c07b4e9dbbe879bb3b0ff6",
+    "native-framing.log": "aac39a4daab25aac110665ac60fdb50be031b7447bdb0569d187ef503bfc1ac4",
+    "native-sage-after.png": "d8e101072bfab8ea5077a66f73d184bf4ce920487706801211bfdfb9f6b8efda",
+    "native-sage-before.png": "7e1ad65d652bbd01c16605de2c483c6d4e5c4c1e732bed09130e1a35d1866f0d",
+    "prior-restored.png": "0214ea2548b282d6adb8c3e54b6561a993fac3b5dd71831ff4647918b171d0ea",
+    "prior-xcf-flattened.png": "89a08ddbfd677a45d547f81fd05cf87bfe071a53f04f20b37155e56d71b56188",
+    "sprite-before.png": "6d4bfe57f4060754b1d425c8a5bc6f97781cced4dd34ef7871cec09fade8d3a0",
+    "sprite-refined.png": "a8b50af8591a81b707e8768145f9559f17e6a18b6675e9b24c44bb1b36a3a837",
+    "sprite-refined.xcf": "557cf614e20c48fd7ba7aec52977fc6e07d50e12970b880cf5b88d64a59485d5",
+    "verify.py": "5c1b4e3bdd4a3393399eaae4e91d1a6632aed2725cc004931664a281812df02c",
+    "xcf-reopened.png": "a7e68c16c57a2dd2aa19b7e2061f41190b7dd4d5668f974e4e6fd68050acc049"
+  }
+}

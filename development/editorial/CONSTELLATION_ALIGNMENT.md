@@ -2,7 +2,7 @@
 
 The author-defined meaning of **constellation** is an adult romantic/peer relationship. Family and household describe different relationships and organizations. The canonical definition is in [Constellations](../../wiki/worldbuilding/Constellations.md).
 
-The [VN adaptation](../../visual-novel/docs/ADAPTATION.md#dialogue-and-voice) and [glossary review](../../visual-novel/docs/GLOSSARY_REVIEW.md) already record this meaning. The wiki corrections align definitions, biographies, family headings, familiar descriptions and event summaries with that existing clarification. They do not change who is related to whom, any story event, or any visual asset.
+The [VN adaptation](../../visual-novel/docs/ADAPTATION.md#dialogue-and-voice) and [glossary review](../visual-novel/reviews/releases/GLOSSARY_REVIEW.md) already record this meaning. The wiki corrections align definitions, biographies, family headings, familiar descriptions and event summaries with that existing clarification. They do not change who is related to whom, any story event, or any visual asset.
 
 ## Manuscript wording proposals
 

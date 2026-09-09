@@ -454,9 +454,9 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f",
-      "reviewed_reference_signature": "3f34e9a9bcbf1a60eb589cf41044212a433d4fd659e1c83098bfb541c7df3db7",
+      "reviewed_reference_signature": "57f113aee05589421dc5f7f8d24106e25f2b268da3c716c4f0100577c3da6cd1",
       "findings": [],
-      "review_notes": "Install the approved trial. Pale cropped-auburn Arin and rounder sandy-haired Sage are distinct. Five inward adult gazes and the supported newborn remain; Maia, Selene and Dorian's protected face interiors, the baby's face/reaching hand and Maia's holding hands are unchanged. Downward gazes do not prove iris color. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Install the approved trial. Pale cropped-auburn Arin and rounder sandy-haired Sage are distinct. Five inward adult gazes and the supported newborn remain; Maia, Selene and Dorian's protected face interiors, the baby's face/reaching hand and Maia's holding hands are unchanged. Downward gazes do not prove iris color. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -522,9 +522,9 @@
             ]
           }
         ],
-        "notes": "Install the approved trial. Pale cropped-auburn Arin and rounder sandy-haired Sage are distinct. Five inward adult gazes and the supported newborn remain; Maia, Selene and Dorian's protected face interiors, the baby's face/reaching hand and Maia's holding hands are unchanged. Downward gazes do not prove iris color.",
+        "notes": "Install the approved trial. Pale cropped-auburn Arin and rounder sandy-haired Sage are distinct. Five inward adult gazes and the supported newborn remain; Maia, Selene and Dorian's protected face interiors, the baby's face/reaching hand and Maia's holding hands are unchanged. Downward gazes do not prove iris color. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       }
@@ -543,9 +543,9 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "e656c47c19a9c9ef5f273c041d149db9078e58d99dc63a755f759d2c0a9c825e",
-      "reviewed_reference_signature": "ca03e604665eeb8c0aec5e94d053c2a714f78f84bd4b7be531bd41b96da98c7e",
+      "reviewed_reference_signature": "a8ea3ea3de513028d819f9a159cd6114df7ef98b3687020953df1fbb97b3f580",
       "findings": [],
-      "review_notes": "Retain. Later Cali and Cassia share quiet attention and hand contact in the rain-lit upper room. Longer faces and subdued clothes fit grief; their irises sit within eyelid shadows rather than emitting light. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Later Cali and Cassia share quiet attention and hand contact in the rain-lit upper room. Longer faces and subdued clothes fit grief; their irises sit within eyelid shadows rather than emitting light. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -575,9 +575,9 @@
             ]
           }
         ],
-        "notes": "Retain. Later Cali and Cassia share quiet attention and hand contact in the rain-lit upper room. Longer faces and subdued clothes fit grief; their irises sit within eyelid shadows rather than emitting light.",
+        "notes": "Retain. Later Cali and Cassia share quiet attention and hand contact in the rain-lit upper room. Longer faces and subdued clothes fit grief; their irises sit within eyelid shadows rather than emitting light. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       }
@@ -596,11 +596,11 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c",
-      "reviewed_reference_signature": "e123371cc63e240cffb8cf8ce8e94a4e24936854c2d39670171057465b2a844d",
+      "reviewed_reference_signature": "8ac75979dfe8c7316df003ace9a24e09a61325fc46c00a4b2ccc67e79d419009",
       "findings": [
         "CG-10"
       ],
-      "review_notes": "Retain. Early Cali listens with her sketchbook; young Cassia gestures among incidental children. Their skin, irises, hair and clothing remain distinct in warm courtyard light. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Early Cali listens with her sketchbook; young Cassia gestures among incidental children. Their skin, irises, hair and clothing remain distinct in warm courtyard light. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -610,7 +610,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Early Cali listens with her sketchbook; young Cassia gestures among incidental children. Their skin, irises, hair and clothing remain distinct in warm courtyard light.",
+        "notes": "Retain. Early Cali listens with her sketchbook; young Cassia gestures among incidental children. Their skin, irises, hair and clothing remain distinct in warm courtyard light. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -636,7 +636,7 @@
           "game/images/characters/book-one/cassia-young.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -644,7 +644,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:7a27af1382cd53534b41b70015f7f8066d21336f",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -661,9 +661,9 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "1113867923621e201436dcf19c2f03df6dd37927dba837ae523a39cbda436b90",
-      "reviewed_reference_signature": "8500a1ccfd05d27be98b17d9b8fd4dc3cff8fd2fa879ec56cb2e2b0f103fdf98",
+      "reviewed_reference_signature": "987b51c5bf1e6b6744410a522341a0f6a6d59b60f7a76638ea7c17f038bcfbc3",
       "findings": [],
-      "review_notes": "Retain. Later-childhood Cali's crying face and subdued clothes fit the loss. Maia supports her shoulders/back on the sofa. Warm lamps within a cooler dim home support comfort without turning grief into cheerfulness. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Later-childhood Cali's crying face and subdued clothes fit the loss. Maia supports her shoulders/back on the sofa. Warm lamps within a cooler dim home support comfort without turning grief into cheerfulness. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -693,9 +693,9 @@
             ]
           }
         ],
-        "notes": "Retain. Later-childhood Cali's crying face and subdued clothes fit the loss. Maia supports her shoulders/back on the sofa. Warm lamps within a cooler dim home support comfort without turning grief into cheerfulness.",
+        "notes": "Retain. Later-childhood Cali's crying face and subdued clothes fit the loss. Maia supports her shoulders/back on the sofa. Warm lamps within a cooler dim home support comfort without turning grief into cheerfulness. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       }
@@ -714,11 +714,11 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "8f44a837334af47ec5081cd04a4ab65087faca327fb278127ea3062214d109c1",
-      "reviewed_reference_signature": "3011a0a11c0c485705d1d2d1d7a9e5bf5c1af37ca4d225af07bcae04e6454216",
+      "reviewed_reference_signature": "992e1b2e2c870ea54a3ab055dc10ee060830f116b254b10dc7d03bf7cb300d3c",
       "findings": [
         "CG-11"
       ],
-      "review_notes": "Retain. Young Cali's lips and hands meet the flute, with white-haired bronze Selene attending beside her. Plum clothing and warm music-room lamps fit the lesson. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Young Cali's lips and hands meet the flute, with white-haired bronze Selene attending beside her. Plum clothing and warm music-room lamps fit the lesson. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -728,7 +728,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Young Cali's lips and hands meet the flute, with white-haired bronze Selene attending beside her. Plum clothing and warm music-room lamps fit the lesson.",
+        "notes": "Retain. Young Cali's lips and hands meet the flute, with white-haired bronze Selene attending beside her. Plum clothing and warm music-room lamps fit the lesson. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -754,7 +754,7 @@
           "game/images/characters/book-one/selene-everyday.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -762,7 +762,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:37b7d3f6597004978668cab2116b698246605649",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -779,11 +779,11 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "7554e2418496049f96c44d83b65460e9cc79a038f902ff2639ab6648215ae521",
-      "reviewed_reference_signature": "3011a0a11c0c485705d1d2d1d7a9e5bf5c1af37ca4d225af07bcae04e6454216",
+      "reviewed_reference_signature": "992e1b2e2c870ea54a3ab055dc10ee060830f116b254b10dc7d03bf7cb300d3c",
       "findings": [
         "CG-12"
       ],
-      "review_notes": "Retain. Same faces, clothes, camera and warm room as the playing view; the flute is lowered into Cali's lap for conversation. The pose change is legible. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Same faces, clothes, camera and warm room as the playing view; the flute is lowered into Cali's lap for conversation. The pose change is legible. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -793,7 +793,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Same faces, clothes, camera and warm room as the playing view; the flute is lowered into Cali's lap for conversation. The pose change is legible.",
+        "notes": "Retain. Same faces, clothes, camera and warm room as the playing view; the flute is lowered into Cali's lap for conversation. The pose change is legible. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -819,7 +819,7 @@
           "game/images/characters/book-one/selene-everyday.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -827,7 +827,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:595bb47ef8188cc71671358205c4b4995fda5973",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -848,9 +848,9 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "dec70c2e6a360ab0cdb6cfca4d174b347dbe27f3090f3745cbf9b25787218ff6",
-      "reviewed_reference_signature": "23a465fe2db784015a81097bf6849bff50f034b6acf4c4955f8d5e7b72e78c6d",
+      "reviewed_reference_signature": "f39b548d1c4360ebf519218e4145d83fb44ecfcc7f82869255152b01a0dda629",
       "findings": [],
-      "review_notes": "Retain. Young Cali, adult Maia and older lean Kael occupy the same low garden work area. Empty/occupied hands and pots fit the compromise. Dappled light preserves warm-brown Maia, olive Cali and deeper-brown Kael without flattening their differences. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Young Cali, adult Maia and older lean Kael occupy the same low garden work area. Empty/occupied hands and pots fit the compromise. Dappled light preserves warm-brown Maia, olive Cali and deeper-brown Kael without flattening their differences. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -860,7 +860,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Young Cali, adult Maia and older lean Kael occupy the same low garden work area. Empty/occupied hands and pots fit the compromise. Dappled light preserves warm-brown Maia, olive Cali and deeper-brown Kael without flattening their differences.",
+        "notes": "Retain. Young Cali, adult Maia and older lean Kael occupy the same low garden work area. Empty/occupied hands and pots fit the compromise. Dappled light preserves warm-brown Maia, olive Cali and deeper-brown Kael without flattening their differences. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -896,7 +896,7 @@
           "game/images/characters/book-one/maia-home.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -904,11 +904,11 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:7350e889f6d170bd36596868b2fd21eeecb034b5",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       },
       "pond_geometry_review": {
-        "evidence": "docs/pond-repair-review.md",
-        "notes": "The final low-bank landscape correction preserves all named figures, facial identities, clothing and hand/body contacts. Root and independent full/native source comparison retained the expressive planting/comfort action and the already reviewed age/body relationships; environmental pixels were selected through explicit protected masks. This renews only source character scope, with final pond gameplay covered separately in docs/pond-repair-review.md and the focused native pond review.",
+        "evidence": "../development/visual-novel/reviews/graphics/pond-repair-review.md",
+        "notes": "The final low-bank landscape correction preserves all named figures, facial identities, clothing and hand/body contacts. Root and independent full/native source comparison retained the expressive planting/comfort action and the already reviewed age/body relationships; environmental pixels were selected through explicit protected masks. This renews only source character scope, with final pond gameplay covered separately in ../development/visual-novel/reviews/graphics/pond-repair-review.md and the focused native pond review.",
         "protected_characters_unchanged": true
       }
     },
@@ -938,11 +938,11 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "bb8c57165f2020de2ed0be0113afb9c4e4b2240cef1eeac5711bdb2779467a43",
-      "reviewed_reference_signature": "b3714c8b3e9fe07a5cabe705733e6a577030c83148543ad1a982dead3bf85408",
+      "reviewed_reference_signature": "b79597ebe657a8c877026837ec17dfcd793adabf0b00d9025dbf5f337d3b39fd",
       "findings": [
         "CG-13"
       ],
-      "review_notes": "Refine only Lyra's face. Smaller fitted eyes still look urgently up toward her siblings, with raised worried brows and an open mouth. Preserve wet clothing, curls, waterline, supporting grips, low bank, Barkley and Shadow. Cali and Kael remain children, with Kael older and larger. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Refine only Lyra's face. Smaller fitted eyes still look urgently up toward her siblings, with raised worried brows and an open mouth. Preserve wet clothing, curls, waterline, supporting grips, low bank, Barkley and Shadow. Cali and Kael remain children, with Kael older and larger. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -952,7 +952,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Refine only Lyra's face. Smaller fitted eyes still look urgently up toward her siblings, with raised worried brows and an open mouth. Preserve wet clothing, curls, waterline, supporting grips, low bank, Barkley and Shadow. Cali and Kael remain children, with Kael older and larger.",
+        "notes": "Refine only Lyra's face. Smaller fitted eyes still look urgently up toward her siblings, with raised worried brows and an open mouth. Preserve wet clothing, curls, waterline, supporting grips, low bank, Barkley and Shadow. Cali and Kael remain children, with Kael older and larger. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -988,7 +988,7 @@
           "game/images/characters/book-one/lyra-young.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -996,13 +996,13 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:51cd3c86a43145a35a907d30443a62f03299128a",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       },
       "pond_geometry_review": {
         "source_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
         "output_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
         "notes": "The final far-bank-only pond repair preserves every person/animal, their eyes, hands, clothing/fur, the Shadow notch and foreground water. Independent immutable-source comparison found 18,886 changed pixels only within x1237..1614/y449..511; full/native inspection found no character drift. See docs/pond-repair-review.md. This renews the unchanged cast finding, not an unperformed new face redesign.",
-        "evidence": "docs/pond-repair-review.md"
+        "evidence": "../development/visual-novel/reviews/graphics/pond-repair-review.md"
       }
     },
     {
@@ -1031,12 +1031,12 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "e64630c32b6cc1345d21f28a43185d07adfb72c3c4b9811bf35740c3b970b77f",
-      "reviewed_reference_signature": "b3714c8b3e9fe07a5cabe705733e6a577030c83148543ad1a982dead3bf85408",
+      "reviewed_reference_signature": "b79597ebe657a8c877026837ec17dfcd793adabf0b00d9025dbf5f337d3b39fd",
       "findings": [
         "CG-05",
         "CG-14"
       ],
-      "review_notes": "Refine only Lyra's face. The quieter lips and eyes read as unsettled recovery in Cali's arms, with Kael beside them. Her smaller body and all overlapping support hands remain. The selected face is less smiling than the original, appropriate after the fright. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Refine only Lyra's face. The quieter lips and eyes read as unsettled recovery in Cali's arms, with Kael beside them. Her smaller body and all overlapping support hands remain. The selected face is less smiling than the original, appropriate after the fright. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1046,7 +1046,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Refine only Lyra's face. The quieter lips and eyes read as unsettled recovery in Cali's arms, with Kael beside them. Her smaller body and all overlapping support hands remain. The selected face is less smiling than the original, appropriate after the fright.",
+        "notes": "Refine only Lyra's face. The quieter lips and eyes read as unsettled recovery in Cali's arms, with Kael beside them. Her smaller body and all overlapping support hands remain. The selected face is less smiling than the original, appropriate after the fright. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -1082,7 +1082,7 @@
           "game/images/characters/book-one/lyra-young.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1095,11 +1095,11 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:c0f7f367ac993698f56d099e09d4d6dd8d254f28",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       },
       "pond_geometry_review": {
-        "evidence": "docs/pond-repair-review.md",
-        "notes": "The final low-bank landscape correction preserves all named figures, facial identities, clothing and hand/body contacts. Root and independent full/native source comparison retained the expressive planting/comfort action and the already reviewed age/body relationships; environmental pixels were selected through explicit protected masks. This renews only source character scope, with final pond gameplay covered separately in docs/pond-repair-review.md and the focused native pond review.",
+        "evidence": "../development/visual-novel/reviews/graphics/pond-repair-review.md",
+        "notes": "The final low-bank landscape correction preserves all named figures, facial identities, clothing and hand/body contacts. Root and independent full/native source comparison retained the expressive planting/comfort action and the already reviewed age/body relationships; environmental pixels were selected through explicit protected masks. This renews only source character scope, with final pond gameplay covered separately in ../development/visual-novel/reviews/graphics/pond-repair-review.md and the focused native pond review.",
         "protected_characters_unchanged": true
       }
     },
@@ -1121,12 +1121,12 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "d7577ed4ebc21cb87cc0107b6c86583e324812697efc0a2d95c17619ba895dff",
-      "reviewed_reference_signature": "aa211c3e7c052ee13110d130e6ec171ed6fb641cb833bef671e35cb8c21bf89c",
+      "reviewed_reference_signature": "d9d049303ea0842cfa71e79db599965819d0a9fc6ab60a326c9ac0a2b36bcc6f",
       "findings": [
         "CG-03",
         "CG-15"
       ],
-      "review_notes": "Retain. Later trio stand on the same overlook, with Joren pointing across inhabited Lumen. The vast interior reveal belongs after the discovery, while their recognizable faces and later clothes persist. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Later trio stand on the same overlook, with Joren pointing across inhabited Lumen. The vast interior reveal belongs after the discovery, while their recognizable faces and later clothes persist. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1136,7 +1136,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Later trio stand on the same overlook, with Joren pointing across inhabited Lumen. The vast interior reveal belongs after the discovery, while their recognizable faces and later clothes persist.",
+        "notes": "Retain. Later trio stand on the same overlook, with Joren pointing across inhabited Lumen. The vast interior reveal belongs after the discovery, while their recognizable faces and later clothes persist. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -1172,7 +1172,7 @@
           "game/images/characters/book-one/joren-older.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1185,7 +1185,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:20b90b19832a4d68968f8cf80c3333a459e013db",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -1198,9 +1198,9 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "3600e695c1bddaf867faa04d5f157faf323012e269626fcce8fa5aab247627fc",
-      "reviewed_reference_signature": "10c593fce954769dc79ce65159c9f1f35cd43547baa1e581af2be8b6e21e716b",
+      "reviewed_reference_signature": "ca418cd6fefe1265c5537372b0e120ebc9e4c583027a289d77bbce3739a76fe7",
       "findings": [],
-      "review_notes": "Retain. Early Cali's book/pencil and cream play clothes belong to a quiet creative memory. A warm interior lamp and cool sunset window remain distinct. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Early Cali's book/pencil and cream play clothes belong to a quiet creative memory. A warm interior lamp and cool sunset window remain distinct. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1210,7 +1210,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Early Cali's book/pencil and cream play clothes belong to a quiet creative memory. A warm interior lamp and cool sunset window remain distinct.",
+        "notes": "Retain. Early Cali's book/pencil and cream play clothes belong to a quiet creative memory. A warm interior lamp and cool sunset window remain distinct. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -1226,7 +1226,7 @@
           "game/images/characters/book-one/calista-young.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1234,7 +1234,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:6e130f2d1dd06bbd20cb843c0cd79ea3512000d6",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -1251,9 +1251,9 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b",
-      "reviewed_reference_signature": "518e98fed4c7691d1a09c4992027cea789d75a7dc6cef6813fa2a8f5e4331d46",
+      "reviewed_reference_signature": "b1b09397f7849ab680ffc1eee2946d11582575ff9f7094cd22fbc1c69e016284",
       "findings": [],
-      "review_notes": "Retain. Young Cali and older lean Kael examine sunflowers in warm garden light. His dark hair/hazel eyes and her olive skin/blue eyes remain distinguishable; neither receives adult proportions. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Young Cali and older lean Kael examine sunflowers in warm garden light. His dark hair/hazel eyes and her olive skin/blue eyes remain distinguishable; neither receives adult proportions. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1263,7 +1263,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Young Cali and older lean Kael examine sunflowers in warm garden light. His dark hair/hazel eyes and her olive skin/blue eyes remain distinguishable; neither receives adult proportions.",
+        "notes": "Retain. Young Cali and older lean Kael examine sunflowers in warm garden light. His dark hair/hazel eyes and her olive skin/blue eyes remain distinguishable; neither receives adult proportions. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -1289,7 +1289,7 @@
           "game/images/characters/book-one/kael-young.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1297,7 +1297,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:5f9d8cababad8282526b9d0993128bd40386c092",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -1314,9 +1314,9 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "652a0ca6dd0cfd4a2caac4c9019a57e500b3dccab53d7978df6d0f59a1d21f48",
-      "reviewed_reference_signature": "e8009e638c6867b892fb447450c13556cc9f53f2d0699e1c111bc2b62158915b",
+      "reviewed_reference_signature": "ff46091f5a37054472ff42252f65f19bcf9f2114437feeee4d85b7eee66cdc50",
       "findings": [],
-      "review_notes": "Refine only Lyra's face. Her small delighted expression and gaze stay directed toward Cali's leaf and ladybug. Golden curls, freckles and green eyes remain distinct from Cali's brown curls and blue eyes; warm garden rimlight is retained. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Refine only Lyra's face. Her small delighted expression and gaze stay directed toward Cali's leaf and ladybug. Golden curls, freckles and green eyes remain distinct from Cali's brown curls and blue eyes; warm garden rimlight is retained. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1326,7 +1326,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Refine only Lyra's face. Her small delighted expression and gaze stay directed toward Cali's leaf and ladybug. Golden curls, freckles and green eyes remain distinct from Cali's brown curls and blue eyes; warm garden rimlight is retained.",
+        "notes": "Refine only Lyra's face. Her small delighted expression and gaze stay directed toward Cali's leaf and ladybug. Golden curls, freckles and green eyes remain distinct from Cali's brown curls and blue eyes; warm garden rimlight is retained. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -1352,7 +1352,7 @@
           "game/images/characters/book-one/lyra-young.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1360,7 +1360,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:d0c724135db07d1adeb9dfef81812647fe092da9",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -1373,12 +1373,12 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "1a0edf4cbbf8ff03ff42dce399c02f7e0780232a654f82662759faeece2ddc45",
-      "reviewed_reference_signature": "0fae1c7bceeee5fe382584e43f88a037232706c88ad00da26ea56de57ae073d9",
+      "reviewed_reference_signature": "e3d030e17638cf5ee867b8aea10b477aca1b65f40754b6a8d776a94215a192f8",
       "findings": [
         "CG-06",
         "CG-16"
       ],
-      "review_notes": "Retain. Later Cali's longer limbs, more mature child face and green vest fit the later key. The warm morning overlook remains a reflective memory, not a new age jump. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Later Cali's longer limbs, more mature child face and green vest fit the later key. The warm morning overlook remains a reflective memory, not a new age jump. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1388,7 +1388,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Later Cali's longer limbs, more mature child face and green vest fit the later key. The warm morning overlook remains a reflective memory, not a new age jump.",
+        "notes": "Retain. Later Cali's longer limbs, more mature child face and green vest fit the later key. The warm morning overlook remains a reflective memory, not a new age jump. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -1404,7 +1404,7 @@
           "game/images/characters/book-one/calista-older.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1417,7 +1417,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:8013c8dba8d9a830293506480cbd046cd4036d52",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -1434,9 +1434,9 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "c20617d52737079f8d91da956b3b0aa7c958cf87577696f32bb691c4576b1fb5",
-      "reviewed_reference_signature": "91bc6900c252514aed64d8f5ece87aca130549c6c9a3b8a4d0520778b0543ebf",
+      "reviewed_reference_signature": "02b269d1307f8271651a1a5be8d4db551b31f0ab5dab09d64469de9196028d61",
       "findings": [],
-      "review_notes": "Retain. Young Cali supports the fluffy black-and-white rat with both hands. Nibble's frontal violet-left/coral-right image mapping, pink ears and single tail match the author reference. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Young Cali supports the fluffy black-and-white rat with both hands. Nibble's frontal violet-left/coral-right image mapping, pink ears and single tail match the author reference. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1446,7 +1446,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Young Cali supports the fluffy black-and-white rat with both hands. Nibble's frontal violet-left/coral-right image mapping, pink ears and single tail match the author reference.",
+        "notes": "Retain. Young Cali supports the fluffy black-and-white rat with both hands. Nibble's frontal violet-left/coral-right image mapping, pink ears and single tail match the author reference. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -1472,7 +1472,7 @@
           "game/images/familiars/nibble.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1480,7 +1480,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:dc8b366ee538b9a13081290899959c0019c29e1a",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -1501,12 +1501,12 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "1fbaeeac453d40ad6761894b68b6955a332942fa29b02ae2be93934fbabde2f5",
-      "reviewed_reference_signature": "d738a87cf15cd5d785cca057b9738315f0cf755d96f2241040b0a40eb8cea90d",
+      "reviewed_reference_signature": "565fe6294e9c6e5e5d3bd44ca8133fc8d551fb384218b74f5ebd2f9836bc93ba",
       "findings": [
         "CG-01",
         "CG-07"
       ],
-      "review_notes": "Retain. The early trio's map, pointing action, relative heights and play clothes fit shared exploration. Their feet belong to the same boardwalk. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. The early trio's map, pointing action, relative heights and play clothes fit shared exploration. Their feet belong to the same boardwalk. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1545,7 +1545,7 @@
             ]
           }
         ],
-        "notes": "Retain. The early trio's map, pointing action, relative heights and play clothes fit shared exploration. Their feet belong to the same boardwalk.",
+        "notes": "Retain. The early trio's map, pointing action, relative heights and play clothes fit shared exploration. Their feet belong to the same boardwalk. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "reference_files": [
           "game/images/characters/book-one/calista-young.png",
           "game/images/characters/book-one/cassia-mourning.png",
@@ -1553,7 +1553,7 @@
           "game/images/characters/book-one/joren-young.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1566,7 +1566,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:986f6de9d6a8cb3505ece59cca85b2e417424879",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -1587,11 +1587,11 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "834fd2c8430fe29da8d504b36170d417e3a7bfff710d014b4a2e6229ae7d73d8",
-      "reviewed_reference_signature": "c2b064f6d412da0a1c4d634a89ce1e529338010095e1289b9bb30e62509e341a",
+      "reviewed_reference_signature": "615c45f7fc8610d75eeb436eec015f4a3466263583dd36a5e863213315fa4643",
       "findings": [
         "CG-09"
       ],
-      "review_notes": "Retain. Close early faces laugh over a drawing; the joyful expression and camera explain apparent head-height differences. This is a recalled childhood moment. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Close early faces laugh over a drawing; the joyful expression and camera explain apparent head-height differences. This is a recalled childhood moment. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1601,7 +1601,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Close early faces laugh over a drawing; the joyful expression and camera explain apparent head-height differences. This is a recalled childhood moment.",
+        "notes": "Retain. Close early faces laugh over a drawing; the joyful expression and camera explain apparent head-height differences. This is a recalled childhood moment. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -1637,7 +1637,7 @@
           "game/images/characters/book-one/joren-young.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1645,7 +1645,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:f21752c8330630a43dab772a5fb095930e3d927e",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -1666,12 +1666,12 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "9358565397facaa82363d8960e0df9fe6b3352c87f8e40ee6025957d10e04b72",
-      "reviewed_reference_signature": "c2b064f6d412da0a1c4d634a89ce1e529338010095e1289b9bb30e62509e341a",
+      "reviewed_reference_signature": "615c45f7fc8610d75eeb436eec015f4a3466263583dd36a5e863213315fa4643",
       "findings": [
         "CG-02",
         "CG-17"
       ],
-      "review_notes": "Retain. The early trio gather at the upper room's window/door. Face construction, gold scarf, blond hair and practical clothes remain consistent with the early keys. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. The early trio gather at the upper room's window/door. Face construction, gold scarf, blond hair and practical clothes remain consistent with the early keys. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1681,7 +1681,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. The early trio gather at the upper room's window/door. Face construction, gold scarf, blond hair and practical clothes remain consistent with the early keys.",
+        "notes": "Retain. The early trio gather at the upper room's window/door. Face construction, gold scarf, blond hair and practical clothes remain consistent with the early keys. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -1717,7 +1717,7 @@
           "game/images/characters/book-one/joren-young.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1730,7 +1730,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:7ed1d8c4334a56df205fd3157081478564e0b4dc",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -1751,11 +1751,11 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "4fe77c4bc926b67f973e582646b11f212a22e29210f924e0faf11c6d85290d60",
-      "reviewed_reference_signature": "aa211c3e7c052ee13110d130e6ec171ed6fb641cb833bef671e35cb8c21bf89c",
+      "reviewed_reference_signature": "d9d049303ea0842cfa71e79db599965819d0a9fc6ab60a326c9ac0a2b36bcc6f",
       "findings": [
         "CG-08"
       ],
-      "review_notes": "Retain. Later children have longer limbs and less rounded faces while kneeling around their project. The wheel, bank and flow are coherent; practical later outfits distinguish this from the first friendship. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Later children have longer limbs and less rounded faces while kneeling around their project. The wheel, bank and flow are coherent; practical later outfits distinguish this from the first friendship. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1765,7 +1765,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Later children have longer limbs and less rounded faces while kneeling around their project. The wheel, bank and flow are coherent; practical later outfits distinguish this from the first friendship.",
+        "notes": "Retain. Later children have longer limbs and less rounded faces while kneeling around their project. The wheel, bank and flow are coherent; practical later outfits distinguish this from the first friendship. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -1801,7 +1801,7 @@
           "game/images/characters/book-one/joren-older.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1809,7 +1809,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:741bb14fa76dd4501d4adb18bafd1ad547194e07",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     },
     {
@@ -1830,12 +1830,12 @@
       ],
       "review_status": "consistent",
       "reviewed_sha256": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4",
-      "reviewed_reference_signature": "c2b064f6d412da0a1c4d634a89ce1e529338010095e1289b9bb30e62509e341a",
+      "reviewed_reference_signature": "615c45f7fc8610d75eeb436eec015f4a3466263583dd36a5e863213315fa4643",
       "findings": [
         "CG-04",
         "CG-18"
       ],
-      "review_notes": "Retain. Early trio around the low table, with Cassia telling a story and Joren slightly larger. The bright upper-room canopy and early furniture fit the first friendship stage. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "review_notes": "Retain. Early trio around the low table, with Cassia telling a story and Joren slightly larger. The bright upper-room canopy and early furniture fit the first friendship stage. Fresh September visual review against the selected character keys, appropriate childhood stage and source scene; see ../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md.",
       "face_review": {
         "status": "accepted",
         "method": "Root inspected each selected full composition against stage/identity keys. The three new Lyra face composites also received independent 3x crop and mask-edge review; the opening adopts the user-reviewed trial.",
@@ -1845,7 +1845,7 @@
           "stage_identity",
           "reference_comparison"
         ],
-        "notes": "Retain. Early trio around the low table, with Cassia telling a story and Joren slightly larger. The bright upper-room canopy and early furniture fit the first friendship stage.",
+        "notes": "Retain. Early trio around the low table, with Cassia telling a story and Joren slightly larger. The bright upper-room canopy and early furniture fit the first friendship stage. Final selected-source inspection is recorded in development/visual-novel/reviews/characters-and-scenes.md. Reference signatures account for relocated production-contract links; the stature rules and CG pixels are unchanged.",
         "regions": [
           {
             "character": "Calista",
@@ -1881,7 +1881,7 @@
           "game/images/characters/book-one/joren-young.png"
         ],
         "production_evidence": [
-          "art/visual-pass-2026-09/VISUAL_AUDIT.md",
+          "../development/visual-novel/art/character-refinements/VISUAL_AUDIT.md",
           "art/character-keys/catalog.json"
         ]
       },
@@ -1894,7 +1894,7 @@
         "status": "accepted",
         "reviewer": "art_sprite_review",
         "comparison_reference": "git:b33962669b1b652b97a509612dbd8ef64d409c84",
-        "report": "docs/ART_REVIEW_CG.md"
+        "report": "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md"
       }
     }
   ]

@@ -29,7 +29,8 @@ for index, shot in enumerate(cues['shots']):
     shots.append({'capture': capture, 'position': moment, 'image': 'game/'+shot['image'],
                   'sha256': hashlib.sha256(path.read_bytes()).hexdigest(), 'label': shot['label']})
 lines.extend(['    click "Skip closing theme"', '    assert screen "chapter_end"'])
-out = ROOT / 'build/graphics-polish'
+out = ROOT / '../development/visual-novel/archive/local/graphics-workspace'
+out.mkdir(parents=True, exist_ok=True)
 (out / 'theme-art-testcase.txt').write_text('\n'.join(lines)+'\n')
 try:
     temporary.write_text('\n'.join(lines)+'\n')

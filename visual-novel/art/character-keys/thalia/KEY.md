@@ -12,14 +12,12 @@ Retain the long softly tapered oval face, composed brows, warm brown complexion,
 
 ## Wardrobe and performance
 
-Keep the flowing plum garment, charcoal trousers, ochre sash, small pendant and simple flats. The user retained this wardrobe; its pattern and inferred back construction are production interpretations. Keep its practical range of movement and ordinary lived-in fabric.
+Keep the flowing plum garment, charcoal trousers, ochre sash, small pendant and simple flats. Its pattern and inferred back construction are production interpretations. Keep its practical range of movement and ordinary lived-in fabric.
 
 Use the welcoming smile, attentive listening and quietly firm concern as different performances of one person. Do not replace a listening expression with a glamour pose or broad grin. The face should remain equally recognizable without jewelry or the sash.
 
-## Light and review
+## Light and reference use
 
 Under neutral light the eyes should read deep green, not brown or yellow-hazel. Warm light may soften their saturation; it must not erase the source identity. Skin remains warm brown with dimensional midtones and restrained lip edges.
 
-The key preserves the current adult face, hair and outfit across body and portrait views. The runtime correction is limited to native GIMP hue/lightness/saturation adjustment through manually bounded iris masks, with central pupil/catchlight regions excluded. It does not change eye geometry, skin, hair, expression or silhouette. The original sprite is retained beside the native editable file.
-
-[Prompt](prompt-key.txt); masks, source hashes and the native preservation proof are recorded in [supporting changes](../supporting-changes.json).
+Use the body and portrait views to preserve the same adult face, hair and clothing. Keep pupil and catchlight contrast natural when adapting the green irises to scene light. [Sheet prompt](../../../../development/visual-novel/art/characters/thalia/prompt-key.txt); [production record](../../../../development/visual-novel/art/characters/supporting-changes.json).

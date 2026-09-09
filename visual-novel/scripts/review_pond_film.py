@@ -36,7 +36,7 @@ def main():
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
     previous = json.loads(args.previous.read_text())
-    snapshot_path = ROOT / "build/graphics-polish/film-render-inputs.json"
+    snapshot_path = ROOT / "../development/visual-novel/archive/local/graphics-workspace/film-render-inputs.json"
     snapshot = json.loads(snapshot_path.read_text())
     movie_hash = sha(args.movie)
     assert snapshot["output"]["sha256"] == movie_hash

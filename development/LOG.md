@@ -2,6 +2,14 @@
 
 This log records work on the collection. Current canon is in the [wiki](../wiki/INDEX.md); open work and references are listed in the [development index](README.md).
 
+## 9 September 2026 — Separate visual-novel development and rebuild the game
+
+The author requested a clearer boundary between selected game materials and exploratory work. [Visual novel development](visual-novel/README.md) now holds character prompts and alternatives, opening identity trials, editable GIMP projects, comparison viewers and inspection history. The game’s curated gallery retains only the 20 selected sheets and current notes for 17 named characters. A preservation inventory maps all 543 relocated items; six already-broken archive links were restored from their exact stashed originals.
+
+The final source review covered all 78 selected images with attention to identity, childhood progression, action, mood and lighting. Lyron’s previously corrected far-future wardrobe remains selected. Sage’s gray-iris correction uses native GIMP masks and changes only 77 pixels; pupils, catchlights, face and silhouette stay exact. Barkley receives cool shade specifically in Echoes, while Nibble and Shadow have clearer grounded positions in the construction room. The other selected art remains unchanged.
+
+PC, Mac and browser review packages and the standalone closing film were rebuilt from the final materials. [Current validation](../visual-novel/docs/VALIDATION.md) records the actual source, native, browser and export checks. The film retains the original song. These are local 0.1-alpha review builds; no publication or broader release approval is implied.
+
 ## 8 September 2026 — Repair the pond scene and inspect its renders
 
 The author identified a long gap behind the left coping and intersecting-looking foreground stones in the published pond image. The replacement [pond study](lumen/pond-study/review.html) uses fitted stone footprints guided by the VN shoreline and slab positions. Narrow joints, inward edge chips and photographed rock surfaces replace the independently drifting stone rows. The older local model is preserved in a separate reference commit, with its rejection clearly marked.

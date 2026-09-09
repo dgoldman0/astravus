@@ -29,7 +29,7 @@ def sha(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, default=renderer.PROJECT / "build/graphics-polish/theme-stability")
+    parser.add_argument("--output", type=Path, default=renderer.PROJECT / "../development/visual-novel/archive/local/graphics-workspace/theme-stability")
     args = parser.parse_args()
     output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=True)

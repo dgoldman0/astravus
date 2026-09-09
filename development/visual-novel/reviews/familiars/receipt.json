@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "archived_at_utc": "2026-09-09T12:38:49.798538+00:00",
+  "scope": "Retention of completed focused native tests; no new runtime test or visual change performed during archival.",
+  "render_dimensions": [
+    1738,
+    977
+  ],
+  "native_engine": "RenPy 8.5.3.26051504",
+  "archived_comparison_pngs": 8,
+  "unchanged_control_pngs_archived": false,
+  "frames": [
+    {
+      "file": "construction-path-clean.png",
+      "changed_pixels": 0,
+      "bbox": null,
+      "before_sha256": "41fdd934514f04a08d08ab3da61d98b5511b4d192c88026ab30f5859bb479b56",
+      "after_sha256": "41fdd934514f04a08d08ab3da61d98b5511b4d192c88026ab30f5859bb479b56",
+      "pngs_archived": false
+    },
+    {
+      "file": "construction-path-dialogue.png",
+      "changed_pixels": 0,
+      "bbox": null,
+      "before_sha256": "ca29f119da1a8c51c331a49fb358f050e43422318e283a67f210f9c60c6b33cf",
+      "after_sha256": "ca29f119da1a8c51c331a49fb358f050e43422318e283a67f210f9c60c6b33cf",
+      "pngs_archived": false
+    },
+    {
+      "file": "construction-room-clean.png",
+      "changed_pixels": 20852,
+      "bbox": [
+        639,
+        476,
+        1298,
+        776
+      ],
+      "before_sha256": "eac9b0ccf0c30354b12ec86faedd0d3e8c8d599f0bcb3799efe1a087d6ed46e0",
+      "after_sha256": "32327295969fe70cb383887b42aad5ebf327baf5fe497b83ee3577125628a2e0",
+      "pngs_archived": true,
+      "before_file": "before/construction-room-clean.png",
+      "after_file": "after/construction-room-clean.png"
+    },
+    {
+      "file": "construction-room-dialogue.png",
+      "changed_pixels": 20733,
+      "bbox": [
+        639,
+        476,
+        1298,
+        776
+      ],
+      "before_sha256": "cb8bda6bde0d4f6f9bb43f04a7ae50a098136827f567c2cfad111f0bf2312742",
+      "after_sha256": "aac57146d5be6aa679b6a55f07b188673f5d1802b708b038be8ed074c0f2dc88",
+      "pngs_archived": true,
+      "before_file": "before/construction-room-dialogue.png",
+      "after_file": "after/construction-room-dialogue.png"
+    },
+    {
+      "file": "echoes-clean.png",
+      "changed_pixels": 36020,
+      "bbox": [
+        870,
+        411,
+        1125,
+        692
+      ],
+      "before_sha256": "a6dae2e51a242176fa032aa1c26fb7161aab1485b5ccd17f0111b7adbadde5c3",
+      "after_sha256": "66a9d577c0f2cabefefb5dd0e7e62d9ed68186c18713a6efb0d4f3ca8081832c",
+      "pngs_archived": true,
+      "before_file": "before/echoes-clean.png",
+      "after_file": "after/echoes-clean.png"
+    },
+    {
+      "file": "echoes-dialogue.png",
+      "changed_pixels": 36015,
+      "bbox": [
+        870,
+        411,
+        1125,
+        692
+      ],
+      "before_sha256": "100f520e2261ff06aefe91941bb989499988fcf1cfb3618d3172970f0f6a8b63",
+      "after_sha256": "10b8430984f60e56a5935ef589361ec7af32e6554713a330fd292c9fb81fb102",
+      "pngs_archived": true,
+      "before_file": "before/echoes-dialogue.png",
+      "after_file": "after/echoes-dialogue.png"
+    },
+    {
+      "file": "home-clean.png",
+      "changed_pixels": 0,
+      "bbox": null,
+      "before_sha256": "649c228ab7b23044d71403e4d8170cbfd0dd5f8d12a128ad51f7e0199ec3eaa8",
+      "after_sha256": "649c228ab7b23044d71403e4d8170cbfd0dd5f8d12a128ad51f7e0199ec3eaa8",
+      "pngs_archived": false
+    },
+    {
+      "file": "home-dialogue.png",
+      "changed_pixels": 0,
+      "bbox": null,
+      "before_sha256": "3184c453f4df498432bf552788420393ddc597926253b4b2a9141150be8ecd20",
+      "after_sha256": "3184c453f4df498432bf552788420393ddc597926253b4b2a9141150be8ecd20",
+      "pngs_archived": false
+    }
+  ],
+  "source_images": {
+    "game/images/familiars/nibble.png": "a3eb23fe22427f87b6fdf12c7c6c2fdf7dcbc87d50579ba288726f2bd7f1bb95",
+    "game/images/familiars/barkley.png": "49084a021567be20c336956201f5ed6bfdb4ac6a9c8a8198b7e2040e7d88ad37",
+    "game/images/familiars/shadow.png": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59"
+  },
+  "source_images_unchanged": true,
+  "unaffected_home_and_path_exact": true,
+  "runs": {
+    "before": {
+      "original_output_directory": "/tmp/astravus-familiar-runtime/before",
+      "runtime_source": "before/familiars.rpy",
+      "definition": "before/testcase.rpy",
+      "log": "before/native.log",
+      "inputs": "before/inputs.json"
+    },
+    "after": {
+      "original_output_directory": "/tmp/astravus-familiar-runtime/candidate",
+      "runtime_source": "after/familiars.rpy",
+      "definition": "after/testcase.rpy",
+      "log": "after/native.log",
+      "inputs": "after/inputs.json"
+    }
+  },
+  "test_definition_provenance": "After definition copied from the isolated project as executed. Before definition recovered from the same unchanged runner template; its only difference is the original screenshot output directory. Both preserve the exact test body and capture commands.",
+  "runner_note": "The archived runner and global test support are historical exact copies, including machine-local source and temporary paths. They are not shipping scripts or a claim of a portable new runner.",
+  "files": {
+    "after/construction-room-clean.png": {
+      "sha256": "32327295969fe70cb383887b42aad5ebf327baf5fe497b83ee3577125628a2e0",
+      "bytes": 2426162
+    },
+    "after/construction-room-dialogue.png": {
+      "sha256": "aac57146d5be6aa679b6a55f07b188673f5d1802b708b038be8ed074c0f2dc88",
+      "bytes": 2002482
+    },
+    "after/echoes-clean.png": {
+      "sha256": "66a9d577c0f2cabefefb5dd0e7e62d9ed68186c18713a6efb0d4f3ca8081832c",
+      "bytes": 2829718
+    },
+    "after/echoes-dialogue.png": {
+      "sha256": "10b8430984f60e56a5935ef589361ec7af32e6554713a330fd292c9fb81fb102",
+      "bytes": 2334531
+    },
+    "after/familiars.rpy": {
+      "sha256": "6985c15f0436b65547bb00ccbe4bc627572a4e462c0ecb1c24bf017c7793056e",
+      "bytes": 4577
+    },
+    "after/inputs.json": {
+      "sha256": "c41694134bd0f5b84975dcb11987feca896f05d2fb89c40f53f923894dc2fd63",
+      "bytes": 1258
+    },
+    "after/native.log": {
+      "sha256": "1a1bf95e5e28ad5b64c05aa29c78f48db0225bf72349c1774e109560543c9f9e",
+      "bytes": 1011
+    },
+    "after/testcase.rpy": {
+      "sha256": "e491be3ed968047782c1d272f61a4549bed9324ef27168f012f2ecf419aac9d6",
+      "bytes": 1232
+    },
+    "before/construction-room-clean.png": {
+      "sha256": "eac9b0ccf0c30354b12ec86faedd0d3e8c8d599f0bcb3799efe1a087d6ed46e0",
+      "bytes": 2430404
+    },
+    "before/construction-room-dialogue.png": {
+      "sha256": "cb8bda6bde0d4f6f9bb43f04a7ae50a098136827f567c2cfad111f0bf2312742",
+      "bytes": 2005257
+    },
+    "before/echoes-clean.png": {
+      "sha256": "a6dae2e51a242176fa032aa1c26fb7161aab1485b5ccd17f0111b7adbadde5c3",
+      "bytes": 2833627
+    },
+    "before/echoes-dialogue.png": {
+      "sha256": "100f520e2261ff06aefe91941bb989499988fcf1cfb3618d3172970f0f6a8b63",
+      "bytes": 2339125
+    },
+    "before/familiars.rpy": {
+      "sha256": "da70dd1da9e1fd15fb044ddbebb7109d0b90cddd69e0ed154dfef6a4f652cce2",
+      "bytes": 4272
+    },
+    "before/inputs.json": {
+      "sha256": "9810defa437614c98cb0ca260c8d16a991208c522016c7d733813dfa10cf57c8",
+      "bytes": 1258
+    },
+    "before/native.log": {
+      "sha256": "334ce10cd00eb80582c0763d81ba9f6738f412ce1509ec68b5452f51f2ad9df8",
+      "bytes": 1011
+    },
+    "before/testcase.rpy": {
+      "sha256": "a7e8b6ed1698119df2575b1f93574d820efad3ef20e35948bd77ccc2bfce6909",
+      "bytes": 1229
+    },
+    "comparison.json": {
+      "sha256": "66d6857ccac1d901e024a33b969aa5da0a7b8b6bd4857b47d4caa46421a58bb6",
+      "bytes": 3180
+    },
+    "global-test-support-as-executed.rpy": {
+      "sha256": "5cfc52ad8b800d674d693ae737a053aaae240266e3ce89b74e839cd681bec067",
+      "bytes": 34546
+    },
+    "run-native-as-executed.py": {
+      "sha256": "20cec7ec72a282365311f48db2c6c4e8ae875f3f5ff1b5ba82730691d08b0cea",
+      "bytes": 3464
+    }
+  }
+}

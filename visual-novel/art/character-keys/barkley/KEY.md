@@ -18,8 +18,8 @@ Maintain alertness, affection and readiness to move through natural head/ear/bod
 
 Diffuse neutral light with softly warm highlights should preserve golden local color and clear fur structure. Avoid burning the highlights to white or making the coat uniformly orange. The original green background is technical chroma backing and must never become green light on his fur.
 
-## Review and provenance
+## Reference use
 
-The generated key retains the selected golden-retriever face and coat, plausible standing anatomy and one coherent tail per body view. No corrective generation or selected-sprite replacement was necessary. Side/rear views continue the existing coat simply and introduce no new marks or later bond events.
+Use the standing and rear views to continue the golden coat and coherent single-tail anatomy. They introduce no new coat marks or later bond events.
 
-[Full prompt](prompt.txt). Source hashes, generated identifiers and final hashes are in [the pass record](../trio-familiars-changes.json). The built-in image tool was used; its backend version was not exposed.
+[Sheet prompt](../../../../development/visual-novel/art/characters/barkley/prompt.txt) and [production record](../../../../development/visual-novel/art/characters/trio-familiars-changes.json).

@@ -1,0 +1,9 @@
+# Production script path audit
+
+The 2026-09-09 relocation audit found and fixed two remaining output-path assumptions. [render_graphics_gallery.py](../../../../visual-novel/scripts/render_graphics_gallery.py) now calculates each image URL relative to the gallery's actual output directory. Its old fixed `../../` prefix pointed into the development archive after the move. [capture_theme_art.py](../../../../visual-novel/scripts/capture_theme_art.py) now creates the output directory and its parents before writing the temporary testcase record, so an absent ignored archive directory does not stop capture setup.
+
+Bounded verification passed; [script-path-check.json](script-path-check.json) records the script hashes and results. The complete gallery generator was executed with only its output assignment redirected into a temporary directory outside the game. All 78 generated image URLs resolved to the exact selected production files, and every viewer URL matched its image URL. The capture script's actual directory assignment, creation, and first write statements were executed under a fresh temporary checkout path; the missing directories were created and a second execution also succeeded. That check stopped before the engine block.
+
+The existing ignored gallery and capture record remained byte-identical. Temporary test outputs were removed; no game engine, screenshot capture, or image renderer ran for these checks. This verifies path handling, not browser presentation or artistic quality.
+
+The separate read-only review of `release_review.py` confirmed that evidence paths accept production files and the dedicated sibling development workspace, while rejecting files outside those roots and directory paths. Input snapshots could be assembled for all 131 release-matrix rows. That result does not approve those rows or renew historical review receipts.

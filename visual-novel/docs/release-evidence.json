@@ -17,7 +17,7 @@
       },
       "notes": "The strongest earlier warm close trio/map composition is retained, replacing the rejected dark distant full-body redraw. Calista's complete figure is locally larger so her torso/arms read as Cassia's peer; Cassia's forward lean and Joren's modest larger frame remain plausible. Faces, hair strands, textile pattern, map linework and nearby rail detail retain their close narrative presence and sharpness. Cassia has a natural smile and forest-green pigment; Calista/Joren have subdued blue with original pupils and lids. This is a planted Lumen walkway, not a newly invented Maia-garden layout.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:986f6de9d6a8cb3505ece59cca85b2e417424879",
       "comparison_signature": "986f6de9d6a8cb3505ece59cca85b2e417424879"
@@ -31,7 +31,7 @@
       "input_file_count": 45,
       "notes": "Borrowed memory remains a recollection told by parents. The newborn image ends before Lyra's arrival. Constellation uses the clarified adult meaning and glossary defers the explanation. Lumen begins as a young world.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-02": {
@@ -43,7 +43,7 @@
       "input_file_count": 45,
       "notes": "A physical planting task leads into repeated visits. Marker stone and watering mishap are small connective actions, without new lore or a second invented incident.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-03": {
@@ -55,7 +55,7 @@
       "input_file_count": 45,
       "notes": "Pots, reflections and a shared curved arrangement give the disagreement a concrete resolution. The script requires dry working ground beside the pond.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-04": {
@@ -67,7 +67,7 @@
       "input_file_count": 45,
       "notes": "Gathering and sorting precede the reassurance; no mechanical maxim interrupts the child's concern. Three trays are a small adaptation of the source sorting action.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-05": {
@@ -77,9 +77,9 @@
       "checked_at_utc": "2026-09-05T14:39:27+00:00",
       "input_sha256": "f343cc0b44f0b9f31a28b7387ab140dbf9ed38412a6ab8d59b184b45333c88eb",
       "input_file_count": 45,
-      "notes": "A broken single note precedes \u201cThere was a note in there,\u201d followed by a longer attempt, hesitant notes and the invitation to listen. Selene's pale blue is a source-backed association with sound.",
+      "notes": "A broken single note precedes “There was a note in there,” followed by a longer attempt, hesitant notes and the invitation to listen. Selene's pale blue is a source-backed association with sound.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-06": {
@@ -91,7 +91,7 @@
       "input_file_count": 45,
       "notes": "His source advice stays connected to the map and children's interest. No invented historical expedition or unexplained visions.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-07": {
@@ -103,7 +103,7 @@
       "input_file_count": 45,
       "notes": "Aria's failed search, Bram's diagnosis, Cora's filter and shared repair remain ordered. Astravus is introduced within that story; it does not assert the siblings are residents of Lumen.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-08": {
@@ -115,7 +115,7 @@
       "input_file_count": 45,
       "notes": "Explicitly many days, not one crowded day. Kael's crystals are a dream; Nibble the mouse is a fictional bedtime namesake of the real rat. Practice succeeds after the first lesson.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-09": {
@@ -127,7 +127,7 @@
       "input_file_count": 45,
       "notes": "Tree history unfolds as Cali recalls it. Creaking wood suggests a voice without speaking. Lumen's living-ship description appears at the actual revelation, in both menus.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-10": {
@@ -139,7 +139,7 @@
       "input_file_count": 45,
       "notes": "Rescue precedes reassurance; wet clothes and the wait to stand carry the fear. No drowning injury or unsupported aftermath is added.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-11": {
@@ -151,7 +151,7 @@
       "input_file_count": 45,
       "notes": "The mistake is repaired through tasting and smaller amounts. Lyra's intention survives; the scene does not humiliate her or reduce it to a lecture.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-12": {
@@ -163,7 +163,7 @@
       "input_file_count": 45,
       "notes": "Family experience leads into wider community and the next friendship. Cali's art wish and Kael's exploration wish remain. It is the same named central plaza as remembrance.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-13": {
@@ -175,7 +175,7 @@
       "input_file_count": 45,
       "notes": "Cali participates and draws; purple/gold creature eyes belong to an explicitly imagined story, not either girl's real eyes.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-14": {
@@ -185,9 +185,9 @@
       "checked_at_utc": "2026-09-05T14:39:27+00:00",
       "input_sha256": "4e5239fcf1b979cca5f0344826469281b69a6c9fab9fa911ef6d7bc2398f97fa",
       "input_file_count": 45,
-      "notes": "Two visits are separated by \u201cOn another evening.\u201d Parents' work emerges through questions and activity. Shared living systems are ecological context, not magic.",
+      "notes": "Two visits are separated by “On another evening.” Parents' work emerges through questions and activity. Shared living systems are ecological context, not magic.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-15": {
@@ -199,7 +199,7 @@
       "input_file_count": 45,
       "notes": "Source challenge and eager acceptance are retained. No invented mystical blue-light meeting; the group explores ordinary construction passages.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-16": {
@@ -211,7 +211,7 @@
       "input_file_count": 45,
       "notes": "Drawing and parts are a beginning, not a completed new canon invention. Soren is Joren's mother.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-17": {
@@ -223,7 +223,7 @@
       "input_file_count": 45,
       "notes": "Distinguishes finding an unseen place from noticing something others missed. Recognizing the turning is an immediate practical action; no new expedition history.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-18": {
@@ -235,7 +235,7 @@
       "input_file_count": 45,
       "notes": "This is a familiar return, with a ladder and accumulated belongings. The lower hollow is distinct from the upstairs room. Their map is imaginary play; Joren's promise is established before loss.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-19": {
@@ -247,7 +247,7 @@
       "input_file_count": 45,
       "notes": "Cassia proposes an imagined world. The conversation never asserts the real treehouse oak talks. It ends as shared listening before the older-project sequence.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-20": {
@@ -257,9 +257,9 @@
       "checked_at_utc": "2026-09-05T14:39:28+00:00",
       "input_sha256": "10420cf5ea7681541379cedcbdfc73cd6cf36c08083ed5b616ef741b0b4c50fd",
       "input_file_count": 45,
-      "notes": "\u201cAs we grew\u201d precedes older-child staging. Failed clearance, correction and shared success make the project understandable; it remains a small pond wheel.",
+      "notes": "“As we grew” precedes older-child staging. Failed clearance, correction and shared success make the project understandable; it remains a small pond wheel.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-21": {
@@ -271,7 +271,7 @@
       "input_file_count": 45,
       "notes": "This later exploration follows the first meeting. Projected plans and autonomous machinery come from the source. The group returns home exhilarated.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-22": {
@@ -281,9 +281,9 @@
       "checked_at_utc": "2026-09-05T14:39:28+00:00",
       "input_sha256": "92878d27d5bd72274aaade14179da2a51ba048485d15cda7936025c9eb655af7",
       "input_file_count": 45,
-      "notes": "\u201cSometimes\u201d versus \u201cnot nearly enough\u201d connects earlier participation honestly to her later hurt. She is included without promising the children will never get ahead again.",
+      "notes": "“Sometimes” versus “not nearly enough” connects earlier participation honestly to her later hurt. She is included without promising the children will never get ahead again.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-23": {
@@ -295,7 +295,7 @@
       "input_file_count": 45,
       "notes": "The dome is an adventure they finish together, not the later fatal expedition. Its view becomes a concrete memory in scene 28.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-24": {
@@ -305,9 +305,9 @@
       "checked_at_utc": "2026-09-05T14:39:28+00:00",
       "input_sha256": "6e8692061b94fc670e0cc44c27ffb7db7a398dd3b950eefb004c82338b756db0",
       "input_file_count": 45,
-      "notes": "Source ending and its \u201cfoundation for the challenges ahead\u201d are preserved. No unrelated final line replaces the transition.",
+      "notes": "Source ending and its “foundation for the challenges ahead” are preserved. No unrelated final line replaces the transition.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-25": {
@@ -319,7 +319,7 @@
       "input_file_count": 45,
       "notes": "Connected source paragraphs remain intact and ordered. No invented casualty list, accident mechanism, farewell, ascension clarification or supernatural return. Glossary waits for the actual terms.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-26": {
@@ -329,9 +329,9 @@
       "checked_at_utc": "2026-09-05T14:39:28+00:00",
       "input_sha256": "20b3373b4f57ab3f72f2f7abc232be7a0f232f54e4e38e144f5b49ebbcd68f33",
       "input_file_count": 45,
-      "notes": "\u201cSpirit\u201d is explicitly grounded in stories and memories. The embrace offers company; it does not resolve grief.",
+      "notes": "“Spirit” is explicitly grounded in stories and memories. The embrace offers company; it does not resolve grief.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-27": {
@@ -343,7 +343,7 @@
       "input_file_count": 45,
       "notes": "The task gives Cali something to do while grieving. Speaking to whoever is present, sometimes Shadow, is ordinary companionship.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-28": {
@@ -355,7 +355,7 @@
       "input_file_count": 45,
       "notes": "The treehouse promise and dome callback refer to earlier played scenes. No invented special blue light, ghost or metaphysical reassurance.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-29": {
@@ -367,7 +367,7 @@
       "input_file_count": 45,
       "notes": "Public sorrow follows private grief. Source wording of Kaleb's tribute remains attached to a recognizable father and community, with time for silence.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-30": {
@@ -379,7 +379,7 @@
       "input_file_count": 45,
       "notes": "Painting recalls adventures already shared and imagined. The garden provides ordinary sound, visitors and activity around the work.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-31": {
@@ -391,7 +391,7 @@
       "input_file_count": 45,
       "notes": "New drawings are acts of remembrance, not adventures with a living Joren. The dome subject is already established; rain remains weather and shared memory.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "scene-32": {
@@ -403,7 +403,7 @@
       "input_file_count": 45,
       "notes": "Retrospective wording allows passing years without asserting a fixed sprite age at every anniversary. No new adventures with Joren. The hopeful afterword is a separate editorial invitation, not a new in-universe event.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "glossary-editorial": {
@@ -451,7 +451,7 @@
         "../wiki/worldbuilding/The-Sanctuary.md": "47d883ad775a506dbaac2ebadb8c941986172920730d715820123fca5a74e5b4",
         "../wiki/worldbuilding/Transcendence.md": "b3e3e45fba7dc909faa0b792ed3f57240757e2c4c453f2df1176aa661fb36e73",
         "docs/BOOK_ONE_COVERAGE.md": "3954317e81ab9047c8c5e454019b49760e9b24d2b382d820d83c3c81f33c0d59",
-        "docs/WRITING_NOTES.md": "8e531ba1e7d4f518740a8f22283dd3d8dd8f68621add25bd53be9aeb174e40ef",
+        "../development/visual-novel/design/adaptation.md": "8e531ba1e7d4f518740a8f22283dd3d8dd8f68621add25bd53be9aeb174e40ef",
         "game/book_structure.rpy": "9a3b7b60a3a49fd5436365639c2a26fa7734c1a3bccf070a8656b5c73bfc4d46",
         "game/dev_chapters.rpy": "dbca83ece10a8a7b7a8b03f206974514486fb51755d3a65eea10b0e1aca00578",
         "game/family_book_one.rpy": "236741cddb927cfee503326f2c3549b8be8fa1d37b9e29bf904d6a7fa852a722",
@@ -466,7 +466,7 @@
       },
       "notes": "Reviewed all eight terms and ten reveal stages against source anchors and displayed cues. Definitions remain optional, grow at their source cues, and expose no future titles or later-book mechanics. The current glossary screen provides named selections, scrollable definitions and an explanatory empty state. Reconstructing the pre-polish screens.rpy hash exactly reproduces the previous complete editorial fingerprint: only the Help-column layout and quick-bar font changed. Glossary text, source passages, reveal rules and menu actions are unchanged; final runtime/reader-usability checks remain separate.",
       "evidence": {
-        "docs/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
+        "../development/visual-novel/reviews/releases/GLOSSARY_REVIEW.md": "0bee463fb16b9c27266375a48790066c617577e60e3e92328c06048c6b7c8e4e"
       }
     },
     "glossary-rules": {
@@ -816,7 +816,7 @@
       },
       "notes": "The final shot restores the earlier close hopeful Calista, warm dawn shafts and clear freckled face, instead of the rejected distant dark figure. Fine curls, clothing, notebook and luminous foliage retain tactile detail and native sharpness. The broad upper room and lower refuge sit farther behind her, with the ladder partly occluded by her foreground body; this is not a miniature room scaled against a child on its deck. Blue iris pigment alone changes in the selected raw painting. The crop does not expose her feet, so no metric standing-height claim is made.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:8013c8dba8d9a830293506480cbd046cd4036d52",
       "comparison_signature": "8013c8dba8d9a830293506480cbd046cd4036d52"
@@ -837,7 +837,7 @@
       },
       "notes": "The final composition retains the earlier close welcoming trio and rich warm material detail, while replacing the trunk-cupboard room with the broad canonical upper interior. The real left entrance, right open bays and map table fit the established room. Calista's complete figure was scaled coherently; her nearby folded arms/notebook and tilted face remain natural, with Cassia a comparable peer and Joren modestly larger. Native freckle/cheek/lip modeling, curls, cloth and timber retain detail. Calista's existing blue eyes stay untouched; only Cassia forest-green and Joren blue pigment are masked. Feet are outside the crop, preventing a metric height assertion.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:7ed1d8c4334a56df205fd3157081478564e0b4dc",
       "comparison_signature": "7ed1d8c4334a56df205fd3157081478564e0b4dc"
@@ -888,7 +888,7 @@
         "../wiki/worldbuilding/Transcendence.md": "b3e3e45fba7dc909faa0b792ed3f57240757e2c4c453f2df1176aa661fb36e73",
         "docs/AUDIO_DIRECTION.md": "0b2263fdb1cbe32e186bdd0b7ee02cc85dd84e3b7c97887d7071b6d82813dc6e",
         "docs/BOOK_ONE_COVERAGE.md": "3954317e81ab9047c8c5e454019b49760e9b24d2b382d820d83c3c81f33c0d59",
-        "docs/WRITING_NOTES.md": "8e531ba1e7d4f518740a8f22283dd3d8dd8f68621add25bd53be9aeb174e40ef",
+        "../development/visual-novel/design/adaptation.md": "8e531ba1e7d4f518740a8f22283dd3d8dd8f68621add25bd53be9aeb174e40ef",
         "docs/audio-sources.json": "0a14e3dab17c4e6f493b9ecb081fb011d67f16c03ef250c4e190a996165be201",
         "docs/closing-theme-audio.json": "7ffaa21310fb7c0a8bdda02a1d57e2205e27a3135148befd4becf495dd832fd9",
         "game/audio/curiosity_and_discovery.ogg": "460ad7c6fdc1c2a6b058b3e8d610bc7f9cc355655b96e9081fe6d1c27f8baa05",
@@ -922,9 +922,9 @@
         "game/options.rpy": "6418f04c4e41bebc9b15c08b1c0fdf36c7081afad0d34a7e0b15db23f233cfb4",
         "game/script.rpy": "28e20b7d091628ae2ada9c1acebf80ecde01d5042fe26241d778875a9f5945fe"
       },
-      "notes": "Traced actual single-note/phrase/practice timing, listening creak, rain layers,24\u219225silence, adjacent-cue continuation and song channel/gain cleanup in current scripts. Technical balance matches measured report. No subjective listening claim; final native-playthrough dependency remains pending.",
+      "notes": "Traced actual single-note/phrase/practice timing, listening creak, rain layers,24→25silence, adjacent-cue continuation and song channel/gain cleanup in current scripts. Technical balance matches measured report. No subjective listening claim; final native-playthrough dependency remains pending.",
       "evidence": {
-        "docs/AUDIO_SEQUENCE_REVIEW.md": "8ce4039e6f312ffb524809a888a420040eef7af1f27b0f98daa1fe03ae713b09"
+        "../development/visual-novel/reviews/audio/AUDIO_SEQUENCE_REVIEW.md": "8ce4039e6f312ffb524809a888a420040eef7af1f27b0f98daa1fe03ae713b09"
       }
     },
     "quality-backgrounds-book-one-cassia-home": {
@@ -940,7 +940,7 @@
       },
       "notes": "Warm lamps model the low table, cups and cushions; the cool round window and receding left passage preserve room depth. Hanging drawings, books and vegetation retain crisp painterly detail. The open foreground supports conversation staging without sacrificing the home's character. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:b3410b50619f2d119333cfeb684271d1c3b69aed",
@@ -959,7 +959,7 @@
       },
       "notes": "The projected blueprint has a distinct focal position over its physical emitter/table. Tool silhouettes, articulated machinery, timber grain and cut panels remain readable. Warm work light and the right passage give depth without washing out the cool projection. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:ffbaeccc12544a041b9bf8073d45a4b339325526",
@@ -978,7 +978,7 @@
       },
       "notes": "Foreground parapet and scaffolding clearly frame an elevated view over the living settlement. Interlocking roof branches, distant structures and warm haze retain depth/detail. This broad vista has a narrative purpose rather than replacing a needed close character shot. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:440a3ab266588cc1d92a20d4a2b44d7e226278f0",
@@ -997,7 +997,7 @@
       },
       "notes": "The ancient hollow tree forms a strong central silhouette within the surrounding darker canopy. Bark folds, roots, ground and backlit leaves remain textured. The tree reads as physical wood, not a painted speaking face or apparition. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:91c1a5a3b3e6c0b1321e69149bbee1c0bc1709cb",
@@ -1016,7 +1016,7 @@
       },
       "notes": "The harp stage, sweeping left stair, central arches and occupied galleries create a convincing communal gathering. Warm lantern light models foreground figures and stone; the crowd has coherent poses and varied depths. Selene's distant white-haired harp silhouette fits the event; individual iris pigment is not resolvable at that distance. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:9c38b223782448ef0f521712833b867bb3abdbb5",
@@ -1035,7 +1035,7 @@
       },
       "notes": "Transparent shallow water exposes pebbles, with layered reflections and clear stone edging. The pipe, planting wall and lily cluster match the working-pond family of views. This is an establishing view; standing dialogue should use the separate dry work-area background. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:153bbe79a42a1aa4740f068fb012c919c8f65284",
@@ -1054,7 +1054,7 @@
       },
       "notes": "Bee/flower and foreground leaves receive clear focal light and material detail; the receding path is intentionally softer. This close ecological detail supports discovery without pretending to depict a character conversation. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:fcca0ab170efbf5035cab88d5a817173cfece273",
@@ -1073,7 +1073,7 @@
       },
       "notes": "Pots are readable on dry ground before the pond, with a broad plausible foreground for actors. Stone, pot rims, leaves and dappled light remain detailed. The pond's pipe, wall and planting layout agree with its closer view. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:886a5a98d7f746262fd19e250a5b8b112f198ad1",
@@ -1092,7 +1092,7 @@
       },
       "notes": "The central map/table remains legible under a small warm pool of light, while reduced room illumination supports the grief scene. Furniture and doorway geometry match the brighter family home. Deep edges are intentional evening shadow, not a newly flattened or blurred repaint. Final actor/text contrast remains a runtime check. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:ad4807c22df8c08c5eb2f9b23d04430011b262eb",
@@ -1111,7 +1111,7 @@
       },
       "notes": "Books, rolled maps, globe and central map table retain texture and distinct silhouettes. Warm overhead/table light and the receding center passage keep the dense room readable. Foreground floor remains usable for actors. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:2e1ddbb3d8733f6f5cc4bfb3aab0529a757f6f0c",
@@ -1130,7 +1130,7 @@
       },
       "notes": "The stage, left stair, central bridge/arches and occupied galleries match the festival plaza. Overcast light and flowers/messages change the event's mood while retaining crowd depth and stone/clothing detail. Foreground mourners have coherent grounded poses. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:7c870fbaf4667b3111456dfba44aa59eccf731f3",
@@ -1149,7 +1149,7 @@
       },
       "notes": "The mural, paint tins and marked bench form a clear remembrance/work focus, with garden depth to the left. The children within the mural are visibly stylized painted figures; their simplified faces and imaginary-adventure setting are distinct from literal character CGs. Plaster, foliage and brushwork retain texture. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:8808873e44ae32c7507c3059db9a50bd8fefde88",
@@ -1168,7 +1168,7 @@
       },
       "notes": "Piano, flute across the score and harp remain readable under warm practical lighting. The rug, bench and floor provide coherent depth and support. Instrument detail is retained without sharpening halos or a pasted-in appearance. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:a5109d52ac6892a3405e2f82a8029d557a79b554",
@@ -1187,7 +1187,7 @@
       },
       "notes": "Warmer daylight and additional drawings change the memorial's atmosphere while preserving the same architecture and crowd scale. Foreground stone and clothes retain tonal modeling. The image supports retrospective recurring remembrance rather than asserting exact new ages for individuals. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:1f51b8c45d7d9d783aa0b54cc43f201ca534e584",
@@ -1206,7 +1206,7 @@
       },
       "notes": "A low gathering table and cushions lead into the bed alcove, with clear wood/fabric texture and warm light. The room remains inviting and spatially coherent; its foreground supports the story's close family gathering. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:69678f8882fe1db4d0dd12ac2273545377371e12",
@@ -1225,7 +1225,7 @@
       },
       "notes": "The rover, drafting board and blue technical display create a strong invention focus. Metal, tools, paper and wood retain separate textures; cool side light and warm task illumination create depth. The floor-scale machine is coherent as part of Soren's workshop equipment. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:92faba2e88e72a384041fb45e335e8c46cf03624",
@@ -1244,7 +1244,7 @@
       },
       "notes": "The familiar diagonal trunk, upper door, viewing bays, curtains, cushions and map table remain intact. Added drawings are readable against the wall without flattening the wood. Warm interior pools and the cool rainy exterior preserve the room's depth. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:6a25df91b9207d27b863976baf0313c2152f9289",
@@ -1263,7 +1263,7 @@
       },
       "notes": "The small wheel sits under the pipe on a visible supporting frame in the same shallow pond. Water, wood, stone and foreground tools retain detail. The image clearly presents the finished project; full-body actors should not be placed on its water. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:7797f285a72f943db4ea8f2f6ca9e51aef52cfba",
@@ -1282,7 +1282,7 @@
       },
       "notes": "Arin's central workbench, drawers, lamp and small devices read cleanly, with textured floor and open staging area. Warm task light separates tools from the wall while side vegetation provides depth. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:aca0d8ef4466e4df83088252d08e791638a9dce7",
@@ -1301,7 +1301,7 @@
       },
       "notes": "The curving foreground path leads toward a small social gathering beneath linked arches. Potted plants, cushions and stone remain detailed; background figures are naturally seated/standing at their actual scale. The courtyard reads as a different, smaller gathering space than the central festival plaza. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:a7bd788969282799de142b8f04372332882ada5f",
@@ -1320,7 +1320,7 @@
       },
       "notes": "The long receding path, warm distant light, scaffolding, cut panels, rope and tools provide strong depth and tactile detail. Distant children/workers fit the exploration setting. The raised foreground ledge is a runtime actor-position watchpoint, described below. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:e4aadba53e2da2a257cf8604a4bcf30d17291355",
@@ -1339,7 +1339,7 @@
       },
       "notes": "The shared round table, map, books, toys, chairs and surrounding passages retain warm dimensional lighting and readable material detail. Its layout agrees with the dusk variant. No foreground face is embedded where a runtime speaker needs to change. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:e2721eb958af40e9ca17624df2fea62e78032643",
@@ -1358,7 +1358,7 @@
       },
       "notes": "Seedlings and watering can clearly establish the gardening action; the curving path and background pond provide depth. Soil, wooden edging, leaves and dappled light retain detail. The stool and can remain plausible in scale with the bed. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:80a65efa75ab875eba394aba0cd228b3ebb2edfc",
@@ -1377,7 +1377,7 @@
       },
       "notes": "The upper room is visibly broad and supported by the huge oak, with a ladder connecting to its actual door and a separate lower hollow. The circular lower refuge retains cushions, maps and storage. Warm practical lights preserve readable wood detail within the cool canopy. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:3f06fe9c65484c94c945d2f7690912379c129b91",
@@ -1396,7 +1396,7 @@
       },
       "notes": "Rain appears beyond the same upper room's openings; the diagonal trunk, door, rail, map table and cushions keep their places. Wood grain, fabric and floor reflections remain detailed. The warm/cool separation is intentional refuge lighting. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:308b35198c3edb06748376fd1eb845ee48b2dfef",
@@ -1415,7 +1415,7 @@
       },
       "notes": "The canonical room has readable upper-floor geometry, a working door, broad open bays and tangible accumulated belongings. Warm local illumination and cool foliage give dimensional depth; the open floor is useful for changing character blocking. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:2f20bf3619bbc3c7548a118b0f6399ede8207edd",
@@ -1434,7 +1434,7 @@
       },
       "notes": "A complete seated golden retriever silhouette, expressive natural muzzle/brown eyes and textured golden feathering remain intact. Paws and the single tail read coherently. The green field is the runtime key background, not delivered scene scenery. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:fc76461005b4e4ff6af1368bafa649d2b7604444",
@@ -1453,7 +1453,7 @@
       },
       "notes": "The author's chosen fluffy black/white design is retained: white blaze/forelock, large pink ears, pink feet/tail and distinct violet viewer-left/coral viewer-right irises. Fur detail, whiskers, shaded nose and catchlights remain clear. Its stylization is the approved familiar design, not a new human-face style reference. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:1cea0204bc5e798d6d950c2a8bd860c83bccbcd1",
@@ -1472,7 +1472,7 @@
       },
       "notes": "Black fur has readable warm rim/midtone detail; green irises, notched ear and one crooked-tipped tail are distinct. Seated feline anatomy and paws are coherent. The blue field is the runtime key background. Opened full native-resolution frame; exact selected prior Git comparison retains the same pixels. Runtime staging remains independently gated.",
       "evidence": {
-        "docs/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
+        "../development/visual-novel/reviews/graphics/BACKGROUND_FAMILIAR_QUALITY_REVIEW.md": "251d97382506d3e31771a6db991db1ba0cfd078767f7dd19a18c4c5fd6559876",
         "test-results/background-familiar-quality/inventory.json": "8ae78c550d50229a279d961ea900f1b3e6163d382149ae3e20966cab96bf7b9e"
       },
       "comparison_reference": "git:68a76f56174178bb7b0409f5215a7aa7ea6e86fb",
@@ -1493,7 +1493,7 @@
       },
       "notes": "Close seated pair and joined hands carry the quiet conversation. Later Calista and Cassia retain recognizable features, naturally shaded blue/olive-green irises and softly modeled grief. Left trunk, arched entrance, open bays and map table match the established room; no empty wide-shot regression.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:a159574b0f1082369a9a447ef2dbd7b8db0c1349",
       "comparison_signature": "a159574b0f1082369a9a447ef2dbd7b8db0c1349"
@@ -1513,7 +1513,7 @@
       },
       "notes": "Maia's embrace and Calista's downward face clearly carry the scene. Arms and hands wrap around a supported seated child plausibly. Warm facial midtones remain visible within the dark evening room; garment/cushion detail and intimate framing are strong. Lowered eyes do not need exposed pigment invented.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:c5ad698c2b9a6861df9755c858f2585520ffec94",
       "comparison_signature": "c5ad698c2b9a6861df9755c858f2585520ffec94"
@@ -1536,7 +1536,7 @@
       },
       "notes": "Five recognizable earlier-life parents surround the newborn with coherent downward gazes and gentle hands. Warm light gives dimensional adult faces, white hair and swaddling without over-sharpening. Intimate grouping and infant scale are deliberate; closed/lowered eyes need no manufactured iris visibility.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:2b1b7708e6cdd3cbd381b1c1ec611a4ef3c49470",
       "comparison_signature": "2b1b7708e6cdd3cbd381b1c1ec611a4ef3c49470"
@@ -1554,7 +1554,7 @@
       },
       "notes": "Pale freckles, short auburn hair and androgynous adult face remain legible. Apron/tool textures and capable hands support the workshop role; soft cheek planes avoid hard caricature lines.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:4f5e92430bb5c3bb4b06124f284bc8956b7a2e2e",
       "comparison_signature": "4f5e92430bb5c3bb4b06124f284bc8956b7a2e2e"
@@ -1570,9 +1570,9 @@
         "docs/ART_DIRECTION.md": "0178a3b87ea02bed1fe79a7858c3fc6c30f7441f0f31b4068928c9f9633db0d9",
         "game/images/characters/book-one/calista-festival.png": "3a796e998447303d3006871047579793e47db85bebceef1ec0dca323601e29c7"
       },
-      "notes": "The independent HEAD comparison retained the improved, less round eye anatomy and detailed skin/hair/costume. Root inspected the final face and unfiltered 5x iris crop: fixed navy-blue pigment retains the original dark pupil, catchlights and lid shadows. Exact recipe reproduction verifies only 158\u2013177 iris pixels change and silhouette/canvas/backing remain identical. Full-figure focal presence is preserved by existing body-bound framing; no other painting was regenerated.",
+      "notes": "The independent HEAD comparison retained the improved, less round eye anatomy and detailed skin/hair/costume. Root inspected the final face and unfiltered 5x iris crop: fixed navy-blue pigment retains the original dark pupil, catchlights and lid shadows. Exact recipe reproduction verifies only 158–177 iris pixels change and silhouette/canvas/backing remain identical. Full-figure focal presence is preserved by existing body-bound framing; no other painting was regenerated.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:eba8443af0240da444d384a22c381b1d330c3efc",
       "comparison_signature": "eba8443af0240da444d384a22c381b1d330c3efc"
@@ -1588,9 +1588,9 @@
         "docs/ART_DIRECTION.md": "0178a3b87ea02bed1fe79a7858c3fc6c30f7441f0f31b4068928c9f9633db0d9",
         "game/images/characters/book-one/calista-festive.png": "ae6808ba84ca5d16f87353f5ecac1aca111fd1531d9933b1a794f4e3f15e350c"
       },
-      "notes": "The independent HEAD comparison retained the improved, less round eye anatomy and detailed skin/hair/costume. Root inspected the final face and unfiltered 5x iris crop: fixed navy-blue pigment retains the original dark pupil, catchlights and lid shadows. Exact recipe reproduction verifies only 158\u2013177 iris pixels change and silhouette/canvas/backing remain identical. Full-figure focal presence is preserved by existing body-bound framing; no other painting was regenerated.",
+      "notes": "The independent HEAD comparison retained the improved, less round eye anatomy and detailed skin/hair/costume. Root inspected the final face and unfiltered 5x iris crop: fixed navy-blue pigment retains the original dark pupil, catchlights and lid shadows. Exact recipe reproduction verifies only 158–177 iris pixels change and silhouette/canvas/backing remain identical. Full-figure focal presence is preserved by existing body-bound framing; no other painting was regenerated.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:e9640a4138f34f4671bfd13b3dea3ad129ff8fb1",
       "comparison_signature": "e9640a4138f34f4671bfd13b3dea3ad129ff8fb1"
@@ -1608,7 +1608,7 @@
       },
       "notes": "Later-stage face and long practical clothing match older Calista; furrowed brow, open speaking mouth and outward palm express the disagreement naturally. Blue-grey irises remain shaded, and hand/cloth detail is intact.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:19dac634c4879a740d0850d05f49b198313df3c4",
       "comparison_signature": "19dac634c4879a740d0850d05f49b198313df3c4"
@@ -1624,9 +1624,9 @@
         "docs/ART_DIRECTION.md": "0178a3b87ea02bed1fe79a7858c3fc6c30f7441f0f31b4068928c9f9633db0d9",
         "game/images/characters/book-one/calista-home.png": "c89f5aa739a14a19b687842c9dc00c54cc2cae3fba101d6869c19a5134494d36"
       },
-      "notes": "The independent HEAD comparison retained the improved, less round eye anatomy and detailed skin/hair/costume. Root inspected the final face and unfiltered 5x iris crop: fixed navy-blue pigment retains the original dark pupil, catchlights and lid shadows. Exact recipe reproduction verifies only 158\u2013177 iris pixels change and silhouette/canvas/backing remain identical. Full-figure focal presence is preserved by existing body-bound framing; no other painting was regenerated.",
+      "notes": "The independent HEAD comparison retained the improved, less round eye anatomy and detailed skin/hair/costume. Root inspected the final face and unfiltered 5x iris crop: fixed navy-blue pigment retains the original dark pupil, catchlights and lid shadows. Exact recipe reproduction verifies only 158–177 iris pixels change and silhouette/canvas/backing remain identical. Full-figure focal presence is preserved by existing body-bound framing; no other painting was regenerated.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:3505c86d15e320ce42e68f3421a637146b1302f0",
       "comparison_signature": "3505c86d15e320ce42e68f3421a637146b1302f0"
@@ -1644,7 +1644,7 @@
       },
       "notes": "Subdued eyes and closed relaxed mouth preserve Calista's later-childhood face. Warm cheek midtones, chestnut curls, layered quiet clothes and clasped hands remain detailed without exaggerating grief.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:b39954eb4e222d055beedd7223ceb32934083c7d",
       "comparison_signature": "b39954eb4e222d055beedd7223ceb32934083c7d"
@@ -1662,7 +1662,7 @@
       },
       "notes": "Longer limbs and narrower face distinguish later childhood. Olive freckles, chestnut curls and subdued blue irises are coherent; neutral pose, outfit layers and clear silhouette retain painterly texture.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:8d2039f301e4372b74d8d13e85fb003c76d7bb5b",
       "comparison_signature": "8d2039f301e4372b74d8d13e85fb003c76d7bb5b"
@@ -1680,7 +1680,7 @@
       },
       "notes": "The later-stage face matches older/mourning Calista, with a restrained brighter expression. Brush, palette, apron marks and hand contact are legible; natural blue irises and dimensional skin remain intact.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:12b4e6ebdfdb6e20ee2e9fa0f2c545ecf73ba3fd",
       "comparison_signature": "12b4e6ebdfdb6e20ee2e9fa0f2c545ecf73ba3fd"
@@ -1696,9 +1696,9 @@
         "docs/ART_DIRECTION.md": "0178a3b87ea02bed1fe79a7858c3fc6c30f7441f0f31b4068928c9f9633db0d9",
         "game/images/characters/book-one/calista-young.png": "75649a7bc527427ab83e01d4b65749e9207562dadc9e36e0d9d4ce6cc1c541aa"
       },
-      "notes": "The independent HEAD comparison retained the improved, less round eye anatomy and detailed skin/hair/costume. Root inspected the final face and unfiltered 5x iris crop: fixed navy-blue pigment retains the original dark pupil, catchlights and lid shadows. Exact recipe reproduction verifies only 158\u2013177 iris pixels change and silhouette/canvas/backing remain identical. Full-figure focal presence is preserved by existing body-bound framing; no other painting was regenerated.",
+      "notes": "The independent HEAD comparison retained the improved, less round eye anatomy and detailed skin/hair/costume. Root inspected the final face and unfiltered 5x iris crop: fixed navy-blue pigment retains the original dark pupil, catchlights and lid shadows. Exact recipe reproduction verifies only 158–177 iris pixels change and silhouette/canvas/backing remain identical. Full-figure focal presence is preserved by existing body-bound framing; no other painting was regenerated.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:9b024f53a5a5071f9eca96370f0ef1e03a7f513f",
       "comparison_signature": "9b024f53a5a5071f9eca96370f0ef1e03a7f513f"
@@ -1716,7 +1716,7 @@
       },
       "notes": "Umber skin retains the requested midtones across cheeks/nose/forehead; lip edges are soft. Sad eyes and posture stay natural, with olive-green pigment under warm illumination rather than luminous mint. Hair, shawl and hand detail remain strong.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:824669a28e5c4f878313094f76b06bf10d0ece8a",
       "comparison_signature": "824669a28e5c4f878313094f76b06bf10d0ece8a"
@@ -1766,7 +1766,7 @@
       },
       "notes": "Broad adult build, dark complexion, short dark/silver hair, glasses and beard match the role. Lens/eye area and open hand are coherent; coat and notebook have detailed material surfaces without excess gloss.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:3be5e710eaa018181aabe0c7f52989b43cd95547",
       "comparison_signature": "3be5e710eaa018181aabe0c7f52989b43cd95547"
@@ -1784,7 +1784,7 @@
       },
       "notes": "The later-stage blond face and practical blue/orange outfit match older Joren. Brow and mouth change express frustration without distorting identity; speaking hand, blue eyes and layered fabric remain readable.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:149e5427b94af00451d78030da7b81bff37230a4",
       "comparison_signature": "149e5427b94af00451d78030da7b81bff37230a4"
@@ -1802,7 +1802,7 @@
       },
       "notes": "Modest longer-limbed child build, blond curls, ruddy freckles and blue irises match the later stage. Smile and held satchel strap have coherent anatomy; garment detail and warm face modeling stay intact.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:9444223c2e341247a94ada9746e72153624c4345",
       "comparison_signature": "9444223c2e341247a94ada9746e72153624c4345"
@@ -1820,7 +1820,7 @@
       },
       "notes": "Early short trousers, blond curls and ruddy freckled smile fit first friendships. Blue irises are contained by dark pupils/lids. Satchel straps, hands, cloth and shoes retain detail and clear staging silhouette.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:7c3b7aa908240d733df9766c2e2ede20195f3400",
       "comparison_signature": "7c3b7aa908240d733df9766c2e2ede20195f3400"
@@ -1838,7 +1838,7 @@
       },
       "notes": "Dark tousled hair, deep warm brown skin, narrow older-child eyelids and shaded gold-hazel irises are preserved. Longer limbs and calm smile distinguish him from the younger siblings; warm skin and work clothes remain dimensional.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:58339e951686517642514e804296e7a37e38a5a3",
       "comparison_signature": "58339e951686517642514e804296e7a37e38a5a3"
@@ -1856,7 +1856,7 @@
       },
       "notes": "Weathered adult face, graying brown hair and golden-brown eyes retain natural anatomy. Relaxed hands and practical layered clothes suit his speaking role; beard/hair/fabric texture remains detailed.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:2e023a217f90d4ec6a91f1c844e28de08a3b0c8c",
       "comparison_signature": "2e023a217f90d4ec6a91f1c844e28de08a3b0c8c"
@@ -1874,7 +1874,7 @@
       },
       "notes": "Small-child proportions, golden curls and green irises remain distinct from Calista and Kael. Freckles and warm cheeks support the gentle expression; clasped hands and practical overalls read clearly.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:f14ca9cede21a3a1fae2e84e8c6ed22798d5bae3",
       "comparison_signature": "f14ca9cede21a3a1fae2e84e8c6ed22798d5bae3"
@@ -1892,7 +1892,7 @@
       },
       "notes": "Salt-and-pepper hair/beard, hazel eyes and easy adult expression remain coherent. Broad casual blue shirt and supported stance retain detailed fabric and dimensional face/hands.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:bb2aed12674c2435c74df30a2df20243a5fcccbd",
       "comparison_signature": "bb2aed12674c2435c74df30a2df20243a5fcccbd"
@@ -1910,7 +1910,7 @@
       },
       "notes": "Warm brown skin, dark silver-streaked curls/braids and tender adult face match gardening Maia. Empty outstretched hand fits comforting dialogue; warm skin midtones and blue/ochre layers remain detailed.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:958eb7ff6931597f35f1b9c2c651981a7087e517",
       "comparison_signature": "958eb7ff6931597f35f1b9c2c651981a7087e517"
@@ -1928,7 +1928,7 @@
       },
       "notes": "Short sandy hair, warm freckled complexion and androgynous adult features retain their source identity. Subdued grey eyes and relaxed hand placement are coherent; bare feet and layered fabric have plausible anatomy.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:6218c4b8407573a26401a9499baf309ddd23e220",
       "comparison_signature": "6218c4b8407573a26401a9499baf309ddd23e220"
@@ -1946,7 +1946,7 @@
       },
       "notes": "Bronze skin, long white hair and shaded violet irises preserve Selene's adult identity. Soft face modeling and long relaxed fingers remain legible, with fine hair/fabric texture; white hair does not turn her into an elderly parent.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:fd8fc1d16d9f58cb92572f366588fd688eac0362",
       "comparison_signature": "fd8fc1d16d9f58cb92572f366588fd688eac0362"
@@ -1964,7 +1964,7 @@
       },
       "notes": "Cropped light hair, blue eyes and natural adult face remain legible. Work overalls, hands at pockets and modest smile have coherent anatomy and material detail.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:36c4364f488fef49c2a2c363a6a356c7e0c4ba88",
       "comparison_signature": "36c4364f488fef49c2a2c363a6a356c7e0c4ba88"
@@ -1982,7 +1982,7 @@
       },
       "notes": "Dark curls, green eyes and warm adult features remain coherent. Flowing practical purple clothing, clasped hands and soft dimensional face retain detail without harsh lip outlines.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:8b544afd0647a1cd7bd6cc5ce1369035e48469e3",
       "comparison_signature": "8b544afd0647a1cd7bd6cc5ce1369035e48469e3"
@@ -2000,7 +2000,7 @@
       },
       "notes": "Gardening pose retains silver-streaked curls, warm brown skin, amber-green eyes and an inviting expression. Seed-holding hand, floral apron and layered clothes support the lesson, with strong painterly detail and retained authored alpha.",
       "evidence": {
-        "docs/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_STABLE.md": "81686b69cf788419aa3a9f6f4ccc093c9f53fb6609b06cf5c2cc58a78add21a7"
       },
       "comparison_reference": "git:d10a77fcf04125c0a88da63e97096060b74106d8",
       "comparison_signature": "d10a77fcf04125c0a88da63e97096060b74106d8"
@@ -2141,7 +2141,7 @@
       },
       "notes": "Read title/afterword/end-card/credits and URL constants. Estimate is supported by7857words and658blocks plus reading beats; optional177.76s song separate. All requested author/itch/song links and0.1-alpha labels match; hopeful wording does not erase loss or promise a release. Rechecked after the final Help-column and quick-bar font adjustment: exact reconstruction matches the previously reviewed screens file, with no other changes to artwork/character state, credit links or afterword. New runtime/UI captures are separate required checks.",
       "evidence": {
-        "docs/CREDITS_RELEASE_REVIEW.md": "a953ff3d694ea6a38dcf4462d1354baf787aff38335db92018a061442612ebae"
+        "../development/visual-novel/reviews/releases/CREDITS_RELEASE_REVIEW.md": "a953ff3d694ea6a38dcf4462d1354baf787aff38335db92018a061442612ebae"
       }
     },
     "target-platforms": {
@@ -2287,7 +2287,7 @@
       },
       "notes": "Windows and macOS archives are integrity-checked candidates built on Linux; their target-OS launch remains unverified and macOS is unsigned. Linux native, bundled-launch and Chromium checks have separate evidence. Safari/mobile, self-voicing output and physical speaker/headphone playback remain unverified. The final film uses complete native-timestamp decoded sequences and motion/blend analysis, without claiming subjective real-time audiovisual viewing.",
       "evidence": {
-        "docs/CREDITS_RELEASE_REVIEW.md": "a953ff3d694ea6a38dcf4462d1354baf787aff38335db92018a061442612ebae"
+        "../development/visual-novel/reviews/releases/CREDITS_RELEASE_REVIEW.md": "a953ff3d694ea6a38dcf4462d1354baf787aff38335db92018a061442612ebae"
       }
     },
     "location-comparison": {
@@ -2340,7 +2340,7 @@
         "docs/familiar-assets.json": "723aef4d0c4ab089424d522e9e2ddca06b6a510f13382ad9bafe98ed04b7c5fa",
         "docs/ART_DIRECTION.md": "0178a3b87ea02bed1fe79a7858c3fc6c30f7441f0f31b4068928c9f9633db0d9",
         "docs/BOOK_ONE_COVERAGE.md": "3954317e81ab9047c8c5e454019b49760e9b24d2b382d820d83c3c81f33c0d59",
-        "docs/WRITING_NOTES.md": "8e531ba1e7d4f518740a8f22283dd3d8dd8f68621add25bd53be9aeb174e40ef",
+        "../development/visual-novel/design/adaptation.md": "8e531ba1e7d4f518740a8f22283dd3d8dd8f68621add25bd53be9aeb174e40ef",
         "docs/cg-character-review.json": "f7f51ec53dffa55b7e768f8e0f150b077662a4b836fd088d604af03c60b33cd3",
         "docs/location-continuity.json": "98de1703d589d4f1ad9096b45f07b6df60754528cbdcbf3e2b25feaa50cc379d",
         "game/book_structure.rpy": "9a3b7b60a3a49fd5436365639c2a26fa7734c1a3bccf070a8656b5c73bfc4d46",
@@ -2748,7 +2748,7 @@
       },
       "notes": "The close seated circle, open sketchbook and engaged listeners retain the earlier composition. Warm cheek midtones, curls, woven clothing and stone detail remain clear at native size. Calista and Cassia have comparable supported torsos; Cassia keeps her natural profile and shaded dark green iris. Calista now has subdued blue pigment; face shape, expression and all other painted detail survive the narrow correction.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:7a27af1382cd53534b41b70015f7f8066d21336f",
       "comparison_signature": "7a27af1382cd53534b41b70015f7f8066d21336f"
@@ -2768,7 +2768,7 @@
       },
       "notes": "The intimate lesson, supported bench pose and hand/flute relationship retain the earlier framing. Candle warmth and soft dimensional skin remain; hair strands, clothing folds and room instruments retain native detail. Calista has a natural young face with blue pigment beneath the original lids; Selene remains a petite adult with lowered lids. The iris correction leaves the complete composition and texture unchanged outside the mask.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:37b7d3f6597004978668cab2116b698246605649",
       "comparison_signature": "37b7d3f6597004978668cab2116b698246605649"
@@ -2788,7 +2788,7 @@
       },
       "notes": "The pause in the same lesson retains the lowered flute, Calista's upward glance and Selene's reassuring pose. Warm midtones, lips, cheeks, delicate white hair and cloth retain the earlier detail and sharpness. Calista's blue pigment is subdued with the original pupil and catchlight; Selene's lowered eyes remain untouched. The companion scene's bodies and room have not drifted.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:595bb47ef8188cc71671358205c4b4995fda5973",
       "comparison_signature": "595bb47ef8188cc71671358205c4b4995fda5973"
@@ -2809,7 +2809,7 @@
       },
       "notes": "The shared row of pots and three-way conversation remain the focus. The blue flowers make Calista's handled pot readable without changing the shot's depth or character presence. Warm dimensional faces, individual braids/curls, soil, pottery and leaves retain native detail. Maia reads as an adult and Kael has longer reach/larger torso than Calista despite their kneels; blue, hazel/gold and amber-dark eye readings are coherent.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:7350e889f6d170bd36596868b2fd21eeecb034b5",
       "comparison_signature": "7350e889f6d170bd36596868b2fd21eeecb034b5"
@@ -2832,7 +2832,7 @@
       },
       "notes": "The reaching diagonal from the dry bank to Lyra remains clear, with Barkley and the black cat framing the rescue. Native face, fur, water and cloth detail retain the earlier texture and warm depth. Calista's pigment is corrected to blue without changing expression. Kael's tiny dark olive/gold iris is preserved: the blue-grey patch beside it is shaded sclera, not iris. Lyra has green eyes and a much smaller frame.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:51cd3c86a43145a35a907d30443a62f03299128a",
       "comparison_signature": "51cd3c86a43145a35a907d30443a62f03299128a"
@@ -2855,7 +2855,7 @@
       },
       "notes": "The stronger HEAD painting is restored, with only 97 Calista iris pixels changed. The close protective embrace, delicate Barkley fur, softer foliage/ground strokes and natural narrower Kael eyelids all survive. The rejected scale/face variants hardened fur and facial detail. Kael squats deeply on his boots farther back while Calista kneels upright nearer the camera; his longer arms, larger hands and torso establish the older brother without forcing a higher crown. Calista blue, Kael hazel and Lyra green remain naturally shaded.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:c0f7f367ac993698f56d099e09d4d6dd8d254f28",
       "comparison_signature": "c0f7f367ac993698f56d099e09d4d6dd8d254f28"
@@ -2876,7 +2876,7 @@
       },
       "notes": "The trio, pointing gesture and broad warm dome vista retain the earlier focal relationship. Corrected supported feet and longer Joren torso/legs give him a modest height lead while Calista/Cassia stay comparable later-childhood peers. Faces retain coherent cheek/nose/mouth shape, and vest/jacket textures, masonry and foliage remain detailed rather than blurred. Blue/forest-green/blue pigment is subdued; occluded iris areas and shaded scleral whites remain unchanged.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:20b90b19832a4d68968f8cf80c3333a459e013db",
       "comparison_signature": "20b90b19832a4d68968f8cf80c3333a459e013db"
@@ -2895,7 +2895,7 @@
       },
       "notes": "The intimate seated drawing pose, notebook and lamplight retain the earlier focal presence. Warm face midtones, fine curls, embroidered sleeves, cushion and table grain retain detail and sharpness. Calista's lowered blue eyes and small quiet smile remain naturally modeled; no whole-face repaint was needed. The one-human crop supports stage/pose review, not standing-height measurement.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:6e130f2d1dd06bbd20cb843c0cd79ea3512000d6",
       "comparison_signature": "6e130f2d1dd06bbd20cb843c0cd79ea3512000d6"
@@ -2915,7 +2915,7 @@
       },
       "notes": "The opening retains both children close among the sunflowers and Kael's explanatory pointing gesture. Calista's eyes are less round and exaggerated than the earlier opening, with restrained slate-blue pigment and dimensional freckled cheeks. Kael remains recognizably older with hazel/gold eyes and a larger shoulder/arm frame. Warm light, fabric, hair and flower detail remain clear without introducing a flat dark face or losing the story's welcome.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:5f9d8cababad8282526b9d0993128bd40386c092",
       "comparison_signature": "5f9d8cababad8282526b9d0993128bd40386c092"
@@ -2935,7 +2935,7 @@
       },
       "notes": "The leaf/insect and shared close curiosity retain their earlier focus. Calista's subdued blue eyes and Lyra's green eyes have preserved dark pupils and naturally shaded lids. The younger sister's rounder face and shorter arms remain distinct; both retain coherent noses, mouths and fingers. Soft warm cheek light, detailed curls, sleeves and leaf textures survive without a wider or emptier recrop.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:d0c724135db07d1adeb9dfef81812647fe092da9",
       "comparison_signature": "d0c724135db07d1adeb9dfef81812647fe092da9"
@@ -2955,7 +2955,7 @@
       },
       "notes": "The close held-rat composition retains Calista's tender downward gaze, hand support and warm facial depth. Nibble now faces us with a clear black hood, broad white blaze, fluffy white body, pink ears and violet viewer-left/coral viewer-right irises. Native fur, whiskers, fingers, curls and cloth remain detailed; the stronger markings do not erase the painterly softness. Calista's mostly lowered eyes do not need invented exposed color.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:dc8b366ee538b9a13081290899959c0019c29e1a",
       "comparison_signature": "dc8b366ee538b9a13081290899959c0019c29e1a"
@@ -2976,7 +2976,7 @@
       },
       "notes": "The shared comical drawing and three close faces retain the earlier warm lively framing. Cassia's stretched open mouth/pinched chin is replaced by a natural smiling mouth and coherent cheek/jaw structure while preserving amusement. Calista and Joren retain their expressions; all three have subdued blue/green/blue iris pigment. Fine curls, fabric, fingers, drawing lines and table objects retain native clarity and modeled light. The face crop cannot certify standing height.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:f21752c8330630a43dab772a5fb095930e3d927e",
       "comparison_signature": "f21752c8330630a43dab772a5fb095930e3d927e"
@@ -2997,7 +2997,7 @@
       },
       "notes": "HEAD is restored byte for byte because it is the stronger painting. The children's attention stays on the wheel; soft dimensional faces, fine clothing/wood texture and warm bank detail avoid the rejected variant's hard synthetic strokes and redirected gaze. Cassia leans forward with chin on palm, accounting for a lower crown without changing peer maturity; supported hips, bent limbs and shared wheel establish depth. Original narrow lowered lids expose mostly dark pupils, catchlights and shaded sclera, with no conspicuous contradictory pigment. No eyes were opened or recolored to force visibility.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:741bb14fa76dd4501d4adb18bafd1ad547194e07",
       "comparison_signature": "741bb14fa76dd4501d4adb18bafd1ad547194e07"
@@ -3018,7 +3018,7 @@
       },
       "notes": "The intimate tabletop conversation, map and bright open room retain their earlier framing and material detail. Calista's fuller peer-scale seated torso/limbs avoid the former much-smaller near-seat child, accounting for cushion/hip support. Cassia remains her peer and Joren modestly larger; expressions and gestures stay engaging. Warm face midtones, curls, patterned clothing, cushions and timber remain crisp at native size. Calista blue and Cassia forest-green pigment are bounded corrections; Joren's subdued profile blue remains untouched.",
       "evidence": {
-        "docs/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
+        "../development/visual-novel/reviews/graphics/ART_REVIEW_CG.md": "199aab862eae427343126aa8649a1617d14cf0f45a3b7892aa679aec9c0e531a"
       },
       "comparison_reference": "git:b33962669b1b652b97a509612dbd8ef64d409c84",
       "comparison_signature": "b33962669b1b652b97a509612dbd8ef64d409c84"
@@ -3839,7 +3839,7 @@
       },
       "notes": "Final MP4 contains 10,666 decoded 1080p frames at exactly 60 fps, with no video or audio decode errors. Complete 177.76-second source audio retained; AAC level change -0.0556 dB and peak -4.113 dBFS. Actual codec, duration, size, source hashes, timestamps and all overlap evidence recorded.",
       "evidence": {
-        "docs/FINAL_FILM_REVIEW.md": "bc0ffd648bed2aba1de58ec20ff8d09499e52bc42ea25afc47e64d45e27fcaf3",
+        "../development/visual-novel/reviews/graphics/FINAL_FILM_REVIEW.md": "bc0ffd648bed2aba1de58ec20ff8d09499e52bc42ea25afc47e64d45e27fcaf3",
         "test-results/final-film/verification.json": "cf22e951ff66180d87748862f50822e345bc1392e03cc082ebffaec2f141c40d",
         "test-results/final-film/timestamps.json": "606199dee8697dc844253a62985e18b4a09fa0e6c171490307400ec28659c86f",
         "test-results/final-film/audio-master-check.json": "a9b67f71c2463faadf97e722df35966e2b2693da21e7c242854169675186eae5",
@@ -4291,7 +4291,7 @@
       },
       "notes": "Final Chromium probe: 5 grouped control checks passed with 41 captures (16 at 1280x720, 25 at 960x540) and 0 engine/browser errors. Independent visual review confirms repaired Help columns, readable uncrowded larger quick-bar labels, clear focus/selection and warnings, safe Return/Escape/No destinations, understandable knowledge empty/populated states, and theme state feedback. Native History/Settings at 1738x977 inspected too. Exact final web hashes and remaining compact-text/platform scope limits are recorded in docs/USABILITY_REVIEW.md.",
       "evidence": {
-        "docs/USABILITY_REVIEW.md": "ef330af5fa578d4de0eb59950205af8f9366d86fa64f88958c5da198f963220f",
+        "../development/visual-novel/reviews/releases/USABILITY_REVIEW.md": "ef330af5fa578d4de0eb59950205af8f9366d86fa64f88958c5da198f963220f",
         "test-results/usability/browser-usability.json": "5e7b6fe5fcb86532772f69197ff323e34ee03f03d7704cb4632c0e621ef2882f",
         "test-results/usability/1280x720-title.png": "e5b9f5d7fa4c7d330a072ebbe9dd2bcf9f54dfc89f583dce0dc57f6c0b798633",
         "test-results/usability/1280x720-keyboard-focus-load.png": "c90a60191d554593634c870449109135fa49c21f224b6d8ca6dcd4030d3bfa29",
@@ -4474,9 +4474,9 @@
       },
       "notes": "Inspected 49 final native narrative/action/transition frames plus 12 UI-hidden support frames; 29 scenes have native scene/dialogue views and scene 25 is transition-only. Current final browser views supply scenes 22, 25 and 32, with full-size checks for 15/22/25/32. Character support, shared room depth, peer proportions, action poses and text/controls agree with approved assets; final Help/quick-bar UI repair reviewed after fresh native rerun. Coverage and limits are explicit in the report.",
       "evidence": {
-        "docs/RUNTIME_VISUAL_REVIEW.md": "5fb3ee20c03523ce885b6cfdc1d68b5fb9b24207c2da6a9931d7a4ca09b361e9",
-        "docs/CONSTRUCTION_GROUNDING_REVIEW.md": "c77ee3b75bda5ffa03c7b789fa0dca4970b98a8e9babce629c80ba8d3562477b",
-        "docs/USABILITY_REVIEW.md": "ef330af5fa578d4de0eb59950205af8f9366d86fa64f88958c5da198f963220f",
+        "../development/visual-novel/reviews/graphics/RUNTIME_VISUAL_REVIEW.md": "5fb3ee20c03523ce885b6cfdc1d68b5fb9b24207c2da6a9931d7a4ca09b361e9",
+        "../development/visual-novel/reviews/graphics/CONSTRUCTION_GROUNDING_REVIEW.md": "c77ee3b75bda5ffa03c7b789fa0dca4970b98a8e9babce629c80ba8d3562477b",
+        "../development/visual-novel/reviews/releases/USABILITY_REVIEW.md": "ef330af5fa578d4de0eb59950205af8f9366d86fa64f88958c5da198f963220f",
         "test-results/native-visual/reviewed-frames.json": "f7b40b05cd42af73b66ce795c6331f96374cdd92df2a842befb3f54bd18e8c1e",
         "test-results/browser-visual/reviewed-frames.json": "c007ba6e0054f4dd04012e249c15befbd19810820e80692f43ea94d17c0f0955",
         "test-results/screenshots/first-memory.png": "90a8859fdd4c7319c28c51e5ca39a84a1749e2ecbf6f16e9e54e892518f07e3b",
@@ -4692,9 +4692,9 @@
       },
       "notes": "Inspected all 32 final candidate scene captures against native framing and approved assets, and full-size 15/22/25/32. Rechecked fresh captures after the complete successful browser rerun. Full-size empty/populated glossary and SUNO credits have readable text and selected state, without clipping; separate 41-capture usability review covers final 1280/960 menus and controls. No unexplained tint, stature, support-plane or duplicate-sprite regression found.",
       "evidence": {
-        "docs/RUNTIME_VISUAL_REVIEW.md": "5fb3ee20c03523ce885b6cfdc1d68b5fb9b24207c2da6a9931d7a4ca09b361e9",
-        "docs/CONSTRUCTION_GROUNDING_REVIEW.md": "c77ee3b75bda5ffa03c7b789fa0dca4970b98a8e9babce629c80ba8d3562477b",
-        "docs/USABILITY_REVIEW.md": "ef330af5fa578d4de0eb59950205af8f9366d86fa64f88958c5da198f963220f",
+        "../development/visual-novel/reviews/graphics/RUNTIME_VISUAL_REVIEW.md": "5fb3ee20c03523ce885b6cfdc1d68b5fb9b24207c2da6a9931d7a4ca09b361e9",
+        "../development/visual-novel/reviews/graphics/CONSTRUCTION_GROUNDING_REVIEW.md": "c77ee3b75bda5ffa03c7b789fa0dca4970b98a8e9babce629c80ba8d3562477b",
+        "../development/visual-novel/reviews/releases/USABILITY_REVIEW.md": "ef330af5fa578d4de0eb59950205af8f9366d86fa64f88958c5da198f963220f",
         "test-results/browser-visual/reviewed-frames.json": "c007ba6e0054f4dd04012e249c15befbd19810820e80692f43ea94d17c0f0955",
         "test-results/release-matrix/browser-playthrough.log": "dad43d2ee1e6b6e96b26533a3ec182ed72604674645febe870ef077182519e0b",
         "test-results/screenshots/browser-first-memory.png": "f959a89343d9e12973d47059b541805e8d5f40ae93722d3eee1ff16573efba0d",
@@ -4781,7 +4781,7 @@
         "../wiki/worldbuilding/Transcendence.md": "b3e3e45fba7dc909faa0b792ed3f57240757e2c4c453f2df1176aa661fb36e73",
         "docs/AUDIO_DIRECTION.md": "0b2263fdb1cbe32e186bdd0b7ee02cc85dd84e3b7c97887d7071b6d82813dc6e",
         "docs/BOOK_ONE_COVERAGE.md": "3954317e81ab9047c8c5e454019b49760e9b24d2b382d820d83c3c81f33c0d59",
-        "docs/WRITING_NOTES.md": "8e531ba1e7d4f518740a8f22283dd3d8dd8f68621add25bd53be9aeb174e40ef",
+        "../development/visual-novel/design/adaptation.md": "8e531ba1e7d4f518740a8f22283dd3d8dd8f68621add25bd53be9aeb174e40ef",
         "docs/audio-sources.json": "0a14e3dab17c4e6f493b9ecb081fb011d67f16c03ef250c4e190a996165be201",
         "docs/closing-theme-audio.json": "7ffaa21310fb7c0a8bdda02a1d57e2205e27a3135148befd4becf495dd832fd9",
         "game/audio/curiosity_and_discovery.ogg": "460ad7c6fdc1c2a6b058b3e8d610bc7f9cc355655b96e9081fe6d1c27f8baa05",

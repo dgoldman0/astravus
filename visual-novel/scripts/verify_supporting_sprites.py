@@ -7,7 +7,7 @@ import numpy as np
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
-KEYS = ROOT / "art/character-keys"
+KEYS = ROOT / "../development/visual-novel/art/characters"
 AUDIT = Path(sys.argv[1])
 
 def sha(path):

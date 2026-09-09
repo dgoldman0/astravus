@@ -12,12 +12,12 @@ Retain the lean angular face, short textured sandy crop, clear blue eyes and foc
 
 ## Wardrobe and performance
 
-Keep the blue-gray work overalls, ochre shirt and practical worn shoes. The user retained this wardrobe. Back straps, pocket construction and localized smudges are production interpretation; do not convert wear into general grime or add an invented guild uniform.
+Keep the blue-gray work overalls, ochre shirt and practical worn shoes. Back straps, pocket construction and localized smudges are production interpretation; do not convert wear into general grime or add an invented guild uniform.
 
 The key separates an alert friendly smile, concentrated problem-solving and restrained sadness. Her hands should look precise and engaged when actually working. A neutral sprite's empty hands do not depict tool use. After the loss, retain her identity and capability while selecting the appropriate expression.
 
-## Light and review
+## Light and reference use
 
 Blue irises stay blue in both warm and cool scenes. Preserve facial midtones and the existing complexion rather than replacing it with the green matte's spill. Clothes should retain readable folds without uniform high-contrast mottling.
 
-The current sprite already matches the intended design and is retained. The sheet adds front-oriented, side and back garment views, face angles and expression references. Its inferred back construction is useful for future shots but does not replace source authority. [Prompt](prompt-key.txt); generation and hashes are in [supporting changes](../supporting-changes.json).
+The sheet adds front-oriented, side and back garment views, face angles and expression references. Inferred back construction guides future shots without replacing source authority. [Sheet prompt](../../../../development/visual-novel/art/characters/soren/prompt-key.txt); [production record](../../../../development/visual-novel/art/characters/supporting-changes.json).

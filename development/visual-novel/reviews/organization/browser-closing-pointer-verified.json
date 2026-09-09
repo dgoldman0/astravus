@@ -1,0 +1,239 @@
+{
+  "status": "passed",
+  "mode": "verified",
+  "checked_at_utc": "2026-09-09T13:45:35.177746+00:00",
+  "url": "http://127.0.0.1:8000/?preview=0.1-alpha",
+  "viewport": [
+    1280,
+    720
+  ],
+  "browser": "148.0.7778.96",
+  "scope": "Direct annual-remembrance chapter entry, actual final dialogue, complete extracted closing-theme sequence; no full-story replay.",
+  "source_sha256": "c0ca364547fd8cbb1964cb6e14a9732e9a1b2f0c3b62fc4187601cf5bacdef57",
+  "helper_sha256": "5f89069bcc58be224eb076c9181b142d100017c510135ae1c4d16744afaff9d6",
+  "closing_function_sha256": "71f8033727992a18a225d211a9d1aa19441a2502f6331592b9953a0f1ff0b854",
+  "runner_sha256": "265f43cac4e94a8a5dd834d73ed831e2bc6600f0cb1f955e7122ee3110f0fd4f",
+  "focus_checks": [
+    {
+      "phase": "setup",
+      "texts": [
+        "Chapters"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    },
+    {
+      "phase": "setup",
+      "texts": [
+        "32 \u00b7 What remains"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [
+        "Play closing theme"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [
+        "Pause"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [
+        "Skip closing theme"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [
+        "Replay closing theme"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [],
+      "focused_type": "NoneType",
+      "in_screen": false,
+      "transition": false,
+      "trans_pause": false,
+      "ready": false
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [
+        "Replay closing theme"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [
+        "Replay closing theme"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    },
+    {
+      "phase": "closing_sequence",
+      "texts": [
+        "Skip closing theme"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    },
+    {
+      "phase": "credits_navigation",
+      "texts": [
+        "Credits"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    },
+    {
+      "phase": "credits_navigation",
+      "texts": [
+        "Return"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    },
+    {
+      "phase": "credits_navigation",
+      "texts": [
+        "Return to title"
+      ],
+      "focused_type": "Button",
+      "in_screen": true,
+      "transition": false,
+      "trans_pause": false,
+      "ready": true
+    }
+  ],
+  "pointer_moves": [
+    {
+      "x": 402.6666666666667,
+      "y": 426.6666666666667,
+      "phase": "setup"
+    },
+    {
+      "x": 736.6666666666666,
+      "y": 627.0,
+      "phase": "setup"
+    },
+    {
+      "x": 562.0,
+      "y": 512.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 1064.3333333333333,
+      "y": 682.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 1182.6666666666667,
+      "y": 682.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 639.3333333333334,
+      "y": 428.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 639.3333333333334,
+      "y": 428.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 641.3333333333334,
+      "y": 428.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 639.3333333333334,
+      "y": 428.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 1182.6666666666667,
+      "y": 682.0,
+      "phase": "closing_sequence"
+    },
+    {
+      "x": 639.3333333333334,
+      "y": 483.3333333333333,
+      "phase": "credits_navigation"
+    },
+    {
+      "x": 80.33333333333333,
+      "y": 200.0,
+      "phase": "credits_navigation"
+    },
+    {
+      "x": 639.6666666666666,
+      "y": 372.6666666666667,
+      "phase": "credits_navigation"
+    }
+  ],
+  "observations": [],
+  "screenshots": [
+    {
+      "file": "browser-closing-credits.png",
+      "sha256": "6402be618a3f879ea20c8a8e620108d7788bb1a23cc6cd563904ca4ce4df3f22"
+    },
+    {
+      "file": "browser-closing-title.png",
+      "sha256": "02b2b17d9c88bab225a515ff08a4219a40f47fcb524ebf585b1beeffa842e777"
+    }
+  ],
+  "errors": [],
+  "credits_return_title": true
+}

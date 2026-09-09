@@ -1,6 +1,5 @@
-# Downloaded SDKs, package archives, and temporary asset candidates.
+# Downloaded SDKs and local tool environments.
 /.cache/
-/.art-staging/
 /.venv/
 
 # Exported games and verification artifacts are reproducible outputs.

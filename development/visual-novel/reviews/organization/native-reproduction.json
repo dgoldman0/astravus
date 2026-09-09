@@ -1,0 +1,45 @@
+{
+  "scope": "Actual native GIMP rebuilds in an isolated mirror of the relocated directory structure. Runtime art and original evidence were not overwritten.",
+  "all_three_runners_passed": true,
+  "outputs": [
+    {
+      "file": "development/visual-novel/art/opening-identity/opening-refined-v1.png",
+      "selected_sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f",
+      "rebuilt_sha256": "39e84063966b2a3759cb0334715862661049daa6391d70c70f670121ecaf1498",
+      "decoded_pixels_identical": true
+    },
+    {
+      "file": "development/visual-novel/art/characters/arin/sprite-refined.png",
+      "selected_sha256": "a208e74d82908a6a3c1dfa05d2b592ac92d7f11a1f54a56542535701a3f8b379",
+      "rebuilt_sha256": "9b8e5349180381b81d3deb3f558e2adb3484d5cd89f6a78a16013b93db3ad9eb",
+      "decoded_pixels_identical": true
+    },
+    {
+      "file": "development/visual-novel/art/characters/sage/sprite-refined.png",
+      "selected_sha256": "6d4bfe57f4060754b1d425c8a5bc6f97781cced4dd34ef7871cec09fade8d3a0",
+      "rebuilt_sha256": "43ae1e43c4c23cd9496fa7ae6751fd985f11d3370ce83cb3f573a4ea26a7cc1b",
+      "decoded_pixels_identical": true
+    },
+    {
+      "file": "development/visual-novel/art/characters/lyra/sprite-refined.png",
+      "selected_sha256": "3198fe4eb432101cdd7d86a0f0f17e007349489645ce68e203f0adac01cbf7fb",
+      "rebuilt_sha256": "76681e238f194c1ef7008b099b22d9e983b8dcac7a40f968c3b584e3b6b3516d",
+      "decoded_pixels_identical": true
+    },
+    {
+      "file": "development/visual-novel/art/characters/thalia/sprite-refined.png",
+      "selected_sha256": "734fcc28508a9a86381d4223e8b541c3b50227f002460207a468c0c5cf4798ed",
+      "rebuilt_sha256": "0daa06783ca4fba2f2fe78a00b8db1dba4135345cfb05bd204d13676e4abcd14",
+      "decoded_pixels_identical": true
+    }
+  ],
+  "scripts": {
+    "visual-novel/scripts/assemble_parent_sprite_keys.scm": "d4abca350c699e37d99719ef0b79dab6a974a2e01df6b9dd24d73faaf34c7251",
+    "visual-novel/scripts/refine_supporting_sprites.scm": "4d1b30bda3a4c20414c7e5c27ac4575cffee76ae8869696bb0beb98934d219cb",
+    "development/visual-novel/art/opening-identity/assemble.scm": "0c68143aec04ceae852016fa803d1d60b12e9cc77e0033a95e71fa24f9c38e2a",
+    "development/visual-novel/art/characters/run-parent-sprite-gimp.sh": "5289a4edf39734c37d725b0046294eed4845087d43694cab03d49cc97c0819fe",
+    "visual-novel/scripts/rebuild_supporting_sprites.sh": "3b35d3a2d6b1ce699f451c436f1a06a984bce0dac746c71cd214fb8db1122a0f",
+    "development/visual-novel/art/opening-identity/run-gimp-test.sh": "03b161019a572c4581fc79d51bdd0bfd47fa128d64a1861e93a2b7bbe0c8dedc"
+  },
+  "limits": "PNG container metadata can differ; every reproduced pixel matches its retained approved predecessor. Sage\u2019s new iris refinement is verified separately."
+}

@@ -1,0 +1,42 @@
+{
+  "version": "0.1-alpha",
+  "build_kind": "review",
+  "runtime_files": 144,
+  "exports": {
+    "pc": {
+      "file": "dist/astravus-book-one-0.1-alpha-pc.zip",
+      "bytes": 292210459,
+      "sha256": "a69ec71be413864c82775cffdbedb25a021775e8cb708c8b1837942e62f8d1f8",
+      "entries": 1680,
+      "matching_runtime_files": 144,
+      "generated_engine_files": [
+        "game/cache/build_info.json",
+        "game/cache/bytecode-312.rpyb"
+      ]
+    },
+    "mac": {
+      "file": "dist/astravus-book-one-0.1-alpha-mac.zip",
+      "bytes": 286365321,
+      "sha256": "baf19c55c1e07fefd4ba25518a59becc1f60c7010cce5e1413e2d98deec2538f",
+      "entries": 1665,
+      "matching_runtime_files": 144,
+      "generated_engine_files": [
+        "game/cache/build_info.json",
+        "game/cache/bytecode-312.rpyb"
+      ]
+    },
+    "web": {
+      "file": "build/web.zip",
+      "bytes": 265073202,
+      "sha256": "ac21807e1ded3b3d76d214bc6de1f1ea8af3ad37a0f042a67d3926348ea322b1",
+      "entries": 145,
+      "game_entries": 517,
+      "matching_runtime_files": 144,
+      "generated_engine_files": [
+        "game/cache/build_info.json",
+        "game/cache/bytecode-312.rpyb"
+      ]
+    }
+  },
+  "limit": "Archive construction and byte integrity only; not Windows/macOS launch verification."
+}

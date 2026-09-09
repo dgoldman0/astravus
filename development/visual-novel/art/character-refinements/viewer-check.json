@@ -1,0 +1,323 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-09T02:49:26.342037+00:00",
+  "viewer": "review.html",
+  "viewer_sha256": "2dfb09cd2938776811444638f74f6be4eeaa8deff70e8f620064d5c259bf0e7e",
+  "scope": "Local source-PNG comparison controls; does not claim native visual novel validation.",
+  "assets_checked": 9,
+  "source_files_checked": 18,
+  "source_files": [
+    {
+      "asset": "opening",
+      "version": "before",
+      "path": "../opening-identity/opening-original.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f"
+    },
+    {
+      "asset": "opening",
+      "version": "after",
+      "path": "../opening-identity/opening-refined-v1.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f"
+    },
+    {
+      "asset": "pond-rescue",
+      "version": "before",
+      "path": "pond-rescue-original.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd"
+    },
+    {
+      "asset": "pond-rescue",
+      "version": "after",
+      "path": "pond-rescue-refined.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "bb8c57165f2020de2ed0be0113afb9c4e4b2240cef1eeac5711bdb2779467a43"
+    },
+    {
+      "asset": "pond-comfort",
+      "version": "before",
+      "path": "pond-comfort-original.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf"
+    },
+    {
+      "asset": "pond-comfort",
+      "version": "after",
+      "path": "pond-comfort-refined.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "e64630c32b6cc1345d21f28a43185d07adfb72c3c4b9811bf35740c3b970b77f"
+    },
+    {
+      "asset": "insect-discovery",
+      "version": "before",
+      "path": "theme-insect-discovery-original.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8"
+    },
+    {
+      "asset": "insect-discovery",
+      "version": "after",
+      "path": "theme-insect-discovery-refined.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "652a0ca6dd0cfd4a2caac4c9019a57e500b3dccab53d7978df6d0f59a1d21f48"
+    },
+    {
+      "asset": "arin",
+      "version": "before",
+      "path": "../characters/arin/sprite-before.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "5f0e5a1c6a31cd742ebd615284a3d4860217a30d576f6edc79ca00c26b286b7e"
+    },
+    {
+      "asset": "arin",
+      "version": "after",
+      "path": "../characters/arin/sprite-refined.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "a208e74d82908a6a3c1dfa05d2b592ac92d7f11a1f54a56542535701a3f8b379"
+    },
+    {
+      "asset": "sage",
+      "version": "before",
+      "path": "../characters/sage/sprite-before.png",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "sha256": "c2065df8ea3d578ac691392c7e3ecdae34ec2344fac05cc31cc5ce9739180f32"
+    },
+    {
+      "asset": "sage",
+      "version": "after",
+      "path": "../characters/sage/sprite-refined.png",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "sha256": "6d4bfe57f4060754b1d425c8a5bc6f97781cced4dd34ef7871cec09fade8d3a0"
+    },
+    {
+      "asset": "lyra",
+      "version": "before",
+      "path": "../characters/lyra/sprite-original.png",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d"
+    },
+    {
+      "asset": "lyra",
+      "version": "after",
+      "path": "../../game/images/characters/book-one/lyra-young.png",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "sha256": "3198fe4eb432101cdd7d86a0f0f17e007349489645ce68e203f0adac01cbf7fb"
+    },
+    {
+      "asset": "thalia",
+      "version": "before",
+      "path": "../characters/thalia/sprite-original.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "654c9f3316c1c78d023efb8b4d22afd1b68003d7f47a6435c2a6b1984f637132"
+    },
+    {
+      "asset": "thalia",
+      "version": "after",
+      "path": "../../game/images/characters/book-one/thalia-everyday.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "734fcc28508a9a86381d4223e8b541c3b50227f002460207a468c0c5cf4798ed"
+    },
+    {
+      "asset": "lyron",
+      "version": "before",
+      "path": "../characters/lyron/sprite-original.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f"
+    },
+    {
+      "asset": "lyron",
+      "version": "after",
+      "path": "../../game/images/characters/book-one/lyron-everyday.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "33d007146fabfc5a797fbeee5775761810da7f95bc69ab6620a4531a984f501c"
+    }
+  ],
+  "browser": {
+    "engine": "Chromium via Playwright",
+    "local_file_mode": true,
+    "external_network_blocked": true,
+    "external_requests": [],
+    "desktop_viewport": [
+      1500,
+      1080
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "asset_checks": [
+      {
+        "asset": "opening",
+        "loaded": true,
+        "before_after_pixels_differ": true,
+        "split_endpoints_match": true,
+        "detail_views_checked": [
+          "arin",
+          "sage"
+        ]
+      },
+      {
+        "asset": "pond-rescue",
+        "loaded": true,
+        "before_after_pixels_differ": true,
+        "split_endpoints_match": true,
+        "detail_views_checked": [
+          "lyra"
+        ]
+      },
+      {
+        "asset": "pond-comfort",
+        "loaded": true,
+        "before_after_pixels_differ": true,
+        "split_endpoints_match": true,
+        "detail_views_checked": [
+          "lyra"
+        ]
+      },
+      {
+        "asset": "insect-discovery",
+        "loaded": true,
+        "before_after_pixels_differ": true,
+        "split_endpoints_match": true,
+        "detail_views_checked": [
+          "lyra"
+        ]
+      },
+      {
+        "asset": "arin",
+        "loaded": true,
+        "before_after_pixels_differ": true,
+        "split_endpoints_match": true,
+        "detail_views_checked": [
+          "face"
+        ]
+      },
+      {
+        "asset": "sage",
+        "loaded": true,
+        "before_after_pixels_differ": true,
+        "split_endpoints_match": true,
+        "detail_views_checked": [
+          "face"
+        ]
+      },
+      {
+        "asset": "lyra",
+        "loaded": true,
+        "before_after_pixels_differ": true,
+        "split_endpoints_match": true,
+        "detail_views_checked": [
+          "face"
+        ]
+      },
+      {
+        "asset": "thalia",
+        "loaded": true,
+        "before_after_pixels_differ": true,
+        "split_endpoints_match": true,
+        "detail_views_checked": [
+          "face"
+        ]
+      },
+      {
+        "asset": "lyron",
+        "loaded": true,
+        "before_after_pixels_differ": true,
+        "split_endpoints_match": true,
+        "detail_views_checked": [
+          "face",
+          "garment"
+        ]
+      }
+    ],
+    "deep_link_reload": true,
+    "reset_restores_full_split_50_percent": true,
+    "keyboard_shortcuts": true,
+    "mobile_no_page_overflow": true,
+    "javascript_errors": []
+  },
+  "local_links": {
+    "all_image_links_resolve": true,
+    "character_key_gallery_resolves": true,
+    "pass_notes_resolve": true
+  },
+  "source_files_unchanged_during_check": true,
+  "visual_inspection": {
+    "status": "passed",
+    "reviewed_browser_views": [
+      "Desktop pond-comfort full-image split",
+      "Desktop pond-comfort enlarged face split",
+      "Mobile Lyron full-image split",
+      "Mobile Lyron enlarged garment split"
+    ],
+    "observations": [
+      "Original and selected PNGs render in the SVG comparison.",
+      "Scene focus retains useful nearby pose and lighting context.",
+      "Mobile controls, links and image views fit without horizontal page overflow.",
+      "Lyron garment comparison clearly exposes the revised overlap construction."
+    ]
+  },
+  "followup_checks": [
+    {
+      "checked_at_utc": "2026-09-09T03:08:37.816900+00:00",
+      "check": "Confirmed README.md now exists at the viewer link target.",
+      "scope": "File presence only; the previously recorded browser tests were not rerun."
+    }
+  ]
+}

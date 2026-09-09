@@ -16,8 +16,8 @@ Retain the brown overshirt, beige undershirt, earth trousers, collector pouch an
 
 The face row separates a mischievous grin, intent listening and worried concern. Keep the same jaw, nose, eye scale and age when changing expression. Strong excitement can move the whole body; ordinary listening should not turn into a fixed grin.
 
-## Light and review
+## Light and reference use
 
 The sheet uses softly warm neutral studio light. Preserve underlying brown skin in cooler scenes rather than whitening it, and keep gold-hazel irises readable without yellow glow. Shadow color is not skin color. The front-oriented, side and back views preserve the same outfit and stature; they are illustrative views, not exact orthographic anatomy.
 
-The sprite already matches the intended childhood design and is retained. The full key gives additional angles and expression direction. Other age stages and the exact dimple placement still need shot-specific checks. [Prompt](prompt-key.txt); generation and source hashes are in [supporting changes](../supporting-changes.json).
+The key gives additional angles and expression direction for this childhood stage. Other ages and the exact dimple placement require scene-specific source checks. [Sheet prompt](../../../../development/visual-novel/art/characters/kael/prompt-key.txt); [production record](../../../../development/visual-novel/art/characters/supporting-changes.json).

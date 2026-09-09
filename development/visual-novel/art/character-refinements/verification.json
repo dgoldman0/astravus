@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "tool": "GIMP 2.10 native Script-Fu; Python used only for pixel analysis",
+  "status": "passed",
+  "edits": [
+    {
+      "name": "pond-rescue",
+      "source_file": "../development/visual-novel/art/character-refinements/pond-rescue-original.png",
+      "source_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+      "generated_file": "../development/visual-novel/art/character-refinements/pond-rescue-generated.png",
+      "generated_sha256": "738c3c86471f2672bff9e09ab5119d587f4e4f2e34899555451330079302848d",
+      "final_file": "../development/visual-novel/art/character-refinements/pond-rescue-refined.png",
+      "final_sha256": "bb8c57165f2020de2ed0be0113afb9c4e4b2240cef1eeac5711bdb2779467a43",
+      "mask_file": "../development/visual-novel/art/character-refinements/pond-rescue-mask.png",
+      "mask_sha256": "fd06b366cb115bcad17b331368813a75251b415d9cf18dc3602b28d68c3b56b5",
+      "mask_support_bbox": [
+        1035,
+        442,
+        1122,
+        556
+      ],
+      "mask_nonzero_pixels": 7417,
+      "changed_pixels": 7081,
+      "raw_changed_pixels": 1567956,
+      "outside_mask_pixels_changed": 0,
+      "outside_mask_identical": true,
+      "canvas_and_mode_unchanged": true,
+      "xcf_reopened_matches_final": true,
+      "hidden_edit_layer_restores_original": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/assemble_lyra_cg_keys.scm",
+      "script_sha256": "67f6ffbee08c8b00155cef7245a96a849b622f471cef90a90504bfa435bb35b3"
+    },
+    {
+      "name": "pond-comfort",
+      "source_file": "../development/visual-novel/art/character-refinements/pond-comfort-original.png",
+      "source_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+      "generated_file": "../development/visual-novel/art/character-refinements/pond-comfort-generated.png",
+      "generated_sha256": "5bf87f959fd1210e5248892c4f925704f87e598fd36743dd967784da090343de",
+      "final_file": "../development/visual-novel/art/character-refinements/pond-comfort-refined.png",
+      "final_sha256": "e64630c32b6cc1345d21f28a43185d07adfb72c3c4b9811bf35740c3b970b77f",
+      "mask_file": "../development/visual-novel/art/character-refinements/pond-comfort-mask.png",
+      "mask_sha256": "8be44c5ebdff780bd9c6253b181ca32cfdd3dcb5c47a0d040aa931f9f9ff02b3",
+      "mask_support_bbox": [
+        773,
+        342,
+        889,
+        472
+      ],
+      "mask_nonzero_pixels": 11977,
+      "changed_pixels": 11632,
+      "raw_changed_pixels": 1568601,
+      "outside_mask_pixels_changed": 0,
+      "outside_mask_identical": true,
+      "canvas_and_mode_unchanged": true,
+      "xcf_reopened_matches_final": true,
+      "hidden_edit_layer_restores_original": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/assemble_lyra_cg_keys.scm",
+      "script_sha256": "67f6ffbee08c8b00155cef7245a96a849b622f471cef90a90504bfa435bb35b3"
+    },
+    {
+      "name": "theme-insect-discovery",
+      "source_file": "../development/visual-novel/art/character-refinements/theme-insect-discovery-original.png",
+      "source_sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8",
+      "generated_file": "../development/visual-novel/art/character-refinements/theme-insect-discovery-generated.png",
+      "generated_sha256": "68f71c9224032d67fe7dcbeb04cbf2cd4f9fb22e2fb1d54beecfedee402c360b",
+      "final_file": "../development/visual-novel/art/character-refinements/theme-insect-discovery-refined.png",
+      "final_sha256": "652a0ca6dd0cfd4a2caac4c9019a57e500b3dccab53d7978df6d0f59a1d21f48",
+      "mask_file": "../development/visual-novel/art/character-refinements/theme-insect-discovery-mask.png",
+      "mask_sha256": "1024173ce777a81f183bb0490e58c29d8843b5abb2206d031140574edd0944d7",
+      "mask_support_bbox": [
+        995,
+        321,
+        1206,
+        592
+      ],
+      "mask_nonzero_pixels": 40966,
+      "changed_pixels": 40219,
+      "raw_changed_pixels": 1567850,
+      "outside_mask_pixels_changed": 0,
+      "outside_mask_identical": true,
+      "canvas_and_mode_unchanged": true,
+      "xcf_reopened_matches_final": true,
+      "hidden_edit_layer_restores_original": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/assemble_lyra_cg_keys.scm",
+      "script_sha256": "67f6ffbee08c8b00155cef7245a96a849b622f471cef90a90504bfa435bb35b3"
+    }
+  ]
+}

@@ -35,7 +35,7 @@ def main():
                 (744, 325, 927, 493), (1085, 154, 1214, 336),
                 (1301, 392, 1498, 747), (0, 425, 1672, 941)]:
         assert np.array_equal(np.asarray(base.crop(box)), np.asarray(result.crop(box))), box
-    out = ROOT / "build/graphics-polish/pond"
+    out = ROOT / "../development/visual-novel/archive/local/graphics-workspace/pond"
     out.mkdir(parents=True, exist_ok=True)
     target = out / "pond-comfort.png"
     result.save(target)

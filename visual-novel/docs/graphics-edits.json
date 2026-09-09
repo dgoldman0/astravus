@@ -66,7 +66,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_character_geometry.py",
-      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "script_sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0",
       "verification": {
         "changed_pixels": 8313,
         "outside_mask_pixels_changed": 0,
@@ -152,7 +152,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_character_geometry.py",
-      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "script_sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0",
       "verification": {
         "changed_pixels": 8326,
         "outside_mask_pixels_changed": 0,
@@ -238,7 +238,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_character_geometry.py",
-      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "script_sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0",
       "verification": {
         "changed_pixels": 8371,
         "outside_mask_pixels_changed": 0,
@@ -324,7 +324,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_character_geometry.py",
-      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "script_sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0",
       "verification": {
         "changed_pixels": 8292,
         "outside_mask_pixels_changed": 0,
@@ -410,7 +410,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_character_geometry.py",
-      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "script_sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0",
       "verification": {
         "changed_pixels": 8370,
         "outside_mask_pixels_changed": 0,
@@ -533,7 +533,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_character_geometry.py",
-      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "script_sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0",
       "verification": {
         "changed_pixels": 7844,
         "outside_mask_pixels_changed": 0,
@@ -614,7 +614,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_character_geometry.py",
-      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "script_sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0",
       "verification": {
         "changed_pixels": 228,
         "outside_mask_pixels_changed": 0,
@@ -695,7 +695,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_character_geometry.py",
-      "script_sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110",
+      "script_sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0",
       "verification": {
         "changed_pixels": 272,
         "outside_mask_pixels_changed": 0,
@@ -743,9 +743,9 @@
       "reference_file": "game/images/familiars/shadow.png",
       "reference_sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59",
       "script_file": "scripts/polish_shadow_notches.py",
-      "script_sha256": "aa79afb9827994af3fc2eedae7abb2fd7299c8d641f9cb305d3c1b1cd1a6fe71",
+      "script_sha256": "92db0a601ccd96dcffcf396152ac86cf1cf41adbbd2bb9d29b2e87030cf3f7f0",
       "output_sha256": "e7d6e33da6ff87a1757344d7191d5589b603e9491dcd1587676fefc69e7b070e",
-      "mask_file": "build/graphics-polish/shadow/pond-rescue-mask.png",
+      "mask_file": "../development/visual-novel/archive/local/graphics-workspace/shadow/pond-rescue-mask.png",
       "mask_sha256": "a8f9aaacf5d1f876807cd410fb02281f5dc1251e0728a0a8eb19d93bb834326a",
       "mode": "RGB",
       "verification": {
@@ -858,9 +858,9 @@
       "reference_file": "game/images/familiars/shadow.png",
       "reference_sha256": "f6864aa410c2968f57ae863a41b2c22b389fa12401a501c57aae705961b90f59",
       "script_file": "scripts/polish_shadow_notches.py",
-      "script_sha256": "aa79afb9827994af3fc2eedae7abb2fd7299c8d641f9cb305d3c1b1cd1a6fe71",
+      "script_sha256": "92db0a601ccd96dcffcf396152ac86cf1cf41adbbd2bb9d29b2e87030cf3f7f0",
       "output_sha256": "4eab6fba3b5a0d6976f8e2684c7021cf4dc5c3e56e6b7d4622cb0e2df0da98e0",
-      "mask_file": "build/graphics-polish/shadow/pond-comfort-mask.png",
+      "mask_file": "../development/visual-novel/archive/local/graphics-workspace/shadow/pond-comfort-mask.png",
       "mask_sha256": "ec687f3c4fe713f3f70675dcb83b2fcf70ccffe6150a62918362ca34fe5930e2",
       "mode": "RGB",
       "verification": {
@@ -1253,11 +1253,11 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_cg_faces.py",
-      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "script_sha256": "1021db1b3ea68fe1b2975481013477283e2d7bf494803910e5cfc35463363f79",
       "dependencies": [
         {
           "file": "scripts/polish_character_geometry.py",
-          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+          "sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0"
         }
       ],
       "output_sha256": "d3c3a85c0ec70625cae7ca15994c228879a7e97ca7858c863817d8962175690b",
@@ -1273,7 +1273,7 @@
           467
         ]
       },
-      "editable_xcf": "build/graphics-polish/cg/theme-garden-opening/theme-garden-opening.xcf",
+      "editable_xcf": "../development/visual-novel/archive/local/graphics-workspace/cg/theme-garden-opening/theme-garden-opening.xcf",
       "xcf_sha256": "b698969277bb37dff3378b73256d17eac0fcdadb8b7fa4bb5555a01e1fdb58de",
       "source_generation": "alpha-opening-consistency",
       "material_provenance": [
@@ -1370,11 +1370,11 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_cg_faces.py",
-      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "script_sha256": "1021db1b3ea68fe1b2975481013477283e2d7bf494803910e5cfc35463363f79",
       "dependencies": [
         {
           "file": "scripts/polish_character_geometry.py",
-          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+          "sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0"
         }
       ],
       "output_sha256": "5aed105ca7073b4b45e916b7212331db2bca5ecbe15d4d368607ffe9c1632f2c",
@@ -1390,7 +1390,7 @@
           334
         ]
       },
-      "editable_xcf": "build/graphics-polish/cg/cassia-storytelling/cassia-storytelling.xcf",
+      "editable_xcf": "../development/visual-novel/archive/local/graphics-workspace/cg/cassia-storytelling/cassia-storytelling.xcf",
       "xcf_sha256": "ab25c062be07276319cf94fee80764793e3360fd7f8aae5b58dd11bbf0925e3a",
       "source_generation": "alpha-cassia-storytelling",
       "superseded_postprocess": {
@@ -1713,11 +1713,11 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_cg_faces.py",
-      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "script_sha256": "1021db1b3ea68fe1b2975481013477283e2d7bf494803910e5cfc35463363f79",
       "dependencies": [
         {
           "file": "scripts/polish_character_geometry.py",
-          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+          "sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0"
         }
       ],
       "output_sha256": "d7577ed4ebc21cb87cc0107b6c86583e324812697efc0a2d95c17619ba895dff",
@@ -1733,7 +1733,7 @@
           238
         ]
       },
-      "editable_xcf": "build/graphics-polish/cg/theme-dome-friends/theme-dome-friends.xcf",
+      "editable_xcf": "../development/visual-novel/archive/local/graphics-workspace/cg/theme-dome-friends/theme-dome-friends.xcf",
       "xcf_sha256": "eab492cec1ee1ba18d622538bffd3bbc37e87068d0c2c3e7145d8d3b0a55a998",
       "source_generation": "alpha-scale-theme-dome-friends",
       "superseded_postprocess": {
@@ -2080,11 +2080,11 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_cg_faces.py",
-      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "script_sha256": "1021db1b3ea68fe1b2975481013477283e2d7bf494803910e5cfc35463363f79",
       "dependencies": [
         {
           "file": "scripts/polish_character_geometry.py",
-          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+          "sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0"
         }
       ],
       "output_sha256": "1a0edf4cbbf8ff03ff42dce399c02f7e0780232a654f82662759faeece2ddc45",
@@ -2100,7 +2100,7 @@
           284
         ]
       },
-      "editable_xcf": "build/graphics-polish/cg/theme-morning-outlook/theme-morning-outlook.xcf",
+      "editable_xcf": "../development/visual-novel/archive/local/graphics-workspace/cg/theme-morning-outlook/theme-morning-outlook.xcf",
       "xcf_sha256": "0470929a99177da884a323656f35d4571940ede35bad1790ce78cb8038b586b3",
       "source_generation": "alpha-theme-morning-quality",
       "superseded_postprocess": {
@@ -2502,11 +2502,11 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_cg_faces.py",
-      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "script_sha256": "1021db1b3ea68fe1b2975481013477283e2d7bf494803910e5cfc35463363f79",
       "dependencies": [
         {
           "file": "scripts/polish_character_geometry.py",
-          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+          "sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0"
         }
       ],
       "output_sha256": "9358565397facaa82363d8960e0df9fe6b3352c87f8e40ee6025957d10e04b72",
@@ -2522,7 +2522,7 @@
           378
         ]
       },
-      "editable_xcf": "build/graphics-polish/cg/theme-treehouse-arrival/theme-treehouse-arrival.xcf",
+      "editable_xcf": "../development/visual-novel/archive/local/graphics-workspace/cg/theme-treehouse-arrival/theme-treehouse-arrival.xcf",
       "xcf_sha256": "536b5ae85cf555c6e35c0e7cd1e7a0c9270032187c4956c403391862cbf1c316",
       "source_generation": "alpha-theme-arrival-quality",
       "superseded_postprocess": {
@@ -2924,11 +2924,11 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/polish_cg_faces.py",
-      "script_sha256": "eaccfcd55608e79d09208b796406d09bd022db51a89334ea75086ba9384aec2c",
+      "script_sha256": "1021db1b3ea68fe1b2975481013477283e2d7bf494803910e5cfc35463363f79",
       "dependencies": [
         {
           "file": "scripts/polish_character_geometry.py",
-          "sha256": "1256b810fb9f1c99afcb31ca9ee2631c72de1eb9e665753979871a095d110110"
+          "sha256": "16aabeb6156b2cfc65eb3ad96cbfc6fb7637917215c893ede8e585a9266dc7b0"
         }
       ],
       "output_sha256": "ef64b18bf62513621dd8a4bb52522c5b7f00d2891a89dd5e396b3eea2df269b4",
@@ -2944,7 +2944,7 @@
           368
         ]
       },
-      "editable_xcf": "build/graphics-polish/cg/treehouse-friends/treehouse-friends.xcf",
+      "editable_xcf": "../development/visual-novel/archive/local/graphics-workspace/cg/treehouse-friends/treehouse-friends.xcf",
       "xcf_sha256": "0adbbf8d2e657c0a0c786b9a6eb768ee3033c90855091294030f5116567c59e8",
       "source_generation": "alpha-scale-treehouse-friends",
       "superseded_postprocess": {
@@ -3060,7 +3060,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/render_environment_states.py",
-      "script_sha256": "7e4f72b7d3f9de6be1788d4191ee6783066f0d32848e75bb59a92e35b002e247",
+      "script_sha256": "62c665264272f40403cc1bf7208d180e77390fdcab9ebd9aec00bf7cf84fecf7",
       "verification": {
         "changed_pixels": 29798,
         "outside_mask_pixels_changed": 0,
@@ -3195,7 +3195,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/render_environment_states.py",
-      "script_sha256": "7e4f72b7d3f9de6be1788d4191ee6783066f0d32848e75bb59a92e35b002e247",
+      "script_sha256": "62c665264272f40403cc1bf7208d180e77390fdcab9ebd9aec00bf7cf84fecf7",
       "verification": {
         "changed_pixels": 47482,
         "outside_mask_pixels_changed": 0,
@@ -3555,7 +3555,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/repair_pond_comfort_grade.py",
-      "script_sha256": "0bb36677cf3e1dc9b4ade81de5be98666da3dbf4bdc2e6efccec2602b79c73be",
+      "script_sha256": "49b35d3a1139d96ca1cbf894886dee42ba4b4a714a3d5da8bc7b4be287982dd0",
       "verification": {
         "changed_pixels": 173968,
         "outside_mask_pixels_changed": 0,
@@ -4576,22 +4576,22 @@
       "source_generation": "arin-everyday-key-v1",
       "sources": [
         {
-          "file": "art/character-keys/arin/sprite-before.png",
+          "file": "../development/visual-novel/art/characters/arin/sprite-before.png",
           "sha256": "5f0e5a1c6a31cd742ebd615284a3d4860217a30d576f6edc79ca00c26b286b7e",
           "role": "immutable previously selected complete sprite"
         },
         {
-          "file": "art/character-keys/arin/sprite-generated.png",
+          "file": "../development/visual-novel/art/characters/arin/sprite-generated.png",
           "sha256": "9257e7d8c50714dbef15942283a33a7c17b11ed870ca987c6f5139f1caac9456",
           "role": "generated paint material"
         },
         {
-          "file": "art/character-keys/arin/mask-head.png",
+          "file": "../development/visual-novel/art/characters/arin/mask-head.png",
           "sha256": "03e13ee568521d74004c6178051d3d5c2dfa43c3db8a70570e507c15eec60365",
           "role": "native GIMP layer mask"
         },
         {
-          "file": "art/character-keys/arin/mask-arms.png",
+          "file": "../development/visual-novel/art/characters/arin/mask-arms.png",
           "sha256": "a52652b49957c5702f7b087e2213fe20142d6cce78eeb600d9e8fa31e46220bd",
           "role": "native GIMP layer mask"
         }
@@ -4610,7 +4610,7 @@
         "feather_px": 2.0,
         "native_masks": [
           {
-            "file": "art/character-keys/arin/mask-head.png",
+            "file": "../development/visual-novel/art/characters/arin/mask-head.png",
             "sha256": "03e13ee568521d74004c6178051d3d5c2dfa43c3db8a70570e507c15eec60365",
             "support_bbox": [
               404,
@@ -4621,7 +4621,7 @@
             "nonzero_pixels": 50481
           },
           {
-            "file": "art/character-keys/arin/mask-arms.png",
+            "file": "../development/visual-novel/art/characters/arin/mask-arms.png",
             "sha256": "a52652b49957c5702f7b087e2213fe20142d6cce78eeb600d9e8fa31e46220bd",
             "support_bbox": [
               308,
@@ -4640,7 +4640,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/assemble_parent_sprite_keys.scm",
-      "script_sha256": "21c0904ed86d402449ba79a517a435240b3d53287387fef657e173ca665790f8",
+      "script_sha256": "d4abca350c699e37d99719ef0b79dab6a974a2e01df6b9dd24d73faaf34c7251",
       "verification": {
         "changed_pixels": 78276,
         "outside_mask_pixels_changed": 0,
@@ -4656,13 +4656,13 @@
         "hidden_refinement_layers_restore_original": true,
         "bottom_600_rows_unchanged": true
       },
-      "editable_xcf": "art/character-keys/arin/sprite-refined.xcf",
+      "editable_xcf": "../development/visual-novel/art/characters/arin/sprite-refined.xcf",
       "xcf_sha256": "832ac9d4d2eac9599e93845159d23eca36a541c25dfd227e4aa145f67f06503b",
       "material_provenance": [
         {
           "registry_file": "docs/graphics-sources/materials.json",
           "id": "parent-arin-childhood-sprite-material",
-          "record_sha256": "c5810b44cf479dea465076cb33273deef5414f29a43d8969f4ed1c9ef173a19e"
+          "record_sha256": "9741fd53162a224b21f3fb134f4a4ac3b14c892bcab1c5593514b1ea5d21dffc"
         }
       ],
       "previous_selected_asset": {
@@ -4690,22 +4690,22 @@
       "source_generation": "sage-everyday-key-v1",
       "sources": [
         {
-          "file": "art/character-keys/sage/sprite-before.png",
+          "file": "../development/visual-novel/art/characters/sage/sprite-before.png",
           "sha256": "c2065df8ea3d578ac691392c7e3ecdae34ec2344fac05cc31cc5ce9739180f32",
           "role": "immutable previously selected complete sprite"
         },
         {
-          "file": "art/character-keys/sage/sprite-generated.png",
+          "file": "../development/visual-novel/art/characters/sage/sprite-generated.png",
           "sha256": "4625225b2b3ffc4a2f552c38d829b233dddbe5eb6e5784f8f84909d51edd9e38",
           "role": "generated paint material"
         },
         {
-          "file": "art/character-keys/sage/mask-head.png",
+          "file": "../development/visual-novel/art/characters/sage/mask-head.png",
           "sha256": "bcf1a69d3dc44990b68148a2f99bb538d4b070b2b939195ee7790cbf5d5568f9",
           "role": "native GIMP layer mask"
         },
         {
-          "file": "art/character-keys/sage/mask-torso.png",
+          "file": "../development/visual-novel/art/characters/sage/mask-torso.png",
           "sha256": "1cf759dcad6b0222e74849735730b9124014a54d906982a9b92d1f032d87b8a9",
           "role": "native GIMP layer mask"
         }
@@ -4724,7 +4724,7 @@
         "feather_px": 2.0,
         "native_masks": [
           {
-            "file": "art/character-keys/sage/mask-head.png",
+            "file": "../development/visual-novel/art/characters/sage/mask-head.png",
             "sha256": "bcf1a69d3dc44990b68148a2f99bb538d4b070b2b939195ee7790cbf5d5568f9",
             "support_bbox": [
               399,
@@ -4735,7 +4735,7 @@
             "nonzero_pixels": 66205
           },
           {
-            "file": "art/character-keys/sage/mask-torso.png",
+            "file": "../development/visual-novel/art/characters/sage/mask-torso.png",
             "sha256": "1cf759dcad6b0222e74849735730b9124014a54d906982a9b92d1f032d87b8a9",
             "support_bbox": [
               346,
@@ -4754,7 +4754,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/assemble_parent_sprite_keys.scm",
-      "script_sha256": "21c0904ed86d402449ba79a517a435240b3d53287387fef657e173ca665790f8",
+      "script_sha256": "d4abca350c699e37d99719ef0b79dab6a974a2e01df6b9dd24d73faaf34c7251",
       "verification": {
         "changed_pixels": 229975,
         "outside_mask_pixels_changed": 0,
@@ -4770,13 +4770,13 @@
         "hidden_refinement_layers_restore_original": true,
         "bottom_600_rows_unchanged": true
       },
-      "editable_xcf": "art/character-keys/sage/sprite-refined.xcf",
+      "editable_xcf": "../development/visual-novel/art/characters/sage/sprite-refined.xcf",
       "xcf_sha256": "14d5eba35ab635d5df51d112046a84e32a2b78f2ac7006a29ea9c0721acf8906",
       "material_provenance": [
         {
           "registry_file": "docs/graphics-sources/materials.json",
           "id": "parent-sage-childhood-sprite-material",
-          "record_sha256": "1778f38b23f358da838dfbd6860413bb09930e2792b248c51b88f02359386f72"
+          "record_sha256": "89f8355bc7cc05cb4aed012fff000df6e5ac087fec61335c927b9e8001b02bff"
         }
       ],
       "previous_selected_asset": {
@@ -4804,17 +4804,17 @@
       "source_generation": "lyra-young-key-v1",
       "sources": [
         {
-          "file": "art/character-keys/lyra/sprite-original.png",
+          "file": "../development/visual-novel/art/characters/lyra/sprite-original.png",
           "sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d",
           "role": "immutable previously selected complete sprite"
         },
         {
-          "file": "art/character-keys/lyra/mask-eye-viewer-left.png",
+          "file": "../development/visual-novel/art/characters/lyra/mask-eye-viewer-left.png",
           "sha256": "0f7da77cc33ed09e8cecf2bcaabb005eba2bb17d22e378b9862d826dcf1a29fe",
           "role": "actual native GIMP mask"
         },
         {
-          "file": "art/character-keys/lyra/mask-eye-viewer-right.png",
+          "file": "../development/visual-novel/art/characters/lyra/mask-eye-viewer-right.png",
           "sha256": "f8588014b9f89fca6bb6341270c56a05ca154a58dee92ceb5354b5322e53b017",
           "role": "actual native GIMP mask"
         }
@@ -4839,7 +4839,7 @@
       "mask_geometry": {
         "native_masks": [
           {
-            "file": "art/character-keys/lyra/mask-eye-viewer-left.png",
+            "file": "../development/visual-novel/art/characters/lyra/mask-eye-viewer-left.png",
             "sha256": "0f7da77cc33ed09e8cecf2bcaabb005eba2bb17d22e378b9862d826dcf1a29fe",
             "support_bbox": [
               451,
@@ -4850,7 +4850,7 @@
             "nonzero_pixels": 5212
           },
           {
-            "file": "art/character-keys/lyra/mask-eye-viewer-right.png",
+            "file": "../development/visual-novel/art/characters/lyra/mask-eye-viewer-right.png",
             "sha256": "f8588014b9f89fca6bb6341270c56a05ca154a58dee92ceb5354b5322e53b017",
             "support_bbox": [
               538,
@@ -4889,11 +4889,11 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/refine_supporting_sprites.scm",
-      "script_sha256": "6bf70db202f270444fc17e3f63b54ba16761fc1600df765a86af1e8c39e410f3",
+      "script_sha256": "4d1b30bda3a4c20414c7e5c27ac4575cffee76ae8869696bb0beb98934d219cb",
       "dependencies": [
         {
           "file": "scripts/verify_supporting_sprites.py",
-          "sha256": "bdf084f434302056437810715893b72c0419c92d75a9632de520958037327752"
+          "sha256": "f801efed532b16a72168fef3f7b611f5760c79f1d6a409861948c8533f913d62"
         },
         {
           "file": "scripts/rebuild_supporting_sprites.sh",
@@ -4916,10 +4916,10 @@
         "hidden_refinement_layers_restore_original": true
       },
       "verification_record": {
-        "file": "art/character-keys/supporting-verification.json",
+        "file": "../development/visual-novel/art/characters/supporting-verification.json",
         "sha256": "75f30c6b931bd35ce9b1d4f1d3d6d8222ce7cac7f4490e9af6e77df88b643eac"
       },
-      "editable_xcf": "art/character-keys/lyra/sprite-refined.xcf",
+      "editable_xcf": "../development/visual-novel/art/characters/lyra/sprite-refined.xcf",
       "xcf_sha256": "cf4bf0036059fe07f642022338f2bbfcba8db52c343e37ffd212d22eba1e17f8",
       "previous_selected_asset": {
         "file": "game/images/characters/book-one/lyra-young.png",
@@ -4956,12 +4956,12 @@
       "source_generation": "review-025-thalia",
       "sources": [
         {
-          "file": "art/character-keys/thalia/sprite-original.png",
+          "file": "../development/visual-novel/art/characters/thalia/sprite-original.png",
           "sha256": "654c9f3316c1c78d023efb8b4d22afd1b68003d7f47a6435c2a6b1984f637132",
           "role": "immutable previously selected complete sprite"
         },
         {
-          "file": "art/character-keys/thalia/mask-irises.png",
+          "file": "../development/visual-novel/art/characters/thalia/mask-irises.png",
           "sha256": "b169c31e83ec08c44bfe1da18d86d9efe792929db28655db68c6fe255c578291",
           "role": "actual native GIMP mask"
         }
@@ -4981,7 +4981,7 @@
       "mask_geometry": {
         "native_masks": [
           {
-            "file": "art/character-keys/thalia/mask-irises.png",
+            "file": "../development/visual-novel/art/characters/thalia/mask-irises.png",
             "sha256": "b169c31e83ec08c44bfe1da18d86d9efe792929db28655db68c6fe255c578291",
             "support_bbox": [
               458,
@@ -5093,11 +5093,11 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/refine_supporting_sprites.scm",
-      "script_sha256": "6bf70db202f270444fc17e3f63b54ba16761fc1600df765a86af1e8c39e410f3",
+      "script_sha256": "4d1b30bda3a4c20414c7e5c27ac4575cffee76ae8869696bb0beb98934d219cb",
       "dependencies": [
         {
           "file": "scripts/verify_supporting_sprites.py",
-          "sha256": "bdf084f434302056437810715893b72c0419c92d75a9632de520958037327752"
+          "sha256": "f801efed532b16a72168fef3f7b611f5760c79f1d6a409861948c8533f913d62"
         },
         {
           "file": "scripts/rebuild_supporting_sprites.sh",
@@ -5120,10 +5120,10 @@
         "hidden_refinement_layers_restore_original": true
       },
       "verification_record": {
-        "file": "art/character-keys/supporting-verification.json",
+        "file": "../development/visual-novel/art/characters/supporting-verification.json",
         "sha256": "75f30c6b931bd35ce9b1d4f1d3d6d8222ce7cac7f4490e9af6e77df88b643eac"
       },
-      "editable_xcf": "art/character-keys/thalia/sprite-refined.xcf",
+      "editable_xcf": "../development/visual-novel/art/characters/thalia/sprite-refined.xcf",
       "xcf_sha256": "a347c87bab5501129147ed25f76a34448992c6842b88debffe035b6ddf92ad0a",
       "previous_selected_asset": {
         "file": "game/images/characters/book-one/thalia-everyday.png",
@@ -5142,15 +5142,15 @@
       "source_generation": "first-memory-young-v1",
       "sources": [
         {
-          "file": "art/character-refinement-test/opening-original.png",
+          "file": "../development/visual-novel/art/opening-identity/opening-original.png",
           "sha256": "796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f"
         },
         {
-          "file": "art/character-refinement-test/opening-generated-v1.png",
+          "file": "../development/visual-novel/art/opening-identity/opening-generated-v1.png",
           "sha256": "17423b95da463da9185dc732903e2b8ee96a314d15e2a04922c7dbad1c415512"
         },
         {
-          "file": "art/character-refinement-test/mask-arin-head.png",
+          "file": "../development/visual-novel/art/opening-identity/mask-arin-head.png",
           "sha256": "d38edd7515f008f9d4ad7204b4c692cd636267ac22871e7089607aecf49b39d4",
           "support_bbox": [
             328,
@@ -5160,7 +5160,7 @@
           ]
         },
         {
-          "file": "art/character-refinement-test/mask-arin-arms.png",
+          "file": "../development/visual-novel/art/opening-identity/mask-arin-arms.png",
           "sha256": "4c682d33e617123dd8e36c0c3007656abd4c3af85f4a69eb2a84df72b6857283",
           "support_bbox": [
             382,
@@ -5170,7 +5170,7 @@
           ]
         },
         {
-          "file": "art/character-refinement-test/mask-sage.png",
+          "file": "../development/visual-novel/art/opening-identity/mask-sage.png",
           "sha256": "16b568e727ec7fd1ecdddb50be7defa450686f88250bfd0a1508d1302495d3ed",
           "support_bbox": [
             1146,
@@ -5192,7 +5192,7 @@
       "mask_geometry": {
         "native_masks": [
           {
-            "file": "art/character-refinement-test/mask-arin-head.png",
+            "file": "../development/visual-novel/art/opening-identity/mask-arin-head.png",
             "sha256": "d38edd7515f008f9d4ad7204b4c692cd636267ac22871e7089607aecf49b39d4",
             "support_bbox": [
               328,
@@ -5202,7 +5202,7 @@
             ]
           },
           {
-            "file": "art/character-refinement-test/mask-arin-arms.png",
+            "file": "../development/visual-novel/art/opening-identity/mask-arin-arms.png",
             "sha256": "4c682d33e617123dd8e36c0c3007656abd4c3af85f4a69eb2a84df72b6857283",
             "support_bbox": [
               382,
@@ -5212,7 +5212,7 @@
             ]
           },
           {
-            "file": "art/character-refinement-test/mask-sage.png",
+            "file": "../development/visual-novel/art/opening-identity/mask-sage.png",
             "sha256": "16b568e727ec7fd1ecdddb50be7defa450686f88250bfd0a1508d1302495d3ed",
             "support_bbox": [
               1146,
@@ -5231,7 +5231,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/assemble_opening_identity.scm",
-      "script_sha256": "a35df3e1c158b8a8cb39de24ebd8eb5ff910cf476aa349b424ef079045988fde",
+      "script_sha256": "0c68143aec04ceae852016fa803d1d60b12e9cc77e0033a95e71fa24f9c38e2a",
       "verification": {
         "changed_pixels": 250921,
         "outside_mask_pixels_changed": 0,
@@ -5244,7 +5244,7 @@
         {
           "registry_file": "docs/graphics-sources/materials.json",
           "id": "character-pass-opening-material",
-          "record_sha256": "766ebfa7f575b214ed09933af6fb4d39dfcecdb7193456d6cefc6cf7294a64e9"
+          "record_sha256": "95f93317fd5dd37e1b183f4335495cac557be2338390334b049564d34ad933df"
         }
       ],
       "previous_manifest_lineage": {
@@ -5264,15 +5264,15 @@
       "source_generation": "alpha-pond-rescue",
       "sources": [
         {
-          "file": "art/visual-pass-2026-09/pond-rescue-original.png",
+          "file": "../development/visual-novel/art/character-refinements/pond-rescue-original.png",
           "sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd"
         },
         {
-          "file": "art/visual-pass-2026-09/pond-rescue-generated.png",
+          "file": "../development/visual-novel/art/character-refinements/pond-rescue-generated.png",
           "sha256": "738c3c86471f2672bff9e09ab5119d587f4e4f2e34899555451330079302848d"
         },
         {
-          "file": "art/visual-pass-2026-09/pond-rescue-mask.png",
+          "file": "../development/visual-novel/art/character-refinements/pond-rescue-mask.png",
           "sha256": "fd06b366cb115bcad17b331368813a75251b415d9cf18dc3602b28d68c3b56b5",
           "support_bbox": [
             1035,
@@ -5294,7 +5294,7 @@
       "mask_geometry": {
         "native_masks": [
           {
-            "file": "art/visual-pass-2026-09/pond-rescue-mask.png",
+            "file": "../development/visual-novel/art/character-refinements/pond-rescue-mask.png",
             "sha256": "fd06b366cb115bcad17b331368813a75251b415d9cf18dc3602b28d68c3b56b5",
             "support_bbox": [
               1035,
@@ -5313,7 +5313,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/assemble_lyra_cg_keys.scm",
-      "script_sha256": "67f6ffbee08c8b00155cef7245a96a849b622f471cef90a90504bfa435bb35b3",
+      "script_sha256": "3923e6a545829ea9e8a8f538b5a9743914b5aef9f4158a4cb5e707c6cf1c30da",
       "verification": {
         "changed_pixels": 7081,
         "outside_mask_pixels_changed": 0,
@@ -5326,7 +5326,7 @@
         {
           "registry_file": "docs/graphics-sources/materials.json",
           "id": "character-pass-pond-rescue-material",
-          "record_sha256": "bac4d7715c92d518ce427fe6d16969dc700c9d36b1297d0b1ea49a1676bfd7c0"
+          "record_sha256": "f83fd187253ec876905dcf7345000acea165216c582b147eedbbe79264651c47"
         }
       ],
       "previous_manifest_lineage": {
@@ -5351,15 +5351,15 @@
       "source_generation": "review-027-pond-comfort",
       "sources": [
         {
-          "file": "art/visual-pass-2026-09/pond-comfort-original.png",
+          "file": "../development/visual-novel/art/character-refinements/pond-comfort-original.png",
           "sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf"
         },
         {
-          "file": "art/visual-pass-2026-09/pond-comfort-generated.png",
+          "file": "../development/visual-novel/art/character-refinements/pond-comfort-generated.png",
           "sha256": "5bf87f959fd1210e5248892c4f925704f87e598fd36743dd967784da090343de"
         },
         {
-          "file": "art/visual-pass-2026-09/pond-comfort-mask.png",
+          "file": "../development/visual-novel/art/character-refinements/pond-comfort-mask.png",
           "sha256": "8be44c5ebdff780bd9c6253b181ca32cfdd3dcb5c47a0d040aa931f9f9ff02b3",
           "support_bbox": [
             773,
@@ -5381,7 +5381,7 @@
       "mask_geometry": {
         "native_masks": [
           {
-            "file": "art/visual-pass-2026-09/pond-comfort-mask.png",
+            "file": "../development/visual-novel/art/character-refinements/pond-comfort-mask.png",
             "sha256": "8be44c5ebdff780bd9c6253b181ca32cfdd3dcb5c47a0d040aa931f9f9ff02b3",
             "support_bbox": [
               773,
@@ -5400,7 +5400,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/assemble_lyra_cg_keys.scm",
-      "script_sha256": "67f6ffbee08c8b00155cef7245a96a849b622f471cef90a90504bfa435bb35b3",
+      "script_sha256": "3923e6a545829ea9e8a8f538b5a9743914b5aef9f4158a4cb5e707c6cf1c30da",
       "verification": {
         "changed_pixels": 11632,
         "outside_mask_pixels_changed": 0,
@@ -5413,7 +5413,7 @@
         {
           "registry_file": "docs/graphics-sources/materials.json",
           "id": "character-pass-pond-comfort-material",
-          "record_sha256": "c21e59b3351a2e656de6621f7c2b840c15e1e989ca2a0140133339e50f404108"
+          "record_sha256": "3331bab3f4622f7ea89ed8fe9901644ab1f0073bc5a129c341699dda01ae1cbd"
         }
       ],
       "previous_manifest_lineage": {
@@ -5438,15 +5438,15 @@
       "source_generation": "alpha-theme-insect-discovery",
       "sources": [
         {
-          "file": "art/visual-pass-2026-09/theme-insect-discovery-original.png",
+          "file": "../development/visual-novel/art/character-refinements/theme-insect-discovery-original.png",
           "sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8"
         },
         {
-          "file": "art/visual-pass-2026-09/theme-insect-discovery-generated.png",
+          "file": "../development/visual-novel/art/character-refinements/theme-insect-discovery-generated.png",
           "sha256": "68f71c9224032d67fe7dcbeb04cbf2cd4f9fb22e2fb1d54beecfedee402c360b"
         },
         {
-          "file": "art/visual-pass-2026-09/theme-insect-discovery-mask.png",
+          "file": "../development/visual-novel/art/character-refinements/theme-insect-discovery-mask.png",
           "sha256": "1024173ce777a81f183bb0490e58c29d8843b5abb2206d031140574edd0944d7",
           "support_bbox": [
             995,
@@ -5468,7 +5468,7 @@
       "mask_geometry": {
         "native_masks": [
           {
-            "file": "art/visual-pass-2026-09/theme-insect-discovery-mask.png",
+            "file": "../development/visual-novel/art/character-refinements/theme-insect-discovery-mask.png",
             "sha256": "1024173ce777a81f183bb0490e58c29d8843b5abb2206d031140574edd0944d7",
             "support_bbox": [
               995,
@@ -5487,7 +5487,7 @@
       ],
       "mode": "RGB",
       "script_file": "scripts/assemble_lyra_cg_keys.scm",
-      "script_sha256": "67f6ffbee08c8b00155cef7245a96a849b622f471cef90a90504bfa435bb35b3",
+      "script_sha256": "3923e6a545829ea9e8a8f538b5a9743914b5aef9f4158a4cb5e707c6cf1c30da",
       "verification": {
         "changed_pixels": 40219,
         "outside_mask_pixels_changed": 0,
@@ -5500,7 +5500,7 @@
         {
           "registry_file": "docs/graphics-sources/materials.json",
           "id": "character-pass-theme-insect-discovery-material",
-          "record_sha256": "d39ed72aee2fb335316779c0e039f6f554b45481feafad732e0b31e113f8ad74"
+          "record_sha256": "1838665f2f7665d9e862f13d67d910ea666716bc61b0247d850e2084ce236a9f"
         }
       ],
       "previous_manifest_lineage": {
@@ -5513,6 +5513,106 @@
         ],
         "mode": "RGB"
       }
+    },
+    {
+      "id": "production-sage-gray-irises-v1",
+      "file": "game/images/characters/book-one/sage-everyday.png",
+      "source_generation": "sage-everyday-key-v1",
+      "sources": [
+        {
+          "file": "../development/visual-novel/art/characters/sage/iris-refinement/sprite-before.png",
+          "sha256": "6d4bfe57f4060754b1d425c8a5bc6f97781cced4dd34ef7871cec09fade8d3a0",
+          "role": "immutable selected parent refinement before the iris correction"
+        },
+        {
+          "file": "../development/visual-novel/art/characters/sage/iris-refinement/mask-irises.png",
+          "sha256": "a009a31afa37a71da3b9e4c6e861bd81d554163794c99cf5ddf90e2a684389b4",
+          "role": "actual native GIMP mask"
+        },
+        {
+          "file": "../development/visual-novel/art/characters/sage/iris-refinement/mask-protected-pupils-highlights.png",
+          "sha256": "f188a8154a4321166471b7728852828f22f885df61c07b4e9dbbe879bb3b0ff6",
+          "role": "actual native GIMP mask"
+        },
+        {
+          "file": "../development/visual-novel/art/characters/sage/sprite-refined.xcf",
+          "sha256": "14d5eba35ab635d5df51d112046a84e32a2b78f2ac7006a29ea9c0721acf8906",
+          "role": "preceding editable parent assembly retained beneath the new iris layer"
+        }
+      ],
+      "operations": [
+        {
+          "type": "native_gimp_masked_luminance_desaturation",
+          "tool": "GIMP 2.10.36 Script-Fu",
+          "opacity_percent": 80,
+          "full_frame_resampling": false,
+          "scope": "Visible iris pigment only; pupils, catchlights, lids, sclera and all remaining pixels protected."
+        }
+      ],
+      "mask_geometry": {
+        "selection_method": "Two manually traced polygons with explicit pupil/catchlight rectangle subtraction in the retained Script-Fu script",
+        "feather_px": 0.25,
+        "native_mask": "../development/visual-novel/art/characters/sage/iris-refinement/mask-irises.png",
+        "protected_mask": "../development/visual-novel/art/characters/sage/iris-refinement/mask-protected-pupils-highlights.png",
+        "nonzero_pixels": 80,
+        "protected_pixels": 68,
+        "changed_bounds": [
+          473,
+          144,
+          526,
+          168
+        ]
+      },
+      "output_sha256": "a8b50af8591a81b707e8768145f9559f17e6a18b6675e9b24c44bb1b36a3a837",
+      "dimensions": [
+        1023,
+        1537
+      ],
+      "mode": "RGB",
+      "script_file": "scripts/refine_sage_irises.scm",
+      "script_sha256": "5cbeff74ba84562583f6efca38fbb705f2cfe81927f2a96e563900c620c78d71",
+      "verification": {
+        "changed_pixels": 77,
+        "outside_mask_pixels_changed": 0,
+        "outside_mask_identical": true,
+        "protected_pupil_and_catchlight_pixels_changed": 0,
+        "canvas_and_mode_unchanged": true,
+        "change_bbox": [
+          473,
+          144,
+          526,
+          168
+        ],
+        "xcf_reopened_matches_final": true,
+        "hidden_refinement_layers_restore_original": true
+      },
+      "editable_xcf": "../development/visual-novel/art/characters/sage/iris-refinement/sprite-refined.xcf",
+      "xcf_sha256": "557cf614e20c48fd7ba7aec52977fc6e07d50e12970b880cf5b88d64a59485d5",
+      "previous_selected_asset": {
+        "file": "game/images/characters/book-one/sage-everyday.png",
+        "generation": "sage-everyday-key-v1",
+        "image": "sage everyday",
+        "sha256": "6d4bfe57f4060754b1d425c8a5bc6f97781cced4dd34ef7871cec09fade8d3a0",
+        "size": [
+          1023,
+          1537
+        ],
+        "mode": "RGB",
+        "background": "saturated green, composited by astravus.chroma_green",
+        "corner_rgb": [
+          36,
+          230,
+          24
+        ],
+        "draw_height": 835,
+        "production_edit": {
+          "recipe_file": "docs/graphics-edits.json",
+          "id": "production-sage-childhood-key-v1",
+          "recipe_sha256": "05df4aa72cfd32cd8c585999772872a056b8f687c2437e5667ade29ad82d0362"
+        }
+      },
+      "review": "../development/visual-novel/art/characters/sage/iris-refinement/README.md",
+      "verification_file": "../development/visual-novel/art/characters/sage/iris-refinement/verification.json"
     }
   ]
 }

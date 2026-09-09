@@ -1,10 +1,10 @@
 ; Native GIMP assembly for the accepted parent visual keys.
-; Run from visual-novel via art/character-keys/run-parent-sprite-gimp.sh.
+; Run from visual-novel via ../development/visual-novel/art/characters/run-parent-sprite-gimp.sh.
 ; All color and anatomy comes from the generated edit or immutable original.
 ; GIMP supplies editable feathered masks and the final composition.
 
 (define (parent-path name file)
-  (string-append "art/character-keys/" name "/" file))
+  (string-append "../development/visual-novel/art/characters/" name "/" file))
 
 (define (parent-save-png image drawable path)
   (file-png-save2 RUN-NONINTERACTIVE image drawable path path
