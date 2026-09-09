@@ -1,6 +1,35 @@
 # Graphics production review
 
-**Pond geometry correction complete:** four landscape repairs now align the
+**September character pass:** all 17 depicted named characters now have
+[visual keys](../art/character-keys/index.html), including separate early and
+later childhood sheets for the three friends. The approved opening trial is
+installed; Arin and Sage have matching sprite refinements. Lyra's sprite and
+three illustrations receive bounded eye/face adjustments, Thalia's irises are
+green, and Lyron has a new overlapping woven garment following the author's
+targeted wardrobe correction. Nine selected images changed; the other 69 retain
+their pixels. [Before/after viewer](../art/visual-pass-2026-09/review.html),
+[source-art audit](../art/visual-pass-2026-09/VISUAL_AUDIT.md) and
+[native checks](../art/visual-pass-2026-09/runtime-checks.json) identify the work
+and its evidence. Exact garment construction remains production interpretation.
+
+The production ledger is [graphics-polish.json](graphics-polish.json). It covers
+all **78 selected runtime images and 546 dimension reviews**: 435 scoped
+acceptances and 111 justified not-applicable findings. Current asset validation
+covers 172 generation records, 30 active production edits, 20 CG character
+reviews, 30 recurring-location views and 26 measured human silhouettes.
+Reviews are tied to actual inspections; recomputing a hash does not approve art.
+
+The current native checks passed the full chapter playthrough (156 assertions),
+human framing (2 assertions with all 26 measured sprites), closing-player tests
+(19 assertions) and paused montage capture (3 assertions and 15 compositions).
+Ren'Py lint passed. The linked reports distinguish fresh captures from retained
+evidence for unchanged art and rendering. This pass does not rebuild the earlier
+desktop/web archives or encoded closing film; those remain the previous graphics
+review builds. It does not renew release or audio-listening approval.
+
+## Earlier environment and compositing pass
+
+The earlier pond geometry correction completed four landscape repairs aligning the
 working-bank, planting, comfort and rescue views with the governing low basin.
 All seven related views received a focused pairwise review of water/coping/ground
 height, connected shoreline and shared visible anchors. The final native run
@@ -9,18 +38,13 @@ planting theme cue. [Source review](pond-repair-review.md),
 [geometry criteria](POND_GEOMETRY_REVIEW.md) and
 [native review](pond-runtime-review.md) bind the current findings.
 
-The production ledger is [graphics-polish.json](graphics-polish.json). It covers
-all **78 selected runtime images and 546 dimension reviews**: 434 scoped
-acceptances and 112 justified not-applicable findings. No dimension is pending,
-stale or accepted solely from a hash. This is the graphics production review;
-it does not renew story/audio listening, browser/platform or release approval.
-
 The original 75-image set gained three derived scene-state backgrounds: later
-treehouse, workshop construction and family painting. Twenty-five selected
-assets have active production-edit recipes. Current asset validation covers
+treehouse, workshop construction and family painting. At that stage, twenty-five
+selected assets had active production-edit recipes. Its asset validation covered
 78 files, 160 generation records, 25 reproducible edits, 20 CG character reviews,
-30 recurring-location views and 26 measured human silhouettes. Earlier release
-receipts remain historical; these findings come from the fresh inspections below.
+30 recurring-location views and 26 measured human silhouettes. The following
+receipts describe that earlier pass; the September records above supersede them
+where a character image changed.
 
 The review combines the independent 73-frame native story/UI/support inspection,
 fifteen final environment-state captures, fifteen actual paused theme-player
@@ -159,7 +183,7 @@ bounded check verifies the updated planting cue and unchanged encoded song. See
 [delivered film review](graphics-film-review.md) for the exact movie hash, checked
 frames and limits; native static views do not certify encoded motion.
 
-Current desktop and web archives were replaced under the same **0.1-alpha**
+The earlier desktop and web archives were replaced under the same **0.1-alpha**
 filenames as **graphics review builds**, then checked with
 `python3 scripts/check_release.py --review-build`. All 128 packaged runtime source
 files match the reviewed working tree, including the four current pond repairs.

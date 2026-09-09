@@ -12,7 +12,7 @@ import hashlib
 from pathlib import Path
 from PIL import Image
 paths = {
-    'game/images/cg/first-memory-young.png': '796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f',
+    'art/character-refinement-test/opening-original.png': '796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f',
     'art/character-refinement-test/opening-generated-v1.png': '17423b95da463da9185dc732903e2b8ee96a314d15e2a04922c7dbad1c415512',
 }
 for filename, expected in paths.items():
@@ -49,7 +49,7 @@ def bbox(support):
     ys, xs = np.where(support)
     return [int(xs.min()), int(ys.min()), int(xs.max()) + 1, int(ys.max()) + 1]
 
-source_path = Path('game/images/cg/first-memory-young.png')
+source_path = Path('art/character-refinement-test/opening-original.png')
 source = pixels(source_path)
 candidate = pixels(folder / 'opening-generated-v1.png')
 final = pixels(folder / 'opening-refined-v1.png')

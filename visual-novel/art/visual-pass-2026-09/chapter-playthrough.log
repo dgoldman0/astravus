@@ -1,0 +1,21 @@
+[rpytest] [log] Running 1 test(s) marked with 'only' flag.
+[rpytest] [log] - global::chapter_playthrough
+
+[rpytest] Starting test run
+[rpytest] Platform:      Linux-6.8.0-124-generic-x86_64-with-glibc2.39
+[rpytest] Python:        3.12.8
+[rpytest] Ren'Py:        Ren'Py 8.5.3.26051504
+[rpytest] Game Version:  0.1-alpha
+
+[rpytest] [exc] + global
+[rpytest] [exc]   - chapter_playthrough
+[rpytest] [exc]   - chapter_playthrough (85.932 s [01:25])
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test cases :     9 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     5 skipped |     3 not run
+[rpytest] Test hooks :     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :   156 |   156 passed |     0 xfailed |     0 failed |     0 xpassed |
+
+[rpytest] Time: 86.639 s [01:26]
+[rpytest] Status: PASSED

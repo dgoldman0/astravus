@@ -1,0 +1,919 @@
+{
+  "schema_version": 1,
+  "status": "Six keys selected; three changed sprites installed and registered; Lyra CG propagation integrated separately.",
+  "record_semantics": "Generation inputs and original records identify historical source snapshots; selected key, note and final sprite hashes identify retained files. The manifest check count below records supporting-sprite integration before the later CG registrations.",
+  "date": "2026-09-08",
+  "path_base": "visual-novel",
+  "source_anchor_base": "Astravus repository",
+  "tool": "Built-in image_gen plus native GIMP 2.10.36",
+  "model_note": "Built-in backend version is not exposed; no CLI/API fallback used.",
+  "user_direction": "Retain other supporting wardrobes; revise Lyron specifically after the user identified contemporary American cues.",
+  "keys": [
+    {
+      "character": "kael",
+      "key": {
+        "file": "art/character-keys/kael/key.png",
+        "sha256": "3ee0b3fde4cadffbd93e10e7642bd11875638b5dfdc6ccdee8bca66ee28b4062",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "notes_file": "art/character-keys/kael/KEY.md",
+      "notes_sha256": "17074e3697ba238eca3b1f021c04704443df2fa86a3b7863243dcbdae9aae68f",
+      "source_anchors": [
+        "revision/latest.md:45",
+        "wiki/bios/Kael.md:11"
+      ],
+      "coverage": [
+        "fullbody front-oriented",
+        "fullbody side",
+        "fullbody back",
+        "neutral face front-oriented",
+        "neutral face three-quarter",
+        "neutral face profile",
+        "three useful expressions"
+      ],
+      "status": "selected production reference for review",
+      "review_observations": [
+        "Lean childhood build, dark curls, warm brown skin and gold-hazel eyes retained.",
+        "Body views and six portraits supplied; no adult injuries introduced.",
+        "The biography fixes the dimple to anatomical left; sheet smile shading is not a reliable side locator."
+      ],
+      "limits": [
+        "Illustrative views, not measured orthographic anatomy.",
+        "Inferred back construction and exact contours are production interpretation.",
+        "One defined stage does not establish later ages."
+      ]
+    },
+    {
+      "character": "lyra",
+      "key": {
+        "file": "art/character-keys/lyra/key.png",
+        "sha256": "f1042d1f6ad4c784808dd12fe09e9d51590e205b8e7fa8962afe165d39e673db",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "notes_file": "art/character-keys/lyra/KEY.md",
+      "notes_sha256": "c6ec675f593f22aa6f7b386cc4f75ac70cacbf18ba667c9232dde7dad9e62864",
+      "source_anchors": [
+        "revision/latest.md:49",
+        "wiki/bios/Lyra.md:11"
+      ],
+      "coverage": [
+        "fullbody front-oriented",
+        "fullbody side",
+        "fullbody back",
+        "neutral face front-oriented",
+        "neutral face three-quarter",
+        "neutral face profile",
+        "three useful expressions"
+      ],
+      "status": "selected production reference for review",
+      "review_observations": [
+        "Young round face, golden curls and green eyes consistent across views.",
+        "Second key reduces doll-like eye scale; neutral panels are quiet, with active expression references separately shown.",
+        "Pond scene propagation must preserve fear, wetness and supporting contact."
+      ],
+      "limits": [
+        "Illustrative views, not measured orthographic anatomy.",
+        "Inferred back construction and exact contours are production interpretation.",
+        "One defined stage does not establish later ages."
+      ]
+    },
+    {
+      "character": "thalia",
+      "key": {
+        "file": "art/character-keys/thalia/key.png",
+        "sha256": "cf921f4cc40de7dd4e5dc85c1168cfdbba40068069cce5b7c44b6fa0326a45a1",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "notes_file": "art/character-keys/thalia/KEY.md",
+      "notes_sha256": "cce38c0311f00c4adab41504b46dbc08179b1c863faec79e3f005b82065002e2",
+      "source_anchors": [
+        "revision/latest.md:349",
+        "wiki/bios/Cassia.md:31"
+      ],
+      "coverage": [
+        "fullbody front-oriented",
+        "fullbody side",
+        "fullbody back",
+        "neutral face front-oriented",
+        "neutral face three-quarter",
+        "neutral face profile",
+        "three useful expressions"
+      ],
+      "status": "selected production reference for review",
+      "review_observations": [
+        "Long tapered face, swept chestnut hair and retained flowing wardrobe remain recognizable.",
+        "Deep green iris identity reinforced by the key and bounded runtime color correction."
+      ],
+      "limits": [
+        "Illustrative views, not measured orthographic anatomy.",
+        "Inferred back construction and exact contours are production interpretation.",
+        "One defined stage does not establish later ages."
+      ]
+    },
+    {
+      "character": "lyron",
+      "key": {
+        "file": "art/character-keys/lyron/key.png",
+        "sha256": "ad62c7295f18d75c99f8d2e9b1bb571d021bde82a048855c02e0a40f5f0ecad4",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "notes_file": "art/character-keys/lyron/KEY.md",
+      "notes_sha256": "a06a228543b7ac029a42ce2275ec1c7aa4814343897bbcbe68819115388fabaa",
+      "source_anchors": [
+        "revision/latest.md:355",
+        "revision/latest.md:57",
+        "revision/latest.md:565",
+        "wiki/bios/Cassia.md:40",
+        "wiki/worldbuilding/Technology.md:13",
+        "wiki/worldbuilding/Socioeconomics.md:26",
+        "wiki/worldbuilding/Socioeconomics.md:281"
+      ],
+      "coverage": [
+        "fullbody front-oriented",
+        "fullbody side",
+        "fullbody back",
+        "neutral face front-oriented",
+        "neutral face three-quarter",
+        "neutral face profile",
+        "three useful expressions"
+      ],
+      "status": "selected production reference for review",
+      "review_observations": [
+        "Revised key replaces shirt collar/buttons, belt and cargo pockets with a curving overlapping blue-gray garment.",
+        "Same gentle oval face, hazel eyes and salt-and-pepper hair across revised key and sprite.",
+        "Clothing is personal production interpretation, not a culture-wide uniform or a new biological mechanism."
+      ],
+      "limits": [
+        "Illustrative views, not measured orthographic anatomy.",
+        "Inferred back construction and exact contours are production interpretation.",
+        "One defined stage does not establish later ages."
+      ]
+    },
+    {
+      "character": "soren",
+      "key": {
+        "file": "art/character-keys/soren/key.png",
+        "sha256": "7449cdb7e34bf775596128400df82eabcef6cd0dea64c966fe2360eaae99d9e2",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "notes_file": "art/character-keys/soren/KEY.md",
+      "notes_sha256": "59adc82d990ccf02446b88d2a49a6dcaf933aecaa6036a9f26610ad15d091c7d",
+      "source_anchors": [
+        "revision/latest.md:369",
+        "wiki/bios/Joren.md:44"
+      ],
+      "coverage": [
+        "fullbody front-oriented",
+        "fullbody side",
+        "fullbody back",
+        "neutral face front-oriented",
+        "neutral face three-quarter",
+        "neutral face profile",
+        "three useful expressions"
+      ],
+      "status": "selected production reference for review",
+      "review_observations": [
+        "Crop, blue eyes, lean face and practical work clothes match current sprite.",
+        "Concentrated and sad expressions retain the same adult identity."
+      ],
+      "limits": [
+        "Illustrative views, not measured orthographic anatomy.",
+        "Inferred back construction and exact contours are production interpretation.",
+        "One defined stage does not establish later ages."
+      ]
+    },
+    {
+      "character": "kaleb",
+      "key": {
+        "file": "art/character-keys/kaleb/key.png",
+        "sha256": "54cb863251e4dca5c2c8a8dc11eda89bcb0ebf4da2e3dd8894057ba18ba6f8b9",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "notes_file": "art/character-keys/kaleb/KEY.md",
+      "notes_sha256": "aa1bd7680f10731e9af24f6e7346d64e40168192ec75277f445cccab64449333",
+      "source_anchors": [
+        "revision/latest.md:375",
+        "revision/latest.md:501",
+        "wiki/bios/Joren.md:56"
+      ],
+      "coverage": [
+        "fullbody front-oriented",
+        "fullbody side",
+        "fullbody back",
+        "neutral face front-oriented",
+        "neutral face three-quarter",
+        "neutral face profile",
+        "three useful expressions"
+      ],
+      "status": "selected production reference for review",
+      "review_observations": [
+        "Angular rugged face, brown-gray waves and golden-brown eyes retained.",
+        "Smile and restrained grief extend the existing serious performance."
+      ],
+      "limits": [
+        "Illustrative views, not measured orthographic anatomy.",
+        "Inferred back construction and exact contours are production interpretation.",
+        "One defined stage does not establish later ages."
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "character": "kael",
+      "file": "game/images/characters/book-one/kael-young.png",
+      "original": {
+        "file": "art/character-keys/kael/sprite-original.png",
+        "sha256": "86f1acb57974e793a366ad693f0be9fd8b9d55e454794eaab401b04c7bc13651",
+        "size": [
+          1023,
+          1537
+        ],
+        "mode": "RGB"
+      },
+      "final": {
+        "file": "game/images/characters/book-one/kael-young.png",
+        "sha256": "86f1acb57974e793a366ad693f0be9fd8b9d55e454794eaab401b04c7bc13651",
+        "size": [
+          1023,
+          1537
+        ],
+        "mode": "RGB"
+      },
+      "changed": false,
+      "method": "retained current runtime sprite"
+    },
+    {
+      "character": "lyra",
+      "file": "game/images/characters/book-one/lyra-young.png",
+      "original": {
+        "file": "art/character-keys/lyra/sprite-original.png",
+        "sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d",
+        "size": [
+          1023,
+          1537
+        ],
+        "mode": "RGB"
+      },
+      "final": {
+        "file": "game/images/characters/book-one/lyra-young.png",
+        "sha256": "3198fe4eb432101cdd7d86a0f0f17e007349489645ce68e203f0adac01cbf7fb",
+        "size": [
+          1023,
+          1537
+        ],
+        "mode": "RGB"
+      },
+      "changed": true,
+      "id": "supporting-lyra-young-refined",
+      "method": "native GIMP bounded eye deformation",
+      "script_file": "scripts/refine_supporting_sprites.scm",
+      "script_sha256": "6bf70db202f270444fc17e3f63b54ba16761fc1600df765a86af1e8c39e410f3",
+      "rebuild_file": "scripts/rebuild_supporting_sprites.sh",
+      "verification_file": "art/character-keys/supporting-verification.json",
+      "proof": {
+        "character": "lyra",
+        "source_file": "art/character-keys/lyra/sprite-original.png",
+        "source_sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d",
+        "final_file": "art/character-keys/lyra/sprite-refined.png",
+        "final_sha256": "3198fe4eb432101cdd7d86a0f0f17e007349489645ce68e203f0adac01cbf7fb",
+        "xcf_file": "art/character-keys/lyra/sprite-refined.xcf",
+        "xcf_sha256": "cf4bf0036059fe07f642022338f2bbfcba8db52c343e37ffd212d22eba1e17f8",
+        "size": [
+          1023,
+          1537
+        ],
+        "mode": "RGB",
+        "masks": [
+          {
+            "file": "art/character-keys/lyra/mask-eye-viewer-left.png",
+            "sha256": "0f7da77cc33ed09e8cecf2bcaabb005eba2bb17d22e378b9862d826dcf1a29fe",
+            "support_bbox": [
+              451,
+              254,
+              539,
+              328
+            ],
+            "nonzero_pixels": 5212
+          },
+          {
+            "file": "art/character-keys/lyra/mask-eye-viewer-right.png",
+            "sha256": "f8588014b9f89fca6bb6341270c56a05ca154a58dee92ceb5354b5322e53b017",
+            "support_bbox": [
+              538,
+              240,
+              616,
+              310
+            ],
+            "nonzero_pixels": 4368
+          }
+        ],
+        "changed_pixels": 8747,
+        "outside_mask_changed_pixels": 0,
+        "chroma_backing_unchanged": true,
+        "xcf_reopened_matches_final": true,
+        "hidden_layers_restore_original": true
+      },
+      "generator_donor_used": false
+    },
+    {
+      "character": "thalia",
+      "file": "game/images/characters/book-one/thalia-everyday.png",
+      "original": {
+        "file": "art/character-keys/thalia/sprite-original.png",
+        "sha256": "654c9f3316c1c78d023efb8b4d22afd1b68003d7f47a6435c2a6b1984f637132",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "final": {
+        "file": "game/images/characters/book-one/thalia-everyday.png",
+        "sha256": "734fcc28508a9a86381d4223e8b541c3b50227f002460207a468c0c5cf4798ed",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "changed": true,
+      "id": "supporting-thalia-everyday-refined",
+      "method": "native GIMP bounded iris hue correction",
+      "script_file": "scripts/refine_supporting_sprites.scm",
+      "script_sha256": "6bf70db202f270444fc17e3f63b54ba16761fc1600df765a86af1e8c39e410f3",
+      "rebuild_file": "scripts/rebuild_supporting_sprites.sh",
+      "verification_file": "art/character-keys/supporting-verification.json",
+      "proof": {
+        "character": "thalia",
+        "source_file": "art/character-keys/thalia/sprite-original.png",
+        "source_sha256": "654c9f3316c1c78d023efb8b4d22afd1b68003d7f47a6435c2a6b1984f637132",
+        "final_file": "art/character-keys/thalia/sprite-refined.png",
+        "final_sha256": "734fcc28508a9a86381d4223e8b541c3b50227f002460207a468c0c5cf4798ed",
+        "xcf_file": "art/character-keys/thalia/sprite-refined.xcf",
+        "xcf_sha256": "a347c87bab5501129147ed25f76a34448992c6842b88debffe035b6ddf92ad0a",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB",
+        "masks": [
+          {
+            "file": "art/character-keys/thalia/mask-irises.png",
+            "sha256": "b169c31e83ec08c44bfe1da18d86d9efe792929db28655db68c6fe255c578291",
+            "support_bbox": [
+              458,
+              165,
+              523,
+              184
+            ],
+            "nonzero_pixels": 169
+          }
+        ],
+        "changed_pixels": 158,
+        "outside_mask_changed_pixels": 0,
+        "chroma_backing_unchanged": true,
+        "xcf_reopened_matches_final": true,
+        "hidden_layers_restore_original": true
+      },
+      "generator_donor_used": false
+    },
+    {
+      "character": "lyron",
+      "file": "game/images/characters/book-one/lyron-everyday.png",
+      "original": {
+        "file": "art/character-keys/lyron/sprite-original.png",
+        "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "final": {
+        "file": "game/images/characters/book-one/lyron-everyday.png",
+        "sha256": "33d007146fabfc5a797fbeee5775761810da7f95bc69ab6620a4531a984f501c",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "changed": true,
+      "id": "supporting-lyron-lumen-wardrobe",
+      "method": "selected complete generated sprite",
+      "generation": "supporting-lyron-sprite-wardrobe-generated",
+      "output_id": "exec-d5ffe5b4-7e3b-4bfb-9363-6d14ee438600",
+      "preservation_scope": "Original canvas dimensions and RGB chroma convention; full character and wardrobe replacement authorized.",
+      "source_measurement_refresh": "Complete: changed source bounds, dimensions and hash registered in game/character_layout.json; established height and sampling scale retained. Native framing is checked separately."
+    },
+    {
+      "character": "soren",
+      "file": "game/images/characters/book-one/soren-everyday.png",
+      "original": {
+        "file": "art/character-keys/soren/sprite-original.png",
+        "sha256": "aa9cefcc28cff081cf23ee1f6a56bfbe44731318b1ef3f7ec1946dd57cd516cf",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "final": {
+        "file": "game/images/characters/book-one/soren-everyday.png",
+        "sha256": "aa9cefcc28cff081cf23ee1f6a56bfbe44731318b1ef3f7ec1946dd57cd516cf",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "changed": false,
+      "method": "retained current runtime sprite"
+    },
+    {
+      "character": "kaleb",
+      "file": "game/images/characters/book-one/kaleb-everyday.png",
+      "original": {
+        "file": "art/character-keys/kaleb/sprite-original.png",
+        "sha256": "dbd65a8637da9692dda912025d87da0d3419d1acedb20cc3b0bf96a57be1184b",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "final": {
+        "file": "game/images/characters/book-one/kaleb-everyday.png",
+        "sha256": "dbd65a8637da9692dda912025d87da0d3419d1acedb20cc3b0bf96a57be1184b",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "changed": false,
+      "method": "retained current runtime sprite"
+    }
+  ],
+  "generations": [
+    {
+      "id": "supporting-kael-key",
+      "character": "kael",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-ec6166c1-98d4-449a-9043-571d0b4c871c",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-ec6166c1-98d4-449a-9043-571d0b4c871c.png",
+      "output": {
+        "file": "art/character-keys/kael/key.png",
+        "sha256": "3ee0b3fde4cadffbd93e10e7642bd11875638b5dfdc6ccdee8bca66ee28b4062",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/kael/prompt-key.txt",
+      "prompt_sha256": "48dc2f93519ba83dc111ba3c41d83a21a98884c6394ab4e0dc9d59ed331877ad",
+      "prompt": "Use case: illustration-story.\nAsset: a finished, useful character visual key for a painterly visual novel, landscape 3072x2048. Plain light warm-gray studio background, tidy spacious layout. This is ONE person's consistent design at ONE life stage, shown repeatedly.\nLayout: LEFT HALF has three large complete head-to-toe standing views, front / exact side / back, in the SAME outfit and same stature on a common baseline, hands relaxed and empty. RIGHT HALF has six large head-and-neck portraits in a 3 by 2 grid: top row neutral front / neutral three-quarter / exact profile; bottom row three restrained expressions specified below. Keep facial anatomy and age fixed across all views; expressions alter muscles, not nose, jaw, eye scale or complexion. Same natural painterly realism and detailed tactile materials as reference, unified soft neutral daylight, dimensional midtones, no yellow-orange global wash, no green spill. Every face and foot fully within the canvas, enough breathing room, no overlap.\nOnly text: character name at upper left and small view/expression captions. No paragraphs, measurements, invented symbols, signatures, logos or watermark. No photographic humans and no cartoon/chibi transformation.\nReference image 1 supplies exact current childhood face, dark warm brown complexion, tousled dark hair, slim older-child proportions and outfit. Keep him a lean, tall-for-his-age CHILD, not adult or muscular teenager. Hazel irises gold-dominant, natural child eyes, familiar mischievous smile and short messy dark curls. Preserve the warm brown overshirt, beige henley, brown rolled trousers, pouch and boots. No held stone in neutral turnarounds. No added scars, broken nose or adult beard; injury dates are not established. Keep every view the same face and child age. Small single dimple on his own LEFT cheek when grinning, no bilateral deep dimples. Expressions: mischievous grin / intent listening / worried concern. Title: KAEL. The reference's clothing details are the wardrobe anchor; infer only a simple practical back of that same outfit.\n",
+      "references": [
+        {
+          "file": "art/character-keys/kael/sprite-original.png",
+          "sha256": "86f1acb57974e793a366ad693f0be9fd8b9d55e454794eaab401b04c7bc13651",
+          "size": [
+            1023,
+            1537
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": true,
+      "review": "Selected key; current lean childhood sprite retained."
+    },
+    {
+      "id": "supporting-lyra-key-initial",
+      "character": "lyra",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-c2feef1c-2494-4a5d-a40a-1ce9483ea2fd",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-c2feef1c-2494-4a5d-a40a-1ce9483ea2fd.png",
+      "output": {
+        "file": "art/character-keys/lyra/key-initial.png",
+        "sha256": "a526fb21b2698cf98c7578a7ab309542e99f29ab5b6e14d3d3c908eabb245667",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/lyra/prompt-key.txt",
+      "prompt_sha256": "f938eb39a69a7b37d92ddb8c7563a323879bf858b21e2b7253c73841e9108dcb",
+      "prompt": "Use case: illustration-story.\nAsset: a finished, useful character visual key for a painterly visual novel, landscape 3072x2048. Plain light warm-gray studio background, tidy spacious layout. This is ONE person's consistent design at ONE life stage, shown repeatedly.\nLayout: LEFT HALF has three large complete head-to-toe standing views, front / exact side / back, in the SAME outfit and same stature on a common baseline, hands relaxed and empty. RIGHT HALF has six large head-and-neck portraits in a 3 by 2 grid: top row neutral front / neutral three-quarter / exact profile; bottom row three restrained expressions specified below. Keep facial anatomy and age fixed across all views; expressions alter muscles, not nose, jaw, eye scale or complexion. Same natural painterly realism and detailed tactile materials as reference, unified soft neutral daylight, dimensional midtones, no yellow-orange global wash, no green spill. Every face and foot fully within the canvas, enough breathing room, no overlap.\nOnly text: character name at upper left and small view/expression captions. No paragraphs, measurements, invented symbols, signatures, logos or watermark. No photographic humans and no cartoon/chibi transformation.\nReference image 1 supplies this exact small early-childhood girl, her golden-tan skin with olive undertones, golden freckles, unruly golden-blonde curls and outfit. Deliberately refine the reference's doll-like eyes to natural HUMAN CHILD proportions: moderately smaller eye openings and irises, anatomically modeled lids, while keeping a wide attentive curious gaze and vivid but believable green irises. Preserve her recognizably young soft round face, small button nose and gently pointed ear tips, never age her into a teen. Preserve russet long-sleeved shirt, muted olive bib overalls, russet boots and small hair clips. No held feather in the neutral body views. The curls must stay golden-blonde rather than chestnut or red; complexion stays warm golden-tan, not pale peach. Expressions: delighted laugh showing subtle front-tooth gap / inquisitive listening / frightened and tearful but restrained. No huge pupils, eye glitter, glossy doll skin or oversized adult lashes. Title: LYRA. Back view uses the same overalls and unruly curls, not a new outfit.\n",
+      "references": [
+        {
+          "file": "art/character-keys/lyra/sprite-original.png",
+          "sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d",
+          "size": [
+            1023,
+            1537
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": false,
+      "review": "Initial sheet retained excessive eye scale; superseded by bounded sheet revision."
+    },
+    {
+      "id": "supporting-lyra-key",
+      "character": "lyra",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-d8596204-6f19-4dd5-aab9-a348c5a81a03",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-d8596204-6f19-4dd5-aab9-a348c5a81a03.png",
+      "output": {
+        "file": "art/character-keys/lyra/key.png",
+        "sha256": "f1042d1f6ad4c784808dd12fe09e9d51590e205b8e7fa8962afe165d39e673db",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/lyra/prompt-key-refine.txt",
+      "prompt_sha256": "9412d5b587ae3b8983acdd7c406134e95263892e6b3c832c538545681ddf09fd",
+      "prompt": "Use case: precise-object-edit.\nEdit target Image 1, Lyra's full character key sheet. Make ONE consistent correction: her eyes across ALL body views and portraits still look oversized and doll-like. Reduce both visible eye openings and irises by about 22 percent, centered at the same gaze positions, so her eyes read like a real small child's anatomy. Model natural eyelids and surrounding skin to fill the reduction. Keep the curious wide gaze, green iris color, small real highlights, and every expression including frightened eyes; 'wide' is alertness, not huge eyeballs. Preserve the existing golden-tan skin, freckles, face width, nose, mouth, chin, age, curls, ears, clothing, body size, poses, labels, exact sheet arrangement and neutral lighting. She must stay the SAME very young girl, not aged up or given a long adult face. Do not change her smile teeth. No other design changes. All views must agree anatomically, with the same eye scale at their respective face sizes. Keep the exact input dimensions.\n",
+      "references": [
+        {
+          "file": "art/character-keys/lyra/key-initial.png",
+          "sha256": "a526fb21b2698cf98c7578a7ab309542e99f29ab5b6e14d3d3c908eabb245667",
+          "size": [
+            1536,
+            1024
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": true,
+      "review": "Selected key; smaller eye geometry across the sheet, with quiet neutral expression and active expression examples."
+    },
+    {
+      "id": "supporting-thalia-key",
+      "character": "thalia",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-96999fba-c2b3-4d0b-9e79-984abf6e3e80",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-96999fba-c2b3-4d0b-9e79-984abf6e3e80.png",
+      "output": {
+        "file": "art/character-keys/thalia/key.png",
+        "sha256": "cf921f4cc40de7dd4e5dc85c1168cfdbba40068069cce5b7c44b6fa0326a45a1",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/thalia/prompt-key.txt",
+      "prompt_sha256": "5954630d23f6137f0354e7861c908807466baaa3aacd9d36e4e14b11c11a9ae5",
+      "prompt": "Use case: illustration-story.\nAsset: a finished, useful character visual key for a painterly visual novel, landscape 3072x2048. Plain light warm-gray studio background, tidy spacious layout. This is ONE person's consistent design at ONE life stage, shown repeatedly.\nLayout: LEFT HALF has three large complete head-to-toe standing views, front / exact side / back, in the SAME outfit and same stature on a common baseline, hands relaxed and empty. RIGHT HALF has six large head-and-neck portraits in a 3 by 2 grid: top row neutral front / neutral three-quarter / exact profile; bottom row three restrained expressions specified below. Keep facial anatomy and age fixed across all views; expressions alter muscles, not nose, jaw, eye scale or complexion. Same natural painterly realism and detailed tactile materials as reference, unified soft neutral daylight, dimensional midtones, no yellow-orange global wash, no green spill. Every face and foot fully within the canvas, enough breathing room, no overlap.\nOnly text: character name at upper left and small view/expression captions. No paragraphs, measurements, invented symbols, signatures, logos or watermark. No photographic humans and no cartoon/chibi transformation.\nReference image 1 supplies exact adult Thalia: composed mediator, graceful long tapered oval face, warm brown complexion, long chestnut waves swept over one shoulder, serene expression. Preserve her identity, adult age, build, hair arrangement, plum flowing practical tunic-coat, charcoal trousers, ochre waist sash, simple small pendant and flats. Her irises must clearly read DEEP GREEN rather than olive/hazel/brown, with restrained saturation and dark pupils; all panels same eye color. Keep face contours stable: long softly defined nose, gently narrowed chin and relaxed brows. Expressions: welcoming small smile / attentive listening / quietly firm concern. Her warmth should not produce a huge grin or glamour makeover. Fullbody back is same practical coat, no invented embroidery narrative or new jewelry. Title: THALIA.\n",
+      "references": [
+        {
+          "file": "art/character-keys/thalia/sprite-original.png",
+          "sha256": "654c9f3316c1c78d023efb8b4d22afd1b68003d7f47a6435c2a6b1984f637132",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": true,
+      "review": "Selected adult key; same face and outfit, deep green eye direction."
+    },
+    {
+      "id": "supporting-lyron-key-initial",
+      "character": "lyron",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-1767c565-2780-4298-93e9-a02bd32cfdfd",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-1767c565-2780-4298-93e9-a02bd32cfdfd.png",
+      "output": {
+        "file": "art/character-keys/lyron/key-initial.png",
+        "sha256": "9e995ccc43ed910f9aeb89e65d5ba2d5888dc1f0fca6887e15fc8329f0d28b5e",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/lyron/prompt-key.txt",
+      "prompt_sha256": "3a233ec52c56c4fa454ed6e6ed44809c8f3ab663ae105ac7cd5c050fa56cbbbc",
+      "prompt": "Use case: illustration-story.\nAsset: a finished, useful character visual key for a painterly visual novel, landscape 3072x2048. Plain light warm-gray studio background, tidy spacious layout. This is ONE person's consistent design at ONE life stage, shown repeatedly.\nLayout: LEFT HALF has three large complete head-to-toe standing views, front / exact side / back, in the SAME outfit and same stature on a common baseline, hands relaxed and empty. RIGHT HALF has six large head-and-neck portraits in a 3 by 2 grid: top row neutral front / neutral three-quarter / exact profile; bottom row three restrained expressions specified below. Keep facial anatomy and age fixed across all views; expressions alter muscles, not nose, jaw, eye scale or complexion. Same natural painterly realism and detailed tactile materials as reference, unified soft neutral daylight, dimensional midtones, no yellow-orange global wash, no green spill. Every face and foot fully within the canvas, enough breathing room, no overlap.\nOnly text: character name at upper left and small view/expression captions. No paragraphs, measurements, invented symbols, signatures, logos or watermark. No photographic humans and no cartoon/chibi transformation.\nReference image 1 is Lyron's existing adult identity and wardrobe anchor. Preserve warm medium-brown complexion, salt-and-pepper close wavy hair, short neatly maintained salt-and-pepper beard, natural hazel eyes, tall build and blue-gray rolled-sleeve work shirt, earth trousers and practical shoes. Refine facial distinction coherently: a gently LONG OVAL face with softer jaw corners, a straight slightly longer nose, relaxed gently arched brows, kind eyes and smooth unhurried expression; do not square the jaw or give him a rugged scowling explorer face. Keep this exact construction in every view and expression. This is a gentle agricultural systems manager, not elderly/frail or a sage in robes. His build is tall and ordinarily capable, not bulky. Expressions: warm small smile / calmly explaining / thoughtful concern. No added tools, glasses, insignia, scars or fantastic uniform. Title: LYRON.\n",
+      "references": [
+        {
+          "file": "art/character-keys/lyron/sprite-original.png",
+          "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": false,
+      "review": "Unselected after user identified contemporary American wardrobe cues."
+    },
+    {
+      "id": "supporting-lyron-key",
+      "character": "lyron",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-7167edd5-ecd1-40c0-bdf2-ed4f9d9917a6",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-7167edd5-ecd1-40c0-bdf2-ed4f9d9917a6.png",
+      "output": {
+        "file": "art/character-keys/lyron/key.png",
+        "sha256": "ad62c7295f18d75c99f8d2e9b1bb571d021bde82a048855c02e0a40f5f0ecad4",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/lyron/prompt-key-wardrobe.txt",
+      "prompt_sha256": "d980e16eec79feb8bba4d7840eaae80deb71c0e3c110785be3a93bf9c3310037",
+      "prompt": "Use case: identity-preserve.\nEdit target Image1 is Lyron's complete character reference sheet. Preserve his exact gentle long-oval face, warm medium-brown complexion, kind hazel eyes, salt-and-pepper wavy hair and beard, age, body build and EVERY face expression. Keep the same sheet layout, all six portraits and three body views, captions and title LYRON.\nChange ONLY his wardrobe consistently across all views. Lyron lives in far-future Lumen, a cultivated organic habitat whose technology is seamlessly integrated with daily life. He is a practical agricultural systems manager, not a twentieth-century farmer. Replace the denim/button-down shirt, conspicuous belt and cargo trousers with his personal Lumen everyday clothing:\nA softly structured muted blue-gray long overlapping top ending at upper-to-mid thigh, comfortable rather than fitted armor. Broad curving fabric construction, an off-center shallow overlapping neckline that continues into an unobtrusive integrated woven closure near the side of the waist, and a short divided hem for free leg movement. Two small INSET storage openings follow the curved garment seams, no exterior flap pockets. Forearms free through easy three-quarter sleeves. Fine natural-fiber weave with understated blue/gray tonal depth that shifts slightly across differently angled planes, not shine or luminous trim. Relaxed plain earth-taupe trousers with smooth waistband and no visible belt or cargo pockets; quiet low-profile slip-on woven shoes with flexible soles.\nThe cut should look like a useful garment developed in this distant culture, retaining human comfort and touchable craftsmanship. Not robes, a uniform, a kimono copy, a military jumpsuit, a medieval tunic costume, a lab coat or contemporary denim. No technological accessories, chest badges, circuits, LEDs, chrome, holograms or shoulder armor. Keep the exact human anatomy and existing identity. All body and face views wear precisely this same outfit, including accurate back construction. Retain the original plain neutral studio backdrop, lighting, painterly detail and 1536x1024 canvas.\n",
+      "references": [
+        {
+          "file": "art/character-keys/lyron/key-initial.png",
+          "sha256": "9e995ccc43ed910f9aeb89e65d5ba2d5888dc1f0fca6887e15fc8329f0d28b5e",
+          "size": [
+            1536,
+            1024
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": true,
+      "review": "Selected personal Lumen outfit; exact curving cut and material behavior are production interpretation."
+    },
+    {
+      "id": "supporting-soren-key",
+      "character": "soren",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-a98ff37d-993d-4e40-b390-ab42833ef0b6",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-a98ff37d-993d-4e40-b390-ab42833ef0b6.png",
+      "output": {
+        "file": "art/character-keys/soren/key.png",
+        "sha256": "7449cdb7e34bf775596128400df82eabcef6cd0dea64c966fe2360eaae99d9e2",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/soren/prompt-key.txt",
+      "prompt_sha256": "704de71a0c7920e45ecff192d58c834943c8a89c046dcb1c6709886afd97cb1b",
+      "prompt": "Use case: illustration-story.\nAsset: a finished, useful character visual key for a painterly visual novel, landscape 3072x2048. Plain light warm-gray studio background, tidy spacious layout. This is ONE person's consistent design at ONE life stage, shown repeatedly.\nLayout: LEFT HALF has three large complete head-to-toe standing views, front / exact side / back, in the SAME outfit and same stature on a common baseline, hands relaxed and empty. RIGHT HALF has six large head-and-neck portraits in a 3 by 2 grid: top row neutral front / neutral three-quarter / exact profile; bottom row three restrained expressions specified below. Keep facial anatomy and age fixed across all views; expressions alter muscles, not nose, jaw, eye scale or complexion. Same natural painterly realism and detailed tactile materials as reference, unified soft neutral daylight, dimensional midtones, no yellow-orange global wash, no green spill. Every face and foot fully within the canvas, enough breathing room, no overlap.\nOnly text: character name at upper left and small view/expression captions. No paragraphs, measurements, invented symbols, signatures, logos or watermark. No photographic humans and no cartoon/chibi transformation.\nReference image 1 is the identity authority for adult Soren. Preserve exact lean angular face, warm lightly freckled complexion, short cropped sandy-blond hair, sharp clear blue eyes and focused capable adult presence. Preserve blue-gray work overalls, ochre rolled-sleeve shirt and practical worn shoes. Work clothes show a few believable localized grease smudges, no excessive grunge. She has natural nimble hands, no held tool in neutral turnaround. Her stance is compact, balanced and ready to work, no glamour pose. Keep her distinctively short textured crop in front/side/back. Do not make her hair auburn or add a long fringe, do not soften her face into a generic cherubic model. Expressions: alert friendly smile / concentrated problem solving / restrained sorrow. Same adult age and facial structure in every panel. Title: SOREN.\n",
+      "references": [
+        {
+          "file": "art/character-keys/soren/sprite-original.png",
+          "sha256": "aa9cefcc28cff081cf23ee1f6a56bfbe44731318b1ef3f7ec1946dd57cd516cf",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": true,
+      "review": "Selected key; current short-haired practical worker sprite retained."
+    },
+    {
+      "id": "supporting-kaleb-key",
+      "character": "kaleb",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-88ef905c-c24b-4f0f-ae6c-8103ec0304c7",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-88ef905c-c24b-4f0f-ae6c-8103ec0304c7.png",
+      "output": {
+        "file": "art/character-keys/kaleb/key.png",
+        "sha256": "54cb863251e4dca5c2c8a8dc11eda89bcb0ebf4da2e3dd8894057ba18ba6f8b9",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/kaleb/prompt-key.txt",
+      "prompt_sha256": "7fc083e92f0298f6db9d0cf2d76cdf2c0150e420565313c3550766733cf33f1a",
+      "prompt": "Use case: illustration-story.\nAsset: a finished, useful character visual key for a painterly visual novel, landscape 3072x2048. Plain light warm-gray studio background, tidy spacious layout. This is ONE person's consistent design at ONE life stage, shown repeatedly.\nLayout: LEFT HALF has three large complete head-to-toe standing views, front / exact side / back, in the SAME outfit and same stature on a common baseline, hands relaxed and empty. RIGHT HALF has six large head-and-neck portraits in a 3 by 2 grid: top row neutral front / neutral three-quarter / exact profile; bottom row three restrained expressions specified below. Keep facial anatomy and age fixed across all views; expressions alter muscles, not nose, jaw, eye scale or complexion. Same natural painterly realism and detailed tactile materials as reference, unified soft neutral daylight, dimensional midtones, no yellow-orange global wash, no green spill. Every face and foot fully within the canvas, enough breathing room, no overlap.\nOnly text: character name at upper left and small view/expression captions. No paragraphs, measurements, invented symbols, signatures, logos or watermark. No photographic humans and no cartoon/chibi transformation.\nReference image 1 supplies exact adult Kaleb: tall rugged explorer, weathered face, strong angular jaw and cheekbones, heavy but expressive brows, irregular wavy brown hair streaked with gray, short rough brown-gray beard, warm golden-brown irises and existing sun-warmed medium complexion. Keep this identity, adult age, brow/nose/chin geometry, lean capable build and practical layered brown long coat over charcoal/teal traveling clothes, muted teal scarf, belt and worn boots. His recognizably angular rugged lower face must remain different from a soft oval-faced gentle agricultural manager. Preserve brown hair with gray streaks, not an all-silver elder. No new scars, weapon, armor, heroic uniform or accessories. Expressions: engaged adventurous smile / attentive seriousness / restrained grief suitable for memorial speech. All are the same man; no expression may turn him into a different model. Title: KALEB.\n",
+      "references": [
+        {
+          "file": "art/character-keys/kaleb/sprite-original.png",
+          "sha256": "dbd65a8637da9692dda912025d87da0d3419d1acedb20cc3b0bf96a57be1184b",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": true,
+      "review": "Selected key; current rugged adult sprite retained."
+    },
+    {
+      "id": "supporting-lyra-sprite-generated",
+      "character": "lyra",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-800a76ac-3bcd-4855-a68c-48baedcce141",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-800a76ac-3bcd-4855-a68c-48baedcce141.png",
+      "output": {
+        "file": "art/character-keys/lyra/sprite-generated.png",
+        "sha256": "0621cafe9dae1fa2735b9c16cc4a24086b5255ebc6bf8dff5ed32680fc6985c5",
+        "size": [
+          1023,
+          1537
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/lyra/prompt-sprite.txt",
+      "prompt_sha256": "698476f833d1d4b0c2443cd72e1fb400e9c9aa4daa138dd92bd9017fe25b6424",
+      "prompt": "Use case: precise-object-edit.\nImage 1 is the EDIT TARGET: exact existing full-body Lyra sprite on green chroma backing. Image 2 is the new Lyra visual key, solely reference for natural child eye/eyelid proportions.\nEdit ONLY both eyes and immediately surrounding eyelid skin in image 1. Reduce oversized eye openings and irises about 20 percent to match the natural small-child eyes in image 2 while retaining Image 1's upward curious gaze, soft innocent expression and clearly green irises. Model believable lids with small highlights; keep her awake and attentive, not sleepy. Preserve her exact face width, nose, lips, freckles, golden-tan complexion, age, unruly golden curls, hairstyle, clothing, hands holding feather, body pose, stature, full-body placement and exact 1023x1537 image dimensions. Keep image 1's pure green chroma pixels and entire silhouette unchanged. No new pose, costume, background, lighting, frame, label or additional character. This is eye proportion correction only, not a new sprite design.\n",
+      "references": [
+        {
+          "file": "art/character-keys/lyra/sprite-original.png",
+          "sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d",
+          "size": [
+            1023,
+            1537
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "art/character-keys/lyra/key.png",
+          "sha256": "f1042d1f6ad4c784808dd12fe09e9d51590e205b8e7fa8962afe165d39e673db",
+          "size": [
+            1536,
+            1024
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": false,
+      "review": "Insufficient eye geometry correction and unnecessary facial texture drift; no donor pixels promoted."
+    },
+    {
+      "id": "supporting-lyra-sprite-face-generated",
+      "character": "lyra",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-153cff8e-7a2a-4d76-b3f5-4ec3bf11e90b",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-153cff8e-7a2a-4d76-b3f5-4ec3bf11e90b.png",
+      "output": {
+        "file": "art/character-keys/lyra/sprite-face-generated.png",
+        "sha256": "3a98c907464ec2556fe1fa9ba88564eb6e1c92926f6238f518f8a68d910d7e2e",
+        "size": [
+          1309,
+          1201
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/lyra/prompt-sprite-detail.txt",
+      "prompt_sha256": "05a2f838850cda9af79bf803eff6b4719c29564ede37a20b303d71ca330bb1a7",
+      "prompt": "Use case: precise-object-edit.\nImage1 is the EDIT TARGET, an enlarged crop of the existing child's face. Image2 is the same character's reference sheet. This is LYRA, a very young child with golden curls, freckles, golden-tan skin and green eyes. Please make a clearly visible anatomical correction to IMAGE1: both eye openings and irises are far too large like a doll. Make the eye opening about 30 percent smaller in width AND height while keeping each eye centered in its original position and keeping the upward curious gaze. Repaint the surrounding skin/lids naturally to fill the reduction. Her face width, young round cheek shape, tiny nose, lips, brows, hair and warm lighting MUST stay exactly unchanged, so do not age her up or elongate her face. Irises remain green with small real highlights and natural sclera. Preserve innocence and alertness, not sleepy half-closed eyes: reduce whole eye geometry rather than lower only the upper eyelid. The correction should be obvious in direct side-by-side comparison; do not return nearly unchanged eyes. Preserve all other facial features, freckles and the original 732x672 crop framing. Output just the one edited close-up, no sheet, text, borders or comparison.\n",
+      "references": [
+        {
+          "file": "art/character-keys/lyra/sprite-face-input.png",
+          "sha256": "86c20006e3244792442889301d6db51ae1c01fcf2cb2a72790f703439be476c6",
+          "size": [
+            732,
+            672
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "art/character-keys/lyra/key.png",
+          "sha256": "f1042d1f6ad4c784808dd12fe09e9d51590e205b8e7fa8962afe165d39e673db",
+          "size": [
+            1536,
+            1024
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": false,
+      "review": "Enlarged detail generation also retained oversized eyes; no donor pixels promoted."
+    },
+    {
+      "id": "supporting-lyron-sprite-generated",
+      "character": "lyron",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-d9b770f6-4ef3-436f-a85d-1225f4883a44",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-d9b770f6-4ef3-436f-a85d-1225f4883a44.png",
+      "output": {
+        "file": "art/character-keys/lyron/sprite-generated.png",
+        "sha256": "2909193868bbec26d41e765e6a0ec2e8850de042f7486b2ead2d593c47a625be",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/lyron/prompt-sprite.txt",
+      "prompt_sha256": "1d0af8a6758c2adba623224452c8ae8b96635a14f49528135ec28fb2219b1059",
+      "prompt": "Use case: precise-object-edit.\nImage 1 is the EDIT TARGET: existing Lyron full-body sprite. Image 2 supplies the newly clarified facial construction to transfer.\nEdit ONLY face and beard in image1, without moving the head: bring the gentle longer oval face, softer jaw corners, slightly longer straight nose, relaxed gently arched brows and neat salt-and-pepper beard from image2 into the same existing head angle and lighting. Preserve his adult age, medium warm-brown complexion, kind hazel eyes and slight friendly smile. Keep him recognizably Lyron. These subtle facial changes should distinguish him from a rugged angular explorer face. Leave image1's hair silhouette, ears, neck, clothing, hands, full body, shoes, pose, all green chroma pixels, original dimensions 1024x1536 and framing EXACTLY unchanged. No new objects, labels, additional poses, expression panels, redesign or age change.\n",
+      "references": [
+        {
+          "file": "art/character-keys/lyron/sprite-original.png",
+          "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "art/character-keys/lyron/key-initial.png",
+          "sha256": "9e995ccc43ed910f9aeb89e65d5ba2d5888dc1f0fca6887e15fc8329f0d28b5e",
+          "size": [
+            1536,
+            1024
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": false,
+      "review": "Earlier face-only donor superseded by the user-directed full wardrobe revision."
+    },
+    {
+      "id": "supporting-lyron-sprite-wardrobe-generated",
+      "character": "lyron",
+      "tool": "Built-in image_gen",
+      "output_id": "exec-d5ffe5b4-7e3b-4bfb-9363-6d14ee438600",
+      "generator_output_path": "/home/kir/.codex/generated_images/01a083d5-b2dc-78c2-834d-5d7d38ea3648/exec-d5ffe5b4-7e3b-4bfb-9363-6d14ee438600.png",
+      "output": {
+        "file": "art/character-keys/lyron/sprite-wardrobe-generated.png",
+        "sha256": "33d007146fabfc5a797fbeee5775761810da7f95bc69ab6620a4531a984f501c",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "prompt_file": "art/character-keys/lyron/prompt-sprite-wardrobe.txt",
+      "prompt_sha256": "d360bc9d04558e80c2616312e3e1030632d5eed0086c4532532a25fc17b90447",
+      "prompt": "Use case: identity-preserve.\nImage1 is the original fullbody Lyron sprite and determines exact canvas framing, green backdrop, stance and body placement. Image2 is Lyron's revised approved-for-production-direction character key and supplies FACE AND WARDROBE. Produce ONE fullbody sprite of Lyron in the same pose and exact 1024x1536 frame as Image1, using Image2's face and clothing.\nPreserve his human adult identity: gentle long-oval face, kind hazel eyes, warm medium-brown skin, soft jaw, slightly long straight nose, relaxed brows, salt-and-pepper wavy hair, neat beard, subtle friendly smile, tall ordinary capable build. Keep head near original position and same scale, full hair and both feet included.\nTransfer Image2's exact muted blue-gray finely woven overlapping upper-thigh-length garment, asymmetric curving front panel with integrated unobtrusive side closure, inset seam storage, comfortable three-quarter sleeves, divided hem, plain relaxed earth-taupe trousers and low woven slip-on shoes. No denim shirt, shirt buttons, chest pocket flaps, cargo pockets, belt or modern work boots. Match the wrap-panel silhouette/back logic of key, don't invent a different tunic. Material is refined tactile natural-fiber weave with quiet angle-dependent tonal depth, no glow/technology decorations or uniform insignia. This belongs to a comfortable far-future organic habitat.\nBackdrop must be perfectly flat saturated chroma green #00FF00 everywhere outside silhouette, including between arms and body, legs and hair. No floor or cast shadow, scenery, text, labels, extra figures, border or cropped body. Preserve original natural warm painterly lighting and detailed face quality, avoiding glossy/smoothed skin.\n",
+      "references": [
+        {
+          "file": "art/character-keys/lyron/sprite-original.png",
+          "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "art/character-keys/lyron/key.png",
+          "sha256": "ad62c7295f18d75c99f8d2e9b1bb571d021bde82a048855c02e0a40f5f0ecad4",
+          "size": [
+            1536,
+            1024
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "selected": true,
+      "review": "Selected complete sprite. Source dimensions and chroma convention preserved; garment silhouette intentionally changes."
+    }
+  ],
+  "manifest_integration": {
+    "files": [
+      "docs/character-assets.json",
+      "docs/graphics-edits.json",
+      "game/character_layout.json"
+    ],
+    "provenance_check": "check_assets.py --provenance-only passed after supporting-sprite integration: 78 selected images, 28 production edits.",
+    "layout_scope": "Only Lyra, Thalia and Lyron measured source entries updated; native sampling review remains separate."
+  },
+  "cg_integration": {
+    "status": "complete",
+    "record": "art/visual-pass-2026-09/cg-integration.json",
+    "scope": "Lyra face refinements installed in pond-rescue, pond-comfort and theme-insect-discovery. No supporting-parent CG wardrobe propagation was required by the inspected current cast coverage."
+  },
+  "native_review_record": "art/visual-pass-2026-09/runtime-checks.json (whole-pass review; not a result asserted by this subgroup record)"
+}

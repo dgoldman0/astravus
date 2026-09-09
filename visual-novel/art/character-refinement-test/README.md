@@ -1,6 +1,6 @@
 # First Breath: character refinement test
 
-September 8, 2026. This is a review candidate for one existing scene, with source-based refinement directions for the less developed human cast. It does not replace the opening PNG, other illustrations or character sprites in the game.
+September 8, 2026. This records the opening-scene trial approved before the broader visual pass. The accepted composite is now selected for the game; the original input is frozen as `opening-original.png` so this comparison remains reproducible. See [the broader pass](../visual-pass-2026-09/README.md) for subsequent character keys and propagation.
 
 Open [the comparison viewer](review.html) for the original, refined composite, unmasked generation, paired face details and actual Ren'Py captures. The viewer works as a local file and uses only local assets.
 
@@ -14,7 +14,7 @@ The source-based directions for all five parents, the siblings and the friends' 
 
 ## Generation and editing
 
-- **Input:** `game/images/cg/first-memory-young.png`, 1672 × 941, SHA-256 `796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f`.
+- **Input:** [opening-original.png](opening-original.png), copied from `game/images/cg/first-memory-young.png` at commit `41c410e`, 1672 × 941, SHA-256 `796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f`.
 - **Generated material:** [opening-generated-v1.png](opening-generated-v1.png), 1672 × 941, SHA-256 `17423b95da463da9185dc732903e2b8ee96a314d15e2a04922c7dbad1c415512`.
 - **Prompt:** [prompt-v1.txt](prompt-v1.txt), provided with the original opening as the sole edit target.
 - **Generation method:** one built-in `image_gen` edit, approximately 93 seconds. The tool did not expose a model selector or return an underlying model identity. This is therefore a test of the available image editor, not independent confirmation that GPT Image 2.5 or either API variant was used. No fallback API/CLI generation was used.
@@ -48,4 +48,4 @@ python3 capture-runtime.py --variant both
 
 ## Practical limit
 
-The trial tests a local identity correction in one shared pose and lighting condition. It does not establish identity consistency across profiles, expressions, standing sprites or later ages. The existing Arin and Sage sprites still represent their earlier designs; adopting this direction would require a coordinated update after the visual direction is settled. The other characters' refinement directions are documented, not silently applied to their artwork or wiki entries.
+The trial tests a local identity correction in one shared pose and lighting condition. It does not establish identity consistency across profiles, expressions, standing sprites or later ages. At the time of this trial, the Arin and Sage sprites still represented their earlier designs. The subsequent broader pass supplies full keys and coordinated sprite updates; this directory retains the narrower trial evidence.

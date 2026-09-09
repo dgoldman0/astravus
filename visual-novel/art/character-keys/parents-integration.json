@@ -1,0 +1,42 @@
+{
+  "record_semantics": "Historical receipt from parent-sprite registration, before subsequent supporting-sprite and CG integration. Recipe identifiers remain current; the check count and manifest scope describe this registration step, not the final whole-pass state.",
+  "status": "registered",
+  "registrations": [
+    {
+      "character": "arin",
+      "asset_file": "game/images/characters/book-one/arin-everyday.png",
+      "recipe_id": "production-arin-childhood-key-v1",
+      "recipe_sha256": "c3f949397c35b3862bdc598ddaf72ba5dad6fc0e56e78263429c482e6f9e6363",
+      "material_id": "parent-arin-childhood-sprite-material",
+      "layout_bounds": [
+        276,
+        15,
+        731,
+        1522
+      ],
+      "sampling_scale": 1.001221
+    },
+    {
+      "character": "sage",
+      "asset_file": "game/images/characters/book-one/sage-everyday.png",
+      "recipe_id": "production-sage-childhood-key-v1",
+      "recipe_sha256": "f069e29a23c008e30333099f93f82c19962ccb468356925b5cffa163a47091d4",
+      "material_id": "parent-sage-childhood-sprite-material",
+      "layout_bounds": [
+        357,
+        38,
+        736,
+        1474
+      ],
+      "sampling_scale": 1.003836
+    }
+  ],
+  "layout_policy": "Only Arin/Sage source size, bounds and hash updated; heights and sampling scales retained.",
+  "validation": {
+    "parent_production_recipes": "Both passed check_assets.check_production_edit without validator changes",
+    "provenance_command": "python3 scripts/check_assets.py --provenance-only",
+    "provenance_result": "passed: 78 selected images, 27 production edits",
+    "runtime_framing": "Heights and existing sampling scales retained at registration. The whole-pass native runtime review is recorded separately in art/visual-pass-2026-09/runtime-checks.json; this receipt does not claim a native rendering result."
+  },
+  "manifest_scope": "The parent registration updated docs/character-assets.json, docs/graphics-edits.json and docs/graphics-sources/materials.json. It did not update docs/assets.json because that manifest has no Arin/Sage sprite entries; other pass integrations may change it."
+}

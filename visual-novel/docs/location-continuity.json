@@ -835,8 +835,11 @@
       "findings": [
         "TH-03"
       ],
-      "review_notes": "Final close trio walks on a continuous timber neighborhood route between protective branch rails and planted edges. The background dwellings are a distinct neighborhood view, not the Maia-garden treehouse. No unsupported garden-only assignment remains. Root inspected complete frame and local iris proof: recoloring changed no path, railing or body pixels.",
-      "reviewed_reference_signature": "0163a0b2260d0103907c4afae2cfa99d6e2d03acb0fb9dfdfcea784f06c337af"
+      "review_notes": "Final close trio walks on a continuous timber neighborhood route between protective branch rails and planted edges. The background dwellings are a distinct neighborhood view, not the Maia-garden treehouse. No unsupported garden-only assignment remains. Root inspected complete frame and local iris proof: recoloring changed no path, railing or body pixels. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "reviewed_reference_signature": "cec9c24571306fec5f8c4edfb5f2effcf6e3973abfa778e434263c673eb76cc6",
+      "production_evidence": [
+        "art/visual-pass-2026-09/VISUAL_AUDIT.md"
+      ]
     },
     {
       "file": "game/images/backgrounds/garden-close.png",
@@ -912,10 +915,13 @@
         "garden-palette"
       ],
       "review_status": "consistent_crop",
-      "reviewed_sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8",
+      "reviewed_sha256": "652a0ca6dd0cfd4a2caac4c9019a57e500b3dccab53d7978df6d0f59a1d21f48",
       "findings": [],
-      "review_notes": "Close discovery among plants; no distant layout claim.",
-      "reviewed_reference_signature": "5c370d8e211fde8e5c97895a9a706802af6a55060ad15d3098e8516f5a41d404"
+      "review_notes": "Close discovery among plants; no distant layout claim. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See art/visual-pass-2026-09/VISUAL_AUDIT.md.",
+      "reviewed_reference_signature": "5c370d8e211fde8e5c97895a9a706802af6a55060ad15d3098e8516f5a41d404",
+      "production_evidence": [
+        "art/visual-pass-2026-09/VISUAL_AUDIT.md"
+      ]
     },
     {
       "file": "game/images/cg/book-one/theme-nibble-moment.png",
@@ -1044,17 +1050,18 @@
         "pond-water-connectivity"
       ],
       "review_status": "consistent",
-      "reviewed_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+      "reviewed_sha256": "e64630c32b6cc1345d21f28a43185d07adfb72c3c4b9811bf35740c3b970b77f",
       "findings": [
         "POND-GEO-pond-comfort"
       ],
-      "review_notes": "The camera has pulled back onto the dry bank after the rescue. Original seated/crouched people and animal paws remain supported; low near coping, the far planted timber boundary and right lilies form a coherent continuation of the shallow basin. No exposed raised-pool wall remains.",
+      "review_notes": "The camera has pulled back onto the dry bank after the rescue. Original seated/crouched people and animal paws remain supported; low near coping, the far planted timber boundary and right lilies form a coherent continuation of the shallow basin. No exposed raised-pool wall remains. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See art/visual-pass-2026-09/VISUAL_AUDIT.md.",
       "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
       "production_evidence": [
         "docs/POND_GEOMETRY_REVIEW.md",
         "docs/pond-repair-review.md",
         "docs/pond-runtime-review.md",
-        "test-results/pond-states/capture-state.json"
+        "test-results/pond-states/capture-state.json",
+        "art/visual-pass-2026-09/VISUAL_AUDIT.md"
       ],
       "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },
@@ -1105,17 +1112,18 @@
         "pond-water-connectivity"
       ],
       "review_status": "consistent_crop",
-      "reviewed_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+      "reviewed_sha256": "bb8c57165f2020de2ed0be0113afb9c4e4b2240cef1eeac5711bdb2779467a43",
       "findings": [
         "POND-GEO-pond-rescue"
       ],
-      "review_notes": "The lower close water-edge view retains its original low reachable coping and supported rescuers. Dry soil/paving now joins the far planter to that coping, removing the isolated second-looking water strip. Right lilies and far timber/plant boundary remain; the cropped inlet is unobserved. Actual final native support and dialogue frames preserve reach and all familiar contacts.",
+      "review_notes": "The lower close water-edge view retains its original low reachable coping and supported rescuers. Dry soil/paving now joins the far planter to that coping, removing the isolated second-looking water strip. Right lilies and far timber/plant boundary remain; the cropped inlet is unobserved. Actual final native support and dialogue frames preserve reach and all familiar contacts. September character pass: retained setting geometry, light, props and ground contact were visually compared; identity paint changes are bounded to Lyra face masks. See art/visual-pass-2026-09/VISUAL_AUDIT.md.",
       "reviewed_reference_signature": "18bd2979015c93106d6fda219e5f501b915a665b75f7f26a719a8b6b5be27877",
       "production_evidence": [
         "docs/POND_GEOMETRY_REVIEW.md",
         "docs/pond-repair-review.md",
         "docs/pond-runtime-review.md",
-        "test-results/pond-states/capture-state.json"
+        "test-results/pond-states/capture-state.json",
+        "art/visual-pass-2026-09/VISUAL_AUDIT.md"
       ],
       "pond_reviewed_at_utc": "2026-09-05T22:02:59.172115+00:00"
     },

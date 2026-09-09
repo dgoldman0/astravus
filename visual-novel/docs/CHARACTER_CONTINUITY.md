@@ -39,15 +39,17 @@ The green compositor now requires nearby confidently green backing before modify
 
 ## Parent identities
 
-New parent sprites use the approved First Memory composition as the identity reference. Their everyday appearance belongs to Cali's childhood, with only modest visual aging from that opening. The biographies' later-life “125+” labels do not establish an age at Cali's birth, and Astraviin longevity does not justify applying ordinary human age arithmetic.
+The [complete visual-key gallery](../art/character-keys/index.html) covers all fourteen named human characters depicted in Book I and the three household familiars. Its twenty sheets include early and later childhood keys for Cali, Cassia and Joren. Each character has source notes, recognizable facial traits, body views and instructions for scene, mood and lighting. These are production references, not exact orthographic measurements or new wiki canon. Newborn Cali remains referenced by the opening illustration.
+
+Parent sprites use the refined First Memory composition and their individual keys as identity references. Their everyday appearance belongs to Cali's childhood, with only modest visual aging from that opening. The biographies' later-life “125+” labels do not establish an age at Cali's birth, and Astraviin longevity does not justify applying ordinary human age arithmetic. The author's clarification is that younger Astraviin, roughly below one hundred, can look mostly human; far-future context should not be expressed through arbitrary body modifications.
 
 | Character | Preserve | Everyday staging |
 | --- | --- | --- |
 | Maia | Warm brown skin, amber-green eyes, dark curls and small braids; silver streaks are present in the childhood draft. | `maia home` wears a blue-teal blouse and ochre vest, has empty hands, and listens with a tender, concerned expression. Her old seed-holding gardening pose stays in the seed lesson. |
-| Arin | Pale freckled skin, short auburn hair, blue eyes, androgynous appearance, capable forearms. | `arin everyday` wears workshop clothes and keeps tools in the apron. Do not stage an exact finger injury date: the biography does not establish when it occurred relative to these scenes. |
+| Arin | Pale freckled skin, cropped auburn hair, blue eyes, defined lean face, androgynous appearance, capable forearms. | `arin everyday` carries the opening refinement into the standing face, hair and arms. Workshop tools remain in the apron. Do not stage an exact finger injury date: the biography does not establish when it occurred relative to these scenes. |
 | Selene | Deep bronze skin, pure white hair, violet eyes, petite build, long musician's fingers. | `selene everyday` wears plum and teal, with relaxed hands. White hair is genetic, beginning early in adult life; it must not turn the character into an elderly parent in First Memory. |
 | Dorian | Rich dark brown skin, glasses, brown eyes, broad shoulders, mixed dark/gray hair. | `dorian everyday` has limited silver at this stage and a notebook in his left hand. No claim that he has already reached the mostly silver beard of the later-life biography. |
-| Sage | Warm tan skin with rosy undertones and freckles, short sandy hair, gray eyes, soft androgynous features. | `sage everyday` wears green and russet with bare feet for indoor scenes. Do not use this pose to depict physically holding Lyra; switch staging for that action. |
+| Sage | Warm tan skin with rosy undertones and freckles, short sandy hair, gray eyes, round soft face and medium build. | `sage everyday` carries the fuller cheeks, softer neck and medium upper-body silhouette into green and russet clothing, with bare feet indoors. Do not use this pose to depict physically holding Lyra; switch staging for that action. |
 
 ## Production checks
 
@@ -56,7 +58,7 @@ New parent sprites use the approved First Memory composition as the identity ref
 - A standing sprite cannot depict a character sitting in someone's lap, playing an absent instrument, climbing, or embracing another character. During those actions, the dialogue UI shows a cropped face/shoulder portrait when the speaker's standing sprite is hidden. The crop excludes hands, props, and the lower-body pose. It uses existing character artwork and follows the current childhood stage, outfit, and grief state. Narration and First Memory keep their existing presentation.
 - Use restrained grief expressions; a brighter memory may briefly recall Joren, but never imply he is physically present after his death.
 - Validate edges against both dark treehouse and brighter garden backgrounds. The generator returned RGB art with a baked transparency preview despite alpha requests. Selected new actors therefore use generated saturated-green backgrounds, removed once by the runtime `astravus.chroma_green` shader. This preserves Selene's white hair and pale highlights that the older light-matte shader could remove. The manifest records actual file modes; runtime compositing must not be described as authored alpha. Call sites apply positioning only, without the legacy `clean_sprite` transform.
-- Full prompts, input relationships, output identifiers, dimensions, and hashes live in [`character-assets.json`](character-assets.json). Author-approved deterministic iris corrections are explicitly identified by `postprocess` records and reproducible recipes in [`iris-retouches.json`](iris-retouches.json); their source generation, original hash and unchanged outside pixels remain documented. Other selected PNGs retain their generated pixels. Discarded candidates belong in ignored staging.
+- Full prompts, input relationships, output identifiers, dimensions, and hashes live in [`character-assets.json`](character-assets.json) and the character-key production records. Deterministic iris corrections are identified by `postprocess` records in [`iris-retouches.json`](iris-retouches.json); broader masked corrections use [`graphics-edits.json`](graphics-edits.json). Both preserve their original sources and exact selected output hashes. Native GIMP masks preserve unrelated paint during the September character refinement pass.
 
 ## Dialogue visibility in 0.2.5
 
@@ -75,6 +77,10 @@ Their dialogue portraits identify them during the family visits; Kaleb appears
 standing during his address. The browser playthrough checks that the actual
 speaker is depicted, rather than accepting any visible listener. Portraits reuse the existing
 expressions; a scene-specific performance illustration is a separate art pass.
+
+Lyron's revised key and standing sprite replace the inherited denim shirt, cargo trousers and belt with a blue-gray overlapping woven garment, integrated fastening, plain trousers and quiet woven shoes. The garment construction is a production interpretation of Lumen's combination of natural materials, personal craft and subtle technology. It preserves his gentle demeanor, salt-and-pepper hair and hazel eyes. The other wardrobes remain selected. Thalia's irises now read deep green; Lyra's slightly smaller eyes preserve her very young face and wide curiosity.
+
+The pond rescue and comfort illustrations use that same Lyra identity with frightened upward attention and subdued recovery, respectively. The insect memory keeps curious delight. Their original hands, wet clothes, curls, water, animal companions and scene illumination remain outside the face edits. Closing-theme images are memories: early-childhood shots may follow later-childhood shots without reversing the continuous story or returning Joren to life.
 
 ## Familiars in 0.2.3
 

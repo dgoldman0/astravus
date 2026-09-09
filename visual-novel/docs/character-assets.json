@@ -7,7 +7,7 @@
       "file": "game/images/characters/book-one/arin-everyday.png",
       "generation": "arin-everyday-key-v1",
       "image": "arin everyday",
-      "sha256": "5f0e5a1c6a31cd742ebd615284a3d4860217a30d576f6edc79ca00c26b286b7e",
+      "sha256": "a208e74d82908a6a3c1dfa05d2b592ac92d7f11a1f54a56542535701a3f8b379",
       "size": [
         1024,
         1536
@@ -19,7 +19,12 @@
         239,
         20
       ],
-      "draw_height": 835
+      "draw_height": 835,
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-arin-childhood-key-v1",
+        "recipe_sha256": "c3f949397c35b3862bdc598ddaf72ba5dad6fc0e56e78263429c482e6f9e6363"
+      }
     },
     {
       "file": "game/images/characters/book-one/calista-festival.png",
@@ -325,7 +330,7 @@
       "file": "game/images/characters/book-one/lyra-young.png",
       "generation": "lyra-young-key-v1",
       "image": "lyra young",
-      "sha256": "af01a6bbb63789a8f060a5ed3b4c4c910246c21a215ece452c2514c7cc8a051d",
+      "sha256": "3198fe4eb432101cdd7d86a0f0f17e007349489645ce68e203f0adac01cbf7fb",
       "size": [
         1023,
         1537
@@ -340,8 +345,8 @@
       "draw_height": 655,
       "production_edit": {
         "recipe_file": "docs/graphics-edits.json",
-        "id": "production-lyra-young",
-        "recipe_sha256": "287b2260ec06ed719ef51e6d6ab3d3850e8f4c0eeafbd2b941f1ed38c0d0c1ec"
+        "id": "production-lyra-childhood-key-v1",
+        "recipe_sha256": "42aeddb13610e890788c82e36c0302043710f8d2b6a4532a3126970af83eaf41"
       }
     },
     {
@@ -366,7 +371,7 @@
       "file": "game/images/characters/book-one/sage-everyday.png",
       "generation": "sage-everyday-key-v1",
       "image": "sage everyday",
-      "sha256": "c2065df8ea3d578ac691392c7e3ecdae34ec2344fac05cc31cc5ce9739180f32",
+      "sha256": "6d4bfe57f4060754b1d425c8a5bc6f97781cced4dd34ef7871cec09fade8d3a0",
       "size": [
         1023,
         1537
@@ -378,7 +383,12 @@
         230,
         24
       ],
-      "draw_height": 835
+      "draw_height": 835,
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-sage-childhood-key-v1",
+        "recipe_sha256": "f069e29a23c008e30333099f93f82c19962ccb468356925b5cffa163a47091d4"
+      }
     },
     {
       "file": "game/images/characters/book-one/selene-everyday.png",
@@ -401,22 +411,33 @@
     {
       "file": "game/images/characters/book-one/thalia-everyday.png",
       "generation": "review-025-thalia",
-      "sha256": "654c9f3316c1c78d023efb8b4d22afd1b68003d7f47a6435c2a6b1984f637132",
+      "sha256": "734fcc28508a9a86381d4223e8b541c3b50227f002460207a468c0c5cf4798ed",
       "size": [
         1024,
         1536
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "production_edit": {
+        "recipe_file": "docs/graphics-edits.json",
+        "id": "production-thalia-childhood-key-v1",
+        "recipe_sha256": "fa1014aa00acbcc32bbe5366b83adc06a91cd3f0a2ca8b5fad8734bee4c76b09"
+      }
     },
     {
       "file": "game/images/characters/book-one/lyron-everyday.png",
-      "generation": "review-025-lyron",
-      "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f",
+      "generation": "supporting-lyron-lumen-wardrobe-v1",
+      "sha256": "33d007146fabfc5a797fbeee5775761810da7f95bc69ab6620a4531a984f501c",
       "size": [
         1024,
         1536
       ],
-      "mode": "RGB"
+      "mode": "RGB",
+      "background": "saturated green, composited by astravus.chroma_green",
+      "corner_rgb": [
+        15,
+        243,
+        17
+      ]
     },
     {
       "file": "game/images/characters/book-one/soren-everyday.png",
@@ -789,7 +810,7 @@
         "generation:maia-home-key-v1"
       ],
       "output_id": "exec-d8431471-432d-49f2-82a5-618e05cdcebb",
-      "selected": true
+      "selected": false
     },
     {
       "id": "review-025-soren",
@@ -897,6 +918,199 @@
       ],
       "output_id": "exec-d7ea837f-94fa-41ea-b255-6b70633abc77",
       "selected": true
+    },
+    {
+      "id": "parent-key-maia-childhood-v1",
+      "prompt": "Use case: stylized-concept / identity-preserve reference sheet.\nCreate a complete practical CHARACTER VISUAL KEY for MAIA in Astravus, for consistent visual-novel illustration. This is a production reference sheet, not a poster. Render a high-resolution landscape sheet, ideally 3072\u00d72048, with enough detail in every face. Warm off-white/pale neutral paper background, clean generous spacing, painterly realistic digital illustration consistent with reference art, natural human facial proportions and skin texture. No green backing, no decorative scenery or ornamental borders.\nReference image roles: Image 1: existing maia sprite for identity, clothing and material. Image 2: existing maia sprite for identity, clothing and material. Image 3: approved opening family scene; Maia is center holding the newborn.\nSubject and invariant details: Maia is a tall slender adult woman with warm brown skin, rich amber irises flecked with green, a tender clear oval face, long dark CURLY hair threaded with fine silver streaks and distinct slender braids containing a few tiny seeds and dried flowers. Long capable gentle hands. Preserve exact face identity from reference 1. Her early adulthood at First Breath and everyday childhood years are one recognizable adult, not elderly. Childhood home outfit: blue-teal rolled-sleeve blouse and long ochre wrap vest, russet loose trousers and soft brown shoes from reference 1. Keep the home outfit for all three body views; use the gardening apron outfit of reference 2 for one small outfit vignette, retaining modest silver hair and same face. For the face studies keep braids visible.\nSheet layout: upper left three substantial full-body orthographic-style studies front, true side profile and back in the SAME neutral relaxed standing stance, same build, outfit and scale, head to soles fully in frame, no anatomy measurement lines or invented heights. Upper right three large neutral head studies FRONT, THREE-QUARTER, PROFILE showing the SAME exact person from each angle. Bottom row three same-size bust expressions: gentle warmth, focused attention, restrained concern. These are quiet adult acting studies with the same jaw/nose/eyes/hair, not exaggerated cartoons. Add the small gardening outfit vignette beside the expressions. Include small simple labeled material swatches for skin/hair/eyes/fabric in neutral light, without numeric color codes. Add two small face lighting thumbnails labeled \"Warm interior\" and \"Cool garden shade\" demonstrating same complexion and iris colors under warm and cool lighting without bleaching or dramatic facial redesign.\nExact text only: \"MAIA\"; \"CHILDHOOD FAMILY YEARS\"; labels \"Front\", \"Side\", \"Back\", \"Neutral\", \"Three-quarter\", \"Profile\", \"Warmth\", \"Attention\", \"Concern\", \"Warm interior\", \"Cool garden shade\"; \"Gardening\"; swatch labels \"Skin\", \"Hair\", \"Eyes\", \"Cloth\". Small simple dark typography; no invented biography paragraphs, age numbers, arrows or handwritten technical pseudo-notes.\nHard constraints: only this one person, repeated consistently. Do not create a composite cast. Preserve exact costume identity from sprite; all visible anatomy clothed and natural; no unrelated props. Focus on useful face/body/wardrobe continuity.",
+      "selected": false,
+      "references": [
+        "visual-novel/game/images/characters/book-one/maia-home.png",
+        "visual-novel/game/images/characters/maia.png",
+        "visual-novel/art/character-refinement-test/opening-refined-v1.png"
+      ],
+      "output_id": "exec-55ab7400-8d77-4ab1-ac19-796f4d91ab18.png",
+      "retained_file": "art/character-keys/maia/key.png",
+      "retained_sha256": "acc714960631798870735d26eca3e2bcca47066ea9fa8ba7dae7c552844c662c",
+      "note": "Reviewed character reference sheet, retained outside runtime assets. The selected flag here denotes direct runtime source selection, not art-review status.",
+      "input_snapshots": [
+        {
+          "file": "game/images/characters/book-one/maia-home.png",
+          "sha256": "5af5fc0864752f96d60c8eb8f0fafaf05124edfa2205f7da8c72c70b49d681b2",
+          "immutable_copy": null
+        },
+        {
+          "file": "game/images/characters/maia.png",
+          "sha256": "2d7d24a32ea57345cd91090c9b7fbfa051e3fdf7ebd65160421117dee2c8eb0b",
+          "immutable_copy": null
+        },
+        {
+          "file": "art/character-refinement-test/opening-refined-v1.png",
+          "sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f",
+          "immutable_copy": null
+        }
+      ]
+    },
+    {
+      "id": "parent-key-arin-childhood-v1",
+      "prompt": "Use case: stylized-concept / identity-preserve reference sheet.\nCreate a complete practical CHARACTER VISUAL KEY for ARIN in Astravus, for consistent visual-novel illustration. This is a production reference sheet, not a poster. Render a high-resolution landscape sheet, ideally 3072\u00d72048, with enough detail in every face. Warm off-white/pale neutral paper background, clean generous spacing, painterly realistic digital illustration consistent with reference art, natural human facial proportions and skin texture. No green backing, no decorative scenery or ornamental borders.\nReference image roles: Image 1: existing arin sprite for identity, clothing and material. Image 2: approved opening family scene; Arin is FAR LEFT; authoritative refined face/hair/complexion.\nSubject and invariant details: Arin is a lean androgynous adult of average stature, with well-developed forearms, PALE skin scattered with natural freckles, blue irises, a focused steady gaze, defined cheek planes and a tapered but natural jaw. Exact accepted identity is the FAR LEFT adult in the group reference 2: clean close-sided auburn crop, distinct warm auburn top texture, pale face and neck. Arin must NOT resemble the rounded tan sandy-haired adult at far right of that group. Take facial structure and new hair/skin from that far-left adult, while using reference 1 ONLY for the workshop outfit/body pose conventions: charcoal-blue rolled-sleeve shirt, copper-brown leather apron with practical pocket tools, dark loose trousers, worn brown boots. Keep capable lean forearms, body lean rather than bulky. At this childhood stage do not newly add missing fingertips, elder wrinkles, gray hair or dated injuries. No need to paint grease over every inch: a few localized small workshop smudges suffice.\nSheet layout: upper left three substantial full-body orthographic-style studies front, true side profile and back in the SAME neutral relaxed standing stance, same build, outfit and scale, head to soles fully in frame, no anatomy measurement lines or invented heights. Upper right three large neutral head studies FRONT, THREE-QUARTER, PROFILE showing the SAME exact person from each angle. Bottom row three same-size bust expressions: gentle warmth, focused attention, restrained concern. These are quiet adult acting studies with the same jaw/nose/eyes/hair, not exaggerated cartoons.  Include small simple labeled material swatches for skin/hair/eyes/fabric in neutral light, without numeric color codes. Add two small face lighting thumbnails labeled \"Warm interior\" and \"Cool garden shade\" demonstrating same complexion and iris colors under warm and cool lighting without bleaching or dramatic facial redesign.\nExact text only: \"ARIN\"; \"CHILDHOOD FAMILY YEARS\"; labels \"Front\", \"Side\", \"Back\", \"Neutral\", \"Three-quarter\", \"Profile\", \"Warmth\", \"Attention\", \"Concern\", \"Warm interior\", \"Cool garden shade\"; swatch labels \"Skin\", \"Hair\", \"Eyes\", \"Cloth\". Small simple dark typography; no invented biography paragraphs, age numbers, arrows or handwritten technical pseudo-notes.\nHard constraints: only this one person, repeated consistently. Do not create a composite cast. Preserve exact costume identity from sprite; all visible anatomy clothed and natural; no unrelated props. Focus on useful face/body/wardrobe continuity.",
+      "selected": false,
+      "references": [
+        "visual-novel/art/character-keys/arin/sprite-before.png",
+        "visual-novel/art/character-refinement-test/opening-refined-v1.png"
+      ],
+      "output_id": "exec-6942d85d-9079-4d8d-9be4-9d02a215f8b6.png",
+      "retained_file": "art/character-keys/arin/key.png",
+      "retained_sha256": "a67ea8f8d17e51a97ffdc0efee30eeedac76ead32970ea8e87218f8866ae2cf0",
+      "note": "Reviewed character reference sheet, retained outside runtime assets. The selected flag here denotes direct runtime source selection, not art-review status.",
+      "input_snapshots": [
+        {
+          "file": "game/images/characters/book-one/arin-everyday.png",
+          "sha256": "5f0e5a1c6a31cd742ebd615284a3d4860217a30d576f6edc79ca00c26b286b7e",
+          "immutable_copy": "art/character-keys/arin/sprite-before.png"
+        },
+        {
+          "file": "art/character-refinement-test/opening-refined-v1.png",
+          "sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f",
+          "immutable_copy": null
+        }
+      ]
+    },
+    {
+      "id": "parent-key-selene-childhood-v1",
+      "prompt": "Use case: stylized-concept / identity-preserve reference sheet.\nCreate a complete practical CHARACTER VISUAL KEY for SELENE in Astravus, for consistent visual-novel illustration. This is a production reference sheet, not a poster. Render a high-resolution landscape sheet, ideally 3072\u00d72048, with enough detail in every face. Warm off-white/pale neutral paper background, clean generous spacing, painterly realistic digital illustration consistent with reference art, natural human facial proportions and skin texture. No green backing, no decorative scenery or ornamental borders.\nReference image roles: Image 1: existing selene sprite for identity, clothing and material. Image 2: approved opening family scene; Selene is white-haired adult behind left.\nSubject and invariant details: Selene is the petite, shortest adult of the five parents; show her own compact graceful full-body proportions, not a child. Deep bronze skin, long flowing PURE WHITE wavy hair from genetic premature graying, violet irises, high cheekbones and a narrow elegant face. Preserve reference 1 exact face and costume identity and keep her a vital youthful adult, not elderly; white hair is not an aging cue. Long delicate musician fingers, relaxed wrists. Plum wrap tunic with subtle trim, teal loose trousers, brown soft shoes, simple layered silver necklaces and loose tied-back hair from reference 1. Never give this bronze woman pale skin or blue eyes. Neutral portraits must keep violet irises clearly visible without glowing.\nSheet layout: upper left three substantial full-body orthographic-style studies front, true side profile and back in the SAME neutral relaxed standing stance, same build, outfit and scale, head to soles fully in frame, no anatomy measurement lines or invented heights. Upper right three large neutral head studies FRONT, THREE-QUARTER, PROFILE showing the SAME exact person from each angle. Bottom row three same-size bust expressions: gentle warmth, focused attention, restrained concern. These are quiet adult acting studies with the same jaw/nose/eyes/hair, not exaggerated cartoons.  Include small simple labeled material swatches for skin/hair/eyes/fabric in neutral light, without numeric color codes. Add two small face lighting thumbnails labeled \"Warm interior\" and \"Cool garden shade\" demonstrating same complexion and iris colors under warm and cool lighting without bleaching or dramatic facial redesign.\nExact text only: \"SELENE\"; \"CHILDHOOD FAMILY YEARS\"; labels \"Front\", \"Side\", \"Back\", \"Neutral\", \"Three-quarter\", \"Profile\", \"Warmth\", \"Attention\", \"Concern\", \"Warm interior\", \"Cool garden shade\"; swatch labels \"Skin\", \"Hair\", \"Eyes\", \"Cloth\". Small simple dark typography; no invented biography paragraphs, age numbers, arrows or handwritten technical pseudo-notes.\nHard constraints: only this one person, repeated consistently. Do not create a composite cast. Preserve exact costume identity from sprite; all visible anatomy clothed and natural; no unrelated props. Focus on useful face/body/wardrobe continuity.",
+      "selected": false,
+      "references": [
+        "visual-novel/game/images/characters/book-one/selene-everyday.png",
+        "visual-novel/art/character-refinement-test/opening-refined-v1.png"
+      ],
+      "output_id": "exec-13c7f4a6-125d-4360-b97d-2e183a62edd4.png",
+      "retained_file": "art/character-keys/selene/key.png",
+      "retained_sha256": "68075d19a0f12ef87fb04de849c0d64b75be4c4b731d79387d45d2bde809a6d5",
+      "note": "Reviewed character reference sheet, retained outside runtime assets. The selected flag here denotes direct runtime source selection, not art-review status.",
+      "input_snapshots": [
+        {
+          "file": "game/images/characters/book-one/selene-everyday.png",
+          "sha256": "4b18d24c659a09bcbd83f1b9e01b2fbc6bfe40578e14ee16c69a5cc455e8beb2",
+          "immutable_copy": null
+        },
+        {
+          "file": "art/character-refinement-test/opening-refined-v1.png",
+          "sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f",
+          "immutable_copy": null
+        }
+      ]
+    },
+    {
+      "id": "parent-key-dorian-childhood-v1",
+      "prompt": "Use case: stylized-concept / identity-preserve reference sheet.\nCreate a complete practical CHARACTER VISUAL KEY for DORIAN in Astravus, for consistent visual-novel illustration. This is a production reference sheet, not a poster. Render a high-resolution landscape sheet, ideally 3072\u00d72048, with enough detail in every face. Warm off-white/pale neutral paper background, clean generous spacing, painterly realistic digital illustration consistent with reference art, natural human facial proportions and skin texture. No green backing, no decorative scenery or ornamental borders.\nReference image roles: Image 1: existing dorian sprite for identity, clothing and material. Image 2: approved opening family scene; Dorian is glasses-wearing adult behind right.\nSubject and invariant details: Dorian is a tall broad-shouldered adult man with rich dark brown skin, deep-set brown eyes, a wide nose and delicate round brown/bronze-rimmed glasses. Preserve reference 1 exact face: short neatly shaped dark curls with a modest scatter of silver at temples and through curls, close dark beard with a little silver around chin; not a mostly white elder beard. Broad hands and calm upright presence with relaxed shoulders, no new pronounced age hunch. Cream/tan rolled-sleeve shirt, long dark teal sleeveless coat with fabric loop closures, brown trousers and brown boots from reference 1. Show a closed small notebook in HIS LEFT hand in front/side/back body views consistently, if hand visible (anatomically correct side, not viewer's left). Body same as source, do not make him a generic fantasy wizard. At First Breath slightly less silver, otherwise same adult identity.\nSheet layout: upper left three substantial full-body orthographic-style studies front, true side profile and back in the SAME neutral relaxed standing stance, same build, outfit and scale, head to soles fully in frame, no anatomy measurement lines or invented heights. Upper right three large neutral head studies FRONT, THREE-QUARTER, PROFILE showing the SAME exact person from each angle. Bottom row three same-size bust expressions: gentle warmth, focused attention, restrained concern. These are quiet adult acting studies with the same jaw/nose/eyes/hair, not exaggerated cartoons.  Include small simple labeled material swatches for skin/hair/eyes/fabric in neutral light, without numeric color codes. Add two small face lighting thumbnails labeled \"Warm interior\" and \"Cool garden shade\" demonstrating same complexion and iris colors under warm and cool lighting without bleaching or dramatic facial redesign.\nExact text only: \"DORIAN\"; \"CHILDHOOD FAMILY YEARS\"; labels \"Front\", \"Side\", \"Back\", \"Neutral\", \"Three-quarter\", \"Profile\", \"Warmth\", \"Attention\", \"Concern\", \"Warm interior\", \"Cool garden shade\"; swatch labels \"Skin\", \"Hair\", \"Eyes\", \"Cloth\". Small simple dark typography; no invented biography paragraphs, age numbers, arrows or handwritten technical pseudo-notes.\nHard constraints: only this one person, repeated consistently. Do not create a composite cast. Preserve exact costume identity from sprite; all visible anatomy clothed and natural; no unrelated props. Focus on useful face/body/wardrobe continuity.",
+      "selected": false,
+      "references": [
+        "visual-novel/game/images/characters/book-one/dorian-everyday.png",
+        "visual-novel/art/character-refinement-test/opening-refined-v1.png"
+      ],
+      "output_id": "exec-ca405540-0a46-43c3-916c-85654aa3abda.png",
+      "retained_file": "art/character-keys/dorian/key.png",
+      "retained_sha256": "721812050c5bc38338e559656b6833ff3e2838fd19cb8380be161dd74505ec31",
+      "note": "Reviewed character reference sheet, retained outside runtime assets. The selected flag here denotes direct runtime source selection, not art-review status.",
+      "input_snapshots": [
+        {
+          "file": "game/images/characters/book-one/dorian-everyday.png",
+          "sha256": "100a3c36ae18a31572741a6ab66beee190dc19c58054dd5af557b3eee553664a",
+          "immutable_copy": null
+        },
+        {
+          "file": "art/character-refinement-test/opening-refined-v1.png",
+          "sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f",
+          "immutable_copy": null
+        }
+      ]
+    },
+    {
+      "id": "parent-key-sage-childhood-v1",
+      "prompt": "Use case: stylized-concept / identity-preserve reference sheet.\nCreate a complete practical CHARACTER VISUAL KEY for SAGE in Astravus, for consistent visual-novel illustration. This is a production reference sheet, not a poster. Render a high-resolution landscape sheet, ideally 3072\u00d72048, with enough detail in every face. Warm off-white/pale neutral paper background, clean generous spacing, painterly realistic digital illustration consistent with reference art, natural human facial proportions and skin texture. No green backing, no decorative scenery or ornamental borders.\nReference image roles: Image 1: existing sage sprite for clothing only; face/build superseded by group reference. Image 2: approved opening family scene; Sage is FAR RIGHT; authoritative refined face/hair/build.\nSubject and invariant details: Sage is an androgynous adult of medium height and build with ROUND SOFT facial features, fuller cheeks and gently rounded jaw/chin, a softly substantial neck, warm tan skin with rosy undertones and a heavy natural scattering of freckles, and gray irises. The EXACT accepted new identity is the FAR RIGHT adult in group reference 2: rounded friendly face, broad/soft contours, short sandy-blond hair swept smoothly to one side with softly cropped sides, and a medium upper-body build. They must clearly differ from the PALE ANGULAR AUBURN-HAIRED adult at FAR LEFT. Reference 1 is an OLD SPRITE whose narrow gaunt face and spiky hair are being corrected: use it only for everyday clothing and feet. Use olive-green loose tunic with cuffed sleeves, russet trousers, layered small necklaces, bare feet indoors. Keep medium build, not thin/gaunt and not obese. Gentle warmth and attentive dignity, not a silly grin. No added elder wrinkles or arbitrary scars.\nSheet layout: upper left three substantial full-body orthographic-style studies front, true side profile and back in the SAME neutral relaxed standing stance, same build, outfit and scale, head to soles fully in frame, no anatomy measurement lines or invented heights. Upper right three large neutral head studies FRONT, THREE-QUARTER, PROFILE showing the SAME exact person from each angle. Bottom row three same-size bust expressions: gentle warmth, focused attention, restrained concern. These are quiet adult acting studies with the same jaw/nose/eyes/hair, not exaggerated cartoons.  Include small simple labeled material swatches for skin/hair/eyes/fabric in neutral light, without numeric color codes. Add two small face lighting thumbnails labeled \"Warm interior\" and \"Cool garden shade\" demonstrating same complexion and iris colors under warm and cool lighting without bleaching or dramatic facial redesign.\nExact text only: \"SAGE\"; \"CHILDHOOD FAMILY YEARS\"; labels \"Front\", \"Side\", \"Back\", \"Neutral\", \"Three-quarter\", \"Profile\", \"Warmth\", \"Attention\", \"Concern\", \"Warm interior\", \"Cool garden shade\"; swatch labels \"Skin\", \"Hair\", \"Eyes\", \"Cloth\". Small simple dark typography; no invented biography paragraphs, age numbers, arrows or handwritten technical pseudo-notes.\nHard constraints: only this one person, repeated consistently. Do not create a composite cast. Preserve exact costume identity from sprite; all visible anatomy clothed and natural; no unrelated props. Focus on useful face/body/wardrobe continuity.",
+      "selected": false,
+      "references": [
+        "visual-novel/art/character-keys/sage/sprite-before.png",
+        "visual-novel/art/character-refinement-test/opening-refined-v1.png"
+      ],
+      "output_id": "exec-b31f8f2a-056d-4ad2-b3cf-9f059c323803.png",
+      "retained_file": "art/character-keys/sage/key.png",
+      "retained_sha256": "d55e417b05e4dfc44aafd5ec7cdb34fac0871ce84ba9f51ee7c34a224750e8c4",
+      "note": "Reviewed character reference sheet, retained outside runtime assets. The selected flag here denotes direct runtime source selection, not art-review status.",
+      "input_snapshots": [
+        {
+          "file": "game/images/characters/book-one/sage-everyday.png",
+          "sha256": "c2065df8ea3d578ac691392c7e3ecdae34ec2344fac05cc31cc5ce9739180f32",
+          "immutable_copy": "art/character-keys/sage/sprite-before.png"
+        },
+        {
+          "file": "art/character-refinement-test/opening-refined-v1.png",
+          "sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f",
+          "immutable_copy": null
+        }
+      ]
+    },
+    {
+      "id": "parent-key-arin-sprite-material-v1",
+      "prompt": "Use case: identity-preserve. Edit target Image 1 is the CURRENT full-body Arin sprite on green. Supporting identity Image 2 is the new Arin visual key; Image 3 is accepted opening with Arin at FAR LEFT. Produce one full-body game sprite on EXACT same saturated green background, same original 1024\u00d71536 canvas, framing, foot placement, pose, clothing, apron, pocket tools, hand gestures, and art texture. Make only these identity corrections: match Image 2 and far-left adult in Image 3 with pale naturally freckled skin on face/neck/exposed forearms/hands, keep strong blue irises rather than gray or green, and the slightly cleaner close-sided auburn hair shape from the accepted scene. Preserve the focused adult face, angular cheek/jaw character and original gaze. Keep a lean adult build with strong forearms. No added gray hair or elderly wrinkles. Every fingertip already visible remains anatomically consistent; no new missing fingers/scars. Hands remain exactly positioned as target. Clothes, boots and all lower body should be pixel-position matched to Image 1; do not resize character or shift camera. Do not output a sheet, multiple poses, text, swatches, ground shadow, checkerboard, or transparency. Head remains same top margin and comparable contour; only hair cut may modestly refine side silhouette. Preserve all backing outside the figure as original bright green. Do not borrow Sage at far right of group. This is a precise small edit to target, not a newly staged sprite.",
+      "selected": false,
+      "references": [
+        "visual-novel/art/character-keys/arin/sprite-before.png",
+        "generation:parent-key-arin-childhood-v1",
+        "visual-novel/art/character-refinement-test/opening-refined-v1.png"
+      ],
+      "output_id": "exec-dbafef34-9445-47aa-9304-d14c2254616c.png",
+      "retained_file": "art/character-keys/arin/sprite-generated.png",
+      "retained_sha256": "9257e7d8c50714dbef15942283a33a7c17b11ed870ca987c6f5139f1caac9456",
+      "note": "Generated paint material for bounded native GIMP sprite correction. Complete generated pixels are not installed; baseline generation and production recipe identify the selected composite."
+    },
+    {
+      "id": "parent-key-sage-sprite-material-v1",
+      "prompt": "Use case: identity-preserve. Edit target Image 1 is CURRENT Sage full-body game sprite, which has an outdated gaunt face and spiky hair. Supporting identity Image 2 is the new Sage visual key; Image 3 is accepted opening with Sage at FAR RIGHT. Produce one corrected full-body sprite on the EXACT SAME saturated green backing as Image 1, same 1023\u00d71537 canvas and full-body framing, exact existing stance/feet positions, garment design, accessories and crossed hands. Correct ONLY Sage's face, hair and upper-body build: match the exact rounded soft cheeks/jaw/chin, kindly gray irises, naturally tan rosy freckled complexion, softly substantial neck and swept sandy-blond short hair of Image 2 and far-right adult of Image 3. They have a medium build rather than the current narrow chest and gaunt neck; modestly fill out upper torso and shoulders beneath the same olive-green tunic, allowing a slightly fuller clothed silhouette at the same height. Keep adult androgynous appearance, gentle attentive expression and natural features, not a child or a caricature, not heavy obesity. Preserve original outfit exactly: olive patterned tunic with rolled sleeves, russet trousers, bare feet and necklaces. Hands/forearms stay in exactly original crossed resting gesture, no anatomy changes. Keep trousers, bare feet, lower-body position and all bottom framing EXACTLY as target, no added objects. Preserve green corners and backdrop. Do not output reference sheet, inset faces, text, swatches, shadow, checkerboard or transparency. Not Arin: no auburn hair, pointed jaw or pale complexion. Precise correction to target sprite; preserve everything outside head/neck/upper-torso garment.",
+      "selected": false,
+      "references": [
+        "visual-novel/art/character-keys/sage/sprite-before.png",
+        "generation:parent-key-sage-childhood-v1",
+        "visual-novel/art/character-refinement-test/opening-refined-v1.png"
+      ],
+      "output_id": "exec-f5824769-be72-44e7-aaf6-26b2f4176982.png",
+      "retained_file": "art/character-keys/sage/sprite-generated.png",
+      "retained_sha256": "4625225b2b3ffc4a2f552c38d829b233dddbe5eb6e5784f8f84909d51edd9e38",
+      "note": "Generated paint material for bounded native GIMP sprite correction. Complete generated pixels are not installed; baseline generation and production recipe identify the selected composite."
+    },
+    {
+      "id": "supporting-lyron-lumen-wardrobe-v1",
+      "prompt": "Use case: identity-preserve.\nImage1 is the original fullbody Lyron sprite and determines exact canvas framing, green backdrop, stance and body placement. Image2 is Lyron's revised approved-for-production-direction character key and supplies FACE AND WARDROBE. Produce ONE fullbody sprite of Lyron in the same pose and exact 1024x1536 frame as Image1, using Image2's face and clothing.\nPreserve his human adult identity: gentle long-oval face, kind hazel eyes, warm medium-brown skin, soft jaw, slightly long straight nose, relaxed brows, salt-and-pepper wavy hair, neat beard, subtle friendly smile, tall ordinary capable build. Keep head near original position and same scale, full hair and both feet included.\nTransfer Image2's exact muted blue-gray finely woven overlapping upper-thigh-length garment, asymmetric curving front panel with integrated unobtrusive side closure, inset seam storage, comfortable three-quarter sleeves, divided hem, plain relaxed earth-taupe trousers and low woven slip-on shoes. No denim shirt, shirt buttons, chest pocket flaps, cargo pockets, belt or modern work boots. Match the wrap-panel silhouette/back logic of key, don't invent a different tunic. Material is refined tactile natural-fiber weave with quiet angle-dependent tonal depth, no glow/technology decorations or uniform insignia. This belongs to a comfortable far-future organic habitat.\nBackdrop must be perfectly flat saturated chroma green #00FF00 everywhere outside silhouette, including between arms and body, legs and hair. No floor or cast shadow, scenery, text, labels, extra figures, border or cropped body. Preserve original natural warm painterly lighting and detailed face quality, avoiding glossy/smoothed skin.\n",
+      "prompt_file": "art/character-keys/lyron/prompt-sprite-wardrobe.txt",
+      "references": [
+        "visual-novel/art/character-keys/lyron/sprite-original.png",
+        "visual-novel/art/character-keys/lyron/key.png"
+      ],
+      "reference_records": [
+        {
+          "file": "visual-novel/art/character-keys/lyron/sprite-original.png",
+          "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f"
+        },
+        {
+          "file": "visual-novel/art/character-keys/lyron/key.png",
+          "sha256": "ad62c7295f18d75c99f8d2e9b1bb571d021bde82a048855c02e0a40f5f0ecad4"
+        }
+      ],
+      "output_id": "exec-d5ffe5b4-7e3b-4bfb-9363-6d14ee438600",
+      "selected": true,
+      "raw_output_file": "art/character-keys/lyron/sprite-wardrobe-generated.png",
+      "raw_output_sha256": "33d007146fabfc5a797fbeee5775761810da7f95bc69ab6620a4531a984f501c",
+      "previous_selected_asset": {
+        "file": "game/images/characters/book-one/lyron-everyday.png",
+        "generation": "review-025-lyron",
+        "sha256": "30e14e9346bd8a672c3e5eec8d1805e814d41fab08cd709123beb9afc47a4d6f",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "selection_note": "Complete selected generated sprite; user-directed Lyron wardrobe correction. Same source canvas and RGB green compositing convention, new garment silhouette. Other supporting wardrobes retained."
     }
   ],
   "tool": "Built-in OpenAI image_gen (no CLI/API fallback)",

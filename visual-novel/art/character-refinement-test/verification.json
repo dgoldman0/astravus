@@ -2,7 +2,7 @@
   "status": "passed",
   "tool": "GIMP 2.10.36 Script-Fu",
   "generation_model": "Built-in image tool; backend version not exposed",
-  "source_file": "game/images/cg/first-memory-young.png",
+  "source_file": "art/character-refinement-test/opening-original.png",
   "source_sha256": "796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f",
   "candidate_file": "opening-generated-v1.png",
   "candidate_sha256": "17423b95da463da9185dc732903e2b8ee96a314d15e2a04922c7dbad1c415512",
@@ -118,8 +118,9 @@
     }
   ],
   "assembly_file": "assemble.scm",
-  "assembly_sha256": "c86cb7440bf87c7bee342cd3a254117c88fc13dfb47701e4ba8e06c7e91fe64c",
+  "assembly_sha256": "a35df3e1c158b8a8cb39de24ebd8eb5ff910cf476aa349b424ef079045988fde",
   "rebuild_file": "run-gimp-test.sh",
-  "rebuild_sha256": "74e36556300213063213c55181a4f9659d0f22728c829597c777340f8fd63f42",
-  "limitation": "Numeric checks establish preservation and editability, not artistic or canonical approval."
+  "rebuild_sha256": "dcfd952f44db07929d420cea1a010c7361eac1cbefcf2e6078141822b61b1892",
+  "limitation": "Numeric checks establish preservation and editability, not artistic or canonical approval.",
+  "note": "Rebuild reproduced the decoded pixels; selected PNG containers retain the bytes approved in commit 41c410e. GIMP PNG metadata may differ across exports."
 }

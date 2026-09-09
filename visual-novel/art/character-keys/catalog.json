@@ -1,0 +1,719 @@
+{
+  "schema_version": 1,
+  "title": "Astravus character visual keys",
+  "coverage": {
+    "characters": 17,
+    "human_speakers": 14,
+    "familiars": 3,
+    "sheets": 20,
+    "scope": "The depicted named cast of the current Book I visual novel. Future-book characters and unnamed crowd figures are outside this catalog."
+  },
+  "guidance": {
+    "authority": "The current manuscript, established wiki details and author clarifications guide identity. Exact garment cuts, palettes, poses and newly drawn hidden surfaces are production design choices.",
+    "age": "The author’s direction is for a naturally human appearance below roughly 100. This does not assign an exact age to any Book I adult or import later-life biography aging into earlier scenes.",
+    "stage": "Both early and later friendship keys remain childhood. Match wardrobe to activity and chronology, and choose expressions for the scene rather than treating a neutral key pose as every performance.",
+    "lighting": "Preserve identity, complexion and iris pigment under shared scene lighting. These sheets do not require every scene to use their studio light.",
+    "scale": "Sheets are fitted independently to their pages. Use established relative stature and familiar size ordering when composing a shared scene."
+  },
+  "groups": [
+    "Parents",
+    "Childhood friends",
+    "Siblings",
+    "Friends’ parents",
+    "Familiars"
+  ],
+  "characters": [
+    {
+      "id": "maia",
+      "name": "Maia",
+      "group": "Parents",
+      "role": "Ecological systems designer",
+      "canon": "Warm brown skin; amber-green eyes; silver-streaked dark curls and braids; tall and slender.",
+      "production": "Blue-teal and ochre home clothes, gardening workwear and small botanical ornaments.",
+      "stage_note": "Vital adult during Calista’s childhood; later-life biography details are not an opening-scene age assignment.",
+      "notes": "maia/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Childhood-era adult",
+          "file": "maia/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Maia biography",
+          "file": "../../../wiki/bios/Maia.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "maia home",
+          "file": "../../game/images/characters/book-one/maia-home.png"
+        }
+      ]
+    },
+    {
+      "id": "arin",
+      "name": "Arin",
+      "group": "Parents",
+      "role": "Biomechanical interface designer",
+      "canon": "Pale freckles; blue eyes; cropped auburn hair; lean, capable build.",
+      "production": "Close sides and short textured hair distinguish Arin from Sage; workshop apron and practical clothes.",
+      "stage_note": "Earlier adult in First Breath, then the same adult during childhood. Undated injuries are not added by assumption.",
+      "notes": "arin/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Childhood-era adult",
+          "file": "arin/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Arin biography",
+          "file": "../../../wiki/bios/Arin.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "arin everyday",
+          "file": "../../game/images/characters/book-one/arin-everyday.png"
+        }
+      ]
+    },
+    {
+      "id": "selene",
+      "name": "Selene",
+      "group": "Parents",
+      "role": "Acoustic architect",
+      "canon": "Deep bronze skin; white hair; violet eyes; petite stature and long musician’s fingers.",
+      "production": "Plum and teal clothes, a graceful narrow face and restrained listening gestures.",
+      "stage_note": "Genetic white hair begins early in adulthood; it does not make the childhood parent elderly.",
+      "notes": "selene/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Childhood-era adult",
+          "file": "selene/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Selene biography",
+          "file": "../../../wiki/bios/Selene.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "selene everyday",
+          "file": "../../game/images/characters/book-one/selene-everyday.png"
+        }
+      ]
+    },
+    {
+      "id": "dorian",
+      "name": "Dorian",
+      "group": "Parents",
+      "role": "Oral historian",
+      "canon": "Rich dark skin; brown eyes; glasses; broad shoulders; mixed black and gray hair.",
+      "production": "Teal sleeveless coat, close curls, modest silver and a notebook held in his anatomical left hand.",
+      "stage_note": "Childhood-era adult; avoid importing the later biography’s mostly silver beard or pronounced stoop.",
+      "notes": "dorian/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Childhood-era adult",
+          "file": "dorian/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Dorian biography",
+          "file": "../../../wiki/bios/Dorian.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "dorian everyday",
+          "file": "../../game/images/characters/book-one/dorian-everyday.png"
+        }
+      ]
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "group": "Parents",
+      "role": "Transition counselor",
+      "canon": "Warm tan, rosy freckled skin; gray eyes; short sandy hair; soft round features and medium build.",
+      "production": "Calmer wavy crop, rounder cheeks and soft jaw; green and russet everyday clothes.",
+      "stage_note": "Adult androgynous identity stays clear through warmth, attention and concern.",
+      "notes": "sage/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Childhood-era adult",
+          "file": "sage/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Sage biography",
+          "file": "../../../wiki/bios/Sage.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "sage everyday",
+          "file": "../../game/images/characters/book-one/sage-everyday.png"
+        }
+      ]
+    },
+    {
+      "id": "calista",
+      "name": "Calista",
+      "group": "Childhood friends",
+      "role": "Artist and narrator",
+      "canon": "Light olive complexion; blue eyes; freckles across nose and cheeks; chestnut hair.",
+      "production": "Early overalls and later pocket vest preserve selected play/exploration outfits; home, festival and painting clothes remain separate variants.",
+      "stage_note": "Both sheets depict childhood. Later begins with shared projects and remains before Book II’s late teens.",
+      "notes": "calista/KEY.md",
+      "sheets": [
+        {
+          "id": "early",
+          "label": "Early childhood",
+          "file": "calista/early-key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "id": "later",
+          "label": "Later childhood",
+          "file": "calista/later-key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Calista biography",
+          "file": "../../../wiki/bios/Calista.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "calista young",
+          "file": "../../game/images/characters/book-one/calista-young.png"
+        },
+        {
+          "label": "calista older",
+          "file": "../../game/images/characters/book-one/calista-older.png"
+        },
+        {
+          "label": "calista mourning",
+          "file": "../../game/images/characters/book-one/calista-mourning.png"
+        }
+      ]
+    },
+    {
+      "id": "cassia",
+      "name": "Cassia",
+      "group": "Childhood friends",
+      "role": "Storyteller and friend",
+      "canon": "Rich umber skin; deep green eyes; long chestnut waves; slender child; subtle left-wrist birthmark.",
+      "production": "Plum and ochre clothes, loose trousers and story notebook; preserve accepted soft facial midtones and lip edges.",
+      "stage_note": "Both sheets depict childhood; the later sadness portrait references mourning, while turnarounds use exploration clothes.",
+      "notes": "cassia/KEY.md",
+      "sheets": [
+        {
+          "id": "early",
+          "label": "Early childhood",
+          "file": "cassia/early-key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "id": "later",
+          "label": "Later childhood",
+          "file": "cassia/later-key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Cassia biography",
+          "file": "../../../wiki/bios/Cassia.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "cassia young",
+          "file": "../../game/images/characters/book-one/cassia-young.png"
+        },
+        {
+          "label": "cassia older",
+          "file": "../../game/images/characters/book-one/cassia-older.png"
+        },
+        {
+          "label": "cassia mourning",
+          "file": "../../game/images/characters/book-one/cassia-mourning.png"
+        }
+      ]
+    },
+    {
+      "id": "joren",
+      "name": "Joren",
+      "group": "Childhood friends",
+      "role": "Explorer and friend",
+      "canon": "Sturdy fair-ruddy boy; blond hair; blue eyes; small front-tooth gap and healing knee scrapes.",
+      "production": "Early rust overshirt/shorts and later teal overshirt/trousers; slightly taller and sturdier than the girls.",
+      "stage_note": "Both sheets depict his living childhood. The sadness study is ordinary disappointment; he does not appear alive after his death.",
+      "notes": "joren/KEY.md",
+      "sheets": [
+        {
+          "id": "early",
+          "label": "Early childhood",
+          "file": "joren/early-key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "id": "later",
+          "label": "Later childhood",
+          "file": "joren/later-key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Joren biography",
+          "file": "../../../wiki/bios/Joren.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "joren young",
+          "file": "../../game/images/characters/book-one/joren-young.png"
+        },
+        {
+          "label": "joren older",
+          "file": "../../game/images/characters/book-one/joren-older.png"
+        },
+        {
+          "label": "joren frustrated",
+          "file": "../../game/images/characters/book-one/joren-frustrated.png"
+        }
+      ]
+    },
+    {
+      "id": "kael",
+      "name": "Kael",
+      "group": "Siblings",
+      "role": "Calista’s older brother",
+      "canon": "Deep warm brown skin; dark tousled hair; gold-hazel eyes; tall and lean for his age.",
+      "production": "Practical adventure clothes, alert posture and an asymmetric, youthful grin.",
+      "stage_note": "Older child relative to Calista, with youthful limbs rather than an adult physique; no exact age gap is assigned.",
+      "notes": "kael/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Childhood",
+          "file": "kael/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Kael biography",
+          "file": "../../../wiki/bios/Kael.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "kael young",
+          "file": "../../game/images/characters/book-one/kael-young.png"
+        }
+      ]
+    },
+    {
+      "id": "lyra",
+      "name": "Lyra",
+      "group": "Siblings",
+      "role": "Calista’s younger sister",
+      "canon": "Golden-tan olive skin; golden freckles and curls; green eyes; small, sprightly build.",
+      "production": "Natural child face construction keeps the curious gaze and recognizable golden curls; existing play clothes remain.",
+      "stage_note": "Younger and visibly smaller than her siblings. Frightened or wet scenes require the appropriate performance and staging.",
+      "notes": "lyra/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Childhood",
+          "file": "lyra/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Lyra biography",
+          "file": "../../../wiki/bios/Lyra.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "lyra young",
+          "file": "../../game/images/characters/book-one/lyra-young.png"
+        }
+      ]
+    },
+    {
+      "id": "thalia",
+      "name": "Thalia",
+      "group": "Friends’ parents",
+      "role": "Community mediator",
+      "canon": "Serene bearing; flowing practical clothes; deep green eyes shared with Cassia.",
+      "production": "Selected face, complexion and clothing palette are production choices; listening and explanation remain distinct moods.",
+      "stage_note": "Adult during Book I family visits. Calm demeanor does not require a permanent smile.",
+      "notes": "thalia/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Childhood-era adult",
+          "file": "thalia/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Cassia biography",
+          "file": "../../../wiki/bios/Cassia.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "thalia everyday",
+          "file": "../../game/images/characters/book-one/thalia-everyday.png"
+        }
+      ]
+    },
+    {
+      "id": "lyron",
+      "name": "Lyron",
+      "group": "Friends’ parents",
+      "role": "Agricultural systems manager",
+      "canon": "Tall, gentle adult; salt-and-pepper hair; hazel eyes.",
+      "production": "Revised blue-gray asymmetric wrap tunic, plain brown trousers and soft shoes; selected face remains gentle and distinct from Kaleb.",
+      "stage_note": "Adult during Book I. The current garment follows the author’s targeted wardrobe refinement; older collared drafts are not shown.",
+      "notes": "lyron/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Childhood-era adult",
+          "file": "lyron/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Cassia biography",
+          "file": "../../../wiki/bios/Cassia.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "lyron everyday",
+          "file": "../../game/images/characters/book-one/lyron-everyday.png"
+        }
+      ]
+    },
+    {
+      "id": "soren",
+      "name": "Soren",
+      "group": "Friends’ parents",
+      "role": "Emergency response and safety systems designer",
+      "canon": "Cropped hair; sharp blue eyes; nimble hands; practical working clothes with localized grease or oil marks.",
+      "production": "Compact working silhouette, focused expression and precise gestures; exact hair color and overall palette are selected design choices.",
+      "stage_note": "Adult during Book I, with work focus distinct from later grief.",
+      "notes": "soren/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Childhood-era adult",
+          "file": "soren/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Joren biography",
+          "file": "../../../wiki/bios/Joren.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "soren everyday",
+          "file": "../../game/images/characters/book-one/soren-everyday.png"
+        }
+      ]
+    },
+    {
+      "id": "kaleb",
+      "name": "Kaleb",
+      "group": "Friends’ parents",
+      "role": "Explorer",
+      "canon": "Tall, rugged adult; weathered face; gray-streaked brown hair; golden-brown eyes.",
+      "production": "Irregular longer hair, heavier brow and grounded posture distinguish him from Lyron; coat and scarf are production choices.",
+      "stage_note": "Everyday engagement and restrained memorial grief are separate performances.",
+      "notes": "kaleb/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Childhood-era adult",
+          "file": "kaleb/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Joren biography",
+          "file": "../../../wiki/bios/Joren.md"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "kaleb everyday",
+          "file": "../../game/images/characters/book-one/kaleb-everyday.png"
+        }
+      ]
+    },
+    {
+      "id": "shadow",
+      "name": "Shadow",
+      "group": "Familiars",
+      "role": "Family cat",
+      "canon": "Sleek black coat; green eyes; one notched ear and a slightly crooked tail tip.",
+      "production": "Selected design locates the notch on her anatomical left ear; one slender tail remains consistent through each view.",
+      "stage_note": "Childhood family companion. Smaller than Barkley and much larger than Nibble; no new injury history or integration hardware.",
+      "notes": "shadow/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Familiar",
+          "file": "shadow/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Shadow biography",
+          "file": "../../../wiki/bios/Shadow.md"
+        },
+        {
+          "label": "Selected familiar design records",
+          "file": "../../docs/familiar-assets.json"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "shadow",
+          "file": "../../game/images/familiars/shadow.png"
+        }
+      ]
+    },
+    {
+      "id": "barkley",
+      "name": "Barkley",
+      "group": "Familiars",
+      "role": "Family golden retriever",
+      "canon": "Golden retriever with golden fur, loyalty and a lively, protective presence.",
+      "production": "Selected honey-gold feathering, dark eyes and broad retriever muzzle; calm and gently alert head studies.",
+      "stage_note": "Existing adult dog design during childhood; largest of the three familiars.",
+      "notes": "barkley/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Familiar",
+          "file": "barkley/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Familiar lore",
+          "file": "../../../wiki/worldbuilding/Familiars.md"
+        },
+        {
+          "label": "Selected familiar design records",
+          "file": "../../docs/familiar-assets.json"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "barkley",
+          "file": "../../game/images/familiars/barkley.png"
+        }
+      ]
+    },
+    {
+      "id": "nibble",
+      "name": "Nibble",
+      "group": "Familiars",
+      "role": "Family rat",
+      "canon": "Small, inquisitive rat; author-selected fluffy black/brown-and-white coat, white blaze, pink ears and mismatched eyes.",
+      "production": "Anatomical right eye violet, left eye coral. Left-facing profile shows coral; white hindquarters have no invented dark spot.",
+      "stage_note": "Shoulder-sized companion, much smaller than the cat. Large ears and expressive eyes are deliberate author design.",
+      "notes": "nibble/KEY.md",
+      "sheets": [
+        {
+          "id": "key",
+          "label": "Familiar",
+          "file": "nibble/key.png",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Current manuscript",
+          "file": "../../../revision/latest.md"
+        },
+        {
+          "label": "Familiar lore",
+          "file": "../../../wiki/worldbuilding/Familiars.md"
+        },
+        {
+          "label": "Selected familiar design records",
+          "file": "../../docs/familiar-assets.json"
+        }
+      ],
+      "selected_art": [
+        {
+          "label": "nibble",
+          "file": "../../game/images/familiars/nibble.png"
+        }
+      ]
+    }
+  ]
+}

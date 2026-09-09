@@ -1,0 +1,63 @@
+[
+  {
+    "name": "maia",
+    "key": "art/character-keys/maia/key.png",
+    "prompt_file": "art/character-keys/maia/prompt-key.txt",
+    "input_refs": [
+      "game/images/characters/book-one/maia-home.png",
+      "game/images/characters/maia.png",
+      "art/character-refinement-test/opening-refined-v1.png"
+    ],
+    "generation_output_id": "exec-55ab7400-8d77-4ab1-ac19-796f4d91ab18",
+    "generated_source": "/home/kir/.codex/generated_images/01a083d9-411a-70b0-ac67-7b7589180ccf/exec-55ab7400-8d77-4ab1-ac19-796f4d91ab18.png",
+    "tool": "built-in image_gen; backend model version not exposed"
+  },
+  {
+    "name": "arin",
+    "key": "art/character-keys/arin/key.png",
+    "prompt_file": "art/character-keys/arin/prompt-key.txt",
+    "input_refs": [
+      "game/images/characters/book-one/arin-everyday.png",
+      "art/character-refinement-test/opening-refined-v1.png"
+    ],
+    "generation_output_id": "exec-6942d85d-9079-4d8d-9be4-9d02a215f8b6",
+    "generated_source": "/home/kir/.codex/generated_images/01a083d9-411a-70b0-ac67-7b7589180ccf/exec-6942d85d-9079-4d8d-9be4-9d02a215f8b6.png",
+    "tool": "built-in image_gen; backend model version not exposed"
+  },
+  {
+    "name": "selene",
+    "key": "art/character-keys/selene/key.png",
+    "prompt_file": "art/character-keys/selene/prompt-key.txt",
+    "input_refs": [
+      "game/images/characters/book-one/selene-everyday.png",
+      "art/character-refinement-test/opening-refined-v1.png"
+    ],
+    "generation_output_id": "exec-13c7f4a6-125d-4360-b97d-2e183a62edd4",
+    "generated_source": "/home/kir/.codex/generated_images/01a083d9-411a-70b0-ac67-7b7589180ccf/exec-13c7f4a6-125d-4360-b97d-2e183a62edd4.png",
+    "tool": "built-in image_gen; backend model version not exposed"
+  },
+  {
+    "name": "dorian",
+    "key": "art/character-keys/dorian/key.png",
+    "prompt_file": "art/character-keys/dorian/prompt-key.txt",
+    "input_refs": [
+      "game/images/characters/book-one/dorian-everyday.png",
+      "art/character-refinement-test/opening-refined-v1.png"
+    ],
+    "generation_output_id": "exec-ca405540-0a46-43c3-916c-85654aa3abda",
+    "generated_source": "/home/kir/.codex/generated_images/01a083d9-411a-70b0-ac67-7b7589180ccf/exec-ca405540-0a46-43c3-916c-85654aa3abda.png",
+    "tool": "built-in image_gen; backend model version not exposed"
+  },
+  {
+    "name": "sage",
+    "key": "art/character-keys/sage/key.png",
+    "prompt_file": "art/character-keys/sage/prompt-key.txt",
+    "input_refs": [
+      "game/images/characters/book-one/sage-everyday.png",
+      "art/character-refinement-test/opening-refined-v1.png"
+    ],
+    "generation_output_id": "exec-b31f8f2a-056d-4ad2-b3cf-9f059c323803",
+    "generated_source": "/home/kir/.codex/generated_images/01a083d9-411a-70b0-ac67-7b7589180ccf/exec-b31f8f2a-056d-4ad2-b3cf-9f059c323803.png",
+    "tool": "built-in image_gen; backend model version not exposed"
+  }
+]

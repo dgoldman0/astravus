@@ -1,0 +1,262 @@
+{
+  "images/characters/book-one/arin-everyday.png": {
+    "bounds": [
+      832,
+      180,
+      1079,
+      1000
+    ],
+    "visible_height": 820,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/calista-festival.png": {
+    "bounds": [
+      854,
+      324,
+      1050,
+      1000
+    ],
+    "visible_height": 676,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/calista-festive.png": {
+    "bounds": [
+      855,
+      325,
+      1049,
+      1000
+    ],
+    "visible_height": 675,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/calista-frustrated.png": {
+    "bounds": [
+      824,
+      250,
+      1102,
+      1000
+    ],
+    "visible_height": 750,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/calista-home.png": {
+    "bounds": [
+      868,
+      325,
+      1053,
+      1000
+    ],
+    "visible_height": 675,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/calista-mourning.png": {
+    "bounds": [
+      859,
+      249,
+      1048,
+      999
+    ],
+    "visible_height": 750,
+    "feet_y": 999
+  },
+  "images/characters/book-one/calista-older.png": {
+    "bounds": [
+      855,
+      251,
+      1054,
+      1000
+    ],
+    "visible_height": 749,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/calista-painting.png": {
+    "bounds": [
+      855,
+      250,
+      1086,
+      1000
+    ],
+    "visible_height": 750,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/calista-young.png": {
+    "bounds": [
+      859,
+      324,
+      1055,
+      999
+    ],
+    "visible_height": 675,
+    "feet_y": 999
+  },
+  "images/characters/book-one/cassia-mourning.png": {
+    "bounds": [
+      867,
+      244,
+      1054,
+      1000
+    ],
+    "visible_height": 756,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/cassia-older.png": {
+    "bounds": [
+      844,
+      243,
+      1140,
+      999
+    ],
+    "visible_height": 756,
+    "feet_y": 999
+  },
+  "images/characters/book-one/cassia-young.png": {
+    "bounds": [
+      851,
+      320,
+      1125,
+      1000
+    ],
+    "visible_height": 680,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/dorian-everyday.png": {
+    "bounds": [
+      760,
+      150,
+      1113,
+      1000
+    ],
+    "visible_height": 850,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/joren-frustrated.png": {
+    "bounds": [
+      779,
+      209,
+      1071,
+      1000
+    ],
+    "visible_height": 791,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/joren-older.png": {
+    "bounds": [
+      807,
+      210,
+      1071,
+      1000
+    ],
+    "visible_height": 790,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/joren-young.png": {
+    "bounds": [
+      842,
+      290,
+      1062,
+      999
+    ],
+    "visible_height": 709,
+    "feet_y": 999
+  },
+  "images/characters/book-one/kael-young.png": {
+    "bounds": [
+      832,
+      215,
+      1088,
+      1000
+    ],
+    "visible_height": 785,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/kaleb-everyday.png": {
+    "bounds": [
+      817,
+      175,
+      1102,
+      999
+    ],
+    "visible_height": 824,
+    "feet_y": 999
+  },
+  "images/characters/book-one/lyra-young.png": {
+    "bounds": [
+      887,
+      504,
+      1037,
+      1000
+    ],
+    "visible_height": 496,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/lyron-everyday.png": {
+    "bounds": [
+      827,
+      174,
+      1083,
+      1000
+    ],
+    "visible_height": 826,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/maia-home.png": {
+    "bounds": [
+      830,
+      180,
+      1093,
+      1000
+    ],
+    "visible_height": 820,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/sage-everyday.png": {
+    "bounds": [
+      875,
+      215,
+      1082,
+      1000
+    ],
+    "visible_height": 785,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/selene-everyday.png": {
+    "bounds": [
+      825,
+      230,
+      1069,
+      1000
+    ],
+    "visible_height": 770,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/soren-everyday.png": {
+    "bounds": [
+      828,
+      230,
+      1082,
+      1000
+    ],
+    "visible_height": 770,
+    "feet_y": 1000
+  },
+  "images/characters/book-one/thalia-everyday.png": {
+    "bounds": [
+      850,
+      215,
+      1068,
+      1000
+    ],
+    "visible_height": 785,
+    "feet_y": 1000
+  },
+  "images/characters/maia.png": {
+    "bounds": [
+      840,
+      180,
+      1090,
+      1000
+    ],
+    "visible_height": 820,
+    "feet_y": 1000
+  }
+}

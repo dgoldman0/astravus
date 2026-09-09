@@ -19,7 +19,7 @@ import tempfile
 
 REVIEW = Path(__file__).resolve().parent
 PROJECT = REVIEW.parents[1]
-SOURCE = PROJECT / "game/images/cg/first-memory-young.png"
+SOURCE = REVIEW / "opening-original.png"
 FINAL = REVIEW / "opening-refined-v1.png"
 SDK = Path(os.environ.get("ASTRAVUS_RENPY_SDK", PROJECT / ".cache/renpy-8.5.3-sdk"))
 TEXT = "They told me about the Sanctuary. About my First Breath, and the five pairs of hands waiting to hold me."

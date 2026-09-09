@@ -347,6 +347,134 @@
         }
       ],
       "selection_scope": "Generated 1662x946 material resampled once to original 1672x941; original scene never resampled. Only the narrow far-bank strip is selected; original foreground coping, main water and all people/animals are retained. The source scene was the sole generation reference."
+    },
+    {
+      "id": "parent-arin-childhood-sprite-material",
+      "tool": "builtin image_gen.imagegen; backend version not exposed",
+      "generated_material": "art/character-keys/arin/sprite-generated.png",
+      "sha256": "9257e7d8c50714dbef15942283a33a7c17b11ed870ca987c6f5139f1caac9456",
+      "generation_id": "parent-key-arin-sprite-material-v1",
+      "generation_output_id": "exec-dbafef34-9445-47aa-9304-d14c2254616c.png",
+      "prompt_file": "docs/graphics-sources/parent-arin-sprite-prompt.txt",
+      "prompt_sha256": "0b52fa907cb78328154bc9bd57a25e895a18645d500a723ba1a10c3a04045185",
+      "references": [
+        {
+          "file": "art/character-keys/arin/sprite-before.png",
+          "sha256": "5f0e5a1c6a31cd742ebd615284a3d4860217a30d576f6edc79ca00c26b286b7e"
+        },
+        {
+          "file": "art/character-keys/arin/key.png",
+          "sha256": "a67ea8f8d17e51a97ffdc0efee30eeedac76ead32970ea8e87218f8866ae2cf0"
+        },
+        {
+          "file": "art/character-refinement-test/opening-refined-v1.png",
+          "sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f"
+        }
+      ],
+      "selection_scope": "Head/neck and exposed arm/hand regions only; source apron, tools, lower body and feet retained.",
+      "mask_receipt": "art/character-keys/parents-sprite-verification.json"
+    },
+    {
+      "id": "parent-sage-childhood-sprite-material",
+      "tool": "builtin image_gen.imagegen; backend version not exposed",
+      "generated_material": "art/character-keys/sage/sprite-generated.png",
+      "sha256": "4625225b2b3ffc4a2f552c38d829b233dddbe5eb6e5784f8f84909d51edd9e38",
+      "generation_id": "parent-key-sage-sprite-material-v1",
+      "generation_output_id": "exec-f5824769-be72-44e7-aaf6-26b2f4176982.png",
+      "prompt_file": "docs/graphics-sources/parent-sage-sprite-prompt.txt",
+      "prompt_sha256": "e3c11b1f519c9aa5374fd5f7764ebfc60f1b93a5b1fb79bc1be3f163e0be6eef",
+      "references": [
+        {
+          "file": "art/character-keys/sage/sprite-before.png",
+          "sha256": "c2065df8ea3d578ac691392c7e3ecdae34ec2344fac05cc31cc5ce9739180f32"
+        },
+        {
+          "file": "art/character-keys/sage/key.png",
+          "sha256": "d55e417b05e4dfc44aafd5ec7cdb34fac0871ce84ba9f51ee7c34a224750e8c4"
+        },
+        {
+          "file": "art/character-refinement-test/opening-refined-v1.png",
+          "sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f"
+        }
+      ],
+      "selection_scope": "Head/neck and modestly fuller clothed upper body only; crossed hands, lower body and bare feet retained.",
+      "mask_receipt": "art/character-keys/parents-sprite-verification.json"
+    },
+    {
+      "id": "character-pass-opening-material",
+      "tool": "builtin image_gen.imagegen; backend version not exposed",
+      "output_id": "exec-c4e0fc1c-ad1e-4627-aae9-41bb7491bd26",
+      "generated_material": "art/character-refinement-test/opening-generated-v1.png",
+      "sha256": "17423b95da463da9185dc732903e2b8ee96a314d15e2a04922c7dbad1c415512",
+      "prompt_file": "docs/graphics-sources/character-pass-opening-prompt.txt",
+      "prompt_sha256": "dad0e9379d2c52745a65918d99ab29051b6d4fbcfd139882729e9c78a4059b0e",
+      "references": [
+        {
+          "file": "art/character-refinement-test/opening-original.png",
+          "sha256": "796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f"
+        }
+      ],
+      "selection_scope": "Generated paint selected only inside native GIMP identity masks; environment, other characters and original scene performance retained."
+    },
+    {
+      "id": "character-pass-pond-rescue-material",
+      "tool": "builtin image_gen.imagegen; backend version not exposed",
+      "output_id": "exec-c3540716-42b6-48e9-9c7e-1a10aa1c8a33",
+      "generated_material": "art/visual-pass-2026-09/pond-rescue-generated.png",
+      "sha256": "738c3c86471f2672bff9e09ab5119d587f4e4f2e34899555451330079302848d",
+      "prompt_file": "docs/graphics-sources/character-pass-pond-rescue-prompt.txt",
+      "prompt_sha256": "3055c20d856d2a834d0920731841d2426b522d36e013e834b6ae6104946a89ec",
+      "references": [
+        {
+          "file": "art/visual-pass-2026-09/pond-rescue-original.png",
+          "sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd"
+        },
+        {
+          "file": "art/character-keys/lyra/key.png",
+          "sha256": "f1042d1f6ad4c784808dd12fe09e9d51590e205b8e7fa8962afe165d39e673db"
+        }
+      ],
+      "selection_scope": "Generated paint selected only inside native GIMP identity masks; environment, other characters and original scene performance retained."
+    },
+    {
+      "id": "character-pass-pond-comfort-material",
+      "tool": "builtin image_gen.imagegen; backend version not exposed",
+      "output_id": "exec-aa7120cc-1ff5-4225-8a2e-88b41018142f",
+      "generated_material": "art/visual-pass-2026-09/pond-comfort-generated.png",
+      "sha256": "5bf87f959fd1210e5248892c4f925704f87e598fd36743dd967784da090343de",
+      "prompt_file": "docs/graphics-sources/character-pass-pond-comfort-prompt.txt",
+      "prompt_sha256": "cc25d3abc95216a6efadbb9964fcbd0fe086979aa185a3da3758057bd4c3215e",
+      "references": [
+        {
+          "file": "art/visual-pass-2026-09/pond-comfort-original.png",
+          "sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf"
+        },
+        {
+          "file": "art/character-keys/lyra/key.png",
+          "sha256": "f1042d1f6ad4c784808dd12fe09e9d51590e205b8e7fa8962afe165d39e673db"
+        }
+      ],
+      "selection_scope": "Generated paint selected only inside native GIMP identity masks; environment, other characters and original scene performance retained."
+    },
+    {
+      "id": "character-pass-theme-insect-discovery-material",
+      "tool": "builtin image_gen.imagegen; backend version not exposed",
+      "output_id": "exec-2c569a43-af93-4e18-a040-e612e51b0ac3",
+      "generated_material": "art/visual-pass-2026-09/theme-insect-discovery-generated.png",
+      "sha256": "68f71c9224032d67fe7dcbeb04cbf2cd4f9fb22e2fb1d54beecfedee402c360b",
+      "prompt_file": "docs/graphics-sources/character-pass-theme-insect-discovery-prompt.txt",
+      "prompt_sha256": "5e06f30a157b2176e7012c209c97b17481034ab29dd7249c26198575f9220763",
+      "references": [
+        {
+          "file": "art/visual-pass-2026-09/theme-insect-discovery-original.png",
+          "sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8"
+        },
+        {
+          "file": "art/character-keys/lyra/key.png",
+          "sha256": "f1042d1f6ad4c784808dd12fe09e9d51590e205b8e7fa8962afe165d39e673db"
+        }
+      ],
+      "selection_scope": "Generated paint selected only inside native GIMP identity masks; environment, other characters and original scene performance retained."
     }
   ]
 }

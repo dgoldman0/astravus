@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "edits": [
+    {
+      "file": "game/images/cg/first-memory-young.png",
+      "before_sha256": "796c68db5e23c791ffb486c3f998b0c3b44c32915efff9f090fdec075176ea4f",
+      "after_sha256": "b6a0d92b9a08d20971d5760af42159da536abc58d1beff9e381001cae10de04f",
+      "recipe_id": "character-pass-opening",
+      "changed_pixels": 250921
+    },
+    {
+      "file": "game/images/cg/book-one/pond-rescue.png",
+      "before_sha256": "cca21ae9421261f603bf1bf3a2b7281273a118a399002f7086285c518e0f62fd",
+      "after_sha256": "bb8c57165f2020de2ed0be0113afb9c4e4b2240cef1eeac5711bdb2779467a43",
+      "recipe_id": "character-pass-pond-rescue",
+      "changed_pixels": 7081
+    },
+    {
+      "file": "game/images/cg/book-one/pond-comfort.png",
+      "before_sha256": "422994051d70b7782beee5e8babd1190b6fc87c64a9d1ba40c2b7a1bab157bcf",
+      "after_sha256": "e64630c32b6cc1345d21f28a43185d07adfb72c3c4b9811bf35740c3b970b77f",
+      "recipe_id": "character-pass-pond-comfort",
+      "changed_pixels": 11632
+    },
+    {
+      "file": "game/images/cg/book-one/theme-insect-discovery.png",
+      "before_sha256": "e8171081255755b34c4457269f78cc2caf92032b495121029b84d77a596412e8",
+      "after_sha256": "652a0ca6dd0cfd4a2caac4c9019a57e500b3dccab53d7978df6d0f59a1d21f48",
+      "recipe_id": "character-pass-theme-insect-discovery",
+      "changed_pixels": 40219
+    }
+  ]
+}
